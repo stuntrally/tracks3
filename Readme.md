@@ -1,5 +1,5 @@
 
-    Stunt Rally - Tracks
+    Stunt Rally 3 - Tracks
     Copyright (C) 2010-2023  Crystal Hammer and contributors
 
     This data is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 
 [Stunt Rally Homepage](https://stuntrally.tuxfamily.org/) - Download links, Documentation wiki, track & vehicle browsers etc.  
 [Forums](https://forum.freegamedev.net/viewforum.php?f=77) - Discussions, tracks, Issues, etc.  
-[Sources](https://github.com/stuntrally3/) - also for bugs & Issues, pull requests, etc.  
+[Sources](https://github.com/stuntrally/stuntrally3/) - also for bugs & Issues, pull requests, etc.  
 [Screenshots](https://stuntrally.tuxfamily.org/gallery) - Galleries from all versions and development  
 [Videos](https://www.youtube.com/user/TheCrystalHammer) - from game and editor  
 [Donations](https://cryham.tuxfamily.org/donate/) - financial support
@@ -30,7 +30,7 @@
 
 ## Description
 
-Meant to be inside `Media/tracks/` folder of Stunt Rally 3.
+Meant to be inside `Media/tracks/` folder of Stunt Rally 3 ([Sources](https://github.com/stuntrally/stuntrally3/)).
 
 Tracks are licensed GNU GPL 3.0.
 
