@@ -3,7 +3,7 @@
     <dim tcMul="0.0679848" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06" />
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800" />
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="44" />
-    <stats length="2059.75" width="6.94078" height="29.5664" onTer="4.6728" pipes="0" bnkAvg="5.31144" bnkMax="22.905" />
+    <stats length="2059.75" width="6.94078" height="29.5664" onTer="4.6728" pipes="0" bnkAvg="5.31024" bnkMax="22.905" />
     <txt desc="Track in yellow autumn forest." />
     <adv ice="Long straight and few banked turns." />
     <P pos="209.721 0 157.308" w="6.94078" aT="2" />
