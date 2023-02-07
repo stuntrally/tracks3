@@ -3,7 +3,7 @@
     <dim tcMul="0.0452027" tcW="0.15" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06" />
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="400" lodPntLen="40" visDist="1000" visBehind="800" />
     <geom colN="4" colR="2.49186" wsPm="4" lsPm="1" stBox="1 4.824 15.096" iDir="-1" iChk1="133" />
-    <stats length="5470.33" width="8.83581" height="135.453" onTer="32.2497" pipes="0" bnkAvg="2.60667" bnkMax="21.9" />
+    <stats length="5470.34" width="8.83579" height="135.453" onTer="32.249" pipes="0" bnkAvg="2.6393" bnkMax="21.9" />
     <txt desc="Long, wide, road through canyon like landscape." />
     <adv ice="Quite bumpy terrain road and banked bridges." />
     <P pos="395.23 0 -251.102" w="8.488" aT="2" />
@@ -43,7 +43,7 @@
     <P pos="-376.836 0 -260.386" w="8.488" aT="2" chkR="1.696" />
     <P pos="-389.952 0 -217.088" w="8.488" aT="2" />
     <P pos="-412.852 0 -187.76" w="11.72" aT="2" />
-    <P pos="-439.866 0 -156.771" w="11.72" a="0" ar="0" aT="2" col="0" />
+    <P pos="-439.866 0 -156.771" w="11.72" a="0" ar="8.13156" aT="2" col="0" />
     <P pos="-451.945 20.4525 -140.896" w="11.72" onTer="0" a="16.98" ar="-8.81999" aT="2" col="0" />
     <P pos="-461.057 15.623 -119.681" w="11.72" onTer="0" a="0" ar="-18.9" aT="2" col="0" chkR="1.432" />
     <P pos="-462.79 9.47872 -94.1016" w="11.72" onTer="0" a="0" ar="-17.52" aT="2" />

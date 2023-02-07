@@ -1,14 +1,14 @@
 <scene>
-    <ver num="3009" baseTrk="TestC4-ow" secEd="2300" />
+    <ver num="3009" baseTrk="TestC4-ow" secEd="5446" />
     <car tires="0" road1mtr="0" />
     <start pos="-88.4286 -163.073 0.819972" rot="0.000386685 0.0153651 0.105387 -0.99433" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Canyon" />
     <sky material="sky/day_blue2" />
-    <fog color="0.586 0.270 1.000 1.000 0.000" color2="0.586 0.270 1.000 1.000 0.000" linStart="297.698" linEnd="1677.17" />
+    <fog color="0.586 0.322 0.528 1.000 0.000" color2="0.586 0.419 0.609 1.000 0.000" linStart="297.698" linEnd="1677.17" />
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400" />
-    <light pitch="60" yaw="-40" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.000 0.000 0.800 1.000 0.000" specular="0.000 0.000 0.800 1.000 0.000" />
+    <light pitch="60" yaw="-40" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.000 0.000 0.800 1.000 0.000" specular="0.000 0.000 0.379 0.000 0.000" />
     <fluids>
-        <fluid name="water blue" pos="88.5284 0.320753 62.4935" rot="0 0 0" size="317.493 23.3245 618.743" tile="0.01 0.01" />
+        <fluid name="water blue" pos="473.513 0.320753 1109.81" rot="0 0 0" size="1078.19 23.3245 2815.69" tile="0.01 0.01" />
         <fluid name="water moss" pos="-2.05749 100.11 -40.8913" rot="0 0 0" size="60.7756 20 57.8277" tile="0.01 0.01" />
     </fluids>
     <terrains>
@@ -20,6 +20,31 @@
                 <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="1" file="mntn_white2_d.jpg" fnorm="jungle_stone_n.jpg" scale="46.1309" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="42.4832" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0.20678" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="grass_rocky_d.jpg" fnorm="grass_rocky_n.jpg" scale="4.5" surf="GrassJungle" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.240 0.571 0.280 0.700 0.000" angMin="32.8188" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.049212" n_1="0" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture road="1" surf="roadGravel" dust="0.6" dustS="0.6" mud="0" smoke="0" tclr="0.000 0.000 0.700 0.700 0.000" />
+            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <texture road="3" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <par dust="DustW" mud="MudDark" smoke="Smoke" />
+        </terrain>
+        <terrain ofsZ="0" triangle="7.7204">
+            <texture on="1" file="island_sand2w_d.jpg" fnorm="desert_sand2_n.jpg" scale="8.36448" surf="DesertFast" dust="0.6" dustS="0.8" mud="0" smoke="0" tclr="0.167 0.038 0.520 0.700 0.000" angMin="0" angMax="27.8289" angSm="6.93696" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="1" file="island_sandw_d.jpg" fnorm="desert_sand_n.jpg" scale="9.1346" surf="DesertFast" dust="0.6" dustS="0.8" mud="0" smoke="0" tclr="0.167 0.038 0.520 0.700 0.000" angMin="22.8947" angMax="50.7798" angSm="10.8811" hMin="-300" hMax="900" hSm="20" nOn="0" noise="0.589831" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="1" file="mntn_white2_d.jpg" fnorm="jungle_stone_n.jpg" scale="122" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="57.1101" angMax="90" angSm="26.4233" hMin="-300" hMax="1200" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0.20678" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="0" file="grass_rocky_d.jpg" fnorm="grass_rocky_n.jpg" scale="4.5" surf="GrassJungle" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.240 0.571 0.280 0.700 0.000" angMin="32.8188" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.049212" n_1="0" n2="0">
@@ -195,5 +220,6 @@
         <e name="FireOrangeTiny" pos="-37.1743 71.2459 87.4735" sc="0.873199 0.328318 0.791385" up="0 1 0" rot="0" rate="15.0278" st="0" />
         <e name="FireOrangeTiny" pos="50.5216 118.093 -58.0586" sc="0.997134 0.325127 0.847246" up="0 1 0" rot="0" rate="15.0278" st="0" />
         <e name="FireOrangeTiny" pos="50.0486 118.196 -65.2454" sc="0.873199 0.328318 0.791385" up="0 1 0" rot="0" rate="15.0278" st="0" />
+        <e name="Cloud3" pos="-2021.64 1029.65 -2897.39" sc="1754.85 308.003 1999.41" up="0 1 0" rot="0" rate="318.57" st="1" />
     </emitters>
 </scene>
