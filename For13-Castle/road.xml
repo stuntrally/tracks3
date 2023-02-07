@@ -2,7 +2,7 @@
     <mtr type="0" road="roadJungle" pipe="pipeGlass" road2="roadSnow" />
     <dim tcMul="0.07" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06" />
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="600" lodPntLen="20" visDist="1000" visBehind="800" />
-    <geom colN="8" colR="1.5" wsPm="4" lsPm="1" stBox="1 7.79601 18.148" iDir="-1" iChk1="32" />
+    <geom colN="8" colR="1.5" wsPm="4" lsPm="1" stBox="1 7.54792 18.148" iDir="-1" iChk1="32" />
     <stats length="2268.21" width="8.66679" height="129.92" onTer="50.2012" pipes="0" bnkAvg="4.509" bnkMax="23.52" />
     <txt desc="Strange road in mountains. From distance looking like a castle." />
     <adv ice="Goes from very low to very high. Has few circles as towers. Rather narrow and with curly bridges." />
