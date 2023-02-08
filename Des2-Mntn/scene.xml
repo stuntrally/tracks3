@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3009" baseTrk="" secEd="1367" />
+    <ver num="3009" baseTrk="" secEd="1848" />
     <car tires="0" road1mtr="0" />
     <start pos="66.0732 -96.3709 -1.21742" rot="-0.019718 0.029389 -0.556821 -0.829888" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Rocky" />
@@ -75,17 +75,17 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0" />
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="52" oct="3" prs="0.3" pow="1.2" rd="0" />
         <layer on="1" name="rock14tall1cgr.mesh" dens="0.0720179" minScale="0.7" maxScale="1.74535" ofsY="0" addTrRdDist="4" maxRdist="20" windFx="0" windFy="0" maxTerAng="22.2931" minTerH="-100" maxTerH="100" maxDepth="1" />
-        <layer on="0" name="rock02brown2flat.mesh" dens="0.0720179" minScale="0.7" maxScale="1.96877" ofsY="0" addTrRdDist="4" maxRdist="20" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1" />
+        <layer on="1" name="rock03can1flat.mesh" dens="0.487362" minScale="0.232775" maxScale="0.547126" ofsY="0" addTrRdDist="3" maxRdist="16" windFx="0" windFy="0" maxTerAng="27.4366" minTerH="-100" maxTerH="100" maxDepth="1" />
         <layer on="1" name="rock03can1flat.mesh" dens="0.0720179" minScale="0.7" maxScale="1.95823" ofsY="0" addTrRdDist="4" maxRdist="20" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1" />
         <layer on="1" name="rock04can2flat.mesh" dens="0.0720179" minScale="0.7" maxScale="1.94772" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1" />
-        <layer on="0" name="rock_n2-GYel.mesh" dens="0.072778" minScale="0.476458" maxScale="1.34492" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="7.29999" windFy="0.0599931" maxTerAng="20.8571" minTerH="-100" maxTerH="100" maxDepth="5" />
+        <layer on="1" name="rock05can3round.mesh" dens="0.402276" minScale="0.232775" maxScale="0.547126" ofsY="0" addTrRdDist="3" maxRdist="16" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1" />
         <layer on="1" name="treeD-34desTiny.mesh" dens="0.0150235" minScale="1.21804" maxScale="1.51159" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.134303" windFy="0.0049742" maxTerAng="13.1042" minTerH="-20" maxTerH="44" maxDepth="0" />
         <layer on="1" name="treeD-22desMed.mesh" dens="0.0135087" minScale="1.30169" maxScale="1.57545" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.318349" windFy="0.0054261" maxTerAng="10.6687" minTerH="-22" maxTerH="44" maxDepth="0" />
         <layer on="1" name="treeGC-32draUp.mesh" dens="0.00592459" minScale="1.04925" maxScale="1.28749" ofsY="0" addTrRdDist="3" maxRdist="20" windFx="0.0577775" windFy="0.00153982" maxTerAng="11.2193" minTerH="-22" maxTerH="30" maxDepth="0" />
-        <layer on="1" name="rock13orange2.mesh" dens="0.0743101" minScale="0.7" maxScale="1.92681" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1" />
+        <layer on="1" name="rock13orange2.mesh" dens="0.0743101" minScale="0.7" maxScale="1.92681" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="27.4366" minTerH="-100" maxTerH="100" maxDepth="1" />
         <layer on="1" name="rock12orange.mesh" dens="0.0750822" minScale="0.7" maxScale="1.90606" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1" />
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
+        <layer on="1" name="rock13orange2.mesh" dens="0.394946" minScale="0.160745" maxScale="0.50218" ofsY="0" addTrRdDist="3" maxRdist="16" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1" />
+        <layer on="1" name="rock14tall1cgr.mesh" dens="0.419017" minScale="0.169058" maxScale="0.497826" ofsY="0" addTrRdDist="4" maxRdist="14" windFx="0" windFy="0" maxTerAng="24.4604" minTerH="-100" maxTerH="100" maxDepth="1" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
