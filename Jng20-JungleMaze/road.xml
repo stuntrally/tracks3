@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.1" lenDim="2" widthSteps="6" heightOfs="0.06" />
     <mrg loop="1" skirtLen="0.02" skirtH="0.02" merge="1" mergeLen="1200" lodPntLen="60" visDist="1000" visBehind="800" />
     <geom colN="4" colR="2.5" wsPm="4" lsPm="1" stBox="1 6.70405 16.576" iDir="-1" iChk1="179" />
-    <stats length="7160.11" width="9.27012" height="151.766" onTer="46.1781" pipes="4.8493" bnkAvg="5.68309" bnkMax="65.6093" />
+    <stats length="7160.56" width="9.26887" height="151.766" onTer="46.3007" pipes="4.849" bnkAvg="5.66531" bnkMax="65.6093" />
     <txt desc="Long winding track on high, black jungle mountains. With drive through ancient temples in the middle." />
     <adv ice="Tops connected with suspended bridges. Turns sometimes unguarded, don&apos;t fall off. Some well banked." />
     <P pos="240.255 78.7595 -242.889" w="8.976" onTer="0" a="0" ar="2.82" aT="2" mtr="2" />
@@ -135,7 +135,7 @@
     <P pos="-231.291 35.1311 73.0844" w="9.808" onTer="0" a="0" ar="0" aT="2" />
     <P pos="-232.809 43.2309 119.701" w="8.072" onTer="0" a="0" ar="0" aT="2" col="0" />
     <P pos="-241.142 0 195.355" w="10.888" a="0" ar="0" aT="2" />
-    <P pos="-244.322 0 222.175" w="9.776" a="0" ar="0" aT="2" col="0" />
+    <P pos="-243.234 0 213.359" w="9.776" a="0" ar="0" aT="2" col="0" />
     <P pos="-246.628 65.828 258.605" w="11.304" onTer="0" a="0" ar="-29.22" aT="2" col="0" mtr="3" chkR="1.296" />
     <P pos="-233.443 66.8863 285.17" w="13.016" onTer="0" a="0" ar="-23.64" aT="2" mtr="3" />
     <P pos="-191.122 75.8543 289.36" w="9.32" onTer="0" a="0" ar="-9.84" aT="2" col="0" mtr="3" />
@@ -153,8 +153,8 @@
     <P pos="266.576 0 203.067" w="9.52" a="0" ar="0" aT="2" col="0" chkR="1.164" />
     <P pos="297.883 95.5866 208.299" w="8.072" onTer="0" a="0" ar="0" aT="2" col="0" />
     <P pos="317.264 0 230.94" w="10.504" a="0" ar="6.78" aT="2" />
-    <P pos="321.194 0 265.665" w="8.072" aT="2" />
-    <P pos="310.548 0 292.453" w="8.072" aT="2" chkR="1.968" />
+    <P pos="321.576 0 265.935" w="8.072" aT="2" />
+    <P pos="310.598 0 292.498" w="8.072" aT="2" chkR="1.968" />
     <P pos="287.567 0 309.829" w="8.072" aT="2" />
     <P pos="242.928 0 322.298" w="8.072" a="0" ar="2.7" aT="2" col="0" />
     <P pos="198.16 87.9346 323.626" w="8.072" onTer="0" a="0" ar="0" aT="2" col="0" />
