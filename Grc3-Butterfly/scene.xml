@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="Grc8-SlopeCity" secEd="10" />
-    <car tires="0" road1mtr="0" />
+    <car tires="0" />
     <start pos="10.0647 5.76346 2.86633" rot="-0.003663 -0.003067 0.0862738 -0.996291" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="ForestDense" />
     <sky material="sky/light_blue" />

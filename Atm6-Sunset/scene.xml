@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="" secEd="426" />
-    <car tires="0" road1mtr="0" />
+    <car tires="0" />
     <start pos="-80.7289 -24.0382 2.40216" rot="1e-06 -1e-06 -0.959632 0.28142" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="ForestDense" />
     <sky material="sky/sunset_gen" skyYaw="40.1504" />

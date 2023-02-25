@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="X3-Cloud" secEd="169" />
-    <car tires="0" road1mtr="0" />
+    <car tires="0" />
     <start pos="-248.014 -60.1385 0.635598" rot="-1.53686e-15 5.56857e-15 -0.70711 -0.707114" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Savanna" />
     <sky material="sky/sunset_blue_gen" rainName="SnowFine" rainEmit="210" skyYaw="48.2707" />

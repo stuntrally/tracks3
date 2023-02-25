@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="Uni6-Wild" secEd="410" />
-    <car tires="0" road1mtr="0" />
+    <car tires="0" />
     <start pos="67.0181 -11.1557 -0.178799" rot="0 0 -0.97525 0.221132" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="ForestDense" />
     <sky material="sky/white" rainName="Snow" rainEmit="300" />

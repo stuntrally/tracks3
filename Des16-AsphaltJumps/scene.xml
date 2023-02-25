@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="Isl10-Treasure" secEd="111" />
-    <car tires="0" road1mtr="0" />
+    <car tires="0" />
     <start pos="44.7759 -0.654723 0.758029" rot="-0.019477 0.006764 -0.291904 -0.95626" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Desert" />
     <sky material="sky/light_blue" />

@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="Isl8-Pharaoh" secEd="14220" />
-    <car tires="0" road1mtr="0" />
+    <car tires="0" />
     <start pos="-4.99351 176.07 0.6" rot="-0.0110102 0.00770051 0.584004 0.81165" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Rocky" />
     <sky material="sky/dayovercast" rainName="RainFine" rainEmit="3056" />

@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="Jng3-Rocky" secEd="12631" />
-    <car tires="0" road1mtr="0" />
+    <car tires="0" />
     <start pos="-193.387 -91.0067 -5.63881" rot="1.78814e-07 -1.19221e-07 -0.692032 -0.721879" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Rocky" />
     <sky material="sky/dark_clouds" />
