@@ -28,11 +28,11 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
-            <texture road="1" surf="roadForest" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.119 0.467 0.300 0.800 0.000" />
+            <texture road="1" surf="roadForest" dust="0.6" dustS="0.5" mud="0.8" smoke="0.1" tclr="0.119 0.467 0.300 0.800 0.000" />
             <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
-            <par dust="Dust" mud="Mud" smoke="Smoke" />
+            <par dust="WetRoad" mud="Gravel" smoke="MudDark" />
         </terrain>
     </terrains>
     <paged densGrass="0.15" densTrees="0.6" grPage="100" grDist="100" grDensSmooth="6" trPage="100" trDist="100" trDistImp="800" trRdDist="1">

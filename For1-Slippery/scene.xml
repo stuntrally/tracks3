@@ -32,7 +32,7 @@
             <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
-            <par dust="WetRoad" mud="WetDust" smoke="MudDark" />
+            <par dust="WetRoad" mud="Dirt" smoke="MudDark" />
         </terrain>
     </terrains>
     <paged densGrass="0.15" densTrees="0.6" grPage="80" grDist="80" grDensSmooth="3" trPage="100" trDist="100" trDistImp="800" trRdDist="1">

@@ -8,7 +8,7 @@
     <fogH color="0.095 0.180 0.813 0.496 0.000" height="-4.6" dens="6.79883" linStart="0" linEnd="21.2695" />
     <light pitch="70.3125" yaw="13" ambient="0.320 0.017 0.807 0.369 0.000" diffuse="0.000 0.186 0.756 0.369 0.000" specular="0.818 0.132 0.872 3.000 0.000" />
     <fluids>
-        <fluid name="water sunset cyan" pos="-0.147239 -4.06253 0.398095" rot="0 0 0" size="6635.61 20 6634.92" tile="0.0101693 0.0101693" />
+        <fluid name="water sunset cyan" pos="-0.147239 -4.06253 0.398095" rot="0 0 0" size="6635.61 200 6634.92" tile="0.0101693 0.0101693" />
         <fluid name="water sunset cyan" pos="-533.853 -1.07208 386.577" rot="0 0 0" size="36.0597 6.98483 36.5411" tile="0.01 0.01" />
         <fluid name="mud easy soft" pos="153.255 -0.656373 -430.105" rot="0 0 0" size="30.5057 4.08924 30.1425" tile="0.01 0.01" />
         <fluid name="mud easy soft" pos="-297.506 -2.65944 185.966" rot="0 0 0" size="55.9604 4.22697 32.405" tile="0.01 0.01" />
