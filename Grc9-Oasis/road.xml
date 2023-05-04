@@ -3,7 +3,7 @@
     <dim tcMul="0.0658105" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1.42931" widthSteps="6" heightOfs="0.1" />
     <mrg loop="1" skirtLen="0.4" skirtH="0.12" merge="1" mergeLen="809.994" lodPntLen="20" visDist="1000" visBehind="800" />
     <geom colN="4" colR="2.39684" wsPm="4" lsPm="1" stBox="1 5.552 20.748" iDir="1" iChk1="105" />
-    <stats length="7947.41" width="11.9638" height="96.8969" onTer="65.977" pipes="53.7598" bnkAvg="10.4027" bnkMax="82.711" />
+    <stats length="7947.12" width="11.9639" height="96.8969" onTer="65.9795" pipes="53.7618" bnkAvg="10.3613" bnkMax="82.711" />
     <txt desc="An oasis with clear, greenhouse, glass pipe installations above. Near water reserve, hidden in rocky desert landscape." />
     <adv ice="Long pipe stunt track with few jumps and many loops. Two are open on top, keep speed, be in middle and don&apos;t worry. Slow down in yellow pipe sections." />
     <P pos="54.3335 0 88.7492" w="8.608" aT="2" col="0" mtr="2" />
@@ -95,7 +95,7 @@
     <P pos="-17.2248 17.3509 -21.7039" w="8.576" onTer="0" a="460.079" ar="0" aT="1" col="0" pipe="1" wall="-1" />
     <P pos="1.59111 18.0023 -26.0633" w="8.568" onTer="0" a="460.079" ar="0" aT="1" col="0" pipe="1" wall="-1" />
     <P pos="17.4004 25.1229 -30.6208" w="8.576" onTer="0" a="460.079" ar="0" aT="1" col="0" pipe="1" wall="-1" />
-    <P pos="31.1139 35.1033 -38.0272" w="8.576" onTer="0" a="379.08" ar="0" aT="1" col="0" pipe="1" mtr="1" chkR="1" />
+    <P pos="31.1139 35.1033 -38.0272" w="8.576" onTer="0" a="379.08" ar="0" aT="1" pipe="1" mtr="1" chkR="1" />
     <P pos="31.1267 41.0239 -48.8929" w="8.608" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" mtr="1" chkR="1" />
     <P pos="23.59 30.6163 -57.718" w="8.608" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" wall="-1" chkR="1" />
     <P pos="8.68145 22.1963 -62.7245" w="8.608" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" wall="-1" />
@@ -116,7 +116,7 @@
     <P pos="-51.9884 19.9958 145.014" w="10.224" onTer="0" a="0" ar="37.02" aT="2" col="0" pipe="0.5" mtr="3" wall="-1" chkR="1" />
     <P pos="-39.6646 22.9758 120.348" w="10.056" onTer="0" a="0" ar="41.82" aT="2" col="0" pipe="0.5" mtr="3" wall="-1" />
     <P pos="-21.7081 23.8558 103.364" w="9.488" onTer="0" a="0" ar="42.06" aT="2" col="0" pipe="0.5" mtr="3" wall="-1" />
-    <P pos="8.00671 27.0158 87.5871" w="11.816" onTer="0" a="0" ar="0" aT="2" col="0" pipe="0.5" mtr="2" chkR="1" />
+    <P pos="8.00671 27.0158 87.5871" w="11.816" onTer="0" a="0" ar="0" aT="2" pipe="0.5" mtr="2" chkR="1" />
     <P pos="25.9896 35.9758 61.0908" w="12.768" onTer="0" a="1.86" ar="-14.82" aT="2" col="0" pipe="0.868" mtr="2" wall="-1" />
     <P pos="25.6725 36.9205 26.5596" w="10.552" onTer="0" a="0" ar="5.1" aT="2" col="0" pipe="0.5" mtr="3" wall="-1" />
     <P pos="23.16 33.4358 -9.03576" w="11.872" onTer="0" a="0" ar="-20.7" aT="2" col="0" pipe="0.5" mtr="3" wall="-1" />
@@ -143,7 +143,7 @@
     <P pos="-138.579 4.59583 33.6391" w="12.456" onTer="0" a="0" ar="0" aT="2" col="0" pipe="0.3034" wall="-1" />
     <P pos="-97.1486 15.5758 34.1019" w="12.456" onTer="0" a="0" ar="0" aT="2" col="0" pipe="0.5" mtr="3" wall="-1" />
     <P pos="-56.0089 26.2158 32.5266" w="15.552" onTer="0" a="0" ar="21.3" aT="2" col="0" pipe="1" mtr="3" chkR="1" />
-    <P pos="-45.9371 33.3758 58.5422" w="12.048" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" />
+    <P pos="-45.9371 33.3758 58.5422" w="12.048" onTer="0" a="0" ar="0" aT="2" pipe="1" />
     <P pos="-41.9854 36.563 89.5476" w="11.968" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" mtr="3" />
     <P pos="-34.9543 35.087 121.894" w="13.448" onTer="0" a="0" ar="-14.1" aT="2" pipe="1" mtr="3" chkR="1" />
     <P pos="3.44735 32.4758 115.034" w="12.456" onTer="0" a="0" ar="-31.02" aT="2" col="0" pipe="0.3928" mtr="2" wall="-1" />
