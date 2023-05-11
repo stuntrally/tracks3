@@ -1,11 +1,11 @@
 <scene>
-    <ver num="3009" baseTrk="TestC4-ow" secEd="240" />
+    <ver num="3012" baseTrk="TestC4-ow" secEd="367" />
     <car tires="0" />
     <start pos="8.59984 83.4053 1.01515" rot="0.044859 -0.00578199 -0.0162208 0.998853" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Jungle" />
     <sky material="sky/gray_clouds" />
     <fog color="0.571 0.096 0.730 1.000 0.000" color2="0.583 0.107 0.560 1.000 0.000" linStart="0" linEnd="183.013" />
-    <fogH color="0.278 0.378 0.379 0.900 0.000" height="2.46001" dens="3.00125" linStart="0" linEnd="36.45" />
+    <fogH color="0.278 0.378 0.379 0.900 0.000" height="2.46001" dens="3.33712" linStart="0" linEnd="36.45" />
     <light pitch="42.5372" yaw="21.8009" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.167 0.031 0.650 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000" />
     <fluids>
         <fluid name="water green" pos="-0.25155 0.06 0.404012" rot="0 0 0" size="800 40 800" tile="0.00994745 0.00994745" />
