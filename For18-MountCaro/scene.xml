@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3012" baseTrk="SigmaVal7" secEd="202709" />
+    <ver num="3012" baseTrk="SigmaVal7" secEd="203112" />
     <car tires="0" damage="0.278107" road1mtr="0" />
     <start pos="304.515 -725.307 351.638" rot="-2.38419e-07 1.35049e-07 0.703075 0.711121" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="MountainsClose" />
@@ -170,5 +170,7 @@
         <e name="Cloud2" pos="837.708 545.994 -83.5452" sc="457.887 123.4 845.493" up="0 1 0" rot="0" rate="151.766" st="1" />
         <e name="WaterfallLow" pos="482.714 -50.4841 306.722" sc="30.933 7.03721 10.6899" up="0 1 0" rot="0" rate="116.034" st="0" />
         <e name="WaterfallLow" pos="506.39 21.4661 76.7935" sc="23.43 3.96838 6.12003" up="0 1 0" rot="0" rate="105.335" st="0" />
+        <e name="Cloud4" pos="1853.73 1204.92 5623.18" sc="1976.25 495.261 1004.91" up="0 1 0" rot="0" rate="302.673" st="1" />
+        <e name="Cloud1" pos="3566.02 1583.93 -5835.71" sc="2495.64 676.182 2101.7" up="0 1 0" rot="0" rate="416.732" st="1" />
     </emitters>
 </scene>
