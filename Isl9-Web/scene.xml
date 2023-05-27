@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3009" baseTrk="" secEd="450" />
+    <ver num="3012" baseTrk="" secEd="2649" />
     <car tires="0" />
     <start pos="-19.2844 -52.968 6.30235" rot="0.018735 -0.019509 0.692423 0.720994" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Islands" />
@@ -12,6 +12,31 @@
     </fluids>
     <terrains>
         <terrain ofsZ="1.816" triangle="1.816">
+            <texture on="1" file="island_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="12.7769" surf="DesertFast" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.409 0.440 0.700 0.000" angMin="0" angMax="12.8571" angSm="5.65536" hMin="-300" hMax="300" hSm="4.14214" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="22.2" oct0="3" prs0="0.461644" pow0="0.926946" frq1="28.5" oct1="2" prs1="0.525049" pow1="4.93172" />
+            </texture>
+            <texture on="1" file="island_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="10.2051" surf="DesertFast" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.135 0.477 0.440 0.700 0.000" angMin="12.8571" angMax="24.3053" angSm="5.77764" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="1" file="adesert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="25.8659" surf="DesertBumpy" dust="0.5" dustS="1" mud="0.5" smoke="0" tclr="0.088 0.810 0.420 0.800 0.000" angMin="24.8337" angMax="45.4403" angSm="10.3809" hMin="-300" hMax="300" hSm="4.06287" nOn="0" noise="0" n_1="0.50193" n2="0">
+                <noise frq0="31.051" oct0="4" prs0="0.3" pow0="2.69487" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="1" file="adesert_mntn2_d.jpg" fnorm="desert_mntn2_n.jpg" scale="56.0325" surf="Rocks" dust="0.7" dustS="1" mud="0.4" smoke="0" tclr="0.079 0.826 0.460 0.700 0.000" angMin="45.0881" angMax="90" angSm="9.10456" hMin="-300" hMax="300" hSm="0.612743" nOn="0" triplanar="1" noise="0.0263157" n_1="1" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="" fnorm="" scale="5" surf="Default" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.083 0.400 0.500 0.500 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture road="1" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.117 0.400 0.500 0.500 0.000" />
+            <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <par dust="Dust" mud="Dust" smoke="Smoke" />
+        </terrain>
+        <terrain ofsZ="0" triangle="12.1294">
             <texture on="1" file="island_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="12.7769" surf="DesertFast" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.409 0.440 0.700 0.000" angMin="0" angMax="12.8571" angSm="5.65536" hMin="-300" hMax="300" hSm="4.14214" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="22.2" oct0="3" prs0="0.461644" pow0="0.926946" frq1="28.5" oct1="2" prs1="0.525049" pow1="4.93172" />
             </texture>
@@ -66,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
-    <cam pos="-90.9262 202.483 644.428" dir="0.0999191 -0.225707 -0.969058" />
+    <cam pos="430.076 219.138 -258.575" dir="-0.778984 -0.350733 0.519779" />
     <objects>
         <o name="dish_hole" pos="-18.0392 2.77316 86.7864" rot="0 1 0 0" sc="5.47975 5.47817 5.47975" />
     </objects>
@@ -74,5 +99,8 @@
         <e name="Cloud1" pos="277.125 136.37 -330.106" sc="182.354 67.896 193.063" up="0 1 0" rot="0" rate="17.2133" st="1" />
         <e name="Cloud1" pos="-73.2246 152.142 3.1932" sc="296.276 89.4905 239.33" up="0 1 0" rot="0" rate="16.084" st="1" />
         <e name="Cloud1" pos="277.714 199.849 81.1109" sc="216.489 65.1604 208.868" up="0 1 0" rot="0" rate="15.2649" st="1" />
+        <e name="Cloud1" pos="-2048.28 282.169 -1756.51" sc="1725.39 359.087 1555.09" up="0 1 0" rot="0" rate="56.9345" st="0" />
+        <e name="Cloud5" pos="-1199.32 206.031 421.972" sc="0 76.3454 75.556" up="0 1 0" rot="0" rate="11.1528" st="0" />
+        <e name="Radioactive" pos="-529.5 72.0071 1112.66" sc="1033.78 128.56 912.278" up="0 1 0" rot="0" rate="218.28" st="0" />
     </emitters>
 </scene>
