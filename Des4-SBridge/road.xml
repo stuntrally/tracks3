@@ -3,7 +3,7 @@
     <dim tcMul="0.0531156" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06" />
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800" />
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 4.888 13.424" iDir="-1" iChk1="25" />
-    <stats length="1963.28" width="7.19656" height="15.7534" onTer="25.776" pipes="0" bnkAvg="2.14491" bnkMax="7.73463" />
+    <stats length="1963.28" width="7.19656" height="15.7534" onTer="25.776" pipes="0" bnkAvg="2.10915" bnkMax="7.73463" />
     <txt desc="A winding track with narrow, partly bridged road." />
     <adv ice="Wide vehicles are bad for such bridges." />
     <P pos="147.448 0 -70.4497" w="7.216" aT="2" />
