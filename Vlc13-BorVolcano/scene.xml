@@ -1,16 +1,16 @@
 <scene>
-    <ver num="3009" baseTrk="Vlc2-Volcanic" secEd="43606" />
+    <ver num="3012" baseTrk="Vlc2-Volcanic" secEd="47318" />
     <car tires="0" damage="0.447236" road1mtr="0" />
     <start pos="450.808 -614.728 -32.5231" rot="0.00212491 0.00662932 -0.0398707 0.999193" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Mountains" />
     <sky material="sky/dust" skyYaw="-135.789" />
-    <fog color="0.198 0.114 0.565 0.891 0.492" color2="0.211 0.277 0.457 0.789 0.465" linStart="0" linEnd="600" />
-    <fogH color="0.101 0.041 0.807 0.919 0.936" height="600" dens="400" linStart="0" linEnd="554.436" />
-    <light pitch="32" yaw="60" ambient="0.000 0.000 0.559 3.000 0.097" diffuse="0.139 0.462 0.543 3.000 0.000" specular="0.000 0.000 0.487 0.970 0.000" />
+    <fog color="0.161 0.678 0.565 0.794 0.492" color2="0.171 0.552 0.457 0.789 0.465" linStart="0" linEnd="1521.95" />
+    <fogH color="0.132 0.110 0.603 0.919 0.413" height="150.653" dens="200" linStart="7.08206" linEnd="98.6221" />
+    <light pitch="32" yaw="60" ambient="0.000 0.000 0.559 3.000 0.097" diffuse="0.139 0.462 0.543 3.000 0.000" specular="0.000 0.000 0.035 0.789 0.000" />
     <fluids>
-        <fluid name="lava solid" pos="-202.55 515.225 -98.4558" rot="0 0 0" size="87.6408 20.114 87.1609" tile="0.01 0.01" />
-        <fluid name="lava solid" pos="363.009 478.639 -143.146" rot="0 0 0" size="122.737 20 103.276" tile="0.01 0.01" />
-        <fluid name="mud soft" pos="-45.9766 -36.2388 455.866" rot="0 0 0" size="1230.18 8.91589 627.008" tile="0.01 0.01" />
+        <fluid name="lava solid" pos="-202.55 515.225 -98.4558" rot="0 0 0" size="87.6408 50.114 87.1609" tile="0.01 0.01" />
+        <fluid name="lava solid" pos="363.009 478.639 -143.146" rot="0 0 0" size="122.737 50 103.276" tile="0.01 0.01" />
+        <fluid name="mud soft" pos="111.541 -36.2388 522.649" rot="0 0 0" size="938.231 89.1589 235.999" tile="0.01 0.01" />
     </fluids>
     <terrains>
         <terrain ofsZ="1.5343" triangle="1.5343" specPowEm="1.1835">
@@ -24,6 +24,31 @@
                 <noise frq0="31.3222" oct0="3" prs0="0.3" pow0="1.5" frq1="31.0394" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="1" file="lava_d.jpg" fnorm="lava_n.jpg" scale="33.83" surf="DesertRocks" dust="0" dustS="0.2" mud="0.24187" smoke="0" tclr="0.083 0.779 0.255 0.600 0.000" dmg="4" angMin="0" angMax="48.4821" angSm="1.29424" hMin="440" hMax="800" hSm="12.9686" nOn="0" noise="0" n_1="0" n2="0">
+                <noise frq0="22.2" oct0="4" prs0="0.532094" pow0="0.936295" frq1="28.5" oct1="3" prs1="0.4" pow1="2.99702" />
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture road="1" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 0.382 0.200 0.500 0.000" />
+            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.131 0.700 0.000" />
+            <texture road="3" surf="Asphalt" dust="0" dustS="0.9" mud="0" smoke="0.130081" tclr="0.000 0.000 0.070 0.517 0.000" />
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <par dust="DustBlack" mud="Mud" smoke="Smoke" />
+        </terrain>
+        <terrain ofsZ="0" triangle="16.6921">
+            <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="34.9552" surf="DesertBumpy" dust="0.174797" dustS="0.48374" mud="0.4" smoke="0" tclr="0.167 0.566 0.203 0.100 0.000" angMin="0" angMax="26.1161" angSm="7.76869" hMin="-300" hMax="450" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="26.7639" oct0="4" prs0="0.546184" pow0="1.87784" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="1" file="mntn_dark_d.jpg" fnorm="mntn_dark_n.jpg" scale="47.6654" surf="Rocks" dust="0.117886" dustS="0.394309" mud="0.3" smoke="0" tclr="0.000 0.000 0.184 0.700 0.000" angMin="26.6505" angMax="39.5388" angSm="5.41474" hMin="-300" hMax="950" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="16.4994" oct0="4" prs0="0.357143" pow0="4.4322" frq1="34.5195" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="1" file="mntn_black_d.jpg" fnorm="mntn_black_n.jpg" scale="52.3087" surf="Rocks" dust="0.3" dustS="0.373984" mud="0.278455" smoke="0" tclr="0.000 0.000 0.166 0.400 0.000" angMin="39.1019" angMax="90" angSm="8.05639" hMin="-300" hMax="1950" hSm="20" nOn="0" triplanar="1" noise="0" n_1="1" n2="0">
+                <noise frq0="31.3222" oct0="3" prs0="0.3" pow0="1.5" frq1="31.0394" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="lava_d.jpg" fnorm="lava_n.jpg" scale="33.83" surf="DesertRocks" dust="0" dustS="0.2" mud="0.24187" smoke="0" tclr="0.083 0.779 0.255 0.600 0.000" dmg="4" angMin="0" angMax="48.4821" angSm="1.29424" hMin="440" hMax="800" hSm="12.9686" nOn="0" noise="0" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="4" prs0="0.532094" pow0="0.936295" frq1="28.5" oct1="3" prs1="0.4" pow1="2.99702" />
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
@@ -68,7 +93,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
-    <cam pos="-369.721 915.237 -272.023" dir="0.681997 -0.620438 0.387216" />
+    <cam pos="-771.247 759.19 994.503" dir="0.705159 -0.359477 -0.611169" />
     <objects>
         <o name="skyscraper2" pos="428.092 -592.595 -33.1231" rot="0 -1 0 0" />
         <o name="skyscraper2" pos="418.552 -637.81 -33.1273" rot="0 -1 0 0" />
