@@ -36,7 +36,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <par dust="Dust" mud="Mud" smoke="Smoke" />
         </terrain>
-        <terrain ofsZ="0" triangle="9.34772">
+        <terrain ofsZ="0" triangle="9.34772" horiz="1">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="16.8349" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="33.4404" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.476331">
                 <noise frq0="4.32584" oct0="3" prs0="0.509785" pow0="1.5048" frq1="12.9511" oct1="3" prs1="0.589628" pow1="3.94334" />
             </texture>
@@ -61,7 +61,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <par dust="Dust" mud="Mud" smoke="Smoke" />
         </terrain>
-        <terrain ofsZ="0" triangle="18.5089">
+        <terrain ofsZ="0" triangle="18.5089" horiz="2">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="21.0176" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="33.4404" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.476331">
                 <noise frq0="4.32584" oct0="3" prs0="0.509785" pow0="1.5048" frq1="12.9511" oct1="3" prs1="0.589628" pow1="3.94334" />
             </texture>

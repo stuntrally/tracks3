@@ -36,7 +36,7 @@
             <texture road="4" surf="roadSnow" dust="0" dustS="0.183771" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <par dust="Dust" mud="Mud" smoke="Smoke" />
         </terrain>
-        <terrain ofsZ="0" triangle="9.93688">
+        <terrain ofsZ="0" triangle="9.93688" horiz="1">
             <texture on="1" file="desert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="12.0559" surf="DesertFast" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="0" angMax="17.7887" angSm="4.94918" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.552124">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="8.14634" oct1="3" prs1="0.4" pow1="4.62766" />
             </texture>

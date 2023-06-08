@@ -37,7 +37,7 @@
             <texture road="4" surf="roadGravel" dust="0" dustS="1" mud="0.8" smoke="0" tclr="0.103 1.000 0.210 0.800 0.000" />
             <par dust="Dust" mud="Mud" smoke="Smoke" />
         </terrain>
-        <terrain ofsZ="0" triangle="8.6109">
+        <terrain ofsZ="0" triangle="8.6109" horiz="1">
             <texture on="1" file="moss_plants_d.jpg" fnorm="moss_plants_n.jpg" scale="31.192" surf="GrassJungle" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.474 0.520 0.250 0.800 0.000" angMin="0" angMax="13.1068" angSm="7.20897" hMin="-114.875" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.739645">
                 <noise frq0="2.96367" oct0="4" prs0="0.502752" pow0="3.17647" frq1="7.17691" oct1="4" prs1="0.625688" pow1="6.39835" />
             </texture>

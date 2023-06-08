@@ -36,7 +36,7 @@
             <texture road="4" surf="Asphalt" dust="0" dustS="0.9" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <par dust="Dust" mud="Mud" smoke="Smoke" />
         </terrain>
-        <terrain ofsZ="0" triangle="13.1222">
+        <terrain ofsZ="0" triangle="13.1222" horiz="1">
             <texture on="1" file="ground_white_d.jpg" fnorm="ground_white_n.jpg" scale="18.5914" surf="DesertBumpy" dust="0.3" dustS="0.2" mud="0.4" smoke="0" tclr="0.222 0.300 0.400 0.700 0.000" angMin="0" angMax="18.9261" angSm="7.91189" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.467456">
                 <noise frq0="14.8553" oct0="4" prs0="0.534442" pow0="3.23972" frq1="24.4154" oct1="4" prs1="0.494521" pow1="3.77606" />
             </texture>

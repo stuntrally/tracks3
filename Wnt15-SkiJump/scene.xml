@@ -34,7 +34,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
             <par dust="SnowDust" mud="SnowMud" smoke="Smoke" />
         </terrain>
-        <terrain ofsZ="0" triangle="13.0552">
+        <terrain ofsZ="0" triangle="13.0552" horiz="1">
             <texture on="1" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="18.0182" surf="SnowMedium" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="20.9589" angSm="6.93696" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="4.70674" oct0="3" prs0="0.7" pow0="2.34547" frq1="4.86626" oct1="3" prs1="0.259633" pow1="1.33978" />
             </texture>

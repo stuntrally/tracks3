@@ -42,7 +42,7 @@
             <texture road="4" surf="roadAdesert" dust="0.102625" dustS="1" mud="0" smoke="0.0357995" tclr="0.576 1.000 0.976 0.947 0.000" />
             <par dust="DustBlack" mud="SnowMud" smoke="DustAlien" />
         </terrain>
-        <terrain ofsZ="0" triangle="12.7219" specPowEm="0.875895">
+        <terrain ofsZ="0" triangle="12.7219" horiz="1" specPowEm="0.875895">
             <texture on="1" file="desert_sand_bigx_d.jpg" fnorm="desert_sand_big_n.jpg" scale="43.125" surf="DesertBumpy" dust="0.357995" dustS="0.713604" mud="0" smoke="0.0357995" tclr="0.683 0.500 0.400 0.900 0.000" angMin="0" angMax="90" angSm="7.91189" hMin="-1300" hMax="1300" hSm="20" nOn="0" triplanar="1" noise="0.346154" n_1="0" n2="1">
                 <noise frq0="1.33835" oct0="4" prs0="0.534442" pow0="3.23972" frq1="2.61064" oct1="4" prs1="0.494521" pow1="3.77606" />
             </texture>

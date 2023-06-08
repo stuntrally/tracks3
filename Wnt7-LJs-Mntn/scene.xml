@@ -34,7 +34,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000" />
             <par dust="SnowDust" mud="SnowMud" smoke="Smoke" />
         </terrain>
-        <terrain ofsZ="0" triangle="10.598">
+        <terrain ofsZ="0" triangle="10.598" horiz="1">
             <texture on="1" file="snow_rough_d.jpg" fnorm="snow_rough_n.jpg" scale="63.034" surf="SnowDeep" dust="0.4" dustS="0.6" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="14.3225" hMin="-300" hMax="96.595" hSm="42.4291" nOn="0" noise="1" n_1="1" n2="0">
                 <noise frq0="4.70674" oct0="4" prs0="0.480734" pow0="1.268" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
