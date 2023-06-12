@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3012" baseTrk="Grc8-SlopeCity" secEd="1882" />
+    <ver num="3012" baseTrk="Grc8-SlopeCity" secEd="2026" />
     <car tires="0" />
     <start pos="99.0812 -367.351 8.35347" rot="0.01063 0.000560001 -0.967799 0.251554" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Savanna" />
     <sky material="sky/day_blue" />
     <fog color="0.564 0.317 0.820 1.000 0.000" color2="0.567 0.312 0.800 1.000 0.000" linStart="443.187" linEnd="1334.3" />
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400" />
-    <light pitch="35.4135" yaw="58.1674" ambient="0.000 0.000 0.560 1.000 0.000" diffuse="0.000 0.000 1.000 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000" />
+    <light pitch="35.4135" yaw="58.1674" ambient="0.000 0.000 0.560 1.000 0.000" diffuse="0.000 0.000 1.000 1.000 0.000" specular="0.167 0.020 0.701 0.000 0.000" />
     <fluids>
         <fluid name="water cyan" pos="0 -0.5 0" rot="0 0 0" size="16000 80 16000" tile="0.004 0.004" />
     </fluids>
@@ -37,19 +37,19 @@
             <par dust="Dust" mud="Mud" smoke="Smoke" />
         </terrain>
         <terrain ofsZ="0" triangle="13.1222" horiz="1">
-            <texture on="1" file="ground_white_d.jpg" fnorm="ground_white_n.jpg" scale="18.5914" surf="DesertBumpy" dust="0.3" dustS="0.2" mud="0.4" smoke="0" tclr="0.222 0.300 0.400 0.700 0.000" angMin="0" angMax="18.9261" angSm="7.91189" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.467456">
+            <texture on="1" file="ground_white_d.jpg" fnorm="ground_white_n.jpg" scale="118.59" surf="DesertBumpy" dust="0.3" dustS="0.2" mud="0.4" smoke="0" tclr="0.222 0.300 0.400 0.700 0.000" angMin="0" angMax="18.9261" angSm="7.91189" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.467456">
                 <noise frq0="14.8553" oct0="4" prs0="0.534442" pow0="3.23972" frq1="24.4154" oct1="4" prs1="0.494521" pow1="3.77606" />
             </texture>
             <texture on="0" file="desert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="25.5706" surf="DesertFast" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="1" noise="0" n_1="0" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
-            <texture on="1" file="ground_yellow_d.jpg" fnorm="jungle_mntn_n.jpg" scale="56.8637" surf="DesertBumpy" dust="0.3" dustS="0.2" mud="0.4" smoke="0" tclr="0.095 0.333 0.420 0.600 0.000" angMin="18.3219" angMax="30.8219" angSm="12.4524" hMin="-300" hMax="900" hSm="20" nOn="0" noise="0.286982" n_1="0" n2="0.284024">
+            <texture on="1" file="ground_yellow_d.jpg" fnorm="jungle_mntn_n.jpg" scale="126.86" surf="DesertBumpy" dust="0.3" dustS="0.2" mud="0.4" smoke="0" tclr="0.095 0.333 0.420 0.600 0.000" angMin="18.3219" angMax="30.8219" angSm="12.4524" hMin="-300" hMax="900" hSm="20" nOn="0" noise="0.286982" n_1="0" n2="0.284024">
                 <noise frq0="49.2505" oct0="3" prs0="0.310175" pow0="2.23354" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
-            <texture on="1" file="desert_mntn2_d.jpg" fnorm="desert_mntn2_n.jpg" scale="61.9811" surf="Rocks" dust="0.25" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="30.998" angMax="47.5538" angSm="11.3931" hMin="-300" hMax="800" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="1" file="desert_mntn2_d.jpg" fnorm="desert_mntn2_n.jpg" scale="161.98" surf="Rocks" dust="0.25" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="30.998" angMax="47.5538" angSm="11.3931" hMin="-300" hMax="800" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.75282" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
-            <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="56.3654" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="51.0763" angMax="90" angSm="20" hMin="-300" hMax="900" hSm="100" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+            <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="156.37" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="51.0763" angMax="90" angSm="20" hMin="-300" hMax="900" hSm="100" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
