@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.1" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="7" heightOfs="0.06" />
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="127.538" lodPntLen="37.8122" visDist="1061.04" visBehind="800" />
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5 14.0484" iDir="1" iChk1="57" />
-    <stats length="2364.67" width="9.0913" height="60.5099" onTer="73.6403" pipes="58.3528" bnkAvg="8.11688" bnkMax="87.0169" />
+    <stats length="2364.65" width="9.09131" height="60.5099" onTer="73.6408" pipes="58.3533" bnkAvg="8.16293" bnkMax="87.0169" />
     <txt desc="A sunken city somewhere in ocean, mostly in pipes and parts fully submerged in the water, with a waterfall inside a cave." />
     <adv ice="Be careful in the cave and underwater, you can really damage your car." />
     <P pos="158.22 -5.68868 -88.9093" w="10.7122" onTer="0" a="0" ar="0" aT="2" pipe="1" mtr="2" />
