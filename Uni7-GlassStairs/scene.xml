@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3012" baseTrk="Uni6-Wild" secEd="96064" />
+    <ver num="3012" baseTrk="Uni6-Wild" secEd="98016" />
     <car tires="0" damage="0.351759" road1mtr="0" />
     <start pos="17.4937 74.5564 225.335" rot="-5.38304e-07 -2.82569e-07 -0.99989 -0.0156819" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Unidentified" />
     <sky material="sky/magic" skyYaw="64.0909" />
     <fog color="0.678 0.585 0.434 1.000 0.000" color2="0.709 0.565 0.487 1.000 0.680" linStart="188.275" linEnd="2000" />
-    <fogH color="0.748 0.630 1.215 0.748 0.000" height="34.8485" dens="59.0916" linStart="15.8474" linEnd="105.173" />
-    <light pitch="30" yaw="-41" ambient="0.729 0.698 0.497 0.000 0.000" diffuse="0.704 0.335 0.800 0.000 0.000" specular="0.517 0.415 0.744 0.000 0.000" />
+    <fogH color="0.725 0.798 1.938 2.000 0.000" height="15.9652" dens="84.9345" linStart="15.8474" linEnd="105.173" />
+    <light pitch="30" yaw="-41" ambient="0.729 0.806 0.497 0.000 0.000" diffuse="0.704 0.533 0.800 0.000 0.000" specular="0.585 0.926 1.386 0.000 0.000" />
     <fluids>
         <fluid name="grease jelly" pos="-183.89 273.354 26.7504" rot="0 0 0" size="8.83521 7.11853 34.1556" tile="0.0112339 0.0112339" />
         <fluid name="water blue" pos="-48.6612 191.417 93.2386" rot="0 0 0" size="23.5992 1.9916 62.6852" tile="0.0086585 0.00849072" />
@@ -21,16 +21,16 @@
                 <noise frq0="25.1546" oct0="5" prs0="0.607143" pow0="4.22949" frq1="12.0182" oct1="5" prs1="0.682143" pow1="4.4322" />
             </texture>
             <texture on="1" file="jungle_mntnx_d.jpg" fnorm="jungle_mntn_n.jpg" scale="21.88" surf="DesertRocks" dust="0" dustS="0.2" mud="0.193089" smoke="0" tclr="0.670 0.613 0.800 0.900 0.000" angMin="15.9375" angMax="22.0982" angSm="5.35396" hMin="-300" hMax="500" hSm="20" nOn="0" noise="1" n_1="1" n2="0">
-                <noise frq0="6.97558" oct0="5" prs0="0.652679" pow0="4.08072" frq1="33.9263" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="13.8316" oct0="5" prs0="0.652679" pow0="4.08072" frq1="35.4627" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
-            <texture on="1" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="54.6708" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="31.0714" angMax="51.0268" angSm="11.517" hMin="-300" hMax="500" hSm="20" nOn="0" triplanar="1" noise="0" n_1="1" n2="0">
-                <noise frq0="15.6996" oct0="5" prs0="0.7" pow0="3.82316" frq1="39.776" oct1="3" prs1="0.4" pow1="1.2" />
+            <texture on="1" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="71.6212" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="31.0714" angMax="51.0268" angSm="11.517" hMin="-300" hMax="500" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="0.965226" oct0="5" prs0="0.212844" pow0="6.22941" frq1="3.32684" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="1" file="mntn_darkx_d.jpg" fnorm="mntn_dark_n.jpg" scale="48.3878" surf="roadDesert" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="64.9554" angMax="90" angSm="10.5463" hMin="-300" hMax="500" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
-                <noise frq0="31.0394" oct0="3" prs0="0.3" pow0="1.5" frq1="38.5048" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="1.56873" oct0="3" prs0="0.3" pow0="1.5" frq1="6.20152" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
-                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="2.24716" oct0="3" prs0="0.3" pow0="1.5" frq1="2.82205" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2" />
@@ -48,8 +48,8 @@
             <texture on="1" file="jungle_mntnx_d.jpg" fnorm="jungle_mntn_n.jpg" scale="21.88" surf="DesertRocks" dust="0" dustS="0.2" mud="0.193089" smoke="0" tclr="0.670 0.613 0.800 0.900 0.000" angMin="15.9375" angMax="22.0982" angSm="5.35396" hMin="-300" hMax="1500" hSm="20" nOn="0" noise="1" n_1="1" n2="0">
                 <noise frq0="6.97558" oct0="5" prs0="0.652679" pow0="4.08072" frq1="33.9263" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
-            <texture on="1" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="54.6708" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="31.0714" angMax="51.0268" angSm="11.517" hMin="-300" hMax="1500" hSm="20" nOn="0" triplanar="1" noise="0" n_1="1" n2="0">
-                <noise frq0="15.6996" oct0="5" prs0="0.7" pow0="3.82316" frq1="39.776" oct1="3" prs1="0.4" pow1="1.2" />
+            <texture on="1" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="254.67" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="31.0714" angMax="51.0268" angSm="11.517" hMin="-300" hMax="1500" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="0.317401" oct0="5" prs0="0.7" pow0="0.484944" frq1="39.776" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="1" file="mntn_darkx_d.jpg" fnorm="mntn_dark_n.jpg" scale="48.3878" surf="roadDesert" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="64.9554" angMax="90" angSm="10.5463" hMin="-300" hMax="1500" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
                 <noise frq0="31.0394" oct0="3" prs0="0.3" pow0="1.5" frq1="38.5048" oct1="3" prs1="0.4" pow1="1.2" />
@@ -108,7 +108,7 @@
         <o name="obstacle4" pos="-38.2093 211.656 94.0247" rot="0.694243 -0.588654 0.131492 0.39271" sc="1.09926 1.09635 1.09926" />
     </objects>
     <emitters>
-        <e name="Electricity" pos="-155.048 308.142 118.116" sc="9.8801 8.22747 10.1718" up="0 1 0" rot="0" rate="115.745" st="0" />
-        <e name="Electricity" pos="-209.467 293.124 -22.1699" sc="7.46144 7.06862 7.57466" up="0 1 0" rot="0" rate="113.652" st="0" />
+        <e name="Electricity" pos="-155.048 308.142 118.116" sc="9.8801 8.22747 10.1718" up="0 1 0" rot="0" rate="115.745" st="0" psc="1" />
+        <e name="Electricity" pos="-209.467 293.124 -22.1699" sc="7.46144 7.06862 7.57466" up="0 1 0" rot="0" rate="113.652" st="0" psc="1" />
     </emitters>
 </scene>
