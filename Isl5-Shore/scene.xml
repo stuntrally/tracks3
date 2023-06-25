@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3012" baseTrk="" secEd="6249" />
+    <ver num="3012" baseTrk="" secEd="6299" />
     <car tires="0" />
     <start pos="-60.0333 -70.7994 -0.264727" rot="-0.007499 0.001133 -0.272761 -0.962067" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Rocky" />
     <sky material="sky/dayovercast" rainName="RainFast" rainEmit="451" />
-    <fog color="0.593 0.413 0.648 0.952 0.000" color2="0.595 0.665 0.336 0.935 0.000" linStart="42.4755" linEnd="814.971" />
+    <fog color="0.593 0.413 0.719 0.952 0.000" color2="0.595 0.665 0.336 0.935 0.000" linStart="42.4755" linEnd="814.971" />
     <fogH color="0.586 0.270 0.434 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400" />
     <light pitch="31.8316" yaw="132.366" ambient="0.598 0.605 0.216 1.000 0.000" diffuse="0.624 0.802 0.990 0.900 0.000" specular="0.567 0.562 1.000 1.000 0.000" />
     <fluids>
@@ -155,7 +155,7 @@
         <o name="han_barracks" pos="-119.511 128.827 39.6632" rot="-0.817973 0.575255 0 0" />
     </objects>
     <emitters>
-        <e name="FireOrangeTiny" pos="192.95 97.6365 -106.582" sc="0.00527593 0.0090747 0.0167485" up="0 1 0" rot="0" rate="24.3526" st="0" />
-        <e name="FireOrangeTiny" pos="91.272 0.36898 -26.9076" sc="0.0145 0.0101133 0.0272403" up="0 1 0" rot="0" rate="10.7605" st="0" />
+        <e name="FireOrangeTiny" pos="192.95 97.6365 -106.582" sc="0.00527593 0.0090747 0.0167485" up="0 1 0" rot="0" rate="24.3526" st="0" psc="1" />
+        <e name="FireOrangeTiny" pos="91.272 0.36898 -26.9076" sc="0.0145 0.0101133 0.0272403" up="0 1 0" rot="0" rate="10.7605" st="0" psc="1" />
     </emitters>
 </scene>

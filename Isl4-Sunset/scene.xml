@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3009" baseTrk="" secEd="250" />
+    <ver num="3012" baseTrk="" secEd="521" />
     <car tires="0" />
     <start pos="-59.3236 3.10192 4.33741" rot="-5.55112e-17 -5.55112e-17 0.703943 0.710259" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Islands" />
     <sky material="sky/sunset_rays_gen" skyYaw="-13.0827" />
-    <fog color="0.024 0.412 0.340 0.600 0.000" color2="0.056 0.600 0.300 0.900 0.000" linStart="128.152" linEnd="729.656" />
-    <fogH color="0.056 0.500 0.600 0.500 0.000" height="15.5388" dens="75.375" linStart="0" linEnd="57.8" />
-    <light pitch="8" yaw="0" ambient="0.029 0.405 0.420 1.000 0.000" diffuse="0.085 0.483 0.800 0.000 0.000" specular="0.130 0.610 0.700 0.000 0.000" />
+    <fog color="0.041 0.926 0.492 0.600 0.000" color2="0.056 0.616 0.120 0.900 0.000" linStart="128.152" linEnd="729.656" />
+    <fogH color="0.056 0.500 0.637 0.500 0.000" height="15.5388" dens="75.375" linStart="0" linEnd="57.8" />
+    <light pitch="8" yaw="0" ambient="0.029 0.405 0.420 1.000 0.000" diffuse="0.085 0.483 0.800 0.000 0.000" specular="0.087 0.934 0.700 0.600 0.000" />
     <fluids>
         <fluid name="water sunset" pos="-0.493078 -2 5.89115" rot="0 0 0" size="8000 40 8000" tile="0.00482925 0.00508187" />
     </fluids>
@@ -66,7 +66,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
-    <cam pos="-7.14004 16.012 3.8184" dir="-0.847464 -0.0186697 0.531002" />
+    <cam pos="19.5781 16.9913 20.9171" dir="-0.911921 -0.0407714 0.408336" />
     <objects>
         <o name="plastic_big" pos="-148.109 -88.4286 -1.3631" rot="0.9794 0.189532 -0.0696467 0.00159606" />
         <o name="plastic_big" pos="-129.421 -121.664 0.50889" rot="0.975233 0.189293 -0.0375281 0.108074" />
