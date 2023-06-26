@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3009" baseTrk="" secEd="772" />
+    <ver num="3012" baseTrk="" secEd="1844" />
     <car tires="0" />
     <start pos="-24.1832 -0.673126 0.586689" rot="-6.21725e-15 7.99361e-15 -0.653396 -0.757031" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Australia" />
@@ -35,7 +35,7 @@
             <par dust="Dust" mud="MudDark" smoke="Smoke" />
         </terrain>
     </terrains>
-    <paged densGrass="0.144599" densTrees="0" grPage="120" grDist="120" grDensSmooth="2" trPage="200" trDist="200" trDistImp="800" trRdDist="2">
+    <paged densGrass="0.532964" densTrees="0" grPage="120" grDist="120" grDensSmooth="2" trPage="200" trDist="200" trDistImp="800" trRdDist="2">
         <grass on="1" mtr="grassJungle" clr="grClrSmall.png" dens="0.167943" chan="0" minSx="0.7" maxSx="1.25" minSy="0.7" maxSy="1.3" swayDistr="3" swayLen="0.3" swaySpeed="0.4" />
         <grass on="1" mtr="grass3" clr="grClrJungle.png" dens="0.151667" chan="0" minSx="1.1" maxSx="1.45854" minSy="0.911192" maxSy="1.19486" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
         <grass on="1" mtr="grass15g" clr="grClrJungle.png" dens="0.112111" chan="0" minSx="0.947375" maxSx="1.22276" minSy="1.00943" maxSy="1.32315" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
@@ -74,15 +74,6 @@
         <o name="cone" pos="-127.765 -127.741 0.0153783" rot="-0.000216996 1 -9.05831e-08 1.74296e-08" />
         <o name="cone" pos="125.729 -127.735 0.0153783" rot="-0.000611295 1 -6.73076e-08 -1.09738e-08" />
         <o name="cone" pos="125.744 125.74 0.0153783" rot="0.0236853 0.999719 -2.85027e-07 1.92133e-07" />
-        <o name="cone" pos="-18.0176 6.04077 0.00322819" rot="-0.000105166 0.999998 0.00135115 -0.00117361" />
-        <o name="cone" pos="-17.727 7.9128 0.00763185" rot="0.407989 0.912985 0.000763381 -0.00162028" />
-        <o name="cone" pos="-16.0294 8.04108 0.00403698" rot="-0.000184039 0.999998 0.00151535 -0.00132479" />
-        <o name="cone" pos="-16.0078 6.02592 -0.00330725" rot="-0.000117579 0.999997 0.00186528 -0.00163253" />
-        <o name="atomic_barrel" pos="-24.3185 12.0223 0.766729" rot="0.0326706 0.998452 -0.0179274 0.0412808" />
-        <o name="atomic_barrel" pos="-25.13 12.2795 0.704479" rot="0.27301 0.961798 -0.00518635 0.0195696" />
-        <o name="atomic_barrel" pos="-26.3249 12.9151 0.693001" rot="-0.109012 0.99404 -3.90766e-06 1.23071e-06" />
-        <o name="atomic_barrel" pos="-26.3607 13.7425 0.401499" rot="-0.00215944 -0.707103 0.0513792 0.705239" />
-        <o name="atomic_barrel" pos="-22.6594 14.2355 0.79753" rot="0.0385318 0.998244 -0.024731 0.0375762" />
         <o name="big_tire" pos="-14.4833 -4.35968 1.11716" rot="-1.96839e-05 0.999997 4.65066e-05 -0.00253104" />
         <o name="big_tire" pos="-14.4839 -4.35697 1.89752" rot="0.000342596 0.999997 4.53093e-05 -0.00253139" />
         <o name="fuel_can" pos="-19.2602 -3.72361 1.54286" rot="0.133978 0.990982 0.000536173 -0.0019258" />

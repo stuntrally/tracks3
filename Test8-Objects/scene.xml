@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="" secEd="3877" />
-    <car tires="0" damage="0.5" road1mtr="0" />
+    <car tires="0" damage="0.5" />
     <start pos="-14.8219 -4.38519 0.6" rot="-0 0 -1.62921e-07 -1" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Australia" />
     <sky material="sky/light_blue" />

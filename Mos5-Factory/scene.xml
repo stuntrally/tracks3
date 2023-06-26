@@ -1,6 +1,6 @@
 <scene>
     <ver num="3012" baseTrk="" secEd="8350" />
-    <car tires="0" damage="0.247492" road1mtr="0" />
+    <car tires="0" damage="0.247492" />
     <start pos="133.218 -30.7895 71.8364" rot="-0.0116588 -0.0146992 -0.712893 0.701044" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Savanna" />
     <sky material="sky/dayovercast" rainName="RainFastA" rainEmit="601" />

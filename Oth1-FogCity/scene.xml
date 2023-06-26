@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="V8-Uncertain" secEd="55" />
-    <car tires="1" damage="0.497041" road1mtr="0" />
+    <car tires="1" damage="0.497041" />
     <start pos="-4.59008 30.3143 61.3729" rot="-2.3843e-07 -1.16899e-07 -0.0217972 -0.999765" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="ForestDense" />
     <sky material="sky/dark_clouds" />

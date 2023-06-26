@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3009" baseTrk="" secEd="1085" />
+    <ver num="3012" baseTrk="" secEd="1556" />
     <car tires="0" />
     <start pos="39.4121 51.9231 -19.0149" rot="-0.000338 -2.00004e-06 -0.999974 -0.00826884" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Rocky" />
@@ -7,7 +7,9 @@
     <fog color="0.167 0.108 0.740 1.000 0.000" color2="0.583 0.133 0.600 1.000 0.000" linStart="159.997" linEnd="768.8" />
     <fogH color="0.000 0.000 0.300 0.900 0.000" height="-16.4261" dens="19.845" linStart="0" linEnd="45" />
     <light pitch="30.9023" yaw="59" ambient="0.000 0.000 0.560 1.000 0.000" diffuse="0.000 0.000 0.500 1.000 0.000" specular="0.000 0.000 0.500 1.000 0.000" />
-    <fluids />
+    <fluids>
+        <fluid name="water blue" pos="-22.3821 -21.628 -0.729347" rot="0 0 0" size="581.263 20 757.779" tile="0.01 0.01" />
+    </fluids>
     <terrains>
         <terrain ofsZ="1.2" triangle="1.2">
             <texture on="1" file="grass_ground_d.jpg" fnorm="grass_ground_n.jpg" scale="6.50559" surf="GrassForest" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.148 0.818 0.220 0.900 0.000" angMin="0" angMax="20.4305" angSm="5.41474" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
@@ -65,6 +67,9 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
     <cam pos="216.49 18.5619 -78.2321" dir="-0.953443 -0.12167 0.275941" />
-    <objects />
+    <objects>
+        <o name="balloon2clr" pos="60.9428 27.1632 -18.4538" rot="0 -1 0 0" sc="1.2725 1.2725 1.2725" />
+        <o name="balloon2clr" pos="26.5142 13.9116 -20.0228" rot="0.72626 -0.68742 0 0" sc="1.63544 1.63544 1.63544" />
+    </objects>
     <emitters />
 </scene>

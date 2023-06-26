@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="Mos3-Air" secEd="40539" />
-    <car tires="0" damage="0.49789" road1mtr="0" gravity="7.49034" />
+    <car tires="0" damage="0.49789" gravity="7.49034" />
     <start pos="221.777 62.4511 0.603079" rot="-0.00712693 -0.00756803 -0.68534 0.728196" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Jungle" />
     <sky material="sky/gray_clouded" />

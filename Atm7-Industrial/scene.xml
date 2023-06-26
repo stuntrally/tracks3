@@ -1,11 +1,11 @@
 <scene>
-    <ver num="3012" baseTrk="Industrypark" secEd="5784" />
-    <car tires="0" damage="0.39645" road1mtr="0" />
+    <ver num="3012" baseTrk="Industrypark" secEd="6245" />
+    <car tires="0" damage="0.39645" />
     <start pos="-75.9745 236.059 36.644" rot="0.0193772 -0.0114839 0.860079 0.509681" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Canyon" />
     <sky material="sky/foggy_gen" rainName="RainFine" rainEmit="694" />
-    <fog color="0.882 0.159 0.086 1.259 0.122" color2="0.556 0.426 0.131 1.729 0.114" linStart="46.1408" linEnd="350.656" />
-    <fogH color="0.182 0.064 0.328 0.891 0.000" height="61.6408" dens="68.0838" linStart="0" linEnd="106.351" />
+    <fog color="0.882 0.339 0.086 0.779 0.045" color2="0.556 0.581 0.126 1.046 0.062" linStart="46.1408" linEnd="720.897" />
+    <fogH color="0.182 0.064 0.188 0.891 0.000" height="61.6408" dens="68.0838" linStart="0" linEnd="106.351" />
     <light pitch="24" yaw="47" ambient="0.056 0.750 0.410 0.000 0.000" diffuse="0.167 0.446 0.424 0.000 0.000" specular="0.167 0.600 0.570 1.259 0.000" />
     <fluids />
     <terrains>
@@ -35,13 +35,13 @@
             <par dust="Dust" mud="Mud" smoke="Smoke" />
         </terrain>
         <terrain ofsZ="0" triangle="9.95081" horiz="1">
-            <texture on="1" file="ground_dry2_d.jpg" fnorm="ground_dry2_n.jpg" scale="9.49189" surf="DesertFast" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 0.667 0.150 0.800 0.000" angMin="0" angMax="16.5913" angSm="6.6623" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="1" file="ground_dry2_d.jpg" fnorm="ground_dry2_n.jpg" scale="17.3008" surf="DesertFast" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 0.667 0.150 0.800 0.000" angMin="0" angMax="16.5913" angSm="6.6623" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="24.7337" oct0="3" prs0="0.3" pow0="1.16264" frq1="40.5028" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
-            <texture on="1" file="ground_mud_d.jpg" fnorm="ground_mud_n.jpg" scale="11.2567" surf="GrassJungleWet" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.133 0.667 0.300 0.700 0.000" angMin="16.2783" angMax="34.1217" angSm="16.2426" hMin="-300" hMax="300" hSm="3.05344" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="1" file="ground_mud_d.jpg" fnorm="ground_mud_n.jpg" scale="22.1229" surf="GrassJungleWet" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.133 0.667 0.300 0.700 0.000" angMin="16.2783" angMax="34.1217" angSm="16.2426" hMin="-300" hMax="300" hSm="3.05344" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="63.0781" oct0="3" prs0="0.479826" pow0="6.00393" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
-            <texture on="1" file="mntn_brown_d.jpg" fnorm="mntn_brown_n.jpg" scale="24.5076" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 0.565 0.230 0.800 0.000" angMin="39.1019" angMax="90" angSm="20.3011" hMin="-300" hMax="300" hSm="10.9649" nOn="0" triplanar="1" noise="0.0152671" n_1="0.60339" n2="0">
+            <texture on="1" file="mntn_brown_d.jpg" fnorm="mntn_brown_n.jpg" scale="49.9564" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 0.565 0.230 0.800 0.000" angMin="39.1019" angMax="90" angSm="20.3011" hMin="-300" hMax="600" hSm="10.9649" nOn="0" triplanar="1" noise="0.0152671" n_1="1" n2="0">
                 <noise frq0="37.5366" oct0="3" prs0="0.3" pow0="3.67874" frq1="39.3769" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="0" file="" fnorm="" scale="12.9194" surf="GrassForest" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.083 1.000 0.200 0.700 0.000" angMin="0" angMax="90" angSm="10.3053" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.137405" n_1="0" n2="0">
@@ -89,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
-    <cam pos="-307.537 183.794 -132.817" dir="0.559438 -0.437747 0.703851" />
+    <cam pos="109.047 145.993 -204.594" dir="-0.531369 -0.182636 0.827219" />
     <objects>
         <o name="concrete_bar" pos="252.972 -171.714 50.6593" rot="-0.0293278 -0.998938 0.019785 0.0294977" sc="1.56806 1.30207 0.780351" />
         <o name="concrete_bar" pos="257.289 -172.222 50.5686" rot="-0.0706211 -0.996904 0.0341074 0.0057299" sc="1.93189 1.3198 0.646272" />
