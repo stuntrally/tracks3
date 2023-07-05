@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3009" baseTrk="" secEd="360" />
+    <ver num="3012" baseTrk="" secEd="435" />
     <car tires="0" />
     <start pos="2.58792 60.4404 1.88276" rot="1e-06 1.61648e-13 -0.818097 -0.575102" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="ForestDense" />
     <sky material="sky/dawn" />
-    <fog color="0.111 0.563 0.800 1.000 0.000" color2="0.167 0.167 0.600 1.000 0.000" linStart="0" linEnd="357.013" />
-    <fogH color="0.111 0.231 0.650 0.900 0.000" height="2.45999" dens="5.61125" linStart="0" linEnd="122.513" />
-    <light pitch="28.6259" yaw="-6.87024" ambient="0.167 0.140 0.500 1.000 0.000" diffuse="0.125 0.333 0.600 1.000 0.000" specular="0.083 0.333 0.600 1.000 0.000" />
+    <fog color="0.111 0.754 0.800 1.000 0.000" color2="0.167 0.407 0.600 1.000 0.000" linStart="0" linEnd="357.013" />
+    <fogH color="0.111 0.750 0.650 0.900 0.000" height="2.45999" dens="5.61125" linStart="0" linEnd="122.513" />
+    <light pitch="28.6259" yaw="-6.87024" ambient="0.167 0.140 0.500 1.000 0.000" diffuse="0.125 0.333 0.600 1.000 0.000" specular="0.083 0.333 0.725 0.900 0.000" />
     <fluids>
         <fluid name="water cyan" pos="-0.650445 -2.13021 1.15379" rot="0 0 0" size="389.65 15 387.72" tile="0.00740517 0.00740517" />
     </fluids>

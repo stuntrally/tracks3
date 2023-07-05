@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3012" baseTrk="" secEd="2396" />
+    <ver num="3012" baseTrk="" secEd="3443" />
     <car tires="0" damage="1.49833" gravity="5.00118" />
     <start pos="139.593 57.0959 37.153" rot="0.119169 0.0253002 -0.913869 0.387357" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Crystals" />
     <sky material="sky/magicdark" />
-    <fog color="0.694 1.000 0.250 1.000 0.000" color2="0.711 1.000 0.330 0.636 1.000" linStart="52.5867" linEnd="758.34" />
+    <fog color="0.694 0.944 0.251 1.000 0.205" color2="0.711 0.899 0.330 0.636 0.529" linStart="85.9537" linEnd="917.592" />
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-200" dens="100" linStart="0" linEnd="400" />
-    <light pitch="31.5789" yaw="-24.812" ambient="0.640 0.512 0.223 0.000 0.000" diffuse="0.612 0.240 0.292 0.000 0.000" specular="0.599 0.791 5.000 0.000 0.000" />
+    <light pitch="31.5789" yaw="-24.812" ambient="0.000 0.110 0.227 0.636 0.000" diffuse="0.948 0.638 0.781 0.636 0.000" specular="0.599 0.785 5.000 0.636 0.000" />
     <fluids />
     <terrains>
         <terrain ofsZ="1.27731" triangle="1.27731">

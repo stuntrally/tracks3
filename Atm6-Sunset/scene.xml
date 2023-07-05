@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3009" baseTrk="" secEd="426" />
+    <ver num="3012" baseTrk="" secEd="533" />
     <car tires="0" />
     <start pos="-80.7289 -24.0382 2.40216" rot="1e-06 -1e-06 -0.959632 0.28142" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="ForestDense" />
     <sky material="sky/sunset_gen" skyYaw="40.1504" />
-    <fog color="0.064 0.566 0.830 0.800 0.000" color2="0.044 0.341 0.440 1.000 0.000" linStart="123.127" linEnd="502.509" />
+    <fog color="0.064 0.874 0.830 0.800 0.000" color2="0.044 0.771 0.440 1.000 0.000" linStart="123.127" linEnd="502.509" />
     <fogH color="0.145 0.315 0.730 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400" />
-    <light pitch="23.6842" yaw="45" ambient="0.056 0.750 0.700 1.000 0.000" diffuse="0.167 0.250 0.800 1.000 0.000" specular="0.167 0.600 1.000 1.000 0.000" />
+    <light pitch="23.6842" yaw="45" ambient="0.056 0.816 0.700 0.000 0.000" diffuse="0.167 0.486 0.800 0.000 0.000" specular="0.167 0.700 1.000 0.000 0.000" />
     <fluids />
     <terrains>
         <terrain ofsZ="1.05902" triangle="1.05902">
@@ -64,7 +64,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
-    <cam pos="200.951 26.649 6.68628" dir="-0.944794 -0.121111 0.304673" />
+    <cam pos="200.951 26.649 6.68628" dir="-0.944733 -0.121103 0.304653" />
     <objects>
         <o name="big_tire" pos="-66.7062 218.052 -0.239141" rot="0.0684601 0.157857 -0.0215056 0.984851" />
         <o name="big_tire" pos="-62.155 223.43 -0.518901" rot="0.0181488 0.994044 0.0240902 -0.10472" />

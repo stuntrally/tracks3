@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3012" baseTrk="Industrypark" secEd="6245" />
+    <ver num="3012" baseTrk="Industrypark" secEd="6414" />
     <car tires="0" damage="0.39645" />
     <start pos="-75.9745 236.059 36.644" rot="0.0193772 -0.0114839 0.860079 0.509681" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Canyon" />
@@ -89,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
-    <cam pos="109.047 145.993 -204.594" dir="-0.531369 -0.182636 0.827219" />
+    <cam pos="136.688 130.799 -74.4337" dir="-0.766956 -0.190538 0.612759" />
     <objects>
         <o name="concrete_bar" pos="252.972 -171.714 50.6593" rot="-0.0293278 -0.998938 0.019785 0.0294977" sc="1.56806 1.30207 0.780351" />
         <o name="concrete_bar" pos="257.289 -172.222 50.5686" rot="-0.0706211 -0.996904 0.0341074 0.0057299" sc="1.93189 1.3198 0.646272" />
