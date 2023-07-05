@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3009" baseTrk="X3-Cloud" secEd="1129" />
+    <ver num="3012" baseTrk="X3-Cloud" secEd="2422" />
     <car tires="0" />
     <start pos="62.935 -72.9789 -10.572" rot="-0.003875 -0.000770001 -0.999911 0.0193402" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Forest" />
     <sky material="sky/day_blue2" />
-    <fog color="0.595 0.087 0.800 1.000 0.000" color2="0.595 0.087 0.800 1.000 0.000" linStart="127.512" linEnd="779.696" />
+    <fog color="0.581 0.438 0.388 1.000 0.000" color2="0.595 0.589 0.497 1.000 0.000" linStart="62.3187" linEnd="1064.88" />
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400" />
     <light pitch="60" yaw="-40" ambient="0.000 0.000 0.560 1.000 0.000" diffuse="0.167 0.027 0.750 1.000 0.000" specular="0.167 0.022 0.890 1.000 0.000" />
     <fluids>
@@ -20,6 +20,31 @@
                 <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="1" file="jungle_mntn_d.jpg" fnorm="jungle_mntn_n.jpg" scale="26" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 0.600 0.000" angMin="34.6967" angMax="90" angSm="12.0941" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="jungle_mntn2_d.jpg" fnorm="jungle_mntn2_n.jpg" scale="26" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 0.600 0.000" angMin="33.6399" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.049212" n_1="0" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture road="1" surf="roadJungle" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.167 0.333 0.300 0.700 0.000" />
+            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <texture road="3" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <texture road="4" surf="roadDesert" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000" />
+            <par dust="Dust" mud="Mud" smoke="Smoke" />
+        </terrain>
+        <terrain ofsZ="0" triangle="10.0118">
+            <texture on="1" file="grass_ground_d.jpg" fnorm="grass_ground_n.jpg" scale="38.5794" surf="GrassForest" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.148 0.818 0.220 0.900 0.000" angMin="0" angMax="17.0841" angSm="7.07231" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1.00877" n_1="0" n2="0.269231">
+                <noise frq0="6.00871" oct0="4" prs0="0.518349" pow0="2.17393" frq1="10.8609" oct1="3" prs1="0.499083" pow1="1.99804" />
+            </texture>
+            <texture on="1" file="ground_mud_d.jpg" fnorm="ground_mud_n.jpg" scale="22.2167" surf="GrassJungleWet" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.133 0.667 0.300 0.700 0.000" angMin="19.5301" angMax="34.4295" angSm="11.2211" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.335568" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2" />
+            </texture>
+            <texture on="1" file="jungle_mntn_d.jpg" fnorm="jungle_mntn_n.jpg" scale="70.3041" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 0.600 0.000" angMin="34.6967" angMax="90" angSm="12.0941" hMin="-300" hMax="600" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0.659763" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2" />
             </texture>
             <texture on="0" file="jungle_mntn2_d.jpg" fnorm="jungle_mntn2_n.jpg" scale="26" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 0.600 0.000" angMin="33.6399" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.049212" n_1="0" n2="0">
@@ -67,7 +92,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
     </paged>
-    <cam pos="332.408 94.2283 17.0973" dir="-0.937508 -0.346732 -0.0292397" />
+    <cam pos="332.408 94.2283 17.0973" dir="-0.937508 -0.346732 -0.0292398" />
     <objects />
     <emitters />
 </scene>

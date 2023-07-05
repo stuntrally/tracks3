@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="229.867" lodPntLen="28.8249" visDist="1000" visBehind="800" />
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 7.2399 15.896" iDir="-1" iChk1="18" />
     <stats length="1508.03" width="10.1304" height="49.3026" onTer="12.3925" pipes="0" bnkAvg="4.28842" bnkMax="17.7762" />
-    <txt desc="Muddy road around a center hill." />
-    <adv ice="Difficult, seriously bumpy road." />
+    <txt desc="Road around a center hill in a muddy forest scenery." />
+    <adv ice="Difficult, seriously bumpy road. Can be seen on minimap as varying black and white." />
     <P pos="91.7492 0 71.3416" w="10.1705" aT="2" />
     <P pos="-6.5652 0 145.637" w="10.1705" aT="2" chkR="1.416" />
     <P pos="53.1578 0 225.66" w="10.1705" aT="2" chkR="1.524" />
