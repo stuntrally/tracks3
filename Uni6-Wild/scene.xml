@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3012" baseTrk="" secEd="1641"/>
+    <ver num="3012" baseTrk="" secEd="2178"/>
     <car tires="0"/>
     <start pos="237.215 -50.6029 32.1041" rot="0.063689 -0.010281 -0.748136 0.660414" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="UnidentMntn"/>

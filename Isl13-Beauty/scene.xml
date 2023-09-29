@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3012" baseTrk="" secEd="631"/>
+    <ver num="3012" baseTrk="" secEd="846"/>
     <car tires="0"/>
     <start pos="101.46 -158.127 6.97301" rot="-3.55271e-15 3.55271e-15 0.589176 0.80801" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
     <sky material="sky/sunset_gen" skyYaw="27.5188"/>
     <fog color="0.061 0.816 0.502 0.800 0.000" color2="0.083 0.343 0.093 0.900 0.000" linStart="192.2" linEnd="836.06995"/>
     <fogH color="0.333 0.159 0.155 1.000 0.000" height="14.2235" dens="94.656" linStart="0" linEnd="32.5125"/>
-    <light pitch="16" yaw="43.4241" ambient="0.059 0.362 0.719 0.000 0.000" diffuse="0.083 0.267 0.879 0.000 0.000" specular="0.110 0.463 0.255 1.000 0.000"/>
+    <light pitch="16" yaw="43.4241" ambient="0.059 0.362 0.719 0.000 0.000" diffuse="0.083 0.267 0.813 0.900 0.000" specular="0.110 0.463 0.448 0.900 0.000"/>
     <fluids>
         <fluid name="water sunset cyan" pos="0.104229 3.33022 -0.0285969" rot="0 0 0" size="8000 60 8000" tile="0.00892702 0.00868648"/>
     </fluids>
@@ -66,7 +66,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="559.919 87.9519 107.817" dir="-0.96465325 -0.15810305 0.21082616"/>
+    <cam pos="559.919 87.9519 107.817" dir="-0.9646533 -0.15810308 0.21082652"/>
     <objects>
         <o name="watchtower" pos="-171.103 -267.529 56.2583" rot="0 -1 0 0" sc="1.25946 1.25946 1.25946"/>
         <o name="wood_block" pos="384.309 -249.925 42.4313" rot="0.540648 0.838618 -0.0177777 0.0640624"/>

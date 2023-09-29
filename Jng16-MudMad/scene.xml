@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3012" baseTrk="" secEd="495"/>
+    <ver num="3012" baseTrk="" secEd="806"/>
     <car tires="0"/>
     <start pos="42.4758 -52.6683 8.07214" rot="-0.028062 -0.047499 -0.00449584 0.998478" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Jungle"/>
@@ -73,7 +73,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="15.24536 9.634192 17.486824" dir="0.2743312 -0.16393323 -0.9475591"/>
+    <cam pos="14.739541 9.729965 21.90937" dir="0.2743312 -0.16393323 -0.9475591"/>
     <objects>
         <o name="crate2s" pos="81.019 76.2239 0.396917" rot="0.373036 0.927671 0.016358 -0.00141364"/>
         <o name="crate2s" pos="94.8562 17.4905 0.0300651" rot="0.11325 0.992701 -0.0370651 0.0185765"/>

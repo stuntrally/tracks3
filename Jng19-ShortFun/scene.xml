@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3012" baseTrk="" secEd="230"/>
+    <ver num="3012" baseTrk="" secEd="283"/>
     <car tires="0"/>
     <start pos="-127.312 -1.8109 1.08909" rot="0.011065 0.023141 0.708398 0.705369" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Jungle"/>
     <sky material="sky/day_blue2"/>
     <fog color="0.533 0.222 0.900 1.000 0.000" color2="0.556 0.333 0.900 1.000 0.000" linStart="153.845" linEnd="1149.94"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="60" yaw="-40" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.167 0.031 0.620 1.000 0.000" specular="0.167 0.020 0.554 1.000 0.000"/>
+    <light pitch="60" yaw="-40" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.167 0.031 0.750 1.000 0.000" specular="0.167 0.020 0.859 1.000 0.000"/>
     <fluids>
         <fluid name="water blue" pos="148.386 -8.59029 185.527" rot="0 0 0" size="268.121 40 294.945" tile="0.01 0.01"/>
         <fluid name="mud soft" pos="-55.2033 8.16785 145.162" rot="0 0 0" size="60.3364 20 46.5946" tile="0.01 0.01"/>
@@ -67,7 +67,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="249.882 33.7241 110.535" dir="-0.98824316 -0.11801403 0.09720278"/>
+    <cam pos="249.882 33.7241 110.535" dir="-0.98824304 -0.118014015 0.09720278"/>
     <objects>
         <o name="crate2m" pos="153.943 -160.619 -7.27286" rot="0.496171 0.86816 0.0100132 0.00353455"/>
         <o name="crate2m" pos="182.697 -127.424 -6.69819" rot="0.940917 0.337725 0.000642523 0.0248149"/>
