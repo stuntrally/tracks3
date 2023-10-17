@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="1.5" wsPm="4" lsPm="1" stBox="1 5.232 16.892" iDir="-1" iChk1="40"/>
     <stats length="924.5211" width="6.7460823" height="18.919968" onTer="24.129942" pipes="0" bnkAvg="6.7891555" bnkMax="29.639988"/>
-    <txt desc="Small, slow and winding road around temple ruins in lush jungle."/>
-    <adv ice="Has very many water ponds, some are deep but safe. With short banked bridge."/>
+    <txt desc="Small, slow and winding road around temple ruins in lush mountain jungle."/>
+    <adv ice="Has many water ponds, some are deep but safe. With short banked bridge."/>
     <P pos="-70.4279 0 -70.1108" w="7.08" aT="2"/>
     <P pos="-87.576 0 -52.8369" w="7.08" aT="2"/>
     <P pos="-91.4151 0 -42.3046" w="6" aT="2"/>
