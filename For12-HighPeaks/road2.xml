@@ -1,19 +1,19 @@
 <SplineRoad>
-    <mtr type="1" road="River_cyan" pipe="pipeGlass" road2="River_white" road3="River_shore" />
-    <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1" />
-    <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800" />
-    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1.5 5 12" iDir="-1" iChk1="0" />
-    <stats length="71.5325" width="8.61668" height="39.0352" onTer="100" pipes="0" bnkAvg="0" bnkMax="0" />
-    <txt desc="" />
-    <adv ice="" />
-    <P pos="378.509 -2.98031 -235.064" w="8.65599" onTer="0" a="0" ar="0" aT="2" mtr="2" />
-    <P pos="372.84 2.78625 -236.29" w="7.21599" onTer="0" a="0" ar="0" aT="2" mtr="2" />
-    <P pos="368.48 7.4342 -236.674" w="7.264" onTer="0" a="0" ar="0" aT="2" mtr="2" />
-    <P pos="364.081 17.3042 -237.042" w="6.896" onTer="0" a="0" ar="0" aT="2" mtr="2" />
-    <P pos="358.731 25.6468 -237.795" w="6.512" onTer="0" a="0" ar="0" aT="2" mtr="2" />
-    <P pos="349.504 34.293 -239.09" w="7.39719" onTer="0" a="-7.49843" ar="-2.31919" aT="2" mtr="2" />
-    <P pos="345.893 35.6197 -239.883" w="9.00117" onTer="0" a="-7.49843" ar="-0.616787" aT="2" mtr="2" />
-    <P pos="340.871 35.6208 -239.788" w="9.68676" onTer="0" a="0" ar="0.822301" aT="2" mtr="2" />
-    <P pos="334.926 35.6101 -238.552" w="13.632" onTer="0" a="0" ar="0" aT="2" mtr="2" />
-    <P pos="327.901 35.3009 -238.1" w="9.288" onTer="0" a="0" ar="0" aT="2" mtr="2" />
+    <mtr type="1" road="River_cyan" pipe="pipeGlass" road2="River_white" road3="River_shore"/>
+    <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
+    <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1.5 5 12" iDir="-1" iChk1="0"/>
+    <stats length="71.65454" width="8.233496" height="38.714314" onTer="100" pipes="0" bnkAvg="0.3758256" bnkMax="2.3191993"/>
+    <txt desc=""/>
+    <adv ice=""/>
+    <P pos="378.509 -2.98031 -235.064" w="8.65599" onTer="0" a="0" ar="0" aT="2" mtr="2"/>
+    <P pos="372.84 2.78625 -236.29" w="7.21599" onTer="0" a="0" ar="0" aT="2" mtr="2"/>
+    <P pos="368.48 7.4342 -236.674" w="7.264" onTer="0" a="0" ar="0" aT="2" mtr="2"/>
+    <P pos="364.081 17.3042 -237.042" w="6.896" onTer="0" a="0" ar="0" aT="2" mtr="2"/>
+    <P pos="358.731 25.6468 -237.795" w="6.512" onTer="0" a="0" ar="0" aT="2" mtr="2"/>
+    <P pos="349.504 34.293 -239.09" w="7.39719" onTer="0" a="-7.49843" ar="-2.31919" aT="2" mtr="2"/>
+    <P pos="345.893 35.6197 -239.883" w="9.00117" onTer="0" a="-7.49843" ar="-0.616787" aT="2" mtr="2"/>
+    <P pos="340.871 35.6208 -239.788" w="9.68676" onTer="0" a="0" ar="0.822301" aT="2" mtr="2"/>
+    <P pos="334.926 35.6101 -238.552" w="13.632" onTer="0" a="0" ar="0" aT="2" mtr="2"/>
+    <P pos="327.901 35.3009 -238.1" w="9.288" onTer="0" a="0" ar="0" aT="2" mtr="2"/>
 </SplineRoad>

@@ -2,7 +2,7 @@
     <mtr type="0" road="roadSand" pipe="pipeAsphalt" road2="roadDesertD"/>
     <dim tcMul="0.0755243" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
-    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 4.76 15.1924" iDir="-1" iChk1="31"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.199044 15.1924" iDir="-1" iChk1="31"/>
     <stats length="1304.6676" width="8.069594" height="7.0737896" onTer="0" pipes="0" bnkAvg="8.225325" bnkMax="30.58685"/>
     <txt desc="Small island track with few buildings."/>
     <adv ice="Curly road with 2 broad U-turns and 2 banked circle turns."/>

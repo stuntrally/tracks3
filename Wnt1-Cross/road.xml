@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.212 11.768" iDir="-1" iChk1="66"/>
     <stats length="2382.98" width="8.18294" height="40.7824" onTer="16.6122" pipes="4.23726" bnkAvg="3.14422" bnkMax="17.0273"/>
-    <txt desc="A winter crossing with looping and jump."/>
-    <adv ice="Snowing and slippery. Slow down very much, early before turns."/>
+    <txt desc="A difficult winter crossing with looping and jump."/>
+    <adv ice="Snowing, slippery and strong wind. Slow down very much, early before turns. Partly also bumpy."/>
     <P pos="175.566 0 -7.76483" w="7.976" aT="2"/>
     <P pos="218.864 0 -6.55581" w="7.976" aT="2" mtr="2" chkR="2.104"/>
     <P pos="244.11 0 -12.6518" w="7.976" aT="2"/>
