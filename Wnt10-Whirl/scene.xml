@@ -1,70 +1,70 @@
 <scene>
-    <ver num="3009" baseTrk="TestC4-ow" secEd="11" />
-    <car tires="0" />
-    <start pos="4.33075 66.4849 30.4373" rot="-0.029913 0.029916 -0.71171 0.701213" pos2="0 0 0" rot2="0 0 0 1" />
-    <sound ambient="" reverbs="Mountains" />
-    <sky material="sky/white2" rainName="Snow" rainEmit="2820" rain2Name="SnowFine" rain2Emit="1425" />
-    <fog color="0.528 0.061 0.980 1.000 0.000" color2="0.528 0.062 0.970 0.950 0.000" linStart="0" linEnd="259.2" />
-    <fogH color="0.000 0.000 0.800 1.000 0.000" height="13.2038" dens="25.205" linStart="0" linEnd="22.05" />
-    <light pitch="48.5266" yaw="45" ambient="0.000 0.000 0.400 1.000 0.000" diffuse="0.000 0.000 0.600 1.000 0.000" specular="0.000 0.000 0.300 1.000 0.000" />
-    <fluids />
+    <ver num="3016" baseTrk="TestC4-ow" secEd="231"/>
+    <car tires="0"/>
+    <start pos="4.33075 66.4849 30.4373" rot="-0.029913 0.029916 -0.71171 0.701213" pos2="0 0 0" rot2="0 0 0 1"/>
+    <sound ambient="" reverbs="Mountains"/>
+    <sky material="sky/white2" rainName="Snow" rainEmit="2820" rain2Name="SnowFine" rain2Emit="1425"/>
+    <fog color="0.528 0.061 0.980 1.000 0.000" color2="0.528 0.062 0.970 0.950 0.000" linStart="0" linEnd="259.2"/>
+    <fogH color="0.000 0.000 0.800 1.000 0.000" height="13.2038" dens="25.205" linStart="0" linEnd="22.05"/>
+    <light pitch="48.5266" yaw="45" ambient="0.000 0.000 0.592 0.000 0.000" diffuse="0.000 0.000 0.304 0.000 0.000" specular="0.000 0.000 0.304 0.000 0.000"/>
+    <fluids/>
     <terrains>
-        <terrain ofsZ="1.18114" triangle="1.18114">
+        <terrain ofsZ="1.18114" triangle="1.18114" diff="1.2 1.2 1.2">
             <texture on="0" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="4.5" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="13.6912" angSm="11.6776" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.102908" n_1="0" n2="0">
-                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="snow1_d.jpg" fnorm="snow1_n.jpg" scale="6.5" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="19.726" angSm="5.90122" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.998652" n_1="0" n2="0">
-                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="0.744403" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="0.744403" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="9.5" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="24.6575" angMax="38.2192" angSm="8.95089" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1.0027" n_1="0" n2="1">
-                <noise frq0="18.8916" oct0="3" prs0="0.405284" pow0="2.34547" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="18.8916" oct0="3" prs0="0.405284" pow0="2.34547" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="snow_rough_d.jpg" fnorm="snow_rough_n.jpg" scale="12" surf="SnowDeep" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="41.0372" angMax="53.3659" angSm="8.95089" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="1" n2="0">
-                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5299" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5299" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="50.7552" surf="SnowDeep" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="53.3659" angMax="90" angSm="10.5463" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="-0.228188" n_1="0" n2="0">
-                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
-                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2" />
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture road="1" surf="roadSnow" dust="0.3" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000" />
-            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
-            <texture road="3" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
-            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000" />
-            <par dust="SnowDust" mud="SnowMud" smoke="Smoke" />
+            <texture road="1" surf="roadSnow" dust="0.3" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
         </terrain>
     </terrains>
     <paged densGrass="0.05" densTrees="0.4" grPage="100" grDist="100" grDensSmooth="6" trPage="100" trDist="200" trDistImp="800" trRdDist="1">
-        <grass on="1" mtr="grassWinter" clr="grClrWinter.png" dens="0.0749458" chan="0" minSx="0.785277" maxSx="1.06066" minSy="0.431959" maxSy="0.650151" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <grass on="1" mtr="grass18w" clr="grClrWinter.png" dens="0.104921" chan="0" minSx="1.11329" maxSx="1.39749" minSy="0.710675" maxSy="0.959611" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <grass on="1" mtr="grass11w" clr="grClrJungle.png" dens="0.0357463" chan="0" minSx="0.710675" maxSx="1.03487" minSy="0.731551" maxSy="0.959611" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <grass on="0" mtr="grass11wg" clr="grClrWinter.png" dens="0.0349335" chan="0" minSx="1.35262" maxSx="1.53682" minSy="1.65011" maxSy="1.96115" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <grass on="0" mtr="grassJungle" clr="grClrJungle.png" dens="0.0280516" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <grass on="0" mtr="grassJungle" clr="grClrJungle.png" dens="0.107768" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <grass on="0" mtr="grassJungle" clr="grClrJungle.png" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <grass on="0" mtr="grassJungle" clr="grClrJungle.png" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <grass on="0" mtr="grassJungle" clr="grClrJungle.png" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5" />
-        <gchan amin="0" amax="16" asm="3" hmin="-200" hmax="76" hsm="5" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0" />
-        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="52" oct="3" prs="0.3" pow="1.2" rd="0" />
-        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="79" oct="3" prs="0.3" pow="1.2" rd="0" />
-        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="106" oct="3" prs="0.3" pow="1.2" rd="0" />
-        <layer on="1" name="fir05w.mesh" dens="0.172788" minScale="0.0399916" maxScale="0.0819476" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="2.79993" windFy="0.0999805" maxTerAng="23.5962" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="1" name="pine1_full.mesh" dens="0.449997" minScale="0.711215" maxScale="0.853076" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.163895" windFy="0.0415752" maxTerAng="21.2381" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="1" name="pine2_tall_full.mesh" dens="0.251" minScale="0.51386" maxScale="0.953559" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.0985484" windFy="0.0287261" maxTerAng="25.4461" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="1" name="rock_n1-W.mesh" dens="0.155091" minScale="0.637702" maxScale="1.00064" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="39.2144" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="1" name="rock_n5v-W.mesh" dens="0.136734" minScale="0.506229" maxScale="0.68302" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="30.625" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="1" name="rock_n4r-W.mesh" dens="0.148281" minScale="0.305434" maxScale="0.6466" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="33.6916" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.144934" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5" />
+        <grass on="1" mtr="grassWinter" dens="0.0749458" chan="0" minSx="0.785277" maxSx="1.06066" minSy="0.431959" maxSy="0.650151" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass18w" dens="0.104921" chan="0" minSx="1.11329" maxSx="1.39749" minSy="0.710675" maxSy="0.959611" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass11w" dens="0.0357463" chan="0" minSx="0.710675" maxSx="1.03487" minSy="0.731551" maxSy="0.959611" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grass11wg" dens="0.0349335" chan="0" minSx="1.35262" maxSx="1.53682" minSy="1.65011" maxSy="1.96115" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.0280516" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.107768" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <gchan amin="0" amax="16" asm="3" hmin="-200" hmax="76" hsm="5" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="52" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="79" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="106" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <layer on="1" name="fir05w.mesh" dens="0.172788" minScale="0.0399916" maxScale="0.0819476" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="2.79993" windFy="0.0999805" maxTerAng="23.5962" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="pine1_full.mesh" dens="0.449997" minScale="0.711215" maxScale="0.853076" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.163895" windFy="0.0415752" maxTerAng="21.2381" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="pine2_tall_full.mesh" dens="0.251" minScale="0.51386" maxScale="0.953559" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.0985484" windFy="0.0287261" maxTerAng="25.4461" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock_n1-W.mesh" dens="0.155091" minScale="0.637702" maxScale="1.00064" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="39.2144" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock_n5v-W.mesh" dens="0.136734" minScale="0.506229" maxScale="0.68302" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="30.625" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock_n4r-W.mesh" dens="0.148281" minScale="0.305434" maxScale="0.6466" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="33.6916" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.144934" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="154.656 55.3858 40.3356" dir="-0.925077 -0.12127 0.359896" />
-    <objects />
-    <emitters />
+    <cam pos="154.656 55.3858 40.3356" dir="-0.9250775 -0.121270075 0.35989606"/>
+    <objects/>
+    <emitters/>
 </scene>

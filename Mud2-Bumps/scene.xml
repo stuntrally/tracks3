@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="2166"/>
+    <ver num="3016" baseTrk="" secEd="2338"/>
     <car tires="0"/>
     <start pos="93.5533 -71.9223 3.52376" rot="0.005176 -0.017637 -0.275356 -0.961188" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
@@ -61,15 +61,15 @@
         </terrain>
     </terrains>
     <paged densGrass="0.15" densTrees="0.5" grPage="80" grDist="80" grDensSmooth="6" trPage="100" trDist="150" trDistImp="800" trRdDist="0">
-        <grass on="1" mtr="grass17" cl="0.000 0.000 1.000 1.000 0.000" dens="0.48591" chan="0" minSx="1.23684" maxSx="1.39749" minSy="1.18105" maxSy="1.50525" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass6s" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0716502" chan="0" minSx="1.80207" maxSx="1.92518" minSy="2.01575" maxSy="2.22271" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass8g" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0635" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.47402" maxSy="1.78484" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass3g" cl="0.000 0.000 1.000 1.000 0.000" dens="0.082275" chan="0" minSx="1.0868" maxSx="1.29403" minSy="1.18105" maxSy="1.47402" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass16r" cl="0.000 0.000 1.000 1.000 0.000" dens="0.10386" chan="0" minSx="1.60103" maxSx="1.80207" minSy="1.45854" maxSy="1.66664" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass16g" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0749458" chan="0" minSx="2.03413" maxSx="2.14623" minSy="2.48099" maxSy="3.15671" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass17" dens="0.48591" chan="0" minSx="1.23684" maxSx="1.39749" minSy="1.18105" maxSy="1.50525" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass6s" dens="0.0716502" chan="0" minSx="1.80207" maxSx="1.92518" minSy="2.01575" maxSy="2.22271" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass8g" dens="0.0635" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.47402" maxSy="1.78484" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grass3g" dens="0.082275" chan="0" minSx="1.0868" maxSx="1.29403" minSy="1.18105" maxSy="1.47402" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass16r" dens="0.10386" chan="0" minSx="1.60103" maxSx="1.80207" minSy="1.45854" maxSy="1.66664" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grass16g" dens="0.0749458" chan="0" minSx="2.03413" maxSx="2.14623" minSy="2.48099" maxSy="3.15671" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <gchan amin="0" amax="19.1644" asm="8.61517" hmin="-200" hmax="38.2201" hsm="16.4062" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="37" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="49" oct="3" prs="0.3" pow="1.2" rd="0"/>
@@ -89,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="193.404 59.2524 211.851" dir="-0.891597 -0.182014 -0.41464"/>
+    <cam pos="51.428303 56.040134 275.6173" dir="-0.67721754 -0.15624967 -0.71900105"/>
     <objects/>
     <emitters>
         <e name="Cloud5" pos="-1150.26 564.69 2370.55" sc="2217.13 176.42 1090.28" up="0 1 0" rot="0" rate="81.8907" st="1" psc="2.47832"/>

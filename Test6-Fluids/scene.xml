@@ -9,7 +9,7 @@
     <light pitch="44.9995" yaw="0" ambient="0.000 0.000 0.550 1.000 0.000" diffuse="0.167 0.035 0.850 1.000 0.000" specular="0.167 0.020 0.194 1.000 0.000" />
     <fluids>
         <fluid name="mud med" pos="-120 -5.5 0" rot="0 0 0" size="50 20 50" tile="0.01 0.01" />
-        <fluid name="mud hard" pos="-90 -17 -120" rot="0 0 0" size="180 40 180" tile="0.01 0.01" />
+        <fluid name="mud hard JD" pos="-90 -17 -120" rot="0 0 0" size="180 40 180" tile="0.01 0.01" />
         <fluid name="mud easy soft" pos="-90 -14.6 160" rot="0 0 0" size="180 40 180" tile="0.01 0.01" />
         <fluid name="mud med JD" pos="130 -10 -100" rot="0 0 0" size="210 40 290" tile="0.01 0.01" />
         <fluid name="mud soft JD" pos="130 -7.8 160" rot="0 0 0" size="180 40 180" tile="0.01 0.01" />

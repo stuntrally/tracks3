@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="966.662" lodPntLen="20.2662" visDist="1000" visBehind="800"/>
     <geom colN="5" colR="2.11402" wsPm="4" lsPm="1" stBox="1 5 14.416" iDir="1" iChk1="189"/>
     <stats length="3401.5442" width="8.299483" height="67.028915" onTer="21.09673" pipes="6.7852654" bnkAvg="12.235021" bnkMax="87.78001"/>
-    <txt desc="Strange place in a strange forest with extremely bumpy and banked roads, sometimes sudden. Caution: The molten lava rock is quite hot and damaging!"/>
-    <adv ice="if you see a satellite, don&apos;t turn, drive through"/>
+    <txt desc="Bizarre place in a strange forest with extremely twisted road. Has few odd loops. Caution: The molten lava rock is quite hot and damaging."/>
+    <adv ice="Warning: slowest track. Curly, twisted, banked and bumpy road, full of very sudden turns. Use all driving aids for direction. If you see a satellite, drive through. Tall loop needs a bit of boost."/>
     <P pos="12.4779 0 -127.547" w="7.92" a="0" ar="7.5" aT="2" mtr="1"/>
     <P pos="-2.62937 0 -106.001" w="6.504" aT="2" mtr="1"/>
     <P pos="-7.0911 0 -94.9953" w="5.224" aT="2" mtr="1" chkR="1.736"/>

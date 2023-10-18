@@ -1,18 +1,18 @@
 <scene>
-    <ver num="3012" baseTrk="" secEd="551"/>
+    <ver num="3016" baseTrk="" secEd="946"/>
     <car tires="0"/>
     <start pos="-59.3236 3.10192 4.33741" rot="-5.55112e-17 -5.55112e-17 0.703943 0.710259" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Islands"/>
     <sky material="sky/sunset_rays_gen" skyYaw="-13.0827"/>
-    <fog color="0.041 0.926 0.492 0.600 0.000" color2="0.056 0.616 0.120 0.900 0.000" linStart="128.152" linEnd="729.656"/>
-    <fogH color="0.056 0.500 0.637 0.500 0.000" height="15.5388" dens="75.375" linStart="0" linEnd="57.8"/>
+    <fog color="0.052 0.915 0.233 0.831 0.000" color2="0.056 0.616 0.175 0.900 0.000" linStart="2604.7805" linEnd="9000"/>
+    <fogH color="0.056 0.500 0.397 0.406 0.000" height="-42.670532" dens="7.0108542" linStart="0" linEnd="57.8"/>
     <light pitch="8" yaw="0" ambient="0.029 0.405 0.420 1.000 0.000" diffuse="0.085 0.483 0.800 0.000 0.000" specular="0.087 0.934 0.700 0.600 0.000"/>
     <fluids>
-        <fluid name="water sunset" pos="-0.493078 -2 5.89115" rot="0 0 0" size="8000 40 8000" tile="0.00482925 0.00508187"/>
-        <fluid name="water pink" pos="2.50786 -0.87047 -95.0494" rot="0 0 0" size="61.2405 20 55.1558" tile="0.01 0.01"/>
+        <fluid hq="2" name="water sunset" pos="-0.493078 -2 5.89115" rot="0 0 0" size="8000 40 8000" tile="0.00482925 0.00508187"/>
+        <fluid hq="2" name="water pink" pos="2.50786 -0.87047 -95.0494" rot="0 0 0" size="61.2405 20 55.1558" tile="0.01 0.01"/>
     </fluids>
     <terrains>
-        <terrain ofsZ="1.18027" triangle="1.18027">
+        <terrain ofsZ="1.18027" triangle="1.18027" diff="1 1 1">
             <texture on="1" file="island_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="10.3534" surf="DesertFast" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.409 0.440 0.700 0.000" angMin="0" angMax="22.3679" angSm="6.02611" hMin="-300" hMax="3.88128" hSm="3.17133" nOn="0" noise="1" n_1="0" n2="0.509652">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="26.4215" oct1="3" prs1="0.469863" pow1="5.51958"/>
             </texture>
@@ -39,15 +39,15 @@
         </terrain>
     </terrains>
     <paged densGrass="0.006" densTrees="0.4" grPage="60" grDist="60" grDensSmooth="6" trPage="200" trDist="200" trDistImp="800" trRdDist="3">
-        <grass on="1" mtr="grass3y" clr="grClrSavanna.png" dens="0.115442" chan="0" minSx="1.54877" maxSx="2.03793" minSy="1.14301" maxSy="1.593" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass19" clr="grClrAustralia.png" dens="0.209771" chan="0" minSx="1.63366" maxSx="2.08978" minSy="1.80207" maxSy="2.90729" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassDesert" clr="grClrJungle.png" dens="0.213805" chan="0" minSx="1.97083" maxSx="2.50297" minSy="1.15546" maxSy="1.57818" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass16g" clr="grClrJungle.png" dens="0.274336" chan="1" minSx="1.95423" maxSx="2.28213" minSy="1.74525" maxSy="2.3182" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass17r" clr="grClrForest2.png" dens="0.50444" chan="1" minSx="2.10623" maxSx="2.63671" minSy="1.62286" maxSy="1.95423" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass6g-" clr="grClrJungle.png" dens="0.264331" chan="0" minSx="1.42784" maxSx="2.05259" minSy="1.47402" maxSy="1.97926" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" clr="grClrJungle.png" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" clr="grClrJungle.png" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" clr="grClrJungle.png" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass3y" dens="0.115442" chan="0" minSx="1.54877" maxSx="2.03793" minSy="1.14301" maxSy="1.593" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass19" dens="0.209771" chan="0" minSx="1.63366" maxSx="2.08978" minSy="1.80207" maxSy="2.90729" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grassDesert" dens="0.213805" chan="0" minSx="1.97083" maxSx="2.50297" minSy="1.15546" maxSy="1.57818" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass16g" dens="0.274336" chan="1" minSx="1.95423" maxSx="2.28213" minSy="1.74525" maxSy="2.3182" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass17r" dens="0.50444" chan="1" minSx="2.10623" maxSx="2.63671" minSy="1.62286" maxSy="1.95423" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grass6g-" dens="0.264331" chan="0" minSx="1.42784" maxSx="2.05259" minSy="1.47402" maxSy="1.97926" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <gchan amin="0" amax="12" asm="12" hmin="-200" hmax="2.8103" hsm="5.86569" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="5.76113" hmax="100" hsm="1.62205" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
@@ -67,7 +67,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="21.546871 16.675316 18.665558" dir="-0.9548652 -0.0809695 0.28579092"/>
+    <cam pos="21.546871 16.675316 18.665558" dir="-0.95486516 -0.08096949 0.2857908"/>
     <objects>
         <o name="plastic_big" pos="-148.109 -88.4273 -1.36322" rot="0.979239 0.190381 -0.0696024 0.00148391"/>
         <o name="plastic_big" pos="-129.421 -121.664 0.508811" rot="0.975232 0.189304 -0.03752 0.10807"/>
