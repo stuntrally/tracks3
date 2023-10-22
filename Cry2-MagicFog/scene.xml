@@ -1,6 +1,6 @@
 <scene>
     <ver num="3009" baseTrk="Industrypark-edit" secEd="801" />
-    <car tires="0" damage="1.19831" gravity="8.9084" />
+    <car tires="0" damage="1.19831" gravity="8.9084" needLights="1"/>
     <start pos="151.504 45.7788 57.9677" rot="-0.0442504 -0.0555951 -0.516426 0.853431" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Crystals" />
     <sky material="sky/magicdark" skyYaw="-19.125" />

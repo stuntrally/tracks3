@@ -1,6 +1,6 @@
 <scene>
     <ver num="3012" baseTrk="Vlc9-Craters" secEd="15120"/>
-    <car tires="0"/>
+    <car tires="0" needLights="1"/>
     <start pos="53.0448 -29.584 9.67354" rot="0.0137246 -0.00210251 0.717416 -0.696559" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/duskred"/>

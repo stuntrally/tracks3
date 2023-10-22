@@ -1,6 +1,6 @@
 <scene>
     <ver num="3012" baseTrk="" secEd="2519"/>
-    <car tires="0"/>
+    <car tires="0" needLights="1"/>
     <start pos="-123.342 159.262 4.9716" rot="0.016763 -0.009835 0.12253 -0.992292" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/duskred" rainName="CraterVapor" rainEmit="412"/>

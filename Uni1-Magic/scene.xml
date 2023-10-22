@@ -1,6 +1,6 @@
 <scene>
     <ver num="3016" baseTrk="V9-Craters" secEd="553"/>
-    <car tires="0"/>
+    <car tires="0" needLights="1"/>
     <start pos="-31.9412 141.824 0.542069" rot="0.016141 0.01468 -0.739608 0.672695" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Unidentified"/>
     <sky material="sky/magic"/>

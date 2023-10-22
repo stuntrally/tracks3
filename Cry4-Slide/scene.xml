@@ -1,6 +1,6 @@
 <scene>
     <ver num="3012" baseTrk="X3-Cloud" secEd="4524" />
-    <car tires="0" damage="0.932515" gravity="8.08082" />
+    <car tires="0" damage="0.932515" gravity="8.081" needLights="1"/>
     <start pos="-64.6381 -5.47507 -5.58963" rot="-0.0643443 -0.0812483 0.696827 0.709731" pos2="0 0 0" rot2="0 0 0 1" />
     <sound ambient="" reverbs="Crystals" />
     <sky material="sky/magic_alien" rain2Name="CrystalSnowStormGreen" rain2Emit="331" skyYaw="4.5" />
