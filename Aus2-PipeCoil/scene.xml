@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3016" baseTrk="W13-MtFog" secEd="1958"/>
+    <ver num="3016" baseTrk="W13-MtFog" secEd="2015"/>
     <car tires="0"/>
     <start pos="46.0123 18.7949 -3.09483" rot="1e-06 -2e-06 0.756084 0.654495" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
     <sky material="sky/light_blue"/>
-    <fog color="0.549 0.170 0.893 1.000 0.000" color2="0.562 0.270 0.920 1.000 0.000" linStart="142.399" linEnd="501.65"/>
+    <fog color="0.549 0.170 0.893 1.000 0.000" color2="0.562 0.270 0.920 1.000 0.000" linStart="0" linEnd="47.396255"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-1" dens="100" linStart="0" linEnd="400"/>
     <light pitch="41.5038" yaw="60.9023" ambient="0.000 0.000 0.570 1.000 0.000" diffuse="0.167 0.022 0.900 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
     <fluids/>

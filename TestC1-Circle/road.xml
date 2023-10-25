@@ -1,17 +1,17 @@
 <SplineRoad>
-    <mtr type="0" road="wall_space_gray" pipe="roadDesertOrn" pipe3="pipeGlassAlien" pipe4="pipeGlassAlienGreen" wall="wall_space_x" col="wall_metal_04_x" />
-    <dim tcMul="0.0457273" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="16" heightOfs="0.06" />
-    <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="890.801" lodPntLen="17.3656" visDist="1000" visBehind="800" />
-    <geom colN="12" colR="5" wsPm="4" lsPm="1" stBox="1 7.472 14.776" iDir="-1" iChk1="5" />
-    <stats length="568.65" width="12" height="3.30765" onTer="100" pipes="0" bnkAvg="16" bnkMax="16" />
-    <txt desc="Short circle track. Good for practice." />
-    <adv ice="Slightly banked, bridged road." />
-    <P pos="0 0 90" w="12" onTer="0" a="90" ar="-16" aT="0" chkR="1.272" />
-    <P pos="65 0 65" w="12" onTer="0" a="135" ar="-16" aT="0" chkR="1.336" />
-    <P pos="90 0 0" w="12" onTer="0" a="-180" ar="-16" aT="0" />
-    <P pos="65 0 -65" w="12" onTer="0" a="-135" ar="-16" aT="0" chkR="1.196" />
-    <P pos="0 0 -90" w="12" onTer="0" a="-90" ar="-16" aT="0" chkR="1.284" />
-    <P pos="-65 0 -65" w="12" onTer="0" a="-45" ar="-16" aT="0" chkR="1.336" />
-    <P pos="-90 0 0" w="12" onTer="0" a="0" ar="-16" aT="0" />
-    <P pos="-65 0 65" w="12" onTer="0" a="45" ar="-16" aT="0" chkR="1.34" />
+    <mtr type="0" road="wall_space_gray" pipe="roadDesertOrn" pipe3="pipeGlassAlien" pipe4="pipeGlassAlienGreen" wall="wall_space_x" col="wall_metal_04_x"/>
+    <dim tcMul="0.0457273" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="16" heightOfs="0.06"/>
+    <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="890.801" lodPntLen="17.3656" visDist="1000" visBehind="800"/>
+    <geom colN="12" colR="5" wsPm="4" lsPm="1" stBox="1 7.472 14.776" iDir="-1" iChk1="5"/>
+    <stats length="568.6499" width="11.999998" height="3.307649" onTer="100" pipes="0" bnkAvg="16.000002" bnkMax="16.000006"/>
+    <txt desc="Short circle track. Good for practice."/>
+    <adv ice="Slightly banked, bridged road."/>
+    <P pos="0 0 90" w="12" onTer="0" a="90" ar="-16" aT="0" chkR="1.272"/>
+    <P pos="65 0 65" w="12" onTer="0" a="135" ar="-16" aT="0" chkR="1.336"/>
+    <P pos="90 0 0" w="12" onTer="0" a="-180" ar="-16" aT="0"/>
+    <P pos="65 0 -65" w="12" onTer="0" a="-135" ar="-16" aT="0" chkR="1.196"/>
+    <P pos="0 0 -90" w="12" onTer="0" a="-90" ar="-16" aT="0" chkR="1.284"/>
+    <P pos="-65 0 -65" w="12" onTer="0" a="-45" ar="-16" aT="0" chkR="1.336"/>
+    <P pos="-90 0 0" w="12" onTer="0" a="0" ar="-16" aT="0"/>
+    <P pos="-65 0 65" w="12" onTer="0" a="45" ar="-16" aT="0" chkR="1.34"/>
 </SplineRoad>

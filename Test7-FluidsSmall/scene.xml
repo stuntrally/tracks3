@@ -3,10 +3,10 @@
     <car tires="0"/>
     <start pos="13.5461 -50.3766 -11.5648" rot="0.057069 -0.00168199 -0.757962 -0.649815" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/magic" skyYaw="-7.3684235"/>
-    <fog color="0.586 0.270 1.000 1.000 0.000" color2="0.586 0.270 1.000 1.000 0.000" linStart="225.576" linEnd="608.036"/>
-    <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="30" yaw="-41" ambient="0.000 0.000 0.550 1.000 0.000" diffuse="0.167 0.035 0.850 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
+    <sky material="sky/blue_clouds" />
+    <fog color="0.586 0.270 1.000 1.000 0.000" color2="0.586 0.270 1.000 1.000 0.000" linStart="225.576" linEnd="608.036" />
+    <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400" />
+    <light pitch="42.8755" yaw="21.8012" ambient="0.000 0.000 0.550 1.000 0.000" diffuse="0.167 0.035 0.850 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000" />
     <fluids>
         <fluid name="mud hard" pos="-27.1544 -18.4052 31.5315" rot="0 0 0" size="63 20 52.5" tile="0.004 0.004"/>
         <fluid name="mud soft" pos="42.2733 -27.4604 -57.988" rot="0 0 0" size="91.1279 20 51.8193" tile="0.01 0.01"/>

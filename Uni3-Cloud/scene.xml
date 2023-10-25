@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="199"/>
+    <ver num="3016" baseTrk="" secEd="583"/>
     <car tires="0"/>
     <start pos="92.9072 -159.19 13.582" rot="0.06293 0.019478 -0.394092 -0.916735" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Unidentified"/>
     <sky material="sky/magic" rainName="Snow" rainEmit="15" rain2Name="RainFine" rain2Emit="45"/>
     <fog color="0.825 0.618 0.340 1.000 0.000" color2="0.825 0.618 0.340 1.000 0.000" linStart="72.2" linEnd="738.113"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="47.2388" yaw="-45.3438" ambient="0.667 0.600 0.175 1.000 0.000" diffuse="0.750 0.400 0.220 1.000 0.000" specular="0.667 0.500 0.820 1.000 0.000"/>
+    <light pitch="47.2388" yaw="-45.3438" ambient="0.667 0.600 0.175 1.000 0.000" diffuse="0.707 0.638 0.255 0.000 0.000" specular="0.667 0.500 0.820 1.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.20704" triangle="1.20704" diff="1 1 1">
@@ -52,10 +52,10 @@
         <layer on="0" name="tree.07.mesh" dens="0.0499994" minScale="1.7349" maxScale="2.32772" ofsY="0" addTrRdDist="6" maxRdist="100" windFx="0.299995" windFy="0.00399704" maxTerAng="53.3943" minTerH="-140" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="gum_tree.mesh" dens="0.0455217" minScale="1.72217" maxScale="2.19083" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.699996" windFy="0.00999088" maxTerAng="63.213" minTerH="-120" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="gum_tree.mesh" dens="0.0572335" minScale="0.180414" maxScale="0.296302" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.599985" windFy="0.00999216" maxTerAng="34.6056" minTerH="-140" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="shroom1_3_unid.mesh" dens="0.195229" minScale="2.05997" maxScale="4" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.29999" windFy="0.0599931" maxTerAng="44.1275" minTerH="-140" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="shroom2_1_unid.mesh" dens="0.195229" minScale="1.4278" maxScale="4" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.29999" windFy="0.0599931" maxTerAng="60.277" minTerH="-140" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="shroom1_2_unid.mesh" dens="0.0406376" minScale="2.594" maxScale="4" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="33.8785" minTerH="-140" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="shroom2_2_unid.mesh" dens="0.0868842" minScale="3.52992" maxScale="4" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="43.0311" minTerH="-140" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="shroom1_3_unid.mesh" dens="0.195229" minScale="2.05997" maxScale="4" ofsY="0" addTrRdDist="8" maxRdist="100" windFx="7.29999" windFy="0.0599931" maxTerAng="44.1275" minTerH="-140" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="shroom2_1_unid.mesh" dens="0.195229" minScale="1.4278" maxScale="4" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="7.29999" windFy="0.0599931" maxTerAng="60.277" minTerH="-140" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="shroom1_2_unid.mesh" dens="0.0406376" minScale="2.594" maxScale="4" ofsY="0" addTrRdDist="9" maxRdist="100" windFx="0" windFy="0" maxTerAng="33.8785" minTerH="-140" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="shroom2_2_unid.mesh" dens="0.0868842" minScale="3.52992" maxScale="4" ofsY="0" addTrRdDist="9" maxRdist="100" windFx="0" windFy="0" maxTerAng="43.0311" minTerH="-140" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999971" maxScale="0.249988" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-140" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999971" maxScale="0.249988" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-140" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
@@ -64,7 +64,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="69.2151 58.9101 206.966" dir="0.28753316 -0.22836916 -0.93014634"/>
+    <cam pos="69.2151 58.9101 206.966" dir="0.28753313 -0.22836919 -0.93014634"/>
     <objects/>
     <emitters/>
 </scene>

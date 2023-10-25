@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.32 14.484" iDir="-1" iChk1="227"/>
-    <stats length="6357.37" width="8.64154" height="99.543" onTer="67.6121" pipes="9.02021" bnkAvg="13.0033" bnkMax="86.88"/>
+    <stats length="6357.3657" width="8.641543" height="99.54296" onTer="67.6121" pipes="9.020209" bnkAvg="13.003255" bnkMax="86.88001"/>
     <txt desc="Stunting and jumping accross the Stuyko Rolling Hills. Intense with jumps requiring delicate accuracy."/>
     <adv ice=""/>
     <P pos="129.643 0 74.5972" w="7" aT="2" mtr="1" chkR="1.32"/>

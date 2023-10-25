@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3016" baseTrk="Grc2-Coast" secEd="61278"/>
+    <ver num="3016" baseTrk="Grc2-Coast" secEd="61533"/>
     <car tires="0" road1mtr="0"/>
     <start pos="150.413 329.965 41.4267" rot="-0.0351682 0.0140579 -0.979875 -0.196082" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
@@ -84,10 +84,10 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="34" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <layer on="1" name="palm2.mesh" dens="0.0775168" minScale="1.24171" maxScale="4" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.409374" windFy="0.115" maxTerAng="30.03" minTerH="-0.5" maxTerH="62" maxDepth="0"/>
         <layer on="1" name="treeAY-19mplBig.mesh" dens="0.0266007" minScale="1.8807" maxScale="4" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="1.06421" windFy="0.0221367" maxTerAng="19.9039" minTerH="-35.6757" maxTerH="24.7393" maxDepth="5"/>
-        <layer on="1" name="shroom1_2.mesh" dens="0.0365207" minScale="1.48236" maxScale="3.48962" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="21.3002" minTerH="2" maxTerH="62" maxDepth="0"/>
+        <layer on="1" name="shroom1_2.mesh" dens="0.0365207" minScale="1.48236" maxScale="3.48962" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="21.3002" minTerH="2" maxTerH="62" maxDepth="0"/>
         <layer on="1" name="treeARk-12oakSm.mesh" dens="0.0979783" minScale="0.800164" maxScale="1.99035" ofsY="0" addTrRdDist="1" maxRdist="11" windFx="0.7" windFy="0.01" maxTerAng="37.5522" minTerH="-0.5" maxTerH="101.838" maxDepth="0"/>
         <layer on="1" name="pine1_half.mesh" dens="0.0586485" minScale="0.98" maxScale="2.84768" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.258874" windFy="0.0261224" maxTerAng="20.1333" minTerH="-0.5" maxTerH="47.027" maxDepth="0"/>
-        <layer on="1" name="crystal_form1.mesh" dens="0.250824" minScale="2.07852" maxScale="3.43575" ofsY="0" addTrRdDist="10" maxRdist="19" windFx="0" windFy="0" maxTerAng="90" minTerH="8.10811" maxTerH="20.1081" maxDepth="1.01859"/>
+        <layer on="1" name="crystal_form1.mesh" dens="0.250824" minScale="2.07852" maxScale="3.43575" ofsY="0" addTrRdDist="11" maxRdist="19" windFx="0" windFy="0" maxTerAng="90" minTerH="8.10811" maxTerH="20.1081" maxDepth="1.01859"/>
         <layer on="1" name="crystal2.mesh" dens="0.525446" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="31.5302" minTerH="100" maxTerH="200" maxDepth="0"/>
         <layer on="0" name="tree.07.mesh" dens="0.0999996" minScale="0.849972" maxScale="1.15" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.699996" windFy="0.00999052" maxTerAng="17.4866" minTerH="-0.5" maxTerH="62" maxDepth="0"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="30" minTerH="-0.5" maxTerH="100" maxDepth="5"/>

@@ -5,7 +5,7 @@
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.356 10.5684" iDir="-1" iChk1="11"/>
     <stats length="8191.6074" width="9.184192" height="117.60366" onTer="50.70293" pipes="1.6110699" bnkAvg="13.044024" bnkMax="89.5203"/>
     <txt desc="Rally with coaster across a sand covered black rocks desert."/>
-    <adv ice=""/>
+    <adv ice="Loop needs boost for speed. Partly winding slowly through terrain."/>
     <P pos="-331.981 0 81.0981" w="10.1912" a="0" ar="0" aT="0"/>
     <P pos="-336.11 0 137.518" w="12.7272" aT="2"/>
     <P pos="-337.291 0 178.008" w="16.3832" aT="2"/>

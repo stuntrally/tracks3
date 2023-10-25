@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.01" merge="1" mergeLen="800" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.16 11.208" iDir="1" iChk1="0"/>
-    <stats length="16056.6" width="7.89452" height="458.001" onTer="63.4599" pipes="11.6225" bnkAvg="8.80611" bnkMax="63.8999"/>
+    <stats length="16056.602" width="7.894518" height="458.00143" onTer="63.459908" pipes="11.622535" bnkAvg="8.806107" bnkMax="63.899887"/>
     <txt desc="Weiriwaso. Landscape for hybrids between mountain goats and jaguars. Panoramic mountain road, many jumps, tunnels, lakes and even a mountain city."/>
     <adv ice=""/>
     <P pos="370.985 0 496.977" w="6.456" a="0" ar="0" aT="2" col="0" chkR="1.108"/>
