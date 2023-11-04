@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3016" baseTrk="V9-Craters" secEd="2638"/>
+    <ver num="3016" baseTrk="V9-Craters" secEd="2971"/>
     <car tires="0"/>
     <start pos="-27.0537 30.6471 0.576401" rot="1.78814e-07 2.41727e-07 -0.711761 0.702429" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Desert"/>
@@ -33,7 +33,7 @@
             <texture road="1" surf="roadGravel" dust="0" dustS="0.520286" mud="0" smoke="0" tclr="0.196 0.480 0.462 0.700 0.000"/>
             <texture road="2" surf="roadDesert" dust="0.4" dustS="0.9" mud="0" smoke="0" tclr="0.147 0.486 0.700 0.700 0.000"/>
             <texture road="3" surf="roadDesert" dust="0.4" dustS="0.9" mud="0" smoke="0" tclr="0.147 0.486 0.700 0.700 0.000"/>
-            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="4" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.433 0.526 0.190 0.800 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
@@ -66,7 +66,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="-15.935408 27.808306 159.67831" dir="0.20729858 -0.33172503 -0.9203183"/>
+    <cam pos="-15.935408 27.808306 159.67831" dir="0.2072986 -0.33172503 -0.9203183"/>
     <objects/>
     <emitters>
         <e name="AcidVapor1" pos="60.547 0.904909 -43.3933" sc="31.5135 1 36.5271" up="0 1 0" rot="0" rate="30.2864" st="0" psc="1"/>
