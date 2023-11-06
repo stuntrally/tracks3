@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="5497"/>
+    <ver num="3016" baseTrk="" secEd="5650"/>
     <car tires="0"/>
     <start pos="-37.5183 1.50516 0.599977" rot="-6.21725e-15 7.99361e-15 -0.653396 -0.757031" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Australia"/>
@@ -75,5 +75,8 @@
         <o name="fuel_can" pos="-18.0943 -3.92618 0.488318" rot="-0.00181379 0.999996 0.000673665 -0.00185388"/>
         <o name="fuel_can" pos="-16.9511 -4.17852 0.483183" rot="-0.0188358 0.99982 0.000554261 -0.002106"/>
     </objects>
-    <emitters/>
+    <emitters>
+        <e name="Waterfall1HighTall" pos="64.295845 48.886627 -64.501755" sc="22.648336 6.225763 10.022166" up="0 1 0" rot="0" rate="122.80866" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="60.435905 3.9624262 -38.846912" sc="43.47105 5.6887794 16.822716" up="0 1 0" rot="0" rate="126.44084" st="0" psc="1"/>
+    </emitters>
 </scene>
