@@ -4,7 +4,7 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="517.436" lodPntLen="18.0916" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="4.0506" wsPm="4" lsPm="1" stBox="1 6.228 20.3444" iDir="-1" iChk1="10"/>
     <stats length="9079.379" width="13.146105" height="147.5185" onTer="90.22313" pipes="35.75924" onPipe="4.149413" bnkAvg="23.125145" bnkMax="89.10016"/>
-    <txt desc="An anomaly version of the spider track with all kinds of graphical glitches. In fact the whole scenery is inspired by real glitches that happened during development of SR 3."/>
+    <txt desc="An anomaly version of the Spider track with all kinds of graphical glitches. Warning: intense colors. In fact the whole scenery is inspired by real glitches that happened during development of SR 3."/>
     <adv ice="Longer and more difficult than the original. Has more obstacles, a few jumps, and almost double damage factor."/>
     <P pos="-142.44 55.0131 8.1745" w="10.416" onTer="0" a="0" ar="-25.26" aT="2"/>
     <P pos="-189.204 52.7635 18.9843" w="12.04" onTer="0" a="0" ar="66.48" aT="2" chkR="1"/>
