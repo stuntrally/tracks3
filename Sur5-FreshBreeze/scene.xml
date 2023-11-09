@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3016" baseTrk="Grc2-Coast" secEd="61533"/>
+    <ver num="3018" baseTrk="Grc2-Coast" secEd="62100"/>
     <car tires="0" road1mtr="0"/>
     <start pos="150.413 329.965 41.4267" rot="-0.0351682 0.0140579 -0.979875 -0.196082" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
@@ -10,11 +10,11 @@
     <fluids>
         <fluid hq="2" name="ice solid" pos="-216.468 -0.5 42.7689" rot="0 0 0" size="1588.32 810 1626.43" tile="0.00411835 0.00411835"/>
         <fluid hq="2" name="ice solid" pos="-2824.61 -0.4 27.0261" rot="0 0 0" size="3639.57 810 1589.82" tile="0.00411835 0.00411835"/>
-        <fluid hq="2" name="lava" pos="331.089 70.7968 406.405" rot="0 0 0" size="119.349 20 79.9913" tile="0.01 0.01"/>
-        <fluid hq="2" name="water white" pos="-315.297 19.5925 -251.12" rot="0 0 0" size="39.0558 11.9202 34.1134" tile="0.01 0.01"/>
-        <fluid hq="2" name="lava solid" pos="-206.205 16.9284 -301.718" rot="0 0 0" size="31.593 10.241 25.3846" tile="0.01 0.01"/>
-        <fluid hq="2" name="blue jelly" pos="-267.242 18.8791 -277.526" rot="0 0 0" size="59.9528 20 39.6742" tile="0.01 0.01"/>
-        <fluid hq="2" name="lava solid" pos="420.29 131.755 -404.716" rot="0 0 0" size="31.8927 20 32.3356" tile="0.01 0.01"/>
+        <fluid hq="0" name="lava" pos="331.089 70.7968 406.405" rot="0 0 0" size="119.349 20 79.9913" tile="0.01 0.01"/>
+        <fluid hq="2" name="water white" pos="-315.07126 19.5925 -252.65538" rot="0 0 0" size="28.646837 11.9202 30.892447" tile="0.01 0.01"/>
+        <fluid hq="0" name="lava solid" pos="-206.205 16.9284 -301.718" rot="0 0 0" size="31.593 10.241 25.3846" tile="0.01 0.01"/>
+        <fluid hq="2" name="blue jelly" pos="-268.13766 18.8791 -275.978" rot="0 0 0" size="65.74657 20 36.878143" tile="0.01 0.01"/>
+        <fluid hq="0" name="lava solid" pos="420.29 131.755 -404.716" rot="0 0 0" size="31.8927 20 32.3356" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="1.1199" triangle="1.1199" diff="1 1 1" specPowEm="0.875895">
