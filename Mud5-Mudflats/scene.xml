@@ -6,7 +6,7 @@
     <sky material="sky/foggy_gen" rainName="RainFastA" rainEmit="306" skyYaw="131.278"/>
     <fog color="0.176 0.333 0.497 0.655 0.000" color2="0.568 0.436 0.133 0.689 0.000" linStart="35.3981" linEnd="301.129"/>
     <fogH color="0.167 0.333 0.600 1.000 0.000" height="-52.7716" dens="25.8301" linStart="180" linEnd="529.24"/>
-    <light pitch="24" yaw="47" ambient="0.000 0.000 0.400 1.000 0.000" diffuse="0.000 0.000 0.500 1.000 0.000" specular="0.000 0.000 0.340 -2202853376.000 0.000"/>
+    <light pitch="24" yaw="47" ambient="0.000 0.000 0.400 1.000 0.000" diffuse="0.000 0.000 0.500 1.000 0.000" specular="0.000 0.000 0.340 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="mud easy soft" pos="28.1722 -0.368218 6.19064" rot="0 0 0" size="3008.95 40 2443.95" tile="0.01 0.01"/>
         <fluid hq="2" name="mud med" pos="-126.403 5.33497 278.248" rot="0 0 0" size="106.697 40 65.3881" tile="0.01 0.01"/>

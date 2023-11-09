@@ -53,8 +53,7 @@
         <layer on="1" name="tree.09.mesh" dens="0.125" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.6" windFy="0.00999997" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="farn1.mesh" dens="0.238015" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="farn2.mesh" dens="0.144934" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="rock.05.mesh" dens="0.00908422" minScale="0.03" maxScale="0.173636" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="rock.07.mesh" dens="0.0206984" minScale="0.03" maxScale="0.177384" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock.mesh" dens="0.0206984" minScale="0.03" maxScale="0.177384" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="jungle_tree.mesh" dens="0.0860694" minScale="1.07413" maxScale="1.69149" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.235506" windFy="0.0049742" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
