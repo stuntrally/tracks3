@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="0.2" skirtH="0.1" merge="1" mergeLen="1487" lodPntLen="85.3464" visDist="400" visBehind="400"/>
     <geom colN="3" colR="4.5535" wsPm="8" lsPm="1" stBox="1 25.032 56.7599" iDir="-1" iChk1="90"/>
     <stats length="25598.953" width="30.868101" height="1757.696" onTer="76.72901" pipes="57.6302" onPipe="4.3789716" bnkAvg="19.27118" bnkMax="90"/>
-    <txt desc="Unusual long but fast track with really large scale elements in a space of anomalies. This includes a gigantic looping and some large obstacles."/>
-    <adv ice="You don&apos;t have to fear taking damage, car damage is extremely low. Even a drop from 1600 m and a long crash-landing jump is easy to survive. Instead watch your speed."/>
+    <txt desc="Unusual long but fast track with really large scale elements in a space of anomalies. This includes a gigantic loop and some large obstacles."/>
+    <adv ice="Taking damage is extremely low. Even a drop from 1600 m and a long crash-landing jump (needs boost) is easy to survive. Instead watch your speed. Fastest vehicles are best, or boosting in broad places."/>
     <P pos="160.043 -27.2913 294.758" w="48.168" onTer="0" a="0" ar="-30" aT="2" pipe="1"/>
     <P pos="80.7931 -4.85621 205.599" w="75.5119" onTer="0" a="0" ar="0" aT="2" pipe="1" mtr="-1"/>
     <P pos="6.36036 94.4248 129.214" w="47.088" onTer="0" a="0" ar="0" aT="2" mtr="-1"/>

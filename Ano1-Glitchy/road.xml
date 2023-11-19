@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="0.1" skirtH="0.01" merge="1" mergeLen="513.878" lodPntLen="29.7659" visDist="1243.64" visBehind="617.32"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.276 17.156" iDir="1" iChk1="27"/>
     <stats length="4375.6265" width="11.781545" height="156.27649" onTer="70.381775" pipes="5.436109" onPipe="5.436109" bnkAvg="7.4964876" bnkMax="67.61998"/>
-    <txt desc="Strange track that is totally broken, but on purpose!!! It isn&apos;t only visual broken and has almost everything which is usually considered bad, including a bad start and too large checkpoints."/>
-    <adv ice="Don&apos;t be confused when you hear wrong checkpoint messages from time to time. I did that on purpose like all the rest."/>
+    <txt desc="Strange track that is totally broken, but on purpose! It isn&apos;t only visual broken and has almost everything which is usually considered bad, including a bad start and too large checkpoints."/>
+    <adv ice="Don&apos;t be confused when you hear wrong checkpoint messages from time to time. It was done on purpose like all the rest."/>
     <P pos="-1.37095 6.52878 -51.3992" w="9.4" onTer="0" a="0" ar="0" aT="2" mtr="1" wall="-1"/>
     <P pos="25.0551 29.3082 -79.9846" w="15.496" onTer="0" a="38.28" ar="0" aT="2" mtr="3" chkR="1"/>
     <P pos="37.8499 7.62845 -96.9713" w="9.312" onTer="0" a="-30.84" ar="0" aT="2" col="0" mtr="1" wall="-1"/>
