@@ -3,9 +3,9 @@
     <dim tcMul="0.07" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 4.96 21.436" iDir="-1" iChk1="45"/>
-    <stats length="1913.77" width="8.4893" height="29.277" onTer="0" pipes="0" bnkAvg="6.06876" bnkMax="21.8401"/>
-    <txt desc="Desert race. Enjoy jumping and sliding through the sand. Easy and short, but tricky handling."/>
-    <adv ice=""/>
+    <stats length="1913.7693" width="8.489298" height="29.277023" onTer="0" pipes="0" bnkAvg="6.0687647" bnkMax="21.840096"/>
+    <txt desc="Easy desert race. Enjoy jumping and sliding through the sand."/>
+    <adv ice="Easy and short, but tricky handling. Has few sudden jumps and turns."/>
     <P pos="-145.414 0 53.7146" w="7.904" aT="2"/>
     <P pos="-76.9569 0 96.1954" w="8.856" aT="2" chkR="1.46"/>
     <P pos="-13.2732 0 91.721" w="7.696" aT="2" chkR="1.424"/>

@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="120" lodPntLen="15" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 9.672 28.4404" iDir="-1" iChk1="1"/>
     <stats length="8314.055" width="10.534105" height="92.827415" onTer="36.590168" pipes="23.333984" onPipe="4.5345364" bnkAvg="11.918337" bnkMax="89.119064"/>
-    <txt desc="An island track in crystal scenery. Has different shaped islands with partly unique crystals on it. "/>
-    <adv ice="It has a bit from everything, except objects. Some jumps, loops, obstacles, pipes, fluids (including under water), a bit banked and frenzy, some bumps, and not too difficult."/>
+    <txt desc="An island track in crystal scenery. Has different shaped islands with partly unique crystals on them."/>
+    <adv ice="It has a bit from everything, except objects. Some jumps (need boost), loops, obstacles, pipes, fluids (including under water), a bit banked and frenzy, some bumps. But nothing too difficult."/>
     <P pos="-117.527 0 292.366" w="8.688" aT="2"/>
     <P pos="-127.815 0 305.922" w="8.912" aT="2" chkR="1.408"/>
     <P pos="-148.384 0 322.142" w="9.8" aT="2"/>

@@ -5,7 +5,7 @@
     <geom colN="6" colR="4" wsPm="4" lsPm="1" stBox="1 5.58799 22.2081" iDir="1" iChk1="645"/>
     <stats length="15956.743" width="7.8718987" height="145.17274" onTer="63.44635" pipes="25.524258" onPipe="5.8145986" bnkAvg="15.7942" bnkMax="90"/>
     <txt desc="An old and abandoned mine turned into an ultimate stunt track. At the bottom there are larger acid pools, which are left overs from mining activities. 16 km pure frenzyness. Warning: Extreme difficult and curvy!"/>
-    <adv ice="Avoid taking damage whereever you can. You are driving in acid and then there is even a green minaral close at the bottom which is a bit damaging."/>
+    <adv ice="Avoid taking damage whereever you can. You are driving in acid and then there is even a green mineral close at the bottom, which is a bit damaging."/>
     <P pos="403.91 0 -311.741" w="7" aT="2" col="0" chkR="1.668"/>
     <P pos="395.936 0 -322.8" w="7" aT="2" col="0"/>
     <P pos="382.348 0 -331.633" w="7" a="0" ar="0" aT="2" col="0" mtr="1" chkR="1.552" ckL="7"/>

@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.32 14.484" iDir="-1" iChk1="227"/>
     <stats length="6357.3657" width="8.641543" height="99.54296" onTer="67.6121" pipes="9.020209" bnkAvg="13.003255" bnkMax="86.88001"/>
-    <txt desc="Stunting and jumping accross the Stuyko Rolling Hills. Intense with jumps requiring delicate accuracy."/>
-    <adv ice=""/>
+    <txt desc="Stunting and jumping accross the Stuyko Rolling Hills."/>
+    <adv ice="Few loops and jumps reuiring delicate accuracy to land well and continue. Some sudden obstacles on terrain."/>
     <P pos="129.643 0 74.5972" w="7" aT="2" mtr="1" chkR="1.32"/>
     <P pos="158.207 0 93.9944" w="7" a="0" ar="0" aT="2" col="0"/>
     <P pos="192.238 -11.2823 118.595" w="7" onTer="0" a="0" ar="20.82" aT="2" pipe="1" chkR="1"/>

@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="0" skirtH="0.06" merge="1" mergeLen="992.333" lodPntLen="50.4035" visDist="1305.17" visBehind="305.929"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.656 23.94" iDir="-1" iChk1="520"/>
     <stats length="21115.39" width="11.597944" height="333.94135" onTer="38.31569" pipes="17.60909" bnkAvg="8.29071" bnkMax="87.06002"/>
-    <txt desc="A long and beautiful track in a misty lava rock moss environment at sunset."/>
-    <adv ice="Medium difficult, long, road through a thick layer of ground fog. A few bumps, partly underwater and with narrow canyons and caves. Slow down in the pipe segment down the mountain and drive carefully through the waterfall section."/>
+    <txt desc="A long and beautiful track at sunset with a big waterfall. Set in misty, rocky, moss environment, with thick layer of ground fog."/>
+    <adv ice="Medium difficult, long, road. A few bumps, partly underwater (needs boost) and with narrow canyons and caves. Slow down in the pipe down the mountain and drive carefully through the waterfall."/>
     <P pos="-634.13 0 760.69" w="9.944" aT="2" chkR="1.572"/>
     <P pos="-570.133 0 790.319" w="9.944" aT="2"/>
     <P pos="-533.324 0 804.66" w="9.944" aT="2" chkR="1.96"/>

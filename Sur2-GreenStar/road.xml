@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="620.375" lodPntLen="15.3035" visDist="1000" visBehind="800"/>
     <geom colN="5" colR="3.515" wsPm="5.03224" lsPm="1" stBox="1 14.2 36.3283" iDir="1" iChk1="55"/>
     <stats length="3993.6858" width="18.11136" height="121.91953" onTer="49.160843" pipes="29.827663" onPipe="16.691685" bnkAvg="19.889795" bnkMax="68.772896"/>
-    <txt desc="Beautiful surreal space track in a star shape."/>
-    <adv ice="Contains few long jumps, and one difficult on-pipe jump."/>
+    <txt desc="Beautiful surreal space track in a star shape, close to a white dwarf star."/>
+    <adv ice="Contains few long jumps, and one difficult on-pipe jump. With sharp, banked terrain, hairpin turns."/>
     <P pos="67.1204 0 -17.7728" w="18.44" aT="2" mtr="2"/>
     <P pos="117.187 0 -30.3845" w="14.176" aT="2" mtr="1"/>
     <P pos="184.943 0 -7.91447" w="14.176" aT="2" mtr="3" chkR="1.6"/>

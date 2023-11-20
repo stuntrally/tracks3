@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="10"/>
     <stats length="4394.3936" width="7.565532" height="67.53905" onTer="19.715748" pipes="4.5235896" bnkAvg="6.00317" bnkMax="36.445194"/>
-    <txt desc="Small village track in an autumn mountain landscape at sunset."/>
-    <adv ice="Medium fast and a four small jumps. Partly in cave."/>
+    <txt desc="Track in an autumn mountain landscape at sunset. Starts in a small village."/>
+    <adv ice="Medium fast. With four small jumps. Partly inside a cave."/>
     <P pos="-146.277 0 -208.167" w="10.128" aT="2" col="0" mtr="1"/>
     <P pos="-134.681 0 -185.8" w="7" a="0" ar="10.62" aT="2" col="0" mtr="1"/>
     <P pos="-119.288 -2.01661 -152.432" w="7.792" onTer="0" a="0" ar="-11.4" aT="2" col="0" chkR="1.468"/>

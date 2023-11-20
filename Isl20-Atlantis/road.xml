@@ -5,7 +5,7 @@
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5 14.0484" iDir="1" iChk1="57"/>
     <stats length="2364.6528" width="9.091314" height="60.509903" onTer="73.64085" pipes="58.353268" bnkAvg="8.162928" bnkMax="87.01686"/>
     <txt desc="A sunken city somewhere in ocean, mostly in pipes and parts fully submerged in the water, with a waterfall inside a cave."/>
-    <adv ice="Be careful in the cave and underwater, you can really damage your car."/>
+    <adv ice="Be careful in the cave and underwater (needs boost), you can really damage your car."/>
     <P pos="158.22 -5.68868 -88.9093" w="10.7122" onTer="0" a="0" ar="0" aT="2" pipe="1" mtr="2"/>
     <P pos="181.66 -15.6422 -72.2267" w="9.3569" onTer="0" a="0" ar="15.24" aT="2" col="0" pipe="1"/>
     <P pos="178.94 -18.6331 -45.0143" w="10.2914" onTer="0" a="0" ar="0" aT="2" pipe="0.768" mtr="2" chkR="1"/>

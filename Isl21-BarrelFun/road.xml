@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="702.067" lodPntLen="15.7966" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.552 25.008" iDir="-1" iChk1="291"/>
     <stats length="9826.126" width="20.874989" height="180.77704" onTer="60.534245" pipes="17.91151" bnkAvg="9.201055" bnkMax="83.280106"/>
-    <txt desc="These Islands have been found on an earth-like planet in an ocean of a strange green and low density fluid."/>
-    <adv ice="There is more than just barrels and barrel loops. Multiple parts are underwater, including a full underwater barrel loop. The largest island has some really large bumps too, so slow down. And if that is not enough, a few parts of the road have been reported to be slippery like snow or ice."/>
+    <txt desc="These islands have been found on an Earth-like planet in an ocean of a strange green, low density fluid. The largest island has some really large bumps too, so slow down."/>
+    <adv ice="Has lots of barrels and many barrel loops. Multiple parts are in fluid, including a full barrel loop. Few parts of the road have been reported to be slippery like snow."/>
     <P pos="707.546 0 -52.7751" w="9.264" aT="2"/>
     <P pos="698.276 0 -42.6214" w="10.232" aT="2" chkR="1.664"/>
     <P pos="682.783 0 -46.7343" w="10.232" aT="2" mtr="2"/>
