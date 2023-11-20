@@ -1,9 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="Cry5-CryIslands_Ter2" secEd="40140"/>
+    <ver num="3018" baseTrk="Cry5-CryIslands_Ter2" secEd="40407"/>
     <car tires="0" damage="0.489247"/>
     <start pos="-143.336 -320.348 15.5967" rot="-0.0545222 -0.0596128 0.325981 0.941983" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" reverbs="Islands"/>
-    <sky material="sky/space_nebula_01" rainName="SnowFine" rainEmit="49" rain2Name="CrystalSnowFine" rain2Emit="121" skyYaw="29.1498"/>
+    <sound ambient="" vol="1" reverbs="Islands"/>
+    <sky material="sky/space_nebula_01" rain2Name="CrystalSnowFine" rain2Emit="121" skyYaw="29.1498"/>
     <fog color="0.884 1.000 0.570 0.464 0.176" color2="0.479 1.000 0.429 0.402 0.360" linStart="289.662" linEnd="619.786"/>
     <fogH color="0.508 0.886 1.018 0.698 1.000" height="12.1458" dens="8.03242" linStart="0" linEnd="85.2661"/>
     <light pitch="25" yaw="115" ambient="0.909 0.690 0.769 0.000 0.293" diffuse="0.384 0.267 0.990 0.000 0.364" specular="0.521 0.924 1.070 0.000 0.000"/>
@@ -11,7 +11,7 @@
         <fluid hq="2" name="water clear blue" pos="-10.9421 3.45724 -32.2271" rot="0 0 0" size="10859.3 40 10845.1" tile="0.01 0.01"/>
     </fluids>
     <terrains>
-        <terrain ofsZ="1.816" triangle="1.816" diff="1 1 1" specPowEm="4">
+        <terrain ofsZ="1.816" triangle="1.816" diff="1 1 1" reflect="1" specPowEm="4">
             <texture on="1" file="ycrystals3_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="17.6093" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.865 0.615 0.260 0.800 0.000" angMin="0" angMax="36.5714" angSm="0.861295" hMin="47" hMax="80" hSm="0.877047" nOn="0" noise="1" n_1="1" n2="0.265432">
                 <noise frq0="21.0155" oct0="3" prs0="0.349524" pow0="1.87563" frq1="20.5273" oct1="4" prs1="0.320744" pow1="2.0643"/>
             </texture>
