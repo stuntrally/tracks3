@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="36229"/>
+    <ver num="3018" baseTrk="" secEd="36840"/>
     <car tires="0" damage="0.497041" gravity="9.03215"/>
     <start pos="-26.1124 -133.116 3.39046" rot="-0.00100404 -0.0101626 -0.0983171 0.995105" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Islands"/>
@@ -177,6 +177,6 @@
         <e name="WaterfallLow" pos="-151.849 -5.34527 -121.909" sc="171.605 14.3535 238.107" up="0 1 0" rot="2.58335" rate="184.279" st="0" psc="1"/>
         <e name="WaterfallLow" pos="60.0298 -18.129 167.702" sc="147.396 43.882 118.153" up="0 1 0" rot="0" rate="58.3183" st="0" psc="1"/>
         <e name="WaterfallLow" pos="-153.607 -2.07543 -210.801" sc="36.1565 2.0597 28.3384" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Waterfall1High" pos="3.98563 -0.316264 268.561" sc="7.15432 3.5969 6.44267" up="0 1 0" rot="0" rate="30.3969" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="2.2095263 -0.316264 268.90524" sc="10.859677 3.5969 4.3167906" up="0 1 0" rot="0" rate="22.588737" st="0" psc="0.124383084"/>
     </emitters>
 </scene>

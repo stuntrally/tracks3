@@ -11,7 +11,7 @@
         <fluid hq="2" name="water milky cyan" pos="-270.561 22.1881 -121.548" rot="0 0 0" size="226.375 12.6159 302.217" tile="0.01 0.01"/>
         <fluid hq="2" name="water milky white" pos="-174.844 13.9768 -383.616" rot="0 0 0" size="346.868 10.1772 217.353" tile="0.01 0.01"/>
         <fluid hq="2" name="water milky white 2" pos="154.852 3.64503 -313.946" rot="0 0 0" size="250.733 23.2097 145.962" tile="0.01 0.01"/>
-        <fluid hq="2" name="water white" pos="367.049 -16.6724 -40.118" rot="0 0 0" size="144.998 7.26576 189.31" tile="0.01 0.01"/>
+        <fluid hq="2" name="water white low density" pos="367.049 -16.6724 -40.118" rot="0 0 0" size="144.998 7.26576 189.31" tile="0.01 0.01"/>
         <fluid hq="1" name="water clear green" pos="234.795 -29.4322 166.322" rot="0 0 0" size="198.647 56.3616 243.868" tile="0.01 0.01"/>
         <fluid hq="2" name="water clear blue" pos="-0.736898 -35.2953 152.337" rot="0 0 0" size="233.614 63.3695 469.006" tile="0.01 0.01"/>
         <fluid hq="1" name="mud cyan med" pos="-267.786 27.6864 243.347" rot="0 0 0" size="260.91 43.5408 375.216" tile="0.01 0.01"/>
@@ -47,7 +47,7 @@
             <texture road="2" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
             <texture road="3" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.646 0.348 0.460 0.800 0.000"/>
             <texture road="4" surf="roadGravel" dust="0" dustS="1" mud="0.6" smoke="0" tclr="0.000 0.000 0.130 0.800 0.000"/>
-            <par dust="Dust" mud="MudDark" smoke="Smoke"/>
+            <par dust="Dust" mud="MudDark" smoke="Smoke" flMud="FluidMudWhite" flMudSoft="FluidMudWhite" />
         </terrain>
     </terrains>
     <paged densGrass="0.15091" densTrees="1.40266" grPage="80" grDist="80" grDensSmooth="3" trPage="160" trDist="160" trDistImp="1000" trRdDist="0">
