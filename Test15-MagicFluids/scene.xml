@@ -1,8 +1,8 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="4254"/>
+    <ver num="3018" baseTrk="" secEd="5114"/>
     <car tires="0" needLights="1"/>
     <start pos="13.5461 -50.3766 -11.5648" rot="0.057069 -0.00168199 -0.757962 -0.649815" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" reverbs="Forest"/>
+    <sound ambient="" vol="1" reverbs="Forest"/>
     <sky material="sky/magicdark" skyYaw="-7.3684235"/>
     <fog color="0.888 0.655 1.000 1.000 0.000" color2="0.775 0.548 0.308 1.000 0.612" linStart="189.58504" linEnd="1475.7489"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
@@ -101,6 +101,9 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
     <cam pos="246.63312 79.39686 282.45444" dir="-0.83013016 -0.20195425 -0.51970994"/>
-    <objects/>
+    <objects>
+        <o name="satellite1" pos="-134.80334 -120.975006 -2.3848538" rot="0.33513448 -0.9421684 0 0"/>
+        <o name="crystal_form1_cyan" pos="-144.81044 -107.09613 -2.860505" rot="0.89169 -0.4526456 0 0"/>
+    </objects>
     <emitters/>
 </scene>
