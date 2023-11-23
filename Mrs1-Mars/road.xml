@@ -1,20 +1,20 @@
 <SplineRoad>
-    <mtr type="0" road="roadAdesert" pipe="pipeAsphalt" road2="roadSandDark" pipe2="pipeGlass" road3="roadSandShore" wall="road_wall_Red" col="road_col_Red"/>
+    <mtr type="0" road="roadAdesert" pipe="pipeAsphaltRed" road2="roadSandDark" pipe2="pipeGlassRed" road3="roadSandShore" wall="road_wall_Red" pipeW="pipe_wall_Red" col="road_col_Red"/>
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.4" skirtH="0.12" merge="1" mergeLen="1200" lodPntLen="80" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.136 24.812" iDir="1" iChk1="0"/>
-    <stats length="4978.02" width="10.9136305" height="68.60074" onTer="14.173208" pipes="0" bnkAvg="12.292227" bnkMax="56.76632"/>
-    <txt desc="Since recent terraforming, it is now possible to race in this dark red planet scenery."/>
-    <adv ice="A fast stunt track with few jumps, lots of banked, square turns and a fast barrel loop."/>
+    <stats length="4974.93" width="11.0805" height="68.6007" onTer="18.1986" pipes="5.84939" bnkAvg="12.4133" bnkMax="56.7663"/>
+    <txt desc="Since recent terraforming, it is now possible to race in this red planet scenery."/>
+    <adv ice="A fast stunt track with few jumps, lots of banked turns and a fast barrel loop."/>
     <P pos="130.042 0 98.3384" w="9.79678" aT="2" mtr="2" chkR="1.972"/>
     <P pos="158.594 0 70.5005" w="8.02879" aT="2" mtr="2"/>
     <P pos="163.789 0 16.8625" w="8.59679" aT="2"/>
     <P pos="164.405 0 -14.0504" w="10.0288" aT="2"/>
     <P pos="165.459 0 -44.4259" w="9.72239" a="0" ar="0.627" aT="2" chkR="1.296"/>
-    <P pos="165.657 27.0323 -64.7516" w="9.52803" onTer="0" a="0" ar="0" aT="2" mtr="-1"/>
+    <P pos="165.657 27.0323 -64.7516" w="12.5947" onTer="0" a="0" ar="0" aT="2" pipe="0.399816" mtr="-1"/>
     <P pos="165.63 42.8827 -84.5601" w="10.0928" onTer="0" a="0" ar="0" aT="2" mtr="-1"/>
     <P pos="165.809 36.5008 -106.437" w="9.54079" onTer="0" a="11.52" ar="0" aT="2" mtr="-1"/>
-    <P pos="166.267 37.5027 -124.926" w="9.46879" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="166.267 37.5027 -124.926" w="11.2023" onTer="0" a="0" ar="0" aT="2" pipe="0.53318"/>
     <P pos="166.533 0 -148.685" w="8.74079" a="0" ar="0" aT="2" chkR="1.192"/>
     <P pos="166.658 0 -180.605" w="8.68479" aT="2"/>
     <P pos="168.057 0 -259.013" w="9.46879" aT="2"/>
@@ -27,7 +27,8 @@
     <P pos="323.617 0 -313.431" w="9.00599" aT="2"/>
     <P pos="321.819 0 -229.358" w="8.69279" aT="2"/>
     <P pos="320.51 0 -145.318" w="8.20479" aT="2" chkR="2.072"/>
-    <P pos="319.057 0 -24.2118" w="7.86079" aT="2"/>
+    <P pos="319.71 0 -86.7717" w="7.86079" aT="2" mtr="1"/>
+    <P pos="319.057 0 -24.2118" w="7.86079" aT="2" mtr="1"/>
     <P pos="317.845 0 42.8655" w="7.59679" aT="2"/>
     <P pos="317.221 0 70.4013" w="8.656" a="178.98" ar="0" aT="1" chkR="1.316"/>
     <P pos="316.698 14.9708 105.764" w="8.656" onTer="0" a="178.98" ar="0" aT="1" col="0" mtr="-1"/>
@@ -94,12 +95,12 @@
     <P pos="-175.304 0 54.2453" w="10.4368" aT="2" mtr="2" chkR="2.012"/>
     <P pos="-211.912 0 85.4539" w="10.2128" aT="2" mtr="2"/>
     <P pos="-298.414 0 90.4518" w="8.57279" aT="2"/>
-    <P pos="-336.979 0 113.814" w="12.0688" aT="2" chkR="2.076"/>
-    <P pos="-344.909 0 164.183" w="8.74879" aT="2"/>
-    <P pos="-344.821 0 238.053" w="7.59679" aT="2" mtr="2"/>
-    <P pos="-338.361 0 311.93" w="9.10879" aT="2"/>
+    <P pos="-333.822 0 113.703" w="12.3356" a="0" ar="-17.9825" aT="2" mtr="1" chkR="2.076"/>
+    <P pos="-344.909 16.2829 164.183" w="12.9611" onTer="0" a="0" ar="-13.0023" aT="2" pipe="0.400136" mtr="1"/>
+    <P pos="-344.821 12.4334 238.053" w="12.2638" onTer="0" a="0" ar="-10.9423" aT="2" pipe="0.540828" mtr="1"/>
+    <P pos="-338.361 0 311.93" w="10.3089" a="0" ar="-18.3571" aT="2"/>
     <P pos="-315.17 0 344.144" w="9.82079" aT="2" chkR="2.264"/>
-    <P pos="-264.816 0 355.999" w="8.46879" a="0" ar="0" aT="2"/>
+    <P pos="-264.411 0 355.929" w="8.46879" a="0" ar="1.9983" aT="2"/>
     <P pos="-207.781 8.39065 358.374" w="7.98079" onTer="0" a="0" ar="0" aT="2"/>
     <P pos="-148.453 0 358.056" w="8.06079" a="0" ar="0" aT="2"/>
     <P pos="-84.3631 0 352.414" w="13.1408" aT="2" mtr="2" chkR="1.692"/>

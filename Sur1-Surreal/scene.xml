@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="V8-Uncertain" secEd="20472"/>
+    <ver num="3018" baseTrk="V8-Uncertain" secEd="21378"/>
     <car tires="0"/>
     <start pos="-266.681 -86.4864 37.409" rot="0.134034 0.0569446 0.368599 0.918124" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/offworld_gen" rainName="RainHeavy" rainEmit="31" rain2Name="SnowFine" rain2Emit="53"/>
-    <fog color="0.839 0.302 0.434 0.981 0.612" color2="0.500 0.667 0.533 1.608 0.335" linStart="434.183" linEnd="1857.3457"/>
+    <sky material="sky/dusk_stormy_01_sur" rainName="RainHeavy" rainEmit="31" rain2Name="SnowFine" rain2Emit="53"/>
+    <fog color="0.839 0.302 0.434 0.981 0.612" color2="0.500 0.667 0.533 1.608 0.335" linStart="434.183" linEnd="1857.35"/>
     <fogH color="0.083 1.000 0.707 0.975 0.432" height="-0.290268" dens="26.7698" linStart="0" linEnd="48.1807"/>
-    <light pitch="14" yaw="27" ambient="0.198 0.742 0.592 3.000 0.000" diffuse="0.930 0.494 1.826 3.000 0.000" specular="0.545 0.921 0.349 0.748 0.000"/>
+    <light pitch="13" yaw="-2" ambient="0.198 0.804 0.592 0.000 0.000" diffuse="0.930 0.494 1.826 3.000 0.000" specular="0.545 0.921 0.349 0.748 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue med" pos="294.348 24.5241 -113.232" rot="0 0 0" size="278.645 120 633.7" tile="0.01 0.01"/>
         <fluid hq="2" name="lava" pos="91.3268 26.3693 306.917" rot="0 0 0" size="169.481 20 148.46" tile="0.01 0.01"/>
@@ -42,7 +42,7 @@
             <texture on="1" file="lava_d.jpg" fnorm="lava_n.jpg" scale="50.5777" surf="DesertRocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 1.000 0.300 0.600 0.000" angMin="0" angMax="90" angSm="25.4129" hMin="395.639" hMax="950" hSm="45.6761" nOn="0" triplanar="1" noise="1" n_1="0.748521" n2="0">
                 <noise frq0="3.15114" oct0="5" prs0="0.611927" pow0="0.289358" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="desert_sand_bigx_d.jpg" fnorm="desert_sand_big_n.jpg" scale="27.257866" surf="DesertBumpy" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.683 0.500 0.400 0.900 0.000" angMin="28.8991" angMax="41.1468" angSm="19.2602" hMin="-300" hMax="270.908" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
+            <texture on="1" file="desert_sand_bigx_d.jpg" fnorm="desert_sand_big_n.jpg" scale="27.2579" surf="DesertBumpy" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.683 0.500 0.400 0.900 0.000" angMin="28.8991" angMax="41.1468" angSm="19.2602" hMin="-300" hMax="270.908" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="3.83379" oct0="4" prs0="0.281651" pow0="3.07422" frq1="2.11959" oct1="5" prs1="0.207339" pow1="5.05555"/>
             </texture>
             <texture on="1" file="alien_mntn_d.jpg" fnorm="desert_mntn_n.jpg" scale="31.5447" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="49.1284" angMax="68.6697" angSm="9.62178" hMin="-150" hMax="109.797" hSm="10.066" nOn="0" noise="0" n_1="1" n2="0">
@@ -93,7 +93,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="-535.388 158.255 72.7085" dir="0.971912 -0.22093801 -0.0810768"/>
+    <cam pos="-535.388 158.255 72.7085" dir="0.971912 -0.220938 -0.0810768"/>
     <objects>
         <o name="city_shop" pos="-106.173 -93.6507 59.176" rot="-0.0699739 -0.992251 -0.00119216 0.10267" sc="1 1.00021 1"/>
         <o name="obelisk" pos="-84.4306 -94.0094 57.5177" rot="0.00938628 -0.789148 0.0321693 -0.613288" sc="1.5542 1.5542 1.5542"/>
@@ -139,7 +139,7 @@
         <o name="container_big" pos="-365.723 -103.928 31.5379" rot="-0.591339 -0.806423 0 0" sc="4.91518 5.28934 4.91518"/>
         <o name="container_big" pos="-358.248 -188.436 33.8526" rot="-0.435324 -0.837447 -0.286427 0.164731" sc="3.72846 10.4942 3.72846"/>
         <o name="concrete_bar" pos="-438.139 -202.476 29.6667" rot="0 -1 0 0" sc="64.4696 85.2623 64.4696"/>
-        <o name="concrete_bar" pos="-440.274 -68.4472 12.081042" rot="0.00367148 -0.999994 0 0" sc="68.9043 68.9043 68.9043"/>
+        <o name="concrete_bar" pos="-440.274 -68.4472 12.081" rot="0.00367148 -0.999994 0 0" sc="68.9043 68.9043 68.9043"/>
         <o name="concrete_bar" pos="-404.015 -232.671 35.6465" rot="0.585999 -0.810304 0.00263991 -0.00289906" sc="12.3786 12.3786 12.3786"/>
         <o name="concrete_bar" pos="-414.172 -215.248 38.8308" rot="0.00814539 -0.999959 0.000472004 -0.00389238" sc="12.3786 12.3786 12.3786"/>
         <o name="obstacle3" pos="-249.623 -379.614 -1.81086" rot="0.853428 -0.220545 0.0214602 -0.471764" sc="1.35429 1.3523 1.35429"/>
@@ -218,6 +218,10 @@
         <o name="obstacle_twistedMarble2L" pos="-76.8229 -91.9184 77.4045" rot="0.854866 0.0822495 0.473066 -0.196575" sc="1.031 0.388101 1.38867"/>
         <o name="obstacle_twistedMarble2L" pos="18.821 89.9621 134.184" rot="0.0868309 -0.259557 -0.946798 0.169297" sc="2.38732 2.35156 2.9667"/>
         <o name="obstacle_twistedMarble2L" pos="148.757 87.1697 83.764" rot="0.603688 0.25967 -0.297831 -0.692407" sc="3.17777 1.4675 3.94899"/>
+        <o name="wagon" pos="-1013.16 -2461.23 564.721" rot="0.0361671 -0.0197792 0.988656 -0.144158" sc="82.2359 153.3 23.4169"/>
+        <o name="gas_tank_02_red" pos="2192.53 -1084.42 701.007" rot="-0.306397 0.656992 -0.620854 0.298231" sc="55.9044 55.9044 55.9044"/>
+        <o name="garbage_bin_green_static" pos="1698.81 -128.916 -93.7511" rot="-0.319235 -0.94719 -0.00215358 0.0267112" sc="42.5356 515.847 42.5356"/>
+        <o name="mining_truck" pos="-705.515 2743.04 326.428" rot="-0.540225 0.284323 0.198908 0.766541" sc="18.89 60.4184 29.0694"/>
     </objects>
     <emitters>
         <e name="SmokeBlack" pos="91.4742 36.02 339.173" sc="75.29 22.893 48.5275" up="0 1 0" rot="0" rate="80.2096" st="0" psc="1"/>

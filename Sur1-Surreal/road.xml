@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.157915" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="393.195" lodPntLen="20.9109" visDist="520.263" visBehind="512.657"/>
     <geom colN="3" colR="3" wsPm="4" lsPm="1" stBox="1 5.33599 19.7161" iDir="-1" iChk1="41"/>
-    <stats length="5135.564" width="9.534882" height="155.71306" onTer="60.350388" pipes="44.324158" bnkAvg="8.424568" bnkMax="79.80001"/>
+    <stats length="5135.56" width="9.53488" height="155.713" onTer="60.3504" pipes="44.3242" bnkAvg="8.42457" bnkMax="79.8"/>
     <txt desc="Strange drive in a surreal world. With many odd things out of place."/>
     <adv ice="Long, challenging, partly fast. Has a pipe with many obstacles, need to keep on side."/>
     <P pos="-252.279 -6.84754 378.269" w="11.0064" onTer="0" a="0" ar="0" aT="2" pipe="1" wall="-1"/>

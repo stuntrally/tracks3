@@ -3,7 +3,7 @@
     <car tires="0" damage="0.752688" road1mtr="0" gravity="10.3064"/>
     <start pos="-251.513 46.1089 36.817" rot="-0.0869904 0.00789238 0.994898 -0.0508367" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
-    <sky material="sky/sky_anomaly_01" windAmt="0.607287" skyYaw="-79.8496"/>
+    <sky material="sky/anomaly_01" windAmt="0.607287" skyYaw="-79.8496"/>
     <fog color="0.843 0.000 2.111 0.970 0.043" color2="0.597 0.702 0.237 0.271 0.345" linStart="661.017" linEnd="1298.2"/>
     <fogH color="0.103 1.000 0.598 1.435 0.171" height="-0.809723" dens="1.51535" linStart="407.555" linEnd="694.004"/>
     <light pitch="55" yaw="0" ambient="0.076 0.372 0.839 1.435 0.475" diffuse="0.486 1.000 1.084 0.000 0.264" specular="0.163 0.884 0.744 1.579 0.149"/>

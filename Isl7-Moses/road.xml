@@ -2,17 +2,23 @@
     <mtr type="0" road="roadSand" pipe="pipeAsphalt" pipe2="pipeGlassCyan"/>
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
-    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 4.76 14.4364" iDir="-1" iChk1="7"/>
-    <stats length="1475.1233" width="6.693196" height="20.28695" onTer="5.261007" pipes="0" bnkAvg="6.7034945" bnkMax="17.970547"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 4.76 14.4364" iDir="-1" iChk1="13"/>
+    <stats length="1480.71" width="6.53999" height="23.7032" onTer="5.24116" pipes="0" bnkAvg="7.42556" bnkMax="15.4686"/>
     <txt desc="Track around small, hilly, rocky island."/>
     <adv ice="Rather bumpy and with sudden, sharp turns."/>
     <P pos="-43.9473 0 -96.9178" w="11.192" aT="2"/>
     <P pos="-9.95135 0 -112.909" w="6" aT="2" chkR="4.616"/>
+    <P pos="33.4698 0 -155.859" w="6" aT="2"/>
     <P pos="90.4444 0 -206.175" w="6" aT="2" chkR="3.556"/>
+    <P pos="156.988 0 -196.414" w="6" aT="2"/>
     <P pos="203.777 0 -171.089" w="6" aT="2" chkR="4.444"/>
+    <P pos="234.502 0 -104.53" w="6" aT="2"/>
     <P pos="222.541 0 -29.4328" w="6" aT="2" chkR="4.664"/>
-    <P pos="140.672 0 46.3384" w="6" aT="2" chkR="3.984"/>
+    <P pos="179.268 0 11.4494" w="6" aT="2"/>
+    <P pos="140.674 0 46.3382" w="6" aT="2" chkR="3.984"/>
+    <P pos="190.622 0 128.057" w="6" aT="2"/>
     <P pos="246.187 0 206.009" w="6" aT="2" chkR="5.132"/>
+    <P pos="147.207 0 210.045" w="6" aT="2"/>
     <P pos="8.3445 0 169.376" w="6" aT="2" chkR="3.088"/>
     <P pos="-80.8872 0 130.188" w="6" a="-120.54" ar="5.34" aT="0" chkR="2.988"/>
     <P pos="-111.851 5.34353 105.667" w="6" onTer="0" a="11.76" ar="11.16" aT="2"/>
@@ -20,4 +26,5 @@
     <P pos="-162.502 0 7.03577" w="6" aT="2"/>
     <P pos="-172.621 0 -56.5203" w="6" aT="2" chkR="4.724"/>
     <P pos="-153.042 0 -94.7755" w="13.448" aT="2"/>
+    <P pos="-97.7981 0 -97.293" w="9.3297" aT="2"/>
 </SplineRoad>
