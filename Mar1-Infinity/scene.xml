@@ -1,15 +1,65 @@
 <scene>
-    <ver num="3016" baseTrk="Sav12-Infinity" secEd="6722"/>
+    <ver num="3018" baseTrk="Sav12-Infinity" secEd="8066"/>
     <car tires="0" gravity="11.7473"/>
     <start pos="-16.0587 -54.1099 51.7721" rot="0.00625701 -0.071909 0.160603 0.984391" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
-    <sky material="sky/dawn_bright"/>
+    <sky material="sky/sunset_02_clouds" skyYaw="180"/>
     <fog color="0.130 0.270 1.000 1.000 0.000" color2="0.800 0.270 1.000 1.000 0.000" linStart="380.349" linEnd="1013.26"/>
     <fogH color="0.171 0.147 0.500 1.000 0.000" height="34.5865" dens="77.2658" linStart="0" linEnd="115.778"/>
-    <light pitch="21" yaw="-45" ambient="0.357 0.029 0.672 0.000 0.000" diffuse="0.066 0.128 0.927 1.000 0.171" specular="0.087 0.378 1.018 0.000 0.000"/>
+    <light pitch="6" yaw="10" ambient="0.357 0.029 0.672 0.000 0.000" diffuse="0.066 0.128 0.927 1.000 0.171" specular="0.087 0.378 1.018 0.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.18551" triangle="1.18551" diff="1 1 1">
+            <texture on="1" file="marble_ground_d.jpg" fnorm="marble_ground_n.jpg" scale="26.04" surf="DesertFast" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="0" angMax="54.2266" angSm="7.90123" hMin="-300" hMax="129.804" hSm="20" nOn="0" noise="0" n_1="0" n2="0">
+                <noise frq0="4.2537" oct0="4" prs0="0.297482" pow0="3.80519" frq1="54.8698" oct1="4" prs1="0.243525" pow1="0.92064"/>
+            </texture>
+            <texture on="1" file="ycrystals2_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="17.15" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" angMin="8.41727" angMax="31.241" angSm="55.8359" hMin="-19.1445" hMax="22.5105" hSm="23.4075" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="27.9746" oct0="2" prs0="0.42482" pow0="2.15" frq1="30.2833" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_marble_pink2_d.jpg" fnorm="mntn_marble2_n.jpg" scale="26.04" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="35.2878" angMax="90" angSm="5.59726" hMin="-300" hMax="110.449" hSm="18.0167" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="14.2402" oct0="3" prs0="0.3" pow0="4.88428" frq1="23.6415" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_marble_pink_d.jpg" fnorm="mntn_marble_n.jpg" scale="26.04" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="62.8058" angMax="75.1079" angSm="13.8716" hMin="-300" hMax="60.3787" hSm="21.3657" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 1.000 0.000"/>
+            <texture road="2" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="roadJungle" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.139 0.600 0.400 0.800 0.000"/>
+            <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="Dust" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="2.49535" diff="1 1 1" horiz="1">
+            <texture on="1" file="marble_ground_d.jpg" fnorm="marble_ground_n.jpg" scale="26.04" surf="DesertFast" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="0" angMax="54.2266" angSm="7.90123" hMin="-300" hMax="129.804" hSm="20" nOn="0" noise="0" n_1="0" n2="0">
+                <noise frq0="4.2537" oct0="4" prs0="0.297482" pow0="3.80519" frq1="54.8698" oct1="4" prs1="0.243525" pow1="0.92064"/>
+            </texture>
+            <texture on="1" file="ycrystals2_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="17.15" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" angMin="8.41727" angMax="31.241" angSm="55.8359" hMin="-19.1445" hMax="22.5105" hSm="23.4075" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="27.9746" oct0="2" prs0="0.42482" pow0="2.15" frq1="30.2833" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_marble_pink2_d.jpg" fnorm="mntn_marble2_n.jpg" scale="26.04" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="35.2878" angMax="90" angSm="5.59726" hMin="-300" hMax="110.449" hSm="18.0167" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="14.2402" oct0="3" prs0="0.3" pow0="4.88428" frq1="23.6415" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_marble_pink_d.jpg" fnorm="mntn_marble_n.jpg" scale="26.04" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="62.8058" angMax="75.1079" angSm="13.8716" hMin="-300" hMax="60.3787" hSm="21.3657" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 1.000 0.000"/>
+            <texture road="2" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="roadJungle" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.139 0.600 0.400 0.800 0.000"/>
+            <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="Dust" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="6.04569" diff="1 1 1" horiz="2">
             <texture on="1" file="marble_ground_d.jpg" fnorm="marble_ground_n.jpg" scale="26.04" surf="DesertFast" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="0" angMax="54.2266" angSm="7.90123" hMin="-300" hMax="129.804" hSm="20" nOn="0" noise="0" n_1="0" n2="0">
                 <noise frq0="4.2537" oct0="4" prs0="0.297482" pow0="3.80519" frq1="54.8698" oct1="4" prs1="0.243525" pow1="0.92064"/>
             </texture>
@@ -64,7 +114,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="-372.375 196.87457 -184.775" dir="0.8855269 -0.28700495 0.36533594"/>
+    <cam pos="-372.375 196.875 -184.775" dir="0.885527 -0.287005 0.365336"/>
     <objects>
         <o name="hexrockpink_small_01" pos="42.9987 40.7644 75.5636" rot="0 -1 0 0"/>
         <o name="hexrockpink_small_01" pos="-92.6051 115.597 57.119" rot="0 -1 0 0"/>

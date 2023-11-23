@@ -3,7 +3,7 @@
     <car tires="0" damage="0.166667"/>
     <start pos="10.6489 -300.008 4.70866" rot="-5.96046e-08 7.79401e-08 0.321523 0.946902" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" vol="1" reverbs="Alien"/>
-    <sky material="sky/newsky011" rainName="CloudsMistToxicThin" rainEmit="49" rain2Name="CrystalSnowGreen" rain2Emit="85" skyYaw="103.37"/>
+    <sky material="sky/cloudy_02_toxic" rainName="CloudsMistToxicThin" rainEmit="49" rain2Name="CrystalSnowGreen" rain2Emit="85" skyYaw="103.37"/>
     <fog color="0.138 0.432 0.277 1.616 0.200" color2="0.198 0.690 0.312 0.738 0.314" linStart="236.233" linEnd="732.828"/>
     <fogH color="0.570 0.050 0.035 0.810 0.669" height="0.809723" dens="7.87097" linStart="0" linEnd="0.819551"/>
     <light pitch="25" yaw="0" ambient="0.254 0.267 0.200 0.000 0.000" diffuse="0.186 0.233 1.303 0.000 0.000" specular="0.163 0.167 1.107 3.000 0.000"/>
