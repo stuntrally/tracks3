@@ -3,9 +3,9 @@
     <dim tcMul="0.0543503" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="5" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.3" skirtH="0.06" merge="1" mergeLen="1014.28" lodPntLen="50.4035" visDist="1100" visBehind="600"/>
     <geom colN="6" colR="2" wsPm="4" lsPm="1" stBox="1 5.288 19.38" iDir="-1" iChk1="62"/>
-    <stats length="6657.01" width="12.3815" height="127.8" onTer="48.2042" pipes="6.58891" bnkAvg="11.899" bnkMax="67.6338"/>
+    <stats length="6657.0063" width="12.381521" height="127.79987" onTer="48.20422" pipes="6.5889096" bnkAvg="11.899042" bnkMax="67.63382"/>
     <txt desc="Beautiful long and track in a marble canyon with some moss on top. It takes less than a minute from the highest to the lowest point."/>
-    <adv ice="Caution: Tricky. Heavily banked and natural road with some bridges, few jumps, 2 loops (1 on pipe) and pipes. It goes a lot up and down, very steep and with a sudden scarp."/>
+    <adv ice="Fast and rather easy. Has a loop, few bumps and obstacles. Avoid fluid, it&apos;s dense."/>
     <P pos="-269.652 0 -84.2662" w="10.8545" aT="2" mtr="1"/>
     <P pos="-308.472 0 -81.4402" w="10.8545" aT="2" mtr="1"/>
     <P pos="-350.426 0 -82.2158" w="9.65473" aT="2" mtr="1" chkR="1.66653"/>
