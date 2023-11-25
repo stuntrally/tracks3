@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="W14-DangerRoad" secEd="2124"/>
+    <ver num="3018" baseTrk="W14-DangerRoad" secEd="2882"/>
     <car tires="0" damage="0.597633" road1mtr="0"/>
     <start pos="-55.5671 -127.827 7.34887" rot="-0.181872 0.0849673 0.422454 0.883897" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" vol="1" reverbs="Rocky"/>
-    <sky material="sky/white2" rainName="SnowStorm" rainEmit="3000" rain2Name="SnowStormFine" rain2Emit="4556" windAmt="0.4125" skyYaw="63"/>
-    <fog color="0.545 0.097 0.997 1.000 0.000" color2="0.541 0.066 0.983 1.000 0.000" linStart="0" linEnd="57.349472"/>
+    <sound ambient="" reverbs="Rocky"/>
+    <sky material="sky/day_clouds_05_bright2" rainName="SnowStorm" rainEmit="5134" rain2Name="SnowStormFine" rain2Emit="8250" windAmt="0.4125" skyYaw="63"/>
+    <fog color="0.545 0.097 1.033 1.000 0.000" color2="0.541 0.066 0.983 0.975 0.000" linStart="0" linEnd="70.6618"/>
     <fogH color="0.822 0.000 0.609 0.413 0.000" height="-25.2772" dens="59.1328" linStart="1.58203" linEnd="141.113"/>
-    <light pitch="40" yaw="60" ambient="0.605 0.025 0.559 0.975 0.000" diffuse="0.165 0.017 0.549 0.975 0.000" specular="0.157 0.006 0.288 0.975 0.000"/>
+    <light pitch="56" yaw="28" ambient="0.605 0.025 0.420 1.000 0.000" diffuse="0.165 0.017 0.631 1.000 0.000" specular="0.157 0.006 0.406 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="ice solid" pos="37.5555 -4.06551 -7.55137" rot="0 0 0" size="250.488 54.0378 302.791" tile="0.01 0.01"/>
     </fluids>
@@ -22,6 +22,31 @@
                 <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="snow_mntn2_d.jpg" fnorm="snow_mntn2_n.jpg" scale="20.9979" surf="SnowDeep" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.000 0.000 0.401 0.604 0.000" angMin="59.8826" angMax="90" angSm="14.3225" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="-0.228188" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="18.0217" surf="SnowDeep" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.000 0.000 0.401 0.604 0.000" angMin="33.9922" angMax="59.3542" angSm="8.79854" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadSnow" dust="0.656325" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <texture road="2" surf="roadForestWet" dust="0.319809" dustS="0.5" mud="0.2" smoke="0" tclr="0.333 0.250 0.400 0.800 0.000"/>
+            <texture road="3" surf="roadSnowIce" dust="0.436754" dustS="0.417661" mud="0.176611" smoke="0" tclr="0.504 0.021 0.512 0.815 0.000"/>
+            <texture road="4" surf="AsphaltWet" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.504 0.021 0.308 0.815 0.000"/>
+            <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="7.79706" diff="1 1 1" horiz="1">
+            <texture on="0" file="" fnorm="" scale="6.31724" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="13.6912" angSm="11.6776" hMin="-300" hMax="666" hSm="20" nOn="0" noise="0.102908" n_1="0" n2="0">
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="snow1_d.jpg" fnorm="snow1_n.jpg" scale="11.7706" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="16.0274" angSm="9.73228" hMin="-300" hMax="666" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="27.8048" oct1="3" prs1="0.650685" pow1="6.54826"/>
+            </texture>
+            <texture on="1" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="9.5" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="16.3796" angMax="33.1115" angSm="9.10456" hMin="-300" hMax="666" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="snow_mntn2_d.jpg" fnorm="snow_mntn2_n.jpg" scale="20.9979" surf="SnowDeep" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.000 0.000 0.401 0.604 0.000" angMin="59.8826" angMax="90" angSm="14.3225" hMin="-300" hMax="666" hSm="20" nOn="0" triplanar="1" noise="-0.228188" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="18.0217" surf="SnowDeep" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.000 0.000 0.401 0.604 0.000" angMin="33.9922" angMax="59.3542" angSm="8.79854" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
@@ -66,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="-55.4532 35.6295 191.963" dir="0.25338203 -0.24361306 -0.9361892"/>
+    <cam pos="-55.4532 35.6295 191.963" dir="0.253382 -0.243613 -0.936189"/>
     <objects>
         <o name="structure_1_v1" pos="-35.9881 131.466 -1.43238" rot="-0.727786 -0.685803 0 0" sc="1.16588 1.16588 1.16588"/>
         <o name="structure_1_v1" pos="-39.2835 100.643 1.08385" rot="0.658769 -0.752344 0 0" sc="1.17324 1.17324 1.17324"/>
