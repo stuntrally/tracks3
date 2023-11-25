@@ -1,9 +1,9 @@
 <SplineRoad>
-    <mtr type="0" road="roadMudWet" pipe="pipeGlass" wall="road_wall_JDark" col="road_col_Dark"/>
+    <mtr type="0" road="roadMudWet" pipe="pipeGlass" road2="roadMud" road3="roadNdirtWet" wall="road_wall_Black" pipeW="pipe_wall_Black" col="road_col_Black"/>
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2" wsPm="4" lsPm="1" stBox="1 5.56 19.968" iDir="-1" iChk1="4"/>
-    <stats length="4327.261" width="7.292471" height="34.02556" onTer="17.171719" pipes="10.718497" bnkAvg="4.068087" bnkMax="24.839962"/>
+    <stats length="4327.3" width="7.29247" height="34.0256" onTer="17.1716" pipes="10.7184" bnkAvg="4.15675" bnkMax="24.84"/>
     <txt desc="Dark, long, muddy, bumpy and slippery road."/>
     <adv ice="Has few wide curves, but partly slow and winding through mud. Shortly also in pipe."/>
     <P pos="-320.001 0 -139.009" w="7" aT="2"/>
@@ -22,19 +22,19 @@
     <P pos="8.45085 0 5.14946" w="7" aT="2"/>
     <P pos="-15.032 0 -32.6781" w="7" aT="2"/>
     <P pos="-26.074 0 -80.2179" w="8.104" a="0" ar="4.968" aT="2"/>
-    <P pos="-35.4121 21.1728 -108.819" w="8.0404" onTer="0" a="0" ar="0" aT="2" chkR="1.604"/>
-    <P pos="-55.459 0 -135.507" w="8.056" a="0" ar="0" aT="2"/>
-    <P pos="-82.8608 0 -172.808" w="8.296" aT="2"/>
+    <P pos="-35.4121 21.1728 -108.819" w="8.0404" onTer="0" a="0" ar="0" aT="2" mtr="2" chkR="1.604"/>
+    <P pos="-55.459 0 -135.507" w="8.056" a="0" ar="0" aT="2" mtr="2"/>
+    <P pos="-82.8608 0 -172.808" w="8.296" aT="2" mtr="2"/>
     <P pos="-107.053 0 -198.729" w="8.864" a="0" ar="0.528" aT="2" chkR="2.132"/>
     <P pos="-167.852 26.1133 -215.091" w="9.248" onTer="0" a="-4.5" ar="-24.84" aT="2" col="0"/>
     <P pos="-184.18 0 -178.84" w="8.896" a="0" ar="0" aT="2" col="0" chkR="1.76"/>
     <P pos="-184.703 0 -91.0223" w="8.7392" aT="2"/>
-    <P pos="-181.496 0 -62.9858" w="8.744" a="0" ar="0" aT="2" chkR="1.388"/>
-    <P pos="-168.955 26.7021 -38.1437" w="9.024" onTer="0" a="2.58" ar="-20.82" aT="2"/>
-    <P pos="-127.864 26.2396 -32.7486" w="9.016" onTer="0" a="3.42" ar="-23.46" aT="2"/>
-    <P pos="-94.0299 0 -47.1605" w="7" a="0" ar="0" aT="2" chkR="1.428"/>
-    <P pos="-76.5796 0 -46.0543" w="7" aT="2"/>
-    <P pos="-69.5923 0 -24.0395" w="7" aT="2"/>
+    <P pos="-181.496 0 -62.9858" w="8.744" a="0" ar="0" aT="2" mtr="1" chkR="1.388"/>
+    <P pos="-168.955 26.7021 -38.1437" w="9.024" onTer="0" a="2.58" ar="-20.82" aT="2" mtr="1"/>
+    <P pos="-127.864 26.2396 -32.7486" w="9.016" onTer="0" a="3.42" ar="-23.46" aT="2" mtr="1"/>
+    <P pos="-94.0299 0 -47.1605" w="7" a="0" ar="0" aT="2" mtr="1" chkR="1.428"/>
+    <P pos="-76.5796 0 -46.0543" w="7" aT="2" mtr="1"/>
+    <P pos="-69.5923 0 -24.0395" w="7" aT="2" mtr="1"/>
     <P pos="-39.6155 0 -4.84959" w="7" aT="2"/>
     <P pos="-32.2878 0 25.0156" w="7" aT="2" chkR="1.532"/>
     <P pos="13.9971 0 59.0634" w="7" aT="2"/>
@@ -71,8 +71,8 @@
     <P pos="-14.9936 0 247.217" w="7" aT="2"/>
     <P pos="-84.3915 0 255.674" w="7" aT="2" chkR="1.828"/>
     <P pos="-138.619 0 269.016" w="7" aT="2"/>
-    <P pos="-205.181 0 271.831" w="7" aT="2"/>
-    <P pos="-261.269 0 248.978" w="7" aT="2"/>
+    <P pos="-205.181 0 271.831" w="7" aT="2" mtr="2"/>
+    <P pos="-261.269 0 248.978" w="7" aT="2" mtr="2"/>
     <P pos="-293.57 0 198.564" w="7" aT="2" chkR="1.828"/>
     <P pos="-304.942 0 131.046" w="7" aT="2"/>
     <P pos="-307.702 0 48.6066" w="7" aT="2"/>
