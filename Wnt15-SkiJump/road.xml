@@ -3,7 +3,7 @@
     <dim tcMul="0.0591973" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.1" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="5.15483" wsPm="4" lsPm="1" stBox="1 6.70405 16.576" iDir="-1" iChk1="29"/>
-    <stats length="2678.4082" width="10.374781" height="204.436" onTer="10.928585" pipes="0" bnkAvg="1.5941985" bnkMax="6.8898892"/>
+    <stats length="2678.41" width="10.3748" height="204.436" onTer="10.9286" pipes="0" bnkAvg="1.5942" bnkMax="6.88989"/>
     <txt desc="A track with a deep drop and a ski jump on the snow."/>
     <adv ice="Landing safe, rather than flying far, is the key to success. Reverse direction requires boost."/>
     <P pos="282.541 0 -32.1852" w="7.792" aT="2"/>
