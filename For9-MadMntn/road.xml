@@ -2,8 +2,8 @@
     <mtr type="0" road="roadJungle" pipe="pipeGlass" road2="roadSavannah" road3="roadMud" wall="road_wall_Red" col="road_col_Desert"/>
     <dim tcMul="0.04" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.05" merge="1" mergeLen="400" lodPntLen="40" visDist="1000" visBehind="800"/>
-    <geom colN="6" colR="2.71669" wsPm="4" lsPm="1" stBox="1 5 11.848" iDir="1" iChk1="14"/>
-    <stats length="4574.2886" width="10.947559" height="51.22333" onTer="100" pipes="0" bnkAvg="11.010925" bnkMax="42.060005"/>
+    <geom colN="6" colR="2.71669" wsPm="4" lsPm="1" stBox="1 5 13.2476" iDir="1" iChk1="14"/>
+    <stats length="4574.69" width="10.9513" height="51.2165" onTer="100" pipes="0" bnkAvg="11.0109" bnkMax="42.06"/>
     <txt desc="Strange mountain bridged road in rain."/>
     <adv ice="Fast and wide, yet very banked and twisted."/>
     <P pos="125.408 13.24 131.831" w="18.0736" onTer="0" a="2.7" ar="11.1" aT="0" col="0" chkR="1.0518"/>
@@ -33,7 +33,7 @@
     <P pos="-87.5604 9.08 -87.8896" w="14.3216" onTer="0" a="-157.08" ar="18.6" aT="0" col="0" mtr="1" chkR="1.28"/>
     <P pos="-99.0249 8.64 -115.995" w="8.6896" onTer="0" a="-189.12" ar="19.32" aT="0" col="0" mtr="1"/>
     <P pos="-94.6256 9.516 -140.365" w="8.6896" onTer="0" a="-190.02" ar="29.28" aT="0" col="0" mtr="1"/>
-    <P pos="-75.4572 7.576 -160.885" w="15.1136" onTer="0" a="-252.54" ar="23.16" aT="0" col="0" mtr="1" chkR="1.292"/>
+    <P pos="-75.4572 7.576 -160.885" w="12.12" onTer="0" a="-252.54" ar="23.16" aT="0" col="0" mtr="1" chkR="1.292"/>
     <P pos="-28.9106 0.375998 -161.973" w="8.6896" onTer="0" a="76.56" ar="0" aT="0" col="0" mtr="1"/>
     <P pos="22.8703 13.24 -148.94" w="8.6896" onTer="0" a="76.08" ar="0" aT="0" col="0" mtr="1"/>
     <P pos="68.799 24.168 -135.632" w="8.6896" onTer="0" a="92.4" ar="0" aT="0" mtr="1"/>
@@ -52,7 +52,7 @@
     <P pos="-145.844 32.312 -205.174" w="13.9456" onTer="0" a="-250.74" ar="19.32" aT="0" col="0" mtr="1"/>
     <P pos="-99.5728 35.576 -207.809" w="10.7776" onTer="0" a="96.96" ar="22.62" aT="0" col="0" mtr="1" chkR="1.272"/>
     <P pos="-41.4326 32.952 -194.396" w="10.2736" onTer="0" a="79.32" ar="0" aT="0" mtr="1"/>
-    <P pos="0.482993 33 -183.693" w="10.4576" onTer="0" a="80.46" ar="6.24" aT="0" col="0" mtr="1"/>
+    <P pos="1.76968 33 -187.072" w="10.4576" onTer="0" a="80.46" ar="6.24" aT="0" col="0" mtr="1"/>
     <P pos="54.6506 36.744 -166.868" w="14.368" onTer="0" a="59.94" ar="16.86" aT="0" mtr="1" chkR="1.264"/>
     <P pos="75.9358 37.98 -150.351" w="18.4704" onTer="0" a="27.6" ar="37.56" aT="0" col="0" mtr="1"/>
     <P pos="81.356 31.432 -114.34" w="12.9312" onTer="0" a="3.18" ar="23.7" aT="0" mtr="1" chkR="1.088"/>
@@ -94,7 +94,7 @@
     <P pos="37.2975 10.92 66.3445" w="11.1616" onTer="0" a="0" ar="0" aT="0" mtr="2"/>
     <P pos="36.8315 15.692 91.2772" w="10.2736" onTer="0" a="0" ar="0" aT="0" col="0" mtr="2"/>
     <P pos="35.3206 10.016 120.509" w="9.9696" onTer="0" a="0" ar="0" aT="0" mtr="2"/>
-    <P pos="34.9672 13.24 145.512" w="8.6896" onTer="0" a="0" ar="0" aT="0" col="0" mtr="2"/>
+    <P pos="34.9672 13.24 145.512" w="13.6636" onTer="0" a="0" ar="0" aT="0" col="0" mtr="1"/>
     <P pos="32.586 20.968 176.564" w="11.2976" onTer="0" a="-5.04" ar="13.14" aT="0" mtr="2"/>
     <P pos="23.2536 22.936 190.323" w="13.8016" onTer="0" a="-60.24" ar="26.46" aT="0" mtr="2" chkR="1.24"/>
     <P pos="-5.06221 23.656 190.122" w="15.4896" onTer="0" a="-130.8" ar="23.1" aT="0" mtr="2"/>

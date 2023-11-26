@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="517.436" lodPntLen="18.0916" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="4.0506" wsPm="4" lsPm="1" stBox="1 6.228 16.8084" iDir="1" iChk1="4"/>
-    <stats length="8044.6016" width="13.036299" height="146.01509" onTer="87.36304" pipes="32.562553" bnkAvg="18.89313" bnkMax="89.94066"/>
+    <stats length="8044.6" width="13.0363" height="146.015" onTer="87.363" pipes="32.5626" bnkAvg="18.8931" bnkMax="89.9407"/>
     <txt desc="This is one ugly looking spider. Similar to Web but also with pipes."/>
     <adv ice="Long and difficult. Beware of obstacles on road and in pipes. Has very sharp, heavily banked or vertical turns outside."/>
     <P pos="-149.541 55.0131 -0.386274" w="12.04" onTer="0" a="0" ar="2.1" aT="2" mtr="2"/>
