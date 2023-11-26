@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="7649"/>
+    <ver num="3018" baseTrk="" secEd="7830"/>
     <car tires="0" needLights="1"/>
     <start pos="213.537 108.843 26.036" rot="0.01319 0.014275 0.995562 -0.0922952" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Canyon"/>
-    <sky material="sky/duskstormy" skyYaw="-63.508774"/>
-    <fog color="0.151 1.000 0.719 0.295 0.000" color2="0.298 0.928 0.191 0.930 0.388" linStart="12.207" linEnd="361.04575"/>
+    <sky material="sky/overcast_02_purple" skyYaw="-63.5088"/>
+    <fog color="0.151 1.000 0.719 0.295 0.000" color2="0.298 0.928 0.191 0.930 0.388" linStart="12.207" linEnd="361.046"/>
     <fogH color="0.233 0.965 0.600 1.022 0.000" height="29.8984" dens="28.0434" linStart="0" linEnd="20" dmg="20"/>
-    <light pitch="32.9062" yaw="15.087723" ambient="0.333 0.125 0.059 0.000 0.000" diffuse="0.333 0.200 0.169 0.000 0.000" specular="0.211 0.950 0.517 0.000 0.000"/>
+    <light pitch="40" yaw="75" ambient="0.333 0.125 0.059 0.000 0.000" diffuse="0.333 0.200 0.169 0.000 0.000" specular="0.211 0.950 0.517 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="mud med" pos="7.89645 -4.90476 4.80226" rot="0 0 0" size="770 160 770" tile="0.01 0.01"/>
     </fluids>
@@ -36,7 +36,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
             <par dust="DustBlack" mud="MudDark" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.318911" diff="1 1 1" emissive="1" horiz="1">
+        <terrain ofsZ="0" triangle="10.3189" diff="1 1 1" emissive="1" horiz="1">
             <texture on="1" file="desert_rocky_d.jpg" fnorm="desert_rocky_n.jpg" scale="14.16" surf="DesertBumpy" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="19.3738" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="0" n2="1">
                 <noise frq0="29.2247" oct0="4" prs0="0.616634" pow0="2.0372" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -91,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="567.358 269.116 -18.6563" dir="-0.8837018 -0.46776694 0.01628697"/>
+    <cam pos="567.358 269.116 -18.6564" dir="-0.883709 -0.467752 0.0163215"/>
     <objects>
         <o name="atomic_barrel" pos="20.5091 4.12517 49.2569" rot="0.99083 -0.135114 2.91938e-06 -9.04161e-06"/>
         <o name="atomic_barrel" pos="19.4744 2.22281 49.2569" rot="0.939716 -0.341956 -3.55062e-07 -2.7321e-06"/>
@@ -368,6 +368,6 @@
         <o name="atomic_barrel" pos="-71.748 238.266 26.5921" rot="0.928498 -0.369734 -0.0214899 0.0269391"/>
     </objects>
     <emitters>
-        <e name="Radioactive" pos="-3.80225 25.3521 0.459521" sc="819.353 1 738.645" up="0 1 0" rot="0" rate="354.59082" st="0" psc="1"/>
+        <e name="Radioactive" pos="-3.80225 25.3521 0.459521" sc="819.353 1 738.645" up="0 1 0" rot="0" rate="354.591" st="0" psc="1"/>
     </emitters>
 </scene>

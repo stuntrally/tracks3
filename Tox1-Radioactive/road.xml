@@ -3,7 +3,7 @@
     <dim tcMul="0.15" tcW="0.352258" tcP="0.1" tcPW="0.3" tcC="0.135868" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="600" lodPntLen="30" visDist="600" visBehind="400"/>
     <geom colN="5" colR="3.00081" wsPm="4" lsPm="1" stBox="1 4.76 12.6324" iDir="-1" iChk1="51"/>
-    <stats length="2982.6514" width="8.770614" height="39.669197" onTer="83.741714" pipes="34.692635" onPipe="34.692635" bnkAvg="5.2689023" bnkMax="21.60002"/>
+    <stats length="2982.65" width="8.77061" height="39.6692" onTer="83.7417" pipes="34.6926" onPipe="34.6926" bnkAvg="5.2689" bnkMax="21.6"/>
     <txt desc="A track on foggy, radioactive waste ground with lots of barrels. Only virtual drives here, rally team wanted to be far away."/>
     <adv ice="Slow down before the on-pipe turns and carefully avoid obstacles on them."/>
     <P pos="276.457 23.4741 -114.578" w="11.048" onTer="0" a="0" ar="0" aT="2" pipe="1" onP="1"/>

@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="5469"/>
+    <ver num="3018" baseTrk="" secEd="6763"/>
     <car tires="0" damage="0.3"/>
     <start pos="120.964 3.01874 0.564935" rot="0.00699 0.00688 0.712691 -0.70144" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/dawn"/>
-    <fog color="0.132 0.512 0.581 1.000 0.000" color2="0.083 0.349 0.244 1.000 0.000" linStart="63.7764" linEnd="560.868"/>
+    <sky material="sky/dusk_stormy_01_brown" skyYaw="-98.8085"/>
+    <fog color="0.132 0.517 0.467 1.000 0.000" color2="0.083 0.459 0.194 1.000 0.000" linStart="63.7764" linEnd="560.868"/>
     <fogH color="0.111 0.686 0.220 1.000 0.000" height="-0.870819" dens="2.30704" linStart="0" linEnd="1.52089"/>
-    <light pitch="45" yaw="-8.10001" ambient="0.000 0.167 0.502 1.000 0.000" diffuse="0.167 0.250 0.497 1.000 0.000" specular="0.000 0.000 0.554 1.000 0.000"/>
+    <light pitch="13" yaw="-2" ambient="0.000 0.167 0.502 1.000 0.000" diffuse="0.167 0.250 0.497 1.000 0.000" specular="0.000 0.000 0.554 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="mud easy soft" pos="-17.2888 -4.43601 86.2427" rot="0 0 0" size="21.5143 1.49071 40.2628" tile="0.01 0.01"/>
         <fluid hq="2" name="water shore" pos="-42.0518 25.2369 186.317" rot="0 0 0" size="16.6461 4.06352 15.062" tile="0.01 0.01"/>
@@ -40,7 +40,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.7229" diff="1 1 1">
+        <terrain ofsZ="0" triangle="10.7229" diff="1 1 1" horiz="1">
             <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="68.6303" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="0" angMax="21.1184" angSm="40.2159" hMin="-5.25114" hMax="310" hSm="40" nOn="0" triplanar="1" noise="1" n_1="0" n2="1">
                 <noise frq0="8.40441" oct0="3" prs0="0.23578" pow0="0.649509" frq1="3.03819" oct1="5" prs1="0.7" pow1="3.992"/>
             </texture>
@@ -85,17 +85,33 @@
         <layer on="1" name="farn1.mesh" dens="0.34" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="1.50667" minTerH="-7" maxTerH="22" maxDepth="5"/>
         <layer on="0" name="farn2.mesh" dens="0.34" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="19.0876" minTerH="-7" maxTerH="22" maxDepth="5"/>
         <layer on="0" name="rock_n4r-W.mesh" dens="0.127695" minScale="1.66" maxScale="2.25" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="27.2935" minTerH="-10" maxTerH="24.0553" maxDepth="2"/>
-        <layer on="1" name="rock_n5v-W.mesh" dens="0.127695" minScale="1.05" maxScale="1.43" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="22.5" minTerH="-10" maxTerH="24.6083" maxDepth="2"/>
-        <layer on="1" name="rock_n1-W.mesh" dens="0.164323" minScale="2.23" maxScale="3.05" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="38.5389" minTerH="-100" maxTerH="24.6083" maxDepth="2"/>
-        <layer on="1" name="rock_W03.mesh" dens="0.1" minScale="1.21" maxScale="2.41" ofsY="0" addTrRdDist="11" maxRdist="100" windFx="0" windFy="0" maxTerAng="23.1264" minTerH="-100" maxTerH="24.6083" maxDepth="2"/>
-        <layer on="1" name="rock_W02.mesh" dens="0.1" minScale="1.11" maxScale="2.03" ofsY="0" addTrRdDist="9" maxRdist="100" windFx="0" windFy="0" maxTerAng="25.19" minTerH="-100" maxTerH="24.6083" maxDepth="2"/>
+        <layer on="1" name="rock_n5v-W.mesh" dens="0.0648959" minScale="1.05" maxScale="1.43" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="15.33" minTerH="-10" maxTerH="24.6083" maxDepth="2"/>
+        <layer on="1" name="rock46grayWhite2.mesh" dens="0.164323" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="24.6083" maxDepth="1"/>
+        <layer on="1" name="rock09tallHarshWh.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="24.6083" maxDepth="1"/>
+        <layer on="1" name="rock20liGrayTall.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="24.6083" maxDepth="1"/>
         <layer on="0" name="rock_W01.mesh" dens="0.1" minScale="1.15" maxScale="2.23" ofsY="0" addTrRdDist="6" maxRdist="100" windFx="0" windFy="0" maxTerAng="35.19" minTerH="-100" maxTerH="24.6083" maxDepth="2"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="290.05 114.596 -149.264" dir="-0.64143103 -0.28359395 0.71283996"/>
-    <objects/>
+    <cam pos="290.044 114.591 -149.249" dir="-0.641431 -0.283593 0.71284"/>
+    <objects>
+        <o name="obstacleWhite2" pos="56.1885 -128.347 30.1026" rot="-0.0854329 -0.960386 -0.2546 -0.0741153" sc="1.35831 1.45429 1.79512"/>
+        <o name="garbage_bag_01" pos="26.6532 61.5059 1.42265" rot="0.025359 0.998282 -0.0116931 -0.0515131"/>
+        <o name="garbage_bag_02" pos="24.7274 62.2226 2.18806" rot="-0.116332 -0.685161 -0.25192 0.673467"/>
+        <o name="garbage_bin_green" pos="30.3274 63.0053 2.38044" rot="-0.0119256 0.997096 -0.0143629 0.0738254"/>
+        <o name="garbage_bag_02" pos="24.9641 59.1505 1.77786" rot="0.892564 -0.444943 0.0547071 0.0485951"/>
+        <o name="storage_tank_2" pos="8.63857 -259.591 18.1392" rot="0 -1 0 0" sc="2.80664 2.80664 2.80664"/>
+        <o name="storage_tank_2" pos="-40.7964 -264.389 22.0111" rot="0.747185 -0.664614 0 0" sc="1.80427 1.80427 1.80427"/>
+        <o name="storage_tank" pos="7.69697 -191.266 14.569" rot="0.992594 -0.121448 0 0" sc="2.30294 2.30294 2.30294"/>
+        <o name="storage_tank_2" pos="14.6849 -135.627 16.4055" rot="0.0199046 0.999794 0 0" sc="2.05008 2.05008 2.05008"/>
+        <o name="gas_tank_02_grey" pos="-34.8028 -139.347 21.4867" rot="0.0237896 0.99961 -0.0132744 0.000141351" sc="2.64122 2.64122 2.64122"/>
+        <o name="gas_tank_02_grey" pos="-52.1681 -131.211 21.1045" rot="0.0197022 0.989625 -0.00283109 0.142204" sc="2.64122 2.64122 2.64122"/>
+        <o name="storage_tank" pos="-43.3804 -227.197 23.0169" rot="-0.810036 0.586375 0 0" sc="1.92866 1.92866 1.92866"/>
+        <o name="obstacleWhite4" pos="-47.5918 -189.739 25.7606" rot="-0.901122 0.433555 0 0" sc="1.99762 1.99762 1.99762"/>
+        <o name="storage_tank_2" pos="292.207 -166.144 5.82349" rot="-0.9686 -0.248601 0 0" sc="5.01868 5.01868 5.01868"/>
+        <o name="radio_tower" pos="-7.64402 -37.1203 -0.552898" rot="0.701878 0.712216 0.00733383 0.00744185"/>
+    </objects>
     <emitters/>
 </scene>

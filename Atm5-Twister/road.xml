@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="400" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.4079 11.692" iDir="-1" iChk1="18"/>
-    <stats length="1088.9348" width="6.0000005" height="176.14828" onTer="100" pipes="0" bnkAvg="22.231447" bnkMax="47.908184"/>
+    <stats length="1088.93" width="6" height="176.148" onTer="100" pipes="0" bnkAvg="22.2314" bnkMax="47.9082"/>
     <txt desc="A track inspired by a force of nature."/>
     <adv ice="Be careful not to go too fast. Avoid hitting road wall. Has tricky slow jump at bottom."/>
     <P pos="25.6237 90.002 -35.7885" w="6" onTer="0" a="-11.8108" ar="32.1965" aT="2"/>
