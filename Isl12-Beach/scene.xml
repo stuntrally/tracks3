@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="1269"/>
+    <ver num="3018" baseTrk="" secEd="1573"/>
     <car tires="0"/>
     <start pos="119.571 -76.8704 5.29286" rot="0.00755726 0.0145231 0.882293 0.470437" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/dawn_01"/>
-    <fog color="0.106 0.611 0.900 0.700 0.000" color2="0.167 0.182 0.550 1.000 0.000" linStart="90.3125" linEnd="451.25"/>
+    <sky material="sky/day_clouds_04_blue"/>
+    <fog color="0.560 0.143 0.954 0.863 0.000" color2="0.729 0.186 0.336 0.891 0.000" linStart="90.3125" linEnd="451.25"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="15" yaw="0" ambient="0.167 0.140 0.500 1.000 0.000" diffuse="0.125 0.286 0.700 1.000 0.000" specular="0.083 0.333 0.600 1.000 0.000"/>
+    <light pitch="48" yaw="-35" ambient="0.167 0.140 0.500 1.000 0.000" diffuse="0.125 0.286 0.700 1.000 0.000" specular="0.083 0.333 0.600 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="0.104229 3.33022 -0.0285969" rot="0 0 0" size="8000 40 8000" tile="0.01 0.01"/>
     </fluids>
@@ -62,7 +62,7 @@
             <par dust="DustSmall" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.2" densTrees="1.1" grPage="80" grDist="80" grDensSmooth="6" trPage="70" trDist="140" trDistImp="800" trRdDist="1">
+    <veget densGrass="0.2" densTrees="1.1" grPage="80" grDist="80" grDensSmooth="6" trPage="70" trDist="140" trDistImp="800" trRdDist="1">
         <grass on="1" mtr="grass3g" dens="0.287319" chan="0" minSx="1.18105" maxSx="1.53682" minSy="1.47402" maxSy="2.05259" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass18gw" dens="0.0560602" chan="0" minSx="1.63366" maxSx="2.08978" minSy="1.80207" maxSy="2.6262" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="0" mtr="grass17hg" dens="0.0773504" chan="0" minSx="0.875799" maxSx="1.38244" minSy="0.947375" maxSy="1.48959" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -90,8 +90,8 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
-    <cam pos="213.15 58.9495 -135.495" dir="-0.881316 -0.0931966 0.463246"/>
+    </veget>
+    <cam pos="213.15 58.9495 -135.495" dir="-0.8813159 -0.093196586 0.46324563"/>
     <objects>
         <o name="plastic_big" pos="-82.18 -82.8384 4.40465" rot="-0.0185026 0.999742 -0.0113679 -0.00672184"/>
         <o name="plastic_big" pos="-77.4068 -91.0946 4.38007" rot="0.0173255 0.999825 -0.00660519 -0.00236633"/>
