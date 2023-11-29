@@ -3,7 +3,7 @@
     <dim tcMul="0.0658105" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.06" merge="1" mergeLen="767.46" lodPntLen="32.6223" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3.09914" wsPm="4" lsPm="1" stBox="1 5.552 17.656" iDir="1" iChk1="89"/>
-    <stats length="4205.5205" width="8.702738" height="91.8797" onTer="85.97277" pipes="25.554693" bnkAvg="16.102976" bnkMax="89.580345"/>
+    <stats length="4205.52" width="8.70274" height="91.8797" onTer="85.9728" pipes="25.5547" bnkAvg="16.103" bnkMax="89.5803"/>
     <txt desc="Magical Alien beach filled with mushrooms."/>
     <adv ice="Be in middle in pipe rings (like those in loops) to not fall off. Don&apos;t go too fast on bumps, unless you know exactly in which direction to jump."/>
     <P pos="-16.6376 -2.99725 145.54" w="7" onTer="0" a="0" ar="0" aT="2" col="0"/>
