@@ -1,8 +1,8 @@
 <scene>
-    <ver num="3018" baseTrk="W13-MtFog" secEd="68195"/>
+    <ver num="3018" baseTrk="W13-MtFog" secEd="70548"/>
     <car tires="0" damage="0.166667"/>
     <start pos="10.6489 -300.008 4.70866" rot="-5.96046e-08 7.79401e-08 0.321523 0.946902" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" vol="1" reverbs="Alien"/>
+    <sound ambient="" reverbs="Alien"/>
     <sky material="sky/cloudy_02_toxic" rainName="CloudsMistToxicThin" rainEmit="49" rain2Name="CrystalSnowGreen" rain2Emit="85" skyYaw="103.37"/>
     <fog color="0.138 0.432 0.277 1.616 0.200" color2="0.198 0.690 0.312 0.738 0.314" linStart="236.233" linEnd="732.828"/>
     <fogH color="0.570 0.050 0.035 0.810 0.669" height="0.809723" dens="7.87097" linStart="0" linEnd="0.819551"/>
@@ -37,7 +37,7 @@
             <par dust="DustBlack" mud="MudDark" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.1" densTrees="0.395295" grPage="100" grDist="100" grDensSmooth="6" trPage="200" trDist="200" trDistImp="800" trRdDist="3">
+    <veget densGrass="0.1" densTrees="0.395295" grPage="100" grDist="100" grDensSmooth="6" trPage="200" trDist="200" trDistImp="800" trRdDist="3">
         <grass on="0" mtr="grassSavanna" dens="1" chan="0" minSx="0.7" maxSx="1.25" minSy="0.7" maxSy="1.3" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
         <grass on="1" mtr="grass3y" dens="0.102113" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass17" dens="0.174611" chan="0" minSx="0.887509" maxSx="1.03487" minSy="0.935227" maxSy="1.1" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -65,7 +65,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="-42.0535 198.987 -331.649" dir="0.266109 -0.470623 0.841249"/>
     <objects>
         <o name="storage_tank" pos="156.93 -250.844 -2.0629" rot="0.867611 -0.497243 0 0"/>
@@ -390,8 +390,8 @@
         <e name="OilBubblesSurface" pos="-38.4292 -1.32366 333.843" sc="13.6931 1 15.2107" up="0 1 0" rot="0" rate="2.70532" st="0" psc="0.523066"/>
         <e name="OilBubblesSurface" pos="-38.1717 -1.33689 330.641" sc="7.60568 1 24.1965" up="0 1 0" rot="0" rate="3.73697" st="0" psc="0.815791"/>
         <e name="SmokeBlack" pos="146.723 23.1569 -187.092" sc="4.70042 1 9.38789" up="0 1 0" rot="0" rate="21.2437" st="0" psc="0.329232"/>
-        <e name="Cloud3" pos="133.853 23.6796 -197.151" sc="55.7275 17.9273 77.3614" up="0 1 0" rot="0" rate="30.4447" st="0" psc="0.266534"/>
-        <e name="Cloud3" pos="240.023 5.86617 353.725" sc="26.5621 9.37712 22.7016" up="0 1 0" rot="0" rate="10" st="0" psc="0.589949"/>
+        <e name="Cloud9BrownSmall" pos="133.853 23.6796 -197.151" sc="55.7275 17.9273 77.3614" up="0 1 0" rot="0" rate="62.997437" st="0" psc="0.266534"/>
+        <e name="Cloud9BrownSmall" pos="283.4471 13.742821 349.97305" sc="38.613045 26.02955 50.027008" up="0 1 0" rot="0" rate="10" st="0" psc="0.589949"/>
         <e name="SmokeBlack" pos="239.527 8.85784 350.176" sc="4.87083 1.34474 3.57852" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
         <e name="OilBubblesSurface" pos="-136.575 -1.27488 -181.046" sc="35.9763 1 19.9578" up="0 1 0" rot="0" rate="7.38537" st="0" psc="1.27105"/>
     </emitters>
