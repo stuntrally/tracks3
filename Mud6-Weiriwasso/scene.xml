@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="142611"/>
+    <ver num="3018" baseTrk="" secEd="143702"/>
     <car tires="0" damage="0.447257"/>
     <start pos="391.103 -498.351 8.72732" rot="-1.08033e-07 -1.30386e-07 -0.999495 -0.0318525" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
@@ -41,7 +41,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.109584" densTrees="2.41142" grPage="80" grDist="80" grDensSmooth="3" trPage="100" trDist="150" trDistImp="600" trRdDist="0">
+    <veget densGrass="0.109584" densTrees="2.41142" grPage="80" grDist="80" grDensSmooth="3" trPage="100" trDist="150" trDistImp="600" trRdDist="0">
         <grass on="1" mtr="grass17" dens="0.416686" chan="0" minSx="1.38244" maxSx="1.60103" minSy="1.32315" maxSy="1.78484" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="0" mtr="grass8g" dens="0.0206984" chan="0" minSx="1.80207" maxSx="1.92518" minSy="2.01575" maxSy="2.22271" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="0" mtr="grass12y-" dens="0.0635" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.47402" maxSy="1.78484" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -69,7 +69,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="-294.252 147.689 809.265" dir="-0.0630634 -0.0414344 -0.99714905"/>
     <objects>
         <o name="cave_Y05" pos="-80.8671 573.979 398.05" rot="0.21084 -0.975438 0.0623367 -0.013474" sc="1.0828 1.0828 1.0828"/>
@@ -229,14 +229,15 @@
         <o name="cave_Y04" pos="482.913 697.699 303.414" rot="0 -1 0 0"/>
     </objects>
     <emitters>
-        <e name="Cloud2Small" pos="68.2332 373.443 -13.4047" sc="283.529 43.6855 210.086" up="0 1 0" rot="0" rate="193.506" st="0" psc="1"/>
-        <e name="Cloud2Small" pos="-578.071 478.097 -688.022" sc="411.457 92.3434 217.536" up="0 1 0" rot="0" rate="235.403" st="0" psc="1"/>
-        <e name="Cloud2Small" pos="689.07 411.236 -637.322" sc="252.842 66.7506 308.187" up="0 1 0" rot="0" rate="156.507" st="0" psc="1"/>
-        <e name="Cloud2Small" pos="759.413 358.34 -278.897" sc="122.646 37.5425 211.733" up="0 1 0" rot="0" rate="84.8878" st="0" psc="1"/>
-        <e name="Waterfall1High" pos="-429.186 140.151 -416.254" sc="82.7779 106.07 133.207" up="0 1 0" rot="0" rate="1418.23" st="0" psc="1"/>
-        <e name="Cloud2" pos="-431.17 122.176 -412.549" sc="111.368 93.244 77.9673" up="0 1 0" rot="0" rate="6.02129" st="0" psc="1"/>
-        <e name="Waterfall1HighTall" pos="-384.664 377.143 -499.776" sc="66.4963 137.535 75.4584" up="0 1 0" rot="0" rate="42.1664" st="0" psc="1"/>
+        <e name="Cloud6OrangeSlow" pos="68.2332 373.443 -13.4047" sc="290.6912 81.90506 268.98773" up="0 1 0" rot="0" rate="59.408302" st="1" psc="1"/>
+        <e name="Cloud6OrangeSlow" pos="-578.071 478.097 -688.022" sc="363.026 106.20961 291.16074" up="0 1 0" rot="0" rate="94.10914" st="1" psc="1"/>
+        <e name="Cloud6OrangeSmall" pos="689.07 411.236 -637.322" sc="252.842 66.7506 308.187" up="0 1 0" rot="0" rate="156.507" st="1" psc="1"/>
+        <e name="Cloud6OrangeSlow" pos="759.413 358.34 -278.897" sc="122.646 37.5425 211.733" up="0 1 0" rot="0" rate="41.13484" st="1" psc="1"/>
+        <e name="Waterfall1High" pos="-431.88388 123.45598 -419.3285" sc="33.62424 68.11379 22.17731" up="0 1 0" rot="0" rate="1418.23" st="0" psc="1"/>
+        <e name="Cloud9Small" pos="-449.90155 111.32803 -399.034" sc="76.93272 28.499546 101.73001" up="0 1 0" rot="0" rate="34.101067" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="-370.20193 400.86652 -524.0298" sc="31.421713 43.91113 28.075214" up="0 1 0" rot="0" rate="70.7597" st="0" psc="1"/>
         <e name="Waterfall1HighTall" pos="-78.8557 24.8621 573.473" sc="33.4916 24.8285 33.5644" up="0 1 0" rot="0" rate="33.4237" st="0" psc="1"/>
         <e name="WaterfallLow" pos="448.216 8.40652 532.449" sc="20.2525 23.3262 21.3708" up="0 1 0" rot="0" rate="486.494" st="0" psc="1"/>
+        <e name="Waterfall1HighTall" pos="-401.0611 243.8125 -474.3603" sc="5.307537 134.36317 8.394784" up="0 1 0" rot="0" rate="76.7551" st="0" psc="1"/>
     </emitters>
 </scene>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="11316"/>
+    <ver num="3018" baseTrk="" secEd="11503"/>
     <car tires="0"/>
     <start pos="44.4858 -105.865 -7.60815" rot="-0.002779 -0.011944 0.226561 -0.973925" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="MountainsClose"/>
@@ -37,7 +37,7 @@
             </texture>
             <texture road="1" surf="roadGravel" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.300 0.500 0.000"/>
             <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
-            <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
@@ -62,12 +62,12 @@
             </texture>
             <texture road="1" surf="roadGravel" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.300 0.500 0.000"/>
             <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
-            <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.25" densTrees="1.6" grPage="100" grDist="100" grDensSmooth="1" trPage="120" trDist="120" trDistImp="800" trRdDist="1">
+    <veget densGrass="0.25" densTrees="1.6" grPage="100" grDist="100" grDensSmooth="1" trPage="120" trDist="120" trDistImp="800" trRdDist="1">
         <grass on="1" mtr="grass17" dens="0.416686" chan="0" minSx="1.45854" maxSx="1.66664" minSy="1.58485" maxSy="1.8194" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass9r" dens="0.0206984" chan="0" minSx="0.984347" maxSx="1.30854" minSy="1.12667" maxSy="1.39749" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass2g" dens="0.032553" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.78484" maxSy="2.07114" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -95,12 +95,13 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="770.189 200.43 -80.4362" dir="-0.9843433 -0.17546806 0.016713858"/>
     <objects/>
     <emitters>
         <e name="Cloud2" pos="-341.152 187.994 100.399" sc="119.726 5.36835 90.7977" up="0 1 0" rot="0" rate="11.0403" st="1" psc="1"/>
         <e name="Cloud1" pos="-393.585 129.839 -325.258" sc="399.934 1 317.785" up="0 1 0" rot="0" rate="28.0468" st="1" psc="1"/>
         <e name="Cloud1" pos="-5052.44 1197.02 4423.47" sc="1012.51 193.08 1029.08" up="0 1 0" rot="0" rate="236.177" st="1" psc="1"/>
+        <e name="WaterfallLow" pos="377.4835 0.95467114 -234.76988" sc="6.8464518 2.2131994 10.722733" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
     </emitters>
 </scene>
