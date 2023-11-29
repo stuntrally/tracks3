@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="7830"/>
+    <ver num="3018" baseTrk="" secEd="7991"/>
     <car tires="0" needLights="1"/>
     <start pos="213.537 108.843 26.036" rot="0.01319 0.014275 0.995562 -0.0922952" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Canyon"/>
-    <sky material="sky/overcast_02_purple" skyYaw="-63.5088"/>
+    <sky material="sky/dusk_stormy_02_dark" skyYaw="-98.80851"/>
     <fog color="0.151 1.000 0.719 0.295 0.000" color2="0.298 0.928 0.191 0.930 0.388" linStart="12.207" linEnd="361.046"/>
     <fogH color="0.233 0.965 0.600 1.022 0.000" height="29.8984" dens="28.0434" linStart="0" linEnd="20" dmg="20"/>
-    <light pitch="40" yaw="75" ambient="0.333 0.125 0.059 0.000 0.000" diffuse="0.333 0.200 0.169 0.000 0.000" specular="0.211 0.950 0.517 0.000 0.000"/>
+    <light pitch="26.425531" yaw="-3.8297882" ambient="0.333 0.125 0.059 0.000 0.000" diffuse="0.333 0.200 0.169 0.000 0.000" specular="0.211 0.950 0.517 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="mud med" pos="7.89645 -4.90476 4.80226" rot="0 0 0" size="770 160 770" tile="0.01 0.01"/>
     </fluids>
@@ -62,7 +62,7 @@
             <par dust="DustBlack" mud="MudDark" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.1" densTrees="0.395295" grPage="100" grDist="100" grDensSmooth="6" trPage="200" trDist="200" trDistImp="800" trRdDist="3">
+    <veget densGrass="0.1" densTrees="0.395295" grPage="100" grDist="100" grDensSmooth="6" trPage="200" trDist="200" trDistImp="800" trRdDist="3">
         <grass on="0" mtr="grassSavanna" dens="1" chan="0" minSx="0.7" maxSx="1.25" minSy="0.7" maxSy="1.3" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
         <grass on="1" mtr="grass3y" dens="0.102113" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass17" dens="0.174611" chan="0" minSx="0.887509" maxSx="1.03487" minSy="0.935227" maxSy="1.1" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -90,7 +90,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="567.358 269.116 -18.6564" dir="-0.883709 -0.467752 0.0163215"/>
     <objects>
         <o name="atomic_barrel" pos="20.5091 4.12517 49.2569" rot="0.99083 -0.135114 2.91938e-06 -9.04161e-06"/>
