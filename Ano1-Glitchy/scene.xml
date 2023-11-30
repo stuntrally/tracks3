@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3018" baseTrk="Mos3-Air" secEd="62066"/>
+    <ver num="3018" baseTrk="Mos3-Air" secEd="62710"/>
     <car tires="0" damage="0.355828" gravity="10.1741"/>
     <start pos="-129.325 -304.361 109.277" rot="0.0635909 0.212814 0.179922 -0.958338" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Jungle"/>
@@ -81,7 +81,7 @@
         <layer on="1" name="gum_tree.mesh" dens="0.248296" minScale="0.248217" maxScale="0.767569" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.433334" windFy="0.00619763" maxTerAng="20.48" minTerH="-60" maxTerH="90" maxDepth="0"/>
         <layer on="1" name="pine2_tall_full.mesh" dens="0.272316" minScale="0.89" maxScale="1.26" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.16" windFy="0.147494" maxTerAng="70.5148" minTerH="50" maxTerH="90" maxDepth="0"/>
         <layer on="1" name="rock35red1edgy_anomaly.mesh" dens="0.445852" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="90" maxTerH="200" maxDepth="0"/>
-        <layer on="1" name="rock12orange_anomaly.mesh" dens="0.49133" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.3" windFy="0.004" maxTerAng="26.93" minTerH="-0.1" maxTerH="40" maxDepth="0"/>
+        <layer on="1" name="rock12orange_anomaly.mesh" dens="0.284332" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.3" windFy="0.004" maxTerAng="26.93" minTerH="-0.1" maxTerH="40" maxDepth="0"/>
         <layer on="0" name="jungle_tree.mesh" dens="0.0989547" minScale="1.65778" maxScale="2.21259" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.393863" windFy="0.00277818" maxTerAng="25.5579" minTerH="-100" maxTerH="21" maxDepth="0"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
@@ -138,7 +138,6 @@
         <o name="atomic_barrel_static" pos="102.31 12.4704 19.894" rot="0 1 0 0" sc="54.2175 54.2175 54.2175"/>
         <o name="plastic_barrel_static" pos="-293.268 295.246 18.0493" rot="0 1 0 0" sc="45.9191 45.9191 45.9191"/>
         <o name="wood_block_static" pos="233.79 -206.276 115.054" rot="-0.388979 0.897962 -0.0934871 0.18336" sc="17.4778 17.4778 17.4778"/>
-        <o name="big_tire_static" pos="-235.259 -303.052 142.717" rot="-0.674615 0.215623 -0.695536 0.120965" sc="29.2671 20.6596 29.2671"/>
         <o name="plastic_big_static" pos="-150.459 307.977 -21.2859" rot="-0.247488 0.603676 -0.287472 -0.701203" sc="10.8982 5.76277 10.8982"/>
         <o name="atomic_barrel" pos="-128.87 -304.543 109.962" rot="0 -1 0 0"/>
         <o name="atomic_barrel" pos="301.632 126.908 16.5734" rot="-0.334637 -0.861961 -0.0891243 0.370266"/>
@@ -149,6 +148,151 @@
         <o name="wooden_barrel_big" pos="14.4976 63.3415 19.7407" rot="0.164691 -0.94975 -0.266002 -0.00967415"/>
         <o name="atomic_barrel_static" pos="241.6 216.173 32.3061" rot="-0.0743297 0.905003 -0.0342864 0.417455"/>
         <o name="cone_static" pos="300.738 232.094 109.936" rot="0.293423 -0.885023 -0.0695995 -0.354675" sc="49.4473 60.4723 49.4473"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="139.786 188.519 5.52125" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="143.598 185.493 5.53539" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="177.932 -208.451 60.3823" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="176.905 -218.94 60.9038" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="165.844 -216.431 61.2527" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="165.844 -216.431 61.2527" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="165.844 -216.431 61.2527" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="165.844 -216.431 61.2527" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="165.844 -216.431 61.2527" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="165.844 -216.431 61.2527" rot="0 -1 0 0"/>
+        <o name="plastic_barrel_anomaly" pos="165.844 -216.431 61.2527" rot="0 -1 0 0"/>
+        <o name="big_tire_anomaly2_static" pos="-180.742 -285.398 119.819" rot="-0.535439 -0.393078 -0.173417 -0.727117" sc="10.3819 10.3819 10.3819"/>
+        <o name="big_tire_anomaly_static" pos="269.923 180.34 19.3987" rot="-0.483899 -0.611293 0.219162 -0.586582" sc="22.0546 66.0366 22.0546"/>
+        <o name="crystal2_anomaly" pos="-129.22 -250.087 93.5785" rot="-0.483899 -0.611293 0.219162 -0.586582" sc="1.72373 1.81651 1.72373"/>
+        <o name="obstacleAnomalyBroken8" pos="-213.992 181.588 -7.58044" rot="-0.112652 -0.0570207 0.452788 -0.882597" sc="4.02784 4.24465 4.02784"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
     </objects>
     <emitters>
         <e name="CrystalCloud" pos="34.7249 23.3659 -95.1322" sc="69.2362 21.9709 77.8459" up="0 1 0" rot="0" rate="16.5102" st="0" psc="1"/>
