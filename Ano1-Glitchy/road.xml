@@ -1,9 +1,9 @@
 <SplineRoad>
-    <mtr type="0" road="roadInvisibleForest" pipe="roadInvisibleSnow" road2="roadSandMagicPink" pipe2="roadAlienTransp" road3="roadSnowTransp" pipe3="pipeGlass" road4="roadSnow" pipe4="pipeGlassCrystal" wall="road_wall_Winter" pipeW="wallP_metal_08_hex" col="road_col_Blue"/>
-    <dim tcMul="0.06" tcW="0.297207" tcP="0.1" tcPW="0.123793" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
+    <mtr type="0" road="roadInvisibleForest" pipe="roadInvisibleSnow" road2="roadSavannahAnomaly" pipe2="roadAlienTransp" road3="roadDesertAnomaly" pipe3="pipeGlass" road4="roadMossAnomaly2" pipe4="pipeGlassCrystal" wall="River_Grease_jelly" pipeW="wallP_metal_08_hex" col="road_col_Blue"/>
+    <dim tcMul="0.06" tcW="0.001" tcP="0.1" tcPW="0.123793" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.1" skirtH="0.01" merge="1" mergeLen="513.878" lodPntLen="29.7659" visDist="1243.64" visBehind="617.32"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.276 17.156" iDir="1" iChk1="27"/>
-    <stats length="4375.6265" width="11.781545" height="156.27649" onTer="70.381775" pipes="5.436109" onPipe="5.436109" bnkAvg="7.4964876" bnkMax="67.61998"/>
+    <stats length="4375.63" width="11.7815" height="156.276" onTer="70.3818" pipes="5.43611" onPipe="5.43611" bnkAvg="7.49649" bnkMax="67.62"/>
     <txt desc="Strange track that is totally broken, but on purpose! It isn&apos;t only visual broken and has almost everything which is usually considered bad, including a bad start and too large checkpoints."/>
     <adv ice="Don&apos;t be confused when you hear wrong checkpoint messages from time to time. It was done on purpose like all the rest."/>
     <P pos="-1.37095 6.52878 -51.3992" w="9.4" onTer="0" a="0" ar="0" aT="2" mtr="1" wall="-1"/>

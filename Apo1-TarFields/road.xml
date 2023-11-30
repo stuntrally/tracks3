@@ -3,7 +3,7 @@
     <dim tcMul="0.15" tcW="0.352258" tcP="0.1" tcPW="0.3" tcC="0.135868" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="600" lodPntLen="30" visDist="600" visBehind="400"/>
     <geom colN="6" colR="2" wsPm="4" lsPm="1" stBox="1 6.16799 17.3281" iDir="1" iChk1="67"/>
-    <stats length="19129.242" width="8.758623" height="117.52624" onTer="64.56464" pipes="20.221844" bnkAvg="14.87199" bnkMax="90"/>
+    <stats length="19129.2" width="8.75862" height="117.526" onTer="64.5646" pipes="20.2218" bnkAvg="14.872" bnkMax="90"/>
     <txt desc="A crazy ultimately challenging, extremely long track, that goes a lot through Oil. Heavily banked with many jumps and a spaghetti type road. Easy to loose direction, driving aids needed."/>
     <adv ice="Be careful in the Oil, you don&apos;t see what is hiding in there. There could be objects and even obstacles. Also White road / pipes mean caution, tricky."/>
     <P pos="124.14 0 -236.034" w="10.16" aT="2" mtr="2"/>
@@ -721,7 +721,7 @@
     <P pos="95.3303 66.7133 32.3519" w="7.96108" onTer="0" a="339.161" ar="18.54" aT="0" col="0" mtr="1"/>
     <P pos="101.601 53.7408 30.4864" w="7.96108" onTer="0" a="333.582" ar="15.78" aT="0" col="0" mtr="1"/>
     <P pos="102.073 40.7259 39.5684" w="7.96108" onTer="0" a="334.302" ar="10.98" aT="0" col="0" mtr="1"/>
-    <P pos="98.12768 34.6891 53.709297" w="6.67308" onTer="0" a="331.122" ar="-27.6" aT="0" col="0" mtr="3"/>
+    <P pos="98.1277 34.6891 53.7093" w="6.67308" onTer="0" a="331.122" ar="-27.6" aT="0" col="0" mtr="3"/>
     <P pos="91.3948 34.4662 64.9746" w="5.92108" onTer="0" a="323.979" ar="-33.1799" aT="0" col="0" mtr="3"/>
     <P pos="85.2031 39.4183 77.6334" w="5.68108" onTer="0" a="329.262" ar="-36" aT="0" col="0" mtr="3"/>
     <P pos="80.8274 49.5626 90.1819" w="7.96108" onTer="0" a="326.802" ar="-44.52" aT="0" mtr="1"/>
