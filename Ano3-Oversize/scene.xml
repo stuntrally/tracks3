@@ -1,32 +1,57 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="50752"/>
+    <ver num="3018" baseTrk="" secEd="52192"/>
     <car tires="0" damage="0.0645161" road1mtr="0" denyRev="1" gravity="8.21"/>
     <start pos="-370.351 -180.498 214.661" rot="2.68221e-07 1.65891e-07 -0.975239 0.221165" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" vol="1" reverbs="Space"/>
+    <sound ambient="" reverbs="Space"/>
     <sky material="sky/anomaly_02"/>
-    <fog color="0.308 0.618 0.820 1.926 0.252" color2="0.684 0.618 0.397 1.040 0.219" linStart="526.6251" linEnd="547.90076"/>
-    <fogH color="0.151 1.000 0.713 0.669 0.537" height="7.256897" dens="0.13650122" linStart="13.211971" linEnd="168.52002"/>
+    <fog color="0.308 0.618 0.820 1.926 0.252" color2="0.684 0.618 0.397 1.040 0.219" linStart="526.625" linEnd="547.901"/>
+    <fogH color="0.151 1.000 0.713 0.669 0.537" height="7.2569" dens="0.136501" linStart="13.212" linEnd="168.52"/>
     <light pitch="18" yaw="-35" ambient="0.556 0.070 1.145 0.000 0.471" diffuse="0.281 0.822 1.446 0.000 0.717" specular="0.663 0.395 1.968 0.000 0.285"/>
     <fluids>
         <fluid hq="0" name="anomaly jelly 3 solid ice" pos="676.298 609.022 346.826" rot="0 0 0" size="444.363 20 269.636" tile="0.01 0.01"/>
         <fluid hq="0" name="mud white anomaly" pos="-344.805 24.6052 -604.067" rot="0 0 0" size="633.059 147.026 607.858" tile="0.01 0.01"/>
-        <fluid hq="0" name="water strange2_anomaly" pos="181.76826 36.19963 -294.77182" rot="0 0 0" size="46.881668 20 18.965887" tile="0.01 0.01"/>
-        <fluid hq="0" name="anomaly jelly 3 solid ice" pos="248.51537 25.139868 21.85674" rot="0 0 0" size="42.50571 20 68.28688" tile="0.01 0.01"/>
-        <fluid hq="0" name="water strange anomaly" pos="-123.34855 160.9461 -282.49524" rot="0 0 0" size="126.06313 20 155.97128" tile="0.01 0.01"/>
+        <fluid hq="0" name="water strange2_anomaly" pos="181.768 36.1996 -294.772" rot="0 0 0" size="46.8817 20 18.9659" tile="0.01 0.01"/>
+        <fluid hq="0" name="anomaly jelly 3 solid ice" pos="248.515 25.1399 21.8567" rot="0 0 0" size="42.5057 20 68.2869" tile="0.01 0.01"/>
+        <fluid hq="0" name="water strange anomaly" pos="-123.349 160.946 -282.495" rot="0 0 0" size="126.063 20 155.971" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="1.64227" triangle="1.64227" diff="1 1 1" emissive="1" specPowEm="1.6">
             <texture on="1" file="space_metal_grid_anomaly_d.jpg" fnorm="space_metal_grid_anomaly_n.jpg" scale="50.1525" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="0" angMax="3.28571" angSm="7.41096" hMin="-115.012" hMax="111" hSm="5.37062" nOn="0" noise="1" n_1="0" n2="0">
-                <noise frq0="28.032322" oct0="4" prs0="0.582857" pow0="1.63265" frq1="31.582857" oct1="3" prs1="0.4" pow1="1.42827"/>
+                <noise frq0="28.0323" oct0="4" prs0="0.582857" pow0="1.63265" frq1="31.5829" oct1="3" prs1="0.4" pow1="1.42827"/>
             </texture>
             <texture on="1" file="space_diam_anomaly2_d.jpg" fnorm="space_diam_anomaly_n.jpg" scale="12" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="0" angMax="90" angSm="27.225" hMin="100" hMax="3350" hSm="100" nOn="0" triplanar="1" noise="0" n_1="0" n2="1">
-                <noise frq0="34.01251" oct0="4" prs0="0.45871556" pow0="0.2" frq1="15.9288845" oct1="2" prs1="0.4247706" pow1="3.1764724"/>
+                <noise frq0="34.0125" oct0="4" prs0="0.458716" pow0="0.2" frq1="15.9289" oct1="2" prs1="0.424771" pow1="3.17647"/>
             </texture>
             <texture on="1" file="space_octagons_anomaly_d.jpg" fnorm="space_octagons_anomaly_n.jpg" scale="22.5" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="4.71429" angMax="46" angSm="1.19475" hMin="-475" hMax="250" hSm="8.25422" nOn="0" noise="0" n_1="0" n2="0.308642">
-                <noise frq0="5.914071" oct0="1" prs0="0.5238532" pow0="0.2" frq1="13.123663" oct1="2" prs1="0.4" pow1="1.75282"/>
+                <noise frq0="5.91407" oct0="1" prs0="0.523853" pow0="0.2" frq1="13.1237" oct1="2" prs1="0.4" pow1="1.75282"/>
             </texture>
             <texture on="1" file="space_x_anomaly_d.jpg" fnorm="space_x_anomaly_n.jpg" scale="52" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="48.7143" angMax="76.5714" angSm="15.6794" hMin="-300" hMax="400" hSm="50.3424" nOn="0" triplanar="1" noise="0" n_1="1" n2="0">
-                <noise frq0="5.113421" oct0="3" prs0="0.3" pow0="1.5" frq1="9.9881315" oct1="3" prs1="0.4" pow1="1.2"/>
+                <noise frq0="5.11342" oct0="3" prs0="0.3" pow0="1.5" frq1="9.98813" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="21.1423" surf="SnowMedium" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="150" hMax="300" hSm="55.3" nOn="0" noise="0.23194" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadDesert" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.880 0.500 0.400 0.800 0.000"/>
+            <texture road="2" surf="roadForestWet" dust="0" dustS="0.18913" mud="0" smoke="0" tclr="0.651 0.500 0.400 0.800 0.000"/>
+            <texture road="3" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="4" surf="roadSnow" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.651 0.500 0.400 0.800 0.000"/>
+            <par dust="Dust" mud="SnowDust" smoke="MarsDust"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="7.79706" diff="1 1 1" horiz="1">
+            <texture on="1" file="space_metal_grid_anomaly_d.jpg" fnorm="space_metal_grid_anomaly_n.jpg" scale="50.1525" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="0" angMax="3.28571" angSm="7.41096" hMin="-115.012" hMax="111" hSm="5.37062" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="28.0323" oct0="4" prs0="0.582857" pow0="1.63265" frq1="31.5829" oct1="3" prs1="0.4" pow1="1.42827"/>
+            </texture>
+            <texture on="1" file="space_diam_anomaly2_d.jpg" fnorm="space_diam_anomaly_n.jpg" scale="12" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="0" angMax="90" angSm="27.225" hMin="100" hMax="3350" hSm="100" nOn="0" triplanar="1" noise="0" n_1="0" n2="1">
+                <noise frq0="34.0125" oct0="4" prs0="0.458716" pow0="0.2" frq1="15.9289" oct1="2" prs1="0.424771" pow1="3.17647"/>
+            </texture>
+            <texture on="1" file="space_octagons_anomaly_d.jpg" fnorm="space_octagons_anomaly_n.jpg" scale="22.5" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="4.71429" angMax="46" angSm="1.19475" hMin="-475" hMax="250" hSm="8.25422" nOn="0" noise="0" n_1="0" n2="0.308642">
+                <noise frq0="5.91407" oct0="1" prs0="0.523853" pow0="0.2" frq1="13.1237" oct1="2" prs1="0.4" pow1="1.75282"/>
+            </texture>
+            <texture on="1" file="space_x_anomaly_d.jpg" fnorm="space_x_anomaly_n.jpg" scale="52" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="48.7143" angMax="76.5714" angSm="15.6794" hMin="-300" hMax="400" hSm="50.3424" nOn="0" triplanar="1" noise="0" n_1="1" n2="0">
+                <noise frq0="5.11342" oct0="3" prs0="0.3" pow0="1.5" frq1="9.98813" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="21.1423" surf="SnowMedium" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="150" hMax="300" hSm="55.3" nOn="0" noise="0.23194" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
@@ -41,7 +66,7 @@
             <par dust="Dust" mud="SnowDust" smoke="MarsDust"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.213018" densTrees="0.201907" grPage="150" grDist="150" grDensSmooth="6" trPage="300" trDist="800" trDistImp="1200" trRdDist="0">
+    <paged densGrass="0.213018" densTrees="0.685016" grPage="150" grDist="150" grDensSmooth="6" trPage="300" trDist="800" trDistImp="1200" trRdDist="0">
         <grass on="0" mtr="grassAnomaly04c" dens="0.215627" chan="1" minSx="1.22" maxSx="1.44" minSy="2.15" maxSy="2.5" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
         <grass on="0" mtr="grassZ11" dens="0.0615638" chan="0" minSx="1.54354" maxSx="2.01211" minSy="1.58888" maxSy="1.98891" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="0" mtr="grassZ10" dens="0.0703623" chan="0" minSx="1.87" maxSx="2.23" minSy="1.86" maxSy="2.26" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -55,11 +80,11 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="46" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="67" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="88" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="rock_L3.mesh" dens="0.218623" minScale="1.23" maxScale="1.61" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="36.7" minTerH="-100" maxTerH="-4" maxDepth="2"/>
-        <layer on="1" name="rock_L2.mesh" dens="0.10614" minScale="0.77" maxScale="1.25" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="30.41" minTerH="-4" maxTerH="47.8818" maxDepth="2"/>
-        <layer on="0" name="rock_B03.mesh" dens="0.0652058" minScale="0.71" maxScale="1.27" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="37.74" minTerH="-4" maxTerH="32.2168" maxDepth="2"/>
-        <layer on="1" name="rock_L4.mesh" dens="0.0737086" minScale="1.16" maxScale="1.89" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="38.1" minTerH="-100" maxTerH="54.3842" maxDepth="2"/>
-        <layer on="0" name="fern2_black.mesh" dens="0.184886" minScale="0.44988" maxScale="0.728063" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="40.1082" minTerH="-100" maxTerH="7.68473" maxDepth="0.5"/>
+        <layer on="1" name="crystal1_anomaly.mesh" dens="0.218623" minScale="3.61437" maxScale="4" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-100" maxTerH="1200" maxDepth="0"/>
+        <layer on="1" name="crystal2_anomaly.mesh" dens="0.182513" minScale="3.56139" maxScale="4" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="500" maxTerH="700" maxDepth="0"/>
+        <layer on="0" name="rock_B03.mesh" dens="0.0652058" minScale="0.71" maxScale="4" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="37.74" minTerH="-4" maxTerH="32.2168" maxDepth="2"/>
+        <layer on="1" name="balloon2_anomaly.mesh" dens="0.0737086" minScale="3.52636" maxScale="4" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-100" maxTerH="150" maxDepth="0"/>
+        <layer on="1" name="rock02brown2flat_anomaly.mesh" dens="0.184886" minScale="3.47425" maxScale="4" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-100" maxTerH="2222" maxDepth="0"/>
         <layer on="0" name="rock_L2.mesh" dens="0.0999996" minScale="0.77" maxScale="1.25" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="30.41" minTerH="-100" maxTerH="20.1081" maxDepth="2"/>
         <layer on="0" name="palm2.mesh" dens="0.0340454" minScale="2.34" maxScale="3.31" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.3" windFy="0.115" maxTerAng="30.03" minTerH="-3" maxTerH="20" maxDepth="0"/>
         <layer on="0" name="farn1.mesh" dens="0.34" minScale="0.110808" maxScale="0.435678" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="7.29999" windFy="0.0599931" maxTerAng="10.7578" minTerH="-20" maxTerH="20" maxDepth="5"/>
@@ -70,7 +95,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="538.7828 154.13463 -136.08548" dir="-0.97089034 0.018940873 0.23877478"/>
+    <cam pos="538.783 154.135 -136.085" dir="-0.97089 0.0189409 0.238775"/>
     <objects>
         <o name="obstacleAnomalyBroken3" pos="-780.122 159.516 234.38" rot="0.835155 -0.539995 -0.0555843 -0.0885033" sc="2.63825 2.63825 2.63825"/>
         <o name="obstacleAnomaly4" pos="-689.921 258.858 256.822" rot="0.773626 -0.44372 0.128296 -0.433768" sc="3.60503 3.60503 3.60503"/>
@@ -89,36 +114,36 @@
         <o name="obstacleAnomalyBroken1" pos="620.074 343.729 653.8" rot="0.770217 -0.637781 0 0" sc="19.1965 19.1965 19.1965"/>
         <o name="obstacleAnomaly1" pos="-123.372 -639.652 1129.21" rot="-0.548133 0.677357 0.488476 -0.0461625" sc="1.58355 1.58355 1.58355"/>
         <o name="obstacleAnomaly4" pos="135.544 -238.447 556.861" rot="-0.325526 0.337249 0.635566 -0.613473" sc="10.114 4.73579 10.114"/>
-        <o name="balloon2_anomaly" pos="143.6475 -294.9957 -28.098145" rot="-0.5353931 0.058205366 0.53929996 0.64739627"/>
-        <o name="balloon2_anomaly" pos="147.26509 -298.73093 -28.063969" rot="0.3030771 0.103189684 0.77188104 0.54926836"/>
-        <o name="balloon2_anomaly" pos="150.83987 -302.50388 -27.903835" rot="-0.5207242 -0.42262912 0.7154244 0.19595613"/>
+        <o name="balloon2_anomaly" pos="143.648 -294.996 -28.0981" rot="-0.535393 0.0582054 0.5393 0.647396"/>
+        <o name="balloon2_anomaly" pos="147.265 -298.731 -28.064" rot="0.303077 0.10319 0.771881 0.549268"/>
+        <o name="balloon2_anomaly" pos="150.84 -302.504 -27.9038" rot="-0.520724 -0.422629 0.715424 0.195956"/>
         <o name="rock26grayBlue_anomaly" pos="682.29 -493.15 634.002" rot="0.322407 -0.0950128 0.0522712 -0.940368" sc="3.78256 3.78256 3.78256"/>
         <o name="rock26grayBlue_anomaly" pos="539.582 -697.752 684.872" rot="0.322407 -0.0950128 0.0522712 -0.940368" sc="3.78256 7.82341 3.78256"/>
         <o name="rock02brown2flat_anomaly" pos="393.251 -685.856 660.398" rot="-0.874843 0.484408 0 0" sc="2.90195 2.90195 2.90195"/>
-        <o name="balloon2_anomaly" pos="-306.02252 -637.0061 81.876274" rot="-0.08294125 0.79517156 0.07603697 0.59585327"/>
-        <o name="cone_anomaly" pos="399.52582 509.75348 790.99835" rot="-0.6012168 0.4912596 -0.26360357 0.57246447"/>
-        <o name="crate2m_anomaly" pos="364.51633 278.2464 427.2251" rot="-0.20383382 0.7877231 -0.26203182 0.5189254"/>
-        <o name="crate2m_anomaly" pos="334.41074 302.26938 427.38574" rot="0.7678202 -0.28763962 -0.54850245 -0.16389248"/>
-        <o name="crate2m_anomaly" pos="367.04544 276.86435 427.1699" rot="-0.11393778 0.915076 0.21973707 -0.3183861"/>
-        <o name="crate2m_anomaly" pos="366.78015 278.29327 427.24573" rot="0.07741164 0.98039126 -0.14509903 -0.10856635"/>
-        <o name="crate2m_anomaly" pos="364.63754 275.47226 427.41312" rot="0.6918315 0.18335989 -0.54966044 0.4308383"/>
-        <o name="crate2m_anomaly" pos="365.66684 277.45862 427.0902" rot="-0.13877843 -0.29430667 0.55303776 0.76698977"/>
-        <o name="crate2m_anomaly" pos="364.41238 276.85117 427.2749" rot="0.21986583 0.32702 0.38472658 0.834687"/>
-        <o name="crate2m_anomaly" pos="367.66568 279.36404 427.4207" rot="-0.09402602 -0.43808162 0.6345721 0.6297316"/>
-        <o name="crate2m_anomaly" pos="365.8861 276.08328 427.24658" rot="0.18990941 0.39247644 0.73331463 0.5216763"/>
-        <o name="crate2m_anomaly" pos="368.11136 277.88104 427.37952" rot="0.06700673 0.29713383 -0.5697622 0.7632776"/>
-        <o name="crate2m_anomaly" pos="220.7381 423.2039 336.36398" rot="0.6559772 -0.15625758 -0.018986046 0.7381849"/>
-        <o name="crate2m_anomaly" pos="217.98396 424.03174 336.1121" rot="0.33746195 -0.46318287 -0.08391306 0.81519306"/>
-        <o name="crate2m_anomaly" pos="219.42647 423.8678 336.22003" rot="0.38353914 0.17962073 0.759471 -0.49379945"/>
-        <o name="plastic_big_anomaly" pos="-673.7518 122.396065 222.79828" rot="0.17387839 0.83343077 -0.47216806 0.2285101"/>
-        <o name="plastic_big_anomaly" pos="653.7259 -509.90958 633.16907" rot="-0.28318217 0.82293475 0.3567525 0.33957893"/>
-        <o name="plastic_barrel_anomaly" pos="-263.08276 413.27957 31.59346" rot="0.11036327 0.9923857 -0.045968547 0.029621895"/>
-        <o name="plastic_barrel_anomaly" pos="-247.19295 392.29657 30.115685" rot="0.30642724 0.6505844 0.32033405 0.61662656"/>
-        <o name="crate_2_anomaly" pos="-379.0004 -361.6324 52.7918" rot="-0.20701763 0.6970671 0.10564296 0.6782926"/>
-        <o name="crate_2_anomaly" pos="-408.6307 -375.80997 54.98837" rot="-0.022256019 0.08376215 -0.51058066 0.85545075"/>
-        <o name="balloon2_anomaly" pos="-73.20411 -375.9451 23.175562" rot="0.6875119 0.09053837 0.69961995 -0.17222697"/>
-        <o name="cone_anomaly" pos="408.1152 506.73074 791.7416" rot="0.0093052685 0.7519016 0.61884755 0.22712338"/>
-        <o name="cone_anomaly" pos="528.117 524.7804 784.6769" rot="0.5860367 0.41721123 -0.51726127 -0.4636126"/>
+        <o name="balloon2_anomaly" pos="-306.023 -637.006 81.8763" rot="-0.0829412 0.795172 0.076037 0.595853"/>
+        <o name="cone_anomaly" pos="399.526 509.753 790.998" rot="-0.601217 0.49126 -0.263604 0.572464"/>
+        <o name="crate2m_anomaly" pos="364.516 278.246 427.225" rot="-0.203834 0.787723 -0.262032 0.518925"/>
+        <o name="crate2m_anomaly" pos="334.411 302.269 427.386" rot="0.76782 -0.28764 -0.548502 -0.163892"/>
+        <o name="crate2m_anomaly" pos="367.045 276.864 427.17" rot="-0.113938 0.915076 0.219737 -0.318386"/>
+        <o name="crate2m_anomaly" pos="366.78 278.293 427.246" rot="0.0774116 0.980391 -0.145099 -0.108566"/>
+        <o name="crate2m_anomaly" pos="364.638 275.472 427.413" rot="0.691832 0.18336 -0.54966 0.430838"/>
+        <o name="crate2m_anomaly" pos="365.667 277.459 427.09" rot="-0.138778 -0.294307 0.553038 0.76699"/>
+        <o name="crate2m_anomaly" pos="364.412 276.851 427.275" rot="0.219866 0.32702 0.384727 0.834687"/>
+        <o name="crate2m_anomaly" pos="367.666 279.364 427.421" rot="-0.094026 -0.438082 0.634572 0.629732"/>
+        <o name="crate2m_anomaly" pos="365.886 276.083 427.247" rot="0.189909 0.392476 0.733315 0.521676"/>
+        <o name="crate2m_anomaly" pos="368.111 277.881 427.38" rot="0.0670067 0.297134 -0.569762 0.763278"/>
+        <o name="crate2m_anomaly" pos="220.738 423.204 336.364" rot="0.655977 -0.156258 -0.018986 0.738185"/>
+        <o name="crate2m_anomaly" pos="217.984 424.032 336.112" rot="0.337462 -0.463183 -0.0839131 0.815193"/>
+        <o name="crate2m_anomaly" pos="219.426 423.868 336.22" rot="0.383539 0.179621 0.759471 -0.493799"/>
+        <o name="plastic_big_anomaly" pos="-673.752 122.396 222.798" rot="0.173878 0.833431 -0.472168 0.22851"/>
+        <o name="plastic_big_anomaly" pos="653.726 -509.91 633.169" rot="-0.283182 0.822935 0.356753 0.339579"/>
+        <o name="plastic_barrel_anomaly" pos="-263.083 413.28 31.5935" rot="0.110363 0.992386 -0.0459685 0.0296219"/>
+        <o name="plastic_barrel_anomaly" pos="-247.193 392.297 30.1157" rot="0.306427 0.650584 0.320334 0.616627"/>
+        <o name="crate_2_anomaly" pos="-379 -361.632 52.7918" rot="-0.207018 0.697067 0.105643 0.678293"/>
+        <o name="crate_2_anomaly" pos="-408.631 -375.81 54.9884" rot="-0.022256 0.0837621 -0.510581 0.855451"/>
+        <o name="balloon2_anomaly" pos="-73.2041 -375.945 23.1756" rot="0.687512 0.0905384 0.69962 -0.172227"/>
+        <o name="cone_anomaly" pos="408.115 506.731 791.742" rot="0.00930527 0.751902 0.618848 0.227123"/>
+        <o name="cone_anomaly" pos="528.117 524.78 784.677" rot="0.586037 0.417211 -0.517261 -0.463613"/>
         <o name="crystal2_anomaly" pos="-73.7991 183.822 -4.08671" rot="0 -1 0 0" sc="14.9936 14.9936 14.9936"/>
         <o name="crystal2_anomaly" pos="-205.923 -478.913 179.269" rot="-0.475912 -0.879493 0 0" sc="12.2671 12.2671 12.2671"/>
         <o name="crystal2_anomaly" pos="-547.531 -709.03 255.212" rot="-0.475912 -0.879493 0 0" sc="35.8418 35.8418 35.8418"/>
@@ -136,88 +161,93 @@
         <o name="crystal2_anomaly" pos="-467.761 -83.5088 200.088" rot="0.616611 0.787268 0 0" sc="8.77661 8.77661 8.77661"/>
         <o name="crystal2_anomaly" pos="-654.195 -113.42 206.386" rot="0.0502617 0.998736 0 0" sc="12.6141 12.6141 12.6141"/>
         <o name="crystal1_anomaly" pos="124.474 112.825 -58.0493" rot="0.0502617 0.998736 0 0" sc="22.4655 22.4655 22.4655"/>
-        <o name="crystal2_anomaly" pos="171.473 -133.164 -29.14277" rot="-0.995539 0.0943482 0 0" sc="28.4108 28.4108 28.4108"/>
+        <o name="crystal2_anomaly" pos="171.473 -133.164 -29.1428" rot="-0.995539 0.0943482 0 0" sc="28.4108 28.4108 28.4108"/>
         <o name="crystal2_anomaly" pos="228.005 43.6853 -3.3909" rot="-0.860229 -0.509907 0 0" sc="16.7865 16.7865 16.7865"/>
         <o name="crystal1_anomaly" pos="-64.1952 -2.84038 375.619" rot="-0.714327 -0.699812 0 0" sc="20.8816 20.8816 20.8816"/>
         <o name="crystal2_anomaly" pos="-132.971 -611.289 71.7154" rot="0.887971 -0.459899 0 0" sc="5.91115 5.91115 5.91115"/>
         <o name="crystal1_anomaly" pos="614.913 -729.905 680.375" rot="0.70623 0.707983 0 0" sc="19.5848 19.5848 19.5848"/>
         <o name="crystal1_anomaly" pos="-194.476 -739.708 1158.48" rot="0.599861 0.800104 0 0" sc="14.6992 14.6992 14.6992"/>
-        <o name="balloon1_anomaly" pos="-437.2811 -176.72932 216.6611" rot="6.1375076e-06 0.004907146 -4.3552994e-08 0.99998796"/>
-        <o name="balloon1_anomaly" pos="-448.97348 -194.30228 216.7211" rot="0 1 0 0"/>
-        <o name="balloon1_anomaly" pos="-438.42313 -200.4843 216.71913" rot="0.0029008894 0.89715254 -0.44168732 0.004599116"/>
-        <o name="balloon2_anomaly" pos="-438.67798 -182.84424 216.67458" rot="0.048965547 -0.62499475 -0.06102998 0.7766977"/>
-        <o name="balloon2_anomaly" pos="-435.8488 -191.90166 216.7211" rot="0 1 0 0"/>
-        <o name="balloon2_anomaly" pos="-682.35175 67.10009 217.4423" rot="8.774209e-11 0.9950924 0.003935036 -0.098871745"/>
-        <o name="balloon2_anomaly" pos="-572.03625 -39.79097 240.64023" rot="1.1001769e-06 0.99635494 -0.066640384 0.05325324"/>
-        <o name="big_tire_anomaly" pos="-695.95465 69.45452 216.48259" rot="0.05176852 -0.23252738 -0.046240065 0.9701097"/>
-        <o name="big_tire_anomaly" pos="-672.6721 63.094048 214.77177" rot="-0.002433573 0.024371328 0.005591705 0.9996844"/>
-        <o name="big_tire_anomaly" pos="-598.68225 -3.5775282 232.41644" rot="0.4371764 0.8940136 -0.036497943 0.09101838"/>
-        <o name="plastic_barrel_anomaly" pos="-783.9187 253.73796 252.32254" rot="0.5072832 -0.2453384 -0.6251986 0.53999966"/>
-        <o name="plastic_barrel_anomaly" pos="-779.9146 247.36223 244.72263" rot="-0.42593896 0.7661419 -0.43144646 -0.21320519"/>
-        <o name="plastic_barrel_anomaly" pos="-748.76636 272.61865 254.11168" rot="-0.04661704 0.97179586 -0.22871242 -0.033618815"/>
-        <o name="plastic_big_anomaly" pos="-720.0038 13.735983 235.69806" rot="-0.008747763 0.84417844 0.3110506 -0.43650162"/>
-        <o name="plastic_big_anomaly" pos="-719.9842 32.235428 236.82838" rot="3.45754e-06 0.9850491 0.14843176 -0.087443165"/>
-        <o name="plastic_big_hvy_anomaly" pos="-731.4711 -181.8518 214.99037" rot="-0.11019377 0.9926026 -0.050154276 -0.009055411"/>
-        <o name="plastic_big_hvy_anomaly" pos="-728.15466 -181.79778 214.96428" rot="0.12774159 0.9905382 -0.05005461 0.003280106"/>
-        <o name="plastic_big_hvy_anomaly" pos="-734.92645 -181.75406 215.36452" rot="-0.03556014 0.85968864 -0.04055346 0.50796294"/>
-        <o name="concrete_bar_anomaly" pos="-330.28143 -420.01254 226.1221" rot="0.037040684 -0.5153478 0.3907792 0.7617974" sc="28.57653 4.798858 28.57653"/>
-        <o name="balloon2_anomaly_static" pos="-151.41653 -252.34941 144.6749" rot="-0.90549093 -0.41274986 0.081351794 -0.055695955" sc="18.908611 30.559307 15.788491"/>
-        <o name="balloon1_anomaly_static" pos="-267.88232 -55.112637 106.04346" rot="0 -1 0 0" sc="6.8240743 2.256734 6.8240743"/>
-        <o name="crate_anomaly" pos="116.303024 18.840788 6.8867354" rot="-0.0646432 0.9949096 -0.010037587 -0.0766515"/>
-        <o name="crate_anomaly" pos="121.63697 22.268484 6.6968107" rot="-0.07044698 0.9916477 0.09227944 -0.05618355"/>
-        <o name="crate_anomaly" pos="125.80748 20.87531 6.741955" rot="0.04606888 0.98519045 -0.14867935 0.07191546"/>
-        <o name="crate_anomaly" pos="129.94604 24.755453 6.4039035" rot="-0.019106444 0.9998109 -0.002148642 0.0029140424"/>
-        <o name="crate_anomaly" pos="120.78143 18.741531 6.8967834" rot="-0.09252877 0.98254275 -0.16138878 0.0013686595"/>
-        <o name="crate_anomaly" pos="127.07245 25.166 6.826004" rot="-0.097817525 0.54443467 0.75505584 -0.3520132"/>
-        <o name="crate_anomaly" pos="-34.53715 -21.767904 19.039703" rot="0.09353499 0.9532092 0.25108373 0.14000101"/>
-        <o name="crate_anomaly" pos="-33.792675 -18.45079 26.553576" rot="0.0847731 0.97560704 -0.09682028 0.17784902"/>
-        <o name="crate_anomaly" pos="-30.158686 -18.152584 30.691217" rot="-0.010224285 0.9997114 0.01568268 -0.015056579"/>
-        <o name="crate_anomaly" pos="-27.631351 -15.3868265 34.147804" rot="-0.091122314 -0.7130327 -0.35431 0.59811825"/>
-        <o name="crate_anomaly" pos="-30.214085 -14.717629 32.40915" rot="0.39748922 -0.21292877 0.8638281 -0.22464344"/>
-        <o name="crate_anomaly" pos="-31.50611 -20.62273 28.569689" rot="0.0044340654 0.99067736 0.09490741 -0.0976286"/>
-        <o name="crate_anomaly" pos="-36.16335 -21.360584 16.592327" rot="-0.26827455 -0.7050351 0.13473293 0.64249617"/>
-        <o name="crate_anomaly" pos="-27.706533 -14.566415 40.591217" rot="0.17976865 0.7339221 -0.5345732 0.37851432"/>
-        <o name="crate_anomaly" pos="-201.78458 -48.88445 32.932476" rot="0.25662845 -0.5835082 0.36945948 0.67613584"/>
-        <o name="crate_anomaly" pos="-200.75735 -47.09527 33.11728" rot="-0.14621939 0.6895437 -0.39894044 0.58651143"/>
-        <o name="crate_anomaly" pos="-203.4363 -49.745335 33.73554" rot="-0.55846643 -0.22604701 0.11072378 0.7904165"/>
-        <o name="crate_anomaly" pos="-206.68303 -45.35954 35.120197" rot="0.3498239 0.44263062 0.66516507 -0.48913893"/>
-        <o name="crate_anomaly" pos="-207.4582 -47.43962 34.97011" rot="-0.6148887 -0.1582203 0.76316994 0.12020752"/>
-        <o name="crate_anomaly" pos="-206.88995 -49.32322 35.13796" rot="0.022611331 -0.18842871 -0.57424366 0.79638404"/>
-        <o name="crate_anomaly" pos="-204.35518 -47.839687 33.99925" rot="0.45407435 0.77022195 0.18816127 0.40641114"/>
-        <o name="cone_anomaly" pos="95.824524 -114.590485 14.337038" rot="-0.00539634 0.9682671 0.2487466 -0.023555955"/>
-        <o name="cone_anomaly" pos="96.59792 -113.82225 14.267581" rot="-0.0051622195 0.9975821 -0.056874327 -0.039606377"/>
-        <o name="cone_anomaly" pos="95.2769 -113.79194 13.597478" rot="0.37260103 0.7174225 -0.45755973 -0.37028712"/>
-        <o name="cone_anomaly" pos="101.91407 -109.41816 12.507867" rot="0.09379302 0.892189 0.20617892 -0.3907581"/>
-        <o name="cone_anomaly" pos="105.72412 -106.30938 12.353635" rot="-0.06820098 0.8224986 -0.39206484 -0.40636176"/>
-        <o name="cone_anomaly" pos="116.58197 -97.703 14.096117" rot="0.19297849 -0.8180741 -0.12486523 0.5271838"/>
-        <o name="cone_anomaly" pos="103.47707 -104.692245 12.05177" rot="-0.009682386 0.85449904 -0.3315521 -0.3997634"/>
-        <o name="cone_anomaly" pos="97.49994 -111.562004 11.493855" rot="-0.43635702 -0.55145955 0.6157574 -0.3554255"/>
-        <o name="cone_anomaly" pos="108.09173 -102.044525 17.465508" rot="0.029009331 -0.902267 0.25736383 0.344728"/>
-        <o name="cone_anomaly" pos="102.73246 -107.60742 17.351385" rot="-0.7320652 -0.5495884 0.07113911 0.3961983"/>
-        <o name="crate2m_anomaly" pos="257.6622 -1.1835899 39.72936" rot="0.029009331 -0.902267 0.25736383 0.344728"/>
-        <o name="crate2m_anomaly" pos="254.20093 3.4183388 39.72936" rot="0.029009331 -0.902267 0.25736383 0.344728"/>
-        <o name="crate2m_anomaly" pos="251.50572 -10.656124 30.084095" rot="0.029009331 -0.902267 0.25736383 0.344728"/>
-        <o name="crate2m_anomaly" pos="246.24057 -15.88332 30.084095" rot="-0.056967597 -0.7393865 0.25265065 0.62147355"/>
-        <o name="crate2m_anomaly" pos="250.57535 -18.732597 30.084095" rot="-0.056967597 -0.7393865 0.25265065 0.62147355"/>
-        <o name="crate2m_anomaly" pos="247.85278 -19.736736 24.887465" rot="0.25662202 -0.51893765 0.58414763 0.5688755"/>
-        <o name="crate2m_anomaly" pos="266.80222 40.01265 35.035557" rot="0.25662202 -0.51893765 0.58414763 0.5688755"/>
-        <o name="crate2m_anomaly" pos="258.30304 8.439899 32.15076" rot="0.25662202 -0.51893765 0.58414763 0.5688755"/>
-        <o name="dish_hole_cry" pos="49.0561 -294.6044 507.20782" rot="0.21389374 -0.47662818 0.6011096 0.6047656" sc="10.910232 10.910232 10.910232"/>
-        <o name="dish_hole_cry" pos="89.31401 439.10498 584.6936" rot="0.76709 0.639728 0.03105453 0.03680992" sc="20.25893 20.25893 20.25893"/>
-        <o name="dish_hole_cry" pos="382.90396 350.9107 692.6746" rot="0.9126261 -0.32293645 0.243665 0.058740754" sc="11.621419 11.621419 11.621419"/>
-        <o name="balloon1_anomaly" pos="-772.51855 -670.1646 275.31284" rot="0.25662202 -0.51893765 0.58414763 0.5688755"/>
-        <o name="balloon1_anomaly" pos="-765.7118 -688.2775 276.7329" rot="0.42804882 -0.15290338 0.73243284 -0.5068875"/>
-        <o name="balloon1_anomaly" pos="-509.9819 -486.8319 228.2067" rot="0.25662202 -0.51893765 0.58414763 0.5688755"/>
-        <o name="balloon1_anomaly" pos="-456.12863 -426.50107 61.752815" rot="0.47254017 -0.22428228 0.74847925 0.4076516"/>
-        <o name="balloon1_anomaly" pos="-437.51352 -433.39532 62.58681" rot="0.5655427 -0.58533406 0.5276486 -0.24317032"/>
-        <o name="balloon1_anomaly" pos="-436.112 -414.56094 59.535156" rot="0.1441632 -0.6068541 0.76716113 0.14969663"/>
-        <o name="balloon1_anomaly" pos="-301.71643 -231.73965 40.09098" rot="0.1441632 -0.6068541 0.76716113 0.14969663"/>
-        <o name="balloon1_anomaly" pos="-305.9825 -213.7642 41.450085" rot="0.19793525 -0.17011063 0.96326065 0.06335391"/>
+        <o name="balloon1_anomaly" pos="-437.281 -176.729 216.661" rot="6.13751e-06 0.00490715 -4.3553e-08 0.999988"/>
+        <o name="balloon1_anomaly" pos="-448.973 -194.302 216.721" rot="0 1 0 0"/>
+        <o name="balloon1_anomaly" pos="-438.423 -200.484 216.719" rot="0.00290089 0.897153 -0.441687 0.00459912"/>
+        <o name="balloon2_anomaly" pos="-438.678 -182.844 216.675" rot="0.0489655 -0.624995 -0.06103 0.776698"/>
+        <o name="balloon2_anomaly" pos="-435.849 -191.902 216.721" rot="0 1 0 0"/>
+        <o name="balloon2_anomaly" pos="-682.352 67.1001 217.442" rot="8.77421e-11 0.995092 0.00393504 -0.0988717"/>
+        <o name="balloon2_anomaly" pos="-572.036 -39.791 240.64" rot="1.10018e-06 0.996355 -0.0666404 0.0532532"/>
+        <o name="big_tire_anomaly" pos="-695.955 69.4545 216.483" rot="0.0517685 -0.232527 -0.0462401 0.97011"/>
+        <o name="big_tire_anomaly" pos="-672.672 63.094 214.772" rot="-0.00243357 0.0243713 0.0055917 0.999684"/>
+        <o name="big_tire_anomaly" pos="-598.682 -3.57753 232.416" rot="0.437176 0.894014 -0.0364979 0.0910184"/>
+        <o name="plastic_barrel_anomaly" pos="-783.919 253.738 252.323" rot="0.507283 -0.245338 -0.625199 0.54"/>
+        <o name="plastic_barrel_anomaly" pos="-779.915 247.362 244.723" rot="-0.425939 0.766142 -0.431446 -0.213205"/>
+        <o name="plastic_barrel_anomaly" pos="-748.766 272.619 254.112" rot="-0.046617 0.971796 -0.228712 -0.0336188"/>
+        <o name="plastic_big_anomaly" pos="-720.004 13.736 235.698" rot="-0.00874776 0.844178 0.311051 -0.436502"/>
+        <o name="plastic_big_anomaly" pos="-719.984 32.2354 236.828" rot="3.45754e-06 0.985049 0.148432 -0.0874432"/>
+        <o name="plastic_big_hvy_anomaly" pos="-731.471 -181.852 214.99" rot="-0.110194 0.992603 -0.0501543 -0.00905541"/>
+        <o name="plastic_big_hvy_anomaly" pos="-728.155 -181.798 214.964" rot="0.127742 0.990538 -0.0500546 0.00328011"/>
+        <o name="plastic_big_hvy_anomaly" pos="-734.926 -181.754 215.365" rot="-0.0355601 0.859689 -0.0405535 0.507963"/>
+        <o name="concrete_bar_anomaly" pos="-330.281 -420.013 226.122" rot="0.0370407 -0.515348 0.390779 0.761797" sc="28.5765 4.79886 28.5765"/>
+        <o name="balloon2_anomaly_static" pos="-151.417 -252.349 144.675" rot="-0.905491 -0.41275 0.0813518 -0.055696" sc="18.9086 30.5593 15.7885"/>
+        <o name="balloon1_anomaly_static" pos="-267.882 -55.1126 106.043" rot="0 -1 0 0" sc="6.82407 2.25673 6.82407"/>
+        <o name="crate_anomaly" pos="116.303 18.8408 6.88674" rot="-0.0646432 0.99491 -0.0100376 -0.0766515"/>
+        <o name="crate_anomaly" pos="121.637 22.2685 6.69681" rot="-0.070447 0.991648 0.0922794 -0.0561836"/>
+        <o name="crate_anomaly" pos="125.807 20.8753 6.74195" rot="0.0460689 0.98519 -0.148679 0.0719155"/>
+        <o name="crate_anomaly" pos="129.946 24.7555 6.4039" rot="-0.0191064 0.999811 -0.00214864 0.00291404"/>
+        <o name="crate_anomaly" pos="120.781 18.7415 6.89678" rot="-0.0925288 0.982543 -0.161389 0.00136866"/>
+        <o name="crate_anomaly" pos="127.072 25.166 6.826" rot="-0.0978175 0.544435 0.755056 -0.352013"/>
+        <o name="crate_anomaly" pos="-34.5372 -21.7679 19.0397" rot="0.093535 0.953209 0.251084 0.140001"/>
+        <o name="crate_anomaly" pos="-33.7927 -18.4508 26.5536" rot="0.0847731 0.975607 -0.0968203 0.177849"/>
+        <o name="crate_anomaly" pos="-30.1587 -18.1526 30.6912" rot="-0.0102243 0.999711 0.0156827 -0.0150566"/>
+        <o name="crate_anomaly" pos="-27.6314 -15.3868 34.1478" rot="-0.0911223 -0.713033 -0.35431 0.598118"/>
+        <o name="crate_anomaly" pos="-30.2141 -14.7176 32.4091" rot="0.397489 -0.212929 0.863828 -0.224643"/>
+        <o name="crate_anomaly" pos="-31.5061 -20.6227 28.5697" rot="0.00443407 0.990677 0.0949074 -0.0976286"/>
+        <o name="crate_anomaly" pos="-36.1633 -21.3606 16.5923" rot="-0.268275 -0.705035 0.134733 0.642496"/>
+        <o name="crate_anomaly" pos="-27.7065 -14.5664 40.5912" rot="0.179769 0.733922 -0.534573 0.378514"/>
+        <o name="crate_anomaly" pos="-201.785 -48.8844 32.9325" rot="0.256628 -0.583508 0.369459 0.676136"/>
+        <o name="crate_anomaly" pos="-200.757 -47.0953 33.1173" rot="-0.146219 0.689544 -0.39894 0.586511"/>
+        <o name="crate_anomaly" pos="-203.436 -49.7453 33.7355" rot="-0.558466 -0.226047 0.110724 0.790416"/>
+        <o name="crate_anomaly" pos="-206.683 -45.3595 35.1202" rot="0.349824 0.442631 0.665165 -0.489139"/>
+        <o name="crate_anomaly" pos="-207.458 -47.4396 34.9701" rot="-0.614889 -0.15822 0.76317 0.120208"/>
+        <o name="crate_anomaly" pos="-206.89 -49.3232 35.138" rot="0.0226113 -0.188429 -0.574244 0.796384"/>
+        <o name="crate_anomaly" pos="-204.355 -47.8397 33.9992" rot="0.454074 0.770222 0.188161 0.406411"/>
+        <o name="cone_anomaly" pos="95.8245 -114.59 14.337" rot="-0.00539634 0.968267 0.248747 -0.023556"/>
+        <o name="cone_anomaly" pos="96.5979 -113.822 14.2676" rot="-0.00516222 0.997582 -0.0568743 -0.0396064"/>
+        <o name="cone_anomaly" pos="95.2769 -113.792 13.5975" rot="0.372601 0.717422 -0.45756 -0.370287"/>
+        <o name="cone_anomaly" pos="101.914 -109.418 12.5079" rot="0.093793 0.892189 0.206179 -0.390758"/>
+        <o name="cone_anomaly" pos="105.724 -106.309 12.3536" rot="-0.068201 0.822499 -0.392065 -0.406362"/>
+        <o name="cone_anomaly" pos="116.582 -97.703 14.0961" rot="0.192978 -0.818074 -0.124865 0.527184"/>
+        <o name="cone_anomaly" pos="103.477 -104.692 12.0518" rot="-0.00968239 0.854499 -0.331552 -0.399763"/>
+        <o name="cone_anomaly" pos="97.4999 -111.562 11.4939" rot="-0.436357 -0.55146 0.615757 -0.355426"/>
+        <o name="cone_anomaly" pos="108.092 -102.045 17.4655" rot="0.0290093 -0.902267 0.257364 0.344728"/>
+        <o name="cone_anomaly" pos="102.732 -107.607 17.3514" rot="-0.732065 -0.549588 0.0711391 0.396198"/>
+        <o name="crate2m_anomaly" pos="257.662 -1.18359 39.7294" rot="0.0290093 -0.902267 0.257364 0.344728"/>
+        <o name="crate2m_anomaly" pos="254.201 3.41834 39.7294" rot="0.0290093 -0.902267 0.257364 0.344728"/>
+        <o name="crate2m_anomaly" pos="251.506 -10.6561 30.0841" rot="0.0290093 -0.902267 0.257364 0.344728"/>
+        <o name="crate2m_anomaly" pos="246.241 -15.8833 30.0841" rot="-0.0569676 -0.739386 0.252651 0.621474"/>
+        <o name="crate2m_anomaly" pos="250.575 -18.7326 30.0841" rot="-0.0569676 -0.739386 0.252651 0.621474"/>
+        <o name="crate2m_anomaly" pos="247.853 -19.7367 24.8875" rot="0.256622 -0.518938 0.584148 0.568875"/>
+        <o name="crate2m_anomaly" pos="266.802 40.0126 35.0356" rot="0.256622 -0.518938 0.584148 0.568875"/>
+        <o name="crate2m_anomaly" pos="258.303 8.4399 32.1508" rot="0.256622 -0.518938 0.584148 0.568875"/>
+        <o name="dish_hole_cry" pos="49.0561 -294.604 507.208" rot="0.213894 -0.476628 0.60111 0.604766" sc="10.9102 10.9102 10.9102"/>
+        <o name="dish_hole_cry" pos="89.314 439.105 584.694" rot="0.76709 0.639728 0.0310545 0.0368099" sc="20.2589 20.2589 20.2589"/>
+        <o name="dish_hole_cry" pos="382.904 350.911 692.675" rot="0.912626 -0.322936 0.243665 0.0587408" sc="11.6214 11.6214 11.6214"/>
+        <o name="balloon1_anomaly" pos="-772.519 -670.165 275.313" rot="0.256622 -0.518938 0.584148 0.568875"/>
+        <o name="balloon1_anomaly" pos="-765.712 -688.278 276.733" rot="0.428049 -0.152903 0.732433 -0.506887"/>
+        <o name="balloon1_anomaly" pos="-509.982 -486.832 228.207" rot="0.256622 -0.518938 0.584148 0.568875"/>
+        <o name="balloon1_anomaly" pos="-456.129 -426.501 61.7528" rot="0.47254 -0.224282 0.748479 0.407652"/>
+        <o name="balloon1_anomaly" pos="-437.514 -433.395 62.5868" rot="0.565543 -0.585334 0.527649 -0.24317"/>
+        <o name="balloon1_anomaly" pos="-436.112 -414.561 59.5352" rot="0.144163 -0.606854 0.767161 0.149697"/>
+        <o name="balloon1_anomaly" pos="-301.716 -231.74 40.091" rot="0.144163 -0.606854 0.767161 0.149697"/>
+        <o name="balloon1_anomaly" pos="-305.983 -213.764 41.4501" rot="0.197935 -0.170111 0.963261 0.0633539"/>
+        <o name="dish_hole_cry" pos="3648.63 561.841 1172.98" rot="0 0.63945 0 0.768828" sc="578.318 578.318 578.318"/>
+        <o name="dish_hole_cry" pos="-3418.31 473.436 1502.01" rot="-0.22431 -0.561315 0.0635071 0.794072" sc="578.318 578.318 578.318"/>
+        <o name="dish_hole_cry" pos="-122.709 958.607 4743.86" rot="-0.0292487 0.0495304 -0.116052 0.99156" sc="578.318 578.318 578.318"/>
+        <o name="dish_hole_cry" pos="170.246 -3300.27 1277.12" rot="0.588409 0.10037 -0.0275212 0.801806" sc="578.318 578.318 578.318"/>
+        <o name="dish_hole_cry" pos="510.002 3866.03 869.525" rot="-0.48412 -0.486604 -0.461458 0.561994" sc="578.318 578.318 578.318"/>
     </objects>
     <emitters>
-        <e name="Aurora03" pos="-258.4681 222.14476 271.7095" sc="158.7377 137.78282 200.68613" up="0 1 0" rot="0" rate="1.2371304" st="1" psc="0.44489378"/>
-        <e name="Aurora01" pos="422.62152 412.49896 36.332706" sc="548.18115 201.32147 635.0968" up="0 1 0" rot="0" rate="7.3305006" st="0" psc="0.032905042"/>
-        <e name="ElectricSparks" pos="-265.49326 32.30378 58.82734" sc="91.96286 10.056901 80.19216" up="0 1 0" rot="0" rate="12.408875" st="0" psc="6.185359"/>
-        <e name="GreaseJellyfallLow" pos="-524.80554 239.85234 212.50099" sc="164.21178 120.86019 657.54297" up="0 1 0" rot="0" rate="108.476746" st="0" psc="3.5198948"/>
+        <e name="Aurora03" pos="-258.468 222.145 271.71" sc="158.738 137.783 200.686" up="0 1 0" rot="0" rate="1.23713" st="1" psc="0.444894"/>
+        <e name="Aurora01" pos="422.622 412.499 36.3327" sc="548.181 201.321 635.097" up="0 1 0" rot="0" rate="7.3305" st="0" psc="0.032905"/>
+        <e name="ElectricSparks" pos="-265.493 32.3038 58.8273" sc="91.9629 10.0569 80.1922" up="0 1 0" rot="0" rate="12.4089" st="0" psc="6.18536"/>
+        <e name="GreaseJellyfallLow" pos="-524.806 239.852 212.501" sc="164.212 120.86 657.543" up="0 1 0" rot="0" rate="108.477" st="0" psc="3.51989"/>
     </emitters>
 </scene>
