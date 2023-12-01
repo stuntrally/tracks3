@@ -1,9 +1,9 @@
 <SplineRoad>
-    <mtr type="0" road="roadNgravel" pipe="road_wall_crystal" wall="pipeGlassYellow" pipeW="pipeGlassAlienBlue" col="pipeGlassCrystal"/>
+    <mtr type="0" road="roadNgravel" pipe="pipeGlassAnomaly2Yellow" wall="pipeGlassYellow" pipeW="pipeGlassAnomalySpace" col="pipeGlassCrystal"/>
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
     <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1.5 5 12" iDir="-1" iChk1="0"/>
-    <stats length="167.00703" width="12.764645" height="85.74395" onTer="100" pipes="100" bnkAvg="2.229996" bnkMax="13.379976"/>
+    <stats length="167.007" width="12.7646" height="85.7439" onTer="100" pipes="100" bnkAvg="2.23" bnkMax="13.38"/>
     <txt desc=""/>
     <adv ice=""/>
     <P pos="135.911 -10.7953 -229.06" w="7" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1"/>
