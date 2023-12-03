@@ -4,7 +4,7 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="295.675" lodPntLen="18.5745" visDist="562.004" visBehind="530.513"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.288 16.8084" iDir="-1" iChk1="55"/>
     <stats length="3477.535" width="7.1629887" height="15.680817" onTer="18.245216" pipes="7.3257184" bnkAvg="2.2466478" bnkMax="23.520796"/>
-    <txt desc="A track connecting few small islands. Modified Islands track, at night."/>
+    <txt desc="A track connecting few small islands."/>
     <adv ice="Includes drives through water, some deeper. Many bridges and one pipe."/>
     <P pos="-179.66 0 178.205" w="7.592" aT="2" pipe="1" mtr="1"/>
     <P pos="-205.437 0 191.242" w="7.592" aT="2" pipe="1" mtr="1"/>
