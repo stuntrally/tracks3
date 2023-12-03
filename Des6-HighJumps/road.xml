@@ -3,7 +3,7 @@
     <dim tcMul="0.0509048" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 7.724 19.908" iDir="-1" iChk1="34"/>
-    <stats length="1182.5" width="10.36" height="13.9452" onTer="20.1683" pipes="0" bnkAvg="1.01687" bnkMax="2.97726"/>
+    <stats length="1182.5016" width="10.359975" height="13.945165" onTer="20.168324" pipes="0" bnkAvg="1.0168715" bnkMax="2.9772556"/>
     <txt desc="Small round track with high jumps."/>
     <adv ice="Best to jump at 140 km/h (87 mph), varies in vehicles. Boost if more speed needed."/>
     <P pos="148.321 0 207.187" w="12.208" aT="2" chkR="1.768"/>

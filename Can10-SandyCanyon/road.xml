@@ -4,7 +4,7 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="1503.4" lodPntLen="39.5937" visDist="500" visBehind="500"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.304 16.56" iDir="1" iChk1="111"/>
     <stats length="8860.708" width="8.301193" height="64.51628" onTer="14.348992" pipes="5.1426334" bnkAvg="5.265409" bnkMax="43.11125"/>
-    <txt desc="A winding road through sparse forest in desolate mountain scenery with a large lake."/>
+    <txt desc="A winding road through desolate canyon scenery with large lakes. Reworked version of SandyMountain."/>
     <adv ice="Mostly flat, fast and easy. Good for fastest vehicles. Has one tight cave and a long bridge."/>
     <P pos="-518.947 0 137.283" w="8.508" a="0" ar="-4.98" aT="2" col="0" mtr="2"/>
     <P pos="-484.615 0.413921 57.6944" w="8.43114" onTer="0" a="0" ar="-7.8" aT="2" pipe="1" mtr="2" chkR="1"/>

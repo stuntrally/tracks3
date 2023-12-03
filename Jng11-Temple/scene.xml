@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="2697"/>
+    <ver num="3018" baseTrk="" secEd="2854"/>
     <car tires="0"/>
     <start pos="21.0565 83.2133 0.535209" rot="0.00182299 0.057948 -0.0448972 -0.997325" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Jungle"/>
     <sky material="sky/day_clouds_04_blue"/>
-    <fog color="0.333 0.070 0.860 1.000 0.000" color2="0.333 0.070 0.860 1.000 0.000" linStart="101.25" linEnd="573.988"/>
+    <fog color="0.508 0.211 1.279 1.000 0.000" color2="0.333 0.070 0.559 1.000 0.000" linStart="101.25" linEnd="573.988"/>
     <fogH color="0.326 0.436 0.374 1.000 0.000" height="-0.870819" dens="51.0211" linStart="0" linEnd="24.9789"/>
     <light pitch="48" yaw="-35" ambient="0.000 0.000 0.600 1.000 0.000" diffuse="0.167 0.027 0.750 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
     <fluids>
@@ -62,7 +62,7 @@
             <par dust="Dust" mud="MudDark" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.2" densTrees="0.134706" grPage="80" grDist="80" grDensSmooth="2" trPage="80" trDist="120" trDistImp="800" trRdDist="1">
+    <veget densGrass="0.2" densTrees="0.134706" grPage="80" grDist="80" grDensSmooth="2" trPage="80" trDist="120" trDistImp="800" trRdDist="1">
         <grass on="1" mtr="grass3g" dens="0.193367" chan="0" minSx="1.18105" maxSx="1.53682" minSy="1.47402" maxSy="2.35994" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass18gw" dens="0.112111" chan="0" minSx="1.63366" maxSx="2.08978" minSy="1.80207" maxSy="2.90729" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="0" mtr="grass17" dens="0.0773504" chan="0" minSx="1.96115" maxSx="2.08978" minSy="2.50147" maxSy="3.15671" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -90,8 +90,8 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
-    <cam pos="-110.469 41.4582 -94.1948" dir="0.815183 -0.2269 0.53291"/>
+    </veget>
+    <cam pos="-110.469 41.4582 -94.1948" dir="0.81518304 -0.22690001 0.53290987"/>
     <objects>
         <o name="big_tire" pos="65.9051 76.1991 6.42142" rot="0.713567 -0.689804 0.0428544 -0.114699"/>
         <o name="big_tire" pos="67.7198 69.7247 6.17564" rot="-0.69599 0.709522 -0.0453956 0.100578"/>
