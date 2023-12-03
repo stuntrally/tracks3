@@ -3,7 +3,7 @@
     <dim tcMul="0.0510909" tcW="0.2" tcP="0.0179865" tcPW="0.0645385" tcC="0.2" lenDim="2.00773" widthSteps="4" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.1" merge="1" mergeLen="1487" lodPntLen="85.3464" visDist="400" visBehind="400"/>
     <geom colN="3" colR="4.5535" wsPm="8" lsPm="1" stBox="1 25.032 56.7599" iDir="-1" iChk1="90"/>
-    <stats length="25599" width="30.8681" height="1757.7" onTer="76.729" pipes="57.6302" onPipe="4.37897" bnkAvg="19.2712" bnkMax="90"/>
+    <stats length="25598.953" width="30.868101" height="1757.696" onTer="76.72901" pipes="57.6302" onPipe="4.3789716" bnkAvg="19.271172" bnkMax="90"/>
     <txt desc="Unusual long but fast track with really large scale elements in a space of anomalies. This includes a gigantic loop and some large obstacles."/>
     <adv ice="Taking damage is extremely low. Even a drop from 1600 m and a long crash-landing jump (needs boost) is easy to survive. Instead watch your speed. Fastest vehicles are best, or boosting in broad places."/>
     <P pos="160.043 -27.2913 294.758" w="48.168" onTer="0" a="0" ar="-30" aT="2" pipe="1"/>
