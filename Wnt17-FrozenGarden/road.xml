@@ -3,7 +3,7 @@
     <dim tcMul="0.0650965" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="521.66" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3" wsPm="4" lsPm="1" stBox="1 11.476 20.192" iDir="1" iChk1="31"/>
-    <stats length="3634.36" width="7.81897" height="44.4119" onTer="54.1361" pipes="0" bnkAvg="17.3976" bnkMax="63.4801"/>
+    <stats length="3634.359" width="7.8189654" height="44.41192" onTer="54.136078" pipes="0" bnkAvg="17.397575" bnkMax="63.480106"/>
     <txt desc="Very slippery, icy, slow, twisted road, during snowstorm. Partly on frozen lake."/>
     <adv ice="High damage potential. Be careful, don&apos;t crash borders of banked bridges. Has a long jump."/>
     <P pos="-240.38 0 -80.0102" w="7" aT="2" chkR="1.816"/>

@@ -1,11 +1,11 @@
 <scene>
-    <ver num="3018" baseTrk="Uni6-Wild" secEd="3909"/>
+    <ver num="3018" baseTrk="Uni6-Wild" secEd="4403"/>
     <car tires="0" needLights="1"/>
     <start pos="179.332 -40.8464 0.650158" rot="0.019095 0.003621 0.745096 -0.666697" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Islands"/>
-    <sky material="sky/dusk_stormy_02_dark" skyYaw="7.86208"/>
-    <fog color="0.217 0.351 0.166 1.000 0.178" color2="0.202 0.440 0.172 1.000 0.178" linStart="51.7902" linEnd="427.015"/>
-    <fogH color="0.329 0.223 0.277 0.718 0.200" height="-0.1" dens="2.85797" linStart="0" linEnd="121.009"/>
+    <sky material="sky/dusk_stormy_02_dark" skyYaw="-10.22728"/>
+    <fog color="0.128 0.488 0.169 1.000 0.089" color2="0.163 0.289 0.035 1.000 0.000" linStart="51.7902" linEnd="427.015"/>
+    <fogH color="0.329 0.149 0.139 0.718 0.200" height="-0.1" dens="2.85797" linStart="0" linEnd="121.009"/>
     <light pitch="5" yaw="-5" ambient="0.153 0.545 0.111 1.000 0.000" diffuse="0.157 0.321 0.353 1.000 0.000" specular="0.167 0.426 1.000 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water dark" pos="0.0012537 -2 -0.530625" rot="0 0 0" size="8000 60 8000" tile="0.00482925 0.00508187"/>
@@ -62,7 +62,7 @@
             <par dust="DustBlack" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.1" densTrees="0.2" grPage="100" grDist="100" grDensSmooth="6" trPage="200" trDist="200" trDistImp="800" trRdDist="3">
+    <veget densGrass="0.1" densTrees="0.2" grPage="100" grDist="100" grDensSmooth="6" trPage="200" trDist="200" trDistImp="800" trRdDist="3">
         <grass on="1" mtr="grass17r" dens="0.0284064" chan="0" minSx="1.55" maxSx="1.73" minSy="1.09" maxSy="1.25" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
         <grass on="1" mtr="grass3y" dens="0.102113" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass17" dens="0.101062" chan="0" minSx="0.887509" maxSx="1.03487" minSy="0.935227" maxSy="1.1" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -90,8 +90,8 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
-    <cam pos="304.32 38.1624 34.5891" dir="-0.877043 -0.143274 0.458551"/>
+    </veget>
+    <cam pos="304.32 38.1624 34.5891" dir="-0.8770425 -0.14327395 0.4585508"/>
     <objects>
         <o name="ptol_lighthouse" pos="273.828 -68.3767 19.7925" rot="0.140299 -0.990098 -0.00169566 -0.00428578" sc="1.29808 1.29808 1.29808"/>
         <o name="hexrockbrown_cliff_01" pos="-165.788 -161.651 -3.69087" rot="0.91782 0.396996 0 0"/>
