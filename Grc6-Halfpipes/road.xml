@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.155987" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.15" skirtH="0.06" merge="1" mergeLen="800" lodPntLen="60" visDist="1000" visBehind="800"/>
     <geom colN="5" colR="2.43138" wsPm="4" lsPm="1" stBox="1 6.136 24.812" iDir="-1" iChk1="14"/>
-    <stats length="3643.7954" width="10.133474" height="104.27102" onTer="100" pipes="100" bnkAvg="21.803425" bnkMax="83.671036"/>
+    <stats length="3643.8" width="10.1335" height="104.271" onTer="100" pipes="100" bnkAvg="21.8034" bnkMax="83.671"/>
     <txt desc="Beautiful track with glass pipes and views at paradise like environment."/>
     <adv ice="Mostly opened half pipes. Waving and heavily changing directions at few places."/>
     <P pos="-117.446 36.8048 120.141" w="9.136" onTer="0" a="0" ar="14.28" aT="2" col="0" pipe="0.468" wall="-1"/>
