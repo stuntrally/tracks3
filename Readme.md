@@ -20,10 +20,10 @@
 ## Links
 
 [Stunt Rally Homepage](https://stuntrally.tuxfamily.org/) - Download links, track & vehicle browsers etc.  
-[Forums](https://forum.freegamedev.net/viewforum.php?f=77) - Discussions, tracks, Issues, etc.  
+[Forums](https://groups.f-hub.org/stunt-rally/) - Discussions, tracks, etc.  
 [Sources](https://github.com/stuntrally/stuntrally3/) - also for bugs & Issues, pull requests, etc.  
 [Documentation](https://github.com/stuntrally/stuntrally3/blob/main/docs/_menu.md) - new, is inside docs/  
-Old [Screenshots](https://stuntrally.tuxfamily.org/gallery) - Galleries from 2.x versions and development  
+[Screenshots](https://stuntrally.tuxfamily.org/gallery) - Galleries from all versions and development  
 [Videos](https://www.youtube.com/user/TheCrystalHammer) - from game and editor  
 [Donations](https://cryham.tuxfamily.org/donate/) - financial support
 
