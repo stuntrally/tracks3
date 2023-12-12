@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3016" baseTrk="Atm6-Sunset" secEd="43164"/>
+    <ver num="3018" baseTrk="Atm6-Sunset" secEd="49389"/>
     <car tires="0"/>
     <start pos="226.365 93.2003 32.8971" rot="8.9407e-07 -1.31055e-06 -0.741822 0.670673" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="ForestDense"/>
@@ -15,6 +15,7 @@
         <fluid hq="2" name="mud easy soft" pos="467.704 32.8421 387.05" rot="0 0 0" size="50.4365 20 56.5646" tile="0.01 0.01"/>
         <fluid hq="2" name="mud easy soft" pos="415.459 31.3573 -391.424" rot="0 0 0" size="200.773 20 154.279" tile="0.01 0.01"/>
         <fluid hq="2" name="mud easy soft" pos="494.258 41.6157 -226.727" rot="0 0 0" size="64.4057 20 122.406" tile="0.01 0.01"/>
+        <fluid hq="1" name="water milky white" pos="128.934 34.4601 480.139" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="0" triangle="1.172" diff="1 1 1">
@@ -31,6 +32,56 @@
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="3.29717" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="mntn_white2_d.jpg" fnorm="jungle_stone_n.jpg" scale="51.1691" surf="Rocks" dust="0.2" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="20" hMin="48.4962" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 0.667 0.300 0.700 0.000"/>
+            <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="Asphalt" dust="0" dustS="0.9" mud="0" smoke="0" tclr="0.000 0.000 0.000 0.000 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="Dust" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="5.57881" diff="1 1 1" horiz="1">
+            <texture on="0" file="grass_autumn_orn_d.jpg" fnorm="grass_autumn_n.jpg" scale="4.2271" surf="GrassForest" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.131 0.583 0.480 0.700 0.000" angMin="0" angMax="34.3421" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.991228" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="grass_autumn_red_d.jpg" fnorm="grass_autumn_n.jpg" scale="5.31922" surf="GrassForest" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.153 0.545 0.440 0.700 0.000" angMin="0" angMax="12.681" angSm="6.27982" hMin="-300" hMax="42.8571" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="41.9028" oct0="3" prs0="0.3" pow0="0.945705" frq1="28.5" oct1="3" prs1="0.4" pow1="4.72014"/>
+            </texture>
+            <texture on="1" file="grass_mix_ylw_d.jpg" fnorm="grass_mix_n.jpg" scale="8.78464" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.184 0.826 0.460 0.700 0.000" angMin="14.2661" angMax="25.8904" angSm="2.93525" hMin="-300" hMax="44.5489" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="16.408" oct0="3" prs0="0.3" pow0="1.30117" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_dark_d.jpg" fnorm="mntn_dark_n.jpg" scale="26.7289" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="29.4129" angMax="90" angSm="13.1847" hMin="-193.421" hMax="700" hSm="10.9649" nOn="0" noise="0.149123" n_1="0.50193" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="3.29717" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_white2_d.jpg" fnorm="jungle_stone_n.jpg" scale="51.1691" surf="Rocks" dust="0.2" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="20" hMin="48.4962" hMax="700" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 0.667 0.300 0.700 0.000"/>
+            <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="Asphalt" dust="0" dustS="0.9" mud="0" smoke="0" tclr="0.000 0.000 0.000 0.000 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="Dust" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="13.3963" diff="1 1 1" horiz="2">
+            <texture on="0" file="grass_autumn_orn_d.jpg" fnorm="grass_autumn_n.jpg" scale="4.2271" surf="GrassForest" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.131 0.583 0.480 0.700 0.000" angMin="0" angMax="34.3421" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.991228" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="grass_autumn_red_d.jpg" fnorm="grass_autumn_n.jpg" scale="5.31922" surf="GrassForest" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.153 0.545 0.440 0.700 0.000" angMin="0" angMax="12.681" angSm="6.27982" hMin="-300" hMax="42.8571" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="41.9028" oct0="3" prs0="0.3" pow0="0.945705" frq1="28.5" oct1="3" prs1="0.4" pow1="4.72014"/>
+            </texture>
+            <texture on="1" file="grass_mix_ylw_d.jpg" fnorm="grass_mix_n.jpg" scale="8.78464" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.184 0.826 0.460 0.700 0.000" angMin="14.2661" angMax="25.8904" angSm="2.93525" hMin="-300" hMax="44.5489" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="16.408" oct0="3" prs0="0.3" pow0="1.30117" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_dark_d.jpg" fnorm="mntn_dark_n.jpg" scale="26.7289" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="29.4129" angMax="90" angSm="13.1847" hMin="-193.421" hMax="700" hSm="10.9649" nOn="0" noise="0.149123" n_1="0.50193" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="3.29717" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_white2_d.jpg" fnorm="jungle_stone_n.jpg" scale="51.1691" surf="Rocks" dust="0.2" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="20" hMin="48.4962" hMax="700" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
@@ -72,7 +123,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </paged>
-    <cam pos="-211.176 97.5104 -185.365" dir="0.976723 -0.11077 0.183692"/>
+    <cam pos="-211.167 97.5093 -185.356" dir="0.976723 -0.110767 0.183692"/>
     <objects>
         <o name="rome_farmstead" pos="229.405 72.5715 32.338" rot="-0.504868 -0.863195 0 0"/>
         <o name="rome_farmstead" pos="218.181 86.8633 32.2416" rot="-0.991879 0.127172 0 0"/>
@@ -124,20 +175,59 @@
         <o name="rome_farmstead" pos="185.826 52.2867 32.2541" rot="-0.821672 -0.56996 0 0"/>
         <o name="rome_blacksmith" pos="173.295 93.2798 37.8564" rot="-0.816786 -0.57694 0 0"/>
         <o name="rome_house_a" pos="170.406 102.783 37.578" rot="-0.501229 -0.865314 0 0"/>
-        <o name="cave_W04" pos="320.605 -482.634 52.3913" rot="0.585472 0.810693 0 0" sc="4.45486 0.819384 4.45486"/>
-        <o name="cave_W04" pos="425.793 -482.122 57.4788" rot="-0.997961 -0.0563647 -0.0299059 0.00168908" sc="3.61452 1.47971 3.61452"/>
-        <o name="cave_W04" pos="461.944 -392.205 61.876" rot="0.26208 -0.960309 0.025145 0.0921359" sc="3.35129 0.756871 3.35129"/>
-        <o name="cave_W04" pos="449.071 -442.836 63.2769" rot="0.476217 -0.879329 0 0"/>
-        <o name="cave_W04" pos="445.853 -313.178 55.4663" rot="0.113666 -0.990399 0.0284532 0.0733196" sc="1.84639 0.53731 1.84639"/>
-        <o name="cave_W04" pos="249.357 -512.063 49.6414" rot="-0.595002 -0.803724 0 0" sc="1.79828 0.841575 1.79828"/>
-        <o name="cave_W04" pos="205.082 -501.437 49.2258" rot="-0.545508 -0.837987 0.00617899 -0.0125648" sc="1.62168 0.659752 1.62168"/>
-        <o name="cave_W04" pos="164.992 -496.848 48.1935" rot="0.700981 -0.712144 0.0269763 0.0274059" sc="1.50274 0.60611 1.50274"/>
-        <o name="cave_W04" pos="123.781 -488.469 49.8983" rot="-0.725308 -0.688117 0.0148688 -0.0141064" sc="1.90437 0.689556 1.90437"/>
-        <o name="cave_W04" pos="105.013 -480.76 56.9596" rot="-0.804213 -0.572081 -0.114433 -0.113424" sc="1.18849 1.40728 1.18849"/>
-        <o name="cave_W04" pos="215.669 377.274 62.3756" rot="0.783011 -0.495123 0.233326 -0.295474" sc="1.04112 0.992628 1.04112"/>
-        <o name="cave_W04" pos="236.65 383.097 54.5905" rot="0.31246 -0.949931 0 0" sc="1.49848 0.82408 1.49848"/>
-        <o name="cave_W04" pos="268.235 404.837 55.6744" rot="0 -1 0 0" sc="1.53568 0.335302 1.53568"/>
-        <o name="cave_W04" pos="295.535 426.583 56.365" rot="-0.656353 -0.754453 0 0" sc="1.11501 0.537449 1.11501"/>
+        <o name="cave_white_01" pos="234.671 395.568 51.4554" rot="0.982543 -0.186024 0 0"/>
+        <o name="cave_white_09" pos="258.355 409.039 42.2417" rot="0.339137 0.940726 0.00052455 -0.00145503" sc="0.929578 0.929578 0.929578"/>
+        <o name="cave_white_01" pos="288.861 424.537 54.5631" rot="-0.945339 0.326057 0 0"/>
+        <o name="cave_white_08" pos="223.561 395.484 43.4138" rot="-0.844282 0.530702 -0.0394373 0.0627399" sc="0.881625 0.881625 0.881625"/>
+        <o name="cave_white_05" pos="213.611 370.083 46.2977" rot="0.993414 0.114269 0 0" sc="0.881625 0.881625 0.881625"/>
+        <o name="cave_white_02" pos="251.051 391.673 34.0855" rot="0.53731 0.843325 0 0" sc="0.881625 0.881625 0.881625"/>
+        <o name="cave_white_02" pos="294.027 433.108 37.0776" rot="0.595241 0.803496 0 0" sc="0.881625 0.966664 0.881625"/>
+        <o name="cave_white_08" pos="264.737 420.634 35.021" rot="0.546507 0.837403 0 0" sc="0.881625 0.881625 0.881625"/>
+        <o name="cave_white_08" pos="286.826 411.136 33.8996" rot="-0.180237 -0.0154067 0.854353 0.487092" sc="0.881625 0.881625 0.881625"/>
+        <o name="rock08white3tall" pos="257.047 401.53 34.4396" rot="0.895794 0.418058 -0.0184439 0.149486" sc="0.881625 0.881625 0.881625"/>
+        <o name="cave_white_01" pos="266.99 401.388 38.7999" rot="-0.74476 0.250481 -0.501033 -0.362523" sc="0.881625 0.881625 0.881625"/>
+        <o name="cave_white_08" pos="234.588 381.927 35.0938" rot="0.516804 0.842686 -0.0978102 0.114538" sc="0.881625 0.881625 0.881625"/>
+        <o name="cave_white_01" pos="216.633 383.841 52.8727" rot="-0.0910918 -0.00806947 -0.548951 0.830762" sc="0.881625 0.881625 0.881625"/>
+        <o name="cave_white_04" pos="469.078 -388.309 45.5403" rot="0.659385 0.75177 0.00220398 -0.00580036"/>
+        <o name="cave_white_06" pos="461.644 -342.896 45.5732" rot="-0.0330893 0.999426 -0.00125757 0.00412061" sc="1 1.01217 0.752542"/>
+        <o name="cave_white_08" pos="446.06 -313.182 42.691" rot="-0.0683853 0.997639 0 0"/>
+        <o name="cave_white_08" pos="455.398 291.288 52.0089" rot="0.973472 0.228692 0 0"/>
+        <o name="cave_white_03" pos="455.239 -305.26 48.7621" rot="0.937914 0.346775 0 0"/>
+        <o name="cave_white_05" pos="454.37 -404.555 38.8914" rot="0.910625 -0.4114 -0.0344085 -0.015545" sc="1 1.2195 1"/>
+        <o name="cave_white_07" pos="483.358 -398.938 29.7488" rot="0.662977 -0.536929 -0.521564 -0.00708563"/>
+        <o name="cave_white_10" pos="481.754 -376.93 31.1206" rot="-0.00559001 -0.171692 -0.403154 -0.898767" sc="1.21169 1.21169 1.21169"/>
+        <o name="cave_white_02" pos="447.733 -382.444 30.8294" rot="-0.0479752 -0.118202 -0.991738 -0.00935553" sc="1.03495 1.05191 1.07106"/>
+        <o name="cavebig_white_05" pos="420.443 -471.947 32.0178" rot="0.831171 -0.474723 0.217764 0.190569"/>
+        <o name="cavebig_white_06" pos="465.835 -436.2 40.9577" rot="0.742312 -0.220948 -0.599547 -0.20133"/>
+        <o name="cave_white_05" pos="452.721 -424.603 39.8874" rot="-0.25462 0.967038 0 0" sc="1 1.07274 1"/>
+        <o name="cavebig_white_01" pos="438.763 -499.806 58.1025" rot="0.145947 0.98015 0.105761 -0.0820835" sc="0.739283 0.739283 0.739283"/>
+        <o name="cavebig_white_01" pos="351.281 -499.184 49.4533" rot="0.403693 0.914573 0.00139451 0.0237086"/>
+        <o name="cave_white_05" pos="382.647 -519.257 32.5408" rot="-0.999916 0.010836 0.00469626 5.08928e-05"/>
+        <o name="cave_white_02" pos="380.059 -479.266 36.6194" rot="-0.545603 0.838015 0 0"/>
+        <o name="cave_white_01" pos="403.028 -474.571 40.0905" rot="-0.764321 0.211104 0.429913 0.431703"/>
+        <o name="cave_white_02" pos="407.576 -524.169 35.7146" rot="-0.807158 0.582905 0.0755367 0.0545504"/>
+        <o name="cave_white_07" pos="443.246 -510.313 36.6194" rot="-0.582878 0.812541 0 0"/>
+        <o name="cave_white_10" pos="458.876 -484.522 23.0431" rot="-0.932017 0.335707 0.135102 0.0185077"/>
+        <o name="cave_white_10" pos="306.981 -489.714 36.6057" rot="-0.586837 -0.798093 0.0206682 0.134786"/>
+        <o name="cave_white_08" pos="355.744 -475.571 36.6194" rot="-0.752747 -0.657566 0.00899977 0.0284302"/>
+        <o name="cave_white_02" pos="330.027 -477.933 39.6713" rot="0.830264 -0.540355 -0.135745 0.012946"/>
+        <o name="cave_white_02" pos="453.053 -495.985 28.4282" rot="0.721017 0.684679 -0.0771489 -0.0732608"/>
+        <o name="cave_white_05" pos="399.975 -518.53 41.3773" rot="-0.0770849 -0.0410856 -0.967542 0.23706"/>
+        <o name="cave_white_08" pos="340.423 -527.13 34.4871" rot="0.537983 0.832526 -0.0790947 -0.105478" sc="1.36021 1.36021 1.36021"/>
+        <o name="cave_white_03" pos="264.776 -516.018 47.6439" rot="-0.861379 0.507903 0.00370321 0.00504391"/>
+        <o name="cave_white_05" pos="308.901 -517.79 31.6785" rot="0.994946 -0.0710597 -0.0459718 -0.0538236"/>
+        <o name="cave_white_08" pos="323.982 -521.299 31.0145" rot="-0.0731625 0.0670807 -0.764214 -0.637197"/>
+        <o name="cave_white_05" pos="293.985 -519.763 35.8496" rot="0.92206 0.268237 -0.239185 0.143547"/>
+        <o name="cave_white_01" pos="280.49 -503.368 42.5332" rot="-0.658909 0.484264 0.474269 0.326125"/>
+        <o name="cave_white_04" pos="213.969 -503.585 42.6151" rot="0.954306 -0.290882 0.0621563 -0.0271711"/>
+        <o name="cave_white_08" pos="218.242 -515.809 46.7136" rot="0.801176 0.598418 0 0"/>
+        <o name="cavebig_white_04" pos="160.136 -498.771 39.5652" rot="-0.563599 0.82604 0 0"/>
+        <o name="cave_white_02" pos="227.521 -501.111 46.1856" rot="-0.474784 0.880091 0 0"/>
+        <o name="cave_white_08" pos="194.152 -493.44 45.5097" rot="-0.605186 0.796065 0 0"/>
+        <o name="cave_white_02" pos="158.629 -512.188 46.3813" rot="-0.22227 0.166751 0.883887 -0.37614"/>
+        <o name="cave_white_08" pos="137.11 -503.743 38.4073" rot="0.836531 0.547895 0 0"/>
+        <o name="cave_white_01" pos="105.486 -495.32 39.0514" rot="0.118139 0.582318 -0.799709 0.0860245"/>
+        <o name="cave_white_01" pos="109.233 -468.15 35.831" rot="-0.27755 0.395128 -0.269459 -0.833188"/>
     </objects>
     <emitters/>
 </scene>

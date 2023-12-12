@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 14.2081" iDir="-1" iChk1="9"/>
-    <stats length="1506.3668" width="9.543999" height="29.247778" onTer="10.902556" pipes="0" bnkAvg="10.608834" bnkMax="26.298307"/>
+    <stats length="1506.37" width="9.544" height="29.2478" onTer="10.9026" pipes="0" bnkAvg="10.6094" bnkMax="26.2983"/>
     <txt desc="Winding road in red autumn forest."/>
     <adv ice="With 2 bridges and banked turns. Limited visibility because of close trees."/>
     <P pos="86.2718 0 38.9917" w="9.544" a="0" ar="0" aT="2" mtr="1"/>
