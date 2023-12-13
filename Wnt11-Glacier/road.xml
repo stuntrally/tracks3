@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="400" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.068 14.256" iDir="-1" iChk1="21"/>
-    <stats length="5138.5435" width="10.228077" height="157.81131" onTer="24.06833" pipes="0" bnkAvg="4.9814887" bnkMax="23.164085"/>
+    <stats length="5138.54" width="10.2281" height="157.811" onTer="24.0683" pipes="0" bnkAvg="4.97708" bnkMax="23.1641"/>
     <txt desc="Easy route through stunning icy landscape. Has 2 caves. Partly near river."/>
     <adv ice="With bumpy straight in middle. Higher passes are icy, with snow on road."/>
     <P pos="-2.69316 0 -316.057" w="7.984" aT="2" mtr="3" chkR="1.956"/>

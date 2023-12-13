@@ -3,7 +3,7 @@
     <dim tcMul="0.0679848" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.06" merge="1" mergeLen="1328.11" lodPntLen="35.8398" visDist="500" visBehind="500"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.064 16.352" iDir="1" iChk1="220"/>
-    <stats length="11850.145" width="8.262907" height="265.2064" onTer="61.475487" pipes="28.504839" bnkAvg="17.08332" bnkMax="89.748215"/>
+    <stats length="11850.1" width="8.26291" height="265.206" onTer="61.4755" pipes="28.5048" bnkAvg="17.0833" bnkMax="89.7482"/>
     <txt desc="Enjoy the Schwab stunt area and around in autumn. Mountain rally with two small villages, few caves and waterhits."/>
     <adv ice="Very challenging track. Has many short pipe jumps. Loops are in dedicated area along the large lake."/>
     <P pos="-399.407 0 -22.4077" w="8.2" a="0" ar="0" aT="2" col="0" mtr="1"/>

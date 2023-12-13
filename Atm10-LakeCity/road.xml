@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="10"/>
-    <stats length="4394.3936" width="7.565532" height="67.53905" onTer="19.715748" pipes="4.5235896" bnkAvg="6.00317" bnkMax="36.445194"/>
+    <stats length="4394.36" width="7.56551" height="67.539" onTer="19.7152" pipes="4.52362" bnkAvg="6.00017" bnkMax="36.4452"/>
     <txt desc="Track in an autumn mountain landscape at sunset. Starts in a small village."/>
     <adv ice="Medium fast. With four small jumps. Partly inside a cave."/>
     <P pos="-146.277 0 -208.167" w="10.128" aT="2" col="0" mtr="1"/>

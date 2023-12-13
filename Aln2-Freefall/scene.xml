@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3018" baseTrk="test-new" secEd="2143"/>
+    <ver num="3018" baseTrk="test-new" secEd="3674"/>
     <car tires="0" damage="0.550296" road1mtr="0"/>
     <start pos="108.511 -42.7752 98.7215" rot="0.0140557 0.123064 0.199304 0.972086" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Alien"/>
@@ -37,7 +37,32 @@
             <texture road="4" surf="roadSnow" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="DustAlien" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="30" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="30" diff="1 1 1" horiz="2">
+            <texture on="1" file="alien_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="9.63" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="0" angMax="11.5777" angSm="15.1862" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.998652" n_1="0" n2="0">
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="alien_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="16.21" surf="DesertFast" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="3.93204" angMax="20.0971" angSm="24.5128" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1.02461" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.1" pow0="7.87836" frq1="31.5" oct1="3" prs1="0.4" pow1="1.13584"/>
+            </texture>
+            <texture on="1" file="alien_mntn_d.jpg" fnorm="desert_mntn_n.jpg" scale="26.21" surf="Rocks" dust="0.4" dustS="1" mud="0.7" smoke="0" tclr="0.137 0.810 0.420 0.800 0.000" angMin="55.267" angMax="90" angSm="24.8301" hMin="-300" hMax="300" hSm="4.25641" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="52.5073" oct0="3" prs0="0.1" pow0="1.75574" frq1="70.0569" oct1="3" prs1="0.1" pow1="1.82411"/>
+            </texture>
+            <texture on="1" file="alien_cracks_d.jpg" fnorm="desert_cracks_n.jpg" scale="9.09" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="38.2282" angMax="59.8544" angSm="7.76869" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.228184" n_1="0" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="20.29" surf="DesertBumpy" dust="0.6" dustS="1" mud="0.5" smoke="0" tclr="0.060 0.583 0.480 0.800 0.000" angMin="19.8786" angMax="47.8398" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadSnow" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.117 0.400 0.500 0.100 0.000"/>
+            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 0.667 0.300 0.700 0.000"/>
+            <texture road="4" surf="roadSnow" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="DustAlien" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="5.15183" diff="1 1 1" horiz="1">
             <texture on="1" file="alien_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="9.63" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="0" angMax="11.5777" angSm="15.1862" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.998652" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -160,15 +185,6 @@
         <o name="fuel_can" pos="189.108 -81.0821 107.53" rot="-0.440501 -0.479979 0.605003 -0.457767"/>
         <o name="fuel_can" pos="-186.249 -51.0413 107.195" rot="-0.403718 0.906881 0.114002 0.0397928"/>
         <o name="wood_block" pos="-122.66 -37.6355 119.09" rot="-0.289629 0.951423 0.024556 -0.101525"/>
-        <o name="cave_L06" pos="114.782 3.12462 128.473" rot="-0.478177 -0.878263 0 0" sc="1 1 1.02098"/>
-        <o name="cave_L06" pos="188.946 -3.95263 132.552" rot="-0.617257 -0.786761 0 0" sc="1.06012 1.42875 1.10602"/>
-        <o name="cave_L05" pos="147.466 -11.1009 122.768" rot="0.337044 -0.566383 -0.501201 0.560713" sc="0.985647 1.32932 0.696303"/>
-        <o name="cave_L05" pos="148.791 10.1831 132.839" rot="0.741176 0.0242287 0.670446 -0.0239413" sc="1.06755 1.63808 1.01649"/>
-        <o name="cave_L04" pos="220.459 -20.9156 138.862" rot="0.503322 -0.864098 0 0" sc="1.30802 1.97117 1.32652"/>
-        <o name="cave_L06" pos="237.922 -41.525 135.625" rot="0.984472 0.175541 0 0" sc="1.42534 1.42534 1.42534"/>
-        <o name="rock_n2_alien" pos="238.083 -10.5876 128.55" rot="-0.330531 -0.898202 0.268919 -0.107997" sc="1.79766 1.83413 4.12786"/>
-        <o name="rock_n2_alien" pos="170.975 -10.6836 123.657" rot="0 -0.977539 -0.21075 0" sc="1.59629 3.90177 1.59629"/>
-        <o name="rock_n2_alien" pos="213.937 -21.2332 111.724" rot="-0.230695 -0.966176 0.0405093 -0.107877" sc="1.07562 8.69311 1.6527"/>
         <o name="obstacleGreen3" pos="184.836 79.7635 172.445" rot="-0.373832 -0.524099 -0.436363 0.628612" sc="1.24073 1.24073 1.31872"/>
         <o name="obstacleGreen1" pos="-242.991 -94.8084 111.875" rot="0.424271 -0.888372 -0.110922 0.135921" sc="1.28459 1.3994 0.791071"/>
         <o name="crate_1" pos="66.5685 -298.018 92.57" rot="-0.0185292 0.999824 -9.93109e-05 0.00289036"/>
@@ -178,6 +194,18 @@
         <o name="alien_pipes" pos="162.187 -222.736 127.269" rot="0.310639 -0.264454 -0.563366 0.718455" sc="0.922546 0.818344 1.2366"/>
         <o name="alien_pipes_end" pos="145.523 -176.771 117.35" rot="-0.197086 -0.806179 0.114915 0.545912" sc="1.68396 1.67561 0.709459"/>
         <o name="gas_tank_02_green" pos="188.746 -300.12 126.252" rot="0.749866 0.661579 0 0" sc="2.3602 2.3602 2.3602"/>
+        <o name="cave_alien_06" pos="224.14 -83.968 124.273" rot="-0.937529 0.338552 -0.0746606 -0.0288433"/>
+        <o name="cave_alien_09" pos="231.105 -25.4536 119.328" rot="0.975357 0.219773 -0.0143518 -0.010689"/>
+        <o name="cave_alien_04" pos="226.976 -59.5039 122.707" rot="0.749952 0.661323 -0.0016596 -0.0124126"/>
+        <o name="cave_alien_01" pos="220.107 -0.837694 129.902" rot="0.647539 0.658588 -0.380788 0.0435267" sc="1.11882 1.11882 1.11882"/>
+        <o name="cave_alien_05" pos="231.08 -52.7114 123.795" rot="-0.488827 0.870027 0.0426035 -0.0470003" sc="0.733998 0.733998 0.733998"/>
+        <o name="cave_alien_02" pos="219.46 -66.1742 114.29" rot="-0.302039 0.096381 0.288311 -0.903511" sc="1.03982 1.03982 1.03982"/>
+        <o name="cave_alien_03" pos="200.084 -5.37171 122.419" rot="0.753119 0.657772 -0.00948456 -0.00221962" sc="0.847024 0.847024 0.847024"/>
+        <o name="cavebig_alien_04" pos="138.281 -1.46179 115.851" rot="0.713856 0.700289 0 0" sc="0.847024 0.847024 0.847024"/>
+        <o name="cave_alien_08" pos="230.142 -17.8888 124.482" rot="0.922768 0.363374 0.118354 0.0492497" sc="0.847024 0.847024 0.847024"/>
+        <o name="cave_alien_08" pos="154.039 15.7153 119.338" rot="0.649333 0.686764 0.192527 -0.263856" sc="0.847024 0.847024 0.847024"/>
+        <o name="cave_alien_07" pos="119.515 -8.14024 121.944" rot="-0.698695 0.712018 0.0572625 0.0393448" sc="0.847024 0.847024 0.847024"/>
+        <o name="cave_alien_05" pos="143.175 -2.37981 113.204" rot="0.993631 0.108104 0.0219669 0.022198" sc="0.847024 0.847024 0.847024"/>
     </objects>
     <emitters>
         <e name="AlienGlow" pos="64.3189 100.253 250.397" sc="9.91592 1 7.5717" up="0 1 0" rot="0" rate="30.3555" st="0" psc="1"/>
