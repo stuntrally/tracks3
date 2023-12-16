@@ -37,7 +37,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.333" densTrees="0.660108" grPage="80" grDist="80" grDensSmooth="6" trPage="80" trDist="120" trDistImp="800" trRdDist="0">
+    <veget densGrass="0.333" densTrees="0.660108" grPage="80" grDist="80" grDensSmooth="6" trPage="80" trDist="120" trDistImp="800" trRdDist="0">
         <grass on="1" mtr="flower01" cl="0.000 0.000 1.160 1.000 0.000" dens="0.121386" chan="2" minSx="1.6" maxSx="1.8" minSy="1.46" maxSy="1.67" swayDistr="0.5" swayLen="0.3" swaySpeed="0.4"/>
         <grass on="1" mtr="flower01b" cl="0.000 0.000 1.247 1.000 0.000" dens="0.158015" chan="1" minSx="1.6" maxSx="1.8" minSy="1.46" maxSy="1.67" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grassForest" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0368172" chan="2" minSx="1.43" maxSx="1.6" minSy="1.02" maxSy="1.22" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -65,7 +65,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="129.64345 71.16158 156.01508" dir="-0.56134063 -0.27255312 -0.78141636"/>
     <objects>
         <o name="bridge_wooden_03" pos="83.0153 -120.959 46.6641" rot="0 -1 0 0"/>

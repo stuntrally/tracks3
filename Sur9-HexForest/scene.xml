@@ -39,7 +39,7 @@
             <par dust="DustAlien" mud="SnowMud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.0361497" densTrees="0.134329" grPage="80" grDist="80" grDensSmooth="6" trPage="80" trDist="80" trDistImp="600" trRdDist="3">
+    <veget densGrass="0.0361497" densTrees="0.134329" grPage="80" grDist="80" grDensSmooth="6" trPage="80" trDist="80" trDistImp="600" trRdDist="3">
         <grass on="0" mtr="grass11wg" clr="grClrSmall.png" dens="0.001" chan="0" minSx="2.42" maxSx="3" minSy="1.84" maxSy="2.68" swayDistr="0.2" swayLen="0.1" swaySpeed="0.5"/>
         <grass on="1" mtr="grassX10b" clr="grClrWinter.png" dens="0.0448477" chan="1" minSx="1.69778" maxSx="2.6484" minSy="1.5464" maxSy="2.03628" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grassZ11" clr="grClrJungle.png" dens="0.296719" chan="0" minSx="1.66933" maxSx="2.21272" minSy="1.86" maxSy="2.26" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -67,7 +67,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="-18.6112 18.0262 -178.697" dir="-0.472257 -0.0999238 0.875779"/>
     <objects>
         <o name="hexrockmetal_small_02" pos="45.6311 10.5033 -1.23554" rot="0.99638 -0.0829852 -0.0173218 0.00469536"/>

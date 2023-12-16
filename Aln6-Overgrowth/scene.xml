@@ -64,7 +64,7 @@
             <par dust="DustAlien" mud="MudDark" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.366996" densTrees="1.22199" grPage="70" grDist="70" grDensSmooth="4" trPage="80" trDist="120" trDistImp="800" trRdDist="0">
+    <veget densGrass="0.366996" densTrees="1.22199" grPage="70" grDist="70" grDensSmooth="4" trPage="80" trDist="120" trDistImp="800" trRdDist="0">
         <grass on="1" mtr="grassX10b-alien" dens="0.115" chan="0" minSx="2.32112" maxSx="3.09984" minSy="2.77897" maxSy="3.54386" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
         <grass on="0" mtr="grassXc" dens="0.0254989" chan="0" minSx="2.50121" maxSx="3.1238" minSy="1.82147" maxSy="2.18727" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
         <grass on="1" mtr="grassXc" dens="0.05" chan="1" minSx="2.08665" maxSx="3.07595" minSy="1.69155" maxSy="2.18727" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
@@ -92,7 +92,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="79.2956 -3.50127 129.386" dir="-0.144281 -0.110435 -0.983355"/>
     <objects>
         <o name="alien_ufo_fly" pos="-55.0016 -86.3759 3.34146" rot="-0.0233123 -0.995089 0.0838975 0.0471238" sc="0.721528 0.721528 0.721528"/>

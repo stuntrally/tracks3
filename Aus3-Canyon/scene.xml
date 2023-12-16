@@ -62,7 +62,7 @@
             <par dust="Adust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0.05" densTrees="0.5" grPage="80" grDist="80" grDensSmooth="3" trPage="200" trDist="200" trDistImp="600" trRdDist="3">
+    <veget densGrass="0.05" densTrees="0.5" grPage="80" grDist="80" grDensSmooth="3" trPage="200" trDist="200" trDistImp="600" trRdDist="3">
         <grass on="1" mtr="grass6r" dens="0.201138" chan="0" minSx="0.829836" maxSx="1.06066" minSy="1.1" maxSy="1.26526" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="0" mtr="grass16r" dens="0.0357463" chan="0" minSx="1.63366" maxSx="1.8719" minSy="1.30854" maxSy="1.45854" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass17r" dens="0.30883" chan="0" minSx="0.841196" maxSx="0.984347" minSy="0.611557" maxSy="0.864177" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -90,7 +90,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="43.2165 220.749 -616.093" dir="-0.220637 -0.33533 0.9159"/>
     <objects>
         <o name="house_1" pos="-373.665 -5.5037 -54.4377" rot="0.434978 -0.900441 0 0" sc="1.54916 1.54916 1.54916"/>

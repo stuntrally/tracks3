@@ -37,7 +37,7 @@
             <par dust="WetDust" mud="SnowMud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <paged densGrass="0" densTrees="1.70622" grPage="120" grDist="120" grDensSmooth="1" trPage="100" trDist="200" trDistImp="800" trRdDist="1">
+    <veget densGrass="0" densTrees="1.70622" grPage="120" grDist="120" grDensSmooth="1" trPage="100" trDist="200" trDistImp="800" trRdDist="1">
         <grass on="1" mtr="grass18w" dens="0.297788" chan="0" minSx="1.13125" maxSx="1.53682" minSy="1.33784" maxSy="1.83667" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass7wg" dens="0.0763985" chan="0" minSx="1.29403" maxSx="1.65011" minSy="1.28406" maxSy="1.7297" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass11w" dens="0.0942336" chan="0" minSx="1.49082" maxSx="1.87238" minSy="1.35113" maxSy="1.74525" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -65,7 +65,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-    </paged>
+    </veget>
     <cam pos="-63.6125 209.203 604.646" dir="0.252848 -0.413674 -0.87461"/>
     <objects>
         <o name="rock18black3" pos="83.6844 172.323 -3.45257" rot="0 -1 0 0"/>
@@ -180,13 +180,13 @@
         <o name="big_tire" pos="164.025 -160.124 -30.376" rot="-0.542144 0.837668 -0.0401195 0.0527463"/>
         <o name="can_rusted" pos="163.364 -157.308 -30.687" rot="-0.0555689 0.661746 -0.0351857 0.746837"/>
         <o name="plastic_big_hvy" pos="312.784 -22.2078 46.0609" rot="-0.553474 0.83284 0.00545157 0.0038899"/>
-        <o name="fuel_can_static" pos="314.716 -27.4051 45.4253" rot="-0.67833 0.469979 -0.53646 -0.17663"/>
+        <o name="fuel_can" stat="1" pos="314.716 -27.4051 45.4253" rot="-0.67833 0.469979 -0.53646 -0.17663"/>
         <o name="fuel_can" pos="-46.9082 346.02 2.47672" rot="-0.525303 0.431916 -0.460427 0.570537"/>
         <o name="fuel_can" pos="-48.0643 349.387 2.57482" rot="0.987302 -0.155969 0.0297993 0.00441109"/>
         <o name="fuel_can" pos="27.8421 133.009 4.1237" rot="-0.407069 0.910587 -0.0314413 0.0643174"/>
         <o name="atomic_barrel" pos="-101.835 -0.696218 -27.6609" rot="0.62376 0.104887 0.70381 0.323378"/>
         <o name="atomic_barrel" pos="-105.589 -10.4741 -27.4347" rot="-0.407756 0.911819 0.021329 -0.0432026"/>
-        <o name="atomic_barrel_static" pos="248.361 -197.153 12.388" rot="0.00400652 0.882584 -0.460467 0.0948665"/>
+        <o name="atomic_barrel" stat="1" pos="248.361 -197.153 12.388" rot="0.00400652 0.882584 -0.460467 0.0948665"/>
         <o name="can_rusted" pos="245.523 -216.893 8.03999" rot="0.337547 0.941203 0.0115635 -0.00804673"/>
         <o name="garbage_bag_01" pos="9.81816 -258.66 -29.7157" rot="0.0752703 0.997069 -0.000270046 0.013712"/>
         <o name="garbage_bin_green" pos="6.47425 -258.336 -28.5837" rot="0.112832 0.989771 -0.0865607 -0.0113901"/>
@@ -214,28 +214,28 @@
         <o name="garbage_bag_02" pos="147.443 -246.818 -7.01609" rot="0.542895 0.427202 -0.457681 0.559725"/>
         <o name="garbage_bag_01" pos="148.293 -247.271 -6.90214" rot="0.0677956 -0.10904 -0.779769 0.612759"/>
         <o name="garbage_bag_01" pos="188.931 -367.888 -0.139924" rot="0.0686566 0.994817 -0.0680438 0.0315495"/>
-        <o name="atomic_barrel_static" pos="136.425 -347.588 -2.39929" rot="0 0.57597 0 -0.817471"/>
-        <o name="fuel_can_static" pos="103.773 -376.667 -0.159753" rot="-0.558766 0.184982 0.0548799 0.806567"/>
-        <o name="fuel_can_static" pos="100.215 -373.152 0.0484123" rot="0 0.876519 0 0.481367"/>
+        <o name="atomic_barrel" stat="1" pos="136.425 -347.588 -2.39929" rot="0 0.57597 0 -0.817471"/>
+        <o name="fuel_can" stat="1" pos="103.773 -376.667 -0.159753" rot="-0.558766 0.184982 0.0548799 0.806567"/>
+        <o name="fuel_can" stat="1" pos="100.215 -373.152 0.0484123" rot="0 0.876519 0 0.481367"/>
         <o name="fuel_can" pos="106.271 -374.867 0.434333" rot="0.00526508 0.999564 -0.0105172 -0.0270966"/>
         <o name="plastic_big_hvy" pos="-188.23 -424.264 10.6051" rot="0.130606 0.649542 0.198867 0.722142"/>
         <o name="big_tire" pos="-185.554 -306.35 11.6583" rot="-0.167813 0.974247 0.150504 0.00541854"/>
         <o name="garbage_bin_green" pos="-122.794 -311.16 4.44582" rot="-0.111374 0.612326 -0.113327 0.774474"/>
         <o name="fuel_can" pos="-28.8723 -363.082 0.902647" rot="0.591345 -0.352027 0.685502 -0.237644"/>
-        <o name="atomic_barrel_static" pos="-212.96 -294.191 -0.0943657" rot="-0.124258 0.4724 0.189112 0.851841"/>
+        <o name="atomic_barrel" stat="1" pos="-212.96 -294.191 -0.0943657" rot="-0.124258 0.4724 0.189112 0.851841"/>
         <o name="atomic_barrel" pos="-213.483 -296.394 0.749314" rot="-0.00916117 0.999719 0.00193136 0.0217591"/>
         <o name="pallet" pos="-219.725 -323.878 0.296147" rot="-0.155896 0.987728 -0.00469905 0.00821173"/>
         <o name="garbage_bag_01" pos="-121.188 158.822 1.79104" rot="-0.0743266 0.995354 -0.0551347 0.026579"/>
         <o name="garbage_bag_02" pos="-120.235 158.513 2.01612" rot="-0.0212901 -0.673307 0.723434 -0.151156"/>
-        <o name="fuel_can_static" pos="-80.7474 509.433 79.2463" rot="0 0.797637 0 0.603138"/>
+        <o name="fuel_can" stat="1" pos="-80.7474 509.433 79.2463" rot="0 0.797637 0 0.603138"/>
         <o name="garbage_bin_green" pos="-18.2609 172.345 12.2519" rot="0.0328754 0.998694 0.0316424 -0.0229987"/>
         <o name="garbage_bag_01" pos="-20.3308 174.724 11.6746" rot="0.10179 0.994144 0.0315156 -0.0179689"/>
         <o name="garbage_bag_02" pos="-17.7704 175.094 11.7645" rot="-0.432034 0.900913 0.0404854 -0.00802624"/>
         <o name="garbage_bag_02" pos="-27.7219 180.38 11.9863" rot="-0.310142 0.948988 0.052416 0.0220393"/>
         <o name="garbage_bag_02" pos="-34.5954 279.641 18.0439" rot="-0.374712 -0.596655 -0.35071 0.616925"/>
-        <o name="can_rusted_static" pos="7.10876 585.115 74.856" rot="-0.306502 0.772256 -0.205287 -0.517238"/>
-        <o name="can_rusted_static" pos="-117.967 496.809 71.9593" rot="-0.183509 0.462366 0.320017 0.806308"/>
-        <o name="can_rusted_static" pos="87.2557 144.457 0.0466176" rot="-0.200405 -0.850806 -0.391577 0.287466"/>
+        <o name="can_rusted" stat="1" pos="7.10876 585.115 74.856" rot="-0.306502 0.772256 -0.205287 -0.517238"/>
+        <o name="can_rusted" stat="1" pos="-117.967 496.809 71.9593" rot="-0.183509 0.462366 0.320017 0.806308"/>
+        <o name="can_rusted" stat="1" pos="87.2557 144.457 0.0466176" rot="-0.200405 -0.850806 -0.391577 0.287466"/>
         <o name="atomic_barrel" pos="134.769 43.0196 0.452798" rot="0.462922 0.530169 0.706896 0.0701476"/>
         <o name="atomic_barrel" pos="132.58 51.335 1.44831" rot="0.12287 0.989887 0.0414963 -0.0574846"/>
         <o name="atomic_barrel" pos="134.434 51.1195 1.25998" rot="-0.568129 0.821251 0.0519807 -0.0086127"/>
