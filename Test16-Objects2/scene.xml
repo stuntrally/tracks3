@@ -123,15 +123,15 @@
         <o name="ancient_ruins_yellow_05" pos="-11.919509 119.53461 -11.548622" rot="0 -1 0 0"/>
         <o name="ancient_ruins_yellow_02" pos="10.085974 123.18908 -11.551318" rot="0 -1 0 0"/>
         <o name="ancient_ruins_yellow_01" pos="10.425632 145.68631 -11.632937" rot="0 -1 0 0"/>
-        <o name="wooden_barrel_static" pos="-2.1374302 32.644485 -10.605101" rot="0 -1 0 0"/>
+        <o name="wooden_barrel" stat="1" pos="-2.1374302 32.644485 -10.605101" rot="0 -1 0 0"/>
         <o name="statue_angel" pos="52.528957 72.31105 -11.0442095" rot="0 -1 0 0"/>
         <o name="statue_buddha" pos="53.026825 76.525925 -11.328727" rot="0 -1 0 0" sc="3.8114493 3.8114493 3.8114493"/>
         <o name="statue_woman" pos="52.586594 67.848915 -11.245656" rot="0 -1 0 0"/>
-        <o name="plastic_big_anomaly_static" pos="52.73462 63.95717 -10.61661" rot="0 -1 0 0"/>
+        <o name="plastic_big_anomaly" stat="1" pos="52.73462 63.95717 -10.61661" rot="0 -1 0 0"/>
         <o name="dish_hole_cry" pos="39.494568 47.972553 -10.693862" rot="0 -1 0 0"/>
-        <o name="crate_anomaly_static" pos="54.29214 50.59539 -5.7778826" rot="0 -1 0 0"/>
-        <o name="balloon1_anomaly_static" pos="-0.3550257 66.95083 -18.191807" rot="0 -1 0 0" sc="4.8544135 4.8544135 4.8544135"/>
-        <o name="balloon2_anomaly_static" pos="25.466902 70.28606 -5.925885" rot="0 -1 0 0" sc="4.059581 4.059581 4.059581"/>
+        <o name="crate_anomaly" stat="1" pos="54.29214 50.59539 -5.7778826" rot="0 -1 0 0"/>
+        <o name="balloon1_anomaly" stat="1" pos="-0.3550257 66.95083 -18.191807" rot="0 -1 0 0" sc="4.8544135 4.8544135 4.8544135"/>
+        <o name="balloon2_anomaly" stat="1" pos="25.466902 70.28606 -5.925885" rot="0 -1 0 0" sc="4.059581 4.059581 4.059581"/>
         <o name="big_tire_anomaly" pos="1.0617447 16.852169 -10.462589" rot="0 -1 0 0"/>
         <o name="big_tire_anomaly" pos="2.6642761 19.838524 -10.471486" rot="0 -1 0 0"/>
         <o name="big_tire_anomaly2" pos="-1.8523979 24.65709 -9.947644" rot="0 -1 0 0"/>
@@ -157,8 +157,8 @@
         <o name="windmill" pos="-32.5055 92.505615 -11.507595" rot="0 -1 0 0"/>
         <o name="concrete_bar_anomaly" pos="65.69948 57.775482 -10.504642" rot="0 -1 0 0"/>
         <o name="crystal_cube4" pos="80.79206 86.68036 -10.104094" rot="0 -1 0 0"/>
-        <o name="cone_anomaly_static" pos="66.53424 60.549675 -10.049455" rot="0 -1 0 0"/>
-        <o name="crate2m_anomaly_static" pos="64.99885 62.547558 -10.061741" rot="0 -1 0 0"/>
+        <o name="cone_anomaly" stat="1" pos="66.53424 60.549675 -10.049455" rot="0 -1 0 0"/>
+        <o name="crate2m_anomaly" stat="1" pos="64.99885 62.547558 -10.061741" rot="0 -1 0 0"/>
         <o name="crystal_flower_blue" pos="94.02395 86.55899 -8.783646" rot="0 -1 0 0"/>
         <o name="crystal_flower_cyan" pos="95.62155 75.03575 -7.900862" rot="0 -1 0 0"/>
         <o name="crystal_form1_cyan" pos="109.06783 67.43312 -9.321783" rot="0 -1 0 0"/>
