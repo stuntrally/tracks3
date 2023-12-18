@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="946"/>
+    <ver num="3018" baseTrk="" secEd="1257"/>
     <car tires="0"/>
     <start pos="-59.3236 3.10192 4.33741" rot="-5.55112e-17 -5.55112e-17 0.703943 0.710259" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Islands"/>
-    <sky material="sky/sunset_rays_gen" skyYaw="-13.0827"/>
-    <fog color="0.052 0.915 0.233 0.831 0.000" color2="0.056 0.616 0.175 0.900 0.000" linStart="2604.7805" linEnd="9000"/>
+    <sky material="sky/sunset_03_rays" skyYaw="-50.454544"/>
+    <fog color="0.101 0.950 0.725 0.060 0.000" color2="0.521 0.293 0.093 0.328 0.000" linStart="2043.123" linEnd="9000"/>
     <fogH color="0.056 0.500 0.397 0.406 0.000" height="-42.670532" dens="7.0108542" linStart="0" linEnd="57.8"/>
-    <light pitch="8" yaw="0" ambient="0.029 0.405 0.420 1.000 0.000" diffuse="0.085 0.483 0.800 0.000 0.000" specular="0.087 0.934 0.700 0.600 0.000"/>
+    <light pitch="8" yaw="-39.545456" ambient="0.029 0.405 0.420 1.000 0.000" diffuse="0.085 0.483 0.800 0.000 0.000" specular="0.087 0.934 0.700 0.600 0.000"/>
     <fluids>
         <fluid hq="2" name="water sunset" pos="-0.493078 -2 5.89115" rot="0 0 0" size="8000 40 8000" tile="0.00482925 0.00508187"/>
         <fluid hq="2" name="water pink" pos="2.50786 -0.87047 -95.0494" rot="0 0 0" size="61.2405 20 55.1558" tile="0.01 0.01"/>
