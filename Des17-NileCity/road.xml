@@ -3,7 +3,7 @@
     <dim tcMul="0.0639309" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="608.284" lodPntLen="15.4655" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 4.888 13.424" iDir="-1" iChk1="3"/>
-    <stats length="3605.46" width="8.70498" height="70.9687" onTer="8.63118" pipes="0" bnkAvg="4.59111" bnkMax="19.2428"/>
+    <stats length="3605.4556" width="8.704976" height="70.968704" onTer="8.631181" pipes="0" bnkAvg="4.591114" bnkMax="19.242777"/>
     <txt desc="Fast road through a city placed on both sides of the big river."/>
     <adv ice="Has few bridges, sharp turns and terrain jumps on dunes."/>
     <P pos="251.208 0 -210.989" w="9.776" aT="2"/>
@@ -48,7 +48,7 @@
     <P pos="-33.7555 0 6.65629" w="8.344" a="0" ar="0" aT="2" col="0" chkR="1"/>
     <P pos="-31.2052 1.88507 -32.6045" w="8.368" onTer="0" a="0" ar="0" aT="2" col="0"/>
     <P pos="-28.0236 0 -74.4543" w="9.752" a="3.78" ar="0.927001" aT="2" chkR="1"/>
-    <P pos="-16.613 0 -100.602" w="8.944" aT="2" mtr="1"/>
+    <P pos="-16.613 0 -100.602" w="8.944" aT="2"/>
     <P pos="13.8105 0 -135.842" w="8.928" aT="2" chkR="1.728"/>
     <P pos="47.7251 0 -139.868" w="8.064" aT="2"/>
     <P pos="89.0823 0 -142.257" w="8.064" aT="2" mtr="2"/>
