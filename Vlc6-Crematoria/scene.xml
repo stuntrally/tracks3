@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="9266"/>
+    <ver num="3018" baseTrk="" secEd="9472"/>
     <car tires="0" damage="0.3" needLights="1"/>
     <start pos="-69.016 181.991 -25.5538" rot="-0.001352 0.00575 0.681427 0.731884" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="MountainsClose"/>
-    <sky material="sky/duskstormy"/>
+    <sky material="sky/dawn_01_orange" skyYaw="-14.318176"/>
     <fog color="0.122 0.500 0.014 0.913 0.000" color2="0.069 0.375 0.014 0.874 0.000" linStart="28.8" linEnd="420.898"/>
     <fogH color="0.039 1.000 2.379 0.987 0.000" height="-36.865" dens="200" linStart="0" linEnd="2.8125" dmg="1"/>
-    <light pitch="69.1875" yaw="54" ambient="0.078 1.000 0.227 0.000 0.000" diffuse="0.111 0.600 0.227 0.000 0.000" specular="0.041 1.000 0.744 0.000 0.000"/>
+    <light pitch="38.693184" yaw="0" ambient="0.078 1.000 0.227 0.000 0.000" diffuse="0.111 0.600 0.227 0.000 0.000" specular="0.041 1.000 0.744 0.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.81599" triangle="1.81599" diff="1 1 1" emissive="1">
@@ -89,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="52.836 62.1852 294.308" dir="-0.19042206 -0.20229906 -0.9606324"/>
+    <cam pos="52.836 62.1852 294.308" dir="-0.19042206 -0.20229904 -0.9606324"/>
     <objects/>
     <emitters>
         <e name="FireYellowRed" pos="-5.43376 -119.897 -136.724" sc="130.375 8.2172 102.627" up="0 1 0" rot="0" rate="151.058" st="0" psc="1"/>

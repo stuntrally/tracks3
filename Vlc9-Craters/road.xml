@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2" wsPm="4" lsPm="1" stBox="1 4.76 12.6324" iDir="1" iChk1="40"/>
-    <stats length="1891.37" width="7" height="15.6732" onTer="0" pipes="0" bnkAvg="6.14431" bnkMax="18.5606"/>
+    <stats length="1891.3712" width="6.999999" height="15.67322" onTer="0" pipes="0" bnkAvg="6.144307" bnkMax="18.56065"/>
     <txt desc="A very bumpy track near hot, burning craters. Virtual drive, we can not afford burning more tires. Neither dumping broken vehicles into craters."/>
     <adv ice="Keep on road and out of high temperatures to not damage car! Follow driving aids to stay on path. Much easier and safer with spaceships."/>
     <P pos="153.305 0 -157.083" w="7" aT="2" chkR="1.876"/>
