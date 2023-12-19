@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.87997 13.2179" iDir="-1" iChk1="50"/>
-    <stats length="1659.27" width="6.30021" height="58.4414" onTer="20.319" pipes="0" bnkAvg="3.3197" bnkMax="15.9702"/>
+    <stats length="1659.2695" width="6.3002086" height="58.441402" onTer="20.31905" pipes="0" bnkAvg="3.319699" bnkMax="15.970152"/>
     <txt desc="Difficult, rocky, mountain road."/>
     <adv ice="Very bumpy, bad for suspension. Go slow, exept on bridges. Has a small jump."/>
     <P pos="44.9394 0 143.209" w="6" aT="2" chkR="1.66"/>

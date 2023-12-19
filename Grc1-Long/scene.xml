@@ -1,19 +1,19 @@
 <scene>
-    <ver num="3016" baseTrk="Grc8-SlopeCity" secEd="520"/>
+    <ver num="3018" baseTrk="Grc8-SlopeCity" secEd="672"/>
     <car tires="0"/>
     <start pos="-98.6548 219.164 -0.982909" rot="0.026969 0.006472 -0.972026 0.233258" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
-    <sky material="sky/light_blue"/>
+    <sky material="sky/day_clouds_02_blue" skyYaw="-63.409096"/>
     <fog color="0.512 0.585 0.997 0.900 0.000" color2="0.522 0.626 1.000 1.000 0.000" linStart="275.174" linEnd="876.3568"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="36.225" yaw="61.2" ambient="0.000 0.000 0.600 1.000 0.000" diffuse="0.000 0.000 0.800 0.000 0.000" specular="0.000 0.000 0.700 1.000 0.000"/>
+    <light pitch="36.225" yaw="0.68182373" ambient="0.000 0.000 0.600 1.000 0.000" diffuse="0.000 0.000 0.800 0.000 0.000" specular="0.000 0.000 0.700 1.000 0.000"/>
     <fluids>
         <fluid hq="1" name="mud med" pos="96.2855 0.146341 -304.385" rot="0 0 0" size="50 20 50" tile="0.0103507 0.0103507"/>
         <fluid hq="1" name="water cyan" pos="281.444 -1.51667 -456.64" rot="0 0 0" size="80.6245 20 74.7749" tile="0.01 0.01"/>
         <fluid hq="1" name="mud soft" pos="138.133 1.35135 -122.503" rot="0 0 0" size="94.8302 20 43.2832" tile="0.01 0.01"/>
     </fluids>
     <terrains>
-        <terrain ofsZ="1.35177" triangle="1.35177" diff="0.67627 0.6719023 0.5991131">
+        <terrain ofsZ="1.35177" triangle="1.35177" diff="0.7331336 0.74626416 0.6434285">
             <texture on="1" file="ground_white_d.jpg" fnorm="ground_white_n.jpg" scale="8.5414" surf="DesertBumpy" dust="0.3" dustS="0.2" mud="0.4" smoke="0" tclr="0.222 0.300 0.400 0.700 0.000" angMin="0" angMax="18.9261" angSm="7.91189" hMin="-300" hMax="150" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="14.8553" oct0="4" prs0="0.534442" pow0="3.23972" frq1="24.4154" oct1="4" prs1="0.494521" pow1="3.77606"/>
             </texture>
@@ -68,7 +68,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="370.3144 66.82451 -504.26773" dir="-0.5839163 -0.23469242 0.77714956"/>
+    <cam pos="370.3144 66.82451 -504.26773" dir="-0.5839163 -0.23469236 0.77714956"/>
     <objects/>
     <emitters/>
 </scene>
