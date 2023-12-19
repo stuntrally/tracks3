@@ -1,15 +1,15 @@
 <scene>
-    <ver num="3016" baseTrk="TestC4-ow" secEd="231"/>
+    <ver num="3018" baseTrk="TestC4-ow" secEd="464"/>
     <car tires="0"/>
     <start pos="4.33075 66.4849 30.4373" rot="-0.029913 0.029916 -0.71171 0.701213" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Mountains"/>
-    <sky material="sky/white2" rainName="Snow" rainEmit="2820" rain2Name="SnowFine" rain2Emit="1425"/>
-    <fog color="0.528 0.061 0.980 1.000 0.000" color2="0.528 0.062 0.970 0.950 0.000" linStart="0" linEnd="259.2"/>
+    <sky material="sky/day_clouds_05_bright2" rainName="Snow" rainEmit="2820" rain2Name="SnowFine" rain2Emit="1425"/>
+    <fog color="0.545 0.068 0.795 1.000 0.000" color2="0.541 0.045 0.879 0.975 0.000" linStart="0" linEnd="259.2"/>
     <fogH color="0.000 0.000 0.800 1.000 0.000" height="13.2038" dens="25.205" linStart="0" linEnd="22.05"/>
-    <light pitch="48.5266" yaw="45" ambient="0.000 0.000 0.592 0.000 0.000" diffuse="0.000 0.000 0.304 0.000 0.000" specular="0.000 0.000 0.304 0.000 0.000"/>
+    <light pitch="56" yaw="-11" ambient="0.492 0.027 0.472 0.975 0.000" diffuse="0.000 0.000 0.304 0.000 0.000" specular="0.000 0.000 0.304 0.000 0.000"/>
     <fluids/>
     <terrains>
-        <terrain ofsZ="1.18114" triangle="1.18114" diff="1.2 1.2 1.2">
+        <terrain ofsZ="1.18114" triangle="1.18114" diff="1.3575559 1.3522006 1.293761">
             <texture on="0" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="4.5" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="13.6912" angSm="11.6776" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.102908" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -64,7 +64,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="154.656 55.3858 40.3356" dir="-0.9250775 -0.121270075 0.35989606"/>
+    <cam pos="154.656 55.3858 40.3356" dir="-0.9250775 -0.12127008 0.35989606"/>
     <objects/>
     <emitters/>
 </scene>

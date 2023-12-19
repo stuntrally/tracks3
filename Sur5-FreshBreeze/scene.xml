@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="Grc2-Coast" secEd="62289"/>
+    <ver num="3018" baseTrk="Grc2-Coast" secEd="62631"/>
     <car tires="0" road1mtr="0"/>
     <start pos="150.413 329.965 41.4267" rot="-0.0351682 0.0140579 -0.979875 -0.196082" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" vol="1" reverbs="Savanna"/>
-    <sky material="sky/morning_gen"/>
-    <fog color="0.236 0.826 1.542 1.000 0.000" color2="0.048 0.930 3.000 1.000 1.000" linStart="100.109" linEnd="1536.3"/>
+    <sound ambient="" reverbs="Savanna"/>
+    <sky material="sky/dusk_stormy_01_sur"/>
+    <fog color="0.236 0.826 1.026 1.000 0.000" color2="0.070 1.000 1.153 1.000 0.498" linStart="100.109" linEnd="1536.3"/>
     <fogH color="0.531 0.767 1.092 0.896 0.000" height="-19.9557" dens="79.3544" linStart="93.5328" linEnd="2000"/>
-    <light pitch="29.8125" yaw="-7.875" ambient="0.647 0.634 0.603 0.000 0.000" diffuse="0.130 0.324 1.998 0.000 0.000" specular="0.021 1.000 3.000 0.768 0.000"/>
+    <light pitch="40.227272" yaw="-7.875" ambient="0.647 0.634 0.603 0.000 0.000" diffuse="0.130 0.324 1.998 0.000 0.000" specular="0.021 1.000 3.000 0.768 0.000"/>
     <fluids>
         <fluid hq="2" name="ice solid" pos="-216.468 -0.5 42.7689" rot="0 0 0" size="1588.32 810 1626.43" tile="0.00411835 0.00411835"/>
         <fluid hq="2" name="ice solid" pos="-2824.61 -0.4 27.0261" rot="0 0 0" size="3639.57 810 1589.82" tile="0.00411835 0.00411835"/>
