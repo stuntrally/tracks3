@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.56 19.968" iDir="-1" iChk1="17"/>
-    <stats length="3213.87" width="7.60467" height="132.543" onTer="27.5899" pipes="22.4048" bnkAvg="3.12932" bnkMax="14.295"/>
+    <stats length="3213.8687" width="7.6046677" height="132.54283" onTer="27.589903" pipes="22.404829" bnkAvg="3.1293218" bnkMax="14.295038"/>
     <txt desc="A long, dark track around an old dusty volcano in a dark jungle."/>
     <adv ice="Tricky and very bumpy, only for skilled drivers and durable vehicles."/>
     <P pos="315.961 0 20.3547" w="7" aT="2" mtr="1" chkR="1.404"/>

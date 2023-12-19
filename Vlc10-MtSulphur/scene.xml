@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="4652"/>
+    <ver num="3018" baseTrk="" secEd="4751"/>
     <car tires="0"/>
     <start pos="32.973 -328.755 45.6697" rot="0.00279778 -0.0374075 0.0644734 0.997215" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Mountains"/>
     <sky material="sky/dawn_01_orange"/>
-    <fog color="0.169 0.895 0.760 1.000 0.000" color2="0.171 0.785 0.760 1.000 0.000" linStart="66.7424" linEnd="290.039"/>
+    <fog color="0.103 0.802 0.533 0.913 0.000" color2="0.101 0.624 0.113 0.874 0.000" linStart="66.7424" linEnd="290.039"/>
     <fogH color="0.083 1.000 0.500 0.100 0.000" height="59.3023" dens="112.5" linStart="0" linEnd="159.022"/>
     <light pitch="15" yaw="0" ambient="0.083 0.800 0.500 1.000 0.000" diffuse="0.167 0.400 0.500 1.000 0.000" specular="0.169 0.403 0.760 1.000 0.000"/>
     <fluids>
@@ -117,7 +117,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-335.819 40.1872 337.493" dir="0.99515 -0.0976138 -0.0121937"/>
+    <cam pos="-335.819 40.1872 337.493" dir="0.99514973 -0.09761377 -0.012193739"/>
     <objects>
         <o name="hexrockgrey_cliff_01" pos="231.792 217.778 -17.3057" rot="0.946596 0.32241 0 0" sc="2.0709 2.0709 2.0709"/>
         <o name="hexrockgrey_cliff_02" pos="177.845 276.349 -40.7035" rot="-0.577427 0.81644 0 0" sc="2.0709 2.0709 2.0709"/>

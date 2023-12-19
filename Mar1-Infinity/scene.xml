@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3018" baseTrk="Sav12-Infinity" secEd="8066"/>
+    <ver num="3018" baseTrk="Sav12-Infinity" secEd="8271"/>
     <car tires="0" gravity="11.7473"/>
     <start pos="-16.0587 -54.1099 51.7721" rot="0.00625701 -0.071909 0.160603 0.984391" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/sunset_02_clouds" skyYaw="180"/>
-    <fog color="0.130 0.270 1.000 1.000 0.000" color2="0.800 0.270 1.000 1.000 0.000" linStart="380.349" linEnd="1013.26"/>
+    <fog color="0.601 0.531 0.794 0.391 0.000" color2="0.614 0.628 0.233 1.000 0.000" linStart="380.349" linEnd="488.8143"/>
     <fogH color="0.171 0.147 0.500 1.000 0.000" height="34.5865" dens="77.2658" linStart="0" linEnd="115.778"/>
     <light pitch="6" yaw="10" ambient="0.357 0.029 0.672 0.000 0.000" diffuse="0.066 0.128 0.927 1.000 0.171" specular="0.087 0.378 1.018 0.000 0.000"/>
     <fluids/>
@@ -114,7 +114,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-372.375 196.875 -184.775" dir="0.885527 -0.287005 0.365336"/>
+    <cam pos="-372.375 196.875 -184.775" dir="0.8855269 -0.28700495 0.36533594"/>
     <objects>
         <o name="hexrockpink_small_01" pos="42.9987 40.7644 75.5636" rot="0 -1 0 0"/>
         <o name="hexrockpink_small_01" pos="-92.6051 115.597 57.119" rot="0 -1 0 0"/>

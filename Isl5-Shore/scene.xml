@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="6371"/>
+    <ver num="3018" baseTrk="" secEd="6872"/>
     <car tires="0"/>
     <start pos="-60.0333 -70.7994 -0.264727" rot="-0.007499 0.001133 -0.272761 -0.962067" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
-    <sky material="sky/dayovercast" rainName="RainFastA" rainEmit="2762"/>
-    <fog color="0.593 0.413 0.719 0.952 0.000" color2="0.595 0.665 0.336 0.935 0.000" linStart="42.4755" linEnd="814.971"/>
+    <sky material="sky/dusk_stormy_01_cyan" rainName="RainFastA" rainEmit="2762" skyYaw="-143.86363"/>
+    <fog color="0.541 0.413 0.719 0.952 0.000" color2="0.568 0.514 0.292 0.935 0.000" linStart="42.4755" linEnd="814.971"/>
     <fogH color="0.586 0.270 0.434 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="31.8316" yaw="132.366" ambient="0.598 0.605 0.216 1.000 0.000" diffuse="0.624 0.802 0.990 0.900 0.000" specular="0.567 0.562 1.000 1.000 0.000"/>
+    <light pitch="23.522726" yaw="9.545441" ambient="0.598 0.605 0.216 1.000 0.000" diffuse="0.624 0.802 0.990 0.900 0.000" specular="0.567 0.562 1.000 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water shore" pos="1.75643 -2 0.258239" rot="0 0 0" size="20512.6 40 20209.8" tile="0.00356533 0.00375183"/>
     </fluids>
@@ -91,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-181.377 82.5327 -118.01" dir="0.9627737 -0.23136587 0.13977396"/>
+    <cam pos="-181.377 82.5327 -118.01" dir="0.9627737 -0.23136586 0.13977396"/>
     <objects>
         <o name="plastic_big" pos="93.6142 164.164 62.0728" rot="0.978836 0.204644 -0.000463148 -0.000442075"/>
         <o name="plastic_big" pos="85.888 161.492 62.0799" rot="0.978407 0.206689 -3.25888e-06 0.000188099"/>

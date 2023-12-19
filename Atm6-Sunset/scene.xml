@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="1907"/>
+    <ver num="3018" baseTrk="" secEd="2164"/>
     <car tires="0"/>
     <start pos="-80.7289 -24.0382 2.40216" rot="1e-06 -1e-06 -0.959632 0.28142" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="ForestDense"/>
-    <sky material="sky/sunset_gen" skyYaw="40.1504"/>
-    <fog color="0.064 0.874 0.830 0.800 0.000" color2="0.044 0.771 0.440 1.000 0.000" linStart="123.127" linEnd="502.509"/>
+    <sky material="sky/sunset_03_rays" skyYaw="-47.727264"/>
+    <fog color="0.111 0.754 0.800 1.000 0.000" color2="0.593 0.407 0.320 1.000 0.000" linStart="123.127" linEnd="502.509"/>
     <fogH color="0.145 0.315 0.730 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="23.6842" yaw="45" ambient="0.056 0.816 0.700 0.000 0.000" diffuse="0.167 0.486 0.800 0.000 0.000" specular="0.167 0.700 0.813 0.800 0.000"/>
+    <light pitch="13.636364" yaw="-25.227264" ambient="0.056 0.816 0.859 1.000 0.000" diffuse="0.167 0.486 0.961 1.000 0.000" specular="0.167 0.700 0.813 0.800 0.000"/>
     <fluids>
         <fluid hq="0" name="water sunset" pos="-633.681 1.45074 -26.1231" rot="0 0 0" size="854.033 20 1447.11" tile="0.01 0.01"/>
     </fluids>
@@ -91,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="200.951 26.649 6.68626" dir="-0.944733 -0.121103 0.304653"/>
+    <cam pos="200.951 26.649 6.68626" dir="-0.9447331 -0.12110302 0.30465305"/>
     <objects>
         <o name="big_tire" pos="-66.7063 218.052 -0.239033" rot="0.0684891 0.157891 -0.0212896 0.984848"/>
         <o name="big_tire" pos="-62.1539 223.43 -0.51903" rot="0.0179459 0.994069 0.023987 -0.104547"/>

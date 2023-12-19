@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="5650"/>
+    <ver num="3018" baseTrk="" secEd="7706"/>
     <car tires="0"/>
     <start pos="-37.5183 1.50516 0.599977" rot="-6.21725e-15 7.99361e-15 -0.653396 -0.757031" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Australia"/>
     <sky material="sky/day_blue"/>
     <fog color="0.586 0.270 1.000 1.000 0.000" color2="0.586 0.270 1.000 1.000 0.000" linStart="299.785" linEnd="2000"/>
     <fogH color="0.498 0.636 0.277 0.853 0.000" height="0" dens="6.68897" linStart="0" linEnd="41.4541"/>
-    <light pitch="43.8803" yaw="22" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.167 0.020 1.000 1.000 0.000" specular="0.167 0.020 0.934 0.000 0.000"/>
+    <light pitch="22.807016" yaw="71.929825" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.167 0.020 1.000 1.000 0.000" specular="0.167 0.020 0.934 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="-14.4377 -11.46 -64.6342" rot="0 0 0" size="40.8584 20 36.032" tile="0.01 0.01"/>
         <fluid hq="2" name="water cyan" pos="53.9997 2.22186 22.4232" rot="0 0 0" size="33.2136 20 18.0671" tile="0.01 0.01"/>
@@ -39,7 +39,7 @@
             <par dust="Dust" mud="MudDark" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.41153434" densTrees="0" grPage="120" grDist="120" grDensSmooth="2" trPage="200" trDist="200" trDistImp="800" trRdDist="2">
+    <veget densGrass="0.17351034" densTrees="0" grPage="120" grDist="120" grDensSmooth="2" trPage="200" trDist="200" trDistImp="800" trRdDist="2">
         <grass on="1" mtr="grassJungle" dens="0.0763414" chan="0" minSx="1.58" maxSx="2.04" minSy="1.41" maxSy="1.94" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
         <grass on="1" mtr="grass3" dens="0.0938858" chan="0" minSx="1.1" maxSx="1.45854" minSy="0.911192" maxSy="1.19486" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass15g" dens="0.0517448" chan="0" minSx="0.947375" maxSx="1.22276" minSy="1.00943" maxSy="1.32315" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -68,12 +68,36 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-117.713 46.8659 130.561" dir="0.706895 -0.283965 -0.647815"/>
+    <cam pos="-75.02721 46.77961 143.73232" dir="0.48255938 -0.2839634 -0.8285537"/>
     <objects>
-        <o name="big_tire" pos="-14.4837 -4.35706 0.3369" rot="5.95407e-05 0.999997 0.00014935 -0.00259366"/>
-        <o name="fuel_can" pos="-19.261 -3.72172 0.49285" rot="0.134388 0.990927 0.000528539 -0.00192016"/>
-        <o name="fuel_can" pos="-18.0943 -3.92618 0.488318" rot="-0.00181379 0.999996 0.000673665 -0.00185388"/>
-        <o name="fuel_can" pos="-16.9511 -4.17852 0.483183" rot="-0.0188358 0.99982 0.000554261 -0.002106"/>
+        <o name="big_tire" pos="-14.4833555 -4.3569145 0.3366962" rot="6.5007625e-05 0.9999967 1.8993851e-05 -0.0025489654"/>
+        <o name="fuel_can" pos="-19.258278 -3.7141528 0.48760074" rot="0.13212709 0.99119437 -0.008700663 -0.0006855824"/>
+        <o name="fuel_can" pos="-18.094006 -3.9148152 0.48676494" rot="-0.00198334 0.99995995 -0.008532115 -0.0018472968"/>
+        <o name="fuel_can" pos="-16.95027 -4.178384 0.48315632" rot="-0.018773427 0.99982136 0.00050184 -0.002124906"/>
+        <o name="cave_Y04" pos="39.236683 54.56861 26.585629" rot="0 -1 0 0"/>
+        <o name="garbage_bin_green" pos="-21.542364 17.310596 1.0396411" rot="0.0011090084 0.9992225 0.02965954 -0.025951065"/>
+        <o name="obstacleCrystal6" pos="-18.82201 7.4524746 -1.0463278" rot="0 -1 0 0"/>
+        <o name="obstacleCrystal7" pos="-25.134775 4.964039 2.2495425" rot="0 -1 0 0"/>
+        <o name="obstacleCrystal3" pos="-26.35405 -2.2406597 2.3009603" rot="0 -1 0 0"/>
+        <o name="wagon" pos="-44.465157 -9.832376 -0.23724468" rot="0 -1 0 0"/>
+        <o name="branch_01" pos="-41.958965 -9.943005 2.057977" rot="0.15079306 0.86744404 0.16414896 -0.4448116"/>
+        <o name="branch_02" pos="-44.704044 -11.230768 2.4891965" rot="-0.0060563516 0.99998164 1.2265441e-06 6.070916e-08"/>
+        <o name="branch_03" pos="-45.21668 -12.158161 2.2927248" rot="-0.15528038 0.8631762 -0.29318118 -0.3806043"/>
+        <o name="obstacleWhite6" pos="-43.43473 14.141382 1.8648527" rot="0.7140846 -0.7000591 0 0"/>
+        <o name="obstacleWhite7" pos="-40.743248 16.642561 4.656342" rot="0.7140846 -0.7000591 0 0"/>
+        <o name="obstacleWhite8" pos="-37.576374 20.864931 1.6500461" rot="0.057292525 -0.99835736 0 0"/>
+        <o name="barrel_oil_green" pos="-25.824854 14.669343 0.77769816" rot="-0.10035862 0.9940162 0.021083836 -0.03762397"/>
+        <o name="barrel_oil_green_heavy" pos="-25.293627 10.814867 0.67057174" rot="0.0008614697 0.9994982 0.0014381143 -0.031632572"/>
+        <o name="barrel_oil_red" pos="-24.923536 14.205633 0.69739807" rot="-0.010526257 0.9995773 0.015535762 -0.022206688"/>
+        <o name="barrel_oil_red_heavy" pos="-24.202248 10.082028 0.58279026" rot="-0.029978132 0.9987648 0.0046256008 -0.03935491"/>
+        <o name="garbage_bin_blue" pos="-26.404396 -10.753424 1.1283095" rot="0.021843087 0.9997496 0.0045585237 0.0016884052"/>
+        <o name="cone_anomaly" pos="-26.740044 -4.323176 0.7991865" rot="2.4409747e-08 0.99999815 0.0010518521 -0.0016176936"/>
+        <o name="plastic_canister" pos="-28.028574 7.5607767 0.3865626" rot="0.009798374 0.9999484 -0.0022766537 -0.0014373485"/>
+        <o name="plastic_canister" pos="-28.035063 5.91351 0.39383277" rot="0.015445573 0.999879 -0.0010794603 -0.001490965"/>
+        <o name="gas_tank_02_blue" pos="-3.5962856 -4.6040273 1.6404546" rot="0.50539964 -0.8628846 0 0"/>
+        <o name="gas_tank_02_green" pos="-3.3711843 -2.114793 1.928474" rot="0.50539964 -0.8628846 0 0"/>
+        <o name="gas_tank_02_red" pos="2.0431793 0.03540689 1.3426887" rot="0.50539964 -0.8628846 0 0"/>
+        <o name="gas_tank_02_grey" pos="-7.575295 -6.294455 2.5076795" rot="0.50539964 -0.8628846 0 0"/>
     </objects>
     <emitters>
         <e name="Waterfall1HighTall" pos="64.295845 48.886627 -64.501755" sc="22.648336 6.225763 10.022166" up="0 1 0" rot="0" rate="122.80866" st="0" psc="1"/>

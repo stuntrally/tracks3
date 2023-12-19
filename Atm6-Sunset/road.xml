@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="9"/>
-    <stats length="2346.13" width="7" height="17.486" onTer="10.9025" pipes="0" bnkAvg="3.45719" bnkMax="17.1454"/>
+    <stats length="2346.1265" width="6.999999" height="17.486004" onTer="10.902535" pipes="0" bnkAvg="3.457194" bnkMax="17.145355"/>
     <txt desc="Orange autumn forest at sunset."/>
     <adv ice="A mix of wide, sharp and banked curves on uneven terrain. Narrow road with 2 bridges."/>
     <P pos="225.822 0 148.95" w="7" aT="2" mtr="1" chkR="1.556"/>

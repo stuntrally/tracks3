@@ -3,7 +3,7 @@
     <dim tcMul="0.0298526" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
     <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1.5 5 12" iDir="-1" iChk1="0"/>
-    <stats length="589.981" width="36.8799" height="148.659" onTer="100" pipes="0" bnkAvg="1.87777" bnkMax="18.7777"/>
+    <stats length="589.9808" width="36.879932" height="148.65892" onTer="100" pipes="0" bnkAvg="1.8777678" bnkMax="18.777678"/>
     <txt desc=""/>
     <adv ice=""/>
     <P pos="220.451 -9.22121 429.036" w="31.007" onTer="0" a="0" ar="0" aT="2"/>
