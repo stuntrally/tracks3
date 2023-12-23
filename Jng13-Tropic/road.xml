@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5 14.968" iDir="1" iChk1="18"/>
-    <stats length="6843.391" width="7.5946107" height="86.09933" onTer="16.882135" pipes="0" bnkAvg="3.8401926" bnkMax="24.5109"/>
+    <stats length="6843.404" width="7.59461" height="86.09933" onTer="16.881721" pipes="0" bnkAvg="3.837903" bnkMax="24.5109"/>
     <txt desc="Long, winding road in tropical jungle. Has small mountains and great views."/>
     <adv ice="Partly bridged, bumpy and sometimes tricky."/>
     <P pos="-94.8785 0 98.2406" w="7.6" aT="2"/>
