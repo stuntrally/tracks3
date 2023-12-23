@@ -279,20 +279,20 @@
         <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
         <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
         <o name="crate2m_anomaly" pos="-90.1502 -84.8848 39.4655" rot="0 -1 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
-        <o name="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-114.755 102.941 1.71859" rot="-0.443443 -0.8963 0 0"/>
     </objects>
     <emitters>
         <e name="CrystalCloud" pos="34.7249 23.3659 -95.1322" sc="69.2362 21.9709 77.8459" up="0 1 0" rot="0" rate="16.5102" st="0" psc="1"/>
