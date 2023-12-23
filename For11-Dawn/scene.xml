@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="1064"/>
+    <ver num="3018" baseTrk="" secEd="1223"/>
     <car tires="0"/>
     <start pos="-38.8313 12.0685 1.11" rot="-0.022139 0.002765 -0.991584 -0.127633" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
-    <sky material="sky/dawn"/>
-    <fog color="0.104 0.983 0.997 1.000 0.000" color2="0.167 0.182 0.550 1.000 0.000" linStart="37.7592" linEnd="356.827"/>
+    <sky material="sky/sunset_04_yellow" skyYaw="12.954559"/>
+    <fog color="0.573 0.320 0.361 1.000 0.000" color2="0.128 0.105 0.320 1.000 0.000" linStart="37.7592" linEnd="356.827"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="28.6259" yaw="-6.87024" ambient="0.167 0.140 0.500 1.000 0.000" diffuse="0.125 0.286 0.700 1.000 0.000" specular="0.083 0.333 0.600 1.000 0.000"/>
+    <light pitch="24.886364" yaw="1" ambient="0.167 0.140 0.500 1.000 0.000" diffuse="0.125 0.286 0.781 0.000 0.000" specular="0.083 0.333 0.600 1.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1" triangle="1" diff="1 1 1">
@@ -64,7 +64,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="1.48222 7.07534 28.8058" dir="-0.579356 -0.074618 -0.811652"/>
+    <cam pos="1.48222 7.07534 28.8058" dir="-0.5793559 -0.074618 -0.81165195"/>
     <objects>
         <o name="wood_block" pos="-99.0043 29.2711 6.63932" rot="0.871602 0.457736 -0.164519 0.0610082"/>
         <o name="wood_block" pos="-119.249 62.148 9.13892" rot="-0.0224018 0.995937 -0.011525 -0.086452"/>
