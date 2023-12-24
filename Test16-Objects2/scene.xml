@@ -100,11 +100,11 @@
         <o name="crystal3_blue" pos="146.86234 92.98022 -11.069133" rot="-0.1221345 -0.99251324 0 0"/>
         <o name="pier_ramp" pos="146.47165 85.02735 -14.244035" rot="-0.99991995 -0.011650581 -0.0047263354 0.00029325797"/>
         <o name="pier_brown_01" pos="164.51765 83.94888 -10.980839" rot="0 -1 0 0"/>
-        <o name="obstacleCrystal8" pos="119.94869 109.5013 -11.209425" rot="0 -1 0 0"/>
-        <o name="obstacleGreen3" pos="110.66109 116.06189 -8.326847" rot="0 -1 0 0"/>
-        <o name="obstacleCrystal4" pos="110.57773 125.60163 -8.356955" rot="0 -1 0 0"/>
-        <o name="obstacleCrystal6" pos="111.70094 100.40795 -10.594396" rot="0 -1 0 0"/>
-        <o name="obstacleCrystal7" pos="116.12338 102.092865 -7.616041" rot="0 -1 0 0"/>
+        <o name="obstacle8" mat="obstaclesCrystal" pos="119.94869 109.5013 -11.209425" rot="0 -1 0 0"/>
+        <o name="obstacle3" mat="obstaclesGreen" pos="110.66109 116.06189 -8.326847" rot="0 -1 0 0"/>
+        <o name="obstacle4" mat="obstaclesCrystal" pos="110.57773 125.60163 -8.356955" rot="0 -1 0 0"/>
+        <o name="obstacle6" mat="obstaclesCrystal" pos="111.70094 100.40795 -10.594396" rot="0 -1 0 0"/>
+        <o name="obstacle7" mat="obstaclesCrystal" pos="116.12338 102.092865 -7.616041" rot="0 -1 0 0"/>
         <o name="obstacle_twistedCrystal3L" pos="129.82932 129.56316 -7.6659756" rot="0 -1 0 0"/>
         <o name="obstacle_twistedGreen3R" pos="130.83623 145.57553 -5.5010104" rot="0 -1 0 0"/>
         <o name="log_cabin_02" pos="94.52007 -31.302855 -10.521072" rot="0 -1 0 0"/>

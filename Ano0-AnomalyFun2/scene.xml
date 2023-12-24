@@ -118,10 +118,10 @@
         <o name="balloon2_anomaly" stat="1" pos="-181.581 125.193 6.63785" rot="0.783886 0.120603 0.0270855 0.608476" sc="0.798954 2.38474 0.798954"/>
         <o name="big_tire_anomaly2" stat="1" pos="-64.0189 166.619 0.997988" rot="0 1 0 0"/>
         <o name="big_tire_anomaly" stat="1" pos="-71.838 175.176 1.09387" rot="0 1 0 0" sc="1 1.10143 1"/>
-        <o name="obstacleAnomaly3" pos="-63.1815 154.907 0.722143" rot="0 0.993583 0 -0.1131" sc="1.67762 1.84778 1.67762"/>
+        <o name="obstacle3" mat="obstaclesAnomaly" pos="-63.1815 154.907 0.722143" rot="0 0.993583 0 -0.1131" sc="1.67762 1.84778 1.67762"/>
         <o name="obstacleAnomalyBroken4" pos="-72.3995 149.897 1.05951" rot="-0.984637 0.133031 0.112082 -0.015143" sc="1.67762 1.84778 1.67762"/>
         <o name="obstacleAnomalyBroken6" pos="-74.4072 178.561 -0.927755" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
-        <o name="obstacleAnomaly8" pos="-78.797 166.04 -0.504296" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
+        <o name="obstacle8" mat="obstaclesAnomaly" pos="-78.797 166.04 -0.504296" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
         <o name="obstacleAnomalyBroken8" pos="-70.8161 162.804 -0.38538" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
         <o name="obstacle_twistedAnomalyBroken3R" pos="100.93 77.4424 9.08432" rot="0 1 0 0"/>
         <o name="cone_anomaly" stat="1" pos="178.381 -131.682 -7.31096" rot="0 1 0 0"/>
