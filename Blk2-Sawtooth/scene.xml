@@ -68,88 +68,88 @@
     </veget>
     <cam pos="13.3837 -3.48984 389.155" dir="0.44472718 -0.16096507 -0.88108337"/>
     <objects>
-        <o name="hexrockgrey_medium_01" pos="272.068 -83.8901 -5.68591" rot="0.694405 0.71956 -0.00220202 -0.00212505"/>
-        <o name="hexrockgrey_cliff_01" pos="270.629 -111.976 -2.33351" rot="-0.305848 0.952058 0.00109205 -0.00035082"/>
-        <o name="hexrockgrey_bridge_01" pos="-121.614 -45.275 6.52995" rot="0.447171 0.893878 0.027824 -0.0076271" sc="1.04609 0.932824 1.04609"/>
-        <o name="hexrockgrey_bridge_03" pos="-61.3701 2.77226 9.04324" rot="0.888436 -0.456533 0.022501 -0.0406025"/>
-        <o name="hexrockgrey_small_02" pos="-51.8697 -70.9827 -1.88161" rot="0.552323 -0.833613 -0.000614727 -0.000927798"/>
-        <o name="hexrockgrey_medium_01" pos="-65.3091 -51.6551 -4.66331" rot="0.552323 -0.833613 -0.000614727 -0.000927798"/>
-        <o name="hexrockgrey_cliff_02" pos="-73.2389 -52.1125 -14.5317" rot="0.584254 -0.811408 -0.00950419 -0.0107901"/>
-        <o name="hexrockcrystal_medium_01" pos="255.663 -269.031 -7.54752" rot="-0.0598955 -0.998203 0 0"/>
-        <o name="hexrockgrey_cliff_01" pos="93.6544 173.359 7.70008" rot="0.916551 -0.399907 4.66979e-05 2.03751e-05"/>
-        <o name="hexrockgrey_cliff_03" pos="63.1891 169.43 -4.23374" rot="0.916551 -0.399907 4.66979e-05 2.03751e-05"/>
-        <o name="hexrockcrystal_cliff_02" pos="9.01163 -371.804 -26.2385" rot="0 -1 0 -0.000492975"/>
-        <o name="hexrockcrystal_cliff_03" pos="36.6894 -362.218 -40.3245" rot="0 -1 0 0"/>
-        <o name="hexrockcrystal_cliff_03" pos="8.62794 -337.931 -15.1144" rot="-0.0291784 -0.0184091 -0.999295 0.0131481"/>
-        <o name="hexrockcrystal_cliff_01" pos="36.1565 -392.022 -21.1914" rot="-0.418212 0.908341 0 0"/>
-        <o name="hexrockcrystal_cliff_02" pos="38.2213 -335.566 -32.7641" rot="-0.347493 0.937643 0.00250699 0.00676464" sc="1 1.11033 1"/>
-        <o name="hexcavecrystal_01" pos="16.3354 -314.255 -31.3196" rot="-0.347493 0.937643 0.00250699 0.00676464"/>
-        <o name="hexcavecrystal_03" pos="-5.95314 -327.624 -28.7296" rot="-0.848136 -0.52969 -0.00756324 0.00135881"/>
-        <o name="hexcavecrystal_04" pos="-13.6088 -310.665 -29.5986" rot="0.180058 -0.983598 -0.00404897 -0.00653097"/>
-        <o name="hexcavecrystal_03" pos="3.23689 -306.235 -31.8533" rot="0.972508 0.232625 0.006739 -0.00369237"/>
-        <o name="hexcavecrystal_06" pos="-31.8507 -274.884 -31.0612" rot="0.695504 -0.718446 0.000254664 -0.00768005"/>
-        <o name="hexrockcrystal_cliff_03" pos="-36.3992 -312.992 -37.9629" rot="0.938605 0.344822 0.00712474 -0.00287845"/>
-        <o name="hexrockcrystal_cliff_02" pos="-32.5405 -223.053 -27.8432" rot="0.992794 -0.119383 0.00419889 -0.00590283"/>
-        <o name="hexrockcrystal_cliff_01" pos="-8.29489 -201.965 -28.4703" rot="0.987843 0.155087 0.00564581 -0.00453857"/>
-        <o name="hexrockcrystal_cliff_02" pos="-16.8255 -229.601 -26.2547" rot="0.999129 -0.0403007 0.00465361 -0.00555135"/>
-        <o name="hexcavecrystal_05" pos="15.2012 -331.797 -7.11377" rot="0.434742 0.900486 0.00699832 0.00194858"/>
-        <o name="hexcavecrystal_05" pos="-16.8261 -307.016 -4.7262" rot="0.705768 0.708352 0.00725045 -0.000451786"/>
-        <o name="hexcavecrystal_05" pos="-17.0402 -332.801 -5.73403" rot="0.340688 0.940109 0.00676324 0.00265179"/>
-        <o name="hexcavecrystal_05" pos="-36.544 -310.829 -4.15585" rot="0.799825 0.600123 0.00711128 -0.00148417"/>
-        <o name="hexcavecrystal_05" pos="-5.87628 -347.569 -5.16459" rot="0.434742 0.900486 0.00699832 0.00194858"/>
-        <o name="hexcavecrystal_05" pos="-46.3294 -307.254 -4.21718" rot="0.434742 0.900486 0.00699832 0.00194858"/>
-        <o name="hexrockgrey_small_01" pos="-242.608 411.406 10.7024" rot="0 -1 0 0"/>
-        <o name="hexrockgrey_small_03" pos="-254.385 396.488 3.56853" rot="-0.000573855 0.00398746 -0.00765806 -0.999949"/>
-        <o name="hexrockgrey_small_02" pos="-235.473 401.114 9.94791" rot="0.428037 -0.903757 0.000679234 0.00143413"/>
-        <o name="hexrockgrey_single_01" pos="-110.216 -40.173 2.24254" rot="0.123321 -0.992363 0 0"/>
-        <o name="hexrockgrey_single_01" pos="-132.681 -51.3699 2.81024" rot="0 -1 0 0"/>
-        <o name="hexrockgrey_single_01" pos="-79.0172 -5.51111 3.28585" rot="0 -1 0 0"/>
-        <o name="hexrockgrey_single_01" pos="-51.2243 5.50373 6.76238" rot="0.0785095 -0.996909 0.000113985 0.00144737" sc="1 1.14171 1"/>
-        <o name="hexrockgrey_small_01" pos="-78.2046 214.437 1.46547" rot="0 -1 0 -0.000345178" sc="1 0.804014 1"/>
-        <o name="hexrockgrey_small_02" pos="207.353 72.082 21.134" rot="0 -1 0 -0.000345178" sc="1 0.804014 1"/>
-        <o name="hexrockgrey_small_02" pos="207.491 -109.726 4.31047" rot="0.998168 -0.0604541 0.000344546 -2.08675e-05" sc="1 0.804014 1"/>
-        <o name="hexrockgrey_small_03" pos="97.1882 -361.367 -6.57169" rot="0.998168 -0.0604541 0.000344546 -2.08675e-05" sc="1 0.804014 1"/>
-        <o name="hexrockgrey_small_03" pos="-84.6888 -38.5104 6.0668" rot="0.998168 -0.0604541 0.0010298 2.06349e-05" sc="1 0.804014 1"/>
-        <o name="hexrockgrey_small_01" pos="-15.9621 68.5178 16.8667" rot="0 -0.00123071 0 0.999991" sc="1 0.804014 1"/>
-        <o name="hexrockgrey_small_01" pos="-8.7193 29.2388 14.8767" rot="0 -0.00123071 0 0.999991" sc="1 0.804014 1"/>
-        <o name="hexrockgrey_small_03" pos="-23.2524 26.4277 9.37034" rot="0 0.0366236 0 0.999325"/>
-        <o name="hexrockgrey_medium_02" pos="39.6751 73.9744 20.2337" rot="0 0.0366236 0 0.999325"/>
-        <o name="hexrockgrey_medium_02" pos="110.981 173.894 16.2599" rot="0 0.0366236 0 0.999325"/>
-        <o name="hexrockgrey_small_01" pos="88.7797 144.523 17.455" rot="0 0.0366236 0 0.999325"/>
-        <o name="hexrockgrey_small_01" pos="-187.929 290.88 2.71883" rot="-0.778322 0.627846 0.00310073 0.00250125"/>
-        <o name="hexcavegrey_05" pos="-137.164 338.525 15.1954" rot="-0.777614 -0.628648 -0.000701645 0.0095624" sc="1 1.13678 1"/>
-        <o name="hexrockgrey_large_02" pos="-197.93 -57.4815 1.22806" rot="0.36523 -0.930351 -0.0129541 -0.0289547"/>
-        <o name="hexrockgrey_cliff_01" pos="-254.044 455.561 1.66211" rot="0.971467 -0.236154 -0.0202942 -0.0060015"/>
-        <o name="hexrockcrystal_small_01" pos="-395.935 257.616 -26.395" rot="0.971327 -0.236113 -0.026134 -0.00742107"/>
-        <o name="hexrockcrystal_medium_01" pos="-344.301 186.436 -35.1218" rot="0.410122 0.911549 0.0032547 -0.0287158"/>
-        <o name="hexrockcrystal_small_03" pos="-366.372 250.537 -31.1198" rot="0.410122 0.911549 0.0032547 -0.0287158"/>
-        <o name="hexrockcrystal_small_02" pos="-277.44 40.4505 -36.3388" rot="0.384353 0.922814 0.0170245 -0.0184536"/>
-        <o name="hexrockcrystal_cliff_01" pos="-285.305 90.5129 -40.3209" rot="0.860223 0.509036 -0.0112328 -0.0269145"/>
-        <o name="hexrockcrystal_small_01" pos="230.571 -267.629 -19.1495" rot="-0.0061858 0.017905 -0.81065 0.585159"/>
-        <o name="hexrockcrystal_cliff_03" pos="170.696 -238.822 -5.75079" rot="-0.00757003 0.0169057 -0.810638 0.585188"/>
-        <o name="hexrockcrystal_medium_02" pos="239.683 -241.122 -10.2607" rot="-0.00757003 0.0169057 -0.810638 0.585188"/>
+        <o name="hexrock_medium_01" mat="hexrock_grey" pos="272.068 -83.8901 -5.68591" rot="0.694405 0.71956 -0.00220202 -0.00212505"/>
+        <o name="hexrock_cliff_01" mat="hexrock_grey" pos="270.629 -111.976 -2.33351" rot="-0.305848 0.952058 0.00109205 -0.00035082"/>
+        <o name="hexrock_bridge_01" mat="hexrock_grey" pos="-121.614 -45.275 6.52995" rot="0.447171 0.893878 0.027824 -0.0076271" sc="1.04609 0.932824 1.04609"/>
+        <o name="hexrock_bridge_03" mat="hexrock_grey" pos="-61.3701 2.77226 9.04324" rot="0.888436 -0.456533 0.022501 -0.0406025"/>
+        <o name="hexrock_small_02" mat="hexrock_grey" pos="-51.8697 -70.9827 -1.88161" rot="0.552323 -0.833613 -0.000614727 -0.000927798"/>
+        <o name="hexrock_medium_01" mat="hexrock_grey" pos="-65.3091 -51.6551 -4.66331" rot="0.552323 -0.833613 -0.000614727 -0.000927798"/>
+        <o name="hexrock_cliff_02" mat="hexrock_grey" pos="-73.2389 -52.1125 -14.5317" rot="0.584254 -0.811408 -0.00950419 -0.0107901"/>
+        <o name="hexrock_medium_01" mat="hexrock_crystal" pos="255.663 -269.031 -7.54752" rot="-0.0598955 -0.998203 0 0"/>
+        <o name="hexrock_cliff_01" mat="hexrock_grey" pos="93.6544 173.359 7.70008" rot="0.916551 -0.399907 4.66979e-05 2.03751e-05"/>
+        <o name="hexrock_cliff_03" mat="hexrock_grey" pos="63.1891 169.43 -4.23374" rot="0.916551 -0.399907 4.66979e-05 2.03751e-05"/>
+        <o name="hexrock_cliff_02" mat="hexrock_crystal" pos="9.01163 -371.804 -26.2385" rot="0 -1 0 -0.000492975"/>
+        <o name="hexrock_cliff_03" mat="hexrock_crystal" pos="36.6894 -362.218 -40.3245" rot="0 -1 0 0"/>
+        <o name="hexrock_cliff_03" mat="hexrock_crystal" pos="8.62794 -337.931 -15.1144" rot="-0.0291784 -0.0184091 -0.999295 0.0131481"/>
+        <o name="hexrock_cliff_01" mat="hexrock_crystal" pos="36.1565 -392.022 -21.1914" rot="-0.418212 0.908341 0 0"/>
+        <o name="hexrock_cliff_02" mat="hexrock_crystal" pos="38.2213 -335.566 -32.7641" rot="-0.347493 0.937643 0.00250699 0.00676464" sc="1 1.11033 1"/>
+        <o name="hexcave_01" mat="hexrock_crystal" pos="16.3354 -314.255 -31.3196" rot="-0.347493 0.937643 0.00250699 0.00676464"/>
+        <o name="hexcave_03" mat="hexrock_crystal" pos="-5.95314 -327.624 -28.7296" rot="-0.848136 -0.52969 -0.00756324 0.00135881"/>
+        <o name="hexcave_04" mat="hexrock_crystal" pos="-13.6088 -310.665 -29.5986" rot="0.180058 -0.983598 -0.00404897 -0.00653097"/>
+        <o name="hexcave_03" mat="hexrock_crystal" pos="3.23689 -306.235 -31.8533" rot="0.972508 0.232625 0.006739 -0.00369237"/>
+        <o name="hexcave_06" mat="hexrock_crystal" pos="-31.8507 -274.884 -31.0612" rot="0.695504 -0.718446 0.000254664 -0.00768005"/>
+        <o name="hexrock_cliff_03" mat="hexrock_crystal" pos="-36.3992 -312.992 -37.9629" rot="0.938605 0.344822 0.00712474 -0.00287845"/>
+        <o name="hexrock_cliff_02" mat="hexrock_crystal" pos="-32.5405 -223.053 -27.8432" rot="0.992794 -0.119383 0.00419889 -0.00590283"/>
+        <o name="hexrock_cliff_01" mat="hexrock_crystal" pos="-8.29489 -201.965 -28.4703" rot="0.987843 0.155087 0.00564581 -0.00453857"/>
+        <o name="hexrock_cliff_02" mat="hexrock_crystal" pos="-16.8255 -229.601 -26.2547" rot="0.999129 -0.0403007 0.00465361 -0.00555135"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="15.2012 -331.797 -7.11377" rot="0.434742 0.900486 0.00699832 0.00194858"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="-16.8261 -307.016 -4.7262" rot="0.705768 0.708352 0.00725045 -0.000451786"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="-17.0402 -332.801 -5.73403" rot="0.340688 0.940109 0.00676324 0.00265179"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="-36.544 -310.829 -4.15585" rot="0.799825 0.600123 0.00711128 -0.00148417"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="-5.87628 -347.569 -5.16459" rot="0.434742 0.900486 0.00699832 0.00194858"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="-46.3294 -307.254 -4.21718" rot="0.434742 0.900486 0.00699832 0.00194858"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-242.608 411.406 10.7024" rot="0 -1 0 0"/>
+        <o name="hexrock_small_03" mat="hexrock_grey" pos="-254.385 396.488 3.56853" rot="-0.000573855 0.00398746 -0.00765806 -0.999949"/>
+        <o name="hexrock_small_02" mat="hexrock_grey" pos="-235.473 401.114 9.94791" rot="0.428037 -0.903757 0.000679234 0.00143413"/>
+        <o name="hexrock_single_01" mat="hexrock_grey" pos="-110.216 -40.173 2.24254" rot="0.123321 -0.992363 0 0"/>
+        <o name="hexrock_single_01" mat="hexrock_grey" pos="-132.681 -51.3699 2.81024" rot="0 -1 0 0"/>
+        <o name="hexrock_single_01" mat="hexrock_grey" pos="-79.0172 -5.51111 3.28585" rot="0 -1 0 0"/>
+        <o name="hexrock_single_01" mat="hexrock_grey" pos="-51.2243 5.50373 6.76238" rot="0.0785095 -0.996909 0.000113985 0.00144737" sc="1 1.14171 1"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-78.2046 214.437 1.46547" rot="0 -1 0 -0.000345178" sc="1 0.804014 1"/>
+        <o name="hexrock_small_02" mat="hexrock_grey" pos="207.353 72.082 21.134" rot="0 -1 0 -0.000345178" sc="1 0.804014 1"/>
+        <o name="hexrock_small_02" mat="hexrock_grey" pos="207.491 -109.726 4.31047" rot="0.998168 -0.0604541 0.000344546 -2.08675e-05" sc="1 0.804014 1"/>
+        <o name="hexrock_small_03" mat="hexrock_grey" pos="97.1882 -361.367 -6.57169" rot="0.998168 -0.0604541 0.000344546 -2.08675e-05" sc="1 0.804014 1"/>
+        <o name="hexrock_small_03" mat="hexrock_grey" pos="-84.6888 -38.5104 6.0668" rot="0.998168 -0.0604541 0.0010298 2.06349e-05" sc="1 0.804014 1"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-15.9621 68.5178 16.8667" rot="0 -0.00123071 0 0.999991" sc="1 0.804014 1"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-8.7193 29.2388 14.8767" rot="0 -0.00123071 0 0.999991" sc="1 0.804014 1"/>
+        <o name="hexrock_small_03" mat="hexrock_grey" pos="-23.2524 26.4277 9.37034" rot="0 0.0366236 0 0.999325"/>
+        <o name="hexrock_medium_02" mat="hexrock_grey" pos="39.6751 73.9744 20.2337" rot="0 0.0366236 0 0.999325"/>
+        <o name="hexrock_medium_02" mat="hexrock_grey" pos="110.981 173.894 16.2599" rot="0 0.0366236 0 0.999325"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="88.7797 144.523 17.455" rot="0 0.0366236 0 0.999325"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-187.929 290.88 2.71883" rot="-0.778322 0.627846 0.00310073 0.00250125"/>
+        <o name="hexcave_05" mat="hexrock_grey" pos="-137.164 338.525 15.1954" rot="-0.777614 -0.628648 -0.000701645 0.0095624" sc="1 1.13678 1"/>
+        <o name="hexrock_large_02" mat="hexrock_grey" pos="-197.93 -57.4815 1.22806" rot="0.36523 -0.930351 -0.0129541 -0.0289547"/>
+        <o name="hexrock_cliff_01" mat="hexrock_grey" pos="-254.044 455.561 1.66211" rot="0.971467 -0.236154 -0.0202942 -0.0060015"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="-395.935 257.616 -26.395" rot="0.971327 -0.236113 -0.026134 -0.00742107"/>
+        <o name="hexrock_medium_01" mat="hexrock_crystal" pos="-344.301 186.436 -35.1218" rot="0.410122 0.911549 0.0032547 -0.0287158"/>
+        <o name="hexrock_small_03" mat="hexrock_crystal" pos="-366.372 250.537 -31.1198" rot="0.410122 0.911549 0.0032547 -0.0287158"/>
+        <o name="hexrock_small_02" mat="hexrock_crystal" pos="-277.44 40.4505 -36.3388" rot="0.384353 0.922814 0.0170245 -0.0184536"/>
+        <o name="hexrock_cliff_01" mat="hexrock_crystal" pos="-285.305 90.5129 -40.3209" rot="0.860223 0.509036 -0.0112328 -0.0269145"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="230.571 -267.629 -19.1495" rot="-0.0061858 0.017905 -0.81065 0.585159"/>
+        <o name="hexrock_cliff_03" mat="hexrock_crystal" pos="170.696 -238.822 -5.75079" rot="-0.00757003 0.0169057 -0.810638 0.585188"/>
+        <o name="hexrock_medium_02" mat="hexrock_crystal" pos="239.683 -241.122 -10.2607" rot="-0.00757003 0.0169057 -0.810638 0.585188"/>
         <o name="crystal1" pos="-321.587 153.59 -26.8647" rot="0 -1 0 0"/>
         <o name="crystal1" pos="-342.802 146.586 -30.7653" rot="0.947917 0.1625 0.266595 -0.0629209" sc="1.37566 1.52234 1.37566"/>
         <o name="crystal_cube4" pos="150.321 -343.488 -33.3682" rot="0.951357 0.163317 0.254044 -0.0607679" sc="3.13786 3.47243 3.13786"/>
         <o name="crystal_cube4" pos="123.788 -417.149 -20.17" rot="0.639229 0.190951 -0.604936 0.43467" sc="3.13786 3.47243 3.13786"/>
-        <o name="hexrockgrey_cliff_01" pos="-121.239 -7.55613 -6.445" rot="0.424375 0.905482 0 0"/>
-        <o name="hexrockgrey_medium_01" pos="-135.693 -21.5345 2.8712" rot="0.424375 0.905482 0 0"/>
-        <o name="hexrockgrey_small_01" pos="-274.662 190.976 -2.89433" rot="0.424375 0.905482 0 0"/>
-        <o name="hexrockgrey_small_01" pos="346.241 -248.096 6.39685" rot="-0.353024 0.935608 0 0"/>
-        <o name="hexrockgrey_small_02" pos="306.937 -322.961 11.0246" rot="0.114033 0.993475 0 0"/>
-        <o name="hexrockgrey_small_01" pos="-298.783 -32.0114 7.54936" rot="0 0.0258895 0 0.999659"/>
-        <o name="hexrockgrey_small_01" pos="196.635 140.632 21.9405" rot="0.150021 -0.168864 -0.909466 0.34891"/>
-        <o name="hexrockgrey_small_02" pos="270.424 193.377 24.1216" rot="0.150021 -0.168864 -0.909466 0.34891"/>
-        <o name="hexrockgrey_small_03" pos="331.568 87.4972 28.0961" rot="0 1 0 0"/>
-        <o name="hexrockgrey_medium_02" pos="-127.326 150.958 7.83715" rot="0 1 0 0"/>
-        <o name="hexrockgrey_medium_01" pos="-307.717 243.551 -2.90103" rot="0 1 0 0"/>
-        <o name="hexrockgrey_small_02" pos="25.4542 328.31 20.6013" rot="0 1 0 0"/>
-        <o name="hexrockgrey_small_01" pos="-425.199 362.541 8.75277" rot="0 1 0 0"/>
-        <o name="hexrockgrey_small_01" pos="-359.189 436.563 14.0159" rot="-0.0601587 0.0306081 0.989141 0.130394"/>
-        <o name="hexrockgrey_small_03" pos="-271.055 145.896 -0.721104" rot="-0.0601587 0.0306081 0.989141 0.130394"/>
-        <o name="hexrockgrey_medium_01" pos="-378.39 147.326 -8.57044" rot="-0.0639079 0.0217187 0.960446 0.270081"/>
-        <o name="hexrockgrey_cliff_02" pos="-416.756 240.809 1.63228" rot="-0.113101 0.0375545 0.984485 0.128565"/>
-        <o name="hexrockgrey_small_01" pos="123.195 92.444 16.8774" rot="-0.867675 0.492394 0.019543 0.0653964"/>
+        <o name="hexrock_cliff_01" mat="hexrock_grey" pos="-121.239 -7.55613 -6.445" rot="0.424375 0.905482 0 0"/>
+        <o name="hexrock_medium_01" mat="hexrock_grey" pos="-135.693 -21.5345 2.8712" rot="0.424375 0.905482 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-274.662 190.976 -2.89433" rot="0.424375 0.905482 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="346.241 -248.096 6.39685" rot="-0.353024 0.935608 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_grey" pos="306.937 -322.961 11.0246" rot="0.114033 0.993475 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-298.783 -32.0114 7.54936" rot="0 0.0258895 0 0.999659"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="196.635 140.632 21.9405" rot="0.150021 -0.168864 -0.909466 0.34891"/>
+        <o name="hexrock_small_02" mat="hexrock_grey" pos="270.424 193.377 24.1216" rot="0.150021 -0.168864 -0.909466 0.34891"/>
+        <o name="hexrock_small_03" mat="hexrock_grey" pos="331.568 87.4972 28.0961" rot="0 1 0 0"/>
+        <o name="hexrock_medium_02" mat="hexrock_grey" pos="-127.326 150.958 7.83715" rot="0 1 0 0"/>
+        <o name="hexrock_medium_01" mat="hexrock_grey" pos="-307.717 243.551 -2.90103" rot="0 1 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_grey" pos="25.4542 328.31 20.6013" rot="0 1 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-425.199 362.541 8.75277" rot="0 1 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="-359.189 436.563 14.0159" rot="-0.0601587 0.0306081 0.989141 0.130394"/>
+        <o name="hexrock_small_03" mat="hexrock_grey" pos="-271.055 145.896 -0.721104" rot="-0.0601587 0.0306081 0.989141 0.130394"/>
+        <o name="hexrock_medium_01" mat="hexrock_grey" pos="-378.39 147.326 -8.57044" rot="-0.0639079 0.0217187 0.960446 0.270081"/>
+        <o name="hexrock_cliff_02" mat="hexrock_grey" pos="-416.756 240.809 1.63228" rot="-0.113101 0.0375545 0.984485 0.128565"/>
+        <o name="hexrock_small_01" mat="hexrock_grey" pos="123.195 92.444 16.8774" rot="-0.867675 0.492394 0.019543 0.0653964"/>
     </objects>
     <emitters>
         <e name="Electricity" pos="30.4639 -30.0741 334.88" sc="2.85265 7.16277 7.04152" up="0 1 0" rot="0" rate="19.4726" st="0" psc="1"/>

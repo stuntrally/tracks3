@@ -187,77 +187,77 @@
         <o name="plastic_big_hvy" pos="-239.022 161.38 177.58" rot="2.43367e-05 1 -7.47829e-06 3.58152e-06"/>
         <o name="fuel_can" pos="191.772 183.86 206.977" rot="0.252437 0.967472 -0.0112386 0.0121213"/>
         <o name="satellite1" pos="77.8051 -70.21 205.092" rot="0 -1 0 0"/>
-        <o name="hexrockmetal_large_02" pos="118.117 349.921 189.461" rot="0 -1 0 0"/>
-        <o name="hexrockmetal_medium_01" pos="185.074 266.421 203.325" rot="-0.674048 -0.738688 0 0"/>
-        <o name="hexrockmetal_small_01" pos="157.487 187.414 206.549" rot="-0.672047 -0.736496 0.051898 -0.0568749"/>
-        <o name="hexrockmetal_small_01" pos="325.52 39.8279 171.715" rot="-0.674048 -0.738688 0.000153544 -0.000168268"/>
-        <o name="hexrockmetal_small_01" pos="122.618 -274.877 130.689" rot="-0.0794778 -0.996837 0.00022447 -3.87647e-05" sc="1.29449 1.29449 1.29449"/>
-        <o name="hexrockmetal_small_01" pos="-342.768 -244.231 167.126" rot="-0.982146 0.188109 0.000442638 0.00221073" sc="1 1.21507 1"/>
-        <o name="hexrockmetal_small_01" pos="-263.88 -287.178 175.427" rot="-0.98174 0.188093 -0.0282531 -0.00328624" sc="1 1.21507 1"/>
-        <o name="hexrockmetal_small_01" pos="-60.2389 -95.2015 190.922" rot="-0.980772 0.187734 0.0519338 0.0120698" sc="1 1.13298 1"/>
-        <o name="hexrockmetal_small_01" pos="183.841 -53.7198 185.688" rot="0 0.999214 0 0.0396354" sc="1 1.08542 1"/>
-        <o name="hexrockmetal_small_01" pos="211.615 -93.1942 97.8442" rot="0 1 0 0"/>
-        <o name="hexrockmetal_small_01" pos="189.934 -359.52 113.726" rot="0.0703316 0.993441 -0.00351893 0.0900877" sc="1.20942 1.20942 1.20942"/>
-        <o name="hexrockmetal_cliff_02" pos="235.79 -372.513 115.324" rot="-0.834337 0.551254 0 0" sc="1 1.20109 1"/>
-        <o name="hexrockmetal_cliff_02" pos="261.818 -345.862 113.727" rot="-0.946559 0.32253 0 0" sc="1 1.20109 1"/>
-        <o name="hexrockmetal_cliff_01" pos="191.101 -389.83 116.236" rot="-0.315988 -0.948763 0 0" sc="1 1.20109 1"/>
-        <o name="hexrockmetal_cliff_01" pos="-148.495 -325.616 120.901" rot="-0.315988 -0.948763 0 0" sc="1 1.20109 1"/>
-        <o name="hexrockmetal_bridge_02" pos="-44.9672 8.04572 165.159" rot="0.972804 0.231221 -0.0133829 -0.00298279" sc="1.06765 1.39244 1.06765"/>
-        <o name="hexrockmetal_cliff_02" pos="-84.0664 5.42606 138.862" rot="-0.588877 -0.808217 -0.00181796 0.00237711" sc="1 1.30422 1"/>
-        <o name="hexrockmetal_cliff_01" pos="-50.7307 19.3012 142.011" rot="0.226102 -0.974099 -0.00298718 0.000179917" sc="1 1.30422 1"/>
-        <o name="hexrockmetal_cliff_03" pos="-4.29828 32.287 129.146" rot="0.762524 -0.646952 -0.00250487 -0.00163746" sc="1 1.30422 1"/>
-        <o name="hexrockmetal_cliff_02" pos="-22.0211 21.1316 144.895" rot="-0.955392 0.285755 0.0688443 0.0288531"/>
-        <o name="hexrockmetal_cliff_01" pos="-54.8551 -13.6556 144.828" rot="0.146472 0.989215 0 0"/>
-        <o name="hexrockmetal_small_03" pos="11.2449 109.021 170.962" rot="-0.941111 0.33688 -0.0270011 -0.00966532"/>
-        <o name="hexrockmetal_small_02" pos="155.427 68.7794 179.323" rot="-0.698422 0.711285 -0.0725181 -0.0319719"/>
-        <o name="hexrockmetal_small_02" pos="245.133 -40.179 166.58" rot="-0.999876 0.0157988 0 0"/>
-        <o name="hexrockmetal_small_03" pos="312.004 142.449 177.344" rot="-0.0856981 0.0013541 0.996196 0.0157406" sc="1.26213 1.26213 1.26213"/>
-        <o name="hexcavemetal_06" pos="192.8 146.467 172.581" rot="0.184655 0.982526 0.00683085 -0.0223105"/>
-        <o name="hexcavemetal_04" pos="151.943 162.277 180.971" rot="-0.264968 0.964257 0 0"/>
-        <o name="hexrockmetal_cliff_01" pos="119.049 154.571 183.157" rot="0.469275 0.883052 0 0"/>
-        <o name="hexrockmetal_small_01" pos="-23.5929 170.113 171.788" rot="-0.234589 0.972095 0 0"/>
-        <o name="hexrockmetal_small_02" pos="-105.595 221.638 168.599" rot="-0.234589 0.972095 0 0"/>
-        <o name="hexrockmetal_medium_02" pos="-96.0274 166.309 168.836" rot="-0.306847 -0.951758 0 0"/>
-        <o name="hexrockmetal_cliff_01" pos="173.715 235.465 193.389" rot="0.505883 -0.861647 0.0205435 0.0349908"/>
-        <o name="hexrockmetal_cliff_03" pos="222.836 66.2942 167.373" rot="0.543096 -0.835832 0.0436878 0.0672361" sc="1 0.985987 1"/>
-        <o name="hexrockmetal_small_02" pos="272.44 94.7647 176.213" rot="0.5063 -0.862357 0 0"/>
-        <o name="hexrockmetal_small_01" pos="243.567 93.6133 181.011" rot="0.986374 -0.164516 0 0"/>
-        <o name="hexrockmetal_cliff_01" pos="455.318 -10.8554 134.338" rot="0.88466 0.466235 0 0" sc="1.14068 1.39328 1.14068"/>
-        <o name="hexcavemetal_01" pos="388.124 -105.834 123.226" rot="0.969999 0.243106 0 0"/>
-        <o name="hexrockmetal_small_02" pos="62.7571 -262.219 142.204" rot="0.159056 0.079862 -0.598298 0.781256" sc="1.14068 1.39328 1.14068"/>
-        <o name="hexrockmetal_medium_01" pos="-92.4609 -202.208 82.8737" rot="0.0866878 -0.0137271 -0.61298 0.785208" sc="1.14068 1.39328 1.14068"/>
-        <o name="hexrockmetal_small_01" pos="-236.157 -66.2929 89.8995" rot="-0.997869 0.0558059 0.0285253 0.0181254"/>
-        <o name="hexrockmetal_small_03" pos="-340.531 -20.652 104.459" rot="-0.403356 0.912775 0.0186118 -0.061632" sc="1.06985 1.06985 1.06985"/>
-        <o name="hexrockmetal_small_02" pos="-274.979 10.5736 157.235" rot="0.785614 0.618715 0.0014442 0.00113739"/>
-        <o name="hexrockmetal_single_01" pos="-307.543 -255.768 167.298" rot="0 0.999998 0 0.00183831"/>
-        <o name="hexrockmetal_single_01" pos="-309.119 -258.105 170.073" rot="-0.323837 0.946111 -0.000595314 0.00173925"/>
-        <o name="hexrockmetal_medium_01" pos="-386.481 -272.751 167.293" rot="-0.322458 0.942397 -0.0298571 -0.0837652"/>
-        <o name="hexrockmetal_cliff_03" pos="-309.194 -201.436 108.231" rot="-0.941867 0.335413 -0.0115201 0.0159187" sc="1.26613 1.63741 1.26613"/>
-        <o name="hexcavemetal_05" pos="-333.449 -287.367 165.791" rot="0.0524708 0.998429 0.0119659 0.0155864"/>
-        <o name="hexrockmetal_medium_02" pos="-308.898 -328.488 176.442" rot="-0.323795 0.945923 0.00528734 0.0189252"/>
-        <o name="hexrockmetal_cliff_01" pos="-350.165 -373.059 186.375" rot="-0.747424 0.656156 0.0690752 0.0777282" sc="1.25598 1.25598 1.25598"/>
-        <o name="hexrockmetal_cliff_03" pos="-223.261 -295.755 126.361" rot="-0.521073 0.85328 0.00119666 0.0198437" sc="1.36409 1.52488 1.36409"/>
-        <o name="hexrockmetal_cliff_02" pos="-226.571 -275.741 116.874" rot="-0.134267 0.990749 0.00885601 0.0175411" sc="1.25598 1.55864 1.25598"/>
-        <o name="hexrockmetal_cliff_01" pos="-227.887 -239.528 120.16" rot="-0.974629 0.22296 -0.0133028 0.0144622" sc="1.25598 1.25598 1.25598"/>
-        <o name="hexrockmetal_medium_01" pos="132.832 -57.9841 170.542" rot="-0.76195 0.647337 -0.00513339 0.0189675" sc="1.25598 1.25598 1.25598"/>
-        <o name="hexrockmetal_medium_01" pos="-4.99891 -140.35 185.9" rot="-0.904176 0.420324 -0.0690288 -0.0320894" sc="0.937464 0.937464 0.937464"/>
-        <o name="hexrockmetal_small_02" pos="99.9774 149.953 207.523" rot="-0.0169688 -0.0693336 0.487765 0.870051"/>
-        <o name="hexrockmetal_small_01" pos="-46.0708 38.7318 148.742" rot="-0.0220633 -0.0602407 0.487561 0.870728"/>
-        <o name="hexrockmetal_small_01" pos="-97.5503 14.4586 168.28" rot="-0.0220633 -0.0602407 0.487561 0.870728"/>
-        <o name="hexrockmetal_small_01" pos="40.0507 -211.12 200.114" rot="0.104299 -0.0597302 0.443098 0.888378"/>
-        <o name="hexrockmetal_large_01" pos="193.598 -315.454 166.486" rot="0 1 0 0"/>
-        <o name="hexrockmetal_cliff_01" pos="-72.7686 -392.453 169.268" rot="0.957871 0.287197 0 0" sc="1.32983 1.32983 1.32983"/>
-        <o name="hexrockmetal_cliff_01" pos="-238.35 -389.262 201.419" rot="0.756909 0.65352 0 0" sc="1.32983 1.32983 1.32983"/>
-        <o name="hexrockmetal_medium_01" pos="-180.233 -372.156 202.24" rot="0.756909 0.65352 0 0" sc="1.32983 1.32983 1.32983"/>
-        <o name="hexrockmetal_cliff_03" pos="154.119 284.024 162.837" rot="-0.795747 -0.605624 0.00207664 -0.00158048"/>
-        <o name="hexrockmetal_cliff_01" pos="163.674 403.823 240.552" rot="-0.718905 -0.691545 0.0506078 -0.0487977" sc="1 0.948033 1"/>
-        <o name="hexrockmetal_cliff_02" pos="156.346 394.833 216.69" rot="-0.792824 -0.603399 0.0681744 -0.0518859" sc="1 1.07014 1"/>
-        <o name="hexrockmetal_small_01" pos="195.914 92.3845 199.063" rot="-0.126479 0.990683 0.00639404 0.0500833"/>
-        <o name="hexrockmetal_large_01" pos="79.4833 -220.107 142.848" rot="-0.129411 0.990304 0.00624573 0.050102"/>
+        <o name="hexrock_large_02" mat="hexrock_metal" pos="118.117 349.921 189.461" rot="0 -1 0 0"/>
+        <o name="hexrock_medium_01" mat="hexrock_metal" pos="185.074 266.421 203.325" rot="-0.674048 -0.738688 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="157.487 187.414 206.549" rot="-0.672047 -0.736496 0.051898 -0.0568749"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="325.52 39.8279 171.715" rot="-0.674048 -0.738688 0.000153544 -0.000168268"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="122.618 -274.877 130.689" rot="-0.0794778 -0.996837 0.00022447 -3.87647e-05" sc="1.29449 1.29449 1.29449"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-342.768 -244.231 167.126" rot="-0.982146 0.188109 0.000442638 0.00221073" sc="1 1.21507 1"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-263.88 -287.178 175.427" rot="-0.98174 0.188093 -0.0282531 -0.00328624" sc="1 1.21507 1"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-60.2389 -95.2015 190.922" rot="-0.980772 0.187734 0.0519338 0.0120698" sc="1 1.13298 1"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="183.841 -53.7198 185.688" rot="0 0.999214 0 0.0396354" sc="1 1.08542 1"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="211.615 -93.1942 97.8442" rot="0 1 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="189.934 -359.52 113.726" rot="0.0703316 0.993441 -0.00351893 0.0900877" sc="1.20942 1.20942 1.20942"/>
+        <o name="hexrock_cliff_02" mat="hexrock_metal" pos="235.79 -372.513 115.324" rot="-0.834337 0.551254 0 0" sc="1 1.20109 1"/>
+        <o name="hexrock_cliff_02" mat="hexrock_metal" pos="261.818 -345.862 113.727" rot="-0.946559 0.32253 0 0" sc="1 1.20109 1"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="191.101 -389.83 116.236" rot="-0.315988 -0.948763 0 0" sc="1 1.20109 1"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="-148.495 -325.616 120.901" rot="-0.315988 -0.948763 0 0" sc="1 1.20109 1"/>
+        <o name="hexrock_bridge_02" mat="hexrock_metal" pos="-44.9672 8.04572 165.159" rot="0.972804 0.231221 -0.0133829 -0.00298279" sc="1.06765 1.39244 1.06765"/>
+        <o name="hexrock_cliff_02" mat="hexrock_metal" pos="-84.0664 5.42606 138.862" rot="-0.588877 -0.808217 -0.00181796 0.00237711" sc="1 1.30422 1"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="-50.7307 19.3012 142.011" rot="0.226102 -0.974099 -0.00298718 0.000179917" sc="1 1.30422 1"/>
+        <o name="hexrock_cliff_03" mat="hexrock_metal" pos="-4.29828 32.287 129.146" rot="0.762524 -0.646952 -0.00250487 -0.00163746" sc="1 1.30422 1"/>
+        <o name="hexrock_cliff_02" mat="hexrock_metal" pos="-22.0211 21.1316 144.895" rot="-0.955392 0.285755 0.0688443 0.0288531"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="-54.8551 -13.6556 144.828" rot="0.146472 0.989215 0 0"/>
+        <o name="hexrock_small_03" mat="hexrock_metal" pos="11.2449 109.021 170.962" rot="-0.941111 0.33688 -0.0270011 -0.00966532"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="155.427 68.7794 179.323" rot="-0.698422 0.711285 -0.0725181 -0.0319719"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="245.133 -40.179 166.58" rot="-0.999876 0.0157988 0 0"/>
+        <o name="hexrock_small_03" mat="hexrock_metal" pos="312.004 142.449 177.344" rot="-0.0856981 0.0013541 0.996196 0.0157406" sc="1.26213 1.26213 1.26213"/>
+        <o name="hexcave_06" mat="hexrock_metal" pos="192.8 146.467 172.581" rot="0.184655 0.982526 0.00683085 -0.0223105"/>
+        <o name="hexcave_04" mat="hexrock_metal" pos="151.943 162.277 180.971" rot="-0.264968 0.964257 0 0"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="119.049 154.571 183.157" rot="0.469275 0.883052 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-23.5929 170.113 171.788" rot="-0.234589 0.972095 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="-105.595 221.638 168.599" rot="-0.234589 0.972095 0 0"/>
+        <o name="hexrock_medium_02" mat="hexrock_metal" pos="-96.0274 166.309 168.836" rot="-0.306847 -0.951758 0 0"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="173.715 235.465 193.389" rot="0.505883 -0.861647 0.0205435 0.0349908"/>
+        <o name="hexrock_cliff_03" mat="hexrock_metal" pos="222.836 66.2942 167.373" rot="0.543096 -0.835832 0.0436878 0.0672361" sc="1 0.985987 1"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="272.44 94.7647 176.213" rot="0.5063 -0.862357 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="243.567 93.6133 181.011" rot="0.986374 -0.164516 0 0"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="455.318 -10.8554 134.338" rot="0.88466 0.466235 0 0" sc="1.14068 1.39328 1.14068"/>
+        <o name="hexcave_01" mat="hexrock_metal" pos="388.124 -105.834 123.226" rot="0.969999 0.243106 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="62.7571 -262.219 142.204" rot="0.159056 0.079862 -0.598298 0.781256" sc="1.14068 1.39328 1.14068"/>
+        <o name="hexrock_medium_01" mat="hexrock_metal" pos="-92.4609 -202.208 82.8737" rot="0.0866878 -0.0137271 -0.61298 0.785208" sc="1.14068 1.39328 1.14068"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-236.157 -66.2929 89.8995" rot="-0.997869 0.0558059 0.0285253 0.0181254"/>
+        <o name="hexrock_small_03" mat="hexrock_metal" pos="-340.531 -20.652 104.459" rot="-0.403356 0.912775 0.0186118 -0.061632" sc="1.06985 1.06985 1.06985"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="-274.979 10.5736 157.235" rot="0.785614 0.618715 0.0014442 0.00113739"/>
+        <o name="hexrock_single_01" mat="hexrock_metal" pos="-307.543 -255.768 167.298" rot="0 0.999998 0 0.00183831"/>
+        <o name="hexrock_single_01" mat="hexrock_metal" pos="-309.119 -258.105 170.073" rot="-0.323837 0.946111 -0.000595314 0.00173925"/>
+        <o name="hexrock_medium_01" mat="hexrock_metal" pos="-386.481 -272.751 167.293" rot="-0.322458 0.942397 -0.0298571 -0.0837652"/>
+        <o name="hexrock_cliff_03" mat="hexrock_metal" pos="-309.194 -201.436 108.231" rot="-0.941867 0.335413 -0.0115201 0.0159187" sc="1.26613 1.63741 1.26613"/>
+        <o name="hexcave_05" mat="hexrock_metal" pos="-333.449 -287.367 165.791" rot="0.0524708 0.998429 0.0119659 0.0155864"/>
+        <o name="hexrock_medium_02" mat="hexrock_metal" pos="-308.898 -328.488 176.442" rot="-0.323795 0.945923 0.00528734 0.0189252"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="-350.165 -373.059 186.375" rot="-0.747424 0.656156 0.0690752 0.0777282" sc="1.25598 1.25598 1.25598"/>
+        <o name="hexrock_cliff_03" mat="hexrock_metal" pos="-223.261 -295.755 126.361" rot="-0.521073 0.85328 0.00119666 0.0198437" sc="1.36409 1.52488 1.36409"/>
+        <o name="hexrock_cliff_02" mat="hexrock_metal" pos="-226.571 -275.741 116.874" rot="-0.134267 0.990749 0.00885601 0.0175411" sc="1.25598 1.55864 1.25598"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="-227.887 -239.528 120.16" rot="-0.974629 0.22296 -0.0133028 0.0144622" sc="1.25598 1.25598 1.25598"/>
+        <o name="hexrock_medium_01" mat="hexrock_metal" pos="132.832 -57.9841 170.542" rot="-0.76195 0.647337 -0.00513339 0.0189675" sc="1.25598 1.25598 1.25598"/>
+        <o name="hexrock_medium_01" mat="hexrock_metal" pos="-4.99891 -140.35 185.9" rot="-0.904176 0.420324 -0.0690288 -0.0320894" sc="0.937464 0.937464 0.937464"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="99.9774 149.953 207.523" rot="-0.0169688 -0.0693336 0.487765 0.870051"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-46.0708 38.7318 148.742" rot="-0.0220633 -0.0602407 0.487561 0.870728"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-97.5503 14.4586 168.28" rot="-0.0220633 -0.0602407 0.487561 0.870728"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="40.0507 -211.12 200.114" rot="0.104299 -0.0597302 0.443098 0.888378"/>
+        <o name="hexrock_large_01" mat="hexrock_metal" pos="193.598 -315.454 166.486" rot="0 1 0 0"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="-72.7686 -392.453 169.268" rot="0.957871 0.287197 0 0" sc="1.32983 1.32983 1.32983"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="-238.35 -389.262 201.419" rot="0.756909 0.65352 0 0" sc="1.32983 1.32983 1.32983"/>
+        <o name="hexrock_medium_01" mat="hexrock_metal" pos="-180.233 -372.156 202.24" rot="0.756909 0.65352 0 0" sc="1.32983 1.32983 1.32983"/>
+        <o name="hexrock_cliff_03" mat="hexrock_metal" pos="154.119 284.024 162.837" rot="-0.795747 -0.605624 0.00207664 -0.00158048"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="163.674 403.823 240.552" rot="-0.718905 -0.691545 0.0506078 -0.0487977" sc="1 0.948033 1"/>
+        <o name="hexrock_cliff_02" mat="hexrock_metal" pos="156.346 394.833 216.69" rot="-0.792824 -0.603399 0.0681744 -0.0518859" sc="1 1.07014 1"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="195.914 92.3845 199.063" rot="-0.126479 0.990683 0.00639404 0.0500833"/>
+        <o name="hexrock_large_01" mat="hexrock_metal" pos="79.4833 -220.107 142.848" rot="-0.129411 0.990304 0.00624573 0.050102"/>
         <o name="alien_ufo_fly" pos="-224.353 -294.469 219.431" rot="-0.0155629 -0.999539 -0.000405946 -0.0260722"/>
-        <o name="hexrockmetal_small_02" pos="164.035 -27.3028 180.034" rot="-0.29757 -0.9547 0 0"/>
-        <o name="hexrockmetal_cliff_01" pos="-73.7926 -128.877 161.515" rot="0.512289 -0.858813 0 0"/>
-        <o name="hexrockmetal_small_02" pos="154.566 154.41 180.051" rot="0.564329 -0.82555 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="164.035 -27.3028 180.034" rot="-0.29757 -0.9547 0 0"/>
+        <o name="hexrock_cliff_01" mat="hexrock_metal" pos="-73.7926 -128.877 161.515" rot="0.512289 -0.858813 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_metal" pos="154.566 154.41 180.051" rot="0.564329 -0.82555 0 0"/>
     </objects>
     <emitters>
         <e name="AlienBeamUp" pos="126.511 190.936 -317.029" sc="6.52396 104.719 4.36477" up="0 1 0" rot="0" rate="588.188" st="0" psc="1"/>

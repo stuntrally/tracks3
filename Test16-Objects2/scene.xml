@@ -105,12 +105,12 @@
         <o name="obstacle4" mat="obstaclesCrystal" pos="110.57773 125.60163 -8.356955" rot="0 -1 0 0"/>
         <o name="obstacle6" mat="obstaclesCrystal" pos="111.70094 100.40795 -10.594396" rot="0 -1 0 0"/>
         <o name="obstacle7" mat="obstaclesCrystal" pos="116.12338 102.092865 -7.616041" rot="0 -1 0 0"/>
-        <o name="obstacle_twistedCrystal3L" pos="129.82932 129.56316 -7.6659756" rot="0 -1 0 0"/>
-        <o name="obstacle_twistedGreen3R" pos="130.83623 145.57553 -5.5010104" rot="0 -1 0 0"/>
+        <o name="obstacle_twisted3L" mat="obstaclesCrystal" pos="129.82932 129.56316 -7.6659756" rot="0 -1 0 0"/>
+        <o name="obstacle_twisted3R" mat="obstaclesGreen" pos="130.83623 145.57553 -5.5010104" rot="0 -1 0 0"/>
         <o name="log_cabin_02" pos="94.52007 -31.302855 -10.521072" rot="0 -1 0 0"/>
         <o name="log_cabin_01" pos="128.8927 -17.713646 -10.619265" rot="0 -1 0 0"/>
-        <o name="gas_tank_02_blue" pos="33.858246 18.88763 -9.99736" rot="0 -1 0 0"/>
-        <o name="gas_tank_02_red" pos="37.236843 17.323603 -9.983692" rot="0 -1 0 0"/>
+        <o name="gas_tank_02" mat="gas_tank_02_blue" pos="33.858246 18.88763 -9.99736" rot="0 -1 0 0"/>
+        <o name="gas_tank_02" mat="gas_tank_02_red" pos="37.236843 17.323603 -9.983692" rot="0 -1 0 0"/>
         <o name="bridge_wooden_01" pos="11.310181 44.494446 -8.316286" rot="0 -1 0 0" sc="0.82130116 0.82130116 0.82130116"/>
         <o name="bridge_wooden_01_slope_A" pos="-8.369553 44.770664 -8.264431" rot="-0.99996495 -0.008403454 0 0"/>
         <o name="bridge_wooden_01_slope_B" pos="-29.761806 44.547066 -6.45064" rot="-0.999921 -0.012645619 0 0"/>
@@ -118,11 +118,11 @@
         <o name="bridge_wooden_03" pos="-181.17899 45.368885 -9.651834" rot="-0.0004345577 -0.99966997 -0.0022540102 -0.025601014"/>
         <o name="bridge_wooden_brown_02_slope_A" pos="-91.00154 44.804676 -2.3470278" rot="-0.99999416 0.0034226782 0 0"/>
         <o name="bridge_wooden_brown_03_slope_B" pos="-132.47217 45.16979 -8.426883" rot="0 -1 0 0"/>
-        <o name="ancient_ruins_yellow_03" pos="10.007378 97.22188 -11.453216" rot="0 -1 0 0"/>
-        <o name="ancient_ruins_yellow_04" pos="0.35740757 106.623695 -11.513768" rot="0 -1 0 0"/>
-        <o name="ancient_ruins_yellow_05" pos="-11.919509 119.53461 -11.548622" rot="0 -1 0 0"/>
-        <o name="ancient_ruins_yellow_02" pos="10.085974 123.18908 -11.551318" rot="0 -1 0 0"/>
-        <o name="ancient_ruins_yellow_01" pos="10.425632 145.68631 -11.632937" rot="0 -1 0 0"/>
+        <o name="ancient_ruins_03" mat="ancient_ruins_yellow" pos="10.007378 97.22188 -11.453216" rot="0 -1 0 0"/>
+        <o name="ancient_ruins_04" mat="ancient_ruins_yellow" pos="0.35740757 106.623695 -11.513768" rot="0 -1 0 0"/>
+        <o name="ancient_ruins_05" mat="ancient_ruins_yellow" pos="-11.919509 119.53461 -11.548622" rot="0 -1 0 0"/>
+        <o name="ancient_ruins_02" mat="ancient_ruins_yellow" pos="10.085974 123.18908 -11.551318" rot="0 -1 0 0"/>
+        <o name="ancient_ruins_01" mat="ancient_ruins_yellow" pos="10.425632 145.68631 -11.632937" rot="0 -1 0 0"/>
         <o name="wooden_barrel" stat="1" pos="-2.1374302 32.644485 -10.605101" rot="0 -1 0 0"/>
         <o name="statue_angel" pos="52.528957 72.31105 -11.0442095" rot="0 -1 0 0"/>
         <o name="statue_buddha" pos="53.026825 76.525925 -11.328727" rot="0 -1 0 0" sc="3.8114493 3.8114493 3.8114493"/>
@@ -172,10 +172,10 @@
         <o name="hexcavemetal_04" pos="125.719536 231.85484 -11.050861" rot="0 -1 0 0"/>
         <o name="hexcavemetal_05" pos="48.826256 175.45168 -10.829966" rot="0 -1 0 0"/>
         <o name="hexcavemetal_06" pos="86.44841 257.9492 -11.116586" rot="0 -1 0 0"/>
-        <o name="hexcavecrystal_03" pos="20.230286 247.01471 -11.392748" rot="0 -1 0 0"/>
-        <o name="hexcavecrystal_04" pos="-8.334831 223.79663 -11.388827" rot="0 -1 0 0"/>
-        <o name="hexcavecrystal_05" pos="9.201958 240.9949 9.101587" rot="0 -1 0 0"/>
-        <o name="hexcavecrystal_05" pos="-16.371239 255.48045 -12.864186" rot="0 -1 0 0"/>
+        <o name="hexcave_03" mat="hexrock_crystal" pos="20.230286 247.01471 -11.392748" rot="0 -1 0 0"/>
+        <o name="hexcave_04" mat="hexrock_crystal" pos="-8.334831 223.79663 -11.388827" rot="0 -1 0 0"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="9.201958 240.9949 9.101587" rot="0 -1 0 0"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="-16.371239 255.48045 -12.864186" rot="0 -1 0 0"/>
         <o name="garbage_bin" mat="garbage_bin_blue" pos="17.01631 17.74771 -9.931709" rot="0 -1 0 0"/>
         <o name="oil_pump" pos="77.82843 -29.279684 -10.861279" rot="0 -1 0 0"/>
     </objects>

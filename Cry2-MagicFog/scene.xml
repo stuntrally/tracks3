@@ -77,20 +77,20 @@
         <o name="cave_B05" pos="120.059 239.457 87.8923" rot="-0.756366 -0.16979 0.595111 -0.211941" sc="0.727575 0.727575 0.727575"/>
         <o name="cave_G05" pos="114.64 252.632 84.4539" rot="0.00404701 -0.994122 0.100516 0.0400255" sc="0.40886 0.40886 0.40886"/>
         <o name="obstacle2" mat="obstaclesCrystal" pos="-43.3223 134.211 55.0857" rot="-0.382724 -0.740571 0.490684 0.253585" sc="1.45565 1.45565 1.45565"/>
-        <o name="hexrockcrystal_cliff_02" pos="153.828 -103.088 34.924" rot="0.971508 -0.237006 0 0"/>
-        <o name="hexrockcrystal_cliff_02" pos="172.865 -73.5035 46.56" rot="0.0137641 -0.00619197 -0.911863 -0.410217"/>
-        <o name="hexrockcrystal_cliff_01" pos="207.743 -41.6872 35.8284" rot="0.971845 -0.23562 0 0"/>
-        <o name="hexrockcrystal_cliff_01" pos="194.899 -9.05511 30.4638" rot="-0.995153 -0.098206 -0.00492028 0.00129415"/>
-        <o name="hexrockcrystal_cliff_03" pos="170.051 -40.4455 31.6847" rot="-0.995852 -0.0909795 0 0"/>
-        <o name="hexrockcrystal_cliff_02" pos="148.89 -65.2526 39.3651" rot="-0.390711 -0.920514 0 0" sc="1 1.1441 1"/>
-        <o name="hexrockcrystal_medium_01" pos="125.332 -68.1555 45.423" rot="-0.390711 -0.920514 0 0"/>
-        <o name="hexcavecrystal_04" pos="173.928 113.993 29.4837" rot="0.18328 -0.98302 -0.00165034 -0.00885155"/>
-        <o name="hexcavecrystal_02" pos="192.634 122.018 26.0863" rot="-0.390711 -0.920514 0 0"/>
-        <o name="hexcavecrystal_01" pos="167.846 141.551 28.8958" rot="-0.086972 -0.99621 0 0"/>
-        <o name="hexcavecrystal_05" pos="190.814 131.213 54.8032" rot="0.293404 -0.955988 0 0"/>
-        <o name="hexrockcrystal_small_01" pos="-98.8502 29.1364 38.7805" rot="0 1 0 0"/>
-        <o name="hexrockcrystal_medium_02" pos="-134.26 54.85 63.4518" rot="0 1 0 0"/>
-        <o name="hexrockcrystal_small_02" pos="-24.7234 137.058 58.7125" rot="0 1 0 0"/>
+        <o name="hexrock_cliff_02" mat="hexrock_crystal" pos="153.828 -103.088 34.924" rot="0.971508 -0.237006 0 0"/>
+        <o name="hexrock_cliff_02" mat="hexrock_crystal" pos="172.865 -73.5035 46.56" rot="0.0137641 -0.00619197 -0.911863 -0.410217"/>
+        <o name="hexrock_cliff_01" mat="hexrock_crystal" pos="207.743 -41.6872 35.8284" rot="0.971845 -0.23562 0 0"/>
+        <o name="hexrock_cliff_01" mat="hexrock_crystal" pos="194.899 -9.05511 30.4638" rot="-0.995153 -0.098206 -0.00492028 0.00129415"/>
+        <o name="hexrock_cliff_03" mat="hexrock_crystal" pos="170.051 -40.4455 31.6847" rot="-0.995852 -0.0909795 0 0"/>
+        <o name="hexrock_cliff_02" mat="hexrock_crystal" pos="148.89 -65.2526 39.3651" rot="-0.390711 -0.920514 0 0" sc="1 1.1441 1"/>
+        <o name="hexrock_medium_01" mat="hexrock_crystal" pos="125.332 -68.1555 45.423" rot="-0.390711 -0.920514 0 0"/>
+        <o name="hexcave_04" mat="hexrock_crystal" pos="173.928 113.993 29.4837" rot="0.18328 -0.98302 -0.00165034 -0.00885155"/>
+        <o name="hexcave_02" mat="hexrock_crystal" pos="192.634 122.018 26.0863" rot="-0.390711 -0.920514 0 0"/>
+        <o name="hexcave_01" mat="hexrock_crystal" pos="167.846 141.551 28.8958" rot="-0.086972 -0.99621 0 0"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="190.814 131.213 54.8032" rot="0.293404 -0.955988 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="-98.8502 29.1364 38.7805" rot="0 1 0 0"/>
+        <o name="hexrock_medium_02" mat="hexrock_crystal" pos="-134.26 54.85 63.4518" rot="0 1 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_crystal" pos="-24.7234 137.058 58.7125" rot="0 1 0 0"/>
     </objects>
     <emitters>
         <e name="CrystalCloud" pos="126.43 44.6179 6.97221e-05" sc="70.1957 7.13168 86.2051" up="0 1 0" rot="0" rate="5.45596" st="0" psc="1"/>
