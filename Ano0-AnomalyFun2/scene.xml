@@ -155,9 +155,9 @@
         <o name="obstacle_twistedAnomalyBroken3L" pos="127.895 193.222 6.91316" rot="0 -1 0 0"/>
         <o name="obstacle_twistedAnomalyBroken3L" pos="956.011 1037.17 443.779" rot="0 -1 0 0" sc="5.94144 56.946 121.794"/>
         <o name="obstacle_twistedAnomalyBroken3L" pos="212.041 153.78 60.2926" rot="0 -1 0 0" sc="3.37684 8.32035 3.37684"/>
-        <o name="obstacle_twistedCrystal3R" pos="304.937 297.517 95.4596" rot="-0.598351 -0.801225 0.0022511 -0.00301434" sc="2.95828 2.95828 2.95828"/>
-        <o name="obstacle_twistedCrystal2R" pos="178.13 65.8743 40.7416" rot="0 -1 0 0" sc="3.80054 2.91963 3.80054"/>
-        <o name="obstacle_twistedCrystal1L" pos="425.664 -478.613 171.436" rot="0 -1 0 0" sc="65.0147 21.6212 9.06125"/>
+        <o name="obstacle_twisted3R" mat="obstaclesCrystal" pos="304.937 297.517 95.4596" rot="-0.598351 -0.801225 0.0022511 -0.00301434" sc="2.95828 2.95828 2.95828"/>
+        <o name="obstacle_twisted2R" mat="obstaclesCrystal" pos="178.13 65.8743 40.7416" rot="0 -1 0 0" sc="3.80054 2.91963 3.80054"/>
+        <o name="obstacle_twisted1L" mat="obstaclesCrystal" pos="425.664 -478.613 171.436" rot="0 -1 0 0" sc="65.0147 21.6212 9.06125"/>
         <o name="statue_woman" pos="210.422 -81.7464 -2.57516" rot="0 -1 0 0" sc="9.08162 2.67592 9.08162"/>
         <o name="balloon2_anomaly" pos="172.894 -125.197 -4.53634" rot="0 -0.710992 0 0.703201"/>
         <o name="balloon2_anomaly" pos="169.368 -134.113 -3.6973" rot="0 0.504628 0 0.863338"/>

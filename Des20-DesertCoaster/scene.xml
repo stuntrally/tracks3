@@ -70,7 +70,7 @@
         <o name="ancient_ruins_05" pos="-351.628 174.415 -3.69403" rot="0 -1 0 0"/>
         <o name="ancient_ruins_05" pos="-318.225 207.385 -4.09668" rot="0 -1 0 0"/>
         <o name="obstacle7" mat="obstaclesBlack" pos="-321.316 293.666 -3.71182" rot="0 -1 0 0"/>
-        <o name="obstacle_twistedBlack2R" pos="-155.903 429.719 -1.78896" rot="-0.0756159 -0.997134 -0.00271748 -0.000639335"/>
+        <o name="obstacle_twisted2R" mat="obstaclesBlack" pos="-155.903 429.719 -1.78896" rot="-0.0756159 -0.997134 -0.00271748 -0.000639335"/>
         <o name="fuel_can" stat="1" pos="-104.917 428.171 -2.89541" rot="0.0468514 -0.997701 -0.0473162 0.0126226"/>
         <o name="rock23dark1block" pos="106.223 164.749 -4.7568" rot="0 -1 0 0"/>
         <o name="satellite1" pos="-87.2016 -6.1041 -1.18504" rot="0.375846 -0.926682 0 0"/>
