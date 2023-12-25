@@ -166,12 +166,12 @@
         <o name="crystal_form3_cyan" pos="99.695145 68.035355 -10.462057" rot="0 -1 0 0"/>
         <o name="crystal_form3_pink" pos="88.811424 110.81526 -10.648548" rot="0 -1 0 0"/>
         <o name="crystal_form3" pos="83.15838 110.698135 -10.665429" rot="0 -1 0 0"/>
-        <o name="hexcavemetal_01" pos="163.56812 210.20062 -10.830678" rot="0 -1 0 0"/>
-        <o name="hexcavemetal_02" pos="124.54453 193.60347 -10.829061" rot="0 -1 0 0"/>
-        <o name="hexcavemetal_03" pos="67.63207 207.80046 -10.765308" rot="0 -1 0 0"/>
-        <o name="hexcavemetal_04" pos="125.719536 231.85484 -11.050861" rot="0 -1 0 0"/>
-        <o name="hexcavemetal_05" pos="48.826256 175.45168 -10.829966" rot="0 -1 0 0"/>
-        <o name="hexcavemetal_06" pos="86.44841 257.9492 -11.116586" rot="0 -1 0 0"/>
+        <o name="hexcave_01" mat="hexrock_metal" pos="163.56812 210.20062 -10.830678" rot="0 -1 0 0"/>
+        <o name="hexcave_02" mat="hexrock_metal" pos="124.54453 193.60347 -10.829061" rot="0 -1 0 0"/>
+        <o name="hexcave_03" mat="hexrock_metal" pos="67.63207 207.80046 -10.765308" rot="0 -1 0 0"/>
+        <o name="hexcave_04" mat="hexrock_metal" pos="125.719536 231.85484 -11.050861" rot="0 -1 0 0"/>
+        <o name="hexcave_05" mat="hexrock_metal" pos="48.826256 175.45168 -10.829966" rot="0 -1 0 0"/>
+        <o name="hexcave_06" mat="hexrock_metal" pos="86.44841 257.9492 -11.116586" rot="0 -1 0 0"/>
         <o name="hexcave_03" mat="hexrock_crystal" pos="20.230286 247.01471 -11.392748" rot="0 -1 0 0"/>
         <o name="hexcave_04" mat="hexrock_crystal" pos="-8.334831 223.79663 -11.388827" rot="0 -1 0 0"/>
         <o name="hexcave_05" mat="hexrock_crystal" pos="9.201958 240.9949 9.101587" rot="0 -1 0 0"/>
