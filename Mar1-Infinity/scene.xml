@@ -116,27 +116,27 @@
     </veget>
     <cam pos="-372.375 196.875 -184.775" dir="0.8855269 -0.28700495 0.36533594"/>
     <objects>
-        <o name="hexrock_small_01" mat="hexrock_crystal_pink" pos="42.9987 40.7644 75.5636" rot="0 -1 0 0"/>
-        <o name="hexrock_small_01" mat="hexrock_crystal_pink" pos="-92.6051 115.597 57.119" rot="0 -1 0 0"/>
-        <o name="hexrock_small_01" mat="hexrock_crystal_pink" pos="-23.192 187.345 51.9918" rot="0.605238 -0.796044 0 0"/>
-        <o name="hexrock_small_01" mat="hexrock_crystal_pink" pos="-45.017 161.455 45.4588" rot="0.605238 -0.796044 0 0"/>
-        <o name="hexrock_single_01" mat="hexrock_crystal_pink" pos="-49.5373 114.603 26.4834" rot="0.605238 -0.796044 0 0"/>
-        <o name="hexrock_single_01" mat="hexrock_crystal_pink" pos="-50.6411 113.322 28.2478" rot="0.605233 -0.796037 0.00250782 0.00329843"/>
-        <o name="hexrock_single_01" mat="hexrock_crystal_pink" pos="-49.7021 112.812 24.0485" rot="0.605233 -0.796037 0.00250782 0.00329843"/>
-        <o name="hexrock_small_03" mat="hexrock_crystal_pink" pos="-132.049 -82.421 88.1888" rot="0 1 0 0"/>
-        <o name="hexrock_small_01" mat="hexrock_crystal_pink" pos="-67.9129 82.251 42.6605" rot="0 1 0 0"/>
-        <o name="hexrock_small_02" mat="hexrock_crystal_pink" pos="21.601 217.327 71.9181" rot="0 1 0 0"/>
-        <o name="hexrock_small_02" mat="hexrock_crystal_pink" pos="-113.268 -5.50874 66.168" rot="-0.971692 -0.236249 0 0"/>
-        <o name="hexrock_small_01" mat="hexrock_crystal_pink" pos="-112.313 -1.7489 70.3076" rot="0 1 0 0"/>
-        <o name="hexrock_medium_01" mat="hexrock_crystal_pink" pos="138.244 168.494 103.176" rot="0.577182 0.816615 7.35816e-05 0.000104106"/>
-        <o name="hexrock_single_01" mat="hexrock_crystal_pink" pos="-39.1108 -101.806 73.7887" rot="0 1 0 0.000127484"/>
-        <o name="hexrock_single_01" mat="hexrock_crystal_pink" pos="-38.9232 -100.264 67.2113" rot="-0.395829 0.918324 -5.04619e-05 0.000117072"/>
-        <o name="hexrock_single_02" mat="hexrock_crystal_pink" pos="-37.6393 -100.957 70.0059" rot="-0.395829 0.918324 -5.04619e-05 0.000117072"/>
-        <o name="hexrock_single_02" mat="hexrock_crystal_pink" pos="-38.0341 -102.166 61.5619" rot="-0.395829 0.918324 -5.04619e-05 0.000117072"/>
-        <o name="hexrock_single_01" mat="hexrock_crystal_pink" pos="-36.5291 -101.413 64.7791" rot="-0.395829 0.918324 -5.04619e-05 0.000117072"/>
-        <o name="hexrock_small_01" mat="hexrock_crystal_pink" pos="60.564 -15.2029 15.347" rot="-0.903827 0.427897 -0.000115224 5.45502e-05"/>
-        <o name="hexrock_small_01" mat="hexrock_crystal_pink" pos="154.95 35.553 113.378" rot="-0.903827 0.427897 -0.000115224 5.45502e-05"/>
-        <o name="hexrock_small_03" mat="hexrock_crystal_pink" pos="112.062 -238.77 111.903" rot="-0.961773 -0.273845 -0.000122611 -3.49109e-05"/>
+        <o name="hexrock_small_01" mat="hexrock_marble" pos="42.9987 40.7644 75.5636" rot="0 -1 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_marble" pos="-92.6051 115.597 57.119" rot="0 -1 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_marble" pos="-23.192 187.345 51.9918" rot="0.605238 -0.796044 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_marble" pos="-45.017 161.455 45.4588" rot="0.605238 -0.796044 0 0"/>
+        <o name="hexrock_single_01" mat="hexrock_marble" pos="-49.5373 114.603 26.4834" rot="0.605238 -0.796044 0 0"/>
+        <o name="hexrock_single_01" mat="hexrock_marble" pos="-50.6411 113.322 28.2478" rot="0.605233 -0.796037 0.00250782 0.00329843"/>
+        <o name="hexrock_single_01" mat="hexrock_marble" pos="-49.7021 112.812 24.0485" rot="0.605233 -0.796037 0.00250782 0.00329843"/>
+        <o name="hexrock_small_03" mat="hexrock_marble" pos="-132.049 -82.421 88.1888" rot="0 1 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_marble" pos="-67.9129 82.251 42.6605" rot="0 1 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_marble" pos="21.601 217.327 71.9181" rot="0 1 0 0"/>
+        <o name="hexrock_small_02" mat="hexrock_marble" pos="-113.268 -5.50874 66.168" rot="-0.971692 -0.236249 0 0"/>
+        <o name="hexrock_small_01" mat="hexrock_marble" pos="-112.313 -1.7489 70.3076" rot="0 1 0 0"/>
+        <o name="hexrock_medium_01" mat="hexrock_marble" pos="138.244 168.494 103.176" rot="0.577182 0.816615 7.35816e-05 0.000104106"/>
+        <o name="hexrock_single_01" mat="hexrock_marble" pos="-39.1108 -101.806 73.7887" rot="0 1 0 0.000127484"/>
+        <o name="hexrock_single_01" mat="hexrock_marble" pos="-38.9232 -100.264 67.2113" rot="-0.395829 0.918324 -5.04619e-05 0.000117072"/>
+        <o name="hexrock_single_02" mat="hexrock_marble" pos="-37.6393 -100.957 70.0059" rot="-0.395829 0.918324 -5.04619e-05 0.000117072"/>
+        <o name="hexrock_single_02" mat="hexrock_marble" pos="-38.0341 -102.166 61.5619" rot="-0.395829 0.918324 -5.04619e-05 0.000117072"/>
+        <o name="hexrock_single_01" mat="hexrock_marble" pos="-36.5291 -101.413 64.7791" rot="-0.395829 0.918324 -5.04619e-05 0.000117072"/>
+        <o name="hexrock_small_01" mat="hexrock_marble" pos="60.564 -15.2029 15.347" rot="-0.903827 0.427897 -0.000115224 5.45502e-05"/>
+        <o name="hexrock_small_01" mat="hexrock_marble" pos="154.95 35.553 113.378" rot="-0.903827 0.427897 -0.000115224 5.45502e-05"/>
+        <o name="hexrock_small_03" mat="hexrock_marble" pos="112.062 -238.77 111.903" rot="-0.961773 -0.273845 -0.000122611 -3.49109e-05"/>
     </objects>
     <emitters/>
 </scene>
