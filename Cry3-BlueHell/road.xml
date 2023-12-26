@@ -1,9 +1,9 @@
 <SplineRoad>
-    <mtr type="0" road="roadSandMagic" pipe="pipeGlassCrystal" road2="roadCrystal" pipe2="pipeGlassAlienLime" road3="roadMetal1" pipe3="pipeGlassAlienBlue" road4="roadIce" pipe4="pipeGlassCyan" wall="road_wall_crystal" pipeW="pipe_wall_crystal" col="road_col_crystal"/>
+    <mtr type="0" road="roadSandMagic" pipe="pipeGlassCrystal" road2="roadCrystal" pipe2="pipeGlassCrystal2Cyan" road3="roadMetal1" pipe3="pipeGlassAlienBlue" road4="roadIce" pipe4="pipeGlassCyan" wall="road_wall_crystal" pipeW="pipe_wall_crystal" col="road_col_crystal"/>
     <dim tcMul="0.0650965" tcW="0.156378" tcP="0.0508341" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="720.96" lodPntLen="36.8094" visDist="1000" visBehind="800"/>
-    <geom colN="6" colR="2.82091" wsPm="8" lsPm="1.53229" stBox="1 14.336 29.4518" iDir="-1" iChk1="179"/>
-    <stats length="6169.991" width="13.749431" height="136.02232" onTer="75.9876" pipes="33.294125" onPipe="17.45971" bnkAvg="18.228817" bnkMax="87.54002"/>
+    <geom colN="6" colR="2.82091" wsPm="8" lsPm="1.53229" stBox="1 14.336 29.4518" iDir="-1" iChk1="178"/>
+    <stats length="6163.7373" width="13.953741" height="136.62392" onTer="78.61094" pipes="35.873974" onPipe="17.477425" bnkAvg="17.666388" bnkMax="87.54002"/>
     <txt desc="Extremely difficult track. Unique dark from black sun, ambient fog and heavy specular."/>
     <adv ice="Very tricky and twisted. Has also an on-pipe loop, be in center and keep speed, to not fall off. Caution! crazy obstacles, avoid damage."/>
     <P pos="-252.956 0 -94.1289" w="9.336" aT="2" chkR="1.364"/>
@@ -166,14 +166,13 @@
     <P pos="-110.385 0 -218.601" w="11.912" a="-194.16" ar="158.82" aT="2" chkR="1"/>
     <P pos="-137.256 0 -196.186" w="12.784" aT="2"/>
     <P pos="-208.591 0 -151.048" w="11.912" aT="2"/>
-    <P pos="-238.936 0 -132.479" w="11.144" aT="2" mtr="1" chkR="1.368"/>
-    <P pos="-263.295 0 -115.1" w="9.376" aT="2" mtr="1"/>
-    <P pos="-273.617 0 -105.442" w="4.912" aT="2" mtr="1"/>
-    <P pos="-283.93 0 -93.3549" w="3.84" aT="2" mtr="1"/>
-    <P pos="-301.549 0 -68.3092" w="3.128" aT="2" mtr="1"/>
-    <P pos="-311.774 0 -40.7099" w="3.59999" aT="2" mtr="1"/>
-    <P pos="-305.473 0 -17.9452" w="3.016" aT="2" mtr="-1"/>
-    <P pos="-305.376 0 -18.4991" w="14" a="0" ar="-78.84" aT="2" col="0"/>
+    <P pos="-238.936 0 -132.479" w="11.144" a="0" ar="-12.067858" aT="2" mtr="1" chkR="1.368"/>
+    <P pos="-263.295 63.946022 -115.1" w="16.90395" onTer="0" a="0" ar="-10.11162" aT="2" col="0" pipe="0.467404" mtr="1" wall="-1"/>
+    <P pos="-273.617 70.450485 -105.442" w="14.259893" onTer="0" a="0" ar="-15.178017" aT="2" col="0" pipe="0.467404" mtr="1" wall="-1"/>
+    <P pos="-283.93 82.99324 -93.3549" w="14.053927" onTer="0" a="0" ar="-42.507133" aT="2" col="0" pipe="0.467404" mtr="1" wall="-1"/>
+    <P pos="-301.549 95.70777 -68.3092" w="12.592807" onTer="0" a="0" ar="-57.744534" aT="2" pipe="0.467404" mtr="1" wall="-1"/>
+    <P pos="-311.774 93.72437 -40.7099" w="13.908775" onTer="0" a="0" ar="-69.32324" aT="2" col="0" pipe="0.467404" mtr="1" wall="-1"/>
+    <P pos="-305.376 88.706566 -18.4991" w="14" onTer="0" a="0" ar="-78.84" aT="2" col="0"/>
     <P pos="-281.561 69.3746 13.8692" w="17.232" onTer="0" a="0" ar="-70.5" aT="2" pipe="1"/>
     <P pos="-254.253 69.3746 33.2976" w="15.52" onTer="0" a="0" ar="-36" aT="2" pipe="1"/>
     <P pos="-235.41 69.3746 53.9234" w="14.592" onTer="0" a="0" ar="-36" aT="2" pipe="1" mtr="3"/>

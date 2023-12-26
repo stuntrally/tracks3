@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="Industrypark" secEd="8248"/>
+    <ver num="3018" baseTrk="Industrypark" secEd="11556"/>
     <car tires="0" damage="0.254438" road1mtr="0" noWrongChks="1" needLights="1"/>
     <start pos="-253.653 -47.419 35.1935" rot="-0.045175 0.0262468 0.966307 -0.25206" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Crystals"/>
-    <sky material="sky/magicdark" rain2Name="RainFine" rain2Emit="66" skyYaw="4.5"/>
-    <fog color="0.688 0.893 0.277 1.246 0.112" color2="0.754 0.975 0.233 1.226 0.101" linStart="130.039" linEnd="304.581"/>
-    <fogH color="0.579 0.568 0.467 1.000 0.209" height="33.2594" dens="50.627" linStart="0" linEnd="59.8227"/>
-    <light pitch="20.3548" yaw="-30" ambient="0.711 0.498 0.487 0.000 0.000" diffuse="0.566 0.060 0.000 1.000 0.124" specular="0.643 0.950 5.000 0.000 0.000"/>
+    <sky material="sky/space_nebula_01_blue" rain2Name="RainFine" rain2Emit="66" skyYaw="-169.77272"/>
+    <fog color="0.688 0.893 0.277 0.362 0.112" color2="0.754 0.975 0.233 0.820 0.101" linStart="130.039" linEnd="1387.6042"/>
+    <fogH color="0.579 1.000 0.781 0.302 0.087" height="33.2594" dens="50.627" linStart="0" linEnd="59.8227"/>
+    <light pitch="20.3548" yaw="153.40909" ambient="0.711 0.498 0.487 0.000 0.000" diffuse="0.566 0.060 0.336 0.820 0.405" specular="0.643 0.950 5.000 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="blue jelly" pos="-31.4173 2.39239 -148.286" rot="0 0 0" size="194.209 40 186.952" tile="0.01 0.01"/>
     </fluids>
@@ -19,6 +19,31 @@
                 <noise frq0="58.8864" oct0="3" prs0="0.3" pow0="1.42639" frq1="38.6353" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="ycrystals_big_d.jpg" fnorm="ycrystals_big_n.jpg" scale="17.1533" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.667 0.667 0.300 1.000 0.000" dmg="1.22295" angMin="38.0431" angMax="90" angSm="9.89247" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="42.0294" oct0="3" prs0="0.3" pow0="1.5" frq1="43.1932" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="18.6648" surf="SnowMedium" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="1" noise="0" n_1="0" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadGravel" dust="0" dustS="0" mud="0.026936" smoke="0" tclr="0.628 0.525 0.370 1.010 0.184"/>
+            <texture road="2" surf="roadDesert" dust="0" dustS="0" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
+            <texture road="3" surf="" dust="0" dustS="0" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
+            <texture road="4" surf="roadSnow" dust="0.00954654" dustS="0.183771" mud="0.0381862" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <par dust="SnowDust" mud="SnowMud" smoke="SnowDust"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="9.07484" diff="1 1 1" horiz="1">
+            <texture on="1" file="ycrystals_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="36.744785" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.595 0.875 0.400 0.600 0.000" dmg="0.441544" angMin="0" angMax="12.9913" angSm="3.4845" hMin="-300" hMax="750.81494" hSm="20" nOn="0" noise="1" n_1="1" n2="1">
+                <noise frq0="20.542" oct0="3" prs0="0.215068" pow0="1.90712" frq1="47.1905" oct1="4" prs1="0.320744" pow1="2.95938"/>
+            </texture>
+            <texture on="1" file="ycrystals_med_d.jpg" fnorm="ycrystals_med_n.jpg" scale="24.937792" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.500 0.833 0.300 0.600 0.000" dmg="0.879696" angMin="15.1826" angMax="31.5264" angSm="8.95089" hMin="-300" hMax="750.81494" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="58.8864" oct0="3" prs0="0.3" pow0="1.42639" frq1="38.6353" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="ycrystals_big_d.jpg" fnorm="ycrystals_big_n.jpg" scale="36.87092" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.667 0.667 0.300 1.000 0.000" dmg="1.22295" angMin="38.0431" angMax="90" angSm="9.89247" hMin="-300" hMax="752.5029" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
                 <noise frq0="42.0294" oct0="3" prs0="0.3" pow0="1.5" frq1="43.1932" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="18.6648" surf="SnowMedium" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="1" noise="0" n_1="0" n2="0">
@@ -66,13 +91,13 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-211.36 171.654 116.188" dir="0.84095496 -0.48976094 0.23006296"/>
+    <cam pos="-460.1438 228.08012 353.70972" dir="0.758332 -0.33434615 -0.5595938"/>
     <objects>
         <o name="ring_blue_stick" pos="-162.367 27.3879 0" rot="0 -1 0 0" sc="1 1.47403 1"/>
         <o name="ring_blue_stick" pos="-156.844 26.2718 0" rot="0 -1 0 0" sc="1 1.48837 1"/>
         <o name="dish_hole_cry" pos="20.7722 -67.6773 42.6083" rot="0.674973 -0.28008 -0.634676 -0.251262" sc="1.65068 1.65068 1.65068"/>
-        <o name="obstacle2" pos="-170.627 180.566 19.6009" rot="-0.240377 0.795283 -0.523514 0.188869" sc="1.06902 1.06902 1.06902"/>
-        <o name="obstacle2" pos="-148.362 181.908 23.2283" rot="-0.270132 0.801084 0.51459 -0.143112" sc="1.12123 1.12123 1.12123"/>
+        <o name="obstacle2" mat="obstaclesCrystal" pos="-170.627 180.566 19.6009" rot="-0.240377 0.795283 -0.523514 0.188869" sc="1.06902 1.06902 1.06902"/>
+        <o name="obstacle2" mat="obstaclesCrystal" pos="-148.362 181.908 23.2283" rot="-0.270132 0.801084 0.51459 -0.143112" sc="1.12123 1.12123 1.12123"/>
         <o name="concrete_bar" pos="60.9627 78.1556 9.75852" rot="-0.0317679 -0.997809 -0.021699 0.0538672" sc="1.45154 1.45154 1.45154"/>
         <o name="obstacle1" pos="58.7801 -9.55023 1.55234" rot="0.600598 0.459132 -0.596747 -0.269011"/>
         <o name="obstacle1" pos="43.0168 -15.5056 0.235204" rot="-0.530112 0.468146 -0.459075 -0.537645" sc="1.2608 1.2608 1.2608"/>

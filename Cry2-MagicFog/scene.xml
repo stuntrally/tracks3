@@ -1,9 +1,9 @@
 <scene>
-    <ver num="3016" baseTrk="Industrypark-edit" secEd="1230"/>
+    <ver num="3018" baseTrk="Industrypark-edit" secEd="2552"/>
     <car tires="0" damage="1.19831" needLights="1" gravity="8.9084"/>
     <start pos="151.504 45.7788 57.9677" rot="-0.0442504 -0.0555951 -0.516426 0.853431" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Crystals"/>
-    <sky material="sky/magicdark" skyYaw="-19.125"/>
+    <sky material="sky/space_nebula_01" skyYaw="-19.125"/>
     <fog color="0.857 0.804 0.068 0.504 0.000" color2="0.833 0.843 0.063 0.525 0.000" linStart="0" linEnd="48.4489"/>
     <fogH color="0.899 0.866 0.361 2.000 0.130" height="66.0754" dens="87.9062" linStart="0" linEnd="26.5879"/>
     <light pitch="50.3438" yaw="-70.875" ambient="0.630 0.686 0.120 0.885 0.000" diffuse="0.630 0.554 0.120 0.885 0.000" specular="0.669 0.835 5.000 0.000 0.000"/>
@@ -36,8 +36,33 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="WetDust"/>
         </terrain>
+        <terrain ofsZ="0" triangle="8.33882" diff="1 1 1" horiz="1">
+            <texture on="1" file="ycrystals_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="17.15" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" dmg="0.722729" angMin="0" angMax="10.0391" angSm="3.4845" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="1" n2="1">
+                <noise frq0="28.0845" oct0="3" prs0="0.215068" pow0="0.926946" frq1="13.8659" oct1="4" prs1="0.320744" pow1="3.23972"/>
+            </texture>
+            <texture on="1" file="ycrystals_med_d.jpg" fnorm="ycrystals_med_n.jpg" scale="12.5928" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.500 0.833 0.300 0.600 0.000" dmg="1.30127" angMin="14.2661" angMax="31.5264" angSm="8.95089" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="0" n2="1">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="ycrystals_big_d.jpg" fnorm="ycrystals_big_n.jpg" scale="13.3813" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.667 0.667 0.300 1.000 0.000" dmg="2.39059" angMin="38.0431" angMax="90" angSm="9.89247" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="27.7542" oct0="3" prs0="0.3" pow0="1.25033" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="26.04" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="1" noise="0" n_1="0" n2="0">
+                <noise frq0="16.2835" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="0.668752"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadForest" dust="0" dustS="0.228956" mud="0" smoke="0" tclr="0.552 0.667 0.300 0.700 0.000"/>
+            <texture road="2" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.646 0.348 0.460 0.800 0.000"/>
+            <texture road="3" surf="roadDesert" dust="0" dustS="0" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="SnowDust" mud="SnowMud" smoke="WetDust"/>
+        </terrain>
     </terrains>
-    <veget densGrass="0" densTrees="0.297566" grPage="220" grDist="220" grDensSmooth="10" trPage="140" trDist="220" trDistImp="800" trRdDist="0">
+    <veget densGrass="0" densTrees="0.297566" grPage="220" grDist="220" grDensSmooth="10" trPage="140" trDist="220" trDistImp="800" trRdDist="1">
         <grass on="1" mtr="grassUnidentified" dens="0.0749458" chan="0" minSx="2.09" maxSx="2.42" minSy="1.6" maxSy="1.91" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass18w" dens="0.104921" chan="0" minSx="1.22276" maxSx="1.36749" minSy="0.971935" maxSy="1.19486" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <grass on="1" mtr="grass7wg" dens="0.0357463" chan="0" minSx="1.2796" maxSx="1.56875" minSy="1.99746" maxSy="2.34008" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
@@ -51,12 +76,12 @@
         <gchan amin="0" amax="18.4367" asm="7.32485" hmin="-0.140516" hmax="2.52927" hsm="1.95683" ns="0" frq="58" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="91" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="124" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="crystal2.mesh" dens="0.190778" minScale="0.935398" maxScale="2.17409" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="42.0804" minTerH="21.7297" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="crystal1.mesh" dens="0.205094" minScale="0.904336" maxScale="1.79442" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="47.2181" minTerH="20.4324" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="crystal_form1.mesh" dens="0.155031" minScale="0.775814" maxScale="2.08816" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="47.9255" minTerH="-100" maxTerH="51.8919" maxDepth="0"/>
-        <layer on="1" name="crystal_form2.mesh" dens="0.136182" minScale="0.689696" maxScale="1.53869" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="59.5624" minTerH="-100" maxTerH="47.6757" maxDepth="0"/>
-        <layer on="1" name="crystal_form3.mesh" dens="0.277922" minScale="1.4464" maxScale="2.19083" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="59.9588" minTerH="-100" maxTerH="80.1081" maxDepth="0"/>
-        <layer on="1" name="crystal_cube4.mesh" dens="0.286902" minScale="0.768378" maxScale="1.17297" ofsY="0" addTrRdDist="0" maxRdist="10" windFx="0" windFy="0" maxTerAng="39.387" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal2.mesh" dens="0.190778" minScale="0.935398" maxScale="1.864993" ofsY="0" addTrRdDist="2" maxRdist="20" windFx="0" windFy="0" maxTerAng="42.0804" minTerH="21.7297" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal1.mesh" dens="0.205094" minScale="0.904336" maxScale="1.6590595" ofsY="0" addTrRdDist="1" maxRdist="20" windFx="0" windFy="0" maxTerAng="47.2181" minTerH="20.4324" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal_form1.mesh" dens="0.155031" minScale="0.775814" maxScale="1.5395079" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="47.9255" minTerH="-100" maxTerH="51.8919" maxDepth="0"/>
+        <layer on="1" name="crystal_form2.mesh" dens="0.136182" minScale="0.689696" maxScale="1.3920288" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="59.5624" minTerH="-100" maxTerH="47.6757" maxDepth="0"/>
+        <layer on="1" name="crystal_form3.mesh" dens="0.277922" minScale="1.1851853" maxScale="2.065405" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="59.9588" minTerH="-100" maxTerH="80.1081" maxDepth="0"/>
+        <layer on="1" name="crystal_cube4.mesh" dens="0.286902" minScale="0.768378" maxScale="1.17297" ofsY="0" addTrRdDist="1" maxRdist="10" windFx="0" windFy="0" maxTerAng="39.387" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="rock_B01.mesh" dens="0.0107015" minScale="0.344369" maxScale="0.554761" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.207937" windFy="0.0222255" maxTerAng="28.5877" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="rock_B03.mesh" dens="0.0999996" minScale="0.71" maxScale="1.27" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="37.74" minTerH="-100" maxTerH="100" maxDepth="2"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999994" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="30" minTerH="-100" maxTerH="100" maxDepth="5"/>
@@ -66,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-178.519 134.291 -159.415" dir="0.67293346 -0.36282513 0.6446074"/>
+    <cam pos="169.2369 143.31703 311.58115" dir="-0.27317372 -0.28678718 -0.9182207"/>
     <objects>
         <o name="cave_B06" pos="171.637 108.784 42.8441" rot="0.694348 -0.684294 -0.154079 -0.160886" sc="0.99868 1.10939 0.99868"/>
         <o name="dish_hole_cry" pos="11.8535 -72.8847 44.9892" rot="0.230606 -0.563615 0.363984 0.704741"/>
