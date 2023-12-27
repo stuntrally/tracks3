@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="5114"/>
+    <ver num="3018" baseTrk="" secEd="5410"/>
     <car tires="0" needLights="1"/>
     <start pos="13.5461 -50.3766 -11.5648" rot="0.057069 -0.00168199 -0.757962 -0.649815" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" vol="1" reverbs="Forest"/>
-    <sky material="sky/magicdark" skyYaw="-7.3684235"/>
-    <fog color="0.888 0.655 1.000 1.000 0.000" color2="0.775 0.548 0.308 1.000 0.612" linStart="189.58504" linEnd="1475.7489"/>
+    <sound ambient="" reverbs="Forest"/>
+    <sky material="sky/space_nebula_01_blue" skyYaw="175.22726"/>
+    <fog color="0.795 0.574 0.133 1.000 0.159" color2="0.550 0.432 0.039 1.000 0.130" linStart="189.58504" linEnd="1475.7489"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="31" yaw="-30" ambient="0.655 0.324 0.308 1.000 0.000" diffuse="0.550 0.202 0.719 1.000 0.000" specular="0.490 0.417 1.569 1.000 0.000"/>
+    <light pitch="31" yaw="152.04547" ambient="0.655 0.324 0.308 1.000 0.000" diffuse="0.550 0.202 0.719 1.000 0.000" specular="0.490 0.417 1.569 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="oil" pos="-23.157574 -16.542261 28.630375" rot="0 0 0" size="53.912113 20 56.267628" tile="0.004217383 0.004217383"/>
         <fluid hq="2" name="ice solid" pos="110.2591 -27.4604 -79.32242" rot="0 0 0" size="230.31929 20 119.68405" tile="0.01 0.01"/>
