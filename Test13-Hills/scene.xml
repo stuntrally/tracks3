@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="4340"/>
+    <ver num="3018" baseTrk="" secEd="5185"/>
     <car tires="0"/>
     <start pos="46.7911 -99.4786 -4.09257" rot="-3.83705e-07 6.91462e-08 0.999939 0.0112108" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Desert"/>
-    <sky material="sky/cloudy_01"/>
-    <fog color="0.583 0.222 0.500 0.056 0.000" color2="0.246 0.072 0.438 0.460 0.000" linStart="114.529" linEnd="1553.46"/>
+    <sky material="sky/sunset_04_cloudy"/>
+    <fog color="0.603 0.320 0.361 1.000 0.000" color2="0.593 0.407 0.320 1.000 0.000" linStart="4.2213287" linEnd="829.95184"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="48.4557" linStart="0" linEnd="400"/>
-    <light pitch="20" yaw="0" ambient="0.000 0.000 0.550 1.000 0.000" diffuse="0.167 0.035 0.850 1.000 0.000" specular="0.167 0.020 1.026 0.000 0.000"/>
+    <light pitch="17.727274" yaw="1.3636322" ambient="0.000 0.000 0.550 1.000 0.000" diffuse="0.167 0.035 0.850 1.000 0.000" specular="0.167 0.020 1.026 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="149.018 -11.8752 -41.1634" rot="0 0 0" size="143.17 20 198.704" tile="0.01 0.01"/>
         <fluid hq="2" name="water blue" pos="-3.56265 -13.1374 -99.8301" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
@@ -93,6 +93,27 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
     <cam pos="78.1096 14.2413 -93.9379" dir="-0.696569 -0.287346 0.657438"/>
-    <objects/>
+    <objects>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-0.24355212 -103.74254 -3.9358408" rot="0.04255298 0.9961778 0.061827682 -0.044680867"/>
+        <o name="garbage_bin" mat="garbage_bin_green" pos="-0.7493418 -100.1064 -3.7027278" rot="-0.10976444 0.9928316 0.0017443808 -0.047266714"/>
+        <o name="garbage_bin" mat="garbage_bin_blue" pos="-1.0090103 -95.20575 -4.303291" rot="0.0834977 0.9904067 -0.10977488 -0.008497076"/>
+        <o name="cave_01" mat="cave_ice_marble" pos="134.97841 -38.026546 -3.128667" rot="0 -1 0 0"/>
+        <o name="cave_02" mat="cave_uni" pos="118.66885 -67.90687 -7.3230143" rot="0 -1 0 0"/>
+        <o name="cave_03" mat="cave_orange" pos="133.71666 -106.81399 -2.8803718" rot="0 -1 0 0"/>
+        <o name="cave_04" mat="cave_brown" pos="138.105 -160.52353 -0.16661255" rot="0 -1 0 0"/>
+        <o name="cave_05" mat="cave_alien" pos="157.4444 -30.195606 -0.08297908" rot="0 -1 0 0"/>
+        <o name="cave_06" mat="cave_winter" pos="164.63228 -64.11449 -6.861151e-05" rot="0 -1 0 0"/>
+        <o name="cave_07" mat="cave_white" pos="164.96257 -111.66757 -1.2486925e-09" rot="0 -1 0 0"/>
+        <o name="cave_08" mat="cave_dark" pos="177.7678 -155.39383 0" rot="0 -1 0 0"/>
+        <o name="cave_09" mat="cave_yellow" pos="221.1463 -53.53311 0" rot="0 -1 0 0"/>
+        <o name="cave_10" mat="cave_ice" pos="233.37755 -154.00595 0" rot="0 -1 0 0"/>
+        <o name="cavebig_01" mat="cave_brown" pos="235.952 84.34616 11.838486" rot="0 -1 0 0"/>
+        <o name="cavebig_02" mat="cave_ice" pos="242.24702 148.1977 12.694971" rot="0 -1 0 0"/>
+        <o name="cavebig_03" mat="cave_yellow" pos="205.73264 31.02927 11.838486" rot="0 -1 0 0"/>
+        <o name="cavebig_04" mat="cave_white" pos="140.67487 83.84865 11.816706" rot="0 -1 0 0"/>
+        <o name="cavebig_05" mat="cave_alien" pos="150.40862 208.0296 11.811792" rot="0 -1 0 0"/>
+        <o name="cavebig_06" mat="cave_brown" pos="91.87842 158.8701 10.853237" rot="0 -1 0 0"/>
+        <o name="cavebig_01" mat="cave_green" pos="313.54572 27.370882 1.2109847" rot="-0.36914414 -0.923245 -0.025398146 0.10346642"/>
+    </objects>
     <emitters/>
 </scene>

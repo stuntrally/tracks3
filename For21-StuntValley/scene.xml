@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="For12-HighPeaks" secEd="21831"/>
+    <ver num="3018" baseTrk="For12-HighPeaks" secEd="21921"/>
     <car tires="0" damage="0.956072" denyRev="1"/>
     <start pos="177.356 121.706 69.6102" rot="-0.0411963 0.0851004 -0.538813 0.837144" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="MountainsClose"/>
-    <sky material="sky/day_clouds_01_thin" skyYaw="-69.7021"/>
+    <sky material="sky/day_clouds_06_bright" skyYaw="-32.045456"/>
     <fog color="0.593 0.106 0.850 0.805 0.000" color2="0.583 0.082 0.730 0.858 0.000" linStart="115.344" linEnd="743.249"/>
     <fogH color="0.583 0.062 0.316 0.800 0.000" height="12.0253" dens="31.0452" linStart="0" linEnd="103.513"/>
-    <light pitch="50" yaw="-37" ambient="0.167 0.100 0.500 1.000 0.000" diffuse="0.135 0.242 0.660 1.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
+    <light pitch="38.352272" yaw="1.3636322" ambient="0.167 0.100 0.500 1.000 0.000" diffuse="0.135 0.242 0.660 1.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="-214.599 -21.4957 413.905" rot="0 0 0" size="2121.4 41.8982 2010.12" tile="0.01 0.01"/>
         <fluid hq="2" name="water blue" pos="80.1652 0.815968 -42.0946" rot="0 0 0" size="131.006 20 64.6532" tile="0.01 0.01"/>
@@ -117,7 +117,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="187.6 65.3281 -25.112" dir="-0.99047 -0.097614 -0.0971637"/>
+    <cam pos="187.6 65.3281 -25.112" dir="-0.99047 -0.097614 -0.09716374"/>
     <objects>
         <o name="house_4" pos="-189.597 -139.12 -9.16886" rot="0.864933 0.501857 -0.00594695 -0.00275107" sc="1.81801 1.92663 1.81801"/>
         <o name="water_plane_big" pos="-100.34 -295.432 -22.0947" rot="0.457555 -0.889169 0.0037548 0.00203671"/>
@@ -143,7 +143,7 @@
     </objects>
     <emitters>
         <e name="SmokeBlack" pos="-189.588 -1.9817 139.521" sc="0.919563 1.43006 1.0551" up="0 1 0" rot="0" rate="5.1659" st="0" psc="0.1004"/>
-        <e name="WaterfallLow" pos="-44.1866 -11.3661 -26.0974" sc="14.4761 23.0469 21.3432" up="0 1 0" rot="0" rate="284.388" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="-44.1866 -11.3661 -26.0974" sc="14.4761 23.0469 21.3432" up="0 1 0" rot="0" rate="124.91338" st="0" psc="1"/>
         <e name="Cloud6WhiteSlow" pos="25.2311 119.474 2.77381" sc="582.394 76.8025 578.387" up="0 1 0" rot="0" rate="37.138" st="0" psc="1"/>
     </emitters>
 </scene>

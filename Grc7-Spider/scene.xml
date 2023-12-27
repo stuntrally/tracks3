@@ -1,14 +1,14 @@
 <scene>
-    <ver num="3018" baseTrk="Isl10-Treasure" secEd="3643"/>
+    <ver num="3018" baseTrk="Isl10-Treasure" secEd="3816"/>
     <car tires="0" damage="0.401338"/>
     <start pos="-223.835 23.6953 60.6295" rot="0.0766546 0.0668877 0.654066 0.749579" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
-    <sky material="sky/sky_clear_01" skyYaw="16.0851"/>
+    <sky material="sky/day_clouds_02_blue" skyYaw="47.727264"/>
     <fog color="0.559 0.258 1.011 1.000 0.000" color2="0.577 0.618 0.482 1.000 0.000" linStart="613.576" linEnd="1814.06"/>
     <fogH color="0.000 0.000 0.400 1.000 0.000" height="-117.794" dens="14.3831" linStart="4.07033" linEnd="169.044"/>
-    <light pitch="35" yaw="-33" ambient="0.000 0.000 0.440 1.000 0.000" diffuse="0.000 0.000 0.600 1.000 0.000" specular="0.000 0.000 0.340 1.000 0.000"/>
+    <light pitch="35" yaw="0.68182373" ambient="0.000 0.000 0.440 1.000 0.000" diffuse="0.000 0.000 0.600 1.000 0.000" specular="0.000 0.000 0.340 1.000 0.000"/>
     <fluids>
-        <fluid hq="2" name="water blue" pos="0 -2 0" rot="0 0 0" size="10789 60 10643" tile="0.01 0.01"/>
+        <fluid hq="2" name="water blue" pos="0 -2 0" rot="0 0 0" size="30789 60 30643" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="1.63445" triangle="1.63445" diff="1 1 1">
@@ -116,7 +116,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-626.75 191.798 -411.103" dir="0.86507 -0.306556 0.397086"/>
+    <cam pos="-626.75 191.798 -411.103" dir="0.86507004 -0.306556 0.3970859"/>
     <objects>
         <o name="plastic_big" pos="140.67 78.7745 -150.909" rot="-0.482644 0.875692 -0.0122137 0.00827143"/>
         <o name="plastic_big" pos="126.053 95.1964 -151.137" rot="-0.476361 0.879238 -0.000364507 0.00457793"/>
