@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="1504"/>
+    <ver num="3018" baseTrk="" secEd="2007"/>
     <car tires="0" needLights="1"/>
     <start pos="140.493 -67.6561 0.6" rot="-0.012621 -0.000111002 -0.999885 0.00876116" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/dark_clouds" rainName="RainFastA" rainEmit="2985" rain2Name="RainStorm" rain2Emit="112"/>
-    <fog color="0.556 0.086 0.076 1.000 0.000" color2="0.583 0.222 0.063 1.000 0.000" linStart="66.6125" linEnd="281.25"/>
+    <sky material="sky/cloudy_03_dark2" rainName="RainFastA" rainEmit="2985" rain2Name="RainStorm" rain2Emit="112" skyYaw="-15.681808"/>
+    <fog color="0.581 0.395 0.070 0.911 0.000" color2="0.539 0.291 0.066 0.860 0.000" linStart="66.6125" linEnd="281.25"/>
     <fogH color="0.000 0.000 0.023 1.000 0.000" height="2.46001" dens="22.445" linStart="0" linEnd="23.1125"/>
-    <light pitch="25.875" yaw="28.8" ambient="0.000 0.000 0.200 1.000 0.000" diffuse="0.000 0.000 0.304 0.000 0.000" specular="0.583 0.028 0.332 1.000 0.000"/>
+    <light pitch="43.80682" yaw="-5" ambient="0.000 0.000 0.136 0.911 0.000" diffuse="0.000 0.000 0.220 0.000 0.000" specular="0.583 0.028 0.332 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water dark" pos="0.290187 -17.5301 104.722" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
         <fluid hq="0" name="water dark" pos="1020.67 4.37114 -235.84" rot="0 0 0" size="1114.04 20 881.856" tile="0.01 0.01"/>
@@ -92,7 +92,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="125.779 11.6814 53.5234" dir="-0.89944 -0.121712 0.419755"/>
+    <cam pos="127.97146 8.96967 62.00688" dir="-0.9729 -0.121711925 0.1966008"/>
     <objects>
         <o name="big_tire" pos="156.168 136.923 41.506" rot="0.720068 -0.687977 0.0505481 0.0750664"/>
         <o name="big_tire" pos="162.654 133.721 42.0882" rot="0.708998 -0.700861 0.0607596 0.0492319"/>

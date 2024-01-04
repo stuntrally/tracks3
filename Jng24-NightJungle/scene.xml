@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="Jng3-Rocky" secEd="12994"/>
+    <ver num="3018" baseTrk="Jng3-Rocky" secEd="13013"/>
     <car tires="0" needLights="1"/>
     <start pos="-193.387 -91.0067 -5.63881" rot="1.78814e-07 -1.19221e-07 -0.692032 -0.721879" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
-    <sky material="sky/dark_clouds"/>
-    <fog color="0.500 0.097 0.220 1.000 0.000" color2="0.120 0.000 0.230 0.794 0.000" linStart="31.9467" linEnd="233.195"/>
+    <sky material="sky/night_01_clear"/>
+    <fog color="0.591 0.267 0.197 1.000 0.000" color2="0.550 0.204 0.084 0.900 0.000" linStart="31.9467" linEnd="233.195"/>
     <fogH color="0.112 1.000 0.149 0.703 0.566" height="65.1885" dens="100.059" linStart="0" linEnd="151.25"/>
-    <light pitch="36" yaw="41" ambient="0.287 0.147 0.457 3.000 0.000" diffuse="0.349 0.167 0.223 3.000 0.000" specular="1.000 0.118 0.188 3.000 0.000"/>
+    <light pitch="18" yaw="-35" ambient="0.287 0.147 0.457 3.000 0.000" diffuse="0.349 0.167 0.223 3.000 0.000" specular="1.000 0.118 0.188 3.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="50.5659 -30.5075 -1.8631" rot="0 0 0" size="105.195 20 270.383" tile="0.01 0.01"/>
     </fluids>

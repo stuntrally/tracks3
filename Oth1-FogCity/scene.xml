@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="V8-Uncertain" secEd="1839"/>
+    <ver num="3018" baseTrk="V8-Uncertain" secEd="2117"/>
     <car tires="1" damage="0.497041"/>
     <start pos="-4.59008 30.3143 61.3729" rot="-2.3843e-07 -1.16899e-07 -0.0217972 -0.999765" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="ForestDense"/>
-    <sky material="sky/dark_clouds"/>
-    <fog color="0.530 0.094 0.320 0.700 0.000" color2="0.556 0.097 0.310 0.600 0.000" linStart="0" linEnd="911.946"/>
+    <sky material="sky/sunset_06" skyYaw="-46.363632"/>
+    <fog color="0.111 0.729 0.565 0.417 0.000" color2="0.583 0.186 0.154 1.000 0.000" linStart="0" linEnd="911.946"/>
     <fogH color="0.533 0.072 0.161 1.000 0.000" height="35.0515" dens="21.0915" linStart="0" linEnd="5.85875"/>
-    <light pitch="32.7062" yaw="49.1753" ambient="0.000 0.000 0.400 -0.000 0.000" diffuse="0.000 0.000 0.366 0.600 0.000" specular="0.000 0.000 0.500 -0.000 0.000"/>
+    <light pitch="10" yaw="-50" ambient="0.000 0.000 0.400 -0.000 0.000" diffuse="0.000 0.000 0.366 0.600 0.000" specular="0.000 0.000 0.500 -0.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="4.69336" triangle="4.69336" diff="1 1 1">
@@ -89,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-24.525127 121.57714 -266.39914" dir="-0.003338786 -0.20937671 0.97782934"/>
+    <cam pos="-24.525127 121.57714 -266.39914" dir="-0.0033387863 -0.20937671 0.97782934"/>
     <objects>
         <o name="skyscraper12" pos="-72.1783 -107.508 3.56299e-06" rot="0 -1 0 0"/>
         <o name="skyscraper12" pos="15.7699 -105 -1.30222e-05" rot="-0.708492 -0.705719 0 0"/>
