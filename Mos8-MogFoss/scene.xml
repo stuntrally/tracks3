@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="Mos2-Mouse" secEd="106370"/>
+    <ver num="3018" baseTrk="Mos2-Mouse" secEd="106722"/>
     <car tires="0" damage="0.35443" road1mtr="0"/>
     <start pos="-608.553 -686.953 11.5813" rot="0.0308231 0.0847572 0.253892 -0.963063" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="JungleDense"/>
-    <sky material="sky/sunset_gen" rainName="CloudsMistOrangeLarge" rainEmit="28" rain2Name="CloudsMistOrangeThin" rain2Emit="110"/>
+    <sky material="sky/sunset_04_yellow" rainName="CloudsMistOrangeLarge" rainEmit="28" rain2Name="CloudsMistOrangeThin" rain2Emit="110" skyYaw="-42.272736"/>
     <fog color="0.105 0.494 0.581 0.342 0.000" color2="0.054 0.543 0.357 0.398 0.000" linStart="17.3417" linEnd="337.729"/>
     <fogH color="0.229 0.397 0.781 0.853 0.000" height="1.2" dens="10.2805" linStart="0" linEnd="22.1607"/>
-    <light pitch="16" yaw="45" ambient="0.645 0.176 0.543 0.000 0.000" diffuse="0.068 1.000 1.378 0.000 0.000" specular="0.041 0.118 0.800 0.000 0.000"/>
+    <light pitch="16" yaw="2.7272644" ambient="0.645 0.176 0.543 0.000 0.000" diffuse="0.068 1.000 1.378 0.000 0.000" specular="0.041 0.118 0.800 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water sunset cyan" pos="44.3319 -12.3035 30.9678" rot="0 0 0" size="5377.4 20 5946.65" tile="0.01 0.01"/>
     </fluids>
@@ -66,7 +66,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="80.9768 28.3749 -715.516" dir="-0.838308 -0.0165042 0.544947"/>
+    <cam pos="310.28378 65.05689 -659.8872" dir="-0.85360974 -0.13671193 0.50265324"/>
     <objects>
         <o name="hexcave_04" mat="hexrock_grey" pos="862.815 -492.757 -14.4158" rot="0.938993 -0.343935 0 0" sc="2.01297 2.01297 2.01297"/>
         <o name="hexcave_01" mat="hexrock_grey" pos="864.395 -432.45 -14.1075" rot="0.041662 -0.99913 0 0" sc="1.99749 1.99749 1.99749"/>

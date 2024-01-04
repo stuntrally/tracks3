@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="32354"/>
+    <ver num="3018" baseTrk="" secEd="32594"/>
     <car tires="0" damage="0.3"/>
     <start pos="-47.1358 406.134 52.6698" rot="-0.0768233 -0.000560422 0.994659 -0.0692886" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/dawn" skyYaw="-16.875"/>
+    <sky material="sky/day_clouds_07" skyYaw="-40.22728"/>
     <fog color="0.083 0.072 0.554 0.826 0.000" color2="0.083 0.103 0.543 0.826 0.000" linStart="422.051" linEnd="804.863"/>
     <fogH color="0.252 0.285 0.614 1.004 0.000" height="1" dens="5.78" linStart="0" linEnd="0.8"/>
-    <light pitch="29.25" yaw="-20.25" ambient="0.000 0.240 0.677 3.000 0.000" diffuse="0.035 0.240 0.813 0.826 0.000" specular="0.000 0.273 0.744 0.826 0.000"/>
+    <light pitch="29.25" yaw="-1.3636322" ambient="0.000 0.083 0.609 0.826 0.000" diffuse="0.035 0.041 0.750 0.826 0.000" specular="0.000 0.000 0.744 0.826 0.000"/>
     <fluids>
         <fluid hq="2" name="water moss" pos="-29.6781 1.81323 98.1454" rot="0 0 0" size="720.405 83.4851 780.724" tile="0.01 0.01"/>
         <fluid hq="2" name="water cyan med" pos="316.224 71.2148 -195.854" rot="0 0 0" size="597.006 0.2 565.43" tile="0.01 0.01"/>
