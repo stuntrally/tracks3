@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="X3-Cloud" secEd="420"/>
+    <ver num="3018" baseTrk="X3-Cloud" secEd="929"/>
     <car tires="0"/>
     <start pos="0.826219 5.53259 -5.92385" rot="7.10543e-15 -1.88738e-15 -0.999944 -0.0110318" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/gray_clouds" rainName="RainFastA" rainEmit="2057" rain2Name="RainFine" rain2Emit="99"/>
-    <fog color="0.583 0.056 0.720 1.000 0.000" color2="0.583 0.056 0.720 1.000 0.000" linStart="180" linEnd="500"/>
+    <sky material="sky/cloudy_03_grey" rainName="RainFastA" rainEmit="2057" rain2Name="RainFine" rain2Emit="99" skyYaw="-45.681824"/>
+    <fog color="0.581 0.215 0.370 0.911 0.000" color2="0.591 0.171 0.410 0.860 0.000" linStart="180" linEnd="500"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="33.6901" yaw="53.1299" ambient="0.000 0.000 0.523 0.000 0.000" diffuse="0.000 0.000 0.472 0.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
+    <light pitch="55" yaw="-5" ambient="0.000 0.000 0.487 0.000 0.000" diffuse="0.000 0.000 0.472 0.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.1" triangle="1.1" diff="1 1 1">
@@ -36,15 +36,15 @@
         </terrain>
     </terrains>
     <veget densGrass="0.15" densTrees="0.6" grPage="80" grDist="80" grDensSmooth="6" trPage="100" trDist="100" trDistImp="800" trRdDist="1">
-        <grass on="1" mtr="grass12y-" cl="0.000 0.000 1.000 1.000 0.000" dens="0.416686" chan="0" minSx="1.23684" maxSx="1.39749" minSy="1.18105" maxSy="1.50525" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass9r" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0206984" chan="0" minSx="0.984347" maxSx="1.30854" minSy="0.984347" maxSy="1.14013" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass2g" cl="0.000 0.000 1.000 1.000 0.000" dens="0.032553" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.78484" maxSy="2.07114" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass3g" cl="0.000 0.000 1.000 1.000 0.000" dens="0.143275" chan="0" minSx="1.0868" maxSx="1.29403" minSy="1.41262" maxSy="1.65011" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass9r" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0188949" chan="0" minSx="1.60103" maxSx="1.80207" minSy="1.45854" maxSy="1.66664" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass18gw" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0520205" chan="0" minSx="2.03413" maxSx="2.14623" minSy="1.99746" maxSy="2.20346" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass12y-" dens="0.416686" chan="0" minSx="1.23684" maxSx="1.39749" minSy="1.18105" maxSy="1.50525" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass9r" dens="0.0206984" chan="0" minSx="0.984347" maxSx="1.30854" minSy="0.984347" maxSy="1.14013" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass2g" dens="0.032553" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.78484" maxSy="2.07114" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass3g" dens="0.143275" chan="0" minSx="1.0868" maxSx="1.29403" minSy="1.41262" maxSy="1.65011" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grass9r" dens="0.0188949" chan="0" minSx="1.60103" maxSx="1.80207" minSy="1.45854" maxSy="1.66664" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass18gw" dens="0.0520205" chan="0" minSx="2.03413" maxSx="2.14623" minSy="1.99746" maxSy="2.20346" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <gchan amin="0" amax="12" asm="22" hmin="-200" hmax="200" hsm="2.45203" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
@@ -64,7 +64,43 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-187.53084 40.8901 58.25089" dir="0.9200319 -0.27611685 -0.27803057"/>
-    <objects/>
+    <cam pos="-187.53084 40.8901 58.25089" dir="0.9200318 -0.27611682 -0.27803057"/>
+    <objects>
+        <o name="crate2m" pos="-13.235759 10.439631 -6.0057907" rot="-0.011667295 0.9999288 0.0021085353 -0.0013752488"/>
+        <o name="crate2m" pos="-13.022852 11.970986 -5.99021" rot="0.010881456 0.7082877 -0.70581853 0.005506834"/>
+        <o name="crate2m" pos="-16.116678 9.829901 -5.9875746" rot="0.009482959 -0.69636685 0.7175814 -0.0077629783"/>
+        <o name="wood_block" pos="-15.236181 0.18360262 -6.192015" rot="-0.48690882 0.8732766 0.01087697 0.013761287"/>
+        <o name="wood_block" pos="69.93985 11.161585 -6.1883554" rot="-0.48987052 0.8717934 -0.0017586665 0.00027846295"/>
+        <o name="wood_block" pos="68.42848 10.399082 -6.178513" rot="-0.48707995 0.87319475 -0.009814097 -0.013702574"/>
+        <o name="wooden_barrel" pos="68.07624 8.774584 -6.016989" rot="-0.40256172 0.9151683 -0.019010192 -0.0070492807"/>
+        <o name="wooden_barrel" pos="66.85654 9.912927 -6.048475" rot="-0.5105501 0.85984635 -0.0016651289 0.00030000223"/>
+        <o name="wooden_barrel_big" pos="57.636818 -1.4629669 -5.801635" rot="-0.4816483 0.87614805 -0.0104692215 0.016429009"/>
+        <o name="wooden_barrel_big" pos="57.40898 0.7056354 -5.80017" rot="-0.4886637 0.87235594 0.005428827 0.013170215"/>
+        <o name="wooden_barrel_big" pos="-3.9052038 8.976585 -5.7898493" rot="-0.4815582 0.8762466 -0.014321839 -0.009407331"/>
+        <o name="crate_2" pos="-4.3213162 0.94400865 -5.859506" rot="-0.39298445 0.9193799 0.017429318 2.2066466e-05"/>
+        <o name="crate_2" pos="-4.1618457 1.1405962 -6.2920294" rot="0.8901334 -0.45536664 -0.013385546 -0.011166516"/>
+        <o name="crate_2" pos="57.19077 8.936659 -6.276069" rot="0.8766776 -0.48074812 0.012489644 0.012716374"/>
+        <o name="crate_2" pos="66.27518 0.8515795 -6.2287974" rot="-0.68182015 0.73127776 0.017156333 0.0077329455"/>
+        <o name="crate_2" pos="66.15568 0.05595299 -6.240048" rot="-0.67562383 0.737178 0.0052457685 -0.008575067"/>
+        <o name="crate_2" pos="66.37921 0.56994516 -5.7996874" rot="-0.6365925 0.77106464 0.014232014 0.0025969343"/>
+        <o name="wood_block" pos="112.91369 74.29988 -1.166534" rot="-0.6597184 0.730572 0.05239863 0.16819802"/>
+        <o name="wood_block" pos="120.45712 69.65935 -0.92001307" rot="0.054839734 -0.16699871 0.50866777 0.8428292"/>
+        <o name="wood_block" pos="126.83845 64.63578 -0.65192336" rot="0.045113236 -0.15617977 0.45589215 0.8750629"/>
+        <o name="crate_1" pos="122.41849 22.144415 -3.4899707" rot="-0.4301999 0.8931049 -0.113839254 0.065820664"/>
+        <o name="crate_1" pos="124.925095 26.068308 -3.3961744" rot="-0.3631891 0.9235763 -0.084397465 0.08931717"/>
+        <o name="crate_1" pos="127.11005 32.079105 -3.1355846" rot="-0.4110222 0.9032682 -0.051020373 0.112089835"/>
+        <o name="crate_1" pos="115.861984 16.836935 -3.8308322" rot="-0.6782624 0.71951425 -0.14918421 -0.0018541482"/>
+        <o name="crate_1" pos="-70.87699 1.3446515 -6.380416" rot="-0.38903186 0.92066807 0.019841561 0.025115669"/>
+        <o name="crate_1" pos="-70.72255 11.0620775 -5.960252" rot="-0.5070131 0.86179847 0.014621392 -0.0052265404"/>
+        <o name="crate_1" pos="-69.6319 10.279684 -5.9672623" rot="0.7486916 0.66283303 -0.00022314115 0.010640967"/>
+        <o name="crate_1" pos="-78.55705 11.720859 -6.0678024" rot="-0.05137591 0.9977149 0.033642586 0.028172258"/>
+        <o name="crate_1" pos="-79.36183 1.3945024 -7.1146746" rot="0.14197981 0.987255 0.061552458 0.037156392"/>
+        <o name="wood_block" pos="-84.31646 -47.752148 -3.890195" rot="0.28979236 0.9356457 -0.10281999 0.17325006"/>
+        <o name="wood_block" pos="-78.56522 -56.545517 -0.21241231" rot="0.2690085 0.95178676 -0.08950524 0.11715442"/>
+        <o name="wood_block" pos="-149.65268 -24.048326 4.7691636" rot="0.043928187 0.984049 0.049035206 -0.16526736"/>
+        <o name="wood_block" pos="-151.06444 -39.12115 3.9888036" rot="0.053757224 0.9889646 0.01790807 -0.13688813"/>
+        <o name="wood_block" pos="-136.99011 -1.1150686 3.6648474" rot="0.36458302 0.8972573 0.038068913 -0.24608769"/>
+        <o name="wood_block" pos="-145.06638 -54.639935 1.9834607" rot="-0.2899399 0.94972336 0.025298128 -0.11541443"/>
+    </objects>
     <emitters/>
 </scene>

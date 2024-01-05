@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="2308"/>
+    <ver num="3018" baseTrk="" secEd="2414"/>
     <car tires="0"/>
     <start pos="146.211 -93.4388 10.7158" rot="0.041205 -0.03395 -0.808298 -0.586378" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/cloudy_02_brown" rainName="RainFastA" rainEmit="600" rain2Name="RainFast" rain2Emit="99"/>
-    <fog color="0.583 0.065 0.620 1.000 0.000" color2="0.583 0.065 0.620 1.000 0.000" linStart="162.45" linEnd="655.512"/>
+    <fog color="0.583 0.065 0.756 1.000 0.000" color2="0.583 0.065 0.111 1.000 0.000" linStart="162.45" linEnd="655.512"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="25" yaw="0" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.600 1.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
+    <light pitch="25" yaw="0" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.672 1.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
     <fluids>
         <fluid hq="1" name="water green" pos="110.552 -1.59183 -101.095" rot="0 0 0" size="105.924 20 202.812" tile="0.01 0.01"/>
     </fluids>
@@ -91,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="107.161 41.0987 -176.693" dir="-0.801753 -0.248619 0.54349"/>
+    <cam pos="107.161 41.0987 -176.693" dir="-0.8017528 -0.24861896 0.54348993"/>
     <objects>
         <o name="log_cabin_02" pos="92.009 16.0923 2.72983" rot="-0.290534 0.956836 0.00380552 -0.00461892"/>
         <o name="crate_1" pos="83.3722 19.5017 3.89505" rot="0.00327857 0.0173778 0.629044 0.777168"/>
