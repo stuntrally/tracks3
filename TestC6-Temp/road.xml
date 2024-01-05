@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="200" visBehind="200"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.728 14.176" iDir="-1" iChk1="3"/>
-    <stats length="92.4449" width="7.536" height="0.394225" onTer="0" pipes="0" bnkAvg="0.214726" bnkMax="0.653348"/>
+    <stats length="92.44493" width="7.5359993" height="0.39422524" onTer="0" pipes="0" bnkAvg="0.21472602" bnkMax="0.6533483"/>
     <txt desc="Tiniest circle track with nice terrain and the first temple."/>
     <adv ice="Don&apos;t steer too much to not spin out."/>
     <P pos="-23.0996 0 10.9697" w="7.536" aT="2" mtr="1"/>

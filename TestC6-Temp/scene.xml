@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="2058"/>
+    <ver num="3018" baseTrk="" secEd="2164"/>
     <car tires="0"/>
     <start pos="-24.1832 -0.673126 0.586689" rot="-6.21725e-15 7.99361e-15 -0.653396 -0.757031" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Australia"/>
-    <sky material="sky/day_blue"/>
-    <fog color="0.586 0.270 1.000 1.000 0.000" color2="0.586 0.270 1.000 1.000 0.000" linStart="14.45" linEnd="2000"/>
+    <sky material="sky/day_clouds_04_blue"/>
+    <fog color="0.591 0.329 0.997 1.000 0.000" color2="0.589 0.461 0.292 1.000 0.000" linStart="14.45" linEnd="2000"/>
     <fogH color="0.415 0.657 1.369 0.258 0.000" height="-2.03194" dens="13.6501" linStart="0" linEnd="26.9632"/>
-    <light pitch="43.8803" yaw="22" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.167 0.020 1.000 1.000 0.000" specular="0.167 0.020 0.833 0.000 0.000"/>
+    <light pitch="48" yaw="-35" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.167 0.020 1.000 1.000 0.000" specular="0.167 0.020 0.833 0.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="2" triangle="2" diff="1 1 1">
@@ -64,7 +64,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-84.8521 45.7092 -150.482" dir="0.640676 -0.254918 0.724259"/>
+    <cam pos="-72.09656 59.526196 -148.1721" dir="0.5773509 -0.40648937 0.7081189"/>
     <objects>
         <o name="big_tire" pos="-14.4834 -4.35783 0.336913" rot="9.3014e-05 0.999997 0.000132036 -0.00250448"/>
         <o name="fuel_can" pos="-19.2596 -3.72178 0.492847" rot="0.134482 0.990914 0.000534938 -0.00192225"/>
