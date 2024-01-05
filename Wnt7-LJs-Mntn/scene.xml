@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3018" baseTrk="X3-Cloud" secEd="2887"/>
+    <ver num="3018" baseTrk="X3-Cloud" secEd="3046"/>
     <car tires="0"/>
     <start pos="-177.688 32.4679 0.625708" rot="-1.29063e-15 1.29063e-15 -0.708449 0.705773" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="ForestDense"/>
@@ -80,9 +80,9 @@
         <layer on="1" name="pine3_fat_full.mesh" dens="0.249998" minScale="0.68302" maxScale="1.06164" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.207937" windFy="0.0222255" maxTerAng="28.5877" minTerH="-100" maxTerH="26" maxDepth="0"/>
         <layer on="1" name="pine2_tall_full.mesh" dens="0.449998" minScale="0.67379" maxScale="0.919234" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.339884" windFy="0.0222254" maxTerAng="26.1929" minTerH="-100" maxTerH="27" maxDepth="0"/>
         <layer on="1" name="pine1_full.mesh" dens="0.25" minScale="0.842368" maxScale="1.15113" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.26541" windFy="0.0222254" maxTerAng="22.107" minTerH="-100" maxTerH="27" maxDepth="0"/>
-        <layer on="1" name="rock_W01.mesh" dens="0.105533" minScale="0.782502" maxScale="1.20793" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="35.19" minTerH="-100" maxTerH="33" maxDepth="2"/>
-        <layer on="1" name="rock_W02.mesh" dens="0.106453" minScale="0.782502" maxScale="1.20793" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="25.19" minTerH="-100" maxTerH="37" maxDepth="2"/>
-        <layer on="1" name="rock_n1-W.mesh" dens="0.118036" minScale="0.620152" maxScale="1.23172" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="40.7934" minTerH="-100" maxTerH="33" maxDepth="5"/>
+        <layer on="1" name="rock30snow.mesh" dens="0.105533" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="33" maxDepth="1"/>
+        <layer on="1" name="rock11snow.mesh" dens="0.106453" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="37" maxDepth="1"/>
+        <layer on="1" name="rock25snow.mesh" dens="0.118036" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="33" maxDepth="1"/>
         <layer on="0" name="rock_n5v-W.mesh" dens="0.0149999" minScale="1.05" maxScale="1.43" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="15.33" minTerH="-100" maxTerH="100" maxDepth="2"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999994" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="30" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999994" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="30" minTerH="-100" maxTerH="100" maxDepth="5"/>
