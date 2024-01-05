@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="Mos3-Air" secEd="40682"/>
+    <ver num="3018" baseTrk="Mos3-Air" secEd="41010"/>
     <car tires="0" damage="0.49789" gravity="7.49034"/>
     <start pos="221.777 62.4511 0.603079" rot="-0.00712693 -0.00756803 -0.68534 0.728196" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Jungle"/>
-    <sky material="sky/gray_clouded"/>
+    <sky material="sky/dawn_02_cloudy" skyYaw="-100.22727"/>
     <fog color="0.562 0.467 0.269 0.362 0.000" color2="0.707 0.339 0.300 0.428 0.000" linStart="48.8281" linEnd="654.082"/>
     <fogH color="0.723 0.221 1.000 1.000 0.000" height="-200" dens="200" linStart="0" linEnd="2000"/>
-    <light pitch="40" yaw="105" ambient="0.568 0.705 0.744 0.428 0.000" diffuse="0.523 0.134 0.813 0.428 0.000" specular="0.209 0.000 0.197 0.362 0.012"/>
+    <light pitch="34.772728" yaw="1.3636322" ambient="0.568 0.705 0.744 0.428 0.000" diffuse="0.523 0.134 0.813 0.428 0.000" specular="0.209 0.000 0.197 0.362 0.012"/>
     <fluids>
         <fluid hq="2" name="water sunset cyan" pos="4.89207 -0.664609 1.95474" rot="0 0 0" size="917.779 20 910.086" tile="0.01 0.01"/>
     </fluids>

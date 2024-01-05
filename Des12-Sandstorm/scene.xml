@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="446"/>
+    <ver num="3018" baseTrk="" secEd="471"/>
     <car tires="0"/>
     <start pos="9.88747 -87.1153 4.15643" rot="0.016372 -0.038075 -0.394634 -0.917932" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Desert"/>
-    <sky material="sky/dust" rainName="SandStorm" rainEmit="1065" windAmt="3"/>
-    <fog color="0.167 0.603 0.713 1.000 0.000" color2="0.167 0.640 0.695 1.000 0.000" linStart="0" linEnd="10.920098"/>
+    <sky material="sky/day_clouds_05_dust" rainName="SandStorm" rainEmit="1065" windAmt="3"/>
+    <fog color="0.167 0.603 0.614 1.000 0.000" color2="0.167 0.570 0.683 1.000 0.000" linStart="0" linEnd="10.920098"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="55.0746" yaw="0" ambient="0.167 0.375 0.800 1.000 0.000" diffuse="0.000 0.000 0.200 1.000 0.000" specular="0.154 0.565 0.230 1.000 0.000"/>
+    <light pitch="55" yaw="16" ambient="0.167 0.375 0.800 1.000 0.000" diffuse="0.000 0.000 0.200 1.000 0.000" specular="0.154 0.565 0.230 1.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.17986" triangle="1.17986" diff="1 1 1">

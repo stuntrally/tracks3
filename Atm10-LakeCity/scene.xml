@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="Atm6-Sunset" secEd="49447"/>
+    <ver num="3018" baseTrk="Atm6-Sunset" secEd="49968"/>
     <car tires="0"/>
     <start pos="226.365 93.2003 32.8971" rot="8.9407e-07 -1.31055e-06 -0.741822 0.670673" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="ForestDense"/>
-    <sky material="sky/sunset_gen" skyYaw="40.1504"/>
-    <fog color="0.064 0.678 0.830 0.674 0.000" color2="0.044 0.643 0.440 0.743 0.000" linStart="70.3125" linEnd="1104.2804"/>
+    <sky material="sky/evening_01_orange" skyYaw="-8.181824"/>
+    <fog color="0.074 0.632 0.913 0.987 0.000" color2="0.899 0.300 0.492 0.930 0.000" linStart="70.3125" linEnd="1104.2804"/>
     <fogH color="0.145 0.450 0.730 0.885 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="23.6842" yaw="45" ambient="0.056 0.874 0.700 0.885 0.000" diffuse="0.167 0.417 0.800 0.885 0.000" specular="0.167 0.600 1.000 1.000 0.000"/>
+    <light pitch="13" yaw="0" ambient="0.087 0.351 0.820 0.930 0.000" diffuse="0.167 0.417 0.983 0.930 0.000" specular="0.167 0.600 1.000 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="mud easy soft" pos="-232.826 -14.0782 -100.846" rot="0 0 0" size="364.315 20 388.553" tile="0.010829 0.010829"/>
         <fluid hq="2" name="mud easy soft" pos="128.263 25.8607 -257.092" rot="0 0 0" size="191.885 19.4823 231.377" tile="0.00915831 0.00874506"/>
@@ -123,7 +123,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-211.167 97.5093 -185.356" dir="0.976723 -0.110767 0.183692"/>
+    <cam pos="-211.167 97.5093 -185.356" dir="0.9767231 -0.11076701 0.18369198"/>
     <objects>
         <o name="rome_farmstead" pos="229.405 72.5715 32.338" rot="-0.504868 -0.863195 0 0"/>
         <o name="rome_farmstead" pos="218.181 86.8633 32.2416" rot="-0.991879 0.127172 0 0"/>
