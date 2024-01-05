@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="1447"/>
+    <ver num="3018" baseTrk="" secEd="1741"/>
     <car tires="0"/>
     <start pos="35.7713 16.7208 88.8734" rot="-0.014013 0.039771 -0.193003 0.980301" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="MountainsClose"/>
-    <sky material="sky/dawn_bright" rainName="SnowFine" rainEmit="450"/>
-    <fog color="0.169 0.264 0.930 0.355 0.000" color2="0.548 0.248 0.288 0.935 0.000" linStart="5.26625" linEnd="109.504"/>
+    <sky material="sky/evening_01_red" rainName="SnowFine" rainEmit="450" skyYaw="56.59091"/>
+    <fog color="0.048 1.000 0.968 0.931 0.000" color2="0.647 0.663 0.233 0.987 0.000" linStart="5.26625" linEnd="109.504"/>
     <fogH color="0.562 0.096 0.830 0.600 0.000" height="64.6616" dens="72.3614" linStart="0" linEnd="80"/>
-    <light pitch="44.6617" yaw="-45" ambient="0.500 0.022 0.370 0.000 0.000" diffuse="0.000 0.000 0.492 0.000 0.000" specular="0.167 0.200 0.500 1.000 0.000"/>
+    <light pitch="10" yaw="0" ambient="0.500 0.022 0.370 0.000 0.000" diffuse="0.000 0.000 0.492 0.000 0.000" specular="0.167 0.200 0.500 1.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="2.0232" triangle="2.0232" diff="1 1 1">
@@ -89,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="241.549 158.132 57.7158" dir="-0.917008 -0.277811 -0.286212"/>
+    <cam pos="242.1988 148.31772 60.71989" dir="-0.9347599 -0.19973765 -0.29381782"/>
     <objects>
         <o name="cave_04" mat="cave_ice" pos="143.008 -14.1974 92.6831" rot="0.134476 0.989054 -0.0546922 0.0256994" sc="0.922327 0.922327 0.922327"/>
         <o name="cave_07" mat="cave_ice" pos="154.564 -29.8243 95.693" rot="-0.1377 0.984234 0.037191 0.104351" sc="0.922327 0.922327 0.922327"/>

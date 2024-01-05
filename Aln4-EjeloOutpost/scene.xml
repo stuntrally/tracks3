@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="Mos2-Mouse" secEd="67202"/>
+    <ver num="3018" baseTrk="Mos2-Mouse" secEd="67439"/>
     <car tires="0" damage="0.35443" road1mtr="0"/>
     <start pos="74.2823 -403.316 92.3908" rot="2.98023e-07 5.66098e-07 -0.0229757 0.999742" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="JungleDense"/>
-    <sky material="sky/dawn_bright" skyYaw="45"/>
-    <fog color="0.178 0.397 0.760 0.546 0.000" color2="0.151 0.450 0.760 0.723 0.000" linStart="13.6125" linEnd="3186.92"/>
+    <sky material="sky/cloudy_02_toxic" skyYaw="90"/>
+    <fog color="0.312 0.490 0.304 0.402 0.200" color2="0.254 0.180 0.312 0.738 0.224" linStart="13.6125" linEnd="3186.92"/>
     <fogH color="0.938 0.000 0.725 0.107 0.000" height="50" dens="100" linStart="276.582" linEnd="1711.25"/>
-    <light pitch="21.2553" yaw="-45" ambient="0.000 0.000 0.725 3.000 0.000" diffuse="0.000 0.000 0.750 3.000 0.000" specular="0.132 0.399 0.859 3.000 0.000"/>
+    <light pitch="25" yaw="0" ambient="0.000 0.000 0.725 3.000 0.000" diffuse="0.000 0.000 0.750 3.000 0.000" specular="0.132 0.399 0.859 3.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water cyan" pos="-0.166774 -60.3972 0.450912" rot="0 0 0" size="71516 40 71515.2" tile="0.00745452 0.00745452"/>
         <fluid hq="2" name="water cyan" pos="-42.3408 3.82178 -22.9408" rot="0 0 0" size="652.346 40 757.67" tile="0.01 0.01"/>
@@ -38,16 +38,16 @@
             <par dust="DustAlien" mud="MudDark" smoke="Smoke"/>
         </terrain>
         <terrain ofsZ="1.22765" triangle="20" diff="1 1 1" horiz="1">
-            <texture on="1" file="alien_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="12.06" surf="DesertFast" dust="0.6" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="27.8289" angSm="6.93696" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.833333" n_1="0" n2="0">
+            <texture on="1" file="alien_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="20.488434" surf="DesertFast" dust="0.6" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="27.8289" angSm="6.93696" hMin="-300" hMax="244.41211" hSm="20" nOn="0" noise="0.833333" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="alien_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="9.63" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="22.8947" angMax="36.1184" angSm="10.8811" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.335568" n_1="0" n2="0">
+            <texture on="1" file="alien_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="23.865604" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="22.8947" angMax="36.1184" angSm="10.8811" hMin="-300" hMax="911.1758" hSm="20" nOn="0" noise="0.335568" n_1="0" n2="0">
                 <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="alien_mntn_d.jpg" fnorm="desert_mntn_n.jpg" scale="36.0713" surf="Rocks" dust="0.4" dustS="1" mud="0.7" smoke="0" tclr="0.137 0.810 0.420 0.800 0.000" angMin="29.0534" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0.595122" n_1="0" n2="0">
+            <texture on="1" file="alien_mntn_d.jpg" fnorm="desert_mntn_n.jpg" scale="50.333" surf="Rocks" dust="0.4" dustS="1" mud="0.7" smoke="0" tclr="0.137 0.810 0.420 0.800 0.000" angMin="29.0534" angMax="90" angSm="20" hMin="-300" hMax="950" hSm="20" nOn="0" triplanar="1" noise="0.595122" n_1="0" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="64.7131" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="27.5243" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0.049212" n_1="0.195122" n2="0">
+            <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="94.71" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="27.5243" angMax="90" angSm="20" hMin="-300" hMax="950" hSm="20" nOn="0" triplanar="1" noise="0.049212" n_1="0.195122" n2="0">
                 <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
@@ -92,7 +92,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-692.662 325.286 -440.968" dir="0.946001 -0.311477 -0.0898034"/>
+    <cam pos="-692.662 325.286 -440.968" dir="0.9389119 -0.33241552 -0.089131474"/>
     <objects>
         <o name="alien_base10" pos="-31.8785 36.197 3.24872" rot="-0.0574181 -0.998351 0 0"/>
         <o name="alien_base10" pos="-63.7412 39.2695 3.24873" rot="-0.050645 -0.998717 0 0"/>

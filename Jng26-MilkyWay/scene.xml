@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="39477"/>
+    <ver num="3018" baseTrk="" secEd="39762"/>
     <car tires="0" damage="0.521505"/>
     <start pos="-75.3742 -335.827 42.0653" rot="-0.0815256 -0.00427168 -0.967468 -0.239567" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" vol="1" reverbs="Rocky"/>
-    <sky material="sky/day_clouds" skyYaw="-11.2782"/>
-    <fog color="0.523 0.312 0.770 0.900 0.000" color2="0.519 0.293 0.750 0.900 0.000" linStart="181.949" linEnd="1183.43"/>
+    <sound ambient="" reverbs="Rocky"/>
+    <sky material="sky/day_clouds_04_blue" skyYaw="-27.954544"/>
+    <fog color="0.591 0.329 0.997 1.000 0.000" color2="0.589 0.461 0.292 1.000 0.000" linStart="181.949" linEnd="1183.43"/>
     <fogH color="0.537 0.843 0.738 0.582 0.000" height="-38.0567" dens="9.91657" linStart="0" linEnd="160.632"/>
-    <light pitch="33" yaw="-40" ambient="0.636 0.169 0.523 0.000 0.000" diffuse="0.174 0.000 0.846 0.000 0.000" specular="0.473 0.843 0.581 0.000 0.000"/>
+    <light pitch="48" yaw="-35" ambient="0.636 0.169 0.523 0.000 0.000" diffuse="0.174 0.000 0.820 0.000 0.000" specular="0.473 0.843 0.581 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water milky cyan" pos="-270.561 22.1881 -121.548" rot="0 0 0" size="226.375 12.6159 302.217" tile="0.01 0.01"/>
         <fluid hq="2" name="water milky white" pos="-174.844 13.9768 -383.616" rot="0 0 0" size="346.868 10.1772 217.353" tile="0.01 0.01"/>
@@ -47,7 +47,7 @@
             <texture road="2" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
             <texture road="3" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.646 0.348 0.460 0.800 0.000"/>
             <texture road="4" surf="roadGravel" dust="0" dustS="1" mud="0.6" smoke="0" tclr="0.000 0.000 0.130 0.800 0.000"/>
-            <par dust="Dust" mud="MudDark" smoke="Smoke" flMud="FluidMudWhite" flMudSoft="FluidMudWhite" />
+            <par dust="Dust" mud="MudDark" smoke="Smoke" flMud="FluidMudWhite" flMudSoft="FluidMudWhite"/>
         </terrain>
     </terrains>
     <veget densGrass="0.15091" densTrees="1.40266" grPage="80" grDist="80" grDensSmooth="3" trPage="160" trDist="160" trDistImp="1000" trRdDist="0">
@@ -79,7 +79,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-538.533 223.706 214.686" dir="0.87435675 -0.47978884 -0.07282078"/>
+    <cam pos="248.67532 92.54708 414.20267" dir="-0.14512688 -0.30448908 -0.94139504"/>
     <objects>
         <o name="pier_01" pos="394.249 4.04131 -20.732" rot="0.110563 -0.993757 -0.0147371 0.00163961" sc="1.05096 1.05096 1.05096"/>
         <o name="pier_03" pos="402.671 6.00959 -20.8373" rot="0.0734736 -0.997297 0 0" sc="1.07085 1.07085 1.07085"/>

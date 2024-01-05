@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="Des8-Technical" secEd="32427"/>
+    <ver num="3018" baseTrk="Des8-Technical" secEd="32777"/>
     <car tires="0" damage="0.49789"/>
     <start pos="63.1009 -419.025 -3.43862" rot="-8.9999e-05 -0.00731 0.999972 0.00431784" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Desert"/>
-    <sky material="sky/dawn_bright"/>
-    <fog color="0.167 0.100 1.000 1.000 0.000" color2="0.583 0.500 0.400 1.000 0.000" linStart="644.112" linEnd="1377.8"/>
+    <sky material="sky/day_clouds_02" skyYaw="42.954544"/>
+    <fog color="0.581 0.311 0.861 0.911 0.000" color2="0.591 0.451 0.541 0.860 0.000" linStart="644.112" linEnd="1377.8"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="21" yaw="-45" ambient="0.000 0.000 0.400 1.000 0.000" diffuse="0.000 0.000 1.107 0.000 0.000" specular="0.000 0.000 0.392 0.000 0.000"/>
+    <light pitch="32" yaw="-1" ambient="0.000 0.000 0.400 1.000 0.000" diffuse="0.000 0.000 0.954 0.000 0.000" specular="0.000 0.000 0.392 0.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="2" triangle="2" diff="1 1 1">
@@ -64,11 +64,11 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="478.91632 113.32149 -267.14566" dir="-0.6793578 -0.20449543 0.70473707"/>
+    <cam pos="478.91632 113.32149 -267.14566" dir="-0.679358 -0.20449546 0.70473695"/>
     <objects>
-        <o name="ancient_ruins_01" pos="-340.109 183.824 -4.62347" rot="0.363854 0.931455 0 0"/>
-        <o name="ancient_ruins_05" pos="-351.628 174.415 -3.69403" rot="0 -1 0 0"/>
-        <o name="ancient_ruins_05" pos="-318.225 207.385 -4.09668" rot="0 -1 0 0"/>
+        <o name="ancient_ruins_01" mat="ancient_ruins_yellow" pos="-340.109 183.824 -4.62347" rot="0.363854 0.931455 0 0"/>
+        <o name="ancient_ruins_05" mat="ancient_ruins_yellow" pos="-351.628 174.415 -3.69403" rot="0 -1 0 0"/>
+        <o name="ancient_ruins_05" mat="ancient_ruins_yellow" pos="-318.225 207.385 -4.09668" rot="0 -1 0 0"/>
         <o name="obstacle7" mat="obstaclesBlack" pos="-321.316 293.666 -3.71182" rot="0 -1 0 0"/>
         <o name="obstacle_twisted2R" mat="obstaclesBlack" pos="-155.903 429.719 -1.78896" rot="-0.0756159 -0.997134 -0.00271748 -0.000639335"/>
         <o name="fuel_can" stat="1" pos="-104.917 428.171 -2.89541" rot="0.0468514 -0.997701 -0.0473162 0.0126226"/>
