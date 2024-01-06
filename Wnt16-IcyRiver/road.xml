@@ -3,7 +3,7 @@
     <dim tcMul="0.0650965" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="521.66" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3" wsPm="4" lsPm="1" stBox="1 11.476 20.192" iDir="1" iChk1="20"/>
-    <stats length="3824.1335" width="10.988189" height="57.526405" onTer="4.381939" pipes="0" bnkAvg="5.0822945" bnkMax="17.253717"/>
+    <stats length="3824.13" width="10.9882" height="57.5264" onTer="4.38194" pipes="0" bnkAvg="5.08229" bnkMax="17.2537"/>
     <txt desc="Very slippery track with different road surfaces around a partly frozen river."/>
     <adv ice="Road goes on wet asphalt, wet snow, snow and ice. Has many U-turns and 1 circle. Also a curly section driven on frozen part of river."/>
     <P pos="-219.13 0 246.81" w="18.384" aT="2" chkR="1.644"/>

@@ -35,13 +35,13 @@
             <par dust="Smoke" mud="Mud" smoke="Smoke"/>
         </terrain>
         <terrain ofsZ="0" triangle="6.55447" diff="1 1 1" horiz="1">
-            <texture on="1" file="snow_mntn2_d.jpg" fnorm="snow_mntn2_n.jpg" scale="43.0243" surf="Rocks" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="90" angSm="14.8026" hMin="-300" hMax="81.5068" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+            <texture on="1" file="snow_mntn2_d.jpg" fnorm="snow_mntn2_n.jpg" scale="57.0303" surf="Rocks" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="90" angSm="14.8026" hMin="-300" hMax="81.5068" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
                 <noise frq0="24.744" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="41.5394" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="10.0763" hMin="88.3562" hMax="121.233" hSm="12.408" nOn="0" triplanar="1" noise="0.65251" n_1="0" n2="0">
+            <texture on="1" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="55.2273" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="10.0763" hMin="88.3562" hMax="121.233" hSm="12.408" nOn="0" triplanar="1" noise="0.65251" n_1="0" n2="0">
                 <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="snow2ice_d.jpg" fnorm="snow2_n.jpg" scale="14.93" surf="SnowMedium" dust="0.4" dustS="0.6" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="89.8026" angSm="20" hMin="109.361" hMax="555" hSm="12.1338" nOn="0" noise="0.049212" n_1="0" n2="0">
+            <texture on="1" file="snow2ice_d.jpg" fnorm="snow2_n.jpg" scale="23.2321" surf="SnowMedium" dust="0.4" dustS="0.6" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="89.8026" angSm="20" hMin="109.361" hMax="555" hSm="12.1338" nOn="0" noise="0.049212" n_1="0" n2="0">
                 <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="34" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 0.600 0.000" angMin="59.4079" angMax="90" angSm="13.6184" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
@@ -74,8 +74,8 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="58" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="91" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="124" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="rock.mesh" dens="0.173024" minScale="1.90273" maxScale="2.80461" ofsY="0" addTrRdDist="5" maxRdist="20" windFx="0.347273" windFy="0.00377022" maxTerAng="90" minTerH="-100" maxTerH="116" maxDepth="0"/>
-        <layer on="1" name="rock_n4r-W.mesh" dens="0.181998" minScale="0.902428" maxScale="1.46484" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="78.9745" minTerH="90" maxTerH="116" maxDepth="0"/>
+        <layer on="1" name="rock25snow.mesh" dens="0.173024" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="20" windFx="0.347273" windFy="0.00377022" maxTerAng="34" minTerH="-100" maxTerH="116" maxDepth="1"/>
+        <layer on="1" name="rock02snow.mesh" dens="0.181998" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="90" maxTerH="116" maxDepth="1"/>
         <layer on="0" name="rock_n5v-W.mesh" dens="0.215466" minScale="1.17759" maxScale="3.14885" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.13589" windFy="0.0538194" maxTerAng="80.5055" minTerH="80" maxTerH="95" maxDepth="0"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
@@ -94,6 +94,8 @@
         <o name="cave_04" mat="cave_ice" pos="143.008 -14.1974 92.6831" rot="0.134476 0.989054 -0.0546922 0.0256994" sc="0.922327 0.922327 0.922327"/>
         <o name="cave_07" mat="cave_ice" pos="154.564 -29.8243 95.693" rot="-0.1377 0.984234 0.037191 0.104351" sc="0.922327 0.922327 0.922327"/>
         <o name="cave_05" mat="cave_ice" pos="165.37 -3.01191 62.5209" rot="0.185972 -0.982537 0 0"/>
+        <o name="icicles_small_01" pos="115.133 -8.04415 94.2313" rot="-0.341399 -0.939916 0 0" sc="1.05556 1.05556 1.05556"/>
+        <o name="icicles_04" pos="160.563 -8.94597 105.702" rot="-0.341399 -0.939916 0 0"/>
     </objects>
     <emitters/>
 </scene>

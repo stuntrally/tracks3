@@ -4,7 +4,7 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="333.742" lodPntLen="10" visDist="1376.31" visBehind="800"/>
     <geom colN="6" colR="4.30678" wsPm="4" lsPm="1" stBox="1 6.20801 32.9882" iDir="-1" iChk1="333"/>
     <stats length="17231.9" width="16.1174" height="1287.74" onTer="51.8058" pipes="23.5934" bnkAvg="15.1834" bnkMax="90"/>
-    <txt desc="A difficult and long winter track with a large height difference. Goes down a mountain and through a beautiful glacier cave at the top."/>
+    <txt desc="A very long winter track with a large height difference. Goes down a mountain and through a beautiful glacier cave at the top."/>
     <adv ice="One of few winter tracks that have both at least one jump and loop. Though has only one jump, but multiple loops."/>
     <P pos="731.635 0 -526.648" w="8.48612" aT="2" col="0" mtr="3" chkR="2.46665"/>
     <P pos="769.286 0 -539.917" w="11.5526" aT="2" col="0" mtr="3"/>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3018" baseTrk="TestC4-ow" secEd="464"/>
+    <ver num="3018" baseTrk="TestC4-ow" secEd="3059"/>
     <car tires="0"/>
     <start pos="4.33075 66.4849 30.4373" rot="-0.029913 0.029916 -0.71171 0.701213" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Mountains"/>
@@ -9,7 +9,7 @@
     <light pitch="56" yaw="-11" ambient="0.492 0.027 0.472 0.975 0.000" diffuse="0.000 0.000 0.304 0.000 0.000" specular="0.000 0.000 0.304 0.000 0.000"/>
     <fluids/>
     <terrains>
-        <terrain ofsZ="1.18114" triangle="1.18114" diff="1.3575559 1.3522006 1.293761">
+        <terrain ofsZ="1.18114" triangle="1.18114" diff="1.35756 1.3522 1.29376">
             <texture on="0" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="4.5" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="13.6912" angSm="11.6776" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.102908" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -29,7 +29,32 @@
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="roadSnow" dust="0.3" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
-            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="2" surf="roadSnow" dust="0.9" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <texture road="3" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="6.78525" diff="1.35579 1.39813 1.30795" horiz="1">
+            <texture on="0" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="9.59977" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="13.6912" angSm="11.6776" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.102908" n_1="0" n2="0">
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="snow1_d.jpg" fnorm="snow1_n.jpg" scale="9.74619" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="19.726" angSm="5.90122" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.998652" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="0.744403" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="15.9725" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="24.6575" angMax="38.2192" angSm="8.95089" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1.0027" n_1="0" n2="1">
+                <noise frq0="18.8916" oct0="3" prs0="0.405284" pow0="2.34547" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="snow_rough_d.jpg" fnorm="snow_rough_n.jpg" scale="20.6905" surf="SnowDeep" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="41.0372" angMax="53.3659" angSm="8.95089" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="1" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5299" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="50.7552" surf="SnowDeep" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="53.3659" angMax="90" angSm="10.5463" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="-0.228188" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadSnow" dust="0.3" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <texture road="2" surf="roadSnow" dust="0.9" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
             <texture road="3" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
@@ -52,9 +77,9 @@
         <layer on="1" name="fir05w.mesh" dens="0.172788" minScale="0.0399916" maxScale="0.0819476" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="2.79993" windFy="0.0999805" maxTerAng="23.5962" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="pine1_full.mesh" dens="0.449997" minScale="0.711215" maxScale="0.853076" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.163895" windFy="0.0415752" maxTerAng="21.2381" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="pine2_tall_full.mesh" dens="0.251" minScale="0.51386" maxScale="0.953559" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.0985484" windFy="0.0287261" maxTerAng="25.4461" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="rock_n1-W.mesh" dens="0.155091" minScale="0.637702" maxScale="1.00064" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="39.2144" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="rock_n5v-W.mesh" dens="0.136734" minScale="0.506229" maxScale="0.68302" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="30.625" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="rock_n4r-W.mesh" dens="0.148281" minScale="0.305434" maxScale="0.6466" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="33.6916" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock07snow.mesh" dens="0.0617114" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock08snow.mesh" dens="0.0463067" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock33snow.mesh" dens="0.0331102" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="0" name="" dens="0.144934" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
@@ -64,7 +89,38 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="154.656 55.3858 40.3356" dir="-0.9250775 -0.12127008 0.35989606"/>
-    <objects/>
+    <cam pos="154.656 55.3858 40.3355" dir="-0.925077 -0.12127 0.359896"/>
+    <objects>
+        <o name="icicles_small_row_02" pos="-65.6199 -66.4986 53.3844" rot="0.170885 0.985289 0 0" sc="1.06061 1.06061 1.06061"/>
+        <o name="icicles_small_row_03" pos="-53.1072 -54.7565 53.061" rot="0.146003 0.989279 0 0"/>
+        <o name="icicles_small_row_04" pos="-39.5065 -3.78212 48.5227" rot="0.0912153 0.995826 0 0" sc="1.17903 1.17903 1.17903"/>
+        <o name="icicles_small_row_04" pos="-53.5442 -56.513 53.2817" rot="-0.999233 0.0389554 0 0"/>
+        <o name="icicles_small_row_01" pos="-68.7893 -77.6836 54.74" rot="-0.163506 -0.986533 0 0" sc="1.06446 1.06446 1.06446"/>
+        <o name="icicles_small_row_01" pos="21.7506 -35.8924 40.9912" rot="-0.843152 0.537636 -0.00486725 0.00125716"/>
+        <o name="icicles_small_row_04" pos="26.8364 -33.7393 41.0888" rot="-0.853313 0.521389 0 0" sc="1.12651 1.12651 1.12651"/>
+        <o name="icicles_small_row_05" pos="-45.4024 -50.8661 42.1595" rot="-0.843773 0.536594 -0.00954541 0.00245314"/>
+        <o name="icicles_small_row_05" pos="74.5452 -88.9949 24.7869" rot="-0.937377 0.348158 -0.00984744 0.000401471" sc="1.22275 1.22275 1.22275"/>
+        <o name="icicles_row_02" pos="67.9187 -107.171 23.6923" rot="-0.915971 0.401102 -0.00980843 0.000962986" sc="0.898867 0.898867 0.898867"/>
+        <o name="icicles_row_03" pos="8.57156 -51.4116 22.6784" rot="-0.999233 -0.0376804 -0.00924935 -0.00340325" sc="0.842619 0.826471 0.842619"/>
+        <o name="icicles_row_01" pos="-47.6191 -0.476975 46.6691" rot="-0.98758 0.156782 -0.00973374 -0.00154526" sc="0.842619 0.826471 0.842619"/>
+        <o name="icicle_single_01" pos="-40.3464 -6.20578 48.6377" rot="-0.98758 0.156782 -0.00973374 -0.00154526" sc="0.879682 0.988253 0.879682"/>
+        <o name="icicle_single_01" pos="76.2742 -87.5128 24.9637" rot="-0.988624 0.150048 -0.00972297 -0.00161156" sc="0.842619 0.826471 0.842619"/>
+        <o name="icicle_single_02" pos="-0.178721 -40.3533 23.3975" rot="-0.98758 0.156782 -0.00973374 -0.00154526" sc="0.842619 0.826471 0.842619"/>
+        <o name="icicle_single_04" pos="17.1315 -28.5838 41.4708" rot="-0.98758 0.156782 -0.00973374 -0.00154526" sc="0.842619 0.826471 0.842619"/>
+        <o name="icicles_row_04" pos="-52.1839 -18.4678 48.3113" rot="-0.992611 0.120876 -0.00967129 -0.00189711" sc="0.842619 0.826471 0.842619"/>
+        <o name="icicles_row_03" pos="70.8276 -104.506 23.7105" rot="-0.93299 0.35975 -0.0098417 0.000523505" sc="0.842619 0.826471 0.842619"/>
+        <o name="icicles_small_row_01" pos="81.9178 -94.372 24.627" rot="-0.408088 -0.912876 -0.0010379 -0.00980076" sc="0.902565 0.885268 0.902565"/>
+        <o name="icicles_small_row_02" pos="56.6799 -106.038 22.9124" rot="-0.925536 0.378519 -0.00982913 0.000722156" sc="1.12781 1.10619 1.12781"/>
+        <o name="icicles_small_row_03" pos="-0.415514 -69.4135 21.8766" rot="0 1 0 0"/>
+        <o name="icicles_small_row_04" pos="8.66102 -46.8348 22.8965" rot="-0.999579 0.0229685 -0.0171486 -0.00240597" sc="1.01333 0.993905 1.01333"/>
+        <o name="icicles_small_row_04" pos="-29.238 -55.0189 41.8094" rot="-0.580374 -0.814142 -0.0076401 -0.0155398" sc="1.13461 1.11286 1.13461"/>
+        <o name="icicles_small_row_05" pos="-42.5429 -59.4437 42.2246" rot="-0.546649 -0.837168 -0.00699923 -0.0158389" sc="1.20572 1.18262 1.20572"/>
+        <o name="icicles_row_04" pos="-27.6123 -45.1434 41.6409" rot="-0.61071 -0.791647 -0.00822158 -0.0152403" sc="1.13461 1.1752 1.13461"/>
+        <o name="icicle_single_03" mat="icicles2" pos="-52.813 -54.5762 43.3051" rot="-0.0151398 0.00336888 0.546482 -0.837307" sc="1.02919 1.04732 1.02919"/>
+        <o name="icicle_single_02" mat="icicles2" pos="4.84671 -42.4513 23.7815" rot="-0.0206834 -0.0032255 0.573056 -0.819225" sc="1.13461 1.15459 1.13461"/>
+        <o name="icicles_row_02" pos="4.82139 -42.5011 41.2382" rot="-0.546649 -0.837168 -0.00699923 -0.0158389" sc="1.13461 1.15459 1.13461"/>
+        <o name="icicles_row_01" mat="icicles2" pos="-53.0797 -55.7998 43.0773" rot="-0.00395026 -0.0213763 0.990754 0.133743" sc="1.13461 1.02922 1.13461"/>
+        <o name="icicle_small_single_03" pos="8.57332 -60.1593 22.201" rot="-0.546649 -0.837168 -0.00699923 -0.0158389" sc="1.19859 1.2197 1.19859"/>
+    </objects>
     <emitters/>
 </scene>

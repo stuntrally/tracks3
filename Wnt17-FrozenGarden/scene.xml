@@ -1,14 +1,14 @@
 <scene>
-    <ver num="3018" baseTrk="W14-DangerRoad" secEd="3141"/>
+    <ver num="3018" baseTrk="W14-DangerRoad" secEd="4183"/>
     <car tires="0" damage="0.597633" road1mtr="0"/>
     <start pos="-55.5671 -127.827 7.34887" rot="-0.181872 0.0849673 0.422454 0.883897" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/day_clouds_05_bright2" rainName="SnowStorm" rainEmit="5134" rain2Name="SnowStormFine" rain2Emit="8250" windAmt="0.4125" skyYaw="63"/>
     <fog color="0.545 0.068 0.852 1.000 0.000" color2="0.541 0.045 0.927 0.975 0.000" linStart="0" linEnd="70.6618"/>
     <fogH color="0.822 0.000 0.609 0.413 0.000" height="-25.2772" dens="59.1328" linStart="1.58203" linEnd="141.113"/>
-    <light pitch="56" yaw="28" ambient="0.605 0.025 0.477 0.975 0.000" diffuse="0.165 0.017 0.438 0.975 0.000" specular="0.157 0.006 0.406 1.000 0.000"/>
+    <light pitch="56" yaw="28" ambient="0.570 0.223 0.477 0.000 0.000" diffuse="0.165 0.017 0.438 0.975 0.000" specular="0.157 0.006 0.406 1.000 0.000"/>
     <fluids>
-        <fluid hq="2" name="ice solid" pos="37.5555 -4.06551 -7.55137" rot="0 0 0" size="250.488 54.0378 302.791" tile="0.01 0.01"/>
+        <fluid hq="2" name="ice bright" pos="37.5555 -4.06551 -7.55137" rot="0 0 0" size="250.488 54.0378 302.791" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="1.41181" triangle="1.41181" diff="1 1 1">
@@ -30,7 +30,7 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture road="1" surf="roadSnow" dust="0.656325" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <texture road="1" surf="roadSnow" dust="0.9" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
             <texture road="2" surf="roadForestWet" dust="0.319809" dustS="0.5" mud="0.2" smoke="0" tclr="0.333 0.250 0.400 0.800 0.000"/>
             <texture road="3" surf="roadSnowIce" dust="0.436754" dustS="0.417661" mud="0.176611" smoke="0" tclr="0.504 0.021 0.512 0.815 0.000"/>
             <texture road="4" surf="AsphaltWet" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.504 0.021 0.308 0.815 0.000"/>
@@ -55,7 +55,7 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture road="1" surf="roadSnow" dust="0.656325" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <texture road="1" surf="roadSnow" dust="0.9" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
             <texture road="2" surf="roadForestWet" dust="0.319809" dustS="0.5" mud="0.2" smoke="0" tclr="0.333 0.250 0.400 0.800 0.000"/>
             <texture road="3" surf="roadSnowIce" dust="0.436754" dustS="0.417661" mud="0.176611" smoke="0" tclr="0.504 0.021 0.512 0.815 0.000"/>
             <texture road="4" surf="AsphaltWet" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.504 0.021 0.308 0.815 0.000"/>
@@ -79,9 +79,9 @@
         <layer on="1" name="pine1_full.mesh" dens="0.249998" minScale="0.561265" maxScale="1.13609" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="1.79431" windFy="0.0201351" maxTerAng="26.8251" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="pine3_fat_full.mesh" dens="0.472459" minScale="0.602926" maxScale="1.16191" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="2.39768" windFy="0.0466177" maxTerAng="27.0914" minTerH="-33.4054" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="fir05w.mesh" dens="0.262804" minScale="0.0705448" maxScale="0.136739" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="3.41389" windFy="0.0783557" maxTerAng="28.4424" minTerH="16.5405" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="rock_W02.mesh" dens="0.0865848" minScale="1.11" maxScale="2.03" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="25.19" minTerH="-100" maxTerH="100" maxDepth="2"/>
-        <layer on="1" name="rock_n4r-W.mesh" dens="0.0686801" minScale="0.898614" maxScale="1.422" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.2966" minTerH="1.94595" maxTerH="17.8378" maxDepth="2"/>
-        <layer on="1" name="rock_n5v-W.mesh" dens="0.0571595" minScale="0.780049" maxScale="1.69585" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="17.0408" minTerH="20.1081" maxTerH="100" maxDepth="2"/>
+        <layer on="1" name="rock33snow.mesh" dens="0.0865848" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock08snow.mesh" dens="0.0686801" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="1.94595" maxTerH="17.8378" maxDepth="1"/>
+        <layer on="1" name="rock18snow.mesh" dens="0.0571595" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="20.1081" maxTerH="100" maxDepth="1"/>
         <layer on="0" name="pine2_tall_half.mesh" dens="0.0662915" minScale="0.648601" maxScale="0.891328" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="1.03838" windFy="0.0864" maxTerAng="12.8" minTerH="-100" maxTerH="15.8919" maxDepth="0"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999994" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.0999996" minScale="0.0999994" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
@@ -114,6 +114,62 @@
         <o name="ring_blue_stick" pos="26.5705 -13.052 0.890431" rot="0 -1 0 4.65954e-05" sc="1.01731 1.01731 1.01731"/>
         <o name="ring_blue_stick" pos="19.6642 -7.62553 1.87279" rot="0 -1 0 0" sc="1.01731 1.01731 1.01731"/>
         <o name="ring_blue_stick" pos="11.9557 -0.21531 0.865969" rot="0 -1 0 0" sc="1.01731 1.01731 1.01731"/>
+        <o name="icicles_05" stat="1" pos="-37.2655 74.5909 2.54922" rot="4.06776e-05 -1.85001e-05 -0.169169 0.985575"/>
+        <o name="icicles_03" stat="1" pos="-57.6776 -7.22243 -0.275138" rot="4.06776e-05 -1.85001e-05 -0.169169 0.985575"/>
+        <o name="icicles_03" stat="1" pos="-66.3615 -112.172 1.98721" rot="3.54872e-05 2.71582e-05 -0.948984 0.315276"/>
+        <o name="icicles_03" stat="1" pos="-124.67 -140.692 -1.25937" rot="1.82174e-05 4.08047e-05 -0.984372 -0.176001"/>
+        <o name="icicles_01" stat="1" pos="-126.279 -148.299 0.887712" rot="-6.49638e-06 4.42119e-05 -0.736618 -0.676281"/>
+        <o name="icicles_01" stat="1" pos="20.5886 -8.54189 -4.82681" rot="0.00365845 -0.00332054 -0.736609 -0.676273"/>
+        <o name="icicles_02" stat="1" pos="28.8808 -11.1973 -4.42112" rot="0.00482567 0.00105976 0.124788 -0.99215"/>
+        <o name="icicles_03" stat="1" pos="95.5977 49.9014 -4.9471" rot="0.00012376 0.0049391 0.993232 -0.115846"/>
+        <o name="icicles_04" stat="1" pos="62.2982 93.8103 -4.7786" rot="-0.00399952 0.00320005 0.689526 0.724209"/>
+        <o name="icicles_05" stat="1" pos="48.9755 146.101 -2.78092" rot="-0.00399952 0.00320005 0.689526 0.724209"/>
+        <o name="icicles_06" stat="1" pos="-28.6667 194.406 -2.80569" rot="-0.00399952 0.00320005 0.689526 0.724209"/>
+        <o name="icicles_07" stat="1" pos="-34.9998 185.498 -1.64417" rot="-0.00399952 0.00320005 0.689526 0.724209"/>
+        <o name="icicles_01" stat="1" pos="-47.2175 -38.5715 -3.11567" rot="-0.00399952 0.00320005 0.689526 0.724209" sc="0.810447 0.810447 0.810447"/>
+        <o name="icicle_single_02" stat="1" pos="-48.3711 -36.4752 -2.0283" rot="-0.00399952 0.00320005 0.689526 0.724209" sc="0.810447 0.807567 0.810447"/>
+        <o name="icicles_01" stat="1" pos="-65.4008 -103.811 -0.994792" rot="-0.000224345 0.00511723 0.999048 -0.0426967" sc="0.810447 0.814341 0.810447"/>
+        <o name="icicles_02" stat="1" pos="-100.702 -98.1857 -2.01218" rot="-0.000224345 0.00511723 0.999048 -0.0426967" sc="0.810447 0.814341 0.810447"/>
+        <o name="icicles_03" stat="1" pos="-126.349 -58.0491 2.6199" rot="-0.000224345 0.00511723 0.999048 -0.0426967" sc="0.810447 0.814341 0.810447"/>
+        <o name="icicles_04" stat="1" pos="4.13124 -188.757 4.97002" rot="-0.000224345 0.00511723 0.999048 -0.0426967" sc="0.810447 0.814341 0.810447"/>
+        <o name="icicles_01" stat="1" pos="12.4838 -175.48 10.2498" rot="-0.00160421 0.00486445 0.973163 0.22994" sc="0.658123 0.661284 0.658123"/>
+        <o name="icicles_06" stat="1" pos="53.0398 -206.735 -1.01996" rot="-0.00160421 0.00486445 0.973163 0.22994" sc="0.658123 0.661284 0.658123"/>
+        <o name="icicles_07" stat="1" pos="125.043 -237.932 -6.15035" rot="-0.00160421 0.00486445 0.973163 0.22994" sc="1.1013 1.1066 1.1013"/>
+        <o name="icicles_02" stat="1" pos="113.723 -258.077 -2.90653" rot="-0.00160421 0.00486445 0.973163 0.22994" sc="1.1013 1.1066 1.1013"/>
+        <o name="icicles_01" stat="1" pos="157.525 -180.443 -4.35233" rot="-0.00160421 0.00486445 0.973163 0.22994" sc="1.1013 1.1066 1.1013"/>
+        <o name="icicles_05" stat="1" pos="-169.35 89.9832 8.08925" rot="-0.00160421 0.00486445 0.973163 0.22994" sc="1.1013 1.1066 1.1013"/>
+        <o name="icicles_05" stat="1" pos="-119.916 132.342 -2.53618" rot="-0.00467468 0.0020937 0.486074 0.87387" sc="1.1013 1.1066 1.1013"/>
+        <o name="icicles_06" stat="1" pos="-138.566 111.927 -2.20344" rot="-0.00366922 0.000286082 0.486082 0.873872" sc="1.1013 1.1066 1.1013"/>
+        <o name="icicles_04" stat="1" pos="-161.157 156.534 11.3735" rot="-0.00366922 0.000286082 0.486082 0.873872" sc="1.1013 1.1066 1.1013"/>
+        <o name="icicles_02" stat="1" pos="-208.377 102.754 5.00631" rot="-0.00250025 -0.00270069 -0.383971 0.923305" sc="1.1013 1.1066 1.1013"/>
+        <o name="icicles_01" stat="1" pos="-235.898 100.965 -0.0487303" rot="-0.00250025 -0.00270069 -0.383971 0.923305" sc="0.937253 0.941756 0.937253"/>
+        <o name="icicles_02" stat="1" pos="-209.548 25.7159 -17.2247" rot="-0.00250025 -0.00270069 -0.383971 0.923305" sc="0.937253 0.941756 0.937253"/>
+        <o name="icicles_03" stat="1" pos="-221.07 36.7332 -17.4706" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="0.937253 0.941756 0.937253"/>
+        <o name="icicles_04" stat="1" pos="-196.189 33.2865 -4.27444" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="0.781761 0.785516 0.781761"/>
+        <o name="icicles_05" stat="1" pos="-229.247 -38.8071 -15.3677" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="0.708965 0.712371 0.708965"/>
+        <o name="icicles_06" stat="1" pos="-262.425 -35.1306 -15.1618" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="0.803875 0.807737 0.803875"/>
+        <o name="icicles_07" stat="1" pos="-264.771 -41.1198 -14.0733" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.2084 1.21421 1.2084"/>
+        <o name="icicles_01" stat="1" pos="-232.146 -134.356 1.58428" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.2084 1.21421 1.2084"/>
+        <o name="icicles_02" stat="1" pos="-88.3321 -156.158 3.29225" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.2084 1.21421 1.2084"/>
+        <o name="icicles_03" stat="1" pos="37.0849 -58.2243 9.89853" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.2084 1.21421 1.2084"/>
+        <o name="icicles_04" stat="1" pos="-77.2028 29.8482 -0.918518" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_05" stat="1" pos="-26.4333 24.262 4.20463" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_06" stat="1" pos="113.961 78.6313 -4.86233" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_07" stat="1" pos="87.5338 143.436 -4.77326" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_01" stat="1" pos="31.7718 224.685 -4.31489" rot="0.00317578 -0.00185993 -0.81894 -0.573808" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_02" stat="1" pos="55.4839 162.266 -3.09761" rot="0.00140627 0.00340106 0.680814 -0.732398" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_03" stat="1" pos="50.4253 -180.364 8.90537" rot="0.00140627 0.00340106 0.680814 -0.732398" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_04" stat="1" pos="180.338 -228.453 -8.45178" rot="0.00140627 0.00340106 0.680814 -0.732398" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_05" stat="1" pos="-78.5792 -39.8029 2.27074" rot="0.00140627 0.00340106 0.680814 -0.732398" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_06" stat="1" pos="53.7427 -18.0928 -4.60595" rot="0.00140627 0.00340106 0.680814 -0.732398" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_07" stat="1" pos="-18.3977 -115.976 -5.10872" rot="0.00140627 0.00340106 0.680814 -0.732398" sc="1.16 1.16557 1.16"/>
+        <o name="icicles_01" stat="1" pos="21.7976 -62.6244 -5.30297" rot="-0.00317297 0.00186468 0.819796 0.572578" sc="1.04291 1.04792 1.04291"/>
+        <o name="icicles_02" stat="1" pos="-6.90854 -57.0723 -5.43546" rot="-0.00317297 0.00186468 0.819796 0.572578" sc="1.04291 1.04792 1.04291"/>
+        <o name="icicles_03" stat="1" pos="104.293 21.3285 -5.85961" rot="-0.00128937 -0.00344707 -0.705412 0.708733" sc="0.89938 0.903701 0.89938"/>
+        <o name="icicles_03" stat="1" pos="147.164 192.981 -0.649713" rot="0.00260581 -0.00259893 -0.936937 -0.349363" sc="0.874179 0.878379 0.874179"/>
+        <o name="icicles_04" stat="1" pos="149.132 178.658 -1.60015" rot="0.00367993 -5.24001e-05 -0.429579 -0.902976" sc="1.35706 1.36358 1.35706"/>
+        <o name="icicles_05" stat="1" pos="171.519 221.264 9.65551" rot="0.00367993 -5.24001e-05 -0.429579 -0.902976" sc="1.35706 1.36358 1.35706"/>
+        <o name="icicles_06" stat="1" pos="-13.6062 226.838 -7.35069" rot="-0.00327488 0.0016792 0.785524 0.618749" sc="1.38491 1.39156 1.38491"/>
     </objects>
     <emitters/>
 </scene>
