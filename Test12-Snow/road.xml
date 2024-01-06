@@ -5,5 +5,5 @@
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 3 9" iDir="-1" iChk1="0"/>
     <stats length="0" width="-nan" height="0" onTer="-nan" pipes="-nan" bnkAvg="-nan" bnkMax="0"/>
     <txt desc="Hilly and very slippery terrain."/>
-    <adv ice="With various surfaces: white is ice, green is wet snow, brown has most grip."/>
+    <adv ice="With various surfaces: white is ice, green is wet snow, brown has most grip. Fixme: not yet in SR3"/>
 </SplineRoad>

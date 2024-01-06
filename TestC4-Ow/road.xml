@@ -1,13 +1,13 @@
 <SplineRoad>
-    <mtr type="0" road="roadSavannah" pipe="pipeAsphalt" />
-    <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06" />
-    <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800" />
-    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 3 15.516" iDir="1" iChk1="3" />
-    <stats length="233.976" width="11.2619" height="11.5828" onTer="0" pipes="0" bnkAvg="0.613946" bnkMax="1.1274" />
-    <txt desc="Small circle track, ideal for training steering in turns when sliding." />
-    <adv ice="Possible to drive mostly full throttle. Control steering, sliding and spinning wheels to stay turning a big circle on edges of road." />
-    <P pos="-49.7506 0 59.3362" w="10" aT="2" chkR="1.14" />
-    <P pos="-51.9012 0 5.17983" w="12" aT="2" chkR="1.2" />
-    <P pos="5.2178 0 4.594" w="12" aT="2" chkR="1.184" />
-    <P pos="6.5417 0 60.4942" w="11" aT="2" chkR="1.108" />
+    <mtr type="0" road="roadSavannah" pipe="pipeAsphalt"/>
+    <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
+    <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 3 15.516" iDir="1" iChk1="3"/>
+    <stats length="233.97583" width="11.261857" height="1.5154753" onTer="0" pipes="0" bnkAvg="0.6139456" bnkMax="1.1273957"/>
+    <txt desc="Small circle track, ideal for training steering in turns when sliding."/>
+    <adv ice="Possible to drive mostly full throttle. Control steering, sliding and spinning wheels to stay turning a big circle on edges of road."/>
+    <P pos="-49.7506 0 59.3362" w="10" aT="2" chkR="1.14"/>
+    <P pos="-51.9012 0 5.17983" w="12" aT="2" chkR="1.2"/>
+    <P pos="5.2178 0 4.594" w="12" aT="2" chkR="1.184"/>
+    <P pos="6.5417 0 60.4942" w="11" aT="2" chkR="1.108"/>
 </SplineRoad>

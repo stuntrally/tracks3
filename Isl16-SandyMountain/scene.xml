@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="30585"/>
+    <ver num="3018" baseTrk="" secEd="30655"/>
     <car tires="0"/>
     <start pos="146.219 59.5812 -0.78501" rot="0.0153527 0.00140526 -0.995737 0.0911429" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/dawn_bright"/>
-    <fog color="0.583 0.080 1.000 0.669 0.000" color2="0.537 0.161 0.560 0.693 0.000" linStart="350.703" linEnd="1015.31"/>
+    <sky material="sky/sunset_04_yellow" skyYaw="51.818176"/>
+    <fog color="0.182 0.483 0.913 1.000 0.000" color2="0.182 0.229 0.438 1.000 0.000" linStart="350.703" linEnd="1015.31"/>
     <fogH color="0.171 0.554 1.062 0.880 0.000" height="-5" dens="100" linStart="0" linEnd="20"/>
-    <light pitch="21" yaw="-45" ambient="0.000 0.000 0.600 1.000 0.000" diffuse="0.167 0.022 0.900 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
+    <light pitch="17" yaw="1" ambient="0.000 0.000 0.600 1.000 0.000" diffuse="0.167 0.022 0.900 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="-37.6557 -3.8313 -225.125" rot="0 0 0" size="1245.63 60 577.284" tile="0.00686782 0.00686782"/>
         <fluid hq="2" name="water blue" pos="-60.1884 -7.08142 -344.554" rot="0 0 0" size="51.0491 40 52.6028" tile="0.01 0.01"/>
@@ -70,7 +70,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="554.006 54.303 -52.9185" dir="-0.24603313 -0.029561814 -0.9688105"/>
+    <cam pos="554.006 54.303 -52.9185" dir="-0.24603319 -0.029561814 -0.9688105"/>
     <objects>
         <o name="big_tire" pos="731.478 -241.856 10.2469" rot="0.00313562 0.999715 -0.010847 0.0210402"/>
         <o name="big_tire" pos="732.884 -241.045 -5944.42" rot="0.237273 0.829396 0.16592 0.477781"/>

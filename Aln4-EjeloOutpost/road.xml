@@ -3,7 +3,7 @@
     <dim tcMul="0.06" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="5" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.3" skirtH="0.06" merge="1" mergeLen="1014.28" lodPntLen="50.4035" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.288 18.344" iDir="1" iChk1="211"/>
-    <stats length="8078.54" width="7.24806" height="335.148" onTer="30.3019" pipes="11.024" bnkAvg="4.30592" bnkMax="45.8461"/>
+    <stats length="8078.542" width="7.2480564" height="335.14838" onTer="30.301926" pipes="11.0239525" bnkAvg="4.3059216" bnkMax="45.846134"/>
     <txt desc="Race track on alien world similar to earth."/>
     <adv ice="Rather easy with some hill climbs. Keep speed (100 km/h / 60 mph) in middle lake water to jump. Good track for using handbrake in few sharp, harpin turns."/>
     <P pos="26.7069 0 436.189" w="7" aT="2"/>
