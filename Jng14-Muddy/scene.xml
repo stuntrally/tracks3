@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="1460"/>
+    <ver num="3018" baseTrk="" secEd="1489"/>
     <car tires="0"/>
     <start pos="-9.36017 49.6615 0.588757" rot="1.00178e-06 -0.009471 -8.37326e-07 0.99996" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="JungleDense"/>
-    <sky material="sky/blue_clouds"/>
-    <fog color="0.133 0.167 0.600 1.000 0.000" color2="0.233 0.091 0.550 1.000 0.000" linStart="30.0125" linEnd="214.512"/>
+    <sky material="sky/cloudy_04_white" skyYaw="-15"/>
+    <fog color="0.559 0.116 0.762 0.911 0.000" color2="0.577 0.180 0.523 1.000 0.000" linStart="30.0125" linEnd="214.512"/>
     <fogH color="0.167 0.333 0.600 0.900 0.000" height="6.73499" dens="10.58" linStart="0" linEnd="61.25"/>
-    <light pitch="43.7405" yaw="30.6868" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.700 1.000 0.000" specular="0.167 0.056 0.900 1.000 0.000"/>
+    <light pitch="33" yaw="10" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.700 1.000 0.000" specular="0.167 0.056 0.900 1.000 0.000"/>
     <fluids>
         <fluid hq="0" name="mud hard" pos="-90.6268 -2.16673 -58.7374" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
         <fluid hq="2" name="mud soft" pos="7.24058 -2.56652 13.937" rot="0 0 0" size="58.3968 20 54.0224" tile="0.01 0.01"/>

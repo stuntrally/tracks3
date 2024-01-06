@@ -3,8 +3,8 @@
     <dim tcMul="0.12" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.1" skirtH="0.12" merge="1" mergeLen="600" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="1.1" wsPm="4" lsPm="1" stBox="1 10.032 18.148" iDir="1" iChk1="4"/>
-    <stats length="1717.9297" width="6.494411" height="73.79982" onTer="66.156136" pipes="21.977629" bnkAvg="8.696044" bnkMax="31.2736"/>
-    <txt desc="Very curly and cluttered road in tight mountains."/>
+    <stats length="1717.9297" width="6.494411" height="65.65022" onTer="66.156136" pipes="21.977629" bnkAvg="8.696044" bnkMax="31.2736"/>
+    <txt desc="Very curly and cluttered road in tight mountains at sunset."/>
     <adv ice="Slow and narrow, with banked bridges. Partly in narrow pipe with 2 direction changes. Caution: don&apos;t fall off the U turns."/>
     <P pos="-2.73165 0 -28.6911" w="6" aT="2"/>
     <P pos="2.61657 0 -6.74504" w="6" aT="2"/>

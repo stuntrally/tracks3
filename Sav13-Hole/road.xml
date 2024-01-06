@@ -3,7 +3,7 @@
     <dim tcMul="0.12" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="0.52789533" widthSteps="4" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="202.287" lodPntLen="15.3035" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.456 12.884" iDir="-1" iChk1="15"/>
-    <stats length="3117.1296" width="5.4147396" height="83.18243" onTer="0" pipes="0" bnkAvg="43.156124" bnkMax="78.02783"/>
+    <stats length="3117.1296" width="5.4147396" height="83.11365" onTer="0" pipes="0" bnkAvg="43.156124" bnkMax="78.02783"/>
     <txt desc="A big egg-shaped hole in ground with a curly road on its slopes."/>
     <adv ice="Can be driven only from in-car cameras. Easy to loose right path without racing line. Has steep sharp turns higher."/>
     <P pos="58.7234 0 16.2118" w="6.424" aT="2" mtr="1"/>

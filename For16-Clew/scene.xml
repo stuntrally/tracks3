@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="6168"/>
+    <ver num="3018" baseTrk="" secEd="6619"/>
     <car tires="0"/>
     <start pos="2.81814 0.643204 -73.0214" rot="-0.036019 -0.019132 -0.741736 0.66949" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="MountainsClose"/>
-    <sky material="sky/day_blue"/>
-    <fog color="0.583 0.271 0.713 1.000 0.000" color2="0.583 0.295 0.719 1.000 0.000" linStart="71.3177" linEnd="343.815"/>
+    <sky material="sky/evening_02_dark" skyYaw="59.31819"/>
+    <fog color="0.058 0.721 0.732 0.999 0.000" color2="0.634 0.818 0.131 0.718 0.000" linStart="71.3177" linEnd="343.815"/>
     <fogH color="0.583 0.031 0.598 0.900 0.000" height="-61.8287" dens="41.011" linStart="0" linEnd="148.513"/>
-    <light pitch="84" yaw="13" ambient="0.167 0.100 0.500 1.000 0.000" diffuse="0.083 0.130 0.460 1.000 0.000" specular="0.000 0.000 0.700 1.000 0.000"/>
+    <light pitch="13" yaw="2" ambient="0.855 0.100 0.554 0.999 0.000" diffuse="0.083 0.401 0.603 0.999 0.000" specular="0.882 0.178 0.625 0.999 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="0.557584" triangle="0.557584" diff="1 1 1">
@@ -89,10 +89,10 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-59.1707 32.5285 -141.098" dir="0.402078 -0.329143 0.854399"/>
+    <cam pos="-9.537335 1.1974225 115.31166" dir="-0.07033912 -0.25998944 -0.96304613"/>
     <objects/>
     <emitters>
-        <e name="Cloud2" pos="662.326 154.329 260.69" sc="333.852 235.08 567.677" up="0 1 0" rot="0" rate="52.7972" st="1" psc="1"/>
-        <e name="Cloud1" pos="346.877 285.143 753.126" sc="914.981 397.455 485.166" up="0 1 0" rot="0" rate="190.414" st="1" psc="1"/>
+        <e name="Cloud7MistyOrange" pos="662.326 154.329 260.69" sc="333.852 235.08 567.677" up="0 1 0" rot="0" rate="57.914604" st="1" psc="2.1877942"/>
+        <e name="Cloud6Orange" pos="346.877 285.143 753.126" sc="914.981 397.455 485.166" up="0 1 0" rot="0" rate="190.414" st="1" psc="1.2871764"/>
     </emitters>
 </scene>

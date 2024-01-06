@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="1030"/>
+    <ver num="3018" baseTrk="" secEd="1122"/>
     <car tires="0"/>
     <start pos="42.4758 -52.6683 8.07214" rot="-0.028062 -0.047499 -0.00449584 0.998478" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Jungle"/>
-    <sky material="sky/gray_clouds"/>
-    <fog color="0.300 0.192 0.320 1.000 0.000" color2="0.300 0.217 0.304 1.000 0.000" linStart="27.6125" linEnd="162.45"/>
+    <sky material="sky/day_clouds_05_bright" skyYaw="-33.40909"/>
+    <fog color="0.581 0.064 0.312 0.911 0.000" color2="0.591 0.159 0.893 0.860 0.000" linStart="27.6125" linEnd="162.45"/>
     <fogH color="0.250 0.250 0.400 0.850 0.000" height="2.46001" dens="9.03125" linStart="0" linEnd="14.45"/>
-    <light pitch="43.7404" yaw="30.6868" ambient="0.000 0.000 0.304 0.000 0.000" diffuse="0.000 0.000 0.424 0.000 0.000" specular="0.000 0.000 0.497 0.000 0.000"/>
+    <light pitch="56" yaw="-11" ambient="0.000 0.000 0.304 0.000 0.000" diffuse="0.000 0.000 0.424 0.000 0.000" specular="0.000 0.000 0.497 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water green med" pos="7.75109 5.79996 -27.4092" rot="0 0 0" size="26.68 20 42.5683" tile="0.01 0.01"/>
         <fluid hq="2" name="mud soft JD" pos="90.1949 -0.388644 -15.1706" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
@@ -45,15 +45,15 @@
         </terrain>
     </terrains>
     <veget densGrass="0.2" densTrees="0.4" grPage="80" grDist="80" grDensSmooth="1" trPage="100" trDist="100" trDistImp="800" trRdDist="1">
-        <grass on="1" mtr="grass3g" cl="0.000 0.000 1.000 1.000 0.000" dens="0.193367" chan="0" minSx="1.18105" maxSx="1.53682" minSy="1.47402" maxSy="2.35994" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass18gw" cl="0.000 0.000 1.000 1.000 0.000" dens="0.112111" chan="0" minSx="1.63366" maxSx="2.08978" minSy="1.80207" maxSy="2.90729" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass17" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0773504" chan="0" minSx="1.96115" maxSx="2.08978" minSy="2.50147" maxSy="3.15671" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass16g" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.6173" maxSx="1.99746" minSy="2.20346" maxSy="3.15671" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass15g" cl="0.000 0.000 1.000 1.000 0.000" dens="0.0810294" chan="0" minSx="1.8194" maxSx="2.14623" minSy="3.32096" maxSy="4.1" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass6g-" cl="0.000 0.000 1.000 1.000 0.000" dens="0.264331" chan="0" minSx="1.42784" maxSx="2.05259" minSy="1.47402" maxSy="1.97926" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" cl="0.000 0.000 1.000 1.000 0.000" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass3g" dens="0.193367" chan="0" minSx="1.18105" maxSx="1.53682" minSy="1.47402" maxSy="2.35994" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass18gw" dens="0.112111" chan="0" minSx="1.63366" maxSx="2.08978" minSy="1.80207" maxSy="2.90729" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grass17" dens="0.0773504" chan="0" minSx="1.96115" maxSx="2.08978" minSy="2.50147" maxSy="3.15671" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass16g" dens="0.1" chan="0" minSx="1.6173" maxSx="1.99746" minSy="2.20346" maxSy="3.15671" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="1" mtr="grass15g" dens="0.0810294" chan="0" minSx="1.8194" maxSx="2.14623" minSy="3.32096" maxSy="4.1" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grass6g-" dens="0.264331" chan="0" minSx="1.42784" maxSx="2.05259" minSy="1.47402" maxSy="1.97926" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
         <gchan amin="0" amax="18" asm="5" hmin="-50" hmax="18" hsm="5" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="40" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="55" oct="3" prs="0.3" pow="1.2" rd="0"/>

@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="11503"/>
+    <ver num="3018" baseTrk="" secEd="11750"/>
     <car tires="0"/>
     <start pos="44.4858 -105.865 -7.60815" rot="-0.002779 -0.011944 0.226561 -0.973925" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="MountainsClose"/>
-    <sky material="sky/blue_clouds"/>
-    <fog color="0.593 0.106 0.850 0.900 0.000" color2="0.583 0.082 0.730 1.000 0.000" linStart="312.871" linEnd="2023.08"/>
+    <sky material="sky/day_clouds_08" skyYaw="-54.545456"/>
+    <fog color="0.550 0.050 0.592 1.000 0.000" color2="0.564 0.343 0.457 1.000 0.000" linStart="312.871" linEnd="2023.08"/>
     <fogH color="0.000 0.000 0.600 0.800 0.000" height="-16.4063" dens="83.205" linStart="0" linEnd="103.513"/>
-    <light pitch="47.2388" yaw="57.3124" ambient="0.167 0.100 0.500 1.000 0.000" diffuse="0.135 0.242 0.660 1.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
+    <light pitch="40.227272" yaw="0" ambient="0.167 0.100 0.500 1.000 0.000" diffuse="0.135 0.242 0.660 1.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water cyan" pos="18.3116 -12.0725 150.064" rot="0 0 0" size="141.822 20 154.845" tile="0.01 0.01"/>
         <fluid hq="2" name="water cyan" pos="389.592 -1.10893 -178.6" rot="0 0 0" size="85.3005 20 154.261" tile="0.01 0.01"/>
@@ -100,7 +100,7 @@
     <objects/>
     <emitters>
         <e name="Cloud2" pos="-341.152 187.994 100.399" sc="119.726 5.36835 90.7977" up="0 1 0" rot="0" rate="11.0403" st="1" psc="1"/>
-        <e name="Cloud1" pos="-393.585 129.839 -325.258" sc="399.934 1 317.785" up="0 1 0" rot="0" rate="28.0468" st="1" psc="1"/>
+        <e name="Cloud4" pos="-393.585 129.839 -325.258" sc="399.934 1 317.785" up="0 1 0" rot="0" rate="28.0468" st="1" psc="1"/>
         <e name="Cloud1" pos="-5052.44 1197.02 4423.47" sc="1012.51 193.08 1029.08" up="0 1 0" rot="0" rate="236.177" st="1" psc="1"/>
         <e name="WaterfallLow" pos="377.4835 0.95467114 -234.76988" sc="6.8464518 2.2131994 10.722733" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
     </emitters>
