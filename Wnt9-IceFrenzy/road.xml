@@ -1,9 +1,9 @@
 <SplineRoad>
-    <mtr type="0" road="roadIce" pipe="pipeGlass" road2="roadIceBlue" road3="roadSnowWhite" road4="roadIceBlueTransp" wall="road_wall_Winter" col="road_col_Ice"/>
+    <mtr type="0" road="roadIce" pipe="pipeGlass" road2="roadIceBlue" road3="roadSnowWhite" road4="roadIceBlueTransp" wall="road_wall_Winter" col="road_col_Winter"/>
     <dim tcMul="0.0688073" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.02" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="3" wsPm="4" lsPm="1" stBox="1 6.804 24.604" iDir="-1" iChk1="0"/>
-    <stats length="3950.21" width="14.0265" height="23.6142" onTer="41.4463" pipes="0" bnkAvg="14.2919" bnkMax="37.62"/>
+    <stats length="3950.2117" width="14.026484" height="23.614244" onTer="41.446285" pipes="0" bnkAvg="14.291879" bnkMax="37.61999"/>
     <txt desc="Long, winding, very slippery track."/>
     <adv ice="Ice, drive slower. Mostly banked. Partly on bridges with very twisted, skewed turns."/>
     <P pos="34.0643 0 156.118" w="13.2" aT="2" chkR="1.668"/>

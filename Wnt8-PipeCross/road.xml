@@ -1,9 +1,9 @@
 <SplineRoad>
-    <mtr type="0" road="roadSnowGrn" pipe="pipeGlassBlue" pipe2="pipeGlassGreen" pipeW="pipe_wall_Winter" col="roadMagicMirrorCyan"/>
+    <mtr type="0" road="roadSnowGrn" pipe="pipeGlassBlue" pipe2="pipeGlassGreen" pipeW="pipe_wall_Winter" col="road_col_Ice"/>
     <dim tcMul="0.05" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.176 14.632" iDir="1" iChk1="40"/>
-    <stats length="2097.82" width="9.04" height="35.7396" onTer="27.6114" pipes="27.6114" bnkAvg="6.42672" bnkMax="27.624"/>
+    <stats length="2097.821" width="9.040001" height="35.73961" onTer="27.61141" pipes="27.61141" bnkAvg="6.4267187" bnkMax="27.624014"/>
     <txt desc="Fast curly track at slippery end of winter."/>
     <adv ice="Slow down before pipe ends and brake before turns."/>
     <P pos="8.30638 0 136.561" w="9.04" aT="2" chkR="2"/>

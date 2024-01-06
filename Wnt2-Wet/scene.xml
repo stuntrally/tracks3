@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3018" baseTrk="X3-Cloud" secEd="491"/>
+    <ver num="3018" baseTrk="X3-Cloud" secEd="1357"/>
     <car tires="0"/>
     <start pos="29.9145 7.45203 -15.289" rot="-5.78704e-15 1.31839e-15 0.707662 0.706559" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
     <sky material="sky/day_clouds_06_bright" rainName="RainFine" rainEmit="420" rain2Name="SnowFine" rain2Emit="255" skyYaw="-60.681816"/>
-    <fog color="0.522 0.436 0.383 1.000 0.000" color2="0.527 0.481 0.255 1.000 0.000" linStart="148.513" linEnd="904.513"/>
+    <fog color="0.522 0.074 1.122 1.000 0.000" color2="0.566 0.481 0.410 0.869 0.000" linStart="36.898716" linEnd="448.21893"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
     <light pitch="38" yaw="0" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.000 0.000 0.650 1.000 0.000" specular="0.000 0.000 0.700 1.000 0.000"/>
     <fluids>
@@ -82,18 +82,18 @@
         <layer on="1" name="pine1_half.mesh" dens="0.229551" minScale="0.97691" maxScale="1.20445" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.101797" windFy="0.0167879" maxTerAng="11.0803" minTerH="-100" maxTerH="26" maxDepth="0"/>
         <layer on="1" name="pine3_fat_half.mesh" dens="0.248812" minScale="1.04925" maxScale="1.51159" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.0723636" windFy="0.0167879" maxTerAng="7.54155" minTerH="-100" maxTerH="26" maxDepth="0"/>
         <layer on="1" name="fir06.mesh" dens="0.165594" minScale="0.0577526" maxScale="0.0819476" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="20.9488" minTerH="-100" maxTerH="33" maxDepth="1"/>
-        <layer on="1" name="rock18snow.mesh" dens="0.0690175" minScale="0.828941" maxScale="1.53231" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="1" name="rock07snow.mesh" dens="0.0750822" minScale="0.76421" maxScale="1.38694" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="1" name="rock16snow.mesh" dens="0.04429" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock18snow.mesh" dens="0.018385522" minScale="0.828941" maxScale="1.53231" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock07snow.mesh" dens="0.018385522" minScale="0.76421" maxScale="1.38694" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock16snow.mesh" dens="0.016885314" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock_W02.mesh" dens="0.034760125" minScale="1.11" maxScale="2.03" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="25.9403" minTerH="-100" maxTerH="100" maxDepth="2"/>
+        <layer on="1" name="rock_n4r-W.mesh" dens="0.009224679" minScale="0.896815" maxScale="1.59169" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="16.888" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock_W03.mesh" dens="0.0040397877" minScale="0.788228" maxScale="1.50391" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="21.0718" minTerH="-100" maxTerH="100" maxDepth="2"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-126.137 12.7789 -74.4222" dir="0.951415 -0.14843 -0.269774"/>
+    <cam pos="220.96739 39.207695 270.54428" dir="-0.5665479 -0.09654884 -0.8183531"/>
     <objects>
         <o name="plastic_big" pos="-164.012 -106.971 -11.4193" rot="0.733922 -0.669622 -0.109158 -0.032399"/>
         <o name="plastic_big" pos="-171.32 -113.745 -11.7905" rot="0.736815 -0.667197 -0.107032 -0.0222646"/>
@@ -125,10 +125,10 @@
         <o name="gas_tank_02_blue_snow" pos="24.236 -7.09328 -15.0185" rot="-0.00495748 -0.999984 0 0"/>
         <o name="gas_tank_02_blue_snow" pos="22.3313 -7.0439 -15.0257" rot="0.999708 0.0234789 0.00376827 -8.85006e-05"/>
         <o name="tree_trunks_03_snow" pos="-59.7567 94.999 -14.979" rot="0.593717 0.799404 -0.0895981 0.0196552"/>
-        <o name="tree_trunks_snow" pos="-60.594 94.8333 -15.2979" rot="0.624612 0.775368 -0.0603891 0.0704186"/>
+        <o name="tree_trunks_snow" pos="-60.594 94.8333 -15.471814" rot="0.6226718 0.7730865 -0.07789097 0.09214653"/>
         <o name="house_1_snow2" pos="131.808 -199.649 -6.83709" rot="-0.987351 0.158528 0 0"/>
     </objects>
     <emitters>
-        <e name="SmokeBlack" pos="130.18 -2.07509 199.136" sc="0.7973 1 1.43868" up="0 1 0" rot="0" rate="4.70905" st="0" psc="0.167759"/>
+        <e name="FireYellowRed" pos="130.18 -2.07509 199.136" sc="0.7973 1 1.43868" up="0 1 0" rot="0" rate="18.553171" st="0" psc="0.21688423"/>
     </emitters>
 </scene>

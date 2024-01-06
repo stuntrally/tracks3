@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1.5" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5 19.168" iDir="-1" iChk1="53"/>
-    <stats length="2610.9805" width="9.320003" height="15.588737" onTer="0" pipes="0" bnkAvg="7.2104454" bnkMax="14.075778"/>
+    <stats length="2610.9805" width="9.320003" height="15.588737" onTer="0" pipes="0" bnkAvg="7.20715" bnkMax="14.075778"/>
     <txt desc="Curly and fast road in wet winter scenery."/>
     <adv ice="With 2 broad circles on wet, slippery snow road. Two bumps in middle and drives through water."/>
     <P pos="30.8749 0 161.202" w="9.32" aT="2"/>

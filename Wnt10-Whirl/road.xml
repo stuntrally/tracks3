@@ -1,9 +1,9 @@
 <SplineRoad>
-    <mtr type="0" road="roadSnow" pipe="pipeGlass" road2="roadSnowWhite" wall="road_wall_Winter" pipeW="pipe_wall_Winter" col="road_col_Winter"/>
+    <mtr type="0" road="roadSnowWhite" pipe="pipeGlass" road2="roadSnowWet" wall="road_wall_Winter" pipeW="pipe_wall_Winter" col="road_col_Winter"/>
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.804 24.604" iDir="1" iChk1="47"/>
-    <stats length="2130.17" width="8.304" height="68.3395" onTer="21.8952" pipes="0" bnkAvg="11.4551" bnkMax="28.614"/>
+    <stats length="2130.1675" width="8.304001" height="68.33946" onTer="21.895166" pipes="0" bnkAvg="11.455057" bnkMax="28.61401"/>
     <txt desc="Curly track in mountains during heavy snowfall and dense fog."/>
     <adv ice="With bridges, few big circles and 1 sharp hairpin turn."/>
     <P pos="4.00373 0 121.864" w="8.304" aT="2"/>
