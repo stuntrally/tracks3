@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="12312"/>
+    <ver num="3018" baseTrk="" secEd="12368"/>
     <car tires="0"/>
     <start pos="230.41 -502.192 34.8713" rot="0 3.9968e-15 0.999578 -0.0295352" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Canyon"/>
-    <sky material="sky/day_blue2" rainName="RainFine" rainEmit="45" rain2Name="SnowFine" rain2Emit="15" skyYaw="-27.5188"/>
-    <fog color="0.564 0.260 0.725 1.000 0.000" color2="0.576 0.430 0.654 0.800 0.000" linStart="182.077" linEnd="1759.76"/>
+    <sky material="sky/day_clouds_08" rainName="RainFine" rainEmit="45" rain2Name="SnowFine" rain2Emit="15" skyYaw="21.136368"/>
+    <fog color="0.550 0.050 0.592 1.000 0.000" color2="0.564 0.343 0.457 1.000 0.000" linStart="182.077" linEnd="1759.76"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-53.1205" dens="86.8367" linStart="0" linEnd="232.663"/>
-    <light pitch="43.985" yaw="-40" ambient="0.500 0.020 0.533 0.000 0.000" diffuse="0.506 0.000 0.592 0.000 0.000" specular="0.500 0.043 0.683 0.000 0.000"/>
+    <light pitch="33" yaw="0" ambient="0.500 0.020 0.533 0.000 0.000" diffuse="0.506 0.000 0.592 0.000 0.000" specular="0.500 0.043 0.683 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water white" pos="263.039 -2.16757 72.5737" rot="0 0 0" size="350.656 60 295.484" tile="0.01 0.01"/>
         <fluid hq="2" name="water white" pos="-148.719 -7.19418 210.021" rot="0 0 0" size="178.323 60 207.359" tile="0.01 0.01"/>
