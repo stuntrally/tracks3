@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="1577"/>
+    <ver num="3018" baseTrk="" secEd="1586"/>
     <car tires="0"/>
     <start pos="-31.4174 150.722 -16.7778" rot="0 -7.10543e-15 0.270183 0.962812" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Forest"/>
@@ -34,7 +34,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="7.8148856" diff="1 1 1">
+        <terrain ofsZ="0" triangle="7.8148856" diff="1 1 1" horiz="1">
             <texture on="1" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="15.134717" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.083 1.000 0.100 0.750 0.000" angMin="0" angMax="12.5049" angSm="8.79854" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.98248" n_1="0" n2="0.921833">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="19.4687" oct1="3" prs1="0.539139" pow1="4.20143"/>
             </texture>
