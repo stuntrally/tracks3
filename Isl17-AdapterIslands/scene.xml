@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="AdapterIslands2" secEd="124955"/>
+    <ver num="3018" baseTrk="AdapterIslands2" secEd="125109"/>
     <car tires="0" damage="0.346734" road1mtr="0"/>
     <start pos="457.134 58.0296 8.1627" rot="0.0193305 -0.00335088 0.997679 0.0657176" pos2="0 0 0" rot2="0 0 0 1"/>
-    <sound ambient="" vol="1" reverbs="Canyon"/>
-    <sky material="sky/day_blue2"/>
-    <fog color="0.574 0.271 0.677 0.815 0.000" color2="0.572 0.362 0.756 0.805 0.000" linStart="641.364" linEnd="2000"/>
+    <sound ambient="" reverbs="Canyon"/>
+    <sky material="sky/day_clouds_08" skyYaw="34.772736"/>
+    <fog color="0.550 0.050 0.592 1.000 0.000" color2="0.564 0.343 0.457 1.000 0.000" linStart="641.364" linEnd="2000"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="108.558" linStart="0" linEnd="400"/>
-    <light pitch="60" yaw="-40" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.000 0.000 0.997 0.000 0.000" specular="0.000 0.000 0.800 1.000 0.000"/>
+    <light pitch="38.863636" yaw="27.954544" ambient="0.000 0.000 0.450 1.000 0.000" diffuse="0.000 0.000 0.833 1.000 0.000" specular="0.000 0.000 0.800 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="21.8421 2.53215 -38.2546" rot="0 0 0" size="41168.5 33.1061 41143.1" tile="0.01 0.01"/>
     </fluids>
@@ -66,7 +66,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-1194.8 253.051 481.804" dir="0.946191 -0.219114 -0.238143"/>
+    <cam pos="-1194.8 253.051 481.804" dir="0.94619083 -0.21911395 -0.23814297"/>
     <objects>
         <o name="kart_house_c" pos="450.502 32.6473 6.81322" rot="0.989706 -0.143116 0 0"/>
         <o name="kart_house_c" pos="460.32 28.3126 6.93301" rot="0.597969 -0.801517 0 0"/>

@@ -3,7 +3,7 @@
     <dim tcMul="0.0650965" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="521.66" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3" wsPm="4" lsPm="1" stBox="1 11.476 20.192" iDir="1" iChk1="1"/>
-    <stats length="3939.69" width="7.31333" height="162.284" onTer="73.9851" pipes="16.4607" bnkAvg="15.3965" bnkMax="84.8401"/>
+    <stats length="3939.6863" width="7.3133335" height="162.28369" onTer="73.985115" pipes="16.460667" bnkAvg="15.396515" bnkMax="84.84014"/>
     <txt desc="Outerworldly light snowy landscape with the lower parts submerged in a dense green fog above acid pools. Drive carefully and enjoy."/>
     <adv ice="Slippery, snowy road with stunts. Fog below has short visibility, use driving aids or change camera for better view."/>
     <P pos="51.8388 0 -217.359" w="7" aT="2"/>

@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="W14-DangerRoad" secEd="2784"/>
+    <ver num="3018" baseTrk="W14-DangerRoad" secEd="2968"/>
     <car tires="0" road1mtr="0"/>
     <start pos="-89.0869 -48.1956 20.7887" rot="-0.00490832 -0.00503343 -0.698189 0.715881" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
-    <sky material="sky/day_blue2"/>
-    <fog color="0.583 0.213 0.600 0.947 0.000" color2="0.574 0.271 0.707 0.815 0.000" linStart="329.29" linEnd="969.474"/>
+    <sky material="sky/day_clouds_08"/>
+    <fog color="0.550 0.050 0.592 1.000 0.000" color2="0.564 0.343 0.457 1.000 0.000" linStart="329.29" linEnd="969.474"/>
     <fogH color="0.567 0.182 0.625 1.000 0.000" height="15.5211" dens="51.5642" linStart="0" linEnd="24.3215"/>
-    <light pitch="60" yaw="-40" ambient="0.605 0.025 0.517 1.000 0.000" diffuse="0.165 0.017 0.438 1.000 0.000" specular="0.157 0.006 0.406 1.000 0.000"/>
+    <light pitch="33" yaw="0" ambient="0.605 0.025 0.517 1.000 0.000" diffuse="0.165 0.017 0.592 0.000 0.000" specular="0.157 0.006 0.406 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water white" pos="350.103 4.64862 -523.237" rot="0 0 0" size="621.402 60 1175.48" tile="0.01 0.01"/>
         <fluid hq="2" name="ice solid" pos="81.507 4.70805 470.202" rot="0 0 0" size="283.281 60 809.133" tile="0.01 0.00844014"/>
@@ -92,7 +92,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-261.289 98.1168 302.079" dir="0.668071 -0.219759 -0.710906"/>
+    <cam pos="-261.289 98.1168 302.079" dir="0.6680709 -0.21975905 -0.7109059"/>
     <objects>
         <o name="plastic_big_hvy" pos="42.0218 -192.942 5.80503" rot="-0.00611657 0.995388 0.0678198 -0.0675691"/>
         <o name="wood_block" pos="-139.332 -161.559 37.5746" rot="-0.0319599 0.996944 0.0565886 -0.0433445"/>
