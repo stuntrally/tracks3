@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="4928"/>
+    <ver num="3018" baseTrk="" secEd="4974"/>
     <car tires="0"/>
     <start pos="-339.986 -235.565 1.83783" rot="-0.04219 0.03653 -0.641465 0.765127" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/day_clouds_04_blue"/>
-    <fog color="0.591 0.329 0.997 1.000 0.000" color2="0.589 0.461 0.292 1.000 0.000" linStart="402.523" linEnd="970.898"/>
+    <fog color="0.591 0.329 0.997 1.000 0.000" color2="0.589 0.461 0.292 1.000 0.000" linStart="402.523" linEnd="1149.2567"/>
     <fogH color="0.067 0.333 0.113 0.950 0.000" height="-1.785" dens="20.1612" linStart="0" linEnd="0.2"/>
     <light pitch="48" yaw="-35" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.899 0.950 0.000" specular="0.000 0.000 0.820 0.000 0.000"/>
     <fluids>
