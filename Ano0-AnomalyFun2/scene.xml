@@ -88,7 +88,7 @@
         <layer on="1" name="rock26grayBlue_anomaly.mesh" dens="0.301457" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="3" maxRdist="6" windFx="0" windFy="0" maxTerAng="26.93" minTerH="0.550461" maxTerH="9" maxDepth="0"/>
         <layer on="1" name="crystal1_anomaly.mesh" dens="0.311972" minScale="1.04485" maxScale="1.92187" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.599999" windFy="0.00999945" maxTerAng="26.93" minTerH="-3.85321" maxTerH="81.1009" maxDepth="0"/>
         <layer on="1" name="balloon1_anomaly.mesh" dens="0.269348" minScale="0.265845" maxScale="2.65072" ofsY="0" addTrRdDist="1" maxRdist="15" windFx="0.699996" windFy="0.00999974" maxTerAng="26.93" minTerH="-4.58716" maxTerH="67.156" maxDepth="0"/>
-        <layer on="1" name="obstacleRingAnomalyBroken.mesh" dens="0.105214" minScale="2.37242" maxScale="4" ofsY="0" addTrRdDist="17" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-4.58716" maxTerH="86.2673" maxDepth="0"/>
+        <layer on="1" name="obstacleRingAnomaly.mesh" dens="0.105214" minScale="2.37242" maxScale="4" ofsY="0" addTrRdDist="17" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-4.58716" maxTerH="86.2673" maxDepth="0"/>
         <layer on="1" name="concrete_bar_anomaly.mesh" dens="0.674374" minScale="0.128676" maxScale="0.815713" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-4.58716" maxTerH="86.2673" maxDepth="0"/>
         <layer on="1" name="rock35red1edgy_anomaly.mesh" dens="0.24842" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-4.58716" maxTerH="84.6083" maxDepth="0"/>
         <layer on="0" name="jungle_tree.mesh" dens="0.0145428" minScale="1.49207" maxScale="1.90608" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.393863" windFy="0.00277818" maxTerAng="17.6963" minTerH="-4.58716" maxTerH="88.0734" maxDepth="2"/>
@@ -119,11 +119,11 @@
         <o name="big_tire_anomaly2" stat="1" pos="-64.0189 166.619 0.997988" rot="0 1 0 0"/>
         <o name="big_tire_anomaly" stat="1" pos="-71.838 175.176 1.09387" rot="0 1 0 0" sc="1 1.10143 1"/>
         <o name="obstacle3" mat="obstaclesAnomaly" pos="-63.1815 154.907 0.722143" rot="0 0.993583 0 -0.1131" sc="1.67762 1.84778 1.67762"/>
-        <o name="obstacleAnomalyBroken4" pos="-72.3995 149.897 1.05951" rot="-0.984637 0.133031 0.112082 -0.015143" sc="1.67762 1.84778 1.67762"/>
-        <o name="obstacleAnomalyBroken6" pos="-74.4072 178.561 -0.927755" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
+        <o name="obstacleAnomaly4" pos="-72.3995 149.897 1.05951" rot="-0.984637 0.133031 0.112082 -0.015143" sc="1.67762 1.84778 1.67762"/>
+        <o name="obstacleAnomaly6" pos="-74.4072 178.561 -0.927755" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
         <o name="obstacle8" mat="obstaclesAnomaly" pos="-78.797 166.04 -0.504296" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
-        <o name="obstacleAnomalyBroken8" pos="-70.8161 162.804 -0.38538" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
-        <o name="obstacle_twistedAnomalyBroken3R" pos="100.93 77.4424 9.08432" rot="0 1 0 0"/>
+        <o name="obstacleAnomaly8" pos="-70.8161 162.804 -0.38538" rot="-0.664591 -0.738685 0.0817074 0.0773673"/>
+        <o name="obstacle_twistedAnomaly3R" pos="100.93 77.4424 9.08432" rot="0 1 0 0"/>
         <o name="cone_anomaly" stat="1" pos="178.381 -131.682 -7.31096" rot="0 1 0 0"/>
         <o name="cone_anomaly" stat="1" pos="174.976 -129.305 -7.59633" rot="0 0.0360882 0 0.999349"/>
         <o name="cone_anomaly" pos="176.273 -130.311 -6.4448" rot="-0.0284566 -0.0236302 0.0787468 0.996208"/>
@@ -152,9 +152,9 @@
         <o name="balloon2_anomaly" stat="1" pos="412.55 -3.30273 84.6239" rot="0 -1 0 0" sc="100 1 100"/>
         <o name="water_plane_big_broken" pos="-18.478 213.155 4.05196" rot="-0.233776 -0.358837 -0.516066 0.741795" sc="1.25186 1.25186 1.25186"/>
         <o name="ancient_ruins_01" pos="-92.1859 171.656 20.0962" rot="-0.26858 -0.906048 0.305712 0.116109" sc="1.97381 1.97381 1.97381"/>
-        <o name="obstacle_twistedAnomalyBroken3L" pos="127.895 193.222 6.91316" rot="0 -1 0 0"/>
-        <o name="obstacle_twistedAnomalyBroken3L" pos="956.011 1037.17 443.779" rot="0 -1 0 0" sc="5.94144 56.946 121.794"/>
-        <o name="obstacle_twistedAnomalyBroken3L" pos="212.041 153.78 60.2926" rot="0 -1 0 0" sc="3.37684 8.32035 3.37684"/>
+        <o name="obstacle_twistedAnomaly3L" pos="127.895 193.222 6.91316" rot="0 -1 0 0"/>
+        <o name="obstacle_twistedAnomaly3L" pos="956.011 1037.17 443.779" rot="0 -1 0 0" sc="5.94144 56.946 121.794"/>
+        <o name="obstacle_twistedAnomaly3L" pos="212.041 153.78 60.2926" rot="0 -1 0 0" sc="3.37684 8.32035 3.37684"/>
         <o name="obstacle_twisted3R" mat="obstaclesCrystal" pos="304.937 297.517 95.4596" rot="-0.598351 -0.801225 0.0022511 -0.00301434" sc="2.95828 2.95828 2.95828"/>
         <o name="obstacle_twisted2R" mat="obstaclesCrystal" pos="178.13 65.8743 40.7416" rot="0 -1 0 0" sc="3.80054 2.91963 3.80054"/>
         <o name="obstacle_twisted1L" mat="obstaclesCrystal" pos="425.664 -478.613 171.436" rot="0 -1 0 0" sc="65.0147 21.6212 9.06125"/>
