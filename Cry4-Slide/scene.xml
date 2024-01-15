@@ -1,9 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="X3-Cloud" secEd="4568"/>
+    <ver num="3018" baseTrk="X3-Cloud" secEd="4629"/>
     <car tires="0" damage="0.932515" needLights="1" gravity="8.081"/>
     <start pos="-64.6381 -5.47507 -5.58963" rot="-0.0643443 -0.0812483 0.696827 0.709731" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Crystals"/>
-    <sky material="sky/magic_alien" rain2Name="CrystalSnowStormGreen" rain2Emit="331" skyYaw="4.5"/>
+    <sky material="sky/space_nebula_01_blue" rain2Name="CrystalSnowStormGreen" rain2Emit="331" skyYaw="4.5"/>
     <fog color="0.370 0.893 0.169 1.246 0.217" color2="0.496 1.000 0.161 1.226 0.229" linStart="19.4135" linEnd="438.017"/>
     <fogH color="0.467 0.874 0.565 0.440 0.517" height="33.2594" dens="50.627" linStart="17.7672" linEnd="78.1715"/>
     <light pitch="30" yaw="-41" ambient="0.370 0.552 0.598 0.440 0.000" diffuse="0.450 0.347 0.144 0.000 0.512" specular="0.215 0.442 3.000 0.440 0.000"/>

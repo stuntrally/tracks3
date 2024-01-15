@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.257833" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3.43052" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="23"/>
-    <stats length="3711.1" width="8.21345" height="48.7869" onTer="31.604" pipes="0" bnkAvg="1.69322" bnkMax="16.38"/>
+    <stats length="3711.0974" width="8.213453" height="48.78691" onTer="31.603971" pipes="0" bnkAvg="1.6932167" bnkMax="16.380009"/>
     <txt desc="A space station platform, processing crystals and large mineral rocks."/>
     <adv ice="Curly asphalt road, slippery because of low gravity. Many square turns and few jumps."/>
     <P pos="95.9622 0 217.369" w="7.792" aT="2" chkR="1.968"/>
