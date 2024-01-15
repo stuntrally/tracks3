@@ -3,7 +3,7 @@
     <dim tcMul="0.0701582" tcW="0.2" tcP="0.10009" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.1"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="427.16" lodPntLen="14.8323" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.35514" wsPm="6.01414" lsPm="1" stBox="1 6.712 19.92" iDir="-1" iChk1="47"/>
-    <stats length="5596.4" width="12.9204" height="69.376" onTer="35.1362" pipes="31.6197" onPipe="18.9764" bnkAvg="6.15322" bnkMax="40.1011"/>
+    <stats length="5596.397" width="12.920421" height="69.37602" onTer="35.13619" pipes="31.619713" onPipe="18.976421" bnkAvg="6.1532226" bnkMax="40.101105"/>
     <txt desc="Tricky track inside and around an Alien base. Keep out of Alien spaceships."/>
     <adv ice="Has a tricky on-pipe drive (acid mixer), obstacles, bumps and few fluids including acid."/>
     <P pos="-283.473 0 -117.821" w="13.856" a="0" ar="0" aT="2" chkR="1.188"/>

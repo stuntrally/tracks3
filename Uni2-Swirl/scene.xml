@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="" secEd="475"/>
+    <ver num="3018" baseTrk="" secEd="590"/>
     <car tires="0"/>
     <start pos="-0.316434 -5.30344 -17.9544" rot="-0 0 1.62921e-07 1" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Unidentified"/>
-    <sky material="sky/magic"/>
+    <sky material="sky/space_nebula_03_uni" skyYaw="-163.63637"/>
     <fog color="0.933 0.200 0.250 0.900 0.000" color2="0.708 0.571 0.350 0.900 0.000" linStart="137.812" linEnd="934.351"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="47.2388" yaw="-45.3438" ambient="0.667 0.674 0.336 0.000 0.000" diffuse="0.708 0.779 0.443 0.000 0.000" specular="0.722 0.600 0.361 0.000 0.000"/>
+    <light pitch="48.068184" yaw="138.40909" ambient="0.667 0.674 0.336 0.000 0.000" diffuse="0.708 0.779 0.443 0.000 0.000" specular="0.722 0.600 0.361 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water dark" pos="-30.9157 -147.152 -263.305" rot="0 0 0" size="392.669 120 143.21" tile="0.00293833 0.00293833"/>
         <fluid hq="2" name="grease jelly" pos="63.6428 -114.174 275.235" rot="0 0 0" size="297.515 120 330.296" tile="0.01 0.01"/>
@@ -67,7 +67,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="318.695 17.9892 -162.482" dir="-0.8562182 -0.35663813 -0.3737641"/>
+    <cam pos="305.92957 14.046779 -143.47946" dir="-0.8135578 -0.3092481 -0.49243218"/>
     <objects/>
     <emitters/>
 </scene>

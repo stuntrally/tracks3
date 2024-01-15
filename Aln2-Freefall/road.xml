@@ -3,7 +3,7 @@
     <dim tcMul="0.0381839" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="608.284" lodPntLen="15.144" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="5.9874" lsPm="1" stBox="1 10.376 18.408" iDir="1" iChk1="167"/>
-    <stats length="5879.76" width="11.6194" height="319.125" onTer="76.6725" pipes="54.776" onPipe="8.91085" bnkAvg="21.0297" bnkMax="76.6801"/>
+    <stats length="5879.758" width="11.619443" height="319.12473" onTer="76.672485" pipes="54.776012" onPipe="8.910853" bnkAvg="21.029654" bnkMax="76.68007"/>
     <txt desc="A very tricky, winding, slow track around a small Alien base."/>
     <adv ice="Has a 300 m high, free-fall part. Caution: many obstacles, partly slippery and also on pipe."/>
     <P pos="101.396 106.923 114.86" w="8.57105" onTer="0" a="-2.64" ar="-2.46" aT="2" mtr="1"/>

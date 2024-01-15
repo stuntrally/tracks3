@@ -3,7 +3,7 @@
     <dim tcMul="0.06" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="800" visBehind="800"/>
     <geom colN="4" colR="1" wsPm="4" lsPm="1" stBox="1 5.152 16.568" iDir="1" iChk1="86"/>
-    <stats length="1465.37" width="8.12472" height="40.4272" onTer="24.3549" pipes="20.6608" bnkAvg="10.5516" bnkMax="60.1377"/>
+    <stats length="1465.3746" width="8.124718" height="40.42724" onTer="24.35489" pipes="20.660837" bnkAvg="10.551649" bnkMax="60.137695"/>
     <txt desc="Short, Fun Track in a dark alien jungle with bioluminent plants."/>
     <adv ice="The road is partly really narrow, hidden or weakly visible. Overgrown by grasses and filled with some pools of gases. "/>
     <P pos="-3.02547 0 6.3312" w="4.52" aT="2" mtr="1"/>

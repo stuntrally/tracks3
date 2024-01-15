@@ -1,14 +1,14 @@
 <scene>
-    <ver num="3018" baseTrk="Grc8-SlopeCity" secEd="85718"/>
+    <ver num="3018" baseTrk="Grc8-SlopeCity" secEd="85826"/>
     <car tires="0" damage="0.703518"/>
     <start pos="27.056 65.8728 59.4795" rot="0.00501114 0.0184514 0.858975 -0.511714" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Canyon"/>
-    <sky material="sky/magic_alien"/>
-    <fog color="0.178 0.599 1.004 0.665 0.000" color2="0.167 0.698 0.954 0.660 0.000" linStart="210.347" linEnd="587.259"/>
+    <sky material="sky/space_nebula_04_aln"/>
+    <fog color="0.355 0.800 1.004 0.665 0.000" color2="0.267 0.833 0.954 0.660 0.000" linStart="210.347" linEnd="587.259"/>
     <fogH color="0.304 0.657 0.899 0.836 0.000" height="50" dens="150" linStart="0" linEnd="101.25" dmg="0.0419263"/>
     <light pitch="60" yaw="-40" ambient="0.324 0.523 0.893 0.660 0.000" diffuse="0.000 0.347 1.048 0.660 0.000" specular="0.818 0.554 0.934 1.542 0.000"/>
     <fluids>
-        <fluid hq="2" name="water blue" pos="-155.677 -3.29442 -12.8021" rot="0 0 0" size="3877.4 23.1061 3655.21" tile="0.01 0.01"/>
+        <fluid hq="2" name="water blue" pos="-155.677 -3.29442 -12.8021" rot="0 0 0" size="31677.4 23.1061 31655.21" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="1.45291" triangle="1.45291" diff="1 1 1">

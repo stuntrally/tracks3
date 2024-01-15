@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3016" baseTrk="W13-MtFog" secEd="271"/>
+    <ver num="3018" baseTrk="W13-MtFog" secEd="431"/>
     <car tires="0"/>
     <start pos="195.963 -12.9837 12.4352" rot="-0.006911 -0.02307 -0.975282 -0.219786" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="UnidentMntn"/>
-    <sky material="sky/magic"/>
-    <fog color="0.750 1.000 0.200 0.700 0.000" color2="0.944 0.750 0.200 0.900 0.000" linStart="42.05" linEnd="577.813"/>
+    <sky material="sky/space_nebula_03_uni" skyYaw="-115.22727"/>
+    <fog color="0.678 0.694 0.308 0.700 0.000" color2="0.773 0.800 0.324 0.900 0.000" linStart="42.05" linEnd="577.813"/>
     <fogH color="0.750 0.566 1.524 1.000 0.000" height="31.64" dens="54.6005" linStart="0" linEnd="50.9773"/>
-    <light pitch="47.2388" yaw="-45.3438" ambient="0.792 0.500 0.181 1.000 0.000" diffuse="0.652 0.550 0.397 1.000 0.000" specular="0.690 0.350 0.997 0.000 0.000"/>
+    <light pitch="47.2388" yaw="137.72726" ambient="0.792 0.500 0.181 1.000 0.000" diffuse="0.652 0.550 0.397 1.000 0.000" specular="0.690 0.350 0.997 0.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.90327" triangle="1.90327" diff="0.7701387 0.7838773 1" emissive="1">
@@ -64,7 +64,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-261.265 197.259 299.432" dir="0.6032012 -0.3134961 -0.7333952"/>
+    <cam pos="-261.265 197.259 299.432" dir="0.6032012 -0.31349626 -0.73339516"/>
     <objects/>
     <emitters/>
 </scene>

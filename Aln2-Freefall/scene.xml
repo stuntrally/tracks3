@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="test-new" secEd="3674"/>
+    <ver num="3018" baseTrk="test-new" secEd="3783"/>
     <car tires="0" damage="0.550296" road1mtr="0"/>
     <start pos="108.511 -42.7752 98.7215" rot="0.0140557 0.123064 0.199304 0.972086" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Alien"/>
-    <sky material="sky/magic_alien" skyYaw="94.5"/>
-    <fog color="0.233 0.412 0.680 0.826 0.180" color2="0.368 0.564 0.549 0.924 0.233" linStart="183.77" linEnd="1949.45"/>
+    <sky material="sky/space_nebula_04_aln" skyYaw="0.68182373"/>
+    <fog color="0.233 0.645 0.660 0.826 0.180" color2="0.345 0.824 0.549 0.924 0.233" linStart="183.77" linEnd="1949.45"/>
     <fogH color="0.428 0.649 0.788 1.106 0.318" height="26.25" dens="24.0645" linStart="0" linEnd="34.4531"/>
-    <light pitch="48.9375" yaw="-33.75" ambient="0.300 0.353 0.141 0.000 0.037" diffuse="0.248 0.380 0.487 0.000 0.068" specular="0.260 0.455 0.592 0.000 0.052"/>
+    <light pitch="48.9375" yaw="-136.36363" ambient="0.300 0.353 0.141 0.000 0.037" diffuse="0.248 0.380 0.487 0.000 0.068" specular="0.260 0.455 0.592 0.000 0.052"/>
     <fluids>
         <fluid hq="2" name="mud soft JD" pos="-259.284 37.9148 267.925" rot="0 0 0" size="110.875 22.2562 111.387" tile="0.0110718 0.0253836"/>
         <fluid hq="2" name="water blue" pos="-202.273 71.875 -176.086" rot="0 0 0" size="133.583 44.3204 148.155" tile="0.01 0.01"/>
@@ -117,7 +117,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-356.672 259.878 414.215" dir="0.734615 -0.26076 -0.626374"/>
+    <cam pos="-356.672 259.878 414.215" dir="0.73461527 -0.2607601 -0.6263742"/>
     <objects>
         <o name="alien_base2" pos="175.971 -197.9 103.781" rot="0.123563 -0.992336 0 0" sc="0.732122 0.732122 0.732122"/>
         <o name="alien_pipes_curly" pos="170.395 -184.465 108.724" rot="-0.709817 -0.704387 0 0" sc="0.535037 0.545078 0.671444"/>
