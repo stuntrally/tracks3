@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="1056"/>
+    <ver num="3018" baseTrk="" secEd="2484"/>
     <car tires="0" needLights="1"/>
     <start pos="75.876 -129.326 0.6" rot="-0.00978801 0.00920403 0.69469 0.719198" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Desert"/>
-    <sky material="sky/space_nebula_01_blue" skyYaw="-178.63637"/>
+    <sky material="sky/space_nebula_01_blue" skyYaw="-178.636"/>
     <fog color="0.667 0.680 0.312 0.919 0.256" color2="0.917 1.000 0.158 0.964 0.120" linStart="0" linEnd="920.703"/>
     <fogH color="0.000 0.000 0.000 1.000 0.000" height="-300" dens="60" linStart="0" linEnd="400"/>
-    <light pitch="22.782" yaw="152.72726" ambient="0.000 0.000 0.108 0.000 0.000" diffuse="0.667 0.167 0.169 0.000 0.000" specular="0.667 0.333 0.065 0.000 0.000"/>
+    <light pitch="22.782" yaw="152.727" ambient="0.000 0.000 0.108 0.000 0.000" diffuse="0.667 0.167 0.169 0.000 0.000" specular="0.667 0.333 0.065 0.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.73318" triangle="1.73318" diff="1 1 1">
@@ -18,6 +18,31 @@
             </texture>
             <texture on="1" file="zdesert_wet_d.jpg" fnorm="desert_wet_n.jpg" scale="8.78" surf="DesertFast" dust="0.8" dustS="0.85" mud="0.2" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000" angMin="0" angMax="90" angSm="4.39666" hMin="-300" hMax="300" hSm="20" nOn="1" noise="1" n_1="0" n2="0">
                 <noise frq0="20.3516" oct0="4" prs0="0.478082" pow0="4.83709" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="mntn_dark_d.jpg" fnorm="mntn_dark_n.jpg" scale="27.61" surf="Rocks" dust="0.1" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.250 0.700 0.000" angMin="35.0609" angMax="90" angSm="9.25952" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="5.55224" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadDesert" dust="0.8" dustS="0.9" mud="0.1" smoke="0" tclr="0.000 0.000 0.070 0.750 0.000"/>
+            <texture road="2" surf="roadGravel" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.130 0.800 0.000"/>
+            <texture road="3" surf="roadAdesert" dust="0" dustS="0.6" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="DustBlack" mud="MudDark" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="13.0302" diff="1 1 1" horiz="1">
+            <texture on="1" file="zdesert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="43.0475" surf="DesertFast" dust="1" dustS="0.95" mud="0.1" smoke="0" tclr="0.000 0.000 0.080 0.700 0.000" angMin="0" angMax="15.0261" angSm="7.25953" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="5.05156" oct0="4" prs0="0.7" pow0="3.0243" frq1="5.92066" oct1="3" prs1="0.4" pow1="3.30865"/>
+            </texture>
+            <texture on="1" file="zdesert_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="26.8974" surf="DesertBumpy" dust="1.1" dustS="1" mud="0.1" smoke="0" tclr="0.000 0.000 0.090 0.700 0.000" angMin="16.1217" angMax="32.4" angSm="9.06813" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="21.2892" oct0="3" prs0="0.3" pow0="1.5" frq1="21.2892" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="zdesert_wet_d.jpg" fnorm="desert_wet_n.jpg" scale="19.1702" surf="DesertFast" dust="0.8" dustS="0.85" mud="0.2" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000" angMin="0" angMax="90" angSm="4.39666" hMin="-300" hMax="300" hSm="20" nOn="1" noise="1" n_1="0" n2="0">
+                <noise frq0="12.6768" oct0="4" prs0="0.478082" pow0="4.83709" frq1="20.7485" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="mntn_dark_d.jpg" fnorm="mntn_dark_n.jpg" scale="27.61" surf="Rocks" dust="0.1" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.250 0.700 0.000" angMin="35.0609" angMax="90" angSm="9.25952" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
                 <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
@@ -64,9 +89,15 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="176.249 34.2232 191.136" dir="-0.51568884 -0.10516097 -0.8502977"/>
+    <cam pos="176.249 34.2232 191.136" dir="-0.515688 -0.105161 -0.850298"/>
     <objects>
-        <o name="pyramid_big_black" pos="39.9644 -1.595 0" rot="-0.379083 -0.925362 0 0"/>
+        <o name="pyramid_big" mat="pyramid_big_black" pos="39.9644 -1.595 0" rot="-0.379083 -0.925362 0 0"/>
+        <o name="pyramid_small" mat="pyramid_small_black" pos="63.3944 -490.614 16.2602" rot="0 -1 0 0"/>
+        <o name="obelisk" mat="ObeliskBlack" pos="-11.4431 202.356 -2.28441" rot="0 -1 0 0" sc="1.19586 1.19586 1.19586"/>
+        <o name="obelisk" mat="ObeliskBlack" pos="92.2324 -100.728 0.217353" rot="0 -1 0 0" sc="1.19586 1.19586 1.19586"/>
+        <o name="pyramid_big" mat="pyramid_big_black" pos="-491.944 -245.617 51.5053" rot="0 -1 0 0" sc="1.19586 1.19586 1.19586"/>
+        <o name="pyramid_small" mat="pyramid_small_black" pos="-544.801 -191.886 55.0635" rot="0 -1 0 0" sc="1.19586 1.19586 1.19586"/>
+        <o name="obelisk" mat="ObeliskBlack" pos="340.718 4.85069 44.9761" rot="0 -1 0 0" sc="1.19586 1.19586 1.19586"/>
     </objects>
     <emitters>
         <e name="Electricity" pos="52.1826 -1.29944 -74.6733" sc="36.5958 1.37464 107.308" up="0 1 0" rot="0" rate="25.4763" st="0" psc="1"/>

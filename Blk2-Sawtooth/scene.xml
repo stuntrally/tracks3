@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="58987"/>
+    <ver num="3018" baseTrk="" secEd="61656"/>
     <car tires="0" damage="0.688172" needLights="1" denyRev="1" gravity="8.6364"/>
     <start pos="-127.597 4.00133 1.09035" rot="-0.000131309 0.0224793 0.061633 -0.997858" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Canyon"/>
-    <sky material="sky/overcast_02_purple" rainName="SnowStormFine" rainEmit="24" skyYaw="-8.181824"/>
-    <fog color="0.529 0.436 0.434 0.748 0.300" color2="0.915 0.527 0.178 0.964 0.159" linStart="0" linEnd="468.136"/>
+    <sky material="sky/overcast_02_purple" rainName="SnowStormFine" rainEmit="24" skyYaw="-8.18182"/>
+    <fog color="0.767 0.252 0.036 0.964 0.021" color2="0.843 0.397 0.032 0.944 0.010" linStart="0" linEnd="468.136"/>
     <fogH color="0.678 0.523 0.570 0.195 0.000" height="-7.28746" dens="51.6325" linStart="13.7767" linEnd="283.532"/>
-    <light pitch="31" yaw="75.68181" ambient="0.000 0.000 0.328 0.000 0.000" diffuse="0.671 0.293 0.719 0.000 0.000" specular="0.667 0.333 1.295 0.000 0.000"/>
+    <light pitch="40" yaw="75" ambient="0.000 0.000 0.328 0.000 0.000" diffuse="0.671 0.293 0.719 0.000 0.000" specular="0.667 0.333 1.295 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="blue jelly" pos="80.2607 -28.2464 289.767" rot="0 0 0" size="490.665 20 357.602" tile="0.01 0.01"/>
     </fluids>
@@ -23,6 +23,31 @@
             </texture>
             <texture on="1" file="mntn_darkx_d.jpg" fnorm="mntn_dark_n.jpg" scale="33.83" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="20.2857" angMax="90" angSm="4.25331" hMin="-200" hMax="-10.4218" hSm="3.75006" nOn="0" triplanar="1" noise="0" n_1="0.45679" n2="0">
                 <noise frq0="26.783" oct0="3" prs0="0.238095" pow0="1.07494" frq1="47.3333" oct1="3" prs1="0.391429" pow1="2.11303"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="5.55224" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="2" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="3" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="4" surf="roadGravel" dust="0" dustS="1" mud="0.6" smoke="0" tclr="0.000 0.000 0.130 0.800 0.000"/>
+            <par dust="DustBlack" mud="MudDark" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="8.04225" diff="1 1 1" horiz="1">
+            <texture on="1" file="ycrystals_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="17.15" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" angMin="0" angMax="24.4286" angSm="4.51233" hMin="-150" hMax="-11" hSm="4.55111" nOn="0" noise="0.348765" n_1="0" n2="0.54321">
+                <noise frq0="13.0492" oct0="3" prs0="0.260952" pow0="1.04208" frq1="7.62223" oct1="3" prs1="0.171429" pow1="5.65801"/>
+            </texture>
+            <texture on="1" file="zdesert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="16.21" surf="DesertFast" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" angMin="0" angMax="32.7143" angSm="6.43483" hMin="-47.2705" hMax="444" hSm="3.21718" nOn="0" noise="0.285714" n_1="0" n2="0">
+                <noise frq0="1.71603" oct0="4" prs0="0.7" pow0="4.48595" frq1="9.0925" oct1="3" prs1="0.392381" pow1="1.4087"/>
+            </texture>
+            <texture on="1" file="mntn_black_d.jpg" fnorm="mntn_black_n.jpg" scale="30.02" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="54.7143" angMax="90" angSm="39.0492" hMin="-5.95534" hMax="600" hSm="14.1519" nOn="0" triplanar="1" noise="0" n_1="0.928571" n2="0">
+                <noise frq0="22.4026" oct0="4" prs0="0.495238" pow0="1.79626" frq1="14.6229" oct1="3" prs1="0.427619" pow1="2.2124"/>
+            </texture>
+            <texture on="1" file="mntn_darkx_d.jpg" fnorm="mntn_dark_n.jpg" scale="33.83" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="20.2857" angMax="90" angSm="4.25331" hMin="-200" hMax="-4" hSm="3.75006" nOn="0" triplanar="1" noise="0" n_1="0.45679" n2="0">
+                <noise frq0="18.6889" oct0="3" prs0="0.238095" pow0="1.07494" frq1="28.3047" oct1="3" prs1="0.391429" pow1="2.11303"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
@@ -66,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="13.3837 -3.48984 389.155" dir="0.44472718 -0.16096507 -0.88108337"/>
+    <cam pos="403.395 118.1 92.1878" dir="-0.888036 -0.377088 -0.263053"/>
     <objects>
         <o name="hexrock_medium_01" mat="hexrock_grey" pos="272.068 -83.8901 -5.68591" rot="0.694405 0.71956 -0.00220202 -0.00212505"/>
         <o name="hexrock_cliff_01" mat="hexrock_grey" pos="270.629 -111.976 -2.33351" rot="-0.305848 0.952058 0.00109205 -0.00035082"/>
@@ -150,6 +175,10 @@
         <o name="hexrock_medium_01" mat="hexrock_grey" pos="-378.39 147.326 -8.57044" rot="-0.0639079 0.0217187 0.960446 0.270081"/>
         <o name="hexrock_cliff_02" mat="hexrock_grey" pos="-416.756 240.809 1.63228" rot="-0.113101 0.0375545 0.984485 0.128565"/>
         <o name="hexrock_small_01" mat="hexrock_grey" pos="123.195 92.444 16.8774" rot="-0.867675 0.492394 0.019543 0.0653964"/>
+        <o name="ancient_ruins_05" mat="ancient_ruins_black" pos="123.3 141.632 16.2075" rot="0 -1 0 0"/>
+        <o name="ancient_ruins_02" mat="ancient_ruins_black" pos="-208.499 217.298 -1.38702" rot="0 -1 0 0"/>
+        <o name="obelisk" mat="ObeliskCrystal2" pos="160.916 -389.024 -30.2799" rot="0.430456 -0.642828 0.398679 0.492397"/>
+        <o name="pyramid_big" mat="pyramid_big_crystal" pos="-5.7044 -316.766 -6.85743" rot="-0.295898 -0.955217 0 0"/>
     </objects>
     <emitters>
         <e name="Electricity" pos="30.4639 -30.0741 334.88" sc="2.85265 7.16277 7.04152" up="0 1 0" rot="0" rate="19.4726" st="0" psc="1"/>
