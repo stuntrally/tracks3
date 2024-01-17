@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3018" baseTrk="X3-Cloud" secEd="4629"/>
+    <ver num="3018" baseTrk="X3-Cloud" secEd="5559"/>
     <car tires="0" damage="0.932515" needLights="1" gravity="8.081"/>
     <start pos="-64.6381 -5.47507 -5.58963" rot="-0.0643443 -0.0812483 0.696827 0.709731" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Crystals"/>
@@ -10,6 +10,31 @@
     <fluids/>
     <terrains>
         <terrain ofsZ="1.03683" triangle="1.03683" diff="1 1 1">
+            <texture on="1" file="ycrystals_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="17.1533" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.595 0.875 0.400 0.600 0.000" dmg="0.293663" angMin="0" angMax="12.9913" angSm="3.4845" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="1" n2="1">
+                <noise frq0="20.542" oct0="3" prs0="0.215068" pow0="1.90712" frq1="47.1905" oct1="4" prs1="0.320744" pow1="2.95938"/>
+            </texture>
+            <texture on="1" file="ycrystals_med_d.jpg" fnorm="ycrystals_med_n.jpg" scale="14.8918" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.500 0.833 0.300 0.600 0.000" dmg="0.456593" angMin="15.1826" angMax="31.5264" angSm="8.95089" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="58.8864" oct0="3" prs0="0.3" pow0="1.42639" frq1="38.6353" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="ycrystals_big_d.jpg" fnorm="ycrystals_big_n.jpg" scale="17.1533" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.667 0.667 0.300 1.000 0.000" dmg="1.05259" angMin="38.0431" angMax="72.3561" angSm="9.89247" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="42.0294" oct0="3" prs0="0.3" pow0="1.5" frq1="43.1932" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="alien_mntn_d.jpg" fnorm="desert_mntn_n.jpg" scale="26.21" surf="Rocks" dust="0.4" dustS="1" mud="0.7" smoke="0" tclr="0.137 0.810 0.420 0.800 0.000" dmg="0.847051" angMin="38.5252" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="1" triplanar="1" noise="0" n_1="0" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.646 0.348 0.460 0.800 0.000"/>
+            <texture road="2" surf="roadDesert" dust="0" dustS="0" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
+            <texture road="3" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.222 0.188 0.320 0.800 0.000"/>
+            <texture road="4" surf="roadDesert" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="SnowDust" mud="SnowMud" smoke="SnowDust"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="9.53541" diff="1 1 1" horiz="1">
             <texture on="1" file="ycrystals_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="17.1533" surf="SnowDeep" dust="0" dustS="0.8" mud="0" smoke="0" tclr="0.595 0.875 0.400 0.600 0.000" dmg="0.293663" angMin="0" angMax="12.9913" angSm="3.4845" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="1" n2="1">
                 <noise frq0="20.542" oct0="3" prs0="0.215068" pow0="1.90712" frq1="47.1905" oct1="4" prs1="0.320744" pow1="2.95938"/>
             </texture>
@@ -64,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="214.384 -14.7387 27.7961" dir="-0.858385 -0.0631221 -0.509108"/>
+    <cam pos="214.376 -14.7395 27.7839" dir="-0.858385 -0.0631221 -0.509108"/>
     <objects>
         <o name="hexrock_small_02" mat="hexrock_crystal" pos="-53.9723 37.1146 2.059" rot="0 -1 0 0"/>
         <o name="hexrock_small_01" mat="hexrock_crystal" pos="-73.7891 132.721 -3.55525" rot="0 -1 0 0"/>
@@ -86,6 +111,13 @@
         <o name="hexrock_small_01" mat="hexrock_crystal" pos="-92.7658 -108.641 -7.65247" rot="0 1 0 0"/>
         <o name="hexrock_small_01" mat="hexrock_crystal" pos="-159.658 -112.843 3.64175" rot="-0.995362 0.0961408 -0.0034752 -0.000335665" sc="1 0.911562 1"/>
         <o name="hexrock_medium_01" mat="hexrock_crystal" pos="-149.371 79.5377 5.18571" rot="-0.995362 0.0961408 -0.0034752 -0.000335665" sc="1 0.911562 1"/>
+        <o name="pyramid_small" mat="pyramid_small_crystal" pos="-13.6271 -203.803 -6.42782" rot="0.305073 -0.952326 0 0"/>
+        <o name="pyramid_big" mat="pyramid_big_crystal" pos="-55.4424 -169.171 -12.1055" rot="0.195896 -0.980622 0 0" sc="0.881101 0.881101 0.881101"/>
+        <o name="pyramid_small" mat="pyramid_small_crystal" pos="-115.925 -197.847 -2.69295" rot="0.413678 -0.910417 0 0"/>
+        <o name="obelisk" mat="ObeliskCrystal2" pos="-66.2284 -193.536 -3.57785" rot="0.208044 -0.978112 0 0" sc="1.22713 1.22713 1.22713"/>
+        <o name="obelisk" mat="ObeliskCrystal2" pos="-27.3248 -180.999 -6.44591" rot="0.208044 -0.978112 0 0" sc="1.22713 1.22713 1.22713"/>
+        <o name="obelisk" mat="ObeliskCrystal2" pos="-85.9972 -155.752 -9.55726" rot="0.208044 -0.978112 0 0" sc="1.22713 1.22713 1.22713"/>
+        <o name="obelisk" mat="ObeliskCrystal2" pos="-43.2296 -139.783 -8.78657" rot="0.208044 -0.978112 0 0" sc="1.22713 1.22713 1.22713"/>
     </objects>
     <emitters/>
 </scene>
