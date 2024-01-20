@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="1526"/>
+    <ver num="3018" baseTrk="" secEd="3773"/>
     <car tires="0"/>
     <start pos="246.596 250.281 -0.253865" rot="-0.138779 0.018096 0.185224 -0.972703" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Canyon"/>
-    <sky material="sky/sunset_04_cloudy" skyYaw="2.7272644"/>
+    <sky material="sky/sunset_04_cloudy" skyYaw="2.72726"/>
     <fog color="0.573 0.320 0.361 1.000 0.000" color2="0.128 0.105 0.320 1.000 0.000" linStart="296.45" linEnd="1140.05"/>
     <fogH color="0.083 0.400 0.500 0.900 0.000" height="-133" dens="46.08" linStart="0" linEnd="59.5125"/>
-    <light pitch="34.261364" yaw="1" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.600 1.000 0.000" specular="0.000 0.000 0.400 1.000 0.000"/>
+    <light pitch="34.2614" yaw="1" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.600 1.000 0.000" specular="0.000 0.000 0.400 1.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.00128" triangle="1.00128" diff="1 1 1">
@@ -21,6 +21,31 @@
             </texture>
             <texture on="1" file="mntn_canyon_d.jpg" fnorm="mntn_canyon_n.jpg" scale="44.8056" surf="Rocks" dust="0" dustS="0.8" mud="0.5" smoke="0" tclr="0.000 0.500 0.200 0.500 0.000" angMin="62.9605" angMax="89.8026" angSm="12.6316" hMin="-300" hMax="69.2935" hSm="14.4737" nOn="0" triplanar="1" noise="0.031316" n_1="0.656371" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="10.7591" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="42.5381" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="-0.228188" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="21" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="15.5578" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadAdesert" dust="0.5" dustS="0.6" mud="0" smoke="0" tclr="0.061 0.500 0.440 0.700 0.000"/>
+            <texture road="2" surf="roadDesert" dust="0.5" dustS="0.6" mud="0" smoke="0" tclr="0.061 0.500 0.440 0.700 0.000"/>
+            <texture road="3" surf="roadForest" dust="0" dustS="0" mud="0" smoke="0" tclr="0.083 0.667 0.300 0.700 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="Adust" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="8.79363" diff="1 1 1" horiz="1">
+            <texture on="1" file="desert_rocky_d.jpg" fnorm="desert_rocky_n.jpg" scale="29.0455" surf="DesertBumpy" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="40.5" angSm="17.2941" hMin="-322.526" hMax="2000" hSm="29.5211" nOn="0" noise="0.538961" n_1="0" n2="0.707792">
+                <noise frq0="6.45124" oct0="3" prs0="0.433" pow0="1.37626" frq1="1.83297" oct1="3" prs1="0.552055" pow1="3.63283"/>
+            </texture>
+            <texture on="1" file="ground_dry_d.jpg" fnorm="ground_dry_n.jpg" scale="32.8591" surf="DesertFast" dust="0.4" dustS="0.8" mud="0" smoke="0" tclr="0.083 0.500 0.400 0.500 0.000" angMin="18.75" angMax="34.8" angSm="4.59795" hMin="-300" hMax="1200" hSm="23.6844" nOn="0" noise="0.279221" n_1="0.649351" n2="0.227273">
+                <noise frq0="1.46763" oct0="3" prs0="0.314" pow0="1.97225" frq1="2.52224" oct1="3" prs1="0.417" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_canyon_d.jpg" fnorm="mntn_canyon_n.jpg" scale="51.0323" surf="Rocks" dust="0" dustS="0.8" mud="0.5" smoke="0" tclr="0.000 0.500 0.200 0.500 0.000" angMin="56.85" angMax="89.85" angSm="10.4152" hMin="-300" hMax="534.635" hSm="10.0278" nOn="0" triplanar="1" noise="0.470779" n_1="0.685065" n2="0">
+                <noise frq0="10.2916" oct0="3" prs0="0.359" pow0="1.5" frq1="18.6889" oct1="3" prs1="0.38" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="amntn_dark_d.jpg" fnorm="mntn_dark_n.jpg" scale="46.6985" surf="DesertBumpy" dust="0" dustS="0.8" mud="0.5" smoke="0" tclr="0.000 0.500 0.200 0.500 0.000" angMin="27.45" angMax="78.45" angSm="14.3671" hMin="374.154" hMax="515.755" hSm="23.04" nOn="0" triplanar="1" noise="1.0027" n_1="0.461039" n2="0">
+                <noise frq0="8.81022" oct0="3" prs0="0.3" pow0="1.5" frq1="13.0492" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="10.7591" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="42.5381" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="-0.228188" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
@@ -64,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-250.798 50.199 -534.357" dir="-0.008832671 -0.20382203 0.97896814"/>
+    <cam pos="-250.798 50.199 -534.357" dir="-0.00883277 -0.203822 0.978968"/>
     <objects>
         <o name="watchtower" pos="110.153 120.687 45.9327" rot="0 -1 0 0"/>
         <o name="pers_corral" pos="-199.315 -27.802 11.6378" rot="0.182922 -0.982903 -0.00770397 -0.0194992" sc="1.31985 1.31985 1.31985"/>

@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="3675"/>
+    <ver num="3018" baseTrk="" secEd="4908"/>
     <car tires="0"/>
     <start pos="283.025 155.963 0.009624" rot="-0.008103 0.005887 -0.790927 0.611849" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Savanna"/>
-    <sky material="sky/dusk_stormy_01_brown" skyYaw="-2.7272644"/>
-    <fog color="0.126 0.562 0.866 0.362 0.000" color2="0.118 0.442 0.258 0.900 0.000" linStart="610.513" linEnd="1407.6414"/>
+    <sky material="sky/dusk_stormy_01_brown" skyYaw="-2.72726"/>
+    <fog color="0.126 0.562 0.866 0.362 0.000" color2="0.118 0.442 0.258 0.900 0.000" linStart="610.513" linEnd="1407.64"/>
     <fogH color="0.118 0.385 0.650 0.703 0.000" height="-42.585" dens="54.08" linStart="0" linEnd="400"/>
-    <light pitch="18.40909" yaw="1.3636322" ambient="0.100 0.106 0.470 1.000 0.000" diffuse="0.083 0.052 0.770 1.000 0.000" specular="0.083 0.444 0.598 0.800 0.000"/>
+    <light pitch="18.4091" yaw="1.36363" ambient="0.100 0.106 0.470 1.000 0.000" diffuse="0.083 0.052 0.770 1.000 0.000" specular="0.083 0.444 0.598 0.800 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.79006" triangle="1.79006" diff="1 1 1">
@@ -34,18 +34,43 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="13.323946" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="13.3239" diff="1 1 1" horiz="1">
             <texture on="1" file="mntn_canyon2o_d.jpg" fnorm="adesert_mntn4_n.jpg" scale="42.5" surf="DesertFast" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.167 0.643 0.140 0.700 0.000" angMin="0" angMax="12.1526" angSm="8.79854" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.451737">
                 <noise frq0="12.9132" oct0="3" prs0="0.380626" pow0="1.04309" frq1="5.98789" oct1="4" prs1="0.499217" pow1="4.07131"/>
             </texture>
-            <texture on="1" file="ground_dry_d.jpg" fnorm="ground_dry_n.jpg" scale="58.71" surf="DesertFast" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.167 0.643 0.140 0.700 0.000" angMin="13.2094" angMax="26.771" angSm="3.1131" hMin="-300" hMax="280.50238" hSm="39.301785" nOn="0" noise="1.00674" n_1="0" n2="0">
+            <texture on="1" file="ground_dry_d.jpg" fnorm="ground_dry_n.jpg" scale="58.71" surf="DesertFast" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.167 0.643 0.140 0.700 0.000" angMin="13.2094" angMax="26.771" angSm="3.1131" hMin="-300" hMax="280.502" hSm="39.3018" nOn="0" noise="1.00674" n_1="0" n2="0">
                 <noise frq0="7.10204" oct0="3" prs0="0.3" pow0="1.49235" frq1="30.6812" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="adesert_mntn2o_d.jpg" fnorm="desert_mntn2_n.jpg" scale="97.2" surf="DesertFast" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.056 0.500 0.300 0.700 0.000" angMin="28.8845" angMax="40.5088" angSm="7.76869" hMin="-300" hMax="500.77753" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+            <texture on="1" file="adesert_mntn2o_d.jpg" fnorm="desert_mntn2_n.jpg" scale="97.2" surf="DesertFast" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.056 0.500 0.300 0.700 0.000" angMin="28.8845" angMax="40.5088" angSm="7.76869" hMin="-300" hMax="500.778" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
                 <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="mntn_canyon_d.jpg" fnorm="mntn_canyon_n.jpg" scale="122" surf="Rocks" dust="0" dustS="0.8" mud="0.5" smoke="0" tclr="0.000 0.500 0.200 0.500 0.000" angMin="43.8552" angMax="90" angSm="20" hMin="-300" hMax="589.2344" hSm="20" nOn="0" triplanar="1" noise="1.00877" n_1="0" n2="0">
+            <texture on="1" file="mntn_canyon_d.jpg" fnorm="mntn_canyon_n.jpg" scale="122" surf="Rocks" dust="0" dustS="0.8" mud="0.5" smoke="0" tclr="0.000 0.500 0.200 0.500 0.000" angMin="43.8552" angMax="90" angSm="20" hMin="-300" hMax="589.234" hSm="20" nOn="0" triplanar="1" noise="1.00877" n_1="0" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.100 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="138.511" hMax="300" hSm="62.1444" nOn="0" noise="0.23194" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadAdesert" dust="0.5" dustS="0.6" mud="0" smoke="0" tclr="0.061 0.500 0.440 0.700 0.000"/>
+            <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="Dust" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="30" diff="1 1 1" horiz="2">
+            <texture on="1" file="mntn_canyon2o_d.jpg" fnorm="adesert_mntn4_n.jpg" scale="95" surf="DesertFast" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.167 0.643 0.140 0.700 0.000" angMin="0" angMax="12.1526" angSm="8.79854" hMin="-300" hMax="600" hSm="20" nOn="0" noise="1" n_1="0" n2="0.451737">
+                <noise frq0="1.5011" oct0="3" prs0="0.380626" pow0="1.04309" frq1="0.648492" oct1="4" prs1="0.499217" pow1="4.07131"/>
+            </texture>
+            <texture on="1" file="ground_dry_d.jpg" fnorm="ground_dry_n.jpg" scale="90" surf="DesertFast" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.167 0.643 0.140 0.700 0.000" angMin="13.2094" angMax="30" angSm="3.1131" hMin="-300" hMax="1111" hSm="39.3018" nOn="0" noise="1.00674" n_1="0" n2="0">
+                <noise frq0="1.08867" oct0="3" prs0="0.3" pow0="1.49235" frq1="1.16732" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="adesert_mntn2o_d.jpg" fnorm="desert_mntn2_n.jpg" scale="150" surf="DesertFast" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.056 0.500 0.300 0.700 0.000" angMin="28.8845" angMax="37.5" angSm="7.76869" hMin="-247.005" hMax="1100" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="0.746907" oct0="3" prs0="0.336" pow0="1.7795" frq1="5.92066" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_canyon_d.jpg" fnorm="mntn_canyon_n.jpg" scale="222" surf="Rocks" dust="0" dustS="0.8" mud="0.5" smoke="0" tclr="0.000 0.500 0.200 0.500 0.000" angMin="45.9" angMax="90" angSm="5.99034" hMin="-300" hMax="1060" hSm="20" nOn="0" triplanar="1" noise="1.00877" n_1="0" n2="0">
+                <noise frq0="9.52886" oct0="3" prs0="0.3" pow0="1.5" frq1="7.25502" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.100 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="138.511" hMax="300" hSm="62.1444" nOn="0" noise="0.23194" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
@@ -89,7 +114,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-924.083 165.2375 625.35626" dir="0.87790114 -0.16180004 -0.4506775"/>
+    <cam pos="-924.083 165.238 625.356" dir="0.877901 -0.1618 -0.450677"/>
     <objects>
         <o name="satellite1" pos="-665.154 -202.89 71.0424" rot="-0.788057 -0.615599 -0.00109357 0.000935154" sc="1.0976 1.0976 1.0976"/>
         <o name="satellite1" pos="-530.117 -326.768 53.2213" rot="-0.788058 -0.6156 -4.13565e-05 0.000113203" sc="1.2017 1.2017 1.2017"/>
