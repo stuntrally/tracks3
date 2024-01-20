@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3018" baseTrk="Jng3-Rocky" secEd="21620"/>
+    <ver num="3018" baseTrk="Jng3-Rocky" secEd="21651"/>
     <car tires="0"/>
     <start pos="-67.1314 211.298 -5.99483" rot="-8.9407e-08 -2.65485e-07 -0.000804316 -1.00001" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/cloudy_03_dark2" rainName="RainFine" rainEmit="1031" rain2Name="RainFast" rain2Emit="1387" skyYaw="-45.6818"/>
-    <fog color="0.581 0.395 0.070 0.911 0.000" color2="0.539 0.291 0.066 0.860 0.000" linStart="59.5125" linEnd="418.613"/>
+    <fog color="0.581 0.395 0.123 0.911 0.000" color2="0.539 0.291 0.066 0.860 0.000" linStart="59.5125" linEnd="418.613"/>
     <fogH color="0.112 1.000 0.184 0.703 0.000" height="150" dens="100" linStart="0" linEnd="151.25"/>
     <light pitch="44" yaw="-5" ambient="0.287 0.147 0.349 3.000 0.000" diffuse="0.349 0.167 0.284 3.000 0.000" specular="1.000 0.118 0.197 3.000 0.000"/>
     <fluids>
