@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="2874"/>
+    <ver num="3018" baseTrk="" secEd="3380"/>
     <car tires="0" denyRev="1"/>
     <start pos="155.861 -189.361 10.8356" rot="-0.121806 -0.059931 0.0565002 0.989186" pos2="0 0 0" rot2="0 0 0 1"/>
     <sound ambient="" reverbs="Canyon"/>
-    <sky material="sky/day_clouds_02_blue" skyYaw="-9.545456"/>
+    <sky material="sky/day_clouds_02_blue" skyYaw="-9.54546"/>
     <fog color="0.578 0.170 1.000 1.000 0.000" color2="0.539 0.189 0.900 1.000 0.000" linStart="157.587" linEnd="754.078"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="32.386364" yaw="-0.68182373" ambient="0.083 0.167 0.480 1.000 0.000" diffuse="0.000 0.000 1.099 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
+    <light pitch="32.3864" yaw="-0.681824" ambient="0.083 0.167 0.480 1.000 0.000" diffuse="0.000 0.000 1.099 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
     <fluids/>
     <terrains>
         <terrain ofsZ="1.04194" triangle="1.04194" diff="1 1 1">
@@ -89,7 +89,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="332.894 84.1022 126.182" dir="-0.867866 -0.23520803 -0.4375909"/>
+    <cam pos="332.894 84.1022 126.182" dir="-0.867866 -0.235208 -0.437591"/>
     <objects>
         <o name="pyramid_small" pos="198.786 -43.0786 0" rot="0 -1 0 0"/>
         <o name="pyramid_small" pos="35.8152 138.668 0" rot="0 -1 0 0"/>
@@ -112,6 +112,8 @@
         <o name="obelisk" pos="-111.771 -89.343 1.31845" rot="0 -1 0 0"/>
         <o name="obelisk" pos="77.9538 -78.8767 0" rot="0 -1 0 0"/>
         <o name="obelisk" pos="102.417 159.879 1.6929" rot="0 -1 0 0"/>
+        <o name="alien_ufo_fly" pos="1142.17 -1986.01 96.0377" rot="0.610365 -0.751105 0.182666 -0.172791"/>
+        <o name="alien_ufo_fly" pos="-23.4761 -52.8163 -13.326" rot="0.640119 -0.657994 -0.112839 0.380145"/>
     </objects>
     <emitters/>
 </scene>
