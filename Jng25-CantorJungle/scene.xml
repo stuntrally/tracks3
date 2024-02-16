@@ -8,7 +8,7 @@
     <fogH color="0.101 0.372 0.312 0.280 0.118" height="-51.5152" dens="17.4587" linStart="0" linEnd="60"/>
     <light pitch="72.8438" yaw="47" ambient="0.209 0.126 0.269 0.863 0.000" diffuse="0.056 0.291 0.482 0.863 0.000" specular="0.440 0.136 0.082 0.863 0.000"/>
     <fluids>
-        <fluid hq="2" name="mud easy med" pos="-818.56616 -57.8403 1216.951" rot="0 0 0" size="4902.3916 40.22119 4877.284" tile="0.01 0.01"/>
+        <fluid hq="2" name="mud easy med" pos="-818.56616 -57.8403 1216.951" rot="0 0 0" size="4902.3916 275 4877.284" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="1.47193" triangle="1.47193" diff="1 1 1">

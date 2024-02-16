@@ -8,7 +8,7 @@
     <fogH color="0.496 0.349 0.695 0.480 0.000" height="-130.334" dens="101.567" linStart="0" linEnd="2.8125"/>
     <light pitch="55" yaw="-5" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.700 1.000 0.000" specular="0.000 0.000 0.800 0.723 0.000"/>
     <fluids>
-        <fluid hq="2" name="water cyan" pos="-0.166774 -124.668 0.450912" rot="0 0 0" size="71516 20 71515.2" tile="0.00669877 0.00669877"/>
+        <fluid hq="2" name="water cyan" pos="-0.166774 -124.668 0.450912" rot="0 0 0" size="71516 204 71515.2" tile="0.00669877 0.00669877"/>
         <fluid hq="2" name="water moss" pos="-42.3408 4.59373 -22.9408" rot="0 0 0" size="652.346 20 757.67" tile="0.01 0.01"/>
     </fluids>
     <terrains>

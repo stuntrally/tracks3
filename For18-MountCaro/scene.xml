@@ -14,7 +14,7 @@
         <fluid hq="1" name="water white" pos="467.661 -53.6268 412.8" rot="0 0 0" size="313.437 120 252.048" tile="0.00889136 0.00889136"/>
         <fluid hq="2" name="water blue" pos="-2080.68 -123.171 -789.022" rot="0 0 0" size="3205.16 120.319 4334.24" tile="0.01 0.01"/>
         <fluid hq="1" name="ice solid" pos="541.6 780.909 -831.116" rot="0 0 0" size="227.079 20 125.623" tile="0.01 0.01"/>
-        <fluid hq="2" name="water blue" pos="1358.34 -10.5922 648.428" rot="0 0 0" size="1059.05 20 1069.07" tile="0.01 0.01"/>
+        <fluid hq="2" name="water blue" pos="1358.34 -10.5922 648.428" rot="0 0 0" size="1059.05 94 1069.07" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="1.75622" triangle="1.75622" diff="1 1 1">

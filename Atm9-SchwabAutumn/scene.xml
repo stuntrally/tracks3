@@ -8,10 +8,10 @@
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="120.008" linStart="0" linEnd="400"/>
     <light pitch="47.897728" yaw="-37" ambient="0.167 0.207 0.906 0.900 0.000" diffuse="0.167 0.403 0.643 0.900 0.000" specular="0.000 0.149 0.434 0.900 0.000"/>
     <fluids>
-        <fluid hq="2" name="water white" pos="-267.146 -11.0239 24.726" rot="0 0 0" size="329.292 20 633.659" tile="0.01 0.01"/>
-        <fluid hq="2" name="water white" pos="76.1694 34.9169 -20.6906" rot="0 0 0" size="333.206 17.1672 428.954" tile="0.01 0.01"/>
-        <fluid hq="2" name="water white" pos="302.479 105.575 -338.189" rot="0 0 0" size="325.598 20 265.096" tile="0.01 0.01"/>
-        <fluid hq="2" name="water white" pos="379.079 72.0853 117.95" rot="0 0 0" size="307.818 20 202.343" tile="0.01 0.01"/>
+        <fluid hq="2" name="water white" pos="-267.146 -11.0239 24.726" rot="0 0 0" size="329.292 28 633.659" tile="0.01 0.01"/>
+        <fluid hq="2" name="water white" pos="76.1694 34.9169 -20.6906" rot="0 0 0" size="333.206 37.1672 428.954" tile="0.01 0.01"/>
+        <fluid hq="2" name="water white" pos="302.479 105.575 -338.189" rot="0 0 0" size="325.598 53 265.096" tile="0.01 0.01"/>
+        <fluid hq="2" name="water white" pos="379.079 72.0853 117.95" rot="0 0 0" size="307.818 73 202.343" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="1" triangle="1" diff="1 1 1">

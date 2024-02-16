@@ -8,8 +8,8 @@
     <fogH color="0.731 0.539 0.166 1.004 0.000" height="1" dens="5.78" linStart="0" linEnd="0.8"/>
     <light pitch="31" yaw="150" ambient="0.105 0.932 0.472 0.789 0.192" diffuse="0.072 0.826 0.565 0.789 0.000" specular="0.105 0.576 0.598 0.774 0.000"/>
     <fluids>
-        <fluid hq="2" name="grease jelly" pos="-131.227 1.56543 72.1024" rot="0 0 0" size="657.812 20 787.184" tile="0.01 0.01"/>
-        <fluid hq="2" name="water sunset" pos="316.224 71.2148 -195.854" rot="0 0 0" size="597.006 0.2 565.43" tile="0.01 0.01"/>
+        <fluid hq="2" name="grease jelly" pos="-131.227 1.56543 72.1024" rot="0 0 0" size="657.812 75 787.184" tile="0.01 0.01"/>
+        <fluid hq="2" name="water sunset" pos="316.224 71.2148 -195.854" rot="0 0 0" size="597.006 38 565.43" tile="0.01 0.01"/>
         <fluid hq="2" name="water cyan med" pos="-473.643 60.7342 -218.874" rot="0 0 0" size="92.2141 20 155.424" tile="0.01 0.01"/>
         <fluid hq="1" name="grease jelly" pos="-587.022 108.913 -563.797" rot="0 0 0" size="54.4605 20 60.5325" tile="0.01 0.01"/>
         <fluid hq="1" name="mud soft" pos="-373.328 44.4285 -449.087" rot="0 0 0" size="159.179 20 137.687" tile="0.01 0.01"/>

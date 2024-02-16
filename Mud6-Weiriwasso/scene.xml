@@ -9,7 +9,7 @@
     <light pitch="50.795456" yaw="-9" ambient="0.504 0.186 0.672 0.679 0.000" diffuse="0.880 0.229 0.788 0.738 0.000" specular="0.163 0.333 0.336 0.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water moss" pos="-156.056 1.58319 256.925" rot="0 0 0" size="1399.65 20 1491.58" tile="0.01 0.01"/>
-        <fluid hq="2" name="water cyan med" pos="472.978 71.2148 -292.94" rot="0 0 0" size="892.945 0.2 845.717" tile="0.01 0.01"/>
+        <fluid hq="2" name="water cyan med" pos="472.978 71.2148 -292.94" rot="0 0 0" size="892.945 20.2 845.717" tile="0.01 0.01"/>
         <fluid hq="2" name="water blue" pos="-331.709 414.232 -633.411" rot="0 0 0" size="190.493 20 184.695" tile="0.0220911 0.0220911"/>
         <fluid hq="2" name="water blue" pos="-456.377 90.3488 -404.37" rot="0 0 0" size="68.5385 20 66.3156" tile="0.0208549 0.0208549"/>
         <fluid hq="2" name="water blue" pos="-743.326 185.539 638.834" rot="0 0 0" size="76.5587 20 72.3721" tile="0.0213383 0.0213383"/>
