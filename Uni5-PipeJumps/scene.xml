@@ -1,10 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="W13-MtFog" secEd="7732"/>
+    <ver num="3018" baseTrk="W13-MtFog" secEd="8086"/>
     <car tires="0"/>
     <start pos="195.963 -12.9837 12.4352" rot="-0.006911 -0.02307 -0.975282 -0.219786" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1 0.1 0.1" lA="1.6" lD="1.6" lS="0.9" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" h="-0.7" wx="0.6" wy="1" sc="0.6" oy="0"/>
     <sound ambient="" reverbs="UnidentMntn"/>
     <sky material="sky/space_nebula_03_uni" skyYaw="-115.227"/>
-    <fog color="0.678 0.694 0.308 0.700 0.000" color2="0.773 0.800 0.324 0.900 0.000" linStart="42.05" linEnd="577.813"/>
+    <fog color="0.738 0.694 0.284 0.700 0.000" color2="0.773 0.800 0.057 0.900 0.000" linStart="42.05" linEnd="1140.1896"/>
     <fogH color="0.750 0.566 1.524 1.000 0.000" height="31.64" dens="54.6005" linStart="0" linEnd="50.9773"/>
     <light pitch="47.2388" yaw="137.727" ambient="0.792 0.500 0.181 1.000 0.000" diffuse="0.652 0.550 0.397 1.000 0.000" specular="0.690 0.350 0.997 0.000 0.000"/>
     <fluids/>
@@ -35,7 +37,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
         <terrain ofsZ="0" triangle="10.2978" diff="0.77 0.78 1" emissive="1" horiz="1">
-            <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="34.3306" surf="DesertBumpy" dust="0" dustS="0.6" mud="0.4" smoke="0" tclr="0.167 0.818 0.220 0.100 0.000" angMin="0" angMax="18.9" angSm="27.7478" hMin="-300" hMax="1200" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="84.33" surf="DesertBumpy" dust="0" dustS="0.6" mud="0.4" smoke="0" tclr="0.167 0.818 0.220 0.100 0.000" angMin="0" angMax="18.9" angSm="27.7478" hMin="-300" hMax="1200" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="3.90123" oct0="3" prs0="0.493346" pow0="1.25577" frq1="12.862" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="mntn_x2_d.jpg" fnorm="mntn_x2_n.jpg" scale="37.2487" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.670 0.613 0.800 0.900 0.000" angMin="29.7652" angMax="45.9" angSm="10.054" hMin="-300" hMax="1200" hSm="20" nOn="0" noise="1" n_1="1" n2="0">
@@ -60,7 +62,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
         <terrain ofsZ="0" triangle="20" diff="0.770994 0.780985 1" emissive="1" horiz="2">
-            <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="66.9289" surf="DesertBumpy" dust="0" dustS="0.6" mud="0.4" smoke="0" tclr="0.167 0.818 0.220 0.100 0.000" angMin="0" angMax="18.9" angSm="27.7478" hMin="-300" hMax="1700" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="126.93" surf="DesertBumpy" dust="0" dustS="0.6" mud="0.4" smoke="0" tclr="0.167 0.818 0.220 0.100 0.000" angMin="0" angMax="18.9" angSm="27.7478" hMin="-300" hMax="1700" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="0.648492" oct0="3" prs0="0.493346" pow0="1.25577" frq1="2.2721" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="mntn_x2_d.jpg" fnorm="mntn_x2_n.jpg" scale="67" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.670 0.613 0.800 0.900 0.000" angMin="29.7652" angMax="45.9" angSm="10.054" hMin="-300" hMax="1700" hSm="20" nOn="0" noise="1" n_1="1" n2="0">
@@ -114,7 +116,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-261.211 197.246 299.426" dir="0.603061 -0.313491 -0.733512"/>
+    <cam pos="-261.211 197.246 299.426" dir="0.60306126 -0.3134911 -0.7335124"/>
     <objects/>
     <emitters/>
 </scene>
