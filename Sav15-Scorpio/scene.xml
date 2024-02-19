@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="516"/>
+    <ver num="3018" baseTrk="" secEd="1279"/>
     <car tires="0" damage="0.2"/>
     <start pos="127.117 -34.2923 0.605137" rot="3e-06 4.9738e-13 0.184949 0.982759" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1 0.1 0.1" lA="1.6" lD="1.6" lS="0.9" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" h="-0.7" wx="0.6" wy="1" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Savanna"/>
     <sky material="sky/cloudy_04_blue" skyYaw="-60.681816"/>
     <fog color="0.581 0.138 0.751 0.911 0.000" color2="0.591 0.200 0.609 0.860 0.000" linStart="396.05" linEnd="1065.8"/>
@@ -20,6 +22,31 @@
                 <noise frq0="22.1791" oct0="3" prs0="0.3" pow0="4.88428" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="mntn_white_d.jpg" fnorm="jungle_stone_n.jpg" scale="23.0954" surf="Rocks" dust="0" dustS="0" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.700 0.000" angMin="52.1331" angMax="90" angSm="7.07231" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 0.500 0.400 1.000 0.000"/>
+            <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="Dust" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="8.6193285" diff="1 1 1" horiz="1">
+            <texture on="1" file="savanna_green_d.jpg" fnorm="savanna_green_n.jpg" scale="14.460807" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.184 0.826 0.460 0.700 0.000" angMin="0" angMax="20.9589" angSm="13.3711" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="26.2" oct0="3" prs0="0.281996" pow0="1.03308" frq1="8.6994" oct1="3" prs1="0.572016" pow1="5.90448"/>
+            </texture>
+            <texture on="1" file="savanna_yellow_d.jpg" fnorm="savanna_yellow_n.jpg" scale="20.661947" surf="GrassForest" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.131 0.583 0.480 0.700 0.000" angMin="20.6067" angMax="36.1057" angSm="15.3066" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_gray_d.jpg" fnorm="mntn_dark_n.jpg" scale="41.71933" surf="Rocks" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="35.4012" angMax="50.5479" angSm="4.83606" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="22.1791" oct0="3" prs0="0.3" pow0="4.88428" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_white_d.jpg" fnorm="jungle_stone_n.jpg" scale="52.78696" surf="Rocks" dust="0" dustS="0" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.700 0.000" angMin="52.1331" angMax="90" angSm="7.07231" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
