@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="2102"/>
+    <ver num="3018" baseTrk="" secEd="2470"/>
     <car tires="0"/>
     <start pos="-38.8313 12.0685 1.11" rot="-0.022139 0.002765 -0.991584 -0.127633" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1 0.1 0.1" lA="1.6" lD="1.6" lS="0.9" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" h="-0.7" wx="0.6" wy="1" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Savanna"/>
     <sky material="sky/sunset_04_yellow" skyYaw="12.9546"/>
     <fog color="0.573 0.320 0.361 1.000 0.000" color2="0.128 0.105 0.320 1.000 0.000" linStart="37.7592" linEnd="356.827"/>
@@ -35,14 +37,14 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
         <terrain ofsZ="0" triangle="12.8848" diff="1 1 1" horiz="1">
-            <texture on="1" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="21.3817" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.083 1.000 0.100 0.750 0.000" angMin="0" angMax="12.5049" angSm="8.79854" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.98248" n_1="0" n2="0.921833">
-                <noise frq0="2.57486" oct0="3" prs0="0.3" pow0="1.5" frq1="4.78518" oct1="3" prs1="0.539139" pow1="4.20143"/>
+            <texture on="1" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="28.99094" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.083 1.000 0.100 0.750 0.000" angMin="0" angMax="12.5049" angSm="8.79854" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.98248" n_1="0" n2="0.921833">
+                <noise frq0="27.455866" oct0="3" prs0="0.3" pow0="1.5" frq1="27.752523" oct1="3" prs1="0.539139" pow1="4.20143"/>
             </texture>
-            <texture on="1" file="grass_ground2y_d.jpg" fnorm="grass_ground_n.jpg" scale="21.282" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.250 0.500 0.200 0.900 0.000" angMin="17.4891" angMax="25.7143" angSm="5.17934" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="0" n2="0">
-                <noise frq0="6.12866" oct0="3" prs0="0.3" pow0="1.5" frq1="5.81873" oct1="3" prs1="0.4" pow1="1.2"/>
+            <texture on="1" file="grass_ground2y_d.jpg" fnorm="grass_ground_n.jpg" scale="29.20938" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.250 0.500 0.200 0.900 0.000" angMin="17.4891" angMax="25.7143" angSm="5.17934" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="0" n2="0">
+                <noise frq0="11.793633" oct0="3" prs0="0.3" pow0="1.5" frq1="23.813183" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="mntn_gray_d.jpg" fnorm="mntn_dark_n.jpg" scale="42.2765" surf="GrassForest" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.167 0.565 0.230 0.800 0.000" angMin="29.2368" angMax="90" angSm="10.8811" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0.82712" n_1="0.376623" n2="0">
-                <noise frq0="4.20634" oct0="3" prs0="0.3" pow0="1.5" frq1="7.74776" oct1="3" prs1="0.4" pow1="1.2"/>
+            <texture on="1" file="mntn_gray_d.jpg" fnorm="mntn_dark_n.jpg" scale="59.045425" surf="GrassForest" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.167 0.565 0.230 0.800 0.000" angMin="29.2368" angMax="90" angSm="10.8811" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0.82712" n_1="0.376623" n2="0">
+                <noise frq0="25.167973" oct0="3" prs0="0.3" pow0="1.5" frq1="31.833668" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
@@ -89,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="1.4812 7.07529 28.8056" dir="-0.579356 -0.0746175 -0.811652"/>
+    <cam pos="1.4812 7.07529 28.8056" dir="-0.579356 -0.0746175 -0.81165195"/>
     <objects>
         <o name="wood_block" pos="-99.0043 29.2711 6.63932" rot="0.871602 0.457736 -0.164519 0.0610082"/>
         <o name="wood_block" pos="-119.249 62.148 9.13892" rot="-0.0224018 0.995937 -0.011525 -0.086452"/>
