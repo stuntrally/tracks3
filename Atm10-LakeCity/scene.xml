@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="Atm6-Sunset" secEd="49968"/>
+    <ver num="3018" baseTrk="Atm6-Sunset" secEd="51109"/>
     <car tires="0"/>
     <start pos="226.365 93.2003 32.8971" rot="8.9407e-07 -1.31055e-06 -0.741822 0.670673" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="1" yW="-16.666672" tr="1" gr="4"/>
+    <ror2 rtx="5" col="0" d="10" a="12" h="-0.47" wx="0.6000001" wy="0.7999999" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="ForestDense"/>
     <sky material="sky/evening_01_orange" skyYaw="-8.181824"/>
     <fog color="0.074 0.632 0.913 0.987 0.000" color2="0.899 0.300 0.492 0.930 0.000" linStart="70.3125" linEnd="1104.2804"/>
@@ -34,7 +36,7 @@
             <texture on="1" file="mntn_white2_d.jpg" fnorm="jungle_stone_n.jpg" scale="51.1691" surf="Rocks" dust="0.2" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="20" hMin="48.4962" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="0" file="ground_dry2_d.jpg" fnorm="ground_dry2_n.jpg" scale="9.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 0.667 0.300 0.700 0.000"/>

@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="3773"/>
+    <ver num="3021" baseTrk="" secEd="4285"/>
     <car tires="0"/>
     <start pos="246.596 250.281 -0.253865" rot="-0.138779 0.018096 0.185224 -0.972703" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.4510926" gr="3.5967743"/>
+    <ror2 rtx="0" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="14" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Canyon"/>
     <sky material="sky/sunset_04_cloudy" skyYaw="2.72726"/>
     <fog color="0.573 0.320 0.361 1.000 0.000" color2="0.128 0.105 0.320 1.000 0.000" linStart="296.45" linEnd="1140.05"/>

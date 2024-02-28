@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="Isl10-Treasure" secEd="3729"/>
+    <ver num="3021" baseTrk="Isl10-Treasure" secEd="4111"/>
     <car tires="0"/>
     <start pos="-245.59 -76.8033 5.81393" rot="-1.65201e-13 1e-06 -0.635863 0.771806" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.8225806" wx="0.75182104" wy="0.83508563" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Mountains"/>
     <sky material="sky/day_clouds_04_blue" skyYaw="-18.409088"/>
     <fog color="0.591 0.329 0.997 1.000 0.000" color2="0.589 0.461 0.292 1.000 0.000" linStart="321.606" linEnd="1013.26"/>

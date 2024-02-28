@@ -1,10 +1,12 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="2229"/>
+    <ver num="3021" baseTrk="" secEd="2672"/>
     <car tires="0"/>
     <start pos="-64.6381 -5.47507 -5.58963" rot="-0.0643443 -0.0812483 0.696827 0.709731" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="3.829807" gr="4"/>
+    <ror2 rtx="5" col="0" d="10" a="12" h="-0.4" wx="0.6" wy="1" v="10" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Forest"/>
     <sky material="sky/overcast_01_grey" rainName="RainFastA" rainEmit="3624" rain2Name="RainFine" rain2Emit="1998" skyYaw="-44.3182"/>
-    <fog color="0.167 0.079 0.760 0.800 0.000" color2="0.583 0.068 0.590 0.800 0.000" linStart="9.84918" linEnd="321.606"/>
+    <fog color="0.167 0.079 0.760 0.800 0.000" color2="0.583 0.068 0.233 0.800 0.000" linStart="10.341855" linEnd="321.606"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
     <light pitch="28.4659" yaw="-3" ambient="0.000 0.000 0.410 0.504 0.000" diffuse="0.000 0.000 0.450 1.000 0.000" specular="0.000 0.000 0.538 0.000 0.000"/>
     <fluids/>
@@ -25,7 +27,7 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="0" file="ground_dry2_d.jpg" fnorm="ground_dry2_n.jpg" scale="8.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="roadForestWet" dust="0.7" dustS="0.6" mud="0.8" smoke="0" tclr="0.119 0.467 0.300 0.800 0.000"/>
@@ -89,7 +91,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-57.3034 12.6308 -39.6804" dir="-0.263406 -0.140684 0.954372"/>
+    <cam pos="-57.3034 12.6308 -39.6804" dir="-0.26340595 -0.14068398 0.9543718"/>
     <objects>
         <o name="big_tire" pos="-65.3755 -194.711 -1.8665" rot="0.835731 -0.544259 0.0223742 0.0695298"/>
         <o name="big_tire" pos="-109.241 -188.896 1.34769" rot="0.840021 -0.515057 -0.0473665 0.163821"/>
