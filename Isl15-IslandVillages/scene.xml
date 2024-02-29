@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="Grc8-SlopeCity" secEd="89160"/>
+    <ver num="3021" baseTrk="Grc8-SlopeCity" secEd="89252"/>
     <car tires="0" damage="0.852321" road1mtr="0"/>
     <start pos="-242.916 -116.252 -1.57561" rot="0.00235429 0.0122934 0.48948 -0.871977" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Canyon"/>
     <sky material="sky/sunset_01" skyYaw="-71.590904"/>
     <fog color="0.099 0.647 0.913 0.863 0.000" color2="0.684 0.250 0.074 0.794 0.000" linStart="89.39145" linEnd="277.57144"/>
