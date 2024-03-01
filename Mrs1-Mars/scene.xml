@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="W13-MtFog" secEd="3668"/>
+    <ver num="3021" baseTrk="W13-MtFog" secEd="3978"/>
     <car tires="0"/>
     <start pos="55.7061 -100.219 7.06065" rot="-0 0 1.62921e-07 1" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.2" lA="1.7419355" lD="1.7459676" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.6235691" gr="4"/>
+    <ror2 rtx="0" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="10" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/space_nebula_02_red"/>
     <fog color="0.042 1.000 0.200 0.760 0.000" color2="0.000 1.000 0.150 0.900 0.000" linStart="45" linEnd="806.45"/>

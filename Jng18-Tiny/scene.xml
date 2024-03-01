@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="830"/>
+    <ver num="3021" baseTrk="" secEd="933"/>
     <car tires="0"/>
     <start pos="-36.2404 -69.1117 0.636016" rot="-0 0 1.62921e-07 1" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="1" yW="-0.5376358" tr="5" gr="4"/>
+    <ror2 rtx="5" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="10" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="JungleDense"/>
     <sky material="sky/cloudy_04_white" rainName="RainFastA" rainEmit="2642" rain2Name="RainFast" rain2Emit="2450" skyYaw="-41.59091"/>
     <fog color="0.517 0.366 0.775 1.000 0.000" color2="0.527 0.403 0.713 1.000 0.000" linStart="0" linEnd="68.2506"/>
@@ -28,7 +30,7 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="0" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="7.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="roadJungleWet" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.119 0.350 0.400 0.500 0.000"/>
