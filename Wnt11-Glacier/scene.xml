@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="12368"/>
+    <ver num="3021" baseTrk="" secEd="12894"/>
     <car tires="0"/>
     <start pos="230.41 -502.192 34.8713" rot="0 3.9968e-15 0.999578 -0.0295352" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="0.10752869" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Canyon"/>
     <sky material="sky/day_clouds_08" rainName="RainFine" rainEmit="45" rain2Name="SnowFine" rain2Emit="15" skyYaw="21.136368"/>
     <fog color="0.550 0.050 0.592 1.000 0.000" color2="0.564 0.343 0.457 1.000 0.000" linStart="182.077" linEnd="1759.76"/>
@@ -23,7 +25,7 @@
             <texture on="1" file="snow_mntn_d.jpg" fnorm="snow_mntn_n.jpg" scale="30.2153" surf="SnowWet" dust="0" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="19.1447" hMin="50" hMax="69.1781" hSm="60.9683" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
                 <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.97841" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="snow2ice_d.jpg" fnorm="snow2_n.jpg" scale="14.9262" surf="SnowWet" dust="0.4" dustS="0.6" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="19.3421" hMin="71.9178" hMax="300" hSm="18.8596" nOn="0" noise="1" n_1="0.490348" n2="0">
+            <texture on="0" file="snow2ice_d.jpg" fnorm="snow2_n.jpg" scale="14.9262" surf="SnowWet" dust="0.4" dustS="0.6" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="19.3421" hMin="71.9178" hMax="300" hSm="18.8596" nOn="0" noise="1" n_1="0.490348" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">

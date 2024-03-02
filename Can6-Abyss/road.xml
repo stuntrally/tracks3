@@ -3,7 +3,7 @@
     <dim tcMul="0.0576519" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="160" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="8" colR="3.66915" wsPm="4" lsPm="1" stBox="1 8.468 24.604" iDir="1" iChk1="44"/>
-    <stats length="2642.3582" width="8.820738" height="25.891768" onTer="20.389791" pipes="0" bnkAvg="6.7218127" bnkMax="31.496334"/>
+    <stats length="2601.127" width="8.800426" height="22.750729" onTer="19.135723" pipes="0" bnkAvg="6.8510504" bnkMax="31.496334"/>
     <txt desc="Fast road with 2 long jumps over a deep abyss."/>
     <adv ice="Keep straight before jumping. The bigger jump needs 170 km/h, smaller 150 km/h. Note: vehicles with low suspension or poor aerodynamics aren&apos;t meant for such long jumps."/>
     <P pos="202.443 0 208.127" w="10.2952" a="0" ar="0" aT="2"/>
@@ -20,9 +20,9 @@
     <P pos="101.804 0 -262.034" w="9.432" aT="2" chkR="1.912"/>
     <P pos="59.2923 0 -264.584" w="9.68" aT="2"/>
     <P pos="22.5771 0 -257.472" w="9.7004" a="0" ar="0" aT="2"/>
-    <P pos="-16.2345 7.71279 -247.646" w="9.7044" onTer="0" a="0" ar="0" aT="2" mtr="-1"/>
-    <P pos="-52.7588 24.964 -237.696" w="9.8484" onTer="0" a="0" ar="0" aT="2" mtr="-1"/>
-    <P pos="-90.4208 7.7105 -227.884" w="9.6996" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="-16.2345 1.4684488 -247.646" w="9.7044" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="-52.7588 4.9871955 -237.696" w="9.8484" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="-90.4208 3.0763803 -227.884" w="9.6996" onTer="0" a="0" ar="0" aT="2"/>
     <P pos="-132.521 0 -215.94" w="9.6984" a="0" ar="0" aT="2"/>
     <P pos="-168.699 0 -205.577" w="9.954" aT="2"/>
     <P pos="-225.362 0 -183.585" w="10.504" aT="2" chkR="1.996"/>
@@ -55,8 +55,7 @@
     <P pos="-138.023 0 262.593" w="8.56" aT="2" chkR="2.092"/>
     <P pos="-73.6687 0 259.078" w="9.4" aT="2"/>
     <P pos="-24.231 0 251.214" w="10.296" a="0" ar="-3.723" aT="2"/>
-    <P pos="21.2231 18.3987 243.332" w="10.416" onTer="0" a="0" ar="0" aT="2" mtr="-1"/>
-    <P pos="43.0837 44.8071 238.968" w="10.272" onTer="0" a="0" ar="0" aT="2" mtr="-1"/>
-    <P pos="132.23 44.8701 221.612" w="10.256" onTer="0" a="0" ar="0" aT="2" mtr="-1"/>
-    <P pos="154.827 18.3716 216.925" w="10.424" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="21.2231 8.097542 243.332" w="10.416" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="85.26664 13.925733 230.94731" w="10.256" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="154.827 8.07044 216.925" w="10.424" onTer="0" a="0" ar="0" aT="2"/>
 </SplineRoad>

@@ -1,8 +1,8 @@
 <scene>
-    <ver num="3018" baseTrk="Atm6-Sunset" secEd="51109"/>
+    <ver num="3021" baseTrk="Atm6-Sunset" secEd="51154"/>
     <car tires="0"/>
     <start pos="226.365 93.2003 32.8971" rot="8.9407e-07 -1.31055e-06 -0.741822 0.670673" pos2="0 0 0" rot2="0 0 0 1"/>
-    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="1" yW="-16.666672" tr="1" gr="4"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="1" yW="-16.774195" tr="1" gr="4"/>
     <ror2 rtx="5" col="0" d="10" a="12" h="-0.47" wx="0.6000001" wy="0.7999999" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="ForestDense"/>
     <sky material="sky/evening_01_orange" skyYaw="-8.181824"/>
@@ -113,9 +113,9 @@
         <layer on="1" name="treeAYO-18mplTall.mesh" dens="0.0507544" minScale="1.52739" maxScale="2.29478" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.699996" windFy="0.00999974" maxTerAng="20.5696" minTerH="-0.923077" maxTerH="43.8462" maxDepth="0.21568"/>
         <layer on="1" name="treeAOG-17birTall.mesh" dens="0.0605047" minScale="1.17759" maxScale="1.64109" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.599999" windFy="0.00999945" maxTerAng="40.7934" minTerH="0.92308" maxTerH="39.6923" maxDepth="0.2"/>
         <layer on="0" name="treeAO-25oakWMed.mesh" dens="0.194779" minScale="0.810782" maxScale="1.48032" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.599999" windFy="0.00999945" maxTerAng="9.61908" minTerH="-5" maxTerH="23.5385" maxDepth="0.2"/>
-        <layer on="1" name="treeAR-10oakMed.mesh" dens="0.171225" minScale="0.418653" maxScale="0.606815" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.6" windFy="0.01" maxTerAng="35.3729" minTerH="-10" maxTerH="33.6923" maxDepth="0"/>
+        <layer on="0" name="treeAR-10oakMed.mesh" dens="0.171225" minScale="0.418653" maxScale="0.606815" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.6" windFy="0.01" maxTerAng="35.3729" minTerH="-10" maxTerH="33.6923" maxDepth="0"/>
         <layer on="1" name="rock.mesh" dens="0.0510346" minScale="0.339134" maxScale="1.73053" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.599999" windFy="0.00999945" maxTerAng="33.2361" minTerH="1" maxTerH="46.6154" maxDepth="5"/>
-        <layer on="1" name="treeARk-12oakSm.mesh" dens="0.147385" minScale="1.12507" maxScale="1.44948" ofsY="0" addTrRdDist="2" maxRdist="6" windFx="0.699996" windFy="0.00999974" maxTerAng="46.0598" minTerH="-10" maxTerH="41.5385" maxDepth="0.0805473"/>
+        <layer on="0" name="treeARk-12oakSm.mesh" dens="0.147385" minScale="1.12507" maxScale="1.44948" ofsY="0" addTrRdDist="2" maxRdist="6" windFx="0.699996" windFy="0.00999974" maxTerAng="46.0598" minTerH="-10" maxTerH="41.5385" maxDepth="0.0805473"/>
         <layer on="0" name="fern2.mesh" dens="0.0481347" minScale="0.162712" maxScale="0.32199" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.699996" windFy="0.00999974" maxTerAng="12.3531" minTerH="-100" maxTerH="10" maxDepth="5"/>
         <layer on="0" name="tree68bigUpW.mesh" dens="0.111069" minScale="0.740175" maxScale="1.17759" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.599999" windFy="0.00999945" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="tree69bigUpWb.mesh" dens="0.107768" minScale="1.74292" maxScale="2.855" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.599999" windFy="0.00999947" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>

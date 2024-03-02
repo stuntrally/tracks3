@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.01" merge="1" mergeLen="800" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.16 12.364" iDir="1" iChk1="4"/>
-    <stats length="6400.416" width="7.500302" height="254.4393" onTer="20.90674" pipes="0" bnkAvg="4.431538" bnkMax="26.747675"/>
+    <stats length="6365.322" width="7.5155272" height="254.4393" onTer="20.470665" pipes="0" bnkAvg="4.6184516" bnkMax="26.747675"/>
     <txt desc="Regular rally through Karst mountain landscape."/>
     <adv ice="Rather easy. Has two short jumps."/>
     <P pos="-108.126 0 -394.89" w="7" aT="2" col="0"/>
@@ -93,8 +93,8 @@
     <P pos="323.002 0 273.791" w="8.064" aT="2" col="0"/>
     <P pos="308.589 0 286.746" w="10.352" aT="2" col="0" chkR="1.692"/>
     <P pos="288.899 0 285.61" w="10.304" a="0" ar="14.64" aT="2" col="0"/>
-    <P pos="263.267 30.1262 258.374" w="10.48" onTer="0" a="0" ar="17.7" aT="2" col="0" mtr="-1"/>
-    <P pos="256.99 47.4705 245.742" w="7" onTer="0" a="0" ar="21" aT="2" col="0" mtr="-1"/>
+    <P pos="263.267 30.1262 258.374" w="10.48" onTer="0" a="0" ar="17.7" aT="2" col="0"/>
+    <P pos="255.12975 30.70042 247.18755" w="10.133582" onTer="0" a="0" ar="21" aT="2" col="0"/>
     <P pos="248.129 30.144 233.206" w="9.912" onTer="0" a="0" ar="19.26" aT="2" col="0"/>
     <P pos="239.374 0 205.613" w="8.448" a="0" ar="3.12" aT="2" col="0"/>
     <P pos="239.18 0 186.741" w="9.336" aT="2" col="0"/>
@@ -107,8 +107,8 @@
     <P pos="248.472 0 15.179" w="7" aT="2" col="0"/>
     <P pos="238.356 0 -15.5255" w="8.656" a="0" ar="-5.46" aT="2" col="0" chkR="1"/>
     <P pos="223.593 103.84 -36.4437" w="9.616" onTer="0" a="0" ar="-6.9" aT="2" col="0"/>
-    <P pos="203.714 114.146 -58.0801" w="10.448" onTer="0" a="0" ar="0" aT="2" col="0" mtr="-1"/>
-    <P pos="183.987 137.478 -76.1551" w="7" onTer="0" a="0" ar="0" aT="2" col="0" mtr="-1"/>
+    <P pos="203.714 114.146 -58.0801" w="10.448" onTer="0" a="0" ar="0" aT="2" col="0"/>
+    <P pos="185.1049 116.55923 -77.33273" w="10.502496" onTer="0" a="0" ar="0" aT="2" col="0"/>
     <P pos="166.886 115.626 -97.4629" w="11.288" onTer="0" a="0" ar="0" aT="2" col="0" mtr="2"/>
     <P pos="141.88 113.763 -125.008" w="9.816" onTer="0" a="0" ar="0" aT="2" col="0" mtr="2"/>
     <P pos="122.436 0 -145.545" w="8.472" a="0" ar="0.539999" aT="2" col="0" mtr="2" chkR="1"/>

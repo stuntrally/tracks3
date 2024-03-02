@@ -3,10 +3,10 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.4" skirtH="0.12" merge="1" mergeLen="1200" lodPntLen="80" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.136 24.812" iDir="-1" iChk1="14"/>
-    <stats length="1310.6562" width="9.791687" height="51.11178" onTer="12.684759" pipes="8.838073" onPipe="8.838073" bnkAvg="17.167606" bnkMax="44.18847"/>
+    <stats length="1274.2743" width="8.8239355" height="51.11178" onTer="7.533442" pipes="0" bnkAvg="18.10942" bnkMax="44.18847"/>
     <txt desc="Easy, short Mars track. Warning: intense color."/>
     <adv ice="With banked road and short on-pipe bridge."/>
-    <P pos="61.2337 0 52.2461" w="16.08" a="-19.14" ar="-5.58" aT="2" col="0"/>
+    <P pos="66.58536 0 51.44118" w="13.82199" a="0" ar="0" aT="2" col="0"/>
     <P pos="101.873 0 50.3292" w="12.224" aT="2" col="0" chkR="1.672"/>
     <P pos="126.502 0 64.2461" w="10.432" aT="2" col="0"/>
     <P pos="140.051 0 75.2567" w="7.472" aT="2" col="0"/>
@@ -42,9 +42,6 @@
     <P pos="-86.8622 0 90.9665" w="7.472" aT="2" col="0"/>
     <P pos="-82.8037 0 63.6372" w="12.552" aT="2" col="0"/>
     <P pos="-64.4478 0 47.348" w="12.552" aT="2" col="0" chkR="1.94"/>
-    <P pos="-18.2467 0 46.6358" w="19.072" a="0" ar="0" aT="2" col="0" mtr="-1" not="1"/>
-    <P pos="-34.3867 -2.56191 45.113" w="19.408" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" onP="1"/>
-    <P pos="8.70766 6.34139 47.7981" w="15.872" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" onP="1"/>
-    <P pos="38.283 10.8493 50.8242" w="15.504" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" onP="1"/>
-    <P pos="79.6375 8.49499 50.1166" w="19.504" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" mtr="-1" not="1"/>
+    <P pos="-28.782377 0 47.258186" w="19.408" a="0" ar="0" aT="2" col="0" onP="1"/>
+    <P pos="17.536245 21.02546 49.292564" w="15.504" onTer="0" a="0" ar="0" aT="2" col="0" onP="1"/>
 </SplineRoad>

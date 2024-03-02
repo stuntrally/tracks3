@@ -1,9 +1,9 @@
 <scene>
-    <ver num="3021" baseTrk="Vlc9-Craters" secEd="15347"/>
+    <ver num="3021" baseTrk="Vlc9-Craters" secEd="16610"/>
     <car tires="0" needLights="1"/>
     <start pos="53.0448 -29.584 9.67354" rot="0.0137246 -0.00210251 0.717416 -0.696559" pos2="0 0 0" rot2="0 0 0 1"/>
-    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="-1" yW="-0.8" tr="1" gr="4"/>
-    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
+    <ror1 aA="0.1" lA="1.7862904" lD="1.7903227" lS="0.9" fg="1.1236559" wtr="-1" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="2" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Rocky"/>
     <sky material="sky/dusk_stormy_02_red"/>
     <fog color="0.023 0.909 0.316 0.847 0.000" color2="0.023 0.942 0.027 0.896 0.136" linStart="0" linEnd="621.1"/>
@@ -18,13 +18,13 @@
     </fluids>
     <terrains>
         <terrain ofsZ="1.30717" triangle="1.30717" diff="1 1 1" emissive="1">
-            <texture on="1" file="lava_black_d.jpg" fnorm="lava_black_n.jpg" scale="5.87196" surf="DesertMud" dust="0" dustS="0" mud="0" smoke="0" tclr="0.076 0.246 0.250 0.600 0.000" dmg="0.139231" angMin="0" angMax="15.9652" angSm="3.67805" hMin="-300" hMax="300" hSm="21.883" nOn="0" noise="0.359322" n_1="0" n2="0.715254">
-                <noise frq0="26.4215" oct0="3" prs0="0.3" pow0="1.15313" frq1="28.5" oct1="3" prs1="0.4" pow1="2.39462"/>
+            <texture on="1" file="lava_black_d.jpg" fnorm="lava_black_n.jpg" scale="5.87196" surf="DesertMud" dust="0" dustS="0" mud="0" smoke="0" tclr="0.076 0.246 0.250 0.600 0.000" dmg="0.139231" angMin="80.49107" angMax="90" angSm="3.67805" hMin="-300" hMax="300" hSm="21.883" nOn="0" noise="0" n_1="0" n2="1">
+                <noise frq0="26.4215" oct0="3" prs0="0.3" pow0="1.15313" frq1="2.696541" oct1="4" prs1="0.23660713" pow1="0.40521502"/>
             </texture>
-            <texture on="1" file="lava_d.jpg" fnorm="jungle_stone_n.jpg" scale="17.2425" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.097 0.395 0.169 0.402 0.000" dmg="4" angMin="18" angMax="37.0957" angSm="11.5664" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="1" n2="0">
-                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            <texture on="1" file="lava_d.jpg" fnorm="jungle_stone_n.jpg" scale="17.2425" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.097 0.395 0.169 0.402 0.000" dmg="4" angMin="0" angMax="62.410713" angSm="6.9783616" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="1" n2="0">
+                <noise frq0="25.725903" oct0="3" prs0="0.43839282" pow0="5.970477" frq1="32.16535" oct1="3" prs1="0.41249996" pow1="3.2179265"/>
             </texture>
-            <texture on="1" file="ground_crackedv_d.jpg" fnorm="ground_cracked_n.jpg" scale="14.1189" surf="DesertBumpy" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.095 0.471 0.233 0.700 0.000" dmg="0.139231" angMin="26.9472" angMax="90" angSm="10.054" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0" n_1="1" n2="0">
+            <texture on="1" file="ground_crackedv_d.jpg" fnorm="ground_cracked_n.jpg" scale="14.1189" surf="DesertBumpy" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.095 0.471 0.233 0.700 0.000" dmg="0.139231" angMin="68.03571" angMax="81.42857" angSm="2.5000002" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0" n_1="1" n2="0">
                 <noise frq0="30.2" oct0="3" prs0="0.3" pow0="0.386426" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="desert_cracksv_d.jpg" fnorm="desert_cracks_n.jpg" scale="6.60567" surf="DesertMud" dust="0" dustS="0" mud="0.1" smoke="0" tclr="0.095 0.333 0.420 0.600 0.000" dmg="0.4" angMin="28.6435" angMax="44.9217" angSm="7.76869" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">

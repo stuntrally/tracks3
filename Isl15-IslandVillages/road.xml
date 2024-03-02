@@ -3,7 +3,7 @@
     <dim tcMul="0.0701582" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="702.067" lodPntLen="15.7966" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.552 17.656" iDir="-1" iChk1="10"/>
-    <stats length="3717.0066" width="7.561709" height="22.440113" onTer="10.76637" pipes="3.6085083" bnkAvg="1.8778931" bnkMax="16.248186"/>
+    <stats length="3475.5894" width="7.5925317" height="18.934875" onTer="11.513692" pipes="3.8591583" bnkAvg="1.9237484" bnkMax="16.248186"/>
     <txt desc="Fast road through ancient villages on desert islands."/>
     <adv ice="Includes slow underwater drive through lost village and shallow water crossings. Partly on asphalt."/>
     <P pos="-312.656 0 -34.1274" w="7" aT="2"/>
@@ -114,19 +114,10 @@
     <P pos="-78.7375 0 -103.818" w="7" aT="2"/>
     <P pos="-83.2318 0 -126.721" w="7" aT="2"/>
     <P pos="-93.719 0 -156.516" w="7" aT="2" chkR="1.452"/>
-    <P pos="-112.9 0 -194.369" w="7" aT="2"/>
-    <P pos="-126.961 0 -216.717" w="7" aT="2"/>
-    <P pos="-152.665 0 -262" w="7" aT="2" chkR="1.42"/>
-    <P pos="-160.397 0 -283.182" w="7" aT="2" mtr="2"/>
-    <P pos="-162.848 0 -300.669" w="7" aT="2" col="0" mtr="2"/>
-    <P pos="-174.545 0 -312.44" w="7" aT="2" mtr="2" chkR="1.384"/>
-    <P pos="-200.685 0 -297.366" w="7.432" aT="2" mtr="2"/>
-    <P pos="-199.794 0 -284.089" w="7.616" aT="2" mtr="2" chkR="1.516"/>
-    <P pos="-189.621 0 -267.685" w="7.432" aT="2"/>
-    <P pos="-184.975 0 -249.269" w="7" aT="2"/>
-    <P pos="-169.154 0 -226.982" w="7" aT="2"/>
-    <P pos="-157.897 0 -202.758" w="7.592" aT="2" chkR="1.372"/>
-    <P pos="-154.342 0 -187.764" w="8.256" aT="2"/>
+    <P pos="-114.64782 0 -193.35687" w="7" aT="2"/>
+    <P pos="-128.95064 0 -203.22604" w="7" aT="2"/>
+    <P pos="-144.59793 0 -197.79033" w="7.592" aT="2" chkR="1.372"/>
+    <P pos="-152.15312 0 -185.6084" w="8.256" aT="2"/>
     <P pos="-163.375 0 -171.446" w="7" a="0" ar="0.18" aT="2" col="0" mtr="2" chkR="1"/>
     <P pos="-215.276 -2.83234 -151.083" w="7" onTer="0" a="0" ar="0" aT="2" col="0" mtr="2"/>
     <P pos="-262.22 0 -131.816" w="7" a="0" ar="0" aT="2"/>

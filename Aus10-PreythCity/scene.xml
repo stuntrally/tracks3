@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="Isl10-Treasure" secEd="37039"/>
+    <ver num="3021" baseTrk="Isl10-Treasure" secEd="38350"/>
     <car tires="0" road1mtr="0"/>
     <start pos="46.6542 158.677 4.89214" rot="0.0048693 -0.0348666 0.999134 0.0223408" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.3963709" lD="1.3994623" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.620368" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Forest"/>
     <sky material="sky/day_clouds_02" skyYaw="-10.2273"/>
     <fog color="0.581 0.311 0.861 0.911 0.000" color2="0.591 0.451 0.541 0.860 0.000" linStart="112.094" linEnd="893.947"/>
@@ -103,11 +105,6 @@
         <o name="skyscraper11" pos="6.79507 261.521 7.04999" rot="0 -1 0 0"/>
         <o name="skyscraper11" pos="28.1621 260.162 7.00284" rot="0 -1 0 0"/>
         <o name="skyscraper11" pos="60.4116 259.392 6.71358" rot="0 -1 0 0"/>
-        <o name="cave_W06" pos="79.7901 -160.24 7.37589" rot="0.108973 -0.994044 6.25377e-05 -0.000186161"/>
-        <o name="cave_W06" pos="83.0555 -211.934 6.26077" rot="0.990805 0.135294 0 0"/>
-        <o name="cave_W06" pos="105.533 -180.144 7.60522" rot="-0.608349 -0.793669 0 0"/>
-        <o name="cave_W06" pos="53.6904 -186.98 7.74542" rot="0.771954 -0.635679 0 0"/>
-        <o name="cave_W04" pos="80.1415 -184.874 26.6295" rot="0 -1 0 0" sc="1.5391 0.87954 1.5391"/>
         <o name="skyscraper8" pos="-37.5953 242.896 8.12922" rot="0 -1 0 0"/>
         <o name="skyscraper8" pos="-4.96877 272.244 8.88828" rot="0 -1 0 0"/>
         <o name="skyscraper8" pos="-29.3407 284.505 8.77316" rot="0 -1 0 0"/>
