@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="4751"/>
+    <ver num="3021" baseTrk="" secEd="5553"/>
     <car tires="0"/>
     <start pos="32.973 -328.755 45.6697" rot="0.00279778 -0.0374075 0.0644734 0.997215" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.2" lA="1.6854839" lD="1.6854839" lS="0.9" fg="1.1290323" wtr="-1" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="5" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="11" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Mountains"/>
     <sky material="sky/dawn_01_orange"/>
     <fog color="0.103 0.802 0.533 0.913 0.000" color2="0.101 0.624 0.113 0.874 0.000" linStart="66.7424" linEnd="290.039"/>
@@ -28,7 +30,7 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="0" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="7.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>

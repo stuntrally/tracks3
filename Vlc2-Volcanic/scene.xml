@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="3300"/>
+    <ver num="3021" baseTrk="" secEd="3602"/>
     <car tires="0"/>
     <start pos="163.114 152.975 10.5917" rot="-1e-06 -1.61648e-13 0.78913 0.61423" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.2" lA="1.9475806" lD="1.9475806" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="5" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="10" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Islands"/>
     <sky material="sky/day_clouds_08" skyYaw="-106.36364"/>
     <fog color="0.550 0.050 0.592 1.000 0.000" color2="0.564 0.343 0.457 1.000 0.000" linStart="380.349" linEnd="1433.7368"/>
@@ -27,7 +29,7 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="0" file="desert_crackso_d.jpg" fnorm="desert_cracks_n.jpg" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 0.500 0.200 0.500 0.000"/>

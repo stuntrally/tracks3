@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="Uni6-Wild" secEd="1685"/>
+    <ver num="3021" baseTrk="Uni6-Wild" secEd="1908"/>
     <car tires="0"/>
     <start pos="67.0181 -11.1557 -0.178799" rot="0 0 -0.97525 0.221132" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1.4354838" wtr="0" yW="-0.8" tr="1.894323" gr="4"/>
+    <ror2 rtx="5" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="10" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="ForestDense"/>
     <sky material="sky/day_clouds_02" rainName="Snow" rainEmit="300" skyYaw="6.8181763"/>
     <fog color="0.570 0.068 0.683 0.911 0.000" color2="0.576 0.386 0.328 0.860 0.000" linStart="0" linEnd="120.7268"/>
@@ -25,7 +27,7 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="0" file="snow2ice_d.jpg" fnorm="snow2_n.jpg" scale="8.2" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="roadSnowIce" dust="0.9" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>

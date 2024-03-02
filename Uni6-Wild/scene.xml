@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="7080"/>
+    <ver num="3021" baseTrk="" secEd="7649"/>
     <car tires="0" needLights="1"/>
     <start pos="237.215 -50.6029 32.1041" rot="0.063689 -0.010281 -0.748136 0.660414" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.3" lA="2.3951614" lD="2.403226" lS="0.9" fg="0.87096775" wtr="-1" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="0" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="10" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="UnidentMntn"/>
     <sky material="sky/space_nebula_03_uni" skyYaw="-167.045"/>
     <fog color="0.593 0.857 0.400 0.820 0.000" color2="0.709 0.748 0.345 0.836 0.000" linStart="137.812" linEnd="917.0497"/>
@@ -27,7 +29,7 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+            <texture on="0" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="9.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="roadJungleWet" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.583 0.333 0.300 0.800 0.000"/>

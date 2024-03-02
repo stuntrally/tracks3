@@ -1,6 +1,6 @@
 
     Stunt Rally 3 - Tracks
-    Copyright (C) 2010-2023  Crystal Hammer and contributors
+    Copyright (C) 2010-2024  Crystal Hammer and contributors
 
     This data is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

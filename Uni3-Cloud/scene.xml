@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="3636"/>
+    <ver num="3021" baseTrk="" secEd="4260"/>
     <car tires="0"/>
     <start pos="92.9072 -159.19 13.582" rot="0.06293 0.019478 -0.394092 -0.916735" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.2" lA="1.9516128" lD="1.983871" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.66782284" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="16" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Unidentified"/>
     <sky material="sky/space_nebula_03_uni" rainName="Snow" rainEmit="15" rain2Name="RainFine" rain2Emit="45" skyYaw="-171.818"/>
     <fog color="0.589 0.899 0.191 0.815 0.000" color2="0.825 0.709 0.262 0.774 0.000" linStart="72.2" linEnd="1232.4764"/>
