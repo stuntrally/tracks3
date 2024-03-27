@@ -37,10 +37,10 @@ Tracks are licensed GNU GPL 3.0.
 
 All are made/edited using Stunt Rally 3 Track Editor.
 
-Old SR Editor Tutorial page with more info and videos [here](https://stuntrally.tuxfamily.org/wiki/doku.php?id=editor).
+SR3 Editor Tutorial page with more info and videos [here](https://github.com/stuntrally/stuntrally3/blob/main/docs/Editor.md).
 
 ------------------------------------------------------------------------------
 
 ## Contributing
 
-If you'd like to contribute, please check [Contributing.md](https://github.com/stuntrally/stuntrally3/blob/main/Contributing.md)
+If you'd like to contribute, please check [Contributing](https://github.com/stuntrally/stuntrally3/blob/main/docs/Contributing.md).
