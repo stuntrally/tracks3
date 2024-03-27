@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3021" baseTrk="Jng3-Rocky" secEd="1901"/>
+    <ver num="3021" baseTrk="Jng3-Rocky" secEd="1957"/>
     <car tires="0"/>
     <start pos="170.06 40.8447 -1.0626" rot="-1e-06 -1.58096e-13 0.673158 0.739503" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.41277167" gr="4"/>
@@ -93,7 +93,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="189.793 12.4201 99.9198" dir="-0.421954 -0.0547725 -0.904961"/>
+    <cam pos="183.68712 18.222948 98.4488" dir="-0.36809117 -0.18640512 -0.91091275"/>
     <objects/>
     <emitters/>
 </scene>
