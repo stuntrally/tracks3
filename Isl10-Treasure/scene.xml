@@ -1,11 +1,11 @@
 <scene>
-    <ver num="3021" baseTrk="" secEd="1308"/>
+    <ver num="3101" baseTrk="" secEd="3884"/>
     <car tires="0"/>
     <start pos="103.491 -197.938 6.13762" rot="-0.01358 0.049373 0.486004 1.7674" pos2="0 0 0" rot2="0 0 0 1"/>
-    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.5557868" gr="4"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.55579" gr="4"/>
     <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Forest"/>
-    <sky material="sky/overcast_01_grey" rainName="RainFast" rainEmit="1109" rain2Name="RainFastA" rain2Emit="2090" skyYaw="119.31818"/>
+    <sky material="sky/overcast_01_grey" rainName="RainFast" rainEmit="1109" rain2Name="RainFastA" rain2Emit="2090" skyYaw="119.318"/>
     <fog color="0.167 0.079 0.760 0.800 0.000" color2="0.583 0.068 0.590 0.800 0.000" linStart="45" linEnd="518.233"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
     <light pitch="25" yaw="-3" ambient="0.597 0.200 0.397 0.000 0.000" diffuse="0.616 0.486 0.683 0.000 0.000" specular="0.504 0.132 0.968 1.000 0.000"/>
@@ -28,6 +28,31 @@
             </texture>
             <texture on="1" file="mntn_green_d.jpg" fnorm="mntn_green_n.jpg" scale="16.4382" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.000 0.000 0.320 1.000 0.000" angMin="24.8684" angMax="88.6184" angSm="16.1174" hMin="-60.5263" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="7.7" surf="Default" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.409 0.440 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="5" surf="Default" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.083 0.400 0.500 0.500 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.241 0.205 0.440 0.500 0.000"/>
+            <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <par dust="Dust" mud="Mud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="12.7359" diff="1 1 1" horiz="1">
+            <texture on="1" file="island_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="25.8205" surf="DesertFast" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.135 0.477 0.440 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="-7.07763" hSm="13.5355" nOn="0" noise="0.370656" n_1="0" n2="0.20122">
+                <noise frq0="14.65" oct0="3" prs0="0.3" pow0="2.71217" frq1="30.9761" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="desert_wet_d.jpg" fnorm="desert_wet_n.jpg" scale="13.0332" surf="DesertFast" dust="0.5" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.600 0.500 0.700 0.000" angMin="6.65094" angMax="24.2763" angSm="4.58897" hMin="-300" hMax="1.59817" hSm="7.08331" nOn="0" noise="0" n_1="0.506098" n2="0">
+                <noise frq0="3.49968" oct0="3" prs0="0.3" pow0="1.5" frq1="21.6678" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="grass_ground_d.jpg" fnorm="grass_ground_n.jpg" scale="24.6626" surf="GrassForest" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.148 0.818 0.220 0.900 0.000" angMin="0" angMax="23.4906" angSm="12.4524" hMin="6.621" hMax="112" hSm="0.99609" nOn="0" noise="1.01482" n_1="0.214286" n2="0">
+                <noise frq0="16.4763" oct0="3" prs0="0.3" pow0="2.50857" frq1="17.7865" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_green_d.jpg" fnorm="mntn_green_n.jpg" scale="50.516" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.000 0.000 0.320 1.000 0.000" angMin="21.934" angMax="88.6184" angSm="16.1174" hMin="-60.5263" hMax="600" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="20.144" oct0="3" prs0="0.3" pow0="1.5" frq1="15.0419" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="7.7" surf="Default" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.409 0.440 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
@@ -71,7 +96,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="141.198 49.7861 314.564" dir="-0.05186223 -0.15565093 -0.9864497"/>
+    <cam pos="141.198 49.7859 314.563" dir="-0.0518623 -0.155651 -0.98645"/>
     <objects>
         <o name="big_tire" pos="50.3658 -79.7569 10.46" rot="0.718065 -0.695326 -0.0262076 -0.0147433"/>
         <o name="big_tire" pos="30.4881 -83.6803 10.3902" rot="0.707245 -0.706968 1.93687e-06 -2.41286e-05"/>

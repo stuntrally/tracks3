@@ -2,8 +2,8 @@
     <mtr type="0" road="roadSpring" pipe="pipeAsphalt" road2="roadSpring2" road3="roadMoss2" road4="roadSandMagicCyan" wall="pipe_wall_spring" col="road_col_spring"/>
     <dim tcMul="0.118026" tcW="0.200628" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
-    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="112"/>
-    <stats length="3629.5852" width="8.63703" height="92.71413" onTer="13.648859" pipes="0" bnkAvg="5.873373" bnkMax="31.299232"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="113"/>
+    <stats length="3629.49" width="8.62255" height="92.7141" onTer="13.6492" pipes="0" bnkAvg="5.84179" bnkMax="31.2992"/>
     <txt desc="Short curvy track full of flowers in the middle of spring."/>
     <adv ice="Slow down before and over wooden bridges."/>
     <P pos="-8.05872 0 126.546" w="8.312" aT="2" col="0"/>
@@ -33,6 +33,7 @@
     <P pos="-63.411 0 13.8961" w="9.408" a="0" ar="0" aT="2" col="0"/>
     <P pos="-85.957 0 24.1642" w="13.88" aT="2" col="0" chkR="1.596"/>
     <P pos="-105.586 0 61.7558" w="10.264" aT="2" col="0"/>
+    <P pos="-115.652 0 104.097" w="8.312" aT="2" col="0" mtr="2"/>
     <P pos="-120.692 0 127.821" w="8.312" aT="2" col="0"/>
     <P pos="-129.073 0 153.738" w="8.312" aT="2" col="0" chkR="2.5"/>
     <P pos="-145.179 0 173.133" w="8.312" aT="2" col="0"/>
@@ -87,11 +88,11 @@
     <P pos="141.15 0 120.208" w="8.312" aT="2" col="0"/>
     <P pos="164.638 0 122.021" w="8.312" aT="2" col="0"/>
     <P pos="179.384 0 133.416" w="8.312" aT="2" col="0" chkR="1"/>
-    <P pos="178.751 0 161.904" w="8.312" aT="2" col="0"/>
-    <P pos="155.789 0 194.893" w="8.312" aT="2" col="0" chkR="2.256"/>
-    <P pos="120.731 0 207.6" w="8.312" aT="2" col="0"/>
-    <P pos="91.9484 0 199.13" w="8.312" aT="2" col="0"/>
-    <P pos="74.8815 0 167.305" w="8.312" aT="2" col="0" chkR="2.328"/>
+    <P pos="178.751 0 161.904" w="8.312" aT="2" col="0" mtr="2"/>
+    <P pos="155.789 0 194.893" w="8.312" aT="2" col="0" mtr="2" chkR="2.256"/>
+    <P pos="120.731 0 207.6" w="8.312" aT="2" col="0" mtr="2"/>
+    <P pos="91.9484 0 199.13" w="8.312" aT="2" col="0" mtr="2"/>
+    <P pos="74.8815 0 167.305" w="8.312" aT="2" col="0" mtr="2" chkR="2.328"/>
     <P pos="84.029 0 121.364" w="8.312" aT="2" col="0"/>
     <P pos="104.691 0 93.6886" w="8.312" aT="2" col="0"/>
     <P pos="136.088 0 81.3193" w="8.312" aT="2" col="0"/>
