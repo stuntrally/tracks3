@@ -1,14 +1,14 @@
 <scene>
-    <ver num="3101" baseTrk="" secEd="3884"/>
+    <ver num="3201" baseTrk="" secEd="4087"/>
     <car tires="0"/>
     <start pos="103.491 -197.938 6.13762" rot="-0.01358 0.049373 0.486004 1.7674" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.55579" gr="4"/>
     <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Forest"/>
     <sky material="sky/overcast_01_grey" rainName="RainFast" rainEmit="1109" rain2Name="RainFastA" rain2Emit="2090" skyYaw="119.318"/>
-    <fog color="0.167 0.079 0.760 0.800 0.000" color2="0.583 0.068 0.590 0.800 0.000" linStart="45" linEnd="518.233"/>
+    <fog color="0.171 0.025 0.760 1.000 0.000" color2="0.583 0.068 0.194 1.000 0.000" linStart="45" linEnd="518.233"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="25" yaw="-3" ambient="0.597 0.200 0.397 0.000 0.000" diffuse="0.616 0.486 0.683 0.000 0.000" specular="0.504 0.132 0.968 1.000 0.000"/>
+    <light pitch="25" yaw="-3" ambient="0.597 0.200 0.397 0.000 0.000" diffuse="0.589 0.486 0.756 0.800 0.000" specular="0.504 0.132 0.968 1.000 0.000"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="0.104229 3.33022 -0.0285969" rot="0 0 0" size="16000 40 16000" tile="0.01 0.01"/>
         <fluid hq="2" name="water green med" pos="53.3572 8.75545 -88.9491" rot="0 0 0" size="120.153 20 63.8149" tile="0.01 0.01"/>
@@ -148,4 +148,5 @@
         <o name="plastic_big_hvy" pos="-108.686 -245.39 12.4041" rot="0.718028 -0.69352 0.0264902 0.0525666"/>
     </objects>
     <emitters/>
+    <collectible/>
 </scene>
