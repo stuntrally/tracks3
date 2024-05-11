@@ -9,7 +9,7 @@
     <light pitch="8" yaw="-38" ambient="0.000 0.000 0.600 1.000 0.000" diffuse="0.000 0.000 0.800 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
     <fluids/>
     <terrains>
-        <terrain ofsZ="32" triangle="32" diff="1 1 1">
+        <terrain ofsZ="64" triangle="64" diff="1 1 1">
             <texture on="1" file="island_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="14.1" surf="PerfTest" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.167 0.200 0.500 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

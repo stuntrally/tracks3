@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3101" baseTrk="Grc8-SlopeCity" secEd="2972"/>
+    <ver num="3201" baseTrk="Grc8-SlopeCity" secEd="3840"/>
     <car tires="0"/>
     <start pos="-98.6548 219.164 -0.982909" rot="0.026969 0.006472 -0.972026 0.233258" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1.86022" wtr="0" yW="-0.8" tr="0.845213" gr="4"/>
     <ror2 rtx="0" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="12" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Savanna"/>
     <sky material="sky/day_clouds_02_blue" skyYaw="-63.4091"/>
-    <fog color="0.512 0.585 0.997 0.900 0.000" color2="0.522 0.626 1.000 1.000 0.000" linStart="275.174" linEnd="876.357"/>
+    <fog color="0.512 0.364 0.997 0.900 0.000" color2="0.522 0.370 0.603 0.669 0.000" linStart="275.174" linEnd="876.357"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
     <light pitch="36.225" yaw="0.681824" ambient="0.000 0.000 0.600 1.000 0.000" diffuse="0.000 0.000 0.800 0.000 0.000" specular="0.000 0.000 0.700 1.000 0.000"/>
     <fluids>
@@ -96,7 +96,30 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="370.319 66.825 -504.267" dir="-0.583916 -0.234692 0.77715"/>
+    <cam pos="370.319 66.825 -504.267" dir="-0.58391595 -0.23469199 0.7771498"/>
     <objects/>
     <emitters/>
+    <collectible>
+        <c n="gem1g" gr="0" pos="-370.68552 134.66074 642.0802" sc="1"/>
+        <c n="gem1g" gr="0" pos="-402.61636 124.2586 517.85815" sc="1"/>
+        <c n="gem1g" gr="0" pos="-619.8024 96.88294 184.6167" sc="1"/>
+        <c n="gem1g" gr="0" pos="-606.3817 77.27575 44.22604" sc="1"/>
+        <c n="gem1g" gr="0" pos="-583.0668 110.29976 646.26434" sc="1"/>
+        <c n="gem1g" gr="0" pos="-295.3757 111.80818 514.19946" sc="1"/>
+        <c n="gem1g" gr="0" pos="-340.19238 80.55148 275.77634" sc="1"/>
+        <c n="gem1g" gr="1" pos="440.11523 36.948853 210.16963" sc="1"/>
+        <c n="gem1c" gr="0" pos="212.65164 21.075436 -621.55316" sc="1"/>
+        <c n="gem1c" gr="0" pos="-160.69241 88.701225 639.89606" sc="1"/>
+        <c n="gem1c" gr="0" pos="-148.80797 73.51553 446.7447" sc="1"/>
+        <c n="gem1g" gr="0" pos="-183.72534 27.346823 217.06604" sc="1"/>
+        <c n="gem1g" gr="0" pos="-376.0302 88.45524 376.55447" sc="1"/>
+        <c n="gem1c" gr="0" pos="-248.72801 -1.0973287 -469.47382" sc="1"/>
+        <c n="gem1c" gr="0" pos="-445.23074 -2.5797734 -481.53473" sc="1"/>
+        <c n="gem1c" gr="0" pos="-391.60535 -22.885992 -364.6416" sc="1"/>
+        <c n="gem1c" gr="0" pos="-305.50876 -0.6738644 -200.47717" sc="1"/>
+        <c n="gem1c" gr="0" pos="-170.33443 -5.825099 -309.8753" sc="1"/>
+        <c n="gem1c" gr="0" pos="-645.15704 23.743595 -389.3045" sc="1"/>
+        <c n="gem1c" gr="0" pos="308.93765 14.504866 -580.61194" sc="1"/>
+        <c n="gem1g" gr="0" pos="-578.8316 85.99583 446.12473" sc="1"/>
+    </collectible>
 </scene>
