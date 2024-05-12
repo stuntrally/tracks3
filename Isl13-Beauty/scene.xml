@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3101" baseTrk="" secEd="4607"/>
+    <ver num="3101" baseTrk="" secEd="5825"/>
     <car tires="0"/>
     <start pos="101.46 -158.127 6.97301" rot="-3.55271e-15 3.55271e-15 0.589176 0.80801" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.689971" gr="4"/>
@@ -143,4 +143,5 @@
         <o name="wood_block" pos="257.24 -313.992 20.0051" rot="0.61002 0.790278 0.0257564 0.0517095"/>
     </objects>
     <emitters/>
+    <collectible/>
 </scene>
