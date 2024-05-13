@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="7793"/>
+    <ver num="3201" baseTrk="" secEd="9167"/>
     <car tires="0"/>
     <start pos="-37.5183 1.50516 0.599977" rot="-6.21725e-15 7.99361e-15 -0.653396 -0.757031" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Australia"/>
     <sky material="sky/day_clouds_04_blue" skyYaw="-126.818184"/>
     <fog color="0.591 0.329 0.997 1.000 0.000" color2="0.589 0.461 0.292 1.000 0.000" linStart="299.785" linEnd="2000"/>
@@ -68,7 +70,7 @@
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-75.02721 46.77961 143.73232" dir="0.48255938 -0.2839634 -0.8285537"/>
+    <cam pos="-47.743874 51.818443 119.27939" dir="0.22779277 -0.28396216 -0.9313839"/>
     <objects>
         <o name="big_tire" pos="-14.4833555 -4.3569145 0.3366962" rot="6.5007625e-05 0.9999967 1.8993851e-05 -0.0025489654"/>
         <o name="fuel_can" pos="-19.258278 -3.7141528 0.48760074" rot="0.13212709 0.99119437 -0.008700663 -0.0006855824"/>
@@ -76,12 +78,9 @@
         <o name="fuel_can" pos="-16.95027 -4.178384 0.48315632" rot="-0.018773427 0.99982136 0.00050184 -0.002124906"/>
         <o name="cave_Y04" pos="39.236683 54.56861 26.585629" rot="0 -1 0 0"/>
         <o name="garbage_bin" mat="garbage_bin_green" pos="-21.542364 17.310596 1.0396411" rot="0.0011090084 0.9992225 0.02965954 -0.025951065"/>
-        <o name="obstacle6" mat="obstaclesCrystal" pos="-18.82201 7.4524746 -1.0463278" rot="0 -1 0 0"/>
+        <o name="obstacle6" mat="obstaclesCrystal" pos="-24.58464 1.4169356 -1.0463278" rot="0 -1 0 0"/>
         <o name="obstacle7" mat="obstaclesCrystal" pos="-25.134775 4.964039 2.2495425" rot="0 -1 0 0"/>
         <o name="obstacle3" mat="obstaclesCrystal" pos="-26.35405 -2.2406597 2.3009603" rot="0 -1 0 0"/>
-        <o name="obstacle6" mat="obstaclesWhite" pos="-43.43473 14.141382 1.8648527" rot="0.7140846 -0.7000591 0 0"/>
-        <o name="obstacle7" mat="obstaclesWhite" pos="-40.743248 16.642561 4.656342" rot="0.7140846 -0.7000591 0 0"/>
-        <o name="obstacle8" mat="obstaclesWhite" pos="-37.576374 20.864931 1.6500461" rot="0.057292525 -0.99835736 0 0"/>
         <o name="barrel_oil" mat="barrel_oil_green" pos="-25.824854 14.669343 0.77769816" rot="-0.10035862 0.9940162 0.021083836 -0.03762397"/>
         <o name="barrel_oil_heavy" mat="barrel_oil_green" pos="-25.293627 10.814867 0.67057174" rot="0.0008614697 0.9994982 0.0014381143 -0.031632572"/>
         <o name="barrel_oil" mat="barrel_oil_red" pos="-24.923536 14.205633 0.69739807" rot="-0.010526257 0.9995773 0.015535762 -0.022206688"/>
@@ -93,4 +92,6 @@
         <e name="Waterfall1HighTall" pos="64.295845 48.886627 -64.501755" sc="22.648336 6.225763 10.022166" up="0 1 0" rot="0" rate="122.80866" st="0" psc="1"/>
         <e name="WaterfallLow" pos="60.435905 3.9624262 -38.846912" sc="43.47105 5.6887794 16.822716" up="0 1 0" rot="0" rate="126.44084" st="0" psc="1"/>
     </emitters>
+    <collectible/>
+    <fields/>
 </scene>
