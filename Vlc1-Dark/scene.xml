@@ -1,7 +1,9 @@
 <scene>
-    <ver num="3018" baseTrk="Uni6-Wild" secEd="4403"/>
+    <ver num="3201" baseTrk="Uni6-Wild" secEd="4702"/>
     <car tires="0" needLights="1"/>
     <start pos="179.332 -40.8464 0.650158" rot="0.019095 0.003621 0.745096 -0.666697" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Islands"/>
     <sky material="sky/dusk_stormy_02_dark" skyYaw="-10.22728"/>
     <fog color="0.128 0.488 0.169 1.000 0.089" color2="0.163 0.289 0.035 1.000 0.000" linStart="51.7902" linEnd="427.015"/>
@@ -106,4 +108,19 @@
     <emitters>
         <e name="FireOrangeTiny" pos="273.56 42.0026 68.4305" sc="0.0091589 0.00888229 0.00907824" up="0 1 0" rot="0" rate="14.9281" st="0" psc="1"/>
     </emitters>
+    <collectible>
+        <c n="gem1o" gr="0" pos="-162.09401 30.692131 -240.26422" sc="1"/>
+        <c n="gem1y" gr="0" pos="-73.64514 19.799389 -121.03482" sc="1"/>
+        <c n="gem1y" gr="0" pos="-134.98357 11.617719 129.90831" sc="1"/>
+        <c n="gem1y" gr="0" pos="39.011818 2.5845542 39.12447" sc="1"/>
+        <c n="gem1o" gr="0" pos="255.08884 18.291376 72.77853" sc="1"/>
+        <c n="gem1o" gr="0" pos="208.36958 34.70489 -59.488716" sc="1"/>
+        <c n="gem1y" gr="0" pos="229.7166 8.94541 22.09336" sc="1"/>
+        <c n="gem1o" gr="0" pos="-63.350937 27.963053 -262.71893" sc="1"/>
+        <c n="gem1y" gr="0" pos="-97.34271 14.956531 -211.51227" sc="1"/>
+        <c n="gem1y" gr="0" pos="-146.56721 7.410869 224.34326" sc="1"/>
+        <c n="gem1y" gr="0" pos="83.65877 7.5336733 144.29863" sc="1"/>
+        <c n="gem1y" gr="0" pos="-31.699795 0.71797854 67.38759" sc="1"/>
+    </collectible>
+    <fields/>
 </scene>
