@@ -3,9 +3,9 @@
     <dim tcMul="0.0663515" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 16.7841" iDir="-1" iChk1="49"/>
-    <stats length="2554.1" width="8.93997" height="22.5163" onTer="0" pipes="0" bnkAvg="35.4235" bnkMax="71.5345"/>
+    <stats length="2554.104" width="8.939975" height="22.516293" onTer="0" pipes="0" bnkAvg="35.423504" bnkMax="71.534454"/>
     <txt desc="Track in orange autumn forest in rain."/>
-    <adv ice="Highly banked and tricky."/>
+    <adv ice="Banked U-turns and a tricky 270 degree on slope side."/>
     <P pos="2.4197 0 110.893" w="10.792" aT="2"/>
     <P pos="-0.392543 0 154.986" w="10.208" aT="2" chkR="2.724"/>
     <P pos="-14.97 0 191.447" w="9.544" aT="2" mtr="2"/>
