@@ -1,12 +1,15 @@
 <scene>
-    <ver num="3018" baseTrk="Isl10-Treasure" secEd="16503"/>
+    <ver num="3201" baseTrk="Isl10-Treasure" secEd="16569"/>
     <car tires="0"/>
     <start pos="-101.894 -110.865 102.925" rot="0.011509 -0.0483 0.55186 0.832472" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Canyon"/>
     <sky material="sky/day_clouds_06" skyYaw="46.7234"/>
     <fog color="0.522 0.436 0.383 1.000 0.000" color2="0.527 0.481 0.255 1.000 0.000" linStart="210.347" linEnd="1753.95"/>
     <fogH color="0.225 0.286 0.700 0.700 0.000" height="-7.2569" dens="83.8033" linStart="0" linEnd="33.9696"/>
     <light pitch="39.0638" yaw="0" ambient="0.083 0.037 0.540 1.000 0.000" diffuse="0.400 0.063 0.790 1.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
+    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="2.54577 -12.7504 54.3134" rot="0 0 0" size="8265.25 94.4256 7616.47" tile="0.01 0.01"/>
     </fluids>
@@ -87,36 +90,42 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.15" densTrees="1.58479" grPage="100" grDist="100" grDensSmooth="8" trPage="160" trDist="120" trDistImp="1200" trRdDist="0">
-        <grass on="1" mtr="grass16g" dens="0.156817" chan="0" minSx="1.8719" maxSx="2.20346" minSy="2.97426" maxSy="3.53845" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass3y" dens="0.278008" chan="0" minSx="1.44314" maxSx="1.68326" minSy="1.47402" maxSy="1.85431" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass4v" dens="0.0171781" chan="0" minSx="2.34008" maxSx="2.81922" minSy="2.50147" maxSy="2.99676" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grass5" dens="0.1" chan="0" minSx="1.30854" maxSx="1.63366" minSy="1.55274" maxSy="1.88957" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass17" dens="0.187639" chan="0" minSx="1.50525" maxSx="1.65011" minSy="2.26148" maxSy="2.52204" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass12y-" dens="0.259849" chan="0" minSx="1.83681" maxSx="1.99746" minSy="1.251" maxSy="1.76769" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+    <veget densGrass="0.15" densTrees="1.58479" grDensSmooth="8" trRdDist="0">
+        <grass on="1" mtr="grass16g" dens="0.156817" chan="0" minSx="1.8719" maxSx="2.20346" minSy="2.97426" maxSy="3.53845"/>
+        <grass on="1" mtr="grass3y" dens="0.278008" chan="0" minSx="1.44314" maxSx="1.68326" minSy="1.47402" maxSy="1.85431"/>
+        <grass on="1" mtr="grass4v" dens="0.0171781" chan="0" minSx="2.34008" maxSx="2.81922" minSy="2.50147" maxSy="2.99676"/>
+        <grass on="1" mtr="grass5" dens="0.1" chan="0" minSx="1.30854" maxSx="1.63366" minSy="1.55274" maxSy="1.88957"/>
+        <grass on="0" mtr="grass17" dens="0.187639" chan="0" minSx="1.50525" maxSx="1.65011" minSy="2.26148" maxSy="2.52204"/>
+        <grass on="0" mtr="grass12y-" dens="0.259849" chan="0" minSx="1.83681" maxSx="1.99746" minSy="1.251" maxSy="1.76769"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
         <gchan amin="0" amax="10" asm="7" hmin="0.851063" hmax="105" hsm="14.0403" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="37" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="49" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="palm2.mesh" dens="0.157095" minScale="0.942024" maxScale="2.11716" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.196233" windFy="0.0378421" maxTerAng="30.625" minTerH="-87.5" maxTerH="39.2661" maxDepth="0"/>
-        <layer on="1" name="farn1.mesh" dens="0.082275" minScale="0.259189" maxScale="0.400656" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.29999" windFy="0.0599931" maxTerAng="33.2103" minTerH="-88.5" maxTerH="84.0367" maxDepth="1"/>
-        <layer on="0" name="treeGC-32draUp.mesh" dens="0.053016" minScale="1.03695" maxScale="1.4959" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.0188414" windFy="0.0049742" maxTerAng="25.5579" minTerH="-87.5" maxTerH="55" maxDepth="0"/>
-        <layer on="1" name="treeD-22desMed.mesh" dens="0.0773504" minScale="0.896815" maxScale="1.33041" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.325423" windFy="0.0397936" maxTerAng="28.187" minTerH="-87.5" maxTerH="49.9083" maxDepth="0"/>
-        <layer on="1" name="treeGW-41aspMid.mesh" dens="0.0773504" minScale="1.15113" maxScale="1.67458" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.42713" windFy="0.0100622" maxTerAng="31.553" minTerH="-87.5" maxTerH="38.5321" maxDepth="0"/>
-        <layer on="1" name="rock_n2-GYel.mesh" dens="0.0657122" minScale="0.637702" maxScale="0.97691" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="29.4845" minTerH="-40" maxTerH="82.2018" maxDepth="1"/>
-        <layer on="0" name="gum_tree.mesh" dens="0.0918052" minScale="0.339999" maxScale="1.14" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.799976" windFy="0.013987" maxTerAng="20.0074" minTerH="-0.5" maxTerH="62" maxDepth="0"/>
-        <layer on="0" name="tree.07.mesh" dens="0.0999996" minScale="0.849972" maxScale="1.15" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.699996" windFy="0.00999052" maxTerAng="17.4866" minTerH="-0.5" maxTerH="62" maxDepth="0"/>
-        <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="30" minTerH="-0.5" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="30" minTerH="-0.5" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="palm_date.mesh" dens="0.157095" minScale="0.86977273" maxScale="1.235663" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="30.03" minTerH="-87.5" maxTerH="39.2661" maxDepth="0"/>
+        <layer on="1" name="farn1.mesh" dens="0.082275" minScale="0.259189" maxScale="0.400656" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="33.2103" minTerH="-88.5" maxTerH="84.0367" maxDepth="1"/>
+        <layer on="0" name="treeGC-32draUp.mesh" dens="0.053016" minScale="1.03695" maxScale="1.4959" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="25.5579" minTerH="-87.5" maxTerH="55" maxDepth="0"/>
+        <layer on="1" name="treeD-22desMed.mesh" dens="0.0773504" minScale="0.896815" maxScale="1.33041" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="28.187" minTerH="-87.5" maxTerH="49.9083" maxDepth="0"/>
+        <layer on="1" name="treeGW-41aspMid.mesh" dens="0.0773504" minScale="1.15113" maxScale="1.67458" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="31.553" minTerH="-87.5" maxTerH="38.5321" maxDepth="0"/>
+        <layer on="1" name="rock_n2-GYel.mesh" dens="0.0657122" minScale="0.637702" maxScale="0.97691" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="29.4845" minTerH="-40" maxTerH="82.2018" maxDepth="1"/>
+        <layer on="0" name="gum_tree.mesh" dens="0.0918052" minScale="0.339999" maxScale="1.14" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="20.0074" minTerH="-0.5" maxTerH="62" maxDepth="0"/>
+        <layer on="0" name="tree.07.mesh" dens="0.0999996" minScale="0.849972" maxScale="1.15" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="17.4866" minTerH="-0.5" maxTerH="62" maxDepth="0"/>
+        <layer on="0" name="" dens="0.0999996" minScale="0.0999983" maxScale="0.249999" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="30" minTerH="-0.5" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="30" minTerH="-0.5" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="bush14tall_spots.mesh" dens="0.051984" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="16.602407" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="bush04.mesh" dens="0.1" minScale="1.8" maxScale="2.4738808" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="32.728813" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="bush01.mesh" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
     </veget>
-    <cam pos="-320.979 162.547 287.175" dir="0.773206 -0.35326 -0.52665"/>
+    <cam pos="-320.979 162.547 287.175" dir="0.7732059 -0.35325998 -0.52664995"/>
     <objects>
         <o name="cave_06" mat="cave_brown" pos="-41.5955 -231.004 35.44" rot="0.723565 0.682704 0.0721439 0.071497"/>
         <o name="cave_08" mat="cave_brown" pos="-16.3505 -232.961 45.7004" rot="0.633135 -0.5875 0.356807 0.355748"/>
@@ -136,4 +145,6 @@
         <e name="Waterfall1High" pos="-78.3781 8.20797 -62.1479" sc="4.19508 29.0965 6.43397" up="0 1 0" rot="0" rate="76.5593" st="0" psc="1"/>
         <e name="Waterfall1HighTall" pos="-33.0553 49.4001 -62.8769" sc="4.44917 36.4176 2.45349" up="0 1 0" rot="0" rate="112.926" st="0" psc="1"/>
     </emitters>
+    <collectible/>
+    <fields/>
 </scene>
