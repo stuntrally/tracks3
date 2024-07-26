@@ -103,7 +103,6 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <layer on="1" name="gum_tree.mesh" dens="0.169328" minScale="0.339999" maxScale="1.14" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.985137" windFy="0.0271055" maxTerAng="18.225" minTerH="-1" maxTerH="500" maxDepth="0"/>
         <layer on="1" name="tree.07.mesh" dens="0.0711111" minScale="0.447879" maxScale="0.67379" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.699996" windFy="0.00999977" maxTerAng="7.09482" minTerH="-1" maxTerH="400" maxDepth="0"/>
-        <layer on="0" name="tree.09.mesh" dens="0.0126886" minScale="0.849996" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.599999" windFy="0.00999978" maxTerAng="14.4" minTerH="-1" maxTerH="1" maxDepth="0"/>
         <layer on="1" name="treeD-22desMed.mesh" dens="0.0281622" minScale="1.07413" maxScale="1.62451" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.271679" windFy="0.0115325" maxTerAng="25.7232" minTerH="-2" maxTerH="600" maxDepth="0"/>
         <layer on="1" name="treeGC-32draUp.mesh" dens="0.0372889" minScale="1.03695" maxScale="1.4959" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0.229809" windFy="0.0148893" maxTerAng="29.1621" minTerH="-2" maxTerH="460" maxDepth="0"/>
         <layer on="1" name="rock10red1round.mesh" dens="0.0466957" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="57.5337" minTerH="-33" maxTerH="350" maxDepth="1"/>
@@ -111,6 +110,7 @@
         <layer on="1" name="rock11red2.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="52.0344" minTerH="-100" maxTerH="330" maxDepth="1"/>
         <layer on="1" name="rock35red1edgy.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="61.2391" minTerH="-100" maxTerH="300" maxDepth="1"/>
         <layer on="0" name="rock40red3flat.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-100" maxTerH="300" maxDepth="1"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>

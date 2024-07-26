@@ -1,5 +1,5 @@
 <SplineRoad>
-    <mtr type="0" road="River_Water_anomaly_blue" pipe="pipeGlassAnomaly1Orange" road2="roadMossAnomaly2" pipe2="pipeGlassAnomaly3Cyan" road3="roadMetal2Anomaly" pipe3="River_Water_anomaly_blue" road4="wallP_mining_truck_anomaly" pipe4="roadAsphaltAnomalyStreaks" wall="wall_mining_truck_anomaly" pipeW="pipe_wall_metal_02_anomaly" col="wall_lava_anomaly"/>
+    <mtr type="0" road="River_anomaly_blue" pipe="pipeGlassAnomaly1Orange" road2="roadMossAnomaly2" pipe2="pipeGlassAnomaly3Cyan" road3="roadMetal2Anomaly" pipe3="River_anomaly_blue" road4="wallP_mining_truck_anomaly" pipe4="roadAsphaltAnomalyStreaks" wall="wall_mining_truck_anomaly" pipeW="pipe_wall_metal_02_anomaly" col="wall_lava_anomaly"/>
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.0503908" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="3" colR="3.54268" wsPm="4" lsPm="1" stBox="1 5 21.8241" iDir="-1" iChk1="23"/>
