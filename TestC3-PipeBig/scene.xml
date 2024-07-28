@@ -51,9 +51,9 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <layer on="1" name="tree.07.mesh" dens="0.125" minScale="0.849991" maxScale="1.15" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0.69999" windFy="0.0099982" maxTerAng="32.258" minTerH="-100" maxTerH="66" maxDepth="5"/>
         <layer on="1" name="tree.09.mesh" dens="0.125" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.6" windFy="0.00999998" maxTerAng="27.9242" minTerH="-100" maxTerH="63" maxDepth="5"/>
-        <layer on="0" name="farn1.mesh" dens="0.34" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="35.9003" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="farn2.mesh" dens="0.34" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="30.3952" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="jungle_tree.mesh" dens="0.0540211" minScale="1.60805" maxScale="2.05413" ofsY="0" addTrRdDist="6" maxRdist="100" windFx="0.402012" windFy="0.00249102" maxTerAng="29.259" minTerH="-100" maxTerH="22" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
