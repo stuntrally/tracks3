@@ -79,9 +79,9 @@
         <layer on="1" name="tree.07.mesh" dens="0.150937" minScale="2.44998" maxScale="3.14996" ofsY="0" addTrRdDist="12" maxRdist="100" windFx="0.299995" windFy="0.00399929" maxTerAng="16.7088" minTerH="-78" maxTerH="260" maxDepth="3.28909"/>
         <layer on="1" name="tree.07.mesh" dens="0.371119" minScale="0.849994" maxScale="1.14999" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.699989" windFy="0.00999894" maxTerAng="14.9696" minTerH="-75" maxTerH="270" maxDepth="3.21476"/>
         <layer on="1" name="tree.09.mesh" dens="0.362764" minScale="0.849994" maxScale="1.14999" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.599996" windFy="0.00999895" maxTerAng="20.474" minTerH="-75" maxTerH="280" maxDepth="2.34155"/>
-        <layer on="0" name="farn1.mesh" dens="0.589541" minScale="0.0999978" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.29998" windFy="0.0599988" maxTerAng="40.7729" minTerH="-60" maxTerH="310" maxDepth="5"/>
         <layer on="1" name="farn2.mesh" dens="0.524376" minScale="0.0999978" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="4" windFx="7.29998" windFy="0.0599988" maxTerAng="31.5746" minTerH="-50" maxTerH="310" maxDepth="5"/>
         <layer on="1" name="rock.mesh" dens="0.125332" minScale="0.74" maxScale="1.1" ofsY="0" addTrRdDist="1" maxRdist="4" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-58" maxTerH="310" maxDepth="2"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>

@@ -102,9 +102,9 @@
         <layer on="1" name="treeAYG-16birTallUp.mesh" dens="0.260344" minScale="1.14" maxScale="1.67" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.6" windFy="0.01" maxTerAng="29.6766" minTerH="-100" maxTerH="77" maxDepth="0"/>
         <layer on="1" name="rock19harshWhite.mesh" dens="0.102925" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="72" maxDepth="1"/>
         <layer on="1" name="treeAOG-17birTall.mesh" dens="0.422722" minScale="1.18" maxScale="1.64" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.6" windFy="0.01" maxTerAng="40.79" minTerH="-100" maxTerH="80.367" maxDepth="0"/>
-        <layer on="0" name="farn2.mesh" dens="0.34" minScale="0.1" maxScale="0.242156" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="36.9044" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="rock28grayWhite.mesh" dens="0.215448" minScale="0.979877" maxScale="1.86499" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="12.3855" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="treeAY-20mplWide.mesh" dens="0.204502" minScale="1.2" maxScale="1.42" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.7" windFy="0.01" maxTerAng="20.8912" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>

@@ -83,13 +83,13 @@
         <layer on="1" name="tree.07.mesh" dens="0.125" minScale="0.849994" maxScale="1.15" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0.699995" windFy="0.00999825" maxTerAng="9.60916" minTerH="-5" maxTerH="12" maxDepth="5"/>
         <layer on="1" name="tree.09.mesh" dens="0.125" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.6" windFy="0.00999998" maxTerAng="7.54155" minTerH="-3" maxTerH="12" maxDepth="5"/>
         <layer on="1" name="farn1.mesh" dens="0.34" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="1.50667" minTerH="-7" maxTerH="22" maxDepth="5"/>
-        <layer on="0" name="farn2.mesh" dens="0.34" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="7.3" windFy="0.06" maxTerAng="19.0876" minTerH="-7" maxTerH="22" maxDepth="5"/>
         <layer on="0" name="rock_n4r-W.mesh" dens="0.127695" minScale="1.66" maxScale="2.25" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="27.2935" minTerH="-10" maxTerH="24.0553" maxDepth="2"/>
         <layer on="1" name="rock_n5v-W.mesh" dens="0.0648959" minScale="1.05" maxScale="1.43" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="15.33" minTerH="-10" maxTerH="24.6083" maxDepth="2"/>
         <layer on="1" name="rock46grayWhite2.mesh" dens="0.164323" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="24.6083" maxDepth="1"/>
         <layer on="1" name="rock09tallHarshWh.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="24.6083" maxDepth="1"/>
         <layer on="1" name="rock20liGrayTall.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="24.6083" maxDepth="1"/>
         <layer on="0" name="rock_W01.mesh" dens="0.1" minScale="1.15" maxScale="2.23" ofsY="0" addTrRdDist="6" maxRdist="100" windFx="0" windFy="0" maxTerAng="35.19" minTerH="-100" maxTerH="24.6083" maxDepth="2"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
