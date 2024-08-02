@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.01" merge="1" mergeLen="800" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.16 11.208" iDir="1" iChk1="0"/>
-    <stats length="16056.281" width="7.958772" height="458.00153" onTer="63.595818" pipes="12.914408" bnkAvg="8.840585" bnkMax="69.86136"/>
+    <stats length="16056.273" width="7.958778" height="458.00153" onTer="63.59695" pipes="12.914413" bnkAvg="8.834503" bnkMax="69.86136"/>
     <txt desc="Landscape for mountain goats and jaguars. Panoramic mountain road, tunnels, lakes and even a mountain city."/>
     <adv ice="Winding roads on mountain ciffs. Few easy, short jumps. Many hairpin turns."/>
     <P pos="370.985 0 496.977" w="6.456" a="0" ar="0" aT="2" col="0" chkR="1.108"/>

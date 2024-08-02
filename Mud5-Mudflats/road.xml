@@ -3,7 +3,7 @@
     <dim tcMul="0.12" tcW="0.12" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 9.1 20.192" iDir="1" iChk1="173"/>
-    <stats length="5052.02" width="8.30356" height="49.2266" onTer="40.9216" pipes="9.93089" bnkAvg="8.56286" bnkMax="58.92"/>
+    <stats length="5052.016" width="8.303562" height="49.22661" onTer="40.9216" pipes="9.930886" bnkAvg="8.562864" bnkMax="58.91997"/>
     <txt desc="Track is mostly on islands, one contains a tiny village."/>
     <adv ice="Road with a lot of mud and very twisted bridge parts in it."/>
     <P pos="146.275 0 145.579" w="10.208" aT="2" chkR="1.832"/>
