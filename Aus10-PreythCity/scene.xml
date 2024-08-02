@@ -76,7 +76,7 @@
         <gchan amin="0" amax="18.4367" asm="7.32485" hmin="-0.140516" hmax="2.52927" hsm="1.95683" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="97" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="133" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="palm.mesh" dens="0.258111" minScale="1.01265" maxScale="2.91863" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.246539" windFy="0.022992" maxTerAng="25.5579" minTerH="5.5" maxTerH="25" maxDepth="1.42907"/>
+        <layer on="1" name="palm_coconut1.mesh" dens="0.258111" minScale="0.71265" maxScale="1.21863" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.246539" windFy="0.022992" maxTerAng="25.5579" minTerH="5.5" maxTerH="25" maxDepth="1.42907"/>
         <layer on="1" name="tree.07.mesh" dens="0.12371" minScale="0.491193" maxScale="0.953559" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0.699974" windFy="0.00999725" maxTerAng="22.107" minTerH="5.5" maxTerH="100" maxDepth="1.5551"/>
         <layer on="1" name="tree.09.mesh" dens="0.122098" minScale="0.586023" maxScale="1.30169" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="18.0125" minTerH="5.5" maxTerH="100" maxDepth="1.64209"/>
         <layer on="1" name="farn1.mesh" dens="0.299173" minScale="0.0623137" maxScale="0.289727" ofsY="0" addTrRdDist="1" maxRdist="8" windFx="7.29999" windFy="0.0599931" maxTerAng="31.0873" minTerH="5.5" maxTerH="100" maxDepth="2"/>

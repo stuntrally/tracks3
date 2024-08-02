@@ -77,15 +77,15 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="34" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="52" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="palm2.mesh" dens="0.0831671" minScale="1.72566" maxScale="2.09301" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="30.0341" minTerH="-10" maxTerH="10" maxDepth="5"/>
-        <layer on="1" name="palm.mesh" dens="0.0249996" minScale="1.38909" maxScale="2.15225" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="15.0691" minTerH="-10" maxTerH="10" maxDepth="5"/>
-        <layer on="1" name="tree.07.mesh" dens="0.0249996" minScale="0.628886" maxScale="0.821221" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="15.7209" minTerH="-10" maxTerH="10" maxDepth="5"/>
+        <layer on="1" name="palm_arabic.mesh" dens="0.0831671" minScale="0.9970161" maxScale="1.5774816" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="30.0341" minTerH="-10" maxTerH="10" maxDepth="5"/>
+        <layer on="1" name="palm_coconut1.mesh" dens="0.0249996" minScale="0.9970161" maxScale="1.5774816" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="15.0691" minTerH="-10" maxTerH="10" maxDepth="5"/>
+        <layer on="1" name="fern_bush.mesh" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="13.40564" maxTerH="43.470715" maxDepth="0"/>
         <layer on="1" name="rock13orange2.mesh" dens="0.0134539" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34.34" minTerH="-10" maxTerH="10" maxDepth="1"/>
         <layer on="1" name="rock12orange.mesh" dens="0.0115767" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34.34" minTerH="-10" maxTerH="10" maxDepth="1"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="treeD-34desTiny.mesh" dens="0.0646046" minScale="0.993711" maxScale="1.18624" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="36.4144" minTerH="26.6055" maxTerH="45.8716" maxDepth="0"/>
+        <layer on="0" name="treeD-22desMed.mesh" dens="0.0035087" minScale="1.30169" maxScale="1.57545" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="26.8356" minTerH="-22" maxTerH="14" maxDepth="0"/>
+        <layer on="1" name="treeGC-32draUp.mesh" dens="0.00689124" minScale="1.04925" maxScale="1.28749" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="29.0344" minTerH="-22" maxTerH="14" maxDepth="0"/>
+        <layer on="1" name="bush13tall_ylw.mesh" dens="0.0408248" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="22.255959" maxTerH="43.470715" maxDepth="0"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
