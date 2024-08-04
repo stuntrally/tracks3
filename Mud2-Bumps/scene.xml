@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3557"/>
+    <ver num="3201" baseTrk="" secEd="3627"/>
     <car tires="0"/>
     <start pos="93.5533 -71.9223 3.52376" rot="0.005176 -0.017637 -0.275356 -0.961188" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="2.2823737" gr="4"/>
@@ -85,12 +85,12 @@
         <layer on="1" name="rock15ironSpecks.mesh" dens="0.0149999" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock22jng1Harsh.mesh" dens="0.100995" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock25dark2Harsh2.mesh" dens="0.0999996" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="1" name="blueberry.mesh" dens="0.0999996" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="fern.mesh" dens="0.1" minScale="0.15" maxScale="0.25" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="43.908882" minTerH="-100" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="fern2.mesh" dens="0.1" minScale="0.18" maxScale="0.32" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="38.87997" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="blueberry.mesh" dens="0.0999996" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="27.753681" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="fern.mesh" dens="0.1" minScale="0.15" maxScale="0.25" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="35.370106" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="fern2.mesh" dens="0.1" minScale="0.18" maxScale="0.32" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="32.02625" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bushes2.mesh" dens="0.1" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="34.63959" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bush01.mesh" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="11" maxTerAng="37.35542" minTerH="-100" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="bush05.mesh" dens="0.1" minScale="1.6" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="bush05.mesh" dens="0.1" minScale="1.6" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40.96014" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="rock24triangle.mesh" dens="0.08448711" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="34" minTerH="-0.39045334" maxTerH="100" maxDepth="3.8590307"/>
         <layer on="0" name="rock25dark2Harsh2.mesh" dens="0.079900436" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="34" minTerH="4.815613" maxTerH="100" maxDepth="3.878111"/>
         <layer on="0" name="rock15ironSpecks.mesh" dens="0.11379377" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="27" minTerH="-1.4316711" maxTerH="65.596535" maxDepth="3.8590307"/>
