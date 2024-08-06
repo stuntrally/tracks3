@@ -57,14 +57,14 @@
         <layer on="1" name="gum_tree_black.mesh" dens="0.084658" minScale="0.388761" maxScale="0.531681" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.3" windFy="0.004" maxTerAng="20.48" minTerH="-0.1" maxTerH="40" maxDepth="0"/>
         <layer on="1" name="gum_tree.mesh" dens="0.335352" minScale="0.79633" maxScale="1.14878" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.3" windFy="0.004" maxTerAng="20.48" minTerH="-0.1" maxTerH="40" maxDepth="0"/>
         <layer on="0" name="jungle_tree.mesh" dens="0.0989547" minScale="1.65778" maxScale="2.21259" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.393863" windFy="0.00277818" maxTerAng="25.5579" minTerH="-100" maxTerH="21" maxDepth="0"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="-145.126 180.261 -102.545" dir="0.66333324 -0.4759589 0.57745326"/>
     <objects>

@@ -90,10 +90,10 @@
         <layer on="1" name="rock_W02.mesh" dens="0.034760125" minScale="1.11" maxScale="2.03" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="25.9403" minTerH="-100" maxTerH="100" maxDepth="2"/>
         <layer on="1" name="rock_n4r-W.mesh" dens="0.009224679" minScale="0.896815" maxScale="1.59169" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="16.888" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="rock_W03.mesh" dens="0.0040397877" minScale="0.788228" maxScale="1.50391" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="21.0718" minTerH="-100" maxTerH="100" maxDepth="2"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="220.96739 39.207695 270.54428" dir="-0.5665479 -0.09654884 -0.8183531"/>
     <objects>

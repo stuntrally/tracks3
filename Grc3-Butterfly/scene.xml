@@ -89,16 +89,16 @@
         <layer on="1" name="tropic_leaves.mesh" dens="0.0999996" minScale="1.21" maxScale="1.89" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="27.49" minTerH="-2.4728851" maxTerH="62" maxDepth="0.5"/>
         <layer on="1" name="bush01.mesh" dens="0.0999996" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="17" maxTerAng="40" minTerH="-2.4728851" maxTerH="64.29501" maxDepth="0.5"/>
         <layer on="1" name="bush_grass2.mesh" dens="0.1" minScale="1.4" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="9" maxTerAng="40" minTerH="-2.4728851" maxTerH="100" maxDepth="0.5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0" name="bush14tall_spots.mesh" dens="0.051984" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="16.602407" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="bush04.mesh" dens="0.1" minScale="1.8" maxScale="2.4738808" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="32.728813" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="bush01.mesh" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="0"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="-229.89943 64.35219 -13.119279" dir="0.97585803 -0.2166545 -0.027602553"/>
     <objects>

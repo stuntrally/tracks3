@@ -90,13 +90,13 @@
         <layer on="1" name="blueberry.mesh" dens="0.32414043" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="0" maxRdist="13" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bush04.mesh" dens="0.2316818" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="9" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bush05.mesh" dens="0.309136" minScale="1.6" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="10" maxTerAng="40" minTerH="2.4728813" maxTerH="100" maxDepth="0"/>
-        <layer on="0" name="" dens="0.1" minScale="1.6" maxScale="2.3" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="37.60739" minTerH="-100" maxTerH="20.043385" maxDepth="0"/>
-        <layer on="0" name="" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="32.02625" minTerH="-1.4316711" maxTerH="65.596535" maxDepth="0"/>
-        <layer on="0" name="" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="40.173725" minTerH="-2.4728851" maxTerH="100" maxDepth="1"/>
-        <layer on="0" name="" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="0" name="" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="9" maxRdist="20" maxTerAng="28.407969" minTerH="-0.65075684" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="-91.8508 49.3664 164.239" dir="0.31779498 -0.25082603 -0.914381"/>
     <objects>

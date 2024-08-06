@@ -88,10 +88,10 @@
         <layer on="1" name="rock02snow.mesh" dens="0.080218" minScale="0.650678" maxScale="1.11624" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="16.70884" minTerH="-100" maxTerH="12.165898" maxDepth="1"/>
         <layer on="1" name="rock18snow.mesh" dens="0.106243" minScale="0.617316" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="17.068157" minTerH="-100" maxTerH="14.101382" maxDepth="1"/>
         <layer on="1" name="rock16snow.mesh" dens="0.0735421" minScale="0.617316" maxScale="1.10815" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="17.983181" minTerH="-100" maxTerH="15.207375" maxDepth="1"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="582.179 184.311 551.385" dir="-0.696191 -0.191305 -0.691896"/>
     <objects>

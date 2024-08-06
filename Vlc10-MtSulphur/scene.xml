@@ -112,12 +112,12 @@
         <layer on="1" name="rock21triEdgeSpeck.mesh" dens="0.0368987" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="19" windFx="0" windFy="0" maxTerAng="26.6126" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock22jng1Harsh.mesh" dens="0.0758582" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="19" windFx="0" windFy="0" maxTerAng="30.3434" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock15ironSpecks.mesh" dens="0.0814022" minScale="0.973256" maxScale="1.71626" ofsY="0" addTrRdDist="4" maxRdist="19" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="-335.819 40.1872 337.493" dir="0.99514973 -0.09761377 -0.012193739"/>
     <objects>

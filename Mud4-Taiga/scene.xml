@@ -67,10 +67,10 @@
         <layer on="1" name="rock23dark1block.mesh" dens="0.0436975" minScale="0.871343" maxScale="1.71626" ofsY="0" addTrRdDist="2" maxRdist="10" windFx="0" windFy="0" maxTerAng="23.3371" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock24triangle.mesh" dens="0.0347601" minScale="0.782502" maxScale="1.54849" ofsY="0" addTrRdDist="1" maxRdist="10" windFx="0" windFy="0" maxTerAng="22.0872" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock25dark2Harsh2.mesh" dens="0.0504345" minScale="1.26999" maxScale="2.99635" ofsY="0" addTrRdDist="3" maxRdist="20" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-100" maxTerH="120" maxDepth="1"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="1716.94 234.626 -552.982" dir="-0.850129 -0.201739 0.486397"/>
     <objects>

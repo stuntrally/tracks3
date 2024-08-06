@@ -117,13 +117,13 @@
         <layer on="1" name="rock.mesh" dens="0.0510346" minScale="0.339134" maxScale="1.73053" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.599999" windFy="0.00999945" maxTerAng="33.2361" minTerH="1" maxTerH="46.6154" maxDepth="5"/>
         <layer on="1" name="treeARk-12oakSm.mesh" dens="0.147385" minScale="1.12507" maxScale="1.44948" ofsY="0" addTrRdDist="2" maxRdist="6" windFx="0.699996" windFy="0.00999974" maxTerAng="46.0598" minTerH="-10" maxTerH="41.5385" maxDepth="0.0805473"/>
         <layer on="0" name="fern2.mesh" dens="0.0481347" minScale="0.162712" maxScale="0.32199" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0.699996" windFy="0.00999974" maxTerAng="12.3531" minTerH="-100" maxTerH="10" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="-211.167 97.5093 -185.356" dir="0.9767231 -0.11076701 0.18369198"/>
     <objects>

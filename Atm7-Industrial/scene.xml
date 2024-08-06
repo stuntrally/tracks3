@@ -82,12 +82,12 @@
         <layer on="1" name="treeARk-12oakSm.mesh" dens="0.101097" minScale="1.12507" maxScale="1.44948" ofsY="0" addTrRdDist="0" maxRdist="6" windFx="0.699996" windFy="0.00999974" maxTerAng="19.8708" minTerH="-10" maxTerH="69.4054" maxDepth="5"/>
         <layer on="1" name="fern2.mesh" dens="0.193484" minScale="0.235088" maxScale="0.414027" ofsY="0" addTrRdDist="0" maxRdist="5" windFx="0.699996" windFy="0.00999974" maxTerAng="20.1333" minTerH="-100" maxTerH="69.4054" maxDepth="5"/>
         <layer on="1" name="treeGW-41aspMid.mesh" dens="0.111069" minScale="1.15" maxScale="1.67" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0.43" windFy="0.01" maxTerAng="11.93" minTerH="-100" maxTerH="69.4054" maxDepth="0"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="136.688 130.799 -74.4337" dir="-0.76695615 -0.19053805 0.612759"/>
     <objects>

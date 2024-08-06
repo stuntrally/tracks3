@@ -116,10 +116,10 @@
         <layer on="1" name="crystal_form3.mesh" dens="0.661879" minScale="1.34232" maxScale="1.94772" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="82.6894" minTerH="-42.3041" maxTerH="-5.7" maxDepth="0"/>
         <layer on="1" name="crystal_form1.mesh" dens="0.554057" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="80.7136" minTerH="-32.0737" maxTerH="-3.1" maxDepth="0"/>
         <layer on="1" name="pine1_full.mesh" dens="0.312841" minScale="0.72" maxScale="1.25" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.12" windFy="0.033" maxTerAng="32.49" minTerH="3.04147" maxTerH="25.1613" maxDepth="0"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" windFx="0" windFy="0" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="33.9433 464.329 5.23696" dir="-0.0350556 -0.999385 -0.000188112"/>
     <objects>
