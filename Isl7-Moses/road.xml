@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 4.76 14.4364" iDir="-1" iChk1="13"/>
-    <stats length="1480.71" width="6.53999" height="23.7032" onTer="5.24116" pipes="0" bnkAvg="7.42556" bnkMax="15.4686"/>
+    <stats length="1480.7098" width="6.5399866" height="23.703175" onTer="5.241158" pipes="0" bnkAvg="7.4255567" bnkMax="15.468588"/>
     <txt desc="Track around small, hilly, rocky island."/>
     <adv ice="Rather bumpy and with sudden, sharp turns."/>
     <P pos="-43.9473 0 -96.9178" w="11.192" aT="2"/>

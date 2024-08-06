@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="W13-MtFog" secEd="6220"/>
+    <ver num="3201" baseTrk="W13-MtFog" secEd="6306"/>
     <car tires="0" damage="0.8"/>
     <start pos="-609.446 -310.427 20.9396" rot="0.005154 -0.005185 0.697392 0.71667" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -90,9 +90,9 @@
         <layer on="1" name="bush_grass1.mesh" dens="0.109340444" minScale="1.4" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="22.990719" minTerH="-8.199566" maxTerH="29.674622" maxDepth="0.5"/>
         <layer on="1" name="bush04.mesh" dens="0.030508447" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="28.189024" minTerH="-8.199566" maxTerH="29.674622" maxDepth="0.5"/>
         <layer on="1" name="bush13tall_ylw.mesh" dens="0.023103999" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="18" maxTerAng="19.758236" minTerH="-8.199566" maxTerH="29.674622" maxDepth="0.5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="29.674622" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="palm_fan.mesh" dens="0.0196" minScale="0.81873447" maxScale="1.1710197" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-10.542301" maxTerH="29.674622" maxDepth="0"/>
+        <layer on="1" name="palm_coco3b.mesh" dens="0.02151111" minScale="0.7967068" maxScale="1.1780883" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-10.542301" maxTerH="29.674622" maxDepth="0"/>
+        <layer on="0"/>
         <layer on="0" name="bush01.mesh" dens="0.1364071" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-0.39045334" maxTerH="100" maxDepth="0.5"/>
         <layer on="0" name="rock25dark2Harsh2.mesh" dens="0.079900436" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="41.48865" minTerH="4.815613" maxTerH="10.672452" maxDepth="1"/>
         <layer on="0" name="rock22jng1Harsh.mesh" dens="0.11379377" minScale="0.6392334" maxScale="1.3408784" ofsY="0" addTrRdDist="9" maxRdist="20" maxTerAng="39.394928" minTerH="5.07592" maxTerH="65.596535" maxDepth="0.9791032"/>

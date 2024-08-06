@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="AdapterIslands2" secEd="131994"/>
+    <ver num="3201" baseTrk="AdapterIslands2" secEd="132179"/>
     <car tires="0" damage="0.346734" road1mtr="0"/>
     <start pos="457.134 58.0296 8.1627" rot="0.0193305 -0.00335088 0.997679 0.0657176" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -87,7 +87,7 @@
         <layer on="0" name="tropic_leaves.mesh" dens="0.169744" minScale="1.3408784" maxScale="1.89" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="27.49" minTerH="2.993496" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bushes2.mesh" dens="0.1995111" minScale="1.4764645" maxScale="2.099628" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="4.034706" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="bush_grass1.mesh" dens="0.12296712" minScale="1.4" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="8" maxTerAng="28.189024" minTerH="2.993496" maxTerH="20.56399" maxDepth="0"/>
-        <layer on="0" name="bush01.mesh" dens="0.12578845" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="28.189024" minTerH="4.034706" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="palm_coco3b.mesh" dens="0.12578845" minScale="0.9" maxScale="1.3" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="26.84" minTerH="5.8568344" maxTerH="40.86768" maxDepth="0"/>
         <layer on="0" name="bush05.mesh" dens="0.126736" minScale="1.6" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="32.49378" minTerH="4.034706" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="bush12flower_red2.mesh" dens="0.046656" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="10" maxTerAng="23.988028" minTerH="4.034706" maxTerH="33.839478" maxDepth="0"/>
         <layer on="0" name="bush15palm.mesh" dens="0.156816" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="25.627775" minTerH="4.034706" maxTerH="100" maxDepth="0"/>

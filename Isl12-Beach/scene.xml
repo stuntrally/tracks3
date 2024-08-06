@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="2205"/>
+    <ver num="3201" baseTrk="" secEd="2333"/>
     <car tires="0"/>
     <start pos="119.571 -76.8704 5.29286" rot="0.00755726 0.0145231 0.882293 0.470437" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.1970243" gr="4"/>
@@ -93,14 +93,14 @@
         <layer on="1" name="bushes1.mesh" dens="0.1" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="6.1171417" maxTerH="100" maxDepth="0.5"/>
         <layer on="1" name="palm_plant.mesh" dens="0.126736" minScale="1.68" maxScale="2.21" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.07" minTerH="6.1171417" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="rock_Y03.mesh" dens="0.049580444" minScale="0.84" maxScale="1.87" ofsY="0" addTrRdDist="13" maxRdist="100" maxTerAng="30.872242" minTerH="4.2950134" maxTerH="100" maxDepth="2"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="palm_coco3a.mesh" dens="0.1" minScale="0.80217624" maxScale="1.1292018" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="26.84" minTerH="5.5965347" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
-    <cam pos="213.15 58.9495 -135.495" dir="-0.881316 -0.093196586 0.4632455"/>
+    <cam pos="213.15 58.9495 -135.495" dir="-0.8813161 -0.093196586 0.4632455"/>
     <objects>
         <o name="plastic_big" pos="-82.18 -82.8384 4.40465" rot="-0.0185026 0.999742 -0.0113679 -0.00672184"/>
         <o name="plastic_big" pos="-77.4068 -91.0946 4.38007" rot="0.0173255 0.999825 -0.00660519 -0.00236633"/>
