@@ -3,7 +3,7 @@
     <dim tcMul="0.0688073" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="1.75282" wsPm="4" lsPm="1" stBox="1 5 16.992" iDir="1" iChk1="74"/>
-    <stats length="5842.75" width="6.99064" height="63.1652" onTer="3.34872" pipes="0" bnkAvg="3.19039" bnkMax="10.6074"/>
+    <stats length="5842.7515" width="6.990641" height="63.165173" onTer="3.3487213" pipes="0" bnkAvg="3.1903932" bnkMax="10.60744"/>
     <txt desc="Track near dangerous abysses, covered with fog."/>
     <adv ice="Long and bumpy narrow road."/>
     <P pos="-120.479 23.5082 -177.129" w="7.00201" onTer="0" a="0" ar="0" aT="2" mtr="1"/>
