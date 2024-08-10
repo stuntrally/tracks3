@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5 17.56" iDir="1" iChk1="330"/>
-    <stats length="9528.293" width="8.335147" height="187.6949" onTer="44.315212" pipes="11.170983" bnkAvg="8.680896" bnkMax="51.59999"/>
+    <stats length="9528.293" width="8.335147" height="187.6949" onTer="44.315197" pipes="11.170968" bnkAvg="8.652339" bnkMax="51.59999"/>
     <txt desc="Very unusual jungle track with strange bright lakes, including muddy ones and purple minerals speckled everywhere, especially in the lowest layer. Contains a second hidden seaweed jungle in the lowest lake."/>
     <adv ice="A very surprising and tricky track with lots of mud and some narrow segments. Too wide vehicles will get stuck everywhere. Beside the mud there is a lot underwater and goes quite up and down."/>
     <P pos="-396.27 0 365.512" w="9.552" aT="2" col="0"/>

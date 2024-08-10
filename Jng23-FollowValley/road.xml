@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="499.769" lodPntLen="14.8323" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.064 16.352" iDir="-1" iChk1="98"/>
-    <stats length="3630.1382" width="7.017383" height="146.45915" onTer="34.061413" pipes="14.492087" bnkAvg="4.6709948" bnkMax="53.760017"/>
+    <stats length="3630.1382" width="7.017383" height="146.45915" onTer="34.061413" pipes="14.492087" bnkAvg="4.6718397" bnkMax="53.760017"/>
     <txt desc="Cliff road following a valley through dark jungle near water."/>
     <adv ice="Has steep parts and few hairpin turns. Otherwise fast and smooth."/>
     <P pos="108.677 0 58.9638" w="7" aT="2"/>
