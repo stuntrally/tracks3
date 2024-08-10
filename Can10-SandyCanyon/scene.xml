@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="41134"/>
+    <ver num="3201" baseTrk="" secEd="41289"/>
     <car tires="0"/>
     <start pos="146.219 59.5812 -0.78501" rot="0.0153527 0.00140526 -0.995737 0.0911429" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="1" yW="-212.69562" tr="0.121791534" gr="3.6129034"/>
@@ -92,7 +92,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.275674" densTrees="1.06185" grDensSmooth="5" trRdDist="2">
+    <veget densGrass="0.275674" densTrees2="0.25263903" grDensSmooth="5" trRdDist="2">
         <grass on="1" mtr="grass12o" cl="0.298 0.147 2.008 1.000 0.000" dens="0.416686" chan="1" minSx="1.7" maxSx="1.93" minSy="1.19" maxSy="1.51"/>
         <grass on="1" mtr="grass9r" cl="0.081 0.568 1.753 1.000 0.000" dens="0.0778919" chan="1" minSx="0.984347" maxSx="1.30854" minSy="0.984347" maxSy="1.14013"/>
         <grass on="1" mtr="grass20p" cl="0.448 0.585 1.207 1.000 0.000" dens="0.032553" chan="1" minSx="1.22" maxSx="1.44" minSy="2.15" maxSy="2.5"/>
@@ -115,9 +115,14 @@
         <layer on="1" name="rock12orange.mesh" dens="0.267161" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="6.78899" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock13orange2.mesh" dens="0.264822" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="0.550461" maxTerH="100" maxDepth="1"/>
         <layer on="0" name="rock_Y02.mesh" dens="0.305672" minScale="0.47537" maxScale="1.78643" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="40.697155" minTerH="-18.1651" maxTerH="9.90826" maxDepth="0"/>
-        <layer on="1" name="bush02dry_red.mesh" dens="0.20190045" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="25.627775" minTerH="-100" maxTerH="24.208244" maxDepth="0.5"/>
+        <layer on="1" name="bush02dry_red.mesh" dens="0.7213671" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="25.627775" minTerH="-100" maxTerH="24.208244" maxDepth="0.5"/>
         <layer on="1" name="bush13tall_ylw.mesh" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="25.627775" minTerH="-100" maxTerH="24.208244" maxDepth="0.5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-22.51627" maxTerH="23.947939" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
