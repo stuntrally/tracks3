@@ -5,7 +5,7 @@
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.728 14.176" iDir="-1" iChk1="4"/>
     <stats length="166.50351" width="12.382212" height="4.8973894" onTer="0" pipes="0" bnkAvg="6.1154103" bnkMax="9.605959"/>
     <txt desc="Tiny circle track with cool terrain and 2 test short rivers with waterfalls. Also including road walls type."/>
-    <adv ice="For fun and to test development. Rivers still need: collision, buoyancy, particles, also better shaders for alpha (auto for waterfalls) and more refraction."/>
+    <adv ice="For fun and to test development. Rivers still need: collision, buoyancy, particles, better shaders, auto waterfalls, etc."/>
     <P pos="-20.5224 0 28.5217" w="12.44" aT="2" mtr="1" chkR="1.664"/>
     <P pos="3.21742 0 20.8354" w="12.44" aT="2" mtr="1"/>
     <P pos="11.7169 0 -0.614416" w="12.44" aT="2" mtr="3"/>

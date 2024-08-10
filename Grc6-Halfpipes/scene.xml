@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Isl10-Treasure" secEd="16569"/>
+    <ver num="3201" baseTrk="Isl10-Treasure" secEd="16942"/>
     <car tires="0"/>
     <start pos="-101.894 -110.865 102.925" rot="0.011509 -0.0483 0.55186 0.832472" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -93,7 +93,7 @@
     <veget densGrass="0.15" densTrees="1.58479" grDensSmooth="8" trRdDist="0">
         <grass on="1" mtr="grass16g" dens="0.156817" chan="0" minSx="1.8719" maxSx="2.20346" minSy="2.97426" maxSy="3.53845"/>
         <grass on="1" mtr="grass3y" dens="0.278008" chan="0" minSx="1.44314" maxSx="1.68326" minSy="1.47402" maxSy="1.85431"/>
-        <grass on="1" mtr="grass4v" dens="0.0171781" chan="0" minSx="2.34008" maxSx="2.81922" minSy="2.50147" maxSy="2.99676"/>
+        <grass on="0" mtr="grass4v" dens="0.0171781" chan="0" minSx="2.34008" maxSx="2.81922" minSy="2.50147" maxSy="2.99676"/>
         <grass on="1" mtr="grass5" dens="0.1" chan="0" minSx="1.30854" maxSx="1.63366" minSy="1.55274" maxSy="1.88957"/>
         <grass on="0" mtr="grass17" dens="0.187639" chan="0" minSx="1.50525" maxSx="1.65011" minSy="2.26148" maxSy="2.52204"/>
         <grass on="0" mtr="grass12y-" dens="0.259849" chan="0" minSx="1.83681" maxSx="1.99746" minSy="1.251" maxSy="1.76769"/>
@@ -104,13 +104,18 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="37" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="49" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="palm_date.mesh" dens="0.157095" minScale="0.86977273" maxScale="1.235663" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="30.03" minTerH="-87.5" maxTerH="39.2661" maxDepth="0"/>
-        <layer on="1" name="farn1.mesh" dens="0.082275" minScale="0.259189" maxScale="0.400656" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="33.2103" minTerH="-88.5" maxTerH="84.0367" maxDepth="1"/>
+        <layer on="1" name="palm_date.mesh" dens="0.08604444" minScale="0.86977273" maxScale="1.235663" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="30.03" minTerH="-87.5" maxTerH="39.2661" maxDepth="0"/>
+        <layer on="1" name="palm_coco3b.mesh" dens="0.082275" minScale="0.9" maxScale="1.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-88.5" maxTerH="84.0367" maxDepth="0"/>
         <layer on="0" name="treeGC-32draUp.mesh" dens="0.053016" minScale="1.03695" maxScale="1.4959" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="25.5579" minTerH="-87.5" maxTerH="55" maxDepth="0"/>
         <layer on="1" name="treeD-22desMed.mesh" dens="0.0773504" minScale="0.896815" maxScale="1.33041" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="28.187" minTerH="-87.5" maxTerH="49.9083" maxDepth="0"/>
         <layer on="1" name="treeGW-41aspMid.mesh" dens="0.0773504" minScale="1.15113" maxScale="1.67458" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="31.553" minTerH="-87.5" maxTerH="38.5321" maxDepth="0"/>
         <layer on="1" name="rock_n2-GYel.mesh" dens="0.0657122" minScale="0.637702" maxScale="0.97691" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="29.4845" minTerH="-40" maxTerH="82.2018" maxDepth="1"/>
-        <layer on="0" name="gum_tree.mesh" dens="0.0918052" minScale="0.339999" maxScale="1.14" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="20.0074" minTerH="-0.5" maxTerH="62" maxDepth="0"/>
+        <layer on="1" name="fern_bush.mesh" dens="0.0918052" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-0.5" maxTerH="62" maxDepth="0"/>
+        <layer on="1" name="bush15palm.mesh" dens="0.079900436" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-1.4316711" maxTerH="64.29501" maxDepth="0"/>
+        <layer on="1" name="bush14tall_spots.mesh" dens="0.077655114" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-1.4316711" maxTerH="61.43167" maxDepth="0"/>
+        <layer on="1" name="bush03flower_viol.mesh" dens="0.07111112" minScale="1.6920041" maxScale="2.141549" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-100" maxTerH="70.02169" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
