@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="1624"/>
+    <ver num="3201" baseTrk="" secEd="1851"/>
     <car tires="0"/>
     <start pos="-124.829 46.1881 7.19351" rot="-0.012406 0.012689 -0.846215 -0.532561" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -63,7 +63,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.2" densTrees="0.601237" grDensSmooth="1" trRdDist="0">
+    <veget densGrass="0.2" densTrees2="3.4105802" grDensSmooth="1" trRdDist="0">
         <grass on="1" mtr="grass3g" dens="0.193367" chan="0" minSx="1.18105" maxSx="1.53682" minSy="1.33784" maxSy="1.90733"/>
         <grass on="1" mtr="grass18gw" dens="0.112111" chan="0" minSx="2.03793" maxSx="2.57895" minSy="1.73366" maxSy="2.281"/>
         <grass on="0" mtr="grass17" dens="0.0773504" chan="0" minSx="1.96115" maxSx="2.08978" minSy="2.50147" maxSy="3.01935"/>
@@ -77,12 +77,12 @@
         <gchan amin="0" amax="14.7978" asm="6.32951" hmin="38.3607" hmax="84.3091" hsm="23.8691" ns="0" frq="34" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="52" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="0" name="fir05.mesh" dens="0.0499994" minScale="0.108464" maxScale="0.204664" ofsY="0" addTrRdDist="5" maxRdist="100" maxTerAng="21.9118" minTerH="-100" maxTerH="100" maxDepth="0"/>
-        <layer on="0" name="fir14.mesh" dens="0.181998" minScale="0.0555337" maxScale="0.1942" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="26.1929" minTerH="-100" maxTerH="110" maxDepth="0"/>
+        <layer on="1" name="elm1.mesh" dens="0.01672711" minScale="0.7" maxScale="1.1" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="beech2_tall.mesh" dens="0.01672711" minScale="0.7" maxScale="1.1" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-100" maxTerH="110" maxDepth="0"/>
         <layer on="1" name="pine1_norm.mesh" dens="0.299439" minScale="1.02513" maxScale="1.17757" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="10.1434" minTerH="-60" maxTerH="6" maxDepth="0"/>
         <layer on="1" name="pine2_tall_norm.mesh" dens="0.688154" minScale="1.07796" maxScale="1.30743" ofsY="0" addTrRdDist="6" maxRdist="6" maxTerAng="10.1434" minTerH="6.85714" maxTerH="120" maxDepth="0"/>
         <layer on="1" name="pine3_fat_norm.mesh" dens="0.189539" minScale="1.06725" maxScale="1.28314" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="5.625" minTerH="3" maxTerH="120" maxDepth="0"/>
-        <layer on="0" name="treeG-17birTall.mesh" dens="0.141625" minScale="2.09301" maxScale="2.68988" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="30.1662" minTerH="-100" maxTerH="90" maxDepth="1"/>
+        <layer on="1" name="oak2.mesh" dens="0.011377778" minScale="0.7" maxScale="1" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-100" maxTerH="90" maxDepth="0"/>
         <layer on="1" name="fern2.mesh" dens="0.456976" minScale="0.30276" maxScale="0.443806" ofsY="0" addTrRdDist="1" maxRdist="13" maxTerAng="29.1188" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="fern.mesh" dens="0.3488871" minScale="0.15" maxScale="0.25" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="38.87997" minTerH="-100" maxTerH="120" maxDepth="0"/>
         <layer on="1" name="bushes1.mesh" dens="0.456976" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="9" maxTerAng="50.113823" minTerH="-100" maxTerH="100" maxDepth="0"/>
@@ -97,8 +97,13 @@
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
-    <cam pos="-91.8508 49.3664 164.239" dir="0.31779498 -0.25082603 -0.914381"/>
+    <cam pos="-91.8508 49.3664 164.239" dir="0.31779498 -0.2508261 -0.914381"/>
     <objects>
         <o name="watchtower" pos="-94.4631 -81.0043 7.53193" rot="-0.331566 -0.943432 0 0"/>
         <o name="watchtower" pos="163.663 128.68 6.27634" rot="-0.647355 -0.76219 0 0"/>
