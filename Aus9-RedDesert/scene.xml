@@ -82,8 +82,6 @@
         <layer on="1" name="rock05can3round.mesh" dens="0.125571" minScale="2.04366" maxScale="2.927" ofsY="0" addTrRdDist="5" maxRdist="100" maxTerAng="44.4491" minTerH="-60" maxTerH="120" maxDepth="2"/>
         <layer on="1" name="rock03can1flat.mesh" dens="0.213319" minScale="2.04366" maxScale="3.52833" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="38.268" minTerH="-100" maxTerH="120" maxDepth="1"/>
         <layer on="1" name="rock11red2.mesh" dens="0.213319" minScale="2.04366" maxScale="3.12394" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
