@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3570"/>
+    <ver num="3201" baseTrk="" secEd="3628"/>
     <car tires="0"/>
     <start pos="-63.9465 55.2104 2.50253" rot="-0.009055 -0.004515 -0.911734 0.410697" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -12,8 +12,8 @@
     <wind ofs="0" amp="0" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="mud soft" pos="-72.9389 0.339191 95.4173" rot="0 0 0" size="283.665 20 261.161" tile="0.01 0.01"/>
-        <fluid hq="2" name="mud med" pos="120.259 -0.1 14.1248" rot="0 0 0" size="99.632 20 315.688" tile="0.01 0.01"/>
-        <fluid hq="2" name="mud easy hard" pos="9.72384 -0.2 -99.8336" rot="0 0 0" size="117.836 20 120.347" tile="0.01 0.01"/>
+        <fluid hq="1" name="mud med" pos="120.259 -0.1 14.1248" rot="0 0 0" size="99.632 20 315.688" tile="0.01 0.01"/>
+        <fluid hq="1" name="mud easy hard" pos="9.72384 -0.2 -99.8336" rot="0 0 0" size="117.836 20 120.347" tile="0.01 0.01"/>
         <fluid hq="2" name="water cyan" pos="-119.542 0.6 -106.633" rot="0 0 0" size="135.068 20 127.907" tile="0.01 0.01"/>
         <fluid hq="1" name="mud easy hard" pos="-815.38 -0.773391 -21.2659" rot="0 0 0" size="1212.42 20 883.607" tile="0.01 0.01"/>
     </fluids>
@@ -69,7 +69,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.3" densTrees="0.3" grDensSmooth="4" trRdDist="1">
+    <veget densGrass="0.3" densTrees2="1.7275673" grDensSmooth="4" trRdDist="1">
         <grass on="1" mtr="grass3" dens="0.14591657" chan="0" minSx="1.18" maxSx="1.54" minSy="0.98" maxSy="1.32"/>
         <grass on="1" mtr="grass5" dens="0.09248046" chan="0" minSx="1.13" maxSx="1.44" minSy="1.28" maxSy="1.77"/>
         <grass on="1" mtr="grass3y" dens="0.0993428" chan="0" minSx="1.305279" maxSx="1.5735705" minSy="1.20877" maxSy="1.50525"/>
