@@ -61,7 +61,6 @@
         <layer on="1" name="palm_coconut1.mesh" dens="0.25536174" minScale="1.2" maxScale="1.71" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="17.10932" minTerH="0" maxTerH="10.151844" maxDepth="0"/>
         <layer on="1" name="palm_date.mesh" dens="0.21653512" minScale="0.98439586" maxScale="1.4929922" ofsY="0" addTrRdDist="1" maxRdist="11" maxTerAng="30.03" minTerH="0" maxTerH="50" maxDepth="0"/>
         <layer on="1" name="gum_tree.mesh" dens="0.163699" minScale="0.418653" maxScale="0.79633" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="20.48" minTerH="0" maxTerH="50" maxDepth="0"/>
-        <layer on="0" name="jungle_tree.mesh" dens="0.059191" minScale="1.41986" maxScale="1.79442" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="25.5579" minTerH="50" maxTerH="300" maxDepth="2"/>
         <layer on="1" name="rock17black2wh.mesh" dens="0.05970706" minScale="0.8652209" maxScale="1.477581" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="rock41grayWh.mesh" dens="0.10553321" minScale="0.8055724" maxScale="1.3836598" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="rock49brownEdgy.mesh" dens="0.075858235" minScale="0.74873" maxScale="1.089929" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="5"/>

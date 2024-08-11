@@ -79,7 +79,7 @@
         <gchan amin="28.7828" amax="29.642" asm="20" hmin="-14.6888" hmax="46.805" hsm="32.4209" ns="0" frq="37" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <layer on="1" name="gum_tree.mesh" dens="0.165594" minScale="1.45" maxScale="2.54393" ofsY="0" addTrRdDist="7" maxRdist="100" windFx="0.3" windFy="0.004" maxTerAng="20.48" minTerH="-100" maxTerH="29.1483" maxDepth="0"/>
-        <layer on="1" name="palm.mesh" dens="0.449997" minScale="0.905939" maxScale="2.74" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.6" windFy="0.01" maxTerAng="15.07" minTerH="-100" maxTerH="46" maxDepth="0"/>
+        <layer on="1" name="palm_coconut1.mesh" dens="0.449997" minScale="0.905939" maxScale="1.44" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.6" windFy="0.01" maxTerAng="15.07" minTerH="-100" maxTerH="46" maxDepth="0"/>
         <layer on="1" name="rock20liGrayTall.mesh" dens="0.045487" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="61.2391" minTerH="-20.1843" maxTerH="69.9539" maxDepth="3.08673"/>
         <layer on="1" name="pine3_fat_half.mesh" dens="0.546191" minScale="1.07734" maxScale="2.35472" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0.07" windFy="0.017" maxTerAng="7.09421" minTerH="-7.76025" maxTerH="68.5173" maxDepth="0"/>
         <layer on="1" name="rock23dark1block.mesh" dens="0.0301817" minScale="1.16273" maxScale="1.94772" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="90" minTerH="-11.3364" maxTerH="58.341" maxDepth="3.08673"/>
