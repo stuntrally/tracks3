@@ -2,8 +2,8 @@
     <mtr type="0" road="roadAlien" pipe="pipeGlassYellow" road2="roadSandMagic" pipe2="pipeGlassCrystal" road3="roadAlienStone" pipe3="pipeGlassAlienLime" road4="roadMud" pipe4="pipeMetalBlue" wall="road_wall_JDark" pipeW="pipe_wall_JDark"/>
     <dim tcMul="0.06" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="5" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.3" skirtH="0.06" merge="1" mergeLen="1014.28" lodPntLen="50.4035" visDist="1000" visBehind="800"/>
-    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.288 18.344" iDir="1" iChk1="211"/>
-    <stats length="8078.542" width="7.2480564" height="335.14838" onTer="30.301926" pipes="11.0239525" bnkAvg="4.3059216" bnkMax="45.846134"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.288 18.344" iDir="1" iChk1="210"/>
+    <stats length="8078.5576" width="7.2480583" height="335.14838" onTer="30.301863" pipes="11.0239315" bnkAvg="4.294357" bnkMax="45.846134"/>
     <txt desc="Race track on alien world similar to earth."/>
     <adv ice="Rather easy with some hill climbs. Keep speed (100 km/h / 60 mph) in middle lake water to jump. Good track for using handbrake in few sharp, harpin turns."/>
     <P pos="26.7069 0 436.189" w="7" aT="2"/>
@@ -141,7 +141,6 @@
     <P pos="-240.06 0 -609.924" w="7" aT="2"/>
     <P pos="-252.295 0 -613.989" w="7" aT="2"/>
     <P pos="-267.686 0 -616.66" w="7" aT="2"/>
-    <P pos="-267.246 0 -615.875" w="7" aT="2"/>
     <P pos="-276.118 0 -606.572" w="7" a="0" ar="0" aT="2" col="0"/>
     <P pos="-277.8 134.532 -597.473" w="7" onTer="0" a="0" ar="0" aT="2" col="0"/>
     <P pos="-283.745 140.092 -587.513" w="7" onTer="0" a="0" ar="0" aT="2" col="0"/>
