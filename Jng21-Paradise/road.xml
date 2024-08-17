@@ -3,7 +3,7 @@
     <dim tcMul="0.06701461" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.03" merge="1" mergeLen="1200" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.5" wsPm="4" lsPm="1" stBox="1 5.516 18.22" iDir="-1" iChk1="61"/>
-    <stats length="7330.003" width="9.065542" height="113.038284" onTer="61.497147" pipes="0" bnkAvg="3.0153456" bnkMax="14.560631"/>
+    <stats length="7329.843" width="9.065524" height="113.038284" onTer="61.502647" pipes="0" bnkAvg="3.0398676" bnkMax="14.560631"/>
     <txt desc="Fast, long, easy road winding on sand and over bridges."/>
     <adv ice="Careful not too fast on bridge entry to fit. Occasional sharp turns and bumps."/>
     <P pos="-161.383 0 278.979" w="8.272" aT="2" chkR="1.836"/>
@@ -13,7 +13,7 @@
     <P pos="-337.405 -22.7819 306.855" w="8.272" onTer="0" a="0" ar="0" aT="2" col="0"/>
     <P pos="-355.653 -22.7819 385.993" w="8.272" onTer="0" a="0" ar="0" aT="2" col="0"/>
     <P pos="-350.261 -20.4751 461.714" w="8.272" onTer="0" a="0" ar="0" aT="2" col="0"/>
-    <P pos="-338.592 0 526.988" w="9.032" a="0" ar="0" aT="2"/>
+    <P pos="-338.4972 0 527.2777" w="9.032" a="0" ar="4.702725" aT="2"/>
     <P pos="-318.198 0 572.698" w="11.32" aT="2" chkR="2.028"/>
     <P pos="-262.145 0 575.051" w="12.016" a="0" ar="-10.734" aT="2"/>
     <P pos="-179.765 -11.5265 516.502" w="8.272" onTer="0" a="0" ar="0" aT="2" col="0"/>
@@ -73,9 +73,9 @@
     <P pos="-61.9074 -25.8094 -366.536" w="10.616" onTer="0" a="0" ar="11.82" aT="2" col="0" chkR="1.056"/>
     <P pos="-52.7397 0 -449.698" w="8.272" a="0" ar="0" aT="2"/>
     <P pos="-65.993 0 -546.252" w="8.272" aT="2" chkR="1.852"/>
-    <P pos="-120.704 0 -575.224" w="8.272" aT="2"/>
-    <P pos="-170.628 0 -559.869" w="8.272" aT="2" mtr="1"/>
-    <P pos="-286.51 0 -506.482" w="8.272" aT="2" mtr="1" chkR="1.688"/>
+    <P pos="-120.2479 0 -574.6783" w="8.272" aT="2"/>
+    <P pos="-187.58035 0 -548.48004" w="8.272" aT="2" mtr="1"/>
+    <P pos="-286.05392 0 -505.93634" w="8.272" aT="2" mtr="1" chkR="1.688"/>
     <P pos="-364.203 0 -482.27" w="8.272" aT="2"/>
     <P pos="-412.324 0 -445.435" w="8.696" a="0" ar="0" aT="2"/>
     <P pos="-441.589 -25.6085 -421.145" w="8.272" onTer="0" a="0" ar="0" aT="2" col="0"/>
