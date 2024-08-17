@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="4" wsPm="4" lsPm="1" stBox="1 5.58799 22.2081" iDir="-1" iChk1="113"/>
-    <stats length="2908.0486" width="10.322572" height="63.071674" onTer="9.690721" pipes="0" bnkAvg="4.7215085" bnkMax="20.295326"/>
+    <stats length="2908.063" width="10.32257" height="63.071674" onTer="9.690672" pipes="0" bnkAvg="4.6839232" bnkMax="20.295326"/>
     <txt desc="Track inside a stone quarry."/>
     <adv ice="A winding and bumpy road with rocks nearby."/>
     <P pos="105.027 0 -183.674" w="9.5907" aT="2"/>
