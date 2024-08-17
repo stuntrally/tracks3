@@ -39,7 +39,7 @@
             <texture road="4" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.433 0.526 0.190 0.800 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="9.1913185" diff="1 1 1" veget="0.75">
+        <terrain ofsZ="0" triangle="9.1913185" diff="1 1 1" horiz="1" veget="0.75">
             <texture on="1" file="desert_cracks_d.jpg" fnorm="desert_cracks_n.jpg" scale="4" surf="DesertFast" dust="0" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="3.75652" angSm="1.60765" hMin="-300" hMax="300" hSm="21.883" nOn="0" noise="1" n_1="0" n2="0.237288">
                 <noise frq0="21.62" oct0="3" prs0="0.3" pow0="8" frq1="57.5217" oct1="3" prs1="0.293043" pow1="4.30233"/>
             </texture>
