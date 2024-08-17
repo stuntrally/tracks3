@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Uni6-Wild" secEd="118762"/>
+    <ver num="3201" baseTrk="Uni6-Wild" secEd="119653"/>
     <car tires="0" damage="0.351759" road1mtr="0" needLights="1"/>
     <start pos="17.4937 74.5564 225.335" rot="-5.38304e-07 -2.82569e-07 -0.99989 -0.0156819" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -9,7 +9,7 @@
     <fog color="0.640 0.872 0.233 0.660 0.157" color2="0.893 0.775 0.328 0.820 0.541" linStart="188.275" linEnd="3182.293"/>
     <fogH color="0.725 0.853 1.938 2.000 0.000" height="15.9652" dens="84.9345" linStart="15.8474" linEnd="105.173"/>
     <light pitch="30" yaw="116.59091" ambient="0.729 0.806 0.497 0.000 0.000" diffuse="0.704 0.533 0.800 0.000 0.000" specular="0.585 0.926 1.386 0.000 0.000"/>
-    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
+    <wind ofs="0" amp="0.08604444" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="grease jelly" pos="-183.89 273.354 26.7504" rot="0 0 0" size="8.83521 7.11853 34.1556" tile="0.0112339 0.0112339"/>
         <fluid hq="2" name="water blue" pos="-49.06666 191.417 93.3415" rot="0 0 0" size="17.03522 1.9916 63.579235" tile="0.0086585 0.00849072"/>
@@ -87,11 +87,11 @@
         <layer on="1" name="mushrooms1.mesh" dens="0.0245799" minScale="1.9" maxScale="3.18" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="21.69" minTerH="-140" maxTerH="47.2811" maxDepth="0"/>
         <layer on="1" name="crystal2.mesh" dens="1" minScale="0.8" maxScale="1.77477" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="39.6322" minTerH="250" maxTerH="454" maxDepth="0"/>
         <layer on="1" name="mushrooms2.mesh" dens="0.105533" minScale="1.62912" maxScale="2.83879" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="24.6116" minTerH="-140" maxTerH="51.7051" maxDepth="0"/>
-        <layer on="1" name="mushrooms3.mesh" dens="0.0653568" minScale="0.8394" maxScale="2.68647" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="16.2621" minTerH="35" maxTerH="48.6636" maxDepth="0"/>
-        <layer on="1" name="shroom2_2_unid.mesh" dens="0.0485493" minScale="2.4959" maxScale="4" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="15.3396" minTerH="-140" maxTerH="47.0046" maxDepth="0"/>
-        <layer on="1" name="mushrooms3.mesh" dens="0.0406376" minScale="2.25545" maxScale="2.92067" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="30.3846" minTerH="-140" maxTerH="33.28" maxDepth="5"/>
+        <layer on="1" name="mushrooms3.mesh" dens="0.0653568" minScale="0.8394" maxScale="2.68647" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="19.488161" minTerH="35" maxTerH="48.6636" maxDepth="0"/>
+        <layer on="1" name="shroom_tall1.mesh" mtr="shroom_tall_viol" dens="0.083713785" minScale="1.8403987" maxScale="2.725888" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="38.415997" minTerH="-140" maxTerH="47.0046" maxDepth="0"/>
+        <layer on="1" name="shroom_tall2.mesh" mtr="shroom_tall_viol" dens="0.0406376" minScale="2.25545" maxScale="2.92067" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="30.3846" minTerH="-140" maxTerH="33.28" maxDepth="0"/>
         <layer on="1" name="mushrooms3.mesh" dens="0.0868842" minScale="2.0368" maxScale="2.87953" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="29.0344" minTerH="-140" maxTerH="19.36" maxDepth="0"/>
-        <layer on="1" name="crystal_form2_cyan.mesh" dens="0.07182401" minScale="1.0225796" maxScale="1.9472973" ofsY="0" addTrRdDist="11" maxRdist="100" maxTerAng="41.29024" minTerH="-8.639999" maxTerH="400" maxDepth="0"/>
+        <layer on="1" name="crystal_form2_cyan.mesh" dens="0.047233775" minScale="1.0225796" maxScale="1.9472973" ofsY="0" addTrRdDist="10" maxRdist="100" maxTerAng="90" minTerH="-8.639999" maxTerH="400" maxDepth="0"/>
         <layer on="1" name="crystal_form1_cyan.mesh" dens="0.10584177" minScale="1.1994644" maxScale="2.0275884" ofsY="0" addTrRdDist="12" maxRdist="100" maxTerAng="42.271355" minTerH="-140" maxTerH="487.2" maxDepth="0"/>
         <layer on="1" name="crystal_form3_cyan.mesh" dens="0.183184" minScale="2.3708158" maxScale="4" ofsY="0" addTrRdDist="11" maxRdist="20" maxTerAng="32.4" minTerH="34.239998" maxTerH="450" maxDepth="0"/>
         <layer on="0"/>
@@ -110,7 +110,7 @@
         <layer on="0"/>
         <layer on="0"/>
     </veget>
-    <cam pos="411.62622 314.76196 82.9761" dir="-0.96430606 -0.25830978 -0.058223665"/>
+    <cam pos="411.62622 314.76196 82.9761" dir="-0.95666707 -0.28539762 -0.057761133"/>
     <objects>
         <o name="alien_base_big" pos="-200.134 -147.518 278.674" rot="0 -1 0 0"/>
         <o name="alien_base_big" pos="-200.395 63.2541 271.836" rot="-0.925869 -0.377831 0 0" sc="0.780228 0.702129 0.780228"/>

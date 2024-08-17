@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3914"/>
+    <ver num="3201" baseTrk="" secEd="3949"/>
     <car tires="0"/>
     <start pos="-0.316434 -5.30344 -17.9544" rot="-0 0 1.62921e-07 1" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -9,7 +9,7 @@
     <fog color="0.663 0.568 0.101 0.900 0.054" color2="0.610 0.661 0.116 0.900 0.052" linStart="137.812" linEnd="1367.7104"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
     <light pitch="48.0682" yaw="138.409" ambient="0.667 0.674 0.336 0.000 0.000" diffuse="0.708 0.779 0.443 0.000 0.000" specular="0.722 0.600 0.361 0.000 0.000"/>
-    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
+    <wind ofs="0" amp="0.07544178" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="water dark" pos="-30.9157 -147.152 -263.305" rot="0 0 0" size="392.669 120 143.21" tile="0.00293833 0.00293833"/>
         <fluid hq="2" name="grease jelly" pos="63.6428 -114.174 275.235" rot="0 0 0" size="297.515 120 330.296" tile="0.01 0.01"/>
