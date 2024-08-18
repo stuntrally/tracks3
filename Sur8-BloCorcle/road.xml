@@ -3,7 +3,7 @@
     <dim tcMul="0.06" tcW="0.297207" tcP="0.1" tcPW="0.123793" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.1" skirtH="0.01" merge="1" mergeLen="513.878" lodPntLen="29.7659" visDist="295.37" visBehind="290.195"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.276 17.156" iDir="1" iChk1="3"/>
-    <stats length="7181.226" width="8.107113" height="97.69133" onTer="76.97014" pipes="34.454117" bnkAvg="19.260557" bnkMax="87.36002"/>
+    <stats length="7180.487" width="8.107072" height="97.69133" onTer="76.978065" pipes="34.457664" bnkAvg="19.250757" bnkMax="87.36002"/>
     <txt desc="Newly discovered exoplanet Corcle, Blo stretch. Gravity is only 80% of Earth, making roads more slippery."/>
     <adv ice="Quite challenging, has several jumps among which: a side, centrifugal jump (higher speed more downforce), two obstacles near it, and a twisted 4-loop."/>
     <P pos="218.266 0 -97.9333" w="7" aT="2"/>
@@ -240,8 +240,8 @@
     <P pos="307.529 38.2189 282.665" w="8.88" onTer="0" a="0" ar="0" aT="2" col="0" mtr="-1"/>
     <P pos="315.553 33.9628 274.212" w="8.592" onTer="0" a="0" ar="0" aT="2" col="0"/>
     <P pos="333.826 0 255.341" w="8.168" a="0" ar="0" aT="2" col="0"/>
-    <P pos="341.132 0 245.338" w="7.872" aT="2" col="0"/>
-    <P pos="350.239 0 221.389" w="8.176" aT="2" col="0" chkR="1.832"/>
+    <P pos="340.7739 0 245.31708" w="7.872" aT="2" col="0"/>
+    <P pos="348.91647 0 220.14566" w="8.176" aT="2" col="0" chkR="1.832"/>
     <P pos="346.459 0 190.359" w="8.104" aT="2" col="0"/>
     <P pos="350.061 0 152.21" w="7.208" a="0" ar="0" aT="2" col="0"/>
     <P pos="352.459 28.8646 130.036" w="7" onTer="0" a="0" ar="0" aT="2" col="0" mtr="2" wall="-1"/>

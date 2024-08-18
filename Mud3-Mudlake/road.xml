@@ -4,7 +4,7 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2.59968" wsPm="4" lsPm="1" stBox="1 9.1 20.192" iDir="-1" iChk1="26"/>
     <stats length="2310.3267" width="9.921354" height="77.247925" onTer="61.176186" pipes="51.94223" bnkAvg="13.003578" bnkMax="38.452106"/>
-    <txt desc="Small track over a mud lake."/>
+    <txt desc="Small track over a mud lake in mountains."/>
     <adv ice="With twisted pipes, banked bridges and sharp terrain turns. Slow down on pipe exits."/>
     <P pos="5.75581 47.8689 -93.8991" w="9.776" onTer="0" a="0" ar="17.52" aT="2" col="0" pipe="1" chkR="1.692"/>
     <P pos="41.864 42.3086 -103.631" w="9.776" onTer="0" a="0" ar="16.2" aT="2" col="0" pipe="1"/>
