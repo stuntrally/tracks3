@@ -52,7 +52,7 @@
             <texture road="4" surf="roadGravel" dust="0" dustS="1" mud="0.6" smoke="0" tclr="0.000 0.000 0.130 0.800 0.000"/>
             <par dust="Dust" mud="MudDark" smoke="Smoke" flMud="FluidMudWhite" flMudSoft="FluidMudWhite"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.020177" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.020177" diff="1 1 1" horiz="1" veget="0.0504902">
             <texture on="1" file="mntn_white2_d.jpg" fnorm="jungle_stone_n.jpg" scale="46.13" surf="Rocks" dust="0.2" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="16" angMax="47" angSm="4.51233" hMin="-111.663" hMax="25.6824" hSm="18.9156" nOn="0" triplanar="1" noise="0.425926" n_1="0" n2="0.191358">
                 <noise frq0="6.18975" oct0="3" prs0="0.3" pow0="1.5" frq1="32.9687" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

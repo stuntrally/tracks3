@@ -36,7 +36,7 @@
             <texture road="4" surf="Asphalt" dust="0" dustS="0.9" mud="0" smoke="0" tclr="0.000 0.000 0.000 0.000 0.000"/>
             <par dust="MarsDust" mud="MarsMud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="13.8795" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="13.8795" diff="1 1 1" horiz="1" veget="0.5004902">
             <texture on="1" file="adesert_stone_d.jpg" fnorm="adesert_stone_n.jpg" scale="33" surf="DesertFast" dust="0.5" dustS="1" mud="0.7" smoke="0" tclr="0.020 0.680 0.250 0.800 0.000" angMin="0" angMax="18.1409" angSm="8.99438" hMin="-900" hMax="3000" hSm="20" nOn="0" noise="0.998652" n_1="0" n2="0.509652">
                 <noise frq0="15.2407" oct0="3" prs0="0.358317" pow0="2.31357" frq1="19.1743" oct1="3" prs1="0.4" pow1="2.66046"/>
             </texture>

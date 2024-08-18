@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="11.0373" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="11.0373" diff="1 1 1" horiz="1" veget="0.7004902">
             <texture on="1" file="savanna_dry_d.jpg" fnorm="savanna_dry_n.jpg" scale="17.852695" surf="GrassForest" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.157 0.895 0.380 0.700 0.000" angMin="0" angMax="21.3112" angSm="10.7131" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.998652" n_1="0" n2="0">
                 <noise frq0="30.7" oct0="3" prs0="0.3" pow0="1.71223" frq1="28.4" oct1="4" prs1="0.7" pow1="1.5299"/>
             </texture>

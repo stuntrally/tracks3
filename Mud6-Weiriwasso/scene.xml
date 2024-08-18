@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="153073"/>
+    <ver num="3201" baseTrk="" secEd="153077"/>
     <car tires="0" damage="0.447257"/>
     <start pos="391.103 -498.351 8.72732" rot="-1.08033e-07 -1.30386e-07 -0.999495 -0.0318525" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="1" yW="-4.7113876" tr="0.2861675" gr="3.5268817"/>
@@ -43,7 +43,7 @@
             <texture road="4" surf="Asphalt" dust="0" dustS="0.9" mud="0" smoke="0" tclr="0.000 0.000 0.000 0.000 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.33882" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.33882" diff="1 1 1" horiz="1" veget="0.1004902">
             <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="51.1691" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="20.7524" angMax="46.5291" angSm="30.8907" hMin="-300" hMax="150" hSm="20" nOn="0" noise="0.658537" n_1="0" n2="0.8">
                 <noise frq0="26.2" oct0="3" prs0="0.3" pow0="0.917656" frq1="11.5529" oct1="5" prs1="0.7" pow1="6.19527"/>
             </texture>
@@ -69,7 +69,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.109584" densTrees="2.41142" grDensSmooth="3" trRdDist="0">
+    <veget densGrass="0.109584" densTrees2="0.6329212" grDensSmooth="3" trRdDist="0">
         <grass on="1" mtr="grass17" dens="0.416686" chan="0" minSx="1.38244" maxSx="1.60103" minSy="1.32315" maxSy="1.78484"/>
         <grass on="0" mtr="grass8g" dens="0.0206984" chan="0" minSx="1.80207" maxSx="1.92518" minSy="2.01575" maxSy="2.22271"/>
         <grass on="0" mtr="grass12y-" dens="0.0635" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.47402" maxSy="1.78484"/>
@@ -103,6 +103,11 @@
         <layer on="1" name="rock32red2block.mesh" dens="0.059536003" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="40.173725" minTerH="-2.4728851" maxTerH="100" maxDepth="1"/>
         <layer on="0" name="rock05can3round.mesh" dens="0.031447113" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock40red3flat.mesh" dens="0.011953779" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="9" maxRdist="20" maxTerAng="28.407969" minTerH="-0.65075684" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="-139.12703 241.09595 1005.6608" dir="-0.18930744 -0.18513528 -0.96430683"/>
     <objects>

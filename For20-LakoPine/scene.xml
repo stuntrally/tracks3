@@ -39,7 +39,7 @@
             <texture road="4" surf="Asphalt" dust="0" dustS="0.9" mud="0" smoke="0" tclr="0.000 0.000 0.000 0.000 0.000"/>
             <par dust="DustW" mud="MudDark" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.8059" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="10.8059" diff="1 1 1" horiz="1" veget="0.1004902">
             <texture on="1" file="ground_yellow_d.jpg" fnorm="jungle_mntn_n.jpg" scale="18.6215" surf="DesertBumpy" dust="0" dustS="0.2" mud="0.337398" smoke="0" tclr="0.178 0.455 0.175 0.700 0.000" angMin="0" angMax="17.0388" angSm="4.31078" hMin="-300" hMax="140" hSm="1.19297" nOn="0" noise="0.531707" n_1="0" n2="0.55122">
                 <noise frq0="2.08701" oct0="3" prs0="0.3" pow0="1.5" frq1="3.54476" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="4919"/>
+    <ver num="3201" baseTrk="" secEd="4958"/>
     <car tires="0"/>
     <start pos="92.9072 -159.19 13.582" rot="0.06293 0.019478 -0.394092 -0.916735" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.2" lA="1.9516128" lD="1.983871" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.66782284" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="9.96385" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="9.96385" diff="1 1 1" horiz="1" veget="0.1004902">
             <texture on="1" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="13.8478" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="50.55" angSm="26.7972" hMin="228.776" hMax="700" hSm="91.5211" nOn="0" noise="1" n_1="0.50193" n2="1">
                 <noise frq0="5.14288" oct0="3" prs0="0.3" pow0="1.5" frq1="3.68411" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -62,7 +62,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="18.9964" diff="1 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="18.9964" diff="1 1 1" horiz="2" veget="0">
             <texture on="1" file="snow_bumpy_d.jpg" fnorm="snow_bumpy_n.jpg" scale="47.0241" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="50.55" angSm="26.7972" hMin="228.776" hMax="700" hSm="91.5211" nOn="0" noise="1" n_1="0.50193" n2="1">
                 <noise frq0="1.83297" oct0="3" prs0="0.3" pow0="1.5" frq1="1.11433" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -112,6 +112,10 @@
         <layer on="1" name="mushrooms3.mesh" mtr="mushrooms_red" dens="0.1" minScale="0.85" maxScale="2.8262174" ofsY="0" addTrRdDist="5" maxRdist="20" maxTerAng="29.583998" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="1.3254954" ofsY="0" addTrRdDist="0" maxRdist="14" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="14" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

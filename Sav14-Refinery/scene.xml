@@ -43,7 +43,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.7229" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="10.7229" diff="1 1 1" horiz="1" veget="0.5004902">
             <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="68.6303" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="0" angMax="21.1184" angSm="40.2159" hMin="-5.25114" hMax="310" hSm="40" nOn="0" triplanar="1" noise="1" n_1="0" n2="1">
                 <noise frq0="8.40441" oct0="3" prs0="0.23578" pow0="0.649509" frq1="3.03819" oct1="5" prs1="0.7" pow1="3.992"/>
             </texture>

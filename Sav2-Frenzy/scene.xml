@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="TestC4-ow" secEd="3627"/>
+    <ver num="3201" baseTrk="TestC4-ow" secEd="3629"/>
     <car tires="0"/>
     <start pos="140.097 155.403 -22.0115" rot="0.024848 0.019974 -0.779027 0.6262" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.5705934" gr="4"/>
@@ -43,7 +43,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="9.16936" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="9.16936" diff="1 1 1" horiz="1" veget="0.0504902">
             <texture on="1" file="grass_green2y_d.jpg" fnorm="grass_green2y_n.jpg" scale="9.23093" surf="GrassForest" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.900 0.000" angMin="0" angMax="17.9648" angSm="6.27982" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="33.7041" oct0="3" prs0="0.3" pow0="1.17861" frq1="28.1563" oct1="3" prs1="0.64364" pow1="3.01533"/>
             </texture>
@@ -69,7 +69,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.22" densTrees="1.2" grDensSmooth="6" trRdDist="0">
+    <veget densGrass="0.22" densTrees2="1.1444092" grDensSmooth="6" trRdDist="0">
         <grass on="1" mtr="grassSavanna" dens="0.10386" chan="0" minSx="1.43406" maxSx="1.6682" minSy="1.40612" maxSy="1.60789"/>
         <grass on="1" mtr="grass2g" dens="0.0375242" chan="0" minSx="1.251" maxSx="1.60103" minSy="1.04772" maxSy="1.90733"/>
         <grass on="1" mtr="grass3s" cl="0.105 0.477 0.934 1.000 0.000" dens="0.069334" chan="0" minSx="1.00943" maxSx="1.44314" minSy="1.12667" maxSy="2.50147"/>

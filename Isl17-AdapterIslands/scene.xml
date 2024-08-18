@@ -39,7 +39,7 @@
             <texture road="4" surf="roadForest" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.119 0.467 0.300 0.800 0.000"/>
             <par dust="DustW" mud="MudDark" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="12.0929" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="12.0929" diff="1 1 1" horiz="1" veget="0.1004902">
             <texture on="1" file="island_sand2w_d.jpg" fnorm="desert_sand2_n.jpg" scale="22.6466" surf="DesertFast" dust="0.6" dustS="0.8" mud="0" smoke="0" tclr="0.167 0.038 0.520 0.700 0.000" angMin="0" angMax="27.8289" angSm="6.93696" hMin="-46.2406" hMax="10" hSm="20" nOn="0" noise="0" n_1="0" n2="1">
                 <noise frq0="6.17853" oct0="3" prs0="0.3" pow0="1.5" frq1="3.69614" oct1="4" prs1="0.7" pow1="4.71022"/>
             </texture>

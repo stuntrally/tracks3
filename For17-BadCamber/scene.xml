@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="9.33989" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="9.33989" diff="1 1 1" horiz="1" veget="0.3004902">
             <texture on="1" file="grass_green2y_d.jpg" fnorm="grass_green2y_n.jpg" scale="32.4646" surf="GrassForest" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.148 0.818 0.220 0.900 0.000" angMin="0" angMax="13.05" angSm="8.05076" hMin="-300" hMax="456" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="1.53522" oct0="3" prs0="0.3" pow0="0.810836" frq1="2.57486" oct1="3" prs1="0.576712" pow1="5.22135"/>
             </texture>

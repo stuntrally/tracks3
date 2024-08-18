@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="13.3239" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="13.3239" diff="1 1 1" horiz="1" veget="0.1004902">
             <texture on="1" file="mntn_canyon2o_d.jpg" fnorm="adesert_mntn4_n.jpg" scale="42.5" surf="DesertFast" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.167 0.643 0.140 0.700 0.000" angMin="0" angMax="12.1526" angSm="8.79854" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.451737">
                 <noise frq0="12.9132" oct0="3" prs0="0.380626" pow0="1.04309" frq1="5.98789" oct1="4" prs1="0.499217" pow1="4.07131"/>
             </texture>

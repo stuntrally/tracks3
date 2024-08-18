@@ -81,7 +81,7 @@
         <layer on="0" name="rock19harshWhite.mesh" dens="0.0646013" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="34.34" minTerH="-0.840336" maxTerH="28.5714" maxDepth="1"/>
         <layer on="1" name="fern2_black.mesh" dens="0.0922667" minScale="0.382623" maxScale="0.615398" ofsY="0" addTrRdDist="1" maxRdist="12" windFx="0" windFy="0" maxTerAng="29.12" minTerH="-100" maxTerH="9" maxDepth="0.5"/>
         <layer on="1" name="gum_tree_alien.mesh" dens="0.204502" minScale="0.809175" maxScale="1.14322" ofsY="0" addTrRdDist="1" maxRdist="19" windFx="0.3" windFy="0.004" maxTerAng="20.48" minTerH="-100" maxTerH="20" maxDepth="0"/>
-        <layer on="1" name="shroom1_1_alien.mesh" dens="0.0554578" minScale="0.15" maxScale="0.25" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="21.14" minTerH="-10" maxTerH="9.7479" maxDepth="0"/>
+        <layer on="1" name="shrooms_tall.mesh" mtr="shrooms_tall_grn" dens="0.0554578" minScale="1.05" maxScale="1.15" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="21.14" minTerH="-10" maxTerH="9.7479" maxDepth="0"/>
         <layer on="1" name="jungle_tree_alien.mesh" dens="0.127203" minScale="1.61" maxScale="2.05" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.4" windFy="0.002" maxTerAng="29.26" minTerH="-20" maxTerH="40" maxDepth="0"/>
         <layer on="1" name="plant_tropical.mesh" dens="0.1" minScale="1.51" maxScale="1.89" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.06" windFy="0.015" maxTerAng="27.49" minTerH="-100" maxTerH="100" maxDepth="0.5"/>
         <layer on="0"/>

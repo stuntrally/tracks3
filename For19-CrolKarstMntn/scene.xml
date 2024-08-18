@@ -40,7 +40,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.32126" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.32126" diff="1 1 1" horiz="1" veget="0.1004902">
             <texture on="1" file="ground_leaves_d.jpg" fnorm="ground_leaves_n.jpg" scale="14" surf="GrassJungle" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.208 0.800 0.400 0.700 0.000" angMin="0" angMax="17.8125" angSm="9.63749" hMin="-100" hMax="77.7066" hSm="7.79115" nOn="0" noise="0" n_1="0" n2="1">
                 <noise frq0="6.56163" oct0="3" prs0="0.516071" pow0="1.92477" frq1="10.9347" oct1="4" prs1="0.458036" pow1="2.56461"/>
             </texture>

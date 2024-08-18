@@ -39,7 +39,7 @@
             <texture road="4" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.958 0.375 0.640 0.600 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="3.94703" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="3.94703" diff="1 1 1" horiz="1" veget="0.0504902">
             <texture on="1" file="mntn_marble_white_d.jpg" fnorm="mntn_marble_n.jpg" scale="24.6862" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.300 0.500 0.000" angMin="33.5072" angMax="67.5" angSm="20.6508" hMin="-200" hMax="900" hSm="17.2613" nOn="0" triplanar="1" noise="0.0598592" n_1="0" n2="0.330986">
                 <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

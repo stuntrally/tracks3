@@ -41,7 +41,7 @@
             <texture road="4" surf="" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.145 0.465 0.197 0.500 0.000"/>
             <par dust="DustSmall" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="7.9241953" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="7.9241953" diff="1 1 1" horiz="1" veget="0.2004902">
             <texture on="1" file="desert_wet_d.jpg" fnorm="desert_wet_n.jpg" scale="17.31137" surf="DesertFast" dust="0.5" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.600 0.500 0.700 0.000" angMin="0" angMax="13.5616" angSm="6.27982" hMin="-300" hMax="2.96804" hSm="16.4096" nOn="0" noise="0.67241377" n_1="0" n2="0">
                 <noise frq0="6.9181232" oct0="3" prs0="0.2142857" pow0="2.8271525" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
