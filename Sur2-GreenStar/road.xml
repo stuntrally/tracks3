@@ -3,7 +3,7 @@
     <dim tcMul="0.0746133" tcW="0.2" tcP="0.0753661" tcPW="0.3" tcC="0.2" lenDim="1.49741" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="620.375" lodPntLen="15.3035" visDist="1000" visBehind="800"/>
     <geom colN="5" colR="3.515" wsPm="5.03224" lsPm="1" stBox="1 14.2 36.3283" iDir="1" iChk1="55"/>
-    <stats length="3993.6858" width="18.11136" height="121.91953" onTer="49.160843" pipes="29.827663" onPipe="16.691685" bnkAvg="19.889795" bnkMax="68.772896"/>
+    <stats length="3991.5564" width="18.113142" height="121.91953" onTer="49.18707" pipes="29.843575" onPipe="16.70059" bnkAvg="19.889828" bnkMax="68.772896"/>
     <txt desc="Beautiful surreal space track in a star shape, close to a white dwarf star."/>
     <adv ice="Contains few long jumps, and one difficult on-pipe jump. With sharp, banked terrain, hairpin turns."/>
     <P pos="67.1204 0 -17.7728" w="18.44" aT="2" mtr="2"/>
