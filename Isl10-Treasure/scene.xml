@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="6230"/>
+    <ver num="3201" baseTrk="" secEd="6232"/>
     <car tires="0"/>
     <start pos="103.491 -197.938 6.13762" rot="-0.01358 0.049373 0.486004 1.7674" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.55579" gr="4"/>
@@ -18,10 +18,10 @@
     </fluids>
     <terrains>
         <terrain ofsZ="1.18877" triangle="1.18877" diff="1 1 1">
-            <texture on="1" file="island_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="12.7769" surf="DesertFast" dust="0.0" dustS="0.7" mud="0" smoke="0" tclr="0.135 0.477 0.440 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="-7.07763" hSm="13.5355" nOn="0" noise="0.370656" n_1="0" n2="0">
+            <texture on="1" file="island_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="12.7769" surf="DesertFast" dust="0" dustS="0.7" mud="0" smoke="0" tclr="0.135 0.477 0.440 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="-7.07763" hSm="13.5355" nOn="0" noise="0.370656" n_1="0" n2="0">
                 <noise frq0="28.1563" oct0="3" prs0="0.3" pow0="2.71217" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="desert_wet_d.jpg" fnorm="desert_wet_n.jpg" scale="8.07993" surf="DesertFast" dust="0.0" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.600 0.500 0.700 0.000" angMin="8.48684" angMax="24.2763" angSm="5.32895" hMin="-300" hMax="1.59817" hSm="7.08331" nOn="0" noise="0" n_1="0.505791" n2="0">
+            <texture on="1" file="desert_wet_d.jpg" fnorm="desert_wet_n.jpg" scale="8.07993" surf="DesertFast" dust="0" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.600 0.500 0.700 0.000" angMin="8.48684" angMax="24.2763" angSm="5.32895" hMin="-300" hMax="1.59817" hSm="7.08331" nOn="0" noise="0" n_1="0.505791" n2="0">
                 <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="1" file="grass_ground_d.jpg" fnorm="grass_ground_n.jpg" scale="9.1007" surf="GrassForest" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.148 0.818 0.220 0.900 0.000" angMin="0" angMax="21.135" angSm="12.4524" hMin="6.621" hMax="92.1053" hSm="0.99609" nOn="0" noise="1.01482" n_1="0.214286" n2="0">

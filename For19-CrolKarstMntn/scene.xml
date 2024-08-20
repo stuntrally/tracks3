@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="36591"/>
+    <ver num="3201" baseTrk="" secEd="36598"/>
     <car tires="0" damage="0.3"/>
     <start pos="-47.1358 406.134 52.6698" rot="-0.0768233 -0.000560422 0.994659 -0.0692886" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1.2043011" wtr="1" yW="1.7606506" tr="0.5" gr="4"/>
@@ -66,7 +66,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.109584" densTrees="2.2325814" grDensSmooth="3" trRdDist="0">
+    <veget densGrass="0.109584" densTrees2="1.3109176" grDensSmooth="3" trRdDist="0">
         <grass on="1" mtr="grass17" dens="0.416686" chan="0" minSx="1.38244" maxSx="1.60103" minSy="1.32315" maxSy="1.78484"/>
         <grass on="0" mtr="grass8g" dens="0.0206984" chan="0" minSx="1.80207" maxSx="1.92518" minSy="2.01575" maxSy="2.22271"/>
         <grass on="0" mtr="grass12y-" dens="0.0635" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.47402" maxSy="1.78484"/>
@@ -100,8 +100,13 @@
         <layer on="0" name="" dens="0.1" minScale="1.4" maxScale="1.8" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="40" minTerH="-100" maxTerH="-60" maxDepth="0"/>
         <layer on="0" name="" dens="0.1" minScale="0.79" maxScale="1.24" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="46" minTerH="-100" maxTerH="-60" maxDepth="3.5784698"/>
         <layer on="0" name="" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="9" maxRdist="20" maxTerAng="28.407969" minTerH="-0.65075684" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
-    <cam pos="497.943 244.504 436.618" dir="-0.626195 -0.295142 -0.721645"/>
+    <cam pos="497.943 244.504 436.618" dir="-0.6261948 -0.29514197 -0.7216449"/>
     <objects>
         <o name="concrete_bar" pos="7.99042 460.752 109.243" rot="-0.15193 -0.977905 -0.1435 0.0047479"/>
         <o name="concrete_bar" pos="7.30182 458.249 108.245" rot="-0.109898 -0.977848 -0.173402 -0.0407946"/>

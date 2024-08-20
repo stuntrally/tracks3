@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Isl10-Treasure" secEd="16942"/>
+    <ver num="3201" baseTrk="Isl10-Treasure" secEd="16945"/>
     <car tires="0"/>
     <start pos="-101.894 -110.865 102.925" rot="0.011509 -0.0483 0.55186 0.832472" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -90,7 +90,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.15" densTrees="1.58479" grDensSmooth="8" trRdDist="0">
+    <veget densGrass="0.15" densTrees2="4.0155935" grDensSmooth="8" trRdDist="0">
         <grass on="1" mtr="grass16g" dens="0.156817" chan="0" minSx="1.8719" maxSx="2.20346" minSy="2.97426" maxSy="3.53845"/>
         <grass on="1" mtr="grass3y" dens="0.278008" chan="0" minSx="1.44314" maxSx="1.68326" minSy="1.47402" maxSy="1.85431"/>
         <grass on="0" mtr="grass4v" dens="0.0171781" chan="0" minSx="2.34008" maxSx="2.81922" minSy="2.50147" maxSy="2.99676"/>

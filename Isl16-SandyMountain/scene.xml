@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="31862"/>
+    <ver num="3201" baseTrk="" secEd="31868"/>
     <car tires="0"/>
     <start pos="146.219 59.5812 -0.78501" rot="0.0153527 0.00140526 -0.995737 0.0911429" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -44,7 +44,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.275674" densTrees="1.39848" grDensSmooth="5" trRdDist="2">
+    <veget densGrass="0.275674" densTrees2="0.3327312" grDensSmooth="5" trRdDist="2">
         <grass on="1" mtr="grass17" dens="0.416686" chan="1" minSx="1.23684" maxSx="1.39749" minSy="1.18105" maxSy="1.50525"/>
         <grass on="1" mtr="grass9r" dens="0.0206984" chan="1" minSx="0.984347" maxSx="1.30854" minSy="0.984347" maxSy="1.14013"/>
         <grass on="1" mtr="grass2g" dens="0.032553" chan="1" minSx="1.68326" maxSx="1.80207" minSy="1.65011" maxSy="1.8719"/>

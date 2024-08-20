@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="1870"/>
+    <ver num="3201" baseTrk="" secEd="1872"/>
     <car tires="0"/>
     <start pos="2.58792 60.4404 1.88276" rot="1e-06 1.61648e-13 -0.818097 -0.575102" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="3.3512619" gr="4"/>
@@ -65,7 +65,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.2" densTrees="0.5" grDensSmooth="4" trRdDist="1">
+    <veget densGrass="0.2" densTrees2="7.510114" grDensSmooth="4" trRdDist="1">
         <grass on="1" mtr="grass16g" dens="0.102113" chan="0" minSx="1.8719" maxSx="2.20346" minSy="2.58204" maxSy="3.0705"/>
         <grass on="1" mtr="grass3y" dens="0.180137" chan="0" minSx="1.44314" maxSx="1.68326" minSy="1.47402" maxSy="1.85431"/>
         <grass on="1" mtr="grass4v" dens="0.00948338" chan="0" minSx="2.34008" maxSx="2.81922" minSy="2.23359" maxSy="2.61289"/>
@@ -87,6 +87,11 @@
         <layer on="1" name="rock_n2-GYel.mesh" dens="0.0657122" minScale="0.440917" maxScale="0.720783" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="20.7587" minTerH="-5" maxTerH="32" maxDepth="5"/>
         <layer on="1" name="bush01.mesh" dens="0.0918052" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-0.5" maxTerH="62" maxDepth="0.099401936"/>
         <layer on="1" name="bush04.mesh" dens="0.037377775" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-0.5" maxTerH="62" maxDepth="0.5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

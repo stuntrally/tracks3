@@ -3,7 +3,7 @@
     <dim tcMul="0.12" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.05" merge="1" mergeLen="475.814" lodPntLen="26.4098" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 13.7961 14.408" iDir="-1" iChk1="4"/>
-    <stats length="1544.9" width="10.247" height="117.492" onTer="36.1773" pipes="9.71974" onPipe="9.71974" bnkAvg="8.74055" bnkMax="53.8507"/>
+    <stats length="1544.8976" width="10.2470255" height="117.491776" onTer="36.177273" pipes="9.719745" onPipe="9.719745" bnkAvg="8.740547" bnkMax="53.850723"/>
     <txt desc="A small forest track in a mountain region with a short and easy on-pipe part and a few other stunt elements."/>
     <adv ice="While the stunt elements aren&apos;t that difficult, be careful of the trees which are close to the road."/>
     <P pos="92.5708 0 -2.74612" w="9.976" a="0" ar="0" aT="2" mtr="1" chkR="1" ckL="2"/>

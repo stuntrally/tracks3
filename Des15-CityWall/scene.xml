@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="2950"/>
+    <ver num="3201" baseTrk="" secEd="2953"/>
     <car tires="0"/>
     <start pos="255.6 -61.5544 64.5061" rot="0.014013 -0.016447 0.648402 0.761007" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.3064516" lD="1.298387" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -90,7 +90,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.611453" densTrees="0.731251" grDensSmooth="6" trRdDist="1">
+    <veget densGrass="0.611453" densTrees2="1.4232149" grDensSmooth="6" trRdDist="1">
         <grass on="1" mtr="grass12y-" dens="0.350178" chan="0" minSx="1.36477" maxSx="2.02105" minSy="0.783512" maxSy="0.999327"/>
         <grass on="1" mtr="grass5" dens="0.0542012" chan="0" minSx="1.29733" maxSx="1.68347" minSy="1.09393" maxSy="1.37848"/>
         <grass on="1" mtr="grassSavanna" dens="0.0788306" chan="0" minSx="1.18059" maxSx="1.6682" minSy="1.79237" maxSy="2.28213"/>
@@ -117,6 +117,11 @@
         <layer on="1" name="palm_plant.mesh" dens="0.1" minScale="1.68" maxScale="2.21" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.07" minTerH="27.201736" maxTerH="43.470715" maxDepth="0"/>
         <layer on="1" name="fern_bush.mesh" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="13.40564" maxTerH="43.470715" maxDepth="0"/>
         <layer on="1" name="palm_arabic.mesh" dens="0.046656" minScale="0.9970161" maxScale="1.5774816" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="30.03" minTerH="22.255959" maxTerH="43.470715" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

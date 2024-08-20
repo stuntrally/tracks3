@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="X3-Cloud" secEd="5037"/>
+    <ver num="3201" baseTrk="X3-Cloud" secEd="5039"/>
     <car tires="0"/>
     <start pos="192.551 -87.0152 -0.661907" rot="1e-06 -1e-06 0.702998 0.711207" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="-1" yW="-0.8" tr="0.8316966" gr="3.6451614"/>
@@ -65,7 +65,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.001" densTrees="0.4" grDensSmooth="6" trRdDist="1">
+    <veget densGrass="0.001" densTrees2="0.7785097" grDensSmooth="6" trRdDist="1">
         <grass on="1" mtr="grass4v" dens="0.11654" chan="0" minSx="1.8194" maxSx="2.79743" minSy="1.22276" maxSy="2.26148"/>
         <grass on="1" mtr="grass5" dens="0.0761433" chan="0" minSx="1.12667" maxSx="1.44314" minSy="1.2796" maxSy="1.76769"/>
         <grass on="0" mtr="grassJungle" dens="0.032553" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9"/>
@@ -90,6 +90,11 @@
         <layer on="1" name="bush13tall_ylw.mesh" dens="0.02867378" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-10" maxTerH="10" maxDepth="0.5"/>
         <layer on="1" name="tropic_leaves.mesh" dens="0.087616004" minScale="1.21" maxScale="1.89" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="27.49" minTerH="-4.555313" maxTerH="6.507592" maxDepth="0.5"/>
         <layer on="1" name="palm_fan.mesh" dens="0.010816" minScale="0.9" maxScale="1.5861014" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="25.836554" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

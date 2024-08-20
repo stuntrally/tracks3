@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="TestC4-ow" secEd="5868"/>
+    <ver num="3201" baseTrk="TestC4-ow" secEd="5870"/>
     <car tires="0" noWrongChks="1"/>
     <start pos="-107.733 47.9366 0.726483" rot="5.96046e-08 -8.44179e-08 -0.694863 0.719148" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -83,16 +83,16 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="52" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="79" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="106" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="jungle_tree_alien.mesh" mtr="" dens="0.0784369" minScale="1.61" maxScale="2.05" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="37.2386" minTerH="5.83784" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="gum_tree_alien.mesh" mtr="" dens="0.109652" minScale="1.45" maxScale="2.22" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="45.4727" minTerH="5.83784" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="rock24alienTriangle.mesh" mtr="" dens="0.232898" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="3.56757" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="jungle_tree_alien.mesh" dens="0.0784369" minScale="1.61" maxScale="2.05" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="37.2386" minTerH="5.83784" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="gum_tree_alien.mesh" dens="0.109652" minScale="1.45" maxScale="2.22" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="45.4727" minTerH="5.83784" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="rock24alienTriangle.mesh" dens="0.232898" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="3.56757" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="mushrooms2.mesh" mtr="mushrooms_grn" dens="0.120177776" minScale="0.86977273" maxScale="1.5096424" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="25.5136" minTerH="-4.86487" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="mushrooms3.mesh" mtr="mushrooms_grn" dens="0.13739377" minScale="0.96566576" maxScale="1.5180136" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="shrooms_tall.mesh" mtr="shrooms_tall_grn" dens="0.179776" minScale="1.0355233" maxScale="2.7757509" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="21.33" minTerH="-4.86487" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="rock23alienBlock.mesh" mtr="" dens="0.216402" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="1" name="rock47alienRound1Green.mesh" mtr="" dens="0.111463" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="5" maxTerH="100" maxDepth="1"/>
-        <layer on="1" name="rock48alienRound2Green.mesh" mtr="" dens="0.0793242" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="5" maxTerH="100" maxDepth="1"/>
-        <layer on="1" name="shroom_tree.mesh" mtr="" dens="0.06829512" minScale="1.3408784" maxScale="2.6400719" ofsY="0" addTrRdDist="12" maxRdist="20" maxTerAng="40.000004" minTerH="0.6399956" maxTerH="100" maxDepth="1.152"/>
+        <layer on="1" name="rock23alienBlock.mesh" dens="0.216402" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock47alienRound1Green.mesh" dens="0.111463" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="5" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock48alienRound2Green.mesh" dens="0.0793242" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="5" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="shroom_tree.mesh" dens="0.06829512" minScale="1.3408784" maxScale="2.6400719" ofsY="0" addTrRdDist="12" maxRdist="20" maxTerAng="40.000004" minTerH="0.6399956" maxTerH="100" maxDepth="1.152"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

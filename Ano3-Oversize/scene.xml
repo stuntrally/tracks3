@@ -1,12 +1,15 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="52887"/>
+    <ver num="3201" baseTrk="" secEd="52894"/>
     <car tires="0" damage="0.0645161" road1mtr="0" denyRev="1" gravity="8.21"/>
     <start pos="-370.351 -180.498 214.661" rot="2.68221e-07 1.65891e-07 -0.975239 0.221165" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Space"/>
     <sky material="sky/anomaly_02"/>
     <fog color="0.308 0.618 0.820 1.926 0.252" color2="0.684 0.618 0.397 1.040 0.219" linStart="526.625" linEnd="547.901"/>
     <fogH color="0.151 1.000 0.713 0.669 0.537" height="7.2569" dens="0.136501" linStart="13.212" linEnd="168.52"/>
     <light pitch="18" yaw="-35" ambient="0.556 0.070 1.145 0.000 0.471" diffuse="0.281 0.822 1.446 0.000 0.717" specular="0.663 0.395 1.968 0.000 0.285"/>
+    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="0" name="anomaly jelly 3 solid ice" pos="676.298 609.022 346.826" rot="0 0 0" size="444.363 20 269.636" tile="0.01 0.01"/>
         <fluid hq="0" name="mud white anomaly" pos="-344.805 24.6052 -604.067" rot="0 0 0" size="633.059 147.026 607.858" tile="0.01 0.01"/>
@@ -66,26 +69,37 @@
             <par dust="Dust" mud="SnowDust" smoke="MarsDust"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.213018" densTrees="0.685016" grPage="150" grDist="150" grDensSmooth="6" trPage="300" trDist="800" trDistImp="1200" trRdDist="0">
-        <grass on="0" mtr="grassAnomaly04c" dens="0.215627" chan="1" minSx="1.22" maxSx="1.44" minSy="2.15" maxSy="2.5" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
-        <grass on="0" mtr="grassZ11" dens="0.0615638" chan="0" minSx="1.54354" maxSx="2.01211" minSy="1.58888" maxSy="1.98891" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassZ10" dens="0.0703623" chan="0" minSx="1.87" maxSx="2.23" minSy="1.86" maxSy="2.26" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassZ13r" dens="0.0480257" chan="2" minSx="1.74187" maxSx="2.18913" minSy="1.7643" maxSy="2.39153" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassZ14r" dens="0.0471745" chan="1" minSx="1.77752" maxSx="2.28005" minSy="1.88293" maxSy="2.32054" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassZ1r" dens="0.071504" chan="1" minSx="1.30278" maxSx="1.70506" minSy="1.35055" maxSy="1.5772" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+    <veget densGrass="0.213018" densTrees2="0.24222095" grDensSmooth="6" trRdDist="0">
+        <grass on="0" mtr="grassAnomaly04c" dens="0.215627" chan="1" minSx="1.22" maxSx="1.44" minSy="2.15" maxSy="2.5"/>
+        <grass on="0" mtr="grassZ11" dens="0.0615638" chan="0" minSx="1.54354" maxSx="2.01211" minSy="1.58888" maxSy="1.98891"/>
+        <grass on="0" mtr="grassZ10" dens="0.0703623" chan="0" minSx="1.87" maxSx="2.23" minSy="1.86" maxSy="2.26"/>
+        <grass on="0" mtr="grassZ13r" dens="0.0480257" chan="2" minSx="1.74187" maxSx="2.18913" minSy="1.7643" maxSy="2.39153"/>
+        <grass on="0" mtr="grassZ14r" dens="0.0471745" chan="1" minSx="1.77752" maxSx="2.28005" minSy="1.88293" maxSy="2.32054"/>
+        <grass on="0" mtr="grassZ1r" dens="0.071504" chan="1" minSx="1.30278" maxSx="1.70506" minSy="1.35055" maxSy="1.5772"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
         <gchan amin="0" amax="30" asm="10" hmin="-200" hmax="200" hsm="10" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="46" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="67" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="88" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="crystal1_anomaly.mesh" dens="0.0526383" minScale="3.61437" maxScale="4" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-1.865284" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="crystal2_anomaly.mesh" dens="0.182513" minScale="3.56139" maxScale="4" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="500" maxTerH="700" maxDepth="0"/>
-        <layer on="0" name="rock_B03.mesh" dens="0.0652058" minScale="0.71" maxScale="4" ofsY="0" addTrRdDist="5" maxRdist="100" windFx="0" windFy="0" maxTerAng="37.74" minTerH="-4" maxTerH="32.2168" maxDepth="2"/>
-        <layer on="1" name="balloon2_anomaly.mesh" dens="0.0737086" minScale="3.52636" maxScale="4" ofsY="0" addTrRdDist="3" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-100" maxTerH="150" maxDepth="0"/>
-        <layer on="1" name="rock02brown2flat_anomaly.mesh" dens="0.184886" minScale="3.47425" maxScale="4" ofsY="0" addTrRdDist="4" maxRdist="100" windFx="0" windFy="0" maxTerAng="26.93" minTerH="-100" maxTerH="2222" maxDepth="0"/>
-        <layer on="0" name="rock_L2.mesh" dens="0.0999996" minScale="0.77" maxScale="1.25" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="30.41" minTerH="-100" maxTerH="20.1081" maxDepth="2"/>
+        <layer on="1" name="crystal1_anomaly.mesh" dens="0.0526383" minScale="3.61437" maxScale="4" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="26.93" minTerH="-1.865284" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal2_anomaly.mesh" dens="0.182513" minScale="3.56139" maxScale="4" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="26.93" minTerH="500" maxTerH="700" maxDepth="0"/>
+        <layer on="0" name="rock_B03.mesh" dens="0.0652058" minScale="0.71" maxScale="4" ofsY="0" addTrRdDist="5" maxRdist="100" maxTerAng="37.74" minTerH="-4" maxTerH="32.2168" maxDepth="2"/>
+        <layer on="1" name="balloon2_anomaly.mesh" dens="0.0737086" minScale="3.52636" maxScale="4" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="26.93" minTerH="-100" maxTerH="150" maxDepth="0"/>
+        <layer on="1" name="rock02brown2flat_anomaly.mesh" dens="0.184886" minScale="3.47425" maxScale="4" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="26.93" minTerH="-100" maxTerH="2222" maxDepth="0"/>
+        <layer on="0" name="rock_L2.mesh" dens="0.0999996" minScale="0.77" maxScale="1.25" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="30.41" minTerH="-100" maxTerH="20.1081" maxDepth="2"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
@@ -250,4 +264,6 @@
         <e name="ElectricSparks" pos="-265.493 32.3038 58.8273" sc="91.9629 10.0569 80.1922" up="0 1 0" rot="0" rate="12.4089" st="0" psc="6.18536"/>
         <e name="GreaseJellyfallLow" pos="-524.806 239.852 212.501" sc="164.212 120.86 657.543" up="0 1 0" rot="0" rate="108.477" st="0" psc="3.51989"/>
     </emitters>
+    <collectible/>
+    <fields/>
 </scene>
