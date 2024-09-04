@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="WetDust" mud="SnowMud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.652071" diff="1 1 1" veget="0.3382353">
+        <terrain ofsZ="0" triangle="8.652071" diff="1 1 1" horiz="1" veget="0.3382353">
             <texture on="1" file="stones_gray_d.jpg" fnorm="stones_gray_n.jpg" scale="10.3847" surf="DesertBumpy" dust="0" dustS="1" mud="0" smoke="0" tclr="0.167 0.000 0.361 0.700 0.000" angMin="0" angMax="10.0391" angSm="4.50454" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="25.0276" oct0="3" prs0="0.232522" pow0="0.865852" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

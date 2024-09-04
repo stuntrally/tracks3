@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="10715"/>
+    <ver num="3203" baseTrk="" secEd="10826"/>
     <car tires="0"/>
     <start pos="162.515 19.5298 5.16513" rot="-4.17233e-07 -3.29572e-07 0.894982 0.446109" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="1.3785" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="1.3785" diff="1 1 1" horiz="1" veget="0">
             <texture on="1" file="mntn_gray_d.jpg" fnorm="mntn_dark_n.jpg" scale="12.4157" surf="roadJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="17.4771" angSm="1.97797" hMin="-300" hMax="-12.724" hSm="20" nOn="0" noise="0.292899" n_1="0" n2="0">
                 <noise frq0="4.04511" oct0="3" prs0="0.511927" pow0="3.76274" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -62,7 +62,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="1" posX="-220" posZ="-120" diff="1 1 1" bL="0" bR="0" bF="0" bB="0">
+        <terrain ofsZ="0" triangle="1" posX="-220" posZ="-120" diff="1 1 1" bL="0" bR="0" bF="0" bB="0" veget="0.18137255">
             <texture on="1" file="desert_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="8.13582" surf="roadJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="16.2385" angSm="2.45833" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.304734" n_1="0" n2="0">
                 <noise frq0="17.795" oct0="3" prs0="0.3" pow0="1.06667" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -87,7 +87,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="1" posX="120" posZ="120" diff="1 1 1" bL="0" bR="0" bF="0" bB="0">
+        <terrain ofsZ="0" triangle="1" posX="120" posZ="120" diff="1 1 1" bL="0" bR="0" bF="0" bB="0" veget="0">
             <texture on="1" file="ground_crackedv_d.jpg" fnorm="ground_cracked_n.jpg" scale="8.13582" surf="roadJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="22.2936" angSm="5.48467" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.677515" n_1="0" n2="0">
                 <noise frq0="17.795" oct0="3" prs0="0.3" pow0="1.06667" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -112,7 +112,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="1.03426" diff="1 1 1" bL="0" bR="0" bF="0" bB="0">
+        <terrain ofsZ="0" triangle="1.03426" diff="1 1 1" bL="0" bR="0" bF="0" bB="0" veget="0">
             <texture on="1" file="space_gray_d.jpg" fnorm="space_gray_n.jpg" scale="8.13582" surf="roadJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="14.1743" angSm="1.97797" hMin="-300" hMax="28.4946" hSm="20" nOn="0" noise="0.988166" n_1="0" n2="0">
                 <noise frq0="17.795" oct0="3" prs0="0.565138" pow0="5.36134" frq1="28.5" oct1="3" prs1="0.434862" pow1="1.2"/>
             </texture>
@@ -186,7 +186,7 @@
         <o name="satellite3" pos="150.00539 195.12114 79.591064" rot="0.68410534 -0.7293824 0 0"/>
     </objects>
     <emitters>
-        <e name="SmokeBrown" pos="99.8797 124.27834 172.48668" sc="54.806458 9.903299 56.768948" up="0 1 0" rot="0" rate="95.662865" st="0" psc="0.986696"/>
+        <e name="SmokeBrown" pos="99.8797 124.27834 172.48668" sc="54.806458 9.903299 56.768948" yaw="0" pt="-90" rate="95.662865" st="0" psc="0.986696"/>
     </emitters>
     <collectible>
         <c n="" gr="0" pos="204.77837 10.314008 6.8999352" sc="1"/>
