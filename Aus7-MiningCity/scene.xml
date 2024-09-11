@@ -34,7 +34,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Adust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="0.803372" diff="1 1 1" bL="0" bR="0" bF="0" bB="0">
+        <terrain ofsZ="0" triangle="0.803372" diff="1 1 1" bL="0" bR="0" bF="0" bB="0" veget="0.0">
             <texture on="1" file="space_m_concrete_d.jpg" fnorm="space_metal_n.jpg" scale="7.00768" surf="Metal" dust="0" dustS="1" mud="0" smoke="1" tclr="0.000 0.000 0.060 0.700 0.000" angMin="0" angMax="90" angSm="0.984752" hMin="-300" hMax="0.179214" hSm="0.254608" nOn="0" noise="0.739645" n_1="0" n2="0.4">
                 <noise frq0="2.03791" oct0="3" prs0="0.613112" pow0="1.92058" frq1="33.9915" oct1="3" prs1="0.4" pow1="3.85922"/>
             </texture>
@@ -59,7 +59,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Adust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.5669" diff="1 1 1" horiz="1" collis="0">
+        <terrain ofsZ="0" triangle="10.5669" diff="1 1 1" horiz="1" collis="0" veget="0.2004902">
             <texture on="1" file="adesert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="39.7897" surf="DesertBumpy" dust="0.5" dustS="1" mud="0.5" smoke="0" tclr="0.088 0.810 0.420 0.800 0.000" angMin="0" angMax="22.349" angSm="12.8159" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.515254" n_1="0" n2="0.4">
                 <noise frq0="73.9411" oct0="3" prs0="0.613112" pow0="1.92058" frq1="33.9915" oct1="3" prs1="0.4" pow1="3.85922"/>
             </texture>

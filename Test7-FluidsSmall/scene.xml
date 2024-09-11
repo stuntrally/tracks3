@@ -76,7 +76,7 @@
         <layer on="1" name="jungle3_tall.mesh" dens="0.0021777777" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="38.53" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="jungle2_wide.mesh" dens="0.002304" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="38.53" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="jungle1_wide.mesh" dens="0.002055111" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="38.53" minTerH="-100" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="jungle4_big.mesh" dens="0.002055111" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="38.53" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="jungle4_mango.mesh" dens="0.002055111" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="38.53" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="jungle5_ceiba.mesh" dens="0.0021777777" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="12.969307" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0"/>
     </veget>

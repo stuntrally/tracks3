@@ -80,7 +80,7 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="79" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <layer on="1" name="tree_jng1g.mesh" dens="0.0918052" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="13.568964" minTerH="-45.943604" maxTerH="29.414316" maxDepth="0"/>
-        <layer on="1" name="jungle4_big.mesh" dens="0.0999996" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="11.114007" minTerH="-43.340565" maxTerH="30.455532" maxDepth="0"/>
+        <layer on="1" name="jungle4_mango.mesh" dens="0.0999996" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="11.114007" minTerH="-43.340565" maxTerH="30.455532" maxDepth="0"/>
         <layer on="1" name="palm_coconut1.mesh" dens="0.13346843" minScale="1.1" maxScale="1.51" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="28.03" minTerH="0.91106415" maxTerH="49.718006" maxDepth="0"/>
         <layer on="1" name="rock22jng1Harsh.mesh" dens="0.0282506" minScale="0.7" maxScale="1.80451" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="43.908882" minTerH="-100" maxTerH="12.1659" maxDepth="1"/>
         <layer on="1" name="rock30grayGreen.mesh" dens="0.0306745" minScale="0.7" maxScale="2.00064" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="36.60457" minTerH="-100" maxTerH="100" maxDepth="1"/>
