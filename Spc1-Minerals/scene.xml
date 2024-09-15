@@ -31,9 +31,9 @@
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture road="1" surf="Metal" dust="0" dustS="0.2" mud="0" smoke="0.5" tclr="0.000 0.000 0.188 0.713 0.000"/>
-            <texture road="2" surf="roadAsphalt" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
+            <texture road="2" surf="Asphalt" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
             <texture road="3" surf="roadDesert" dust="0" dustS="0" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
-            <texture road="4" surf="roadAsphalt" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
+            <texture road="4" surf="Asphalt" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
             <par dust="Smoke" mud="SnowMud" smoke="Smoke"/>
         </terrain>
     </terrains>
