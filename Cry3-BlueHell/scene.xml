@@ -32,7 +32,7 @@
             </texture>
             <texture road="1" surf="roadGravel" dust="0" dustS="0" mud="0.026936" smoke="0" tclr="0.628 0.525 0.370 1.010 0.184"/>
             <texture road="2" surf="roadDesert" dust="0" dustS="0" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
-            <texture road="3" surf="" dust="0" dustS="0" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
+            <texture road="3" surf="roadDesert" dust="0" dustS="0" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
             <texture road="4" surf="roadSnow" dust="0.00954654" dustS="0.183771" mud="0.0381862" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="SnowDust"/>
         </terrain>
@@ -57,7 +57,7 @@
             </texture>
             <texture road="1" surf="roadGravel" dust="0" dustS="0" mud="0.026936" smoke="0" tclr="0.628 0.525 0.370 1.010 0.184"/>
             <texture road="2" surf="roadDesert" dust="0" dustS="0" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
-            <texture road="3" surf="" dust="0" dustS="0" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
+            <texture road="3" surf="roadDesert" dust="0" dustS="0" mud="0" smoke="0" tclr="0.167 0.500 0.400 0.800 0.000"/>
             <texture road="4" surf="roadSnow" dust="0.00954654" dustS="0.183771" mud="0.0381862" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="SnowDust"/>
         </terrain>

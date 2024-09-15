@@ -81,7 +81,6 @@
         <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <layer on="1" name="fir06.mesh" dens="0.363571" minScale="0.0399992" maxScale="0.119998" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="25.9803" minTerH="-100" maxTerH="19" maxDepth="5"/>
         <layer on="1" name="beech2_tall.mesh" dens="0.05" minScale="0.6875184" maxScale="1.0551434" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-100" maxTerH="16.1468" maxDepth="0"/>
-        <layer on="1" name="shroom2_2.mesh" dens="0.282644" minScale="0.316406" maxScale="0.491193" ofsY="0" addTrRdDist="1" maxRdist="4" maxTerAng="32.7324" minTerH="-100" maxTerH="18" maxDepth="5"/>
         <layer on="1" name="pine2_tall_norm.mesh" dens="0.08" minScale="0.428562" maxScale="0.917985" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="27.9242" minTerH="-100" maxTerH="20.5505" maxDepth="5"/>
         <layer on="1" name="fern.mesh" dens="0.24" minScale="0.15" maxScale="0.25" ofsY="0" addTrRdDist="1" maxRdist="4" maxTerAng="30.92" minTerH="-100" maxTerH="22" maxDepth="0"/>
         <layer on="1" name="rock25dark2Harsh2.mesh" dens="0.0922169" minScale="0.889881" maxScale="1.50391" ofsY="0" addTrRdDist="5" maxRdist="18" maxTerAng="34.34" minTerH="-100" maxTerH="18" maxDepth="1"/>

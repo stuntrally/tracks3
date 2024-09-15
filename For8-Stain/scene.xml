@@ -81,7 +81,6 @@
         <layer on="1" name="elm3.mesh" dens="0.04053511" minScale="0.9" maxScale="1.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="beech2_tall.mesh" dens="0.04107378" minScale="0.9" maxScale="1.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="fir06.mesh" dens="0.27737775" minScale="0.0399986" maxScale="0.119995" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="shroom1_2.mesh" dens="0.0399999" minScale="0.149999" maxScale="0.249999" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="rock24triangle.mesh" dens="0.0195526" minScale="0.628276" maxScale="0.960104" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="31.8055" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="rock23dark1block.mesh" dens="0.0363581" minScale="0.633223" maxScale="0.915006" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="31.8055" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="fern.mesh" dens="0.24" minScale="0.15" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="30.92" minTerH="-100" maxTerH="100" maxDepth="0"/>

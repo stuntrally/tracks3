@@ -80,7 +80,6 @@
         <layer on="1" name="fir06.mesh" dens="0.449998" minScale="0.039998" maxScale="0.119998" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="beech1_wide.mesh" dens="0.026460443" minScale="0.8076704" maxScale="1.1223303" ofsY="0" addTrRdDist="3" maxRdist="20" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="beech2_tall.mesh" dens="0.05137778" minScale="0.8076704" maxScale="1.1639796" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="shroom2_3.mesh" dens="0.34" minScale="0.214255" maxScale="0.354913" ofsY="0" addTrRdDist="1" maxRdist="4" maxTerAng="21.24891" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="fern2.mesh" dens="0.24" minScale="0.18" maxScale="0.32" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="29.12" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="rock15ironSpecks.mesh" dens="0.0211645" minScale="0.947071" maxScale="1.47758" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="bush05.mesh" dens="0.0999996" minScale="1.6" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
