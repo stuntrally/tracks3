@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3789"/>
+    <ver num="3203" baseTrk="" secEd="3789"/>
     <car tires="0"/>
     <start pos="-128.418 59.5623 4.4787" rot="0.00788299 0.04157 0.697755 0.715144" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.1732678" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="2.43558" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="2.43558" diff="1 1 1" horiz="1" veget="0.6">
             <texture on="0" file="" fnorm="" scale="4.2271" surf="Default" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.184 0.826 0.460 0.700 0.000" angMin="0" angMax="34.3421" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.991228" n_1="0" n2="0">
                 <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -63,7 +63,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.1" densTrees="1.5" grDensSmooth="6" trRdDist="0">
+    <veget densGrass="0.1" densTrees2="5.1020293" grDensSmooth="6" trRdDist="0">
         <grass on="1" mtr="grass3y" dens="0.150475" chan="0" minSx="0.864177" maxSx="1.32315" minSy="0.763556" maxSy="1.06984"/>
         <grass on="1" mtr="grass9r" dens="0.0615311" chan="0" minSx="1.6" maxSx="1.85" minSy="1.43406" maxSy="1.9049"/>
         <grass on="1" mtr="grass16r" dens="0.0392228" chan="0" minSx="1.92127" maxSx="2.37285" minSy="1.82415" maxSy="2.63671"/>
@@ -87,6 +87,11 @@
         <layer on="1" name="bush04.mesh" dens="0.111069" minScale="2.1100566" maxScale="2.8389294" ofsY="0" addTrRdDist="1" maxRdist="17" maxTerAng="38.368397" minTerH="-100" maxTerH="100" maxDepth="0.5"/>
         <layer on="1" name="blueberryAtm.mesh" dens="0.207936" minScale="1.3102309" maxScale="2.1100566" ofsY="0" addTrRdDist="1" maxRdist="17" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0.5"/>
         <layer on="0" name="tree70lowMidDn.mesh" dens="0.0886472" minScale="1.20445" maxScale="1.41907" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="50" minTerH="-100" maxTerH="20" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

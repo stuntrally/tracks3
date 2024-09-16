@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="8907"/>
+    <ver num="3203" baseTrk="" secEd="8907"/>
     <car tires="0"/>
     <start pos="-60.0333 -70.7994 -0.264727" rot="-0.007499 0.001133 -0.272761 -0.962067" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.4828955" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.073" diff="1 1 1" horiz="1" veget="0.7004902">
+        <terrain ofsZ="0" triangle="10.073" diff="1 1 1" horiz="1" veget="0.6004902">
             <texture on="1" file="island_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="8.90945" surf="DesertFast" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.409 0.440 0.700 0.000" angMin="0" angMax="16.5558" angSm="12.6335" hMin="-300" hMax="70" hSm="20" nOn="0" noise="0.54142" n_1="0" n2="0.585799">
                 <noise frq0="1.66793" oct0="4" prs0="0.455046" pow0="3.76274" frq1="2.24716" oct1="5" prs1="0.67156" pow1="2.71008"/>
             </texture>
@@ -169,8 +169,8 @@
         <o name="han_barracks" pos="-119.511 128.827 39.6632" rot="-0.817973 0.575255 0 0"/>
     </objects>
     <emitters>
-        <e name="FireOrangeTiny" pos="192.95 97.6365 -106.582" sc="0.00527593 0.0090747 0.0167485" up="0 1 0" rot="0" rate="24.3526" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="91.272 0.36898 -26.9076" sc="0.0145 0.0101133 0.0272403" up="0 1 0" rot="0" rate="10.7605" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="192.95 97.6365 -106.582" sc="0.00527593 0.0090747 0.0167485" yaw="0" pt="-90" rate="24.3526" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="91.272 0.36898 -26.9076" sc="0.0145 0.0101133 0.0272403" yaw="0" pt="-90" rate="10.7605" st="0" psc="1"/>
     </emitters>
     <collectible>
         <c n="gem1v" gr="0" pos="-147.58609 60.064045 -46.6754" sc="1"/>

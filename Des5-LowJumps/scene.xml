@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="X3-Cloud" secEd="4324"/>
+    <ver num="3203" baseTrk="X3-Cloud" secEd="4324"/>
     <car tires="0"/>
     <start pos="170.072 -156.602 -0.698752" rot="2e-06 -1e-06 0.500836 0.865566" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.5524193" lD="1.548387" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.2505492" gr="4"/>
@@ -40,7 +40,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="6.49784" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="6.49784" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="0" file="desert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="16.2057" surf="DesertFast" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="0" angMax="14.2661" angSm="2.12444" hMin="-147.704" hMax="280.263" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="43.2116" oct0="5" prs0="0.7" pow0="2" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

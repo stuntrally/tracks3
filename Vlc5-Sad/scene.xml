@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="4986"/>
+    <ver num="3203" baseTrk="" secEd="4986"/>
     <car tires="0" damage="0.90085" needLights="1"/>
     <start pos="210.537 132.52 -1.18832" rot="3.55271e-15 0 0.934189 0.35678" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.3" lA="2.169355" lD="2.173387" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -47,7 +47,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="11.5314" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="11.5314" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="1" file="ground_crackedv_d.jpg" fnorm="ground_cracked_n.jpg" scale="10.4284" surf="DesertFast" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.167 0.100 0.200 0.700 0.000" angMin="0" angMax="12.8571" angSm="7.91189" hMin="-300" hMax="444" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="22.2" oct0="4" prs0="0.532094" pow0="0.936295" frq1="28.5" oct1="3" prs1="0.4" pow1="2.99702"/>
             </texture>
@@ -132,7 +132,7 @@
         <o name="big_tire" pos="208.77 11.0371 -2.55978" rot="0.0133952 0.998247 0.0569941 0.00867831"/>
     </objects>
     <emitters>
-        <e name="SmokeBlack" pos="-357.529 6.48389 179.13" sc="8.28221 9.88913 4.72853" up="0 1 0" rot="0" rate="13.4875" st="0" psc="0.539656"/>
+        <e name="SmokeBlack" pos="-357.529 6.48389 179.13" sc="8.28221 9.88913 4.72853" yaw="0" pt="-90" rate="13.4875" st="0" psc="0.539656"/>
     </emitters>
     <collectible/>
     <fields/>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="5765"/>
+    <ver num="3203" baseTrk="" secEd="5765"/>
     <car tires="0"/>
     <start pos="-43.4418 -61.272 18.7027" rot="3.86676e-09 -0.023734 1.16312e-06 0.99973" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -63,7 +63,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.2" densTrees="0.632152" grDensSmooth="1" trRdDist="1">
+    <veget densGrass="0.2" densTrees2="2.616611" grDensSmooth="1" trRdDist="1">
         <grass on="1" mtr="grass17" dens="0.416686" chan="0" minSx="1.57818" maxSx="1.76089" minSy="1.6379" maxSy="2.10623"/>
         <grass on="1" mtr="grass9r" dens="0.0206984" chan="0" minSx="0.984347" maxSx="1.30854" minSy="0.984347" maxSy="1.14013"/>
         <grass on="1" mtr="grass2" dens="0.032553" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.78484" maxSy="2.07114"/>
@@ -84,6 +84,11 @@
         <layer on="1" name="rock_Y03.mesh" dens="0.107837" minScale="0.821438" maxScale="2.43805" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="20.2214" minTerH="-100" maxTerH="100" maxDepth="5"/>
         <layer on="1" name="rock01brown1up.mesh" dens="0.1" minScale="1.28584" maxScale="2.38616" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="34.34" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="1" name="blueberryAtm.mesh" dens="0.19126046" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
@@ -138,8 +143,8 @@
         <o name="obstacleRing" mat="obstaclesBlack" pos="-30.6916 54.1542 13.8969" rot="0.199893 -0.979742 -0.00215319 0.0105535" sc="2.29417 2.29417 2.29417"/>
     </objects>
     <emitters>
-        <e name="Cloud7MistyOrange" pos="26.9017 13.2435 36.0112" sc="159.065 51.2219 135.672" up="0 1 0" rot="0" rate="3.93698" st="1" psc="1"/>
-        <e name="Cloud7MistyOrange" pos="58.4535 47.3108 145.985" sc="347.665 101.745 601.268" up="0 1 0" rot="0" rate="10" st="1" psc="2.36531"/>
+        <e name="Cloud7MistyOrange" pos="26.9017 13.2435 36.0112" sc="159.065 51.2219 135.672" yaw="0" pt="-90" rate="3.93698" st="1" psc="1"/>
+        <e name="Cloud7MistyOrange" pos="58.4535 47.3108 145.985" sc="347.665 101.745 601.268" yaw="0" pt="-90" rate="10" st="1" psc="2.36531"/>
     </emitters>
     <collectible>
         <c n="gem1o" gr="0" pos="79.92577 27.2911 -44.251816" sc="1"/>

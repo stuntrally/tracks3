@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Aus5-TopTwist" secEd="6994"/>
+    <ver num="3203" baseTrk="Aus5-TopTwist" secEd="6994"/>
     <car tires="0" damage="0.698225"/>
     <start pos="91.2807 -232.74 90.3403" rot="0.0125344 -0.00579249 0.89534 0.445233" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="roadForest" dust="0.2" dustS="0.4" mud="0" smoke="0" tclr="0.042 0.593 0.540 0.700 0.000"/>
             <par dust="Adust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.22789" diff="1.12 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.22789" diff="1.12 1 1" horiz="1" veget="0.1">
             <texture on="1" file="adesert_cracks_d.jpg" fnorm="desert_cracks_n.jpg" scale="27.8391" surf="DesertFast" dust="0.6" dustS="1" mud="0.5" smoke="0" tclr="0.060 0.583 0.480 0.800 0.000" angMin="0" angMax="30.75" angSm="16.2301" hMin="-300" hMax="466.667" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="2.62838" oct0="4" prs0="0.49" pow0="1.9" frq1="1.25109" oct1="3" prs1="0.461644" pow1="2.97877"/>
             </texture>
@@ -64,7 +64,7 @@
             <texture road="4" surf="roadForest" dust="0.2" dustS="0.4" mud="0" smoke="0" tclr="0.042 0.593 0.540 0.700 0.000"/>
             <par dust="Adust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="18.4602" diff="1.12 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="18.4602" diff="1.12 1 1" horiz="2" veget="0">
             <texture on="1" file="adesert_cracks_d.jpg" fnorm="desert_cracks_n.jpg" scale="42.2765" surf="DesertFast" dust="0.6" dustS="1" mud="0.5" smoke="0" tclr="0.060 0.583 0.480 0.800 0.000" angMin="0" angMax="20.4305" angSm="12.9274" hMin="-300" hMax="800" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="0.923824" oct0="4" prs0="0.49" pow0="1.9" frq1="2.57486" oct1="3" prs1="0.461644" pow1="2.97877"/>
             </texture>

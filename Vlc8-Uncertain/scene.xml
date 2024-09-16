@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Mos2-Mouse" secEd="2628"/>
+    <ver num="3203" baseTrk="Mos2-Mouse" secEd="2628"/>
     <car tires="0"/>
     <start pos="-251.396 -355.594 -3.18704" rot="0 0 -0.783682 -0.621167" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1.7526882" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="9.89751" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="9.89751" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="adesert_mntn4v_d.jpg" fnorm="adesert_mntn4_n.jpg" scale="6.60567" surf="GrassForest" dust="0.2" dustS="0" mud="0" smoke="0" tclr="0.106 0.440 0.500 0.300 0.000" angMin="0" angMax="11.4481" angSm="6.19889" hMin="-300" hMax="19.5146" hSm="10.9109" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="23.4432" oct0="3" prs0="0.3" pow0="1.1571" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -63,7 +63,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.137684" densTrees="1.00395" grDensSmooth="4" trRdDist="1">
+    <veget densGrass="0.137684" densTrees2="0.6954477" grDensSmooth="4" trRdDist="1">
         <grass on="1" mtr="grass20p" dens="0.096387" chan="0" minSx="1.57606" maxSx="2.62423" minSy="1.44365" maxSy="2.28702"/>
         <grass on="1" mtr="grassAustralia" dens="0.171915" chan="0" minSx="0.93927" maxSx="2.0323" minSy="0.964446" maxSy="2.01263"/>
         <grass on="1" mtr="grass9r" dens="0.0589632" chan="0" minSx="0.946374" maxSx="1.79861" minSy="0.979035" maxSy="1.79288"/>

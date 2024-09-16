@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Des16-AsphaltJumps" secEd="7272"/>
+    <ver num="3203" baseTrk="Des16-AsphaltJumps" secEd="7272"/>
     <car tires="0"/>
     <start pos="-95.0068 -168.957 14.1493" rot="-0.0282109 -0.050448 0.158888 -0.985641" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.4153225" lD="1.407258" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="12.3444" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="12.3444" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="36.2601" surf="DesertFast" dust="0.6" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="17.4757" angSm="7.34694" hMin="-36.0902" hMax="300" hSm="20" nOn="0" noise="0.565854" n_1="0" n2="0">
                 <noise frq0="11.1001" oct0="3" prs0="0.3" pow0="1.5" frq1="12.862" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -62,7 +62,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="24" diff="1 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="24" diff="1 1 1" horiz="2" veget="0">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="80" surf="DesertFast" dust="0.6" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="17.4757" angSm="7.34694" hMin="-36.0902" hMax="400" hSm="20" nOn="0" noise="0.565854" n_1="0" n2="0">
                 <noise frq0="2.22461" oct0="3" prs0="0.3" pow0="1.5" frq1="4.20634" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -88,7 +88,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.0070559997" densTrees="0.3" grDensSmooth="4" trRdDist="2">
+    <veget densGrass="0.0070559997" densTrees2="0.2861023" grDensSmooth="4" trRdDist="2">
         <grass on="1" mtr="grass4v" dens="0.00951219" chan="0" minSx="1.8194" maxSx="2.79743" minSy="1.22276" maxSy="2.26148"/>
         <grass on="1" mtr="grass19" dens="0.0761433" chan="0" minSx="1.68347" maxSx="2.21088" minSy="1.8886" maxSy="2.28213"/>
         <grass on="1" mtr="grassDesert" dens="0.115442" chan="0" minSx="1.45854" maxSx="1.6173" minSy="0.773497" maxSy="1.03425"/>
@@ -109,6 +109,11 @@
         <layer on="1" name="cactus.mesh" dens="0.0372297" minScale="0.423559" maxScale="0.591328" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="26.369" minTerH="-22" maxTerH="17.2477" maxDepth="0"/>
         <layer on="0" name="treeD-34desTiny.mesh" dens="0.0150235" minScale="1.21804" maxScale="1.51159" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="25.7687" minTerH="-22" maxTerH="3" maxDepth="0"/>
         <layer on="1" name="treeD-22desMed.mesh" dens="0.0135087" minScale="1.30169" maxScale="1.57545" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="26.8356" minTerH="-22" maxTerH="3" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

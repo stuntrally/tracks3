@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="6768"/>
+    <ver num="3203" baseTrk="" secEd="6768"/>
     <car tires="0"/>
     <start pos="437.362 121.927 34.913" rot="1.63425e-13 -1e-06 -0.988546 -0.150939" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="6.11979" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="6.11979" diff="1 1 1" horiz="1" veget="0.6">
             <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="16.7095" surf="DesertBumpy" dust="0" dustS="0.6" mud="0.4" smoke="0" tclr="0.167 0.818 0.220 0.100 0.000" angMin="0" angMax="27.1233" angSm="11.0505" hMin="-300" hMax="2300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="1.9146" oct0="4" prs0="0.509785" pow0="1.39485" frq1="6.77226" oct1="3" prs1="0.540313" pow1="3.43329"/>
             </texture>
@@ -86,6 +86,7 @@
         <layer on="1" name="rock_n5v-W.mesh" dens="0.244464" minScale="1.04925" maxScale="1.43422" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="15.3252" minTerH="-6" maxTerH="1" maxDepth="5"/>
         <layer on="1" name="shroom_tall2.mesh" mtr="shroom_tall_viol" dens="0.060844447" minScale="0.7176246" maxScale="1.4437766" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-1.1200027" maxTerH="37.12" maxDepth="0"/>
         <layer on="1" name="shroom_tall3.mesh" mtr="shroom_tall_viol" dens="0.032881778" minScale="0.7176246" maxScale="1.0420362" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="3.040001" maxTerH="37.12" maxDepth="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

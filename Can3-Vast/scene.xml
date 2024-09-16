@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="5630"/>
+    <ver num="3203" baseTrk="" secEd="5630"/>
     <car tires="0"/>
     <start pos="283.025 155.963 0.009624" rot="-0.008103 0.005887 -0.790927 0.611849" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.14585501" gr="3.1612902"/>
@@ -62,7 +62,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="30" diff="1 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="30" diff="1 1 1" horiz="2" veget="0">
             <texture on="1" file="mntn_canyon2o_d.jpg" fnorm="adesert_mntn4_n.jpg" scale="95" surf="DesertFast" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.167 0.643 0.140 0.700 0.000" angMin="0" angMax="12.1526" angSm="8.79854" hMin="-300" hMax="600" hSm="20" nOn="0" noise="1" n_1="0" n2="0.451737">
                 <noise frq0="1.5011" oct0="3" prs0="0.380626" pow0="1.04309" frq1="0.648492" oct1="4" prs1="0.499217" pow1="4.07131"/>
             </texture>

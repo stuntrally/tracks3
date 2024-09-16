@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Isl10-Treasure" secEd="38504"/>
+    <ver num="3203" baseTrk="Isl10-Treasure" secEd="38504"/>
     <car tires="0" road1mtr="0"/>
     <start pos="46.6542 158.677 4.89214" rot="0.0048693 -0.0348666 0.999134 0.0223408" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="roadSnow" dust="0" dustS="0.183771" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Adust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.76185" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.76185" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="1" file="island_sand2w_d.jpg" fnorm="desert_sand2_n.jpg" scale="18.2622" surf="DesertFast" dust="0.6" dustS="0.8" mud="0" smoke="0" tclr="0.167 0.038 0.520 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="-3.38345" hSm="13.5355" nOn="0" noise="0.370656" n_1="0" n2="0">
                 <noise frq0="8.39947" oct0="3" prs0="0.3" pow0="2.71217" frq1="6.9016" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

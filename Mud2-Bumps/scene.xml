@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3627"/>
+    <ver num="3203" baseTrk="" secEd="3627"/>
     <car tires="0"/>
     <start pos="93.5533 -71.9223 3.52376" rot="0.005176 -0.017637 -0.275356 -0.961188" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="2.2823737" gr="4"/>
@@ -63,7 +63,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.15" densTrees="0.5" grDensSmooth="6" trRdDist="0">
+    <veget densGrass="0.15" densTrees2="1.9073486" grDensSmooth="6" trRdDist="0">
         <grass on="1" mtr="grass17" dens="0.48591" chan="0" minSx="1.23684" maxSx="1.39749" minSy="1.18105" maxSy="1.50525"/>
         <grass on="1" mtr="grass6s" dens="0.0716502" chan="0" minSx="1.80207" maxSx="1.92518" minSy="2.01575" maxSy="2.22271"/>
         <grass on="1" mtr="grass8g" dens="0.0635" chan="0" minSx="1.53682" maxSx="1.76769" minSy="1.47402" maxSy="1.78484"/>
@@ -92,13 +92,23 @@
         <layer on="1" name="bush01.mesh" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="11" maxTerAng="37.35542" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bush05.mesh" dens="0.1" minScale="1.6" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40.96014" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="rock24triangle.mesh" dens="0.08448711" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="34" minTerH="-0.39045334" maxTerH="100" maxDepth="3.8590307"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="51.428303 56.040134 275.6173" dir="-0.67721754 -0.15624967 -0.71900105"/>
     <objects/>
     <emitters>
-        <e name="Cloud5" pos="-1150.26 564.69 2370.55" sc="2217.13 176.42 1090.28" up="0 1 0" rot="0" rate="81.8907" st="1" psc="2.47832"/>
-        <e name="Cloud4" pos="-1231.57 210.009 -1072.18" sc="1335.21 67.2402 1500.72" up="0 1 0" rot="0" rate="32.0865" st="1" psc="1.96218"/>
-        <e name="Cloud3" pos="-38.7367 79.4569 -15.3184" sc="139.33 8.30776 90.8558" up="0 1 0" rot="0" rate="10" st="1" psc="1"/>
+        <e name="Cloud5" pos="-1150.26 564.69 2370.55" sc="2217.13 176.42 1090.28" yaw="0" pt="-90" rate="81.8907" st="1" psc="2.47832"/>
+        <e name="Cloud4" pos="-1231.57 210.009 -1072.18" sc="1335.21 67.2402 1500.72" yaw="0" pt="-90" rate="32.0865" st="1" psc="1.96218"/>
+        <e name="Cloud3" pos="-38.7367 79.4569 -15.3184" sc="139.33 8.30776 90.8558" yaw="0" pt="-90" rate="10" st="1" psc="1"/>
     </emitters>
     <collectible>
         <c n="gem1v" gr="0" pos="89.47491 19.876806 162.94919" sc="1"/>

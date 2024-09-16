@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Grc2-Coast" secEd="63964"/>
+    <ver num="3203" baseTrk="Grc2-Coast" secEd="63964"/>
     <car tires="0" road1mtr="0"/>
     <start pos="150.413 329.965 41.4267" rot="-0.0351682 0.0140579 -0.979875 -0.196082" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -189,9 +189,9 @@
         <o name="alien_platform_1" pos="-1383.74 3780.07 895.112" rot="0.421225 -0.906956 0 0" sc="3.05508 18.5211 3.05508"/>
     </objects>
     <emitters>
-        <e name="ElectricSparks" pos="479.996 174.057 -503.712" sc="5.02991 3.43213 6.4408" up="0 1 0" rot="0" rate="151.992" st="0" psc="1"/>
-        <e name="Electricity" pos="480.714 173.494 -503.569" sc="2.64345 2.01118 2.82928" up="0 1 0" rot="0" rate="109.67" st="0" psc="1"/>
-        <e name="Electricity" pos="750.282 154.859 17.1426" sc="297.361 180.452 302.297" up="0 1 0" rot="0" rate="1111.2" st="0" psc="1"/>
+        <e name="ElectricSparks" pos="479.996 174.057 -503.712" sc="5.02991 3.43213 6.4408" yaw="0" pt="-90" rate="151.992" st="0" psc="1"/>
+        <e name="Electricity" pos="480.714 173.494 -503.569" sc="2.64345 2.01118 2.82928" yaw="0" pt="-90" rate="109.67" st="0" psc="1"/>
+        <e name="Electricity" pos="750.282 154.859 17.1426" sc="297.361 180.452 302.297" yaw="0" pt="-90" rate="1111.2" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

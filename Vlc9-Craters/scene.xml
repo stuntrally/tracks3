@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="4288"/>
+    <ver num="3203" baseTrk="" secEd="4288"/>
     <car tires="0" needLights="1"/>
     <start pos="-123.342 159.262 4.9716" rot="0.016763 -0.009835 0.12253 -0.992292" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0" lA="1.8467742" lD="1.9274193" lS="0.9" fg="1" wtr="-1" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="7.736213" diff="1 1 1" horiz="1" emissive="1">
+        <terrain ofsZ="0" triangle="7.736213" diff="1 1 1" emissive="1" horiz="1" veget="0.3">
             <texture on="1" file="lava_black_d.jpg" fnorm="lava_black_n.jpg" scale="5.87196" surf="DesertMud" dust="0" dustS="0" mud="0.02" smoke="0" tclr="0.091 0.440 0.250 0.600 0.000" dmg="0.1" angMin="0" angMax="9.51076" angSm="3.67805" hMin="-300" hMax="300" hSm="21.883" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="26.4215" oct0="3" prs0="0.3" pow0="1.37107" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -121,13 +121,13 @@
         <o name="fuel_can" pos="55.7695 -123.429 6.1486" rot="-0.538683 0.363303 -0.255754 0.715836"/>
     </objects>
     <emitters>
-        <e name="FireOrange" pos="2.91047 0.123189 -102.923" sc="46.7756 1 41.4281" up="0 1 0" rot="0" rate="113.772" st="0" psc="1"/>
-        <e name="CraterLava2" pos="-28.0058 -1.37211 37.7655" sc="38.3719 1 41.558" up="0 1 0" rot="0" rate="30.8925" st="0" psc="1"/>
-        <e name="SmokeBrown" pos="-43.6291 4.22575 169.975" sc="47.4133 2.04057 44.5881" up="0 1 0" rot="0" rate="78.8845" st="0" psc="1"/>
-        <e name="SmokeBrown" pos="5.96231 2.1246 104.042" sc="59.9957 1 67.955" up="0 1 0" rot="0" rate="27.0273" st="0" psc="1"/>
-        <e name="FireOrangeRed" pos="110.734 1.96568 96.2354" sc="59.8929 1 158.839" up="0 1 0" rot="0" rate="95.0003" st="0" psc="1"/>
-        <e name="SmokeBlack" pos="95.5023 2.27031 -71.7498" sc="140.089 1 165.08" up="0 1 0" rot="0" rate="212.655" st="0" psc="1"/>
-        <e name="CraterLava2" pos="-56.4003 -5.92818 -140.906" sc="12.9906 2.22017 14.0906" up="0 1 0" rot="0" rate="20.6753" st="0" psc="1"/>
+        <e name="FireOrange" pos="2.91047 0.123189 -102.923" sc="46.7756 1 41.4281" yaw="0" pt="-90" rate="113.772" st="0" psc="1"/>
+        <e name="CraterLava2" pos="-28.0058 -1.37211 37.7655" sc="38.3719 1 41.558" yaw="0" pt="-90" rate="30.8925" st="0" psc="1"/>
+        <e name="SmokeBrown" pos="-43.6291 4.22575 169.975" sc="47.4133 2.04057 44.5881" yaw="0" pt="-90" rate="78.8845" st="0" psc="1"/>
+        <e name="SmokeBrown" pos="5.96231 2.1246 104.042" sc="59.9957 1 67.955" yaw="0" pt="-90" rate="27.0273" st="0" psc="1"/>
+        <e name="FireOrangeRed" pos="110.734 1.96568 96.2354" sc="59.8929 1 158.839" yaw="0" pt="-90" rate="95.0003" st="0" psc="1"/>
+        <e name="SmokeBlack" pos="95.5023 2.27031 -71.7498" sc="140.089 1 165.08" yaw="0" pt="-90" rate="212.655" st="0" psc="1"/>
+        <e name="CraterLava2" pos="-56.4003 -5.92818 -140.906" sc="12.9906 2.22017 14.0906" yaw="0" pt="-90" rate="20.6753" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

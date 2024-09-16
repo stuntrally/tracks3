@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="V8-Uncertain" secEd="24510"/>
+    <ver num="3203" baseTrk="V8-Uncertain" secEd="24510"/>
     <car tires="0"/>
     <start pos="-266.681 -86.4864 37.409" rot="0.134034 0.0569446 0.368599 0.918124" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -239,23 +239,23 @@
         <o name="balloon1_anomaly" pos="-338.6403 209.78458 -7.6978006" rot="0 -1 0 0"/>
     </objects>
     <emitters>
-        <e name="SmokeBlack" pos="91.4742 36.02 339.173" sc="75.29 22.893 48.5275" up="0 1 0" rot="0" rate="80.2096" st="0" psc="1"/>
-        <e name="FireOrange" pos="-190.364 -20.5233 390.872" sc="21.3824 1 21.8449" up="0 1 0" rot="0" rate="29.7935" st="0" psc="1"/>
-        <e name="Cloud5" pos="231.501 89.5765 -353.792" sc="156.394 118.775 151.288" up="0 1 0" rot="0" rate="20.1241" st="0" psc="1"/>
-        <e name="Electricity" pos="-145.565 59.0415 142.671" sc="66.5784 12.4817 68.1732" up="0 1 0" rot="0" rate="345.856" st="0" psc="1"/>
-        <e name="AcidVapor1" pos="-251.045 7.81734 -135.391" sc="9.01485 1 13.9867" up="0 1 0" rot="0" rate="9.62313" st="0" psc="1"/>
-        <e name="AlienGlow" pos="301.033 24.5352 -167.911" sc="42.4864 1.2881 60.5349" up="0 1 0" rot="0" rate="42.9589" st="0" psc="1"/>
-        <e name="BubblesSmall" pos="-90.1925 47.8174 2.4786" sc="7.92286 0.746526 7.04053" up="0 1 0" rot="0" rate="26.5278" st="0" psc="1"/>
-        <e name="AlienGlow" pos="-334.408 -10.1945 -179.23" sc="5.46202 3.89149 5.45097" up="0 1 0" rot="0" rate="9.85896" st="0" psc="1"/>
-        <e name="Waterfall1High" pos="182.736 41.6839 226.431" sc="3.511 2.30329 3.2828" up="0 1 0" rot="0" rate="44.5536" st="0" psc="1"/>
-        <e name="FireYellowRed" pos="222.87 23.1435 78.2576" sc="55.781 7.60277 74.7192" up="0 1 0" rot="0" rate="208.226" st="0" psc="1"/>
-        <e name="AcidVapor2" pos="286.448 26.1074 -10.9506" sc="0 5.23001 0" up="0 1 0" rot="0" rate="31.2031" st="0" psc="1"/>
-        <e name="RainbowSparks1" pos="-37.1467 54.9406 210.507" sc="1.80064 3.18625 1.28398" up="0 1 0" rot="0" rate="63.1162" st="0" psc="1"/>
-        <e name="RainbowSparks1" pos="-81.0886 56.1118 185.064" sc="2 1 2" up="0 1 0" rot="0" rate="42.9797" st="0" psc="1"/>
-        <e name="PinkCloud" pos="-306.474 27.3383 5.49249" sc="36.2821 8.35857 53.8773" up="0 1 0" rot="0" rate="20.292866" st="0" psc="1"/>
-        <e name="FireYellowRed" pos="-234.084 40.7813 67.7382" sc="5.77911 4.10377 6.04156" up="0 1 0" rot="0" rate="75.5908" st="0" psc="1"/>
-        <e name="SmokeBrown" pos="-621.954 10.9247 -67.52" sc="2 1 2" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="SmokeBrown" pos="-605.069 56.3327 39.8064" sc="2 1 2" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
+        <e name="SmokeBlack" pos="91.4742 36.02 339.173" sc="75.29 22.893 48.5275" yaw="0" pt="-90" rate="80.2096" st="0" psc="1"/>
+        <e name="FireOrange" pos="-190.364 -20.5233 390.872" sc="21.3824 1 21.8449" yaw="0" pt="-90" rate="29.7935" st="0" psc="1"/>
+        <e name="Cloud5" pos="231.501 89.5765 -353.792" sc="156.394 118.775 151.288" yaw="0" pt="-90" rate="20.1241" st="0" psc="1"/>
+        <e name="Electricity" pos="-145.565 59.0415 142.671" sc="66.5784 12.4817 68.1732" yaw="0" pt="-90" rate="345.856" st="0" psc="1"/>
+        <e name="AcidVapor1" pos="-251.045 7.81734 -135.391" sc="9.01485 1 13.9867" yaw="0" pt="-90" rate="9.62313" st="0" psc="1"/>
+        <e name="AlienGlow" pos="301.033 24.5352 -167.911" sc="42.4864 1.2881 60.5349" yaw="0" pt="-90" rate="42.9589" st="0" psc="1"/>
+        <e name="BubblesSmall" pos="-90.1925 47.8174 2.4786" sc="7.92286 0.746526 7.04053" yaw="0" pt="-90" rate="26.5278" st="0" psc="1"/>
+        <e name="AlienGlow" pos="-334.408 -10.1945 -179.23" sc="5.46202 3.89149 5.45097" yaw="0" pt="-90" rate="9.85896" st="0" psc="1"/>
+        <e name="Waterfall1High" pos="182.736 41.6839 226.431" sc="3.511 2.30329 3.2828" yaw="0" pt="-90" rate="44.5536" st="0" psc="1"/>
+        <e name="FireYellowRed" pos="222.87 23.1435 78.2576" sc="55.781 7.60277 74.7192" yaw="0" pt="-90" rate="208.226" st="0" psc="1"/>
+        <e name="AcidVapor2" pos="286.448 26.1074 -10.9506" sc="0 5.23001 0" yaw="0" pt="-90" rate="31.2031" st="0" psc="1"/>
+        <e name="RainbowSparks1" pos="-37.1467 54.9406 210.507" sc="1.80064 3.18625 1.28398" yaw="0" pt="-90" rate="63.1162" st="0" psc="1"/>
+        <e name="RainbowSparks1" pos="-81.0886 56.1118 185.064" sc="2 1 2" yaw="0" pt="-90" rate="42.9797" st="0" psc="1"/>
+        <e name="PinkCloud" pos="-306.474 27.3383 5.49249" sc="36.2821 8.35857 53.8773" yaw="0" pt="-90" rate="20.292866" st="0" psc="1"/>
+        <e name="FireYellowRed" pos="-234.084 40.7813 67.7382" sc="5.77911 4.10377 6.04156" yaw="0" pt="-90" rate="75.5908" st="0" psc="1"/>
+        <e name="SmokeBrown" pos="-621.954 10.9247 -67.52" sc="2 1 2" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="SmokeBrown" pos="-605.069 56.3327 39.8064" sc="2 1 2" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

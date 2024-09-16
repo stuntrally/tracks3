@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="147428"/>
+    <ver num="3203" baseTrk="" secEd="147428"/>
     <car tires="0" damage="0.396601" road1mtr="0"/>
     <start pos="534.631 749.896 631.958" rot="-0.113187 -0.065857 0.886682 0.443524" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -44,7 +44,7 @@
             <texture road="4" surf="roadSnowIce" dust="0.3" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.50911" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.50911" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="0" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="6.5" surf="GrassJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="22.2536" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.681216" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.68547" frq1="28.5" oct1="3" prs1="0.4" pow1="1.65894"/>
             </texture>
@@ -69,7 +69,7 @@
             <texture road="4" surf="roadSnowIce" dust="0.3" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="18.0921" diff="1 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="18.0921" diff="1 1 1" horiz="2" veget="0">
             <texture on="0" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="6.5" surf="GrassJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="22.2536" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.681216" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.68547" frq1="28.5" oct1="3" prs1="0.4" pow1="1.65894"/>
             </texture>
@@ -251,12 +251,12 @@
         <o name="cave_01" mat="cave_ice" pos="1255.6 41.8524 625.019" rot="0.278743 -0.086773 -0.954467 -0.0610429" sc="1.18502 1.42205 1.16524"/>
     </objects>
     <emitters>
-        <e name="Cloud9White" pos="1288.84 887.021 -743.435" sc="577.04 58.878 434.674" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Cloud8MistyWhite2" pos="1097.52 903.466 -892.203" sc="391.125 64.7631 228.066" up="0 1 0" rot="0" rate="22.0795" st="0" psc="1.46715"/>
-        <e name="Cloud9White" pos="845.078 788.803 -890.025" sc="584.895 84.663 493.864" up="0 1 0" rot="0" rate="6.16769" st="0" psc="1"/>
-        <e name="Cloud6OrangeLarge" pos="-7435.9 1105.77 -7237.67" sc="2505.93 603.126 4039.68" up="0 1 0" rot="0" rate="20.7132" st="0" psc="1.72278"/>
-        <e name="SmokeBlack" pos="-1097.01 -372.198 508.23" sc="0.491332 1 0.599783" up="0 1 0" rot="0" rate="6.00502" st="0" psc="0.207928"/>
-        <e name="SmokeBlack" pos="-314.927 34.2931 893.716" sc="0.713292 1 0.699179" up="0 1 0" rot="0" rate="7.14875" st="0" psc="0.257768"/>
+        <e name="Cloud9White" pos="1288.84 887.021 -743.435" sc="577.04 58.878 434.674" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="Cloud8MistyWhite2" pos="1097.52 903.466 -892.203" sc="391.125 64.7631 228.066" yaw="0" pt="-90" rate="22.0795" st="0" psc="1.46715"/>
+        <e name="Cloud9White" pos="845.078 788.803 -890.025" sc="584.895 84.663 493.864" yaw="0" pt="-90" rate="6.16769" st="0" psc="1"/>
+        <e name="Cloud6OrangeLarge" pos="-7435.9 1105.77 -7237.67" sc="2505.93 603.126 4039.68" yaw="0" pt="-90" rate="20.7132" st="0" psc="1.72278"/>
+        <e name="SmokeBlack" pos="-1097.01 -372.198 508.23" sc="0.491332 1 0.599783" yaw="0" pt="-90" rate="6.00502" st="0" psc="0.207928"/>
+        <e name="SmokeBlack" pos="-314.927 34.2931 893.716" sc="0.713292 1 0.699179" yaw="0" pt="-90" rate="7.14875" st="0" psc="0.257768"/>
     </emitters>
     <collectible/>
     <fields/>

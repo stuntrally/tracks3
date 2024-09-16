@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="5164"/>
+    <ver num="3203" baseTrk="" secEd="5164"/>
     <car tires="0"/>
     <start pos="13.5461 -50.3766 -11.5648" rot="0.057069 -0.00168199 -0.757962 -0.649815" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -75,6 +75,8 @@
         <layer on="1" name="jungle5_ceiba.mesh" dens="0.023921777" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="12.3832" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bushes1.mesh" dens="0.22530843" minScale="1.348614" maxScale="2.037777" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0.5"/>
         <layer on="1" name="fern.mesh" dens="0.18777779" minScale="0.15" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="42.287773" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

@@ -1,12 +1,15 @@
 <scene>
-    <ver num="3018" baseTrk="Mos0-Momayon" secEd="126820"/>
+    <ver num="3203" baseTrk="Mos0-Momayon" secEd="126820"/>
     <car tires="0" damage="0.325153" road1mtr="0" denyRev="1"/>
     <start pos="257.507 -476.938 -24.0175" rot="0.0072212 0.0107722 0.995807 -0.0929691" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="JungleDense"/>
     <sky material="sky/sunset_03_rays" skyYaw="-163.915"/>
     <fog color="0.045 0.397 0.760 0.546 0.000" color2="0.971 0.174 0.760 0.723 0.000" linStart="28.5797" linEnd="840.523"/>
     <fogH color="0.913 0.322 0.725 0.655 0.000" height="-117.241" dens="18.1382" linStart="16.0761" linEnd="139.781"/>
     <light pitch="12.2553" yaw="-38" ambient="0.671 0.130 0.672 0.238 0.000" diffuse="0.124 0.492 0.820 0.238 0.000" specular="0.000 0.000 0.144 0.000 0.000"/>
+    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="pink jelly" pos="248.381 -136.883 -52.7252" rot="0 0 0" size="287.185 138.289 305.18" tile="0.01 0.01"/>
         <fluid hq="2" name="water marble" pos="-426.253 -34.8298 -89.0117" rot="0 0 0" size="86.6956 16.511 157.498" tile="0.01 0.01"/>
@@ -65,26 +68,37 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.597587" densTrees="1.22854" grPage="140" grDist="140" grDensSmooth="6" trPage="150" trDist="150" trDistImp="800" trRdDist="0">
-        <grass on="1" mtr="grass3m" dens="0.251869" chan="0" minSx="0.94" maxSx="2.02" minSy="0.98" maxSy="2.11" swayDistr="0.2" swayLen="0.3" swaySpeed="0.4"/>
-        <grass on="1" mtr="grass4m" dens="0.0115795" chan="1" minSx="1.82" maxSx="2.8" minSy="1.22" maxSy="2.26" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
-        <grass on="1" mtr="grass20p" dens="0.145493" chan="2" minSx="1.22" maxSx="1.44" minSy="2.15" maxSy="2.5" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
-        <grass on="1" mtr="grass3m" dens="0.0718018" chan="3" minSx="0.94" maxSx="2.02" minSy="0.98" maxSy="2.11" swayDistr="3" swayLen="0.3" swaySpeed="0.4"/>
-        <grass on="0" mtr="grass15o" dens="0.0728228" chan="0" minSx="1.40612" maxSx="1.8886" minSy="1.49082" maxSy="2.02105" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grass3m" dens="0.1" chan="0" minSx="0.94" maxSx="2.02" minSy="0.98" maxSy="2.11" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+    <veget densGrass="0.597587" densTrees2="0.6247823" grDensSmooth="6" trRdDist="0">
+        <grass on="1" mtr="grass3m" dens="0.251869" chan="0" minSx="0.94" maxSx="2.02" minSy="0.98" maxSy="2.11"/>
+        <grass on="1" mtr="grass4m" dens="0.0115795" chan="1" minSx="1.82" maxSx="2.8" minSy="1.22" maxSy="2.26"/>
+        <grass on="1" mtr="grass20p" dens="0.145493" chan="2" minSx="1.22" maxSx="1.44" minSy="2.15" maxSy="2.5"/>
+        <grass on="1" mtr="grass3m" dens="0.0718018" chan="3" minSx="0.94" maxSx="2.02" minSy="0.98" maxSy="2.11"/>
+        <grass on="0" mtr="grass15o" dens="0.0728228" chan="0" minSx="1.40612" maxSx="1.8886" minSy="1.49082" maxSy="2.02105"/>
+        <grass on="0" mtr="grass3m" dens="0.1" chan="0" minSx="0.94" maxSx="2.02" minSy="0.98" maxSy="2.11"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
         <gchan amin="0" amax="11.1111" asm="3.68846" hmin="-300" hmax="50" hsm="20" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0.217284"/>
         <gchan amin="6.88889" amax="15.1111" asm="6.58711" hmin="-50" hmax="300" hsm="35.1532" ns="0" frq="35.9164" oct="3" prs="0.380576" pow="1.6899" rd="0.0987654"/>
         <gchan amin="6.88889" amax="14.6667" asm="7.41838" hmin="45" hmax="300" hsm="25.6882" ns="0" frq="37" oct="3" prs="0.3" pow="1.2" rd="0.138271"/>
         <gchan amin="0" amax="10" asm="3.04832" hmin="0" hmax="300" hsm="15.9784" ns="0.352518" frq="34.1028" oct="3" prs="0.346043" pow="1.2" rd="0.177778"/>
-        <layer on="1" name="rock10red1round.mesh" dens="0.180552" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="27.9648" minTerH="-300" maxTerH="300" maxDepth="1"/>
-        <layer on="1" name="rock41grayWh.mesh" dens="0.523524" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" windFx="0" windFy="0" maxTerAng="27.4056" minTerH="-300" maxTerH="300" maxDepth="1"/>
-        <layer on="1" name="rock41grayWh.mesh" dens="0.311387" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0" windFy="0" maxTerAng="31.1419" minTerH="50" maxTerH="300" maxDepth="1"/>
-        <layer on="1" name="treeD-34desTiny.mesh" dens="0.0726974" minScale="1.61373" maxScale="2.57525" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.13" windFy="0.005" maxTerAng="25.77" minTerH="-100" maxTerH="280" maxDepth="0"/>
-        <layer on="1" name="treeGC-32draUp.mesh" dens="0.0302974" minScale="1.05" maxScale="2.21209" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.06" windFy="0.002" maxTerAng="27.9648" minTerH="-50" maxTerH="100" maxDepth="0"/>
-        <layer on="1" name="treeD-22desMed.mesh" dens="0.0447763" minScale="1.3" maxScale="1.84783" ofsY="0" addTrRdDist="1" maxRdist="100" windFx="0.32" windFy="0.005" maxTerAng="21.8742" minTerH="-200" maxTerH="120" maxDepth="0"/>
+        <layer on="1" name="rock10red1round.mesh" dens="0.180552" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="27.9648" minTerH="-300" maxTerH="300" maxDepth="1"/>
+        <layer on="1" name="rock41grayWh.mesh" dens="0.523524" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="27.4056" minTerH="-300" maxTerH="300" maxDepth="1"/>
+        <layer on="1" name="rock41grayWh.mesh" dens="0.311387" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="31.1419" minTerH="50" maxTerH="300" maxDepth="1"/>
+        <layer on="1" name="treeD-34desTiny.mesh" dens="0.0726974" minScale="1.61373" maxScale="2.57525" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="25.77" minTerH="-100" maxTerH="280" maxDepth="0"/>
+        <layer on="1" name="treeGC-32draUp.mesh" dens="0.0302974" minScale="1.05" maxScale="2.21209" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="27.9648" minTerH="-50" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="treeD-22desMed.mesh" dens="0.0447763" minScale="1.3" maxScale="1.84783" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="21.8742" minTerH="-200" maxTerH="120" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
@@ -128,10 +142,12 @@
         <o name="mntn_01" mat="cave_ice_marble" pos="561.286 -468.083 153.537" rot="0.989565 -0.144041 0 0" sc="0.66978 0.66978 0.66978"/>
     </objects>
     <emitters>
-        <e name="PinkJellyfallHigh" pos="387.631 -107.648 104.738" sc="11.1743 12.0316 21.6029" up="0 1 0" rot="0" rate="143.13" st="0" psc="1"/>
-        <e name="PinkJellyfallLow" pos="544.076 -64.5199 323.24" sc="9.58517 9.94943 11.064" up="0 1 0" rot="0" rate="66.1913" st="0" psc="1"/>
-        <e name="PinkJellyfallLow" pos="543.877 -59.8941 321.571" sc="15.4709 14.655 22.04" up="0 1 0" rot="0" rate="51.4868" st="0" psc="1"/>
-        <e name="PinkJellyfallLow" pos="552.075 -86.7611 300.164" sc="12.9914 17.5282 10.8265" up="0 1 0" rot="0" rate="57.0535" st="0" psc="1"/>
-        <e name="PinkJellyfallLow" pos="382.216 -104.454 111.238" sc="10.37 7.21553 16.1355" up="0 1 0" rot="0" rate="45.5314" st="0" psc="1"/>
+        <e name="PinkJellyfallHigh" pos="387.631 -107.648 104.738" sc="11.1743 12.0316 21.6029" yaw="0" pt="-90" rate="143.13" st="0" psc="1"/>
+        <e name="PinkJellyfallLow" pos="544.076 -64.5199 323.24" sc="9.58517 9.94943 11.064" yaw="0" pt="-90" rate="66.1913" st="0" psc="1"/>
+        <e name="PinkJellyfallLow" pos="543.877 -59.8941 321.571" sc="15.4709 14.655 22.04" yaw="0" pt="-90" rate="51.4868" st="0" psc="1"/>
+        <e name="PinkJellyfallLow" pos="552.075 -86.7611 300.164" sc="12.9914 17.5282 10.8265" yaw="0" pt="-90" rate="57.0535" st="0" psc="1"/>
+        <e name="PinkJellyfallLow" pos="382.216 -104.454 111.238" sc="10.37 7.21553 16.1355" yaw="0" pt="-90" rate="45.5314" st="0" psc="1"/>
     </emitters>
+    <collectible/>
+    <fields/>
 </scene>

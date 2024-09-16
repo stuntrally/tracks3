@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Isl8-Pharaoh" secEd="16207"/>
+    <ver num="3203" baseTrk="Isl8-Pharaoh" secEd="16207"/>
     <car tires="0"/>
     <start pos="-4.99351 176.07 0.6" rot="-0.0110102 0.00770051 0.584004 0.81165" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="AsphaltWet" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="14.876" diff="1 1 1" horiz="1" veget="0.8004902">
+        <terrain ofsZ="0" triangle="14.876" diff="1 1 1" horiz="1" veget="0.4004902">
             <texture on="1" file="island_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="33.1235" surf="DesertFast" dust="0.6" dustS="0.7" mud="0" smoke="0" tclr="0.167 0.409 0.440 0.700 0.000" angMin="0" angMax="8.80626" angSm="3.87682" hMin="-300" hMax="600" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="5.41736" oct0="4" prs0="0.7" pow0="1.60661" frq1="10.6793" oct1="3" prs1="0.4" pow1="5.19689"/>
             </texture>

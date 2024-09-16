@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="10504"/>
+    <ver num="3203" baseTrk="" secEd="10504"/>
     <car tires="0"/>
     <start pos="305.9585 -126.382645 51.513622" rot="0.00493664 -0.00627337 -0.673457 -0.739216" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.75268555" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="10" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="12.0559" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="21.3112" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.295858">
                 <noise frq0="29.2247" oct0="3" prs0="0.509785" pow0="1.5048" frq1="15.8812" oct1="3" prs1="0.589628" pow1="3.94334"/>
             </texture>
@@ -64,7 +64,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="62" diff="1 1 1" horiz="2" bL="0" bR="0" bF="0" bB="0">
+        <terrain ofsZ="0" triangle="62" diff="1 1 1" horiz="2" bL="0" bR="0" bF="0" bB="0" veget="0">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="12.0559" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="21.3112" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.295858">
                 <noise frq0="29.2247" oct0="3" prs0="0.509785" pow0="1.5048" frq1="15.8812" oct1="3" prs1="0.589628" pow1="3.94334"/>
             </texture>
@@ -313,8 +313,8 @@
         <o name="ptol_dock" pos="-99.5449 -64.8252 -0.604274" rot="-0.707935 -0.706277 0 0" sc="1.24159 1.24159 1.24159"/>
     </objects>
     <emitters>
-        <e name="FireOrangeTiny" pos="173.195 10.5214 210.818" sc="0.0111598 0.0389105 0.0252315" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="171.798 10.5374 212.938" sc="0.0688924 0.0416537 0.0363637" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="173.195 10.5214 210.818" sc="0.0111598 0.0389105 0.0252315" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="171.798 10.5374 212.938" sc="0.0688924 0.0416537 0.0363637" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

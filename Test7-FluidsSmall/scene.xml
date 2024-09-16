@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="5215"/>
+    <ver num="3203" baseTrk="" secEd="5215"/>
     <car tires="0"/>
     <start pos="14.492689 -47.11271 -11.5648" rot="0.057069 -0.00168199 -0.757962 -0.649815" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -45,7 +45,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.5695218" densTrees="0.45163202" grDensSmooth="6" trRdDist="1">
+    <veget densGrass="0.5695218" densTrees2="6.250665" grDensSmooth="6" trRdDist="1">
         <grass on="1" mtr="grass12y-" dens="0.152178" chan="0" minSx="0.987834" maxSx="1.33757" minSy="1.01089" maxSy="1.42005"/>
         <grass on="0" mtr="grass5" dens="0.0206984" chan="0" minSx="0.984347" maxSx="1.30854" minSy="0.984347" maxSy="1.14013"/>
         <grass on="1" mtr="grass2g" dens="0.032553" chan="0" minSx="1.19326" maxSx="1.46229" minSy="1.13063" maxSy="1.42005"/>
@@ -78,6 +78,11 @@
         <layer on="1" name="jungle1_wide.mesh" dens="0.002055111" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="38.53" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="jungle4_mango.mesh" dens="0.002055111" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="38.53" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="jungle5_ceiba.mesh" dens="0.0021777777" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="12.969307" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
     </veget>
     <cam pos="-127.713 38.6575 135.585" dir="0.68450344 -0.36557922 -0.6307193"/>

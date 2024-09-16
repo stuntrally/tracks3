@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="W14-DangerRoad" secEd="3082"/>
+    <ver num="3203" baseTrk="W14-DangerRoad" secEd="3082"/>
     <car tires="0" road1mtr="0"/>
     <start pos="-89.0869 -48.1956 20.7887" rot="-0.00490832 -0.00503343 -0.698189 0.715881" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -40,7 +40,7 @@
             <texture road="4" surf="AsphaltWet" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.504 0.021 0.308 0.815 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.3189" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="10.3189" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="snow_rough_d.jpg" fnorm="snow_rough_n.jpg" scale="77.36" surf="SnowDeep" dust="0.4" dustS="0.6" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="9.90826" angSm="7.20897" hMin="-300" hMax="900" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="3.63697" oct0="4" prs0="0.276147" pow0="3.49395" frq1="5.54703" oct1="4" prs1="0.4" pow1="3.66667"/>
             </texture>

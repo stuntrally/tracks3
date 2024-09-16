@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="9418"/>
+    <ver num="3203" baseTrk="" secEd="9418"/>
     <car tires="0"/>
     <start pos="2.81814 0.643204 -73.0214" rot="-0.036019 -0.019132 -0.741736 0.66949" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="6.77581" diff="1 1 1" horiz="1" collis="0">
+        <terrain ofsZ="0" triangle="6.77581" diff="1 1 1" horiz="1" collis="0" veget="0.3">
             <texture on="1" file="grass_ground_d.jpg" fnorm="grass_ground_n.jpg" scale="17.3794" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.250 0.500 0.200 0.900 0.000" angMin="0" angMax="90" angSm="21.0259" hMin="-300" hMax="-64.6119" hSm="19.1239" nOn="0" noise="0.218935" n_1="0" n2="0">
                 <noise frq0="4.94758" oct0="4" prs0="0.475734" pow0="1.45534" frq1="8.16043" oct1="3" prs1="0.4" pow1="1.75282"/>
             </texture>
@@ -63,7 +63,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.3" densTrees="0.25" grDensSmooth="1" trRdDist="0">
+    <veget densGrass="0.3" densTrees2="12.269856" grDensSmooth="1" trRdDist="0">
         <grass on="1" mtr="grass17" dens="0.416686" chan="0" minSx="1.23684" maxSx="1.39749" minSy="1.18105" maxSy="1.50525"/>
         <grass on="1" mtr="grass18w" dens="0.18449" chan="1" minSx="0.984347" maxSx="1.30854" minSy="0.984347" maxSy="1.14013"/>
         <grass on="1" mtr="grass2g" dens="0.032553" chan="0" minSx="1.251" maxSx="1.38244" minSy="1.29403" maxSy="1.45854"/>
@@ -97,12 +97,17 @@
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
     </veget>
     <cam pos="-9.537335 1.1974225 115.31166" dir="-0.070339106 -0.25998944 -0.96304613"/>
     <objects/>
     <emitters>
-        <e name="Cloud7MistyOrange" pos="662.326 154.329 260.69" sc="333.852 235.08 567.677" up="0 1 0" rot="0" rate="57.914604" st="1" psc="2.1877942"/>
-        <e name="Cloud6Orange" pos="346.877 285.143 753.126" sc="914.981 397.455 485.166" up="0 1 0" rot="0" rate="190.414" st="1" psc="1.2871764"/>
+        <e name="Cloud7MistyOrange" pos="662.326 154.329 260.69" sc="333.852 235.08 567.677" yaw="0" pt="-90" rate="57.914604" st="1" psc="2.1877942"/>
+        <e name="Cloud6Orange" pos="346.877 285.143 753.126" sc="914.981 397.455 485.166" yaw="0" pt="-90" rate="190.414" st="1" psc="1.2871764"/>
     </emitters>
     <collectible/>
     <fields/>

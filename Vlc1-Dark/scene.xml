@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Uni6-Wild" secEd="5230"/>
+    <ver num="3203" baseTrk="Uni6-Wild" secEd="5230"/>
     <car tires="0" needLights="1"/>
     <start pos="179.332 -40.8464 0.650158" rot="0.019095 0.003621 0.745096 -0.666697" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="roadSnowIce" dust="0" dustS="0.6" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="DustBlack" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="7.64517" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="7.64517" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="desert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="7.06531" surf="DesertFast" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="0" angMax="20.9589" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="15.6213" oct0="4" prs0="0.54" pow0="1.84964" frq1="19.7607" oct1="4" prs1="0.7" pow1="3.14518"/>
             </texture>
@@ -118,7 +118,7 @@
         <o name="hexrock_medium_01" mat="hexrock_brown" pos="-113.367 224.531 21.01" rot="-0.0357471 -0.00237553 0.969413 -0.242798"/>
     </objects>
     <emitters>
-        <e name="FireOrangeTiny" pos="273.56 42.0026 68.4305" sc="0.0091589 0.00888229 0.00907824" up="0 1 0" rot="0" rate="14.9281" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="273.56 42.0026 68.4305" sc="0.0091589 0.00888229 0.00907824" yaw="0" pt="-90" rate="14.9281" st="0" psc="1"/>
     </emitters>
     <collectible>
         <c n="gem1o" gr="0" pos="-162.09401 30.692131 -240.26422" sc="1"/>

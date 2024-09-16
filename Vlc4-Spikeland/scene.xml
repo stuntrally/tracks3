@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Grc8-SlopeCity" secEd="785"/>
+    <ver num="3203" baseTrk="Grc8-SlopeCity" secEd="785"/>
     <car tires="0"/>
     <start pos="123.104 69.3322 0.634338" rot="-1.77636e-15 -1.77636e-15 0.811716 0.584054" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.124323" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.124323" diff="1 1 1" horiz="1" veget="0.0">
             <texture on="1" file="ground_dry_d.jpg" fnorm="ground_dry_n.jpg" scale="8.97" surf="DesertFast" dust="0.5" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.500 0.400 0.500 0.000" angMin="0" angMax="14.2661" angSm="13.7477" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="16.1435" oct0="3" prs0="0.3" pow0="3.75542" frq1="30.6812" oct1="3" prs1="0.4" pow1="3.0337"/>
             </texture>

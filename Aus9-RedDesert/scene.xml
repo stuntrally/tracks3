@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Aus9-RedDesert" secEd="36406"/>
+    <ver num="3203" baseTrk="Aus9-RedDesert" secEd="36406"/>
     <car tires="0" damage="0.650888"/>
     <start pos="300.695 -55.7476 34.3012" rot="1.07288e-06 -1.58106e-06 -0.772644 -0.634863" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="roadDesert" dust="0.4" dustS="0.9" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
             <par dust="MarsDust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.07309" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.07309" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="0" file="zdesert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="10.4305" surf="DesertFast" dust="0.675418" dustS="0.897375" mud="0.1" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" dmg="0.456911" angMin="0" angMax="5.46875" angSm="4.43384" hMin="-600" hMax="600" hSm="3.86523" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="20.6504" oct0="3" prs0="0.326614" pow0="0.630145" frq1="23.1238" oct1="4" prs1="0.4" pow1="1.99302"/>
             </texture>

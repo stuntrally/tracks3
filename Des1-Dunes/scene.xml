@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3427"/>
+    <ver num="3203" baseTrk="" secEd="3427"/>
     <car tires="0"/>
     <start pos="90.6658 23.9308 -10.9935" rot="-1.99553e-06 -0.030372 -2.16333e-06 -0.999541" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.5684292" gr="3.516129"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="roadSnowIce" dust="0" dustS="0.6" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="13.4252" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="13.4252" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="27.2579" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="10.4605" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="29.2247" oct0="3" prs0="0.509785" pow0="1.5048" frq1="15.8812" oct1="3" prs1="0.589628" pow1="3.94334"/>
             </texture>
@@ -63,7 +63,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.0039271116" densTrees="0.799668" grDensSmooth="6" trRdDist="1">
+    <veget densGrass="0.0039271116" densTrees2="0.76262283" grDensSmooth="6" trRdDist="1">
         <grass on="0" mtr="grass4v" dens="0.11654" chan="0" minSx="1.8194" maxSx="2.79743" minSy="1.22276" maxSy="2.26148"/>
         <grass on="0" mtr="grass5" dens="0.0761433" chan="0" minSx="1.12667" maxSx="1.44314" minSy="1.2796" maxSy="1.76769"/>
         <grass on="1" mtr="grassDesert" dens="0.0303584" chan="0" minSx="1.45854" maxSx="1.6173" minSy="1.12667" maxSy="1.30854"/>
@@ -86,6 +86,11 @@
         <layer on="1" name="bush13tall_ylw.mesh" dens="0.0055751107" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="40" minTerH="-10" maxTerH="3" maxDepth="0.5"/>
         <layer on="1" name="rock12orange.mesh" dens="0.008220444" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="-10" maxTerH="-3" maxDepth="1"/>
         <layer on="1" name="rock_Y01.mesh" dens="0.0024337778" minScale="0.99069273" maxScale="1.6384823" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="46" minTerH="-10" maxTerH="10" maxDepth="2"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="TestC4-ow" secEd="5870"/>
+    <ver num="3203" baseTrk="TestC4-ow" secEd="5870"/>
     <car tires="0" noWrongChks="1"/>
     <start pos="-107.733 47.9366 0.726483" rot="5.96046e-08 -8.44179e-08 -0.694863 0.719148" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -43,7 +43,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="DustAlien" mud="MudDark" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.19685" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.19685" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="alien_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="12.06" surf="DesertFast" dust="0.6" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="27.8289" angSm="6.93696" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.833333" n_1="0" n2="0">
                 <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -169,9 +169,9 @@
         <o name="satellite3" pos="-287.056 131.398 33.0275" rot="0 -1 0 0" sc="1.28989 1.28989 1.28989"/>
     </objects>
     <emitters>
-        <e name="AlienGlow" pos="140.71 15.4189 -91.2031" sc="31.1022 3.31801 23.5693" up="0 1 0" rot="0" rate="58.6965" st="0" psc="1"/>
-        <e name="AcidVapor2" pos="-237.413 30.9807 -73.3708" sc="135.863 1 95.825" up="0 1 0" rot="0" rate="151.675" st="0" psc="1"/>
-        <e name="AlienGlow" pos="-0.181317 32.9157 -62.1305" sc="20.3919 13.5609 10.9166" up="0 1 0" rot="0" rate="32.5892" st="0" psc="1"/>
+        <e name="AlienGlow" pos="140.71 15.4189 -91.2031" sc="31.1022 3.31801 23.5693" yaw="0" pt="-90" rate="58.6965" st="0" psc="1"/>
+        <e name="AcidVapor2" pos="-237.413 30.9807 -73.3708" sc="135.863 1 95.825" yaw="0" pt="-90" rate="151.675" st="0" psc="1"/>
+        <e name="AlienGlow" pos="-0.181317 32.9157 -62.1305" sc="20.3919 13.5609 10.9166" yaw="0" pt="-90" rate="32.5892" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

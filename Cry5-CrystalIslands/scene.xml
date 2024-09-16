@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Cry5-CryIslands_Ter2" secEd="42847"/>
+    <ver num="3203" baseTrk="Cry5-CryIslands_Ter2" secEd="42847"/>
     <car tires="0" damage="0.489247"/>
     <start pos="-143.336 -320.348 15.5967" rot="-0.0545222 -0.0596128 0.325981 0.941983" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.457 0.676 0.680 0.600 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="9.73234" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="9.73234" diff="1 1 1" horiz="1" veget="0.2">
             <texture on="1" file="ycrystals3_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="28.8016" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.865 0.615 0.260 0.800 0.000" angMin="0" angMax="36.5714" angSm="0.861295" hMin="47" hMax="80" hSm="0.877047" nOn="0" noise="1" n_1="1" n2="0.265432">
                 <noise frq0="3.34363" oct0="3" prs0="0.349524" pow0="1.87563" frq1="9.82856" oct1="4" prs1="0.320744" pow1="2.0643"/>
             </texture>
@@ -64,7 +64,7 @@
             <texture road="4" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.457 0.676 0.680 0.600 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="20" diff="1 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="20" diff="1 1 1" horiz="2" veget="0">
             <texture on="1" file="ycrystals3_fine_d.jpg" fnorm="ycrystals_fine_n.jpg" scale="34.6023" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.865 0.615 0.260 0.800 0.000" angMin="0" angMax="36.5714" angSm="0.861295" hMin="47" hMax="80" hSm="0.877047" nOn="0" noise="1" n_1="1" n2="0.265432">
                 <noise frq0="1.43481" oct0="3" prs0="0.349524" pow0="1.87563" frq1="6.23477" oct1="4" prs1="0.320744" pow1="2.0643"/>
             </texture>
@@ -500,63 +500,63 @@
         <o name="crystal1_pink" pos="261.402 274.591 33.1118" rot="-0.996737 -0.0807157 0 0" sc="1.3458 1.3458 1.3458"/>
     </objects>
     <emitters>
-        <e name="CrystalCloud" pos="80.8839 19.106 74.7331" sc="2889.12 65.5359 3310.76" up="0 1 0" rot="0" rate="71.1383" st="0" psc="2.40747"/>
-        <e name="ElectricSparks2" pos="-362.758 10.8133 368.099" sc="220.365 28.2119 236.746" up="0 1 0" rot="0" rate="107.722" st="0" psc="8.6126"/>
-        <e name="ElectricSparks2" pos="-358.408 35.2969 355.789" sc="312.18 78.8137 200.634" up="0 1 0" rot="0" rate="76.5164" st="0" psc="4.63902"/>
-        <e name="Cloud6WhiteSlow" pos="61.1101 0.00814655 2.64253" sc="128.812 8.57644 76.0849" up="0 1 0" rot="0" rate="34.6691" st="0" psc="0.178777"/>
-        <e name="CrystalCloud" pos="-153.719 2.30473 -344.923" sc="112.379 88.9947 87.0011" up="0 1 0" rot="0" rate="17.2407" st="0" psc="0.757952"/>
-        <e name="FireOrange" pos="34.3823 37.4409 110.459" sc="11.4621 12.5744 13.2437" up="0 1 0" rot="0" rate="14.3812" st="0" psc="2.27353"/>
-        <e name="FireOrange" pos="2.47278 29.9838 140.41" sc="9.14535 2.22943 8.85362" up="0 1 0" rot="0" rate="10" st="0" psc="1.38384"/>
-        <e name="FireOrange" pos="-62.1352 29.9351 66.3085" sc="8.63616 3.08963 7.31472" up="0 1 0" rot="0" rate="10" st="0" psc="1.41043"/>
-        <e name="Electricity" pos="-45.4256 17.041 25.3808" sc="5.05112 1 4.96797" up="0 1 0" rot="0" rate="20.7487" st="0" psc="1.28742"/>
-        <e name="ElectricSparks2" pos="-27.4867 25.8559 54.6442" sc="5.75052 6.98346 5.94218" up="0 1 0" rot="0" rate="15.7997" st="0" psc="2.98355"/>
-        <e name="FireOrangeRed" pos="117.255 46.1843 129.055" sc="10.5372 3.47538 10.8799" up="0 1 0" rot="0" rate="10" st="0" psc="1.7135"/>
-        <e name="ElectricSparks2" pos="-130.327 6.47573 30.0827" sc="4.44231 3.43088 5.25346" up="0 1 0" rot="0" rate="25.3458" st="0" psc="1.42961"/>
-        <e name="Electricity" pos="-140.116 15.0558 83.6477" sc="8.0955 4.82258 6.74122" up="0 1 0" rot="0" rate="18.0133" st="0" psc="1.3215"/>
-        <e name="ElectricSparks2" pos="-160.692 7.64922 108.389" sc="6.63349 1.74217 6.6769" up="0 1 0" rot="0" rate="34.52" st="0" psc="1.71214"/>
-        <e name="ElectricSparks2" pos="72.7524 48.5088 124.553" sc="4.8929 2.19708 4.93165" up="0 1 0" rot="0" rate="20.2497" st="0" psc="1.46586"/>
-        <e name="ElectricSparks2" pos="82.7653 59.747 113.398" sc="2.99321 1.94533 3.03488" up="0 1 0" rot="0" rate="10" st="0" psc="1.34273"/>
-        <e name="ElectricSparks2" pos="75.951 53.5544 -22.5021" sc="13.2115 8.00159 15.9856" up="0 1 0" rot="0" rate="22.5066" st="0" psc="1.82871"/>
-        <e name="ElectricSparks2" pos="118.224 22.7075 164.026" sc="8.93717 7.8863 8.56771" up="0 1 0" rot="0" rate="22.3215" st="0" psc="1.8531"/>
-        <e name="Electricity" pos="160.128 23.0788 134.398" sc="6.20049 2.40733 6.83852" up="0 1 0" rot="0" rate="16.5451" st="0" psc="1"/>
-        <e name="ElectricSparks2" pos="179.504 22.7985 136.128" sc="3.44297 1 3.31931" up="0 1 0" rot="0" rate="16.1059" st="0" psc="1.37398"/>
-        <e name="ElectricSparks2" pos="197.711 22.1846 113.309" sc="8.12247 4.27099 8.42647" up="0 1 0" rot="0" rate="31.8075" st="0" psc="2.22667"/>
-        <e name="Electricity" pos="170.819 8.63531 79.2122" sc="6.34579 2.58574 6.69632" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Electricity" pos="175.402 10.1621 47.9561" sc="3.94638 2.46967 3.48621" up="0 1 0" rot="0" rate="17.2981" st="0" psc="1.31948"/>
-        <e name="Electricity" pos="138.891 22.9705 1.04352" sc="5.74982 1 6.26079" up="0 1 0" rot="0" rate="6.77033" st="0" psc="1.17309"/>
-        <e name="ElectricSparks2" pos="129.367 18.2117 16.3369" sc="6.6776 3.47566 7.23742" up="0 1 0" rot="0" rate="26.1445" st="0" psc="2.71361"/>
-        <e name="ElectricSparks2" pos="180.658 5.96072 -42.8419" sc="5.54156 3.57466 3.75836" up="0 1 0" rot="0" rate="19.1805" st="0" psc="1.45832"/>
-        <e name="Electricity" pos="163.605 6.709 -37.0924" sc="7.31173 1 5.91172" up="0 1 0" rot="0" rate="20.2762" st="0" psc="1.75327"/>
-        <e name="FireOrangeRed" pos="64.5022 36.9887 -59.3724" sc="5.51295 1.31221 6.44615" up="0 1 0" rot="0" rate="6.5984" st="0" psc="0.726876"/>
-        <e name="FireOrangeRed" pos="24.4951 27.6768 -50.2065" sc="6.56321 3.1423 6.50087" up="0 1 0" rot="0" rate="20.064" st="0" psc="1.37505"/>
-        <e name="Electricity" pos="-11.405 12.5877 -46.4923" sc="7.44247 2.34406 7.48813" up="0 1 0" rot="0" rate="10" st="0" psc="0.510253"/>
-        <e name="ElectricSparks2" pos="-21.045 24.541 -14.3393" sc="10.2714 4.33668 11.1616" up="0 1 0" rot="0" rate="42.6422" st="0" psc="3.01593"/>
-        <e name="ElectricSparks2" pos="28.9721 51.5679 74.6684" sc="4.2646 3.14261 5.22052" up="0 1 0" rot="0" rate="25.404" st="0" psc="2.57749"/>
-        <e name="Electricity" pos="-106.784 11.7822 124.629" sc="3.74531 1 5.09533" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="ElectricSparks2" pos="89.8558 20.2213 205.753" sc="3.04808 1 3.16453" up="0 1 0" rot="0" rate="17.9004" st="0" psc="2.92917"/>
-        <e name="Electricity" pos="93.226 10.0078 242.998" sc="5.75705 1.51857 5.44289" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Electricity" pos="197.205 4.67772 81.8983" sc="11.7832 2.52779 11.73" up="0 1 0" rot="0" rate="12.6904" st="0" psc="2.24289"/>
-        <e name="Electricity" pos="200.941 6.59351 2.85873" sc="3.39837 1 3.40367" up="0 1 0" rot="0" rate="5.89806" st="0" psc="0.676485"/>
-        <e name="Electricity" pos="212.824 6.87222 -16.3807" sc="3.84666 2.35125 4.09542" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Electricity" pos="-157.495 22.4292 -276.73" sc="7.83169 2.3138 6.396" up="0 1 0" rot="0" rate="18.4912" st="0" psc="1.61934"/>
-        <e name="ElectricSparks2" pos="-143.441 26.5431 -344.88" sc="6.30989 4.79232 6.37966" up="0 1 0" rot="0" rate="20.6496" st="0" psc="1.87571"/>
-        <e name="FireOrangeTiny" pos="-149.879 29.7422 -365.416" sc="2.8843 2.06902 2.70537" up="0 1 0" rot="0" rate="10" st="0" psc="1.31714"/>
-        <e name="Electricity" pos="-270.334 10.2548 4.96224" sc="8.12211 1.83288 6.33167" up="0 1 0" rot="0" rate="15.4901" st="0" psc="1.57877"/>
-        <e name="Electricity" pos="-1.07616 12.2744 181.937" sc="6.25435 1.93394 5.69123" up="0 1 0" rot="0" rate="13.0069" st="0" psc="1.93483"/>
-        <e name="Electricity" pos="367.833 10 7.36487" sc="2.71808 1 2.71584" up="0 1 0" rot="0" rate="12.9557" st="0" psc="0.799012"/>
-        <e name="Electricity" pos="190.654 15.3784 332.053" sc="2.93367 1 2.83195" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Electricity" pos="-337.116 10.5563 289.147" sc="7.21907 2.50388 7.14697" up="0 1 0" rot="0" rate="10" st="0" psc="1.50776"/>
-        <e name="ElectricSparks2" pos="-342.016 12.0135 304.917" sc="3.31567 2.07535 3.30271" up="0 1 0" rot="0" rate="12.0329" st="0" psc="0.786487"/>
-        <e name="ElectricSparks2" pos="-319.996 25.8622 280.871" sc="6.38241 3.97896 6.6533" up="0 1 0" rot="0" rate="14.0381" st="0" psc="1.15648"/>
-        <e name="Electricity" pos="-356.329 10.1403 241.43" sc="9.43512 2.21927 7.45085" up="0 1 0" rot="0" rate="12.2831" st="0" psc="1.31572"/>
-        <e name="Electricity" pos="-392.938 10.9365 334.247" sc="5.05229 2.77269 4.91862" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="ElectricSparks2" pos="-410.769 19.5446 369.817" sc="6.45077 3.11115 6.93694" up="0 1 0" rot="0" rate="21.7295" st="0" psc="1.88043"/>
-        <e name="Electricity" pos="-426.362 12.9833 398.023" sc="6.47272 3.59546 7.63954" up="0 1 0" rot="0" rate="13.4917" st="0" psc="1.29242"/>
-        <e name="FireOrangeRed" pos="-401.304 32.0473 392.464" sc="10.9307 4.95275 12.0313" up="0 1 0" rot="0" rate="31.3586" st="0" psc="1.13277"/>
-        <e name="ElectricSparks2" pos="-379.343 9.98101 257.349" sc="2.44236 3.55372 2.47117" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Cloud3Blue" pos="-780.449 12.0135 385.396" sc="184.527 24.2756 170.312" up="0 1 0" rot="0" rate="5.01469" st="0" psc="0.851148"/>
-        <e name="Cloud3Blue" pos="361.975 -0.0163422 -1062.36" sc="286.12 28.1927 68.703" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Cloud3BlueSmall" pos="1822.79 7.87454 150.572" sc="204.179 28.313 224.73" up="0 1 0" rot="0" rate="5.60661" st="0" psc="0.862004"/>
+        <e name="CrystalCloud" pos="80.8839 19.106 74.7331" sc="2889.12 65.5359 3310.76" yaw="0" pt="-90" rate="71.1383" st="0" psc="2.40747"/>
+        <e name="ElectricSparks2" pos="-362.758 10.8133 368.099" sc="220.365 28.2119 236.746" yaw="0" pt="-90" rate="107.722" st="0" psc="8.6126"/>
+        <e name="ElectricSparks2" pos="-358.408 35.2969 355.789" sc="312.18 78.8137 200.634" yaw="0" pt="-90" rate="76.5164" st="0" psc="4.63902"/>
+        <e name="Cloud6WhiteSlow" pos="61.1101 0.00814655 2.64253" sc="128.812 8.57644 76.0849" yaw="0" pt="-90" rate="34.6691" st="0" psc="0.178777"/>
+        <e name="CrystalCloud" pos="-153.719 2.30473 -344.923" sc="112.379 88.9947 87.0011" yaw="0" pt="-90" rate="17.2407" st="0" psc="0.757952"/>
+        <e name="FireOrange" pos="34.3823 37.4409 110.459" sc="11.4621 12.5744 13.2437" yaw="0" pt="-90" rate="14.3812" st="0" psc="2.27353"/>
+        <e name="FireOrange" pos="2.47278 29.9838 140.41" sc="9.14535 2.22943 8.85362" yaw="0" pt="-90" rate="10" st="0" psc="1.38384"/>
+        <e name="FireOrange" pos="-62.1352 29.9351 66.3085" sc="8.63616 3.08963 7.31472" yaw="0" pt="-90" rate="10" st="0" psc="1.41043"/>
+        <e name="Electricity" pos="-45.4256 17.041 25.3808" sc="5.05112 1 4.96797" yaw="0" pt="-90" rate="20.7487" st="0" psc="1.28742"/>
+        <e name="ElectricSparks2" pos="-27.4867 25.8559 54.6442" sc="5.75052 6.98346 5.94218" yaw="0" pt="-90" rate="15.7997" st="0" psc="2.98355"/>
+        <e name="FireOrangeRed" pos="117.255 46.1843 129.055" sc="10.5372 3.47538 10.8799" yaw="0" pt="-90" rate="10" st="0" psc="1.7135"/>
+        <e name="ElectricSparks2" pos="-130.327 6.47573 30.0827" sc="4.44231 3.43088 5.25346" yaw="0" pt="-90" rate="25.3458" st="0" psc="1.42961"/>
+        <e name="Electricity" pos="-140.116 15.0558 83.6477" sc="8.0955 4.82258 6.74122" yaw="0" pt="-90" rate="18.0133" st="0" psc="1.3215"/>
+        <e name="ElectricSparks2" pos="-160.692 7.64922 108.389" sc="6.63349 1.74217 6.6769" yaw="0" pt="-90" rate="34.52" st="0" psc="1.71214"/>
+        <e name="ElectricSparks2" pos="72.7524 48.5088 124.553" sc="4.8929 2.19708 4.93165" yaw="0" pt="-90" rate="20.2497" st="0" psc="1.46586"/>
+        <e name="ElectricSparks2" pos="82.7653 59.747 113.398" sc="2.99321 1.94533 3.03488" yaw="0" pt="-90" rate="10" st="0" psc="1.34273"/>
+        <e name="ElectricSparks2" pos="75.951 53.5544 -22.5021" sc="13.2115 8.00159 15.9856" yaw="0" pt="-90" rate="22.5066" st="0" psc="1.82871"/>
+        <e name="ElectricSparks2" pos="118.224 22.7075 164.026" sc="8.93717 7.8863 8.56771" yaw="0" pt="-90" rate="22.3215" st="0" psc="1.8531"/>
+        <e name="Electricity" pos="160.128 23.0788 134.398" sc="6.20049 2.40733 6.83852" yaw="0" pt="-90" rate="16.5451" st="0" psc="1"/>
+        <e name="ElectricSparks2" pos="179.504 22.7985 136.128" sc="3.44297 1 3.31931" yaw="0" pt="-90" rate="16.1059" st="0" psc="1.37398"/>
+        <e name="ElectricSparks2" pos="197.711 22.1846 113.309" sc="8.12247 4.27099 8.42647" yaw="0" pt="-90" rate="31.8075" st="0" psc="2.22667"/>
+        <e name="Electricity" pos="170.819 8.63531 79.2122" sc="6.34579 2.58574 6.69632" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="Electricity" pos="175.402 10.1621 47.9561" sc="3.94638 2.46967 3.48621" yaw="0" pt="-90" rate="17.2981" st="0" psc="1.31948"/>
+        <e name="Electricity" pos="138.891 22.9705 1.04352" sc="5.74982 1 6.26079" yaw="0" pt="-90" rate="6.77033" st="0" psc="1.17309"/>
+        <e name="ElectricSparks2" pos="129.367 18.2117 16.3369" sc="6.6776 3.47566 7.23742" yaw="0" pt="-90" rate="26.1445" st="0" psc="2.71361"/>
+        <e name="ElectricSparks2" pos="180.658 5.96072 -42.8419" sc="5.54156 3.57466 3.75836" yaw="0" pt="-90" rate="19.1805" st="0" psc="1.45832"/>
+        <e name="Electricity" pos="163.605 6.709 -37.0924" sc="7.31173 1 5.91172" yaw="0" pt="-90" rate="20.2762" st="0" psc="1.75327"/>
+        <e name="FireOrangeRed" pos="64.5022 36.9887 -59.3724" sc="5.51295 1.31221 6.44615" yaw="0" pt="-90" rate="6.5984" st="0" psc="0.726876"/>
+        <e name="FireOrangeRed" pos="24.4951 27.6768 -50.2065" sc="6.56321 3.1423 6.50087" yaw="0" pt="-90" rate="20.064" st="0" psc="1.37505"/>
+        <e name="Electricity" pos="-11.405 12.5877 -46.4923" sc="7.44247 2.34406 7.48813" yaw="0" pt="-90" rate="10" st="0" psc="0.510253"/>
+        <e name="ElectricSparks2" pos="-21.045 24.541 -14.3393" sc="10.2714 4.33668 11.1616" yaw="0" pt="-90" rate="42.6422" st="0" psc="3.01593"/>
+        <e name="ElectricSparks2" pos="28.9721 51.5679 74.6684" sc="4.2646 3.14261 5.22052" yaw="0" pt="-90" rate="25.404" st="0" psc="2.57749"/>
+        <e name="Electricity" pos="-106.784 11.7822 124.629" sc="3.74531 1 5.09533" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="ElectricSparks2" pos="89.8558 20.2213 205.753" sc="3.04808 1 3.16453" yaw="0" pt="-90" rate="17.9004" st="0" psc="2.92917"/>
+        <e name="Electricity" pos="93.226 10.0078 242.998" sc="5.75705 1.51857 5.44289" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="Electricity" pos="197.205 4.67772 81.8983" sc="11.7832 2.52779 11.73" yaw="0" pt="-90" rate="12.6904" st="0" psc="2.24289"/>
+        <e name="Electricity" pos="200.941 6.59351 2.85873" sc="3.39837 1 3.40367" yaw="0" pt="-90" rate="5.89806" st="0" psc="0.676485"/>
+        <e name="Electricity" pos="212.824 6.87222 -16.3807" sc="3.84666 2.35125 4.09542" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="Electricity" pos="-157.495 22.4292 -276.73" sc="7.83169 2.3138 6.396" yaw="0" pt="-90" rate="18.4912" st="0" psc="1.61934"/>
+        <e name="ElectricSparks2" pos="-143.441 26.5431 -344.88" sc="6.30989 4.79232 6.37966" yaw="0" pt="-90" rate="20.6496" st="0" psc="1.87571"/>
+        <e name="FireOrangeTiny" pos="-149.879 29.7422 -365.416" sc="2.8843 2.06902 2.70537" yaw="0" pt="-90" rate="10" st="0" psc="1.31714"/>
+        <e name="Electricity" pos="-270.334 10.2548 4.96224" sc="8.12211 1.83288 6.33167" yaw="0" pt="-90" rate="15.4901" st="0" psc="1.57877"/>
+        <e name="Electricity" pos="-1.07616 12.2744 181.937" sc="6.25435 1.93394 5.69123" yaw="0" pt="-90" rate="13.0069" st="0" psc="1.93483"/>
+        <e name="Electricity" pos="367.833 10 7.36487" sc="2.71808 1 2.71584" yaw="0" pt="-90" rate="12.9557" st="0" psc="0.799012"/>
+        <e name="Electricity" pos="190.654 15.3784 332.053" sc="2.93367 1 2.83195" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="Electricity" pos="-337.116 10.5563 289.147" sc="7.21907 2.50388 7.14697" yaw="0" pt="-90" rate="10" st="0" psc="1.50776"/>
+        <e name="ElectricSparks2" pos="-342.016 12.0135 304.917" sc="3.31567 2.07535 3.30271" yaw="0" pt="-90" rate="12.0329" st="0" psc="0.786487"/>
+        <e name="ElectricSparks2" pos="-319.996 25.8622 280.871" sc="6.38241 3.97896 6.6533" yaw="0" pt="-90" rate="14.0381" st="0" psc="1.15648"/>
+        <e name="Electricity" pos="-356.329 10.1403 241.43" sc="9.43512 2.21927 7.45085" yaw="0" pt="-90" rate="12.2831" st="0" psc="1.31572"/>
+        <e name="Electricity" pos="-392.938 10.9365 334.247" sc="5.05229 2.77269 4.91862" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="ElectricSparks2" pos="-410.769 19.5446 369.817" sc="6.45077 3.11115 6.93694" yaw="0" pt="-90" rate="21.7295" st="0" psc="1.88043"/>
+        <e name="Electricity" pos="-426.362 12.9833 398.023" sc="6.47272 3.59546 7.63954" yaw="0" pt="-90" rate="13.4917" st="0" psc="1.29242"/>
+        <e name="FireOrangeRed" pos="-401.304 32.0473 392.464" sc="10.9307 4.95275 12.0313" yaw="0" pt="-90" rate="31.3586" st="0" psc="1.13277"/>
+        <e name="ElectricSparks2" pos="-379.343 9.98101 257.349" sc="2.44236 3.55372 2.47117" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="Cloud3Blue" pos="-780.449 12.0135 385.396" sc="184.527 24.2756 170.312" yaw="0" pt="-90" rate="5.01469" st="0" psc="0.851148"/>
+        <e name="Cloud3Blue" pos="361.975 -0.0163422 -1062.36" sc="286.12 28.1927 68.703" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="Cloud3BlueSmall" pos="1822.79 7.87454 150.572" sc="204.179 28.313 224.73" yaw="0" pt="-90" rate="5.60661" st="0" psc="0.862004"/>
     </emitters>
     <collectible>
         <c n="gem1b" gr="0" pos="-100.61618 4.8495464 44.4039" sc="1"/>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="9568"/>
+    <ver num="3203" baseTrk="" secEd="9568"/>
     <car tires="0"/>
     <start pos="-37.5183 1.50516 0.599977" rot="-6.21725e-15 7.99361e-15 -0.653396 -0.757031" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -42,7 +42,7 @@
             <par dust="Dust" mud="MudDark" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.17351034" densTrees="0.1728" grDensSmooth="2" trRdDist="2">
+    <veget densGrass="0.17351034" densTrees2="2.6367188" grDensSmooth="2" trRdDist="2">
         <grass on="1" mtr="grassJungle" dens="0.0763414" chan="0" minSx="1.58" maxSx="2.04" minSy="1.41" maxSy="1.94"/>
         <grass on="1" mtr="grass3" dens="0.0938858" chan="0" minSx="1.1" maxSx="1.45854" minSy="0.911192" maxSy="1.19486"/>
         <grass on="1" mtr="grass15g" dens="0.0517448" chan="0" minSx="0.947375" maxSx="1.22276" minSy="1.00943" maxSy="1.32315"/>
@@ -101,8 +101,8 @@
         <o name="cone_anomaly" pos="-26.740044 -4.323176 0.7991865" rot="2.4409747e-08 0.99999815 0.0010518521 -0.0016176936"/>
     </objects>
     <emitters>
-        <e name="Waterfall1HighTall" pos="64.295845 48.886627 -64.501755" sc="22.648336 6.225763 10.022166" up="0 1 0" rot="0" rate="122.80866" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="60.435905 3.9624262 -38.846912" sc="43.47105 5.6887794 16.822716" up="0 1 0" rot="0" rate="126.44084" st="0" psc="1"/>
+        <e name="Waterfall1HighTall" pos="64.295845 48.886627 -64.501755" sc="22.648336 6.225763 10.022166" yaw="0" pt="-90" rate="122.80866" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="60.435905 3.9624262 -38.846912" sc="43.47105 5.6887794 16.822716" yaw="0" pt="-90" rate="126.44084" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

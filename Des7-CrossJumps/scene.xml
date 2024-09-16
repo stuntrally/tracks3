@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="X3-Cloud" secEd="2167"/>
+    <ver num="3203" baseTrk="X3-Cloud" secEd="2167"/>
     <car tires="0"/>
     <start pos="340.129 -171.921 9.93961" rot="-0.029189 0.028643 0.713178 0.699801" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="10" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="12.0559" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="10.4605" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="29.2247" oct0="3" prs0="0.509785" pow0="1.5048" frq1="15.8812" oct1="3" prs1="0.589628" pow1="3.94334"/>
             </texture>
@@ -63,7 +63,7 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.010559" densTrees="0.4" grDensSmooth="3" trRdDist="1">
+    <veget densGrass="0.010559" densTrees2="0.38146973" grDensSmooth="3" trRdDist="1">
         <grass on="1" mtr="grassDesert" dens="0.102456" chan="0" minSx="1.50525" maxSx="1.6173" minSy="1" maxSy="1.3"/>
         <grass on="0" mtr="grassJungle" dens="0.0761433" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9"/>
         <grass on="0" mtr="grassJungle" dens="0.032553" chan="0" minSx="0.6" maxSx="0.85" minSy="0.6" maxSy="0.9"/>
@@ -95,6 +95,11 @@
         <layer on="1" name="palm_coco3b.mesh" dens="0.014721777" minScale="1.0883912" maxScale="1.4195796" ofsY="0" addTrRdDist="4" maxRdist="20" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="palm_coco3a.mesh" dens="0.014721777" minScale="0.96566576" maxScale="1.3" ofsY="0" addTrRdDist="3" maxRdist="20" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bush13tall_ylw.mesh" dens="0.05077511" minScale="1.9671675" maxScale="2.6158879" ofsY="0" addTrRdDist="3" maxRdist="20" maxTerAng="20.683556" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
     </veget>

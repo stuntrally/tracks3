@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="8007"/>
+    <ver num="3203" baseTrk="" secEd="8007"/>
     <car tires="0" needLights="1"/>
     <start pos="213.537 108.843 26.036" rot="0.01319 0.014275 0.995562 -0.0922952" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
             <par dust="DustBlack" mud="MudDark" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.3189" diff="1 1 1" emissive="1" horiz="1">
+        <terrain ofsZ="0" triangle="10.3189" diff="1 1 1" emissive="1" horiz="1" veget="0.3">
             <texture on="1" file="desert_rocky_d.jpg" fnorm="desert_rocky_n.jpg" scale="14.16" surf="DesertBumpy" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="19.3738" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="0" n2="1">
                 <noise frq0="29.2247" oct0="4" prs0="0.616634" pow0="2.0372" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -382,7 +382,7 @@
         <o name="atomic_barrel" pos="-71.748 238.266 26.5921" rot="0.928498 -0.369734 -0.0214899 0.0269391"/>
     </objects>
     <emitters>
-        <e name="Radioactive" pos="-3.80225 25.3521 0.459521" sc="819.353 1 738.645" up="0 1 0" rot="0" rate="354.591" st="0" psc="1"/>
+        <e name="Radioactive" pos="-3.80225 25.3521 0.459521" sc="819.353 1 738.645" yaw="0" pt="-90" rate="354.591" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

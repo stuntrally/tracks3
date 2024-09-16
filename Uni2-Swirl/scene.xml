@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3953"/>
+    <ver num="3203" baseTrk="" secEd="3953"/>
     <car tires="0"/>
     <start pos="-0.316434 -5.30344 -17.9544" rot="-0 0 1.62921e-07 1" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -40,7 +40,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="8.22789" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="8.22789" diff="1 1 1" horiz="1" veget="0.2">
             <texture on="1" file="desert_sand_bigx_d.jpg" fnorm="desert_sand_big_n.jpg" scale="17.3008" surf="DesertBumpy" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.683 0.500 0.400 0.900 0.000" angMin="0" angMax="26.25" angSm="9.3268" hMin="-300" hMax="1800" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="8.39947" oct0="4" prs0="0.673632" pow0="2.5252" frq1="7.87488" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

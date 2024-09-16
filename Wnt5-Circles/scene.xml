@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Uni6-Wild" secEd="1991"/>
+    <ver num="3203" baseTrk="Uni6-Wild" secEd="1991"/>
     <car tires="0"/>
     <start pos="1.56165 134.227 1.83091" rot="0 1.77636e-15 -0.999981 -0.00681084" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="6.32654" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="6.32654" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="snow1_d.jpg" fnorm="snow1_n.jpg" scale="7.44806" surf="SnowMedium" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.998652">
                 <noise frq0="38.5134" oct0="3" prs0="0.134223" pow0="1.35927" frq1="44.9887" oct1="4" prs1="0.525049" pow1="5.41922"/>
             </texture>

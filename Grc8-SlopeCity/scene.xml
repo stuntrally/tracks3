@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="TestC4-ow" secEd="7815"/>
+    <ver num="3203" baseTrk="TestC4-ow" secEd="7815"/>
     <car tires="0"/>
     <start pos="-88.4286 -163.073 0.819972" rot="0.000386685 0.0153651 0.105387 -0.99433" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.5376358" tr="1" gr="4"/>
@@ -227,14 +227,14 @@
         <o name="kart_storehouse" pos="-37.6305 161.986 57.1194" rot="-0.708453 -0.705759 0 0"/>
     </objects>
     <emitters>
-        <e name="Cloud2" pos="-108.019 87.8594 -179.928" sc="152.159 12.9804 154.102" up="0 1 0" rot="0" rate="10" st="1" psc="1"/>
-        <e name="FireOrangeTiny" pos="-44.5062 71.2426 90.4443" sc="0.754806 0.289637 0.698591" up="0 1 0" rot="0" rate="15.0278" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="98.4097 72.2365 -10.301" sc="0.49677 0.199109 0.467303" up="0 1 0" rot="0" rate="9.77494" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="95.2983 72.1402 -0.896451" sc="0.588085 0.325127 0.520865" up="0 1 0" rot="0" rate="15.0278" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="-37.1743 71.2459 87.4735" sc="0.873199 0.328318 0.791385" up="0 1 0" rot="0" rate="15.0278" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="50.5216 118.093 -58.0586" sc="0.997134 0.325127 0.847246" up="0 1 0" rot="0" rate="15.0278" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="50.0486 118.196 -65.2454" sc="0.873199 0.328318 0.791385" up="0 1 0" rot="0" rate="15.0278" st="0" psc="1"/>
-        <e name="Cloud4" pos="-1963.13 1029.65 -2907.25" sc="2744.07 308.003 2265.41" up="0 1 0" rot="0" rate="140.22" st="1" psc="2.12034"/>
+        <e name="Cloud2" pos="-108.019 87.8594 -179.928" sc="152.159 12.9804 154.102" yaw="0" pt="-90" rate="10" st="1" psc="1"/>
+        <e name="FireOrangeTiny" pos="-44.5062 71.2426 90.4443" sc="0.754806 0.289637 0.698591" yaw="0" pt="-90" rate="15.0278" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="98.4097 72.2365 -10.301" sc="0.49677 0.199109 0.467303" yaw="0" pt="-90" rate="9.77494" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="95.2983 72.1402 -0.896451" sc="0.588085 0.325127 0.520865" yaw="0" pt="-90" rate="15.0278" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="-37.1743 71.2459 87.4735" sc="0.873199 0.328318 0.791385" yaw="0" pt="-90" rate="15.0278" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="50.5216 118.093 -58.0586" sc="0.997134 0.325127 0.847246" yaw="0" pt="-90" rate="15.0278" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="50.0486 118.196 -65.2454" sc="0.873199 0.328318 0.791385" yaw="0" pt="-90" rate="15.0278" st="0" psc="1"/>
+        <e name="Cloud4" pos="-1963.13 1029.65 -2907.25" sc="2744.07 308.003 2265.41" yaw="0" pt="-90" rate="140.22" st="1" psc="2.12034"/>
     </emitters>
     <collectible/>
     <fields/>

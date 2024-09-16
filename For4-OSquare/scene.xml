@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="4872"/>
+    <ver num="3203" baseTrk="" secEd="4872"/>
     <car tires="0"/>
     <start pos="39.4121 51.9231 -19.0149" rot="-0.000338 -2.00004e-06 -0.999974 -0.00826884" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.361111" gr="4"/>
@@ -96,6 +96,7 @@
         <layer on="1" name="elm3.mesh" dens="0.027335111" minScale="0.5538235" maxScale="1.009744" ofsY="0" addTrRdDist="5" maxRdist="20" maxTerAng="26.84" minTerH="-22.880001" maxTerH="24.8" maxDepth="0"/>
         <layer on="0" name="rock05can3round.mesh" dens="0.031447113" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
         <layer on="0" name="rock40red3flat.mesh" dens="0.011953779" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="9" maxRdist="20" maxTerAng="28.407969" minTerH="-0.65075684" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

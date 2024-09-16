@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Grc2-Coast" secEd="49005"/>
+    <ver num="3203" baseTrk="Grc2-Coast" secEd="49005"/>
     <car tires="0"/>
     <start pos="-215.311 172.523 2.87148" rot="0.0106237 -0.000670277 -0.932316 0.36154" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="7.7361765" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="7.7361765" diff="1 1 1" horiz="1" veget="0.2">
             <texture on="1" file="zdesert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="17.21" surf="DesertFast" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" angMin="0" angMax="18.9261" angSm="7.91189" hMin="-300" hMax="900" hSm="20" nOn="0" noise="0.54545456" n_1="0" n2="1">
                 <noise frq0="6.023964" oct0="4" prs0="0.534442" pow0="3.23972" frq1="7.3758717" oct1="4" prs1="0.494521" pow1="3.77606"/>
             </texture>
@@ -108,10 +108,10 @@
     <cam pos="-225.96576 56.35582 -517.2465" dir="0.80054593 -0.19916117 0.5652089"/>
     <objects/>
     <emitters>
-        <e name="Cloud3BlueSmall" pos="-122.489 1.76747 -229.531" sc="302.621 40.0747 179.298" up="0 1 0" rot="0" rate="37.6106" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="189.077 3.84054 -411.466" sc="88.5212 22.2349 79.6606" up="0 1 0" rot="0" rate="94.6424" st="0" psc="1.055053"/>
-        <e name="Cloud6WhiteSmall" pos="188.971 4.83806 216.034" sc="167.592 18.909 201.122" up="0 1 0" rot="0" rate="20.483" st="0" psc="1"/>
-        <e name="Cloud8MistyWhite2" pos="229.524 -34.2717 -422.679" sc="36.1379 14.001 108.152" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
+        <e name="Cloud3BlueSmall" pos="-122.489 1.76747 -229.531" sc="302.621 40.0747 179.298" yaw="0" pt="-90" rate="37.6106" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="189.077 3.84054 -411.466" sc="88.5212 22.2349 79.6606" yaw="0" pt="-90" rate="94.6424" st="0" psc="1.055053"/>
+        <e name="Cloud6WhiteSmall" pos="188.971 4.83806 216.034" sc="167.592 18.909 201.122" yaw="0" pt="-90" rate="20.483" st="0" psc="1"/>
+        <e name="Cloud8MistyWhite2" pos="229.524 -34.2717 -422.679" sc="36.1379 14.001 108.152" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

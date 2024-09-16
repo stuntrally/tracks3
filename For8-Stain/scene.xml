@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3420"/>
+    <ver num="3203" baseTrk="" secEd="3420"/>
     <car tires="0"/>
     <start pos="-64.6381 -5.47507 -5.58963" rot="-0.0643443 -0.0812483 0.696827 0.709731" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="3.829807" gr="4"/>
@@ -92,6 +92,7 @@
         <layer on="1" name="bush01.mesh" dens="0.1" minScale="1.8691545" maxScale="2.4048462" ofsY="0" addTrRdDist="0" maxRdist="10" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bush05.mesh" dens="0.15471113" minScale="1.6" maxScale="2.3" ofsY="0" addTrRdDist="0" maxRdist="13" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="bush04.mesh" dens="0.1" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="0" maxRdist="11" maxTerAng="38.62376" minTerH="-100" maxTerH="14.056398" maxDepth="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

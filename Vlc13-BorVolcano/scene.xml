@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Vlc2-Volcanic" secEd="48743"/>
+    <ver num="3203" baseTrk="Vlc2-Volcanic" secEd="48743"/>
     <car tires="0" damage="0.447236" road1mtr="0" needLights="1"/>
     <start pos="450.808 -614.728 -32.5231" rot="0.00212491 0.00662932 -0.0398707 0.999193" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -41,7 +41,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="DustBlack" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="16.6921" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="16.6921" diff="1 1 1" horiz="1" veget="0.0">
             <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="34.9552" surf="DesertBumpy" dust="0.174797" dustS="0.48374" mud="0.4" smoke="0" tclr="0.167 0.566 0.203 0.100 0.000" angMin="0" angMax="26.1161" angSm="7.76869" hMin="-300" hMax="450" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="26.7639" oct0="4" prs0="0.546184" pow0="1.87784" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -67,7 +67,7 @@
             <par dust="DustBlack" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.101312" densTrees="0.914112" grDensSmooth="2" trRdDist="0">
+    <veget densGrass="0.101312" densTrees2="0.37032154" grDensSmooth="2" trRdDist="0">
         <grass on="1" mtr="grassAustralia" dens="0.11654" chan="0" minSx="1.0868" maxSx="1.33784" minSy="0.8" maxSy="1"/>
         <grass on="1" mtr="grass19" dens="0.257622" chan="0" minSx="1.0868" maxSx="1.36749" minSy="1.20601" maxSy="1.51965"/>
         <grass on="1" mtr="grass6s" dens="0.0572847" chan="0" minSx="1.593" maxSx="2.10623" minSy="1.23684" maxSy="1.75063"/>
@@ -148,9 +148,9 @@
         <o name="cave_B04" pos="-39.7289 30.3537 467.585" rot="-0.417338 -0.889347 0.0633727 0.175704" sc="1.78902 1.15766 1.78902"/>
     </objects>
     <emitters>
-        <e name="FireOrangeRed" pos="369.864 486.83 -132.482" sc="82.1421 33.6492 90.3042" up="0 1 0" rot="0" rate="91.0765" st="0" psc="1"/>
-        <e name="SmokeGray" pos="-206.371 584.389 -100.117" sc="115.418 112.704 143.127" up="0 1 0" rot="0" rate="188.001" st="0" psc="1"/>
-        <e name="SmokeBrown" pos="367.279 601.792 -108.251" sc="96.6665 115.916 97.1034" up="0 1 0" rot="0" rate="219.993" st="0" psc="1"/>
+        <e name="FireOrangeRed" pos="369.864 486.83 -132.482" sc="82.1421 33.6492 90.3042" yaw="0" pt="-90" rate="91.0765" st="0" psc="1"/>
+        <e name="SmokeGray" pos="-206.371 584.389 -100.117" sc="115.418 112.704 143.127" yaw="0" pt="-90" rate="188.001" st="0" psc="1"/>
+        <e name="SmokeBrown" pos="367.279 601.792 -108.251" sc="96.6665 115.916 97.1034" yaw="0" pt="-90" rate="219.993" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

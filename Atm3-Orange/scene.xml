@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="W14-DangerRoad" secEd="5236"/>
+    <ver num="3203" baseTrk="W14-DangerRoad" secEd="5236"/>
     <car tires="0"/>
     <start pos="2.44382 -54.8983 0.646788" rot="2e-06 3.28571e-13 -0.70411 -0.710154" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="2.252345" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="AsphaltWet" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="WetRoad" mud="Dirt" smoke="MudDark"/>
         </terrain>
-        <terrain ofsZ="0" triangle="4.91709" diff="1.30201 1.00042 1" horiz="1">
+        <terrain ofsZ="0" triangle="4.91709" diff="1.30201 1.00042 1" horiz="1" veget="0.2">
             <texture on="1" file="grass_autumn_orn_d.jpg" fnorm="grass_autumn_n.jpg" scale="5.72122" surf="GrassForest" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.131 0.583 0.480 0.700 0.000" angMin="0" angMax="11.9765" angSm="4.83606" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.991228" n_1="0" n2="0">
                 <noise frq0="41.0417" oct0="3" prs0="0.280822" pow0="0.785476" frq1="10.6918" oct1="3" prs1="0.58728" pow1="6.60346"/>
             </texture>
@@ -63,7 +63,7 @@
             <par dust="WetRoad" mud="Dirt" smoke="MudDark"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.1" densTrees="1.4" grDensSmooth="6" trRdDist="1">
+    <veget densGrass="0.1" densTrees2="4.761894" grDensSmooth="6" trRdDist="1">
         <grass on="1" mtr="grassAustralia" dens="0.25" chan="0" minSx="0.7" maxSx="1.4" minSy="0.7" maxSy="1.4"/>
         <grass on="0" mtr="grass9r" dens="0.0194865" chan="0" minSx="1.6" maxSx="1.85" minSy="1.6" maxSy="1.9"/>
         <grass on="1" mtr="grass16r" dens="0.0188949" chan="0" minSx="2.2" maxSx="2.85" minSy="2.2" maxSy="2.9"/>
@@ -87,6 +87,11 @@
         <layer on="1" name="blueberryAtm.mesh" dens="0.166464" minScale="1.3877397" maxScale="2.2379048" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="34.882248" minTerH="-4.8156166" maxTerH="22.906725" maxDepth="0.5"/>
         <layer on="0" name="bushes1.mesh" dens="0.07544178" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="16" maxTerAng="40" minTerH="-3.7744064" maxTerH="20.824295" maxDepth="0.5"/>
         <layer on="1" name="bush04.mesh" dens="0.179776" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="40" minTerH="-3.7744064" maxTerH="20.824295" maxDepth="0.5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

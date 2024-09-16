@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="W13-MtFog" secEd="8248"/>
+    <ver num="3203" baseTrk="W13-MtFog" secEd="8248"/>
     <car tires="0"/>
     <start pos="195.963 -12.9837 12.4352" rot="-0.006911 -0.02307 -0.975282 -0.219786" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.2978" diff="0.77 0.78 1" emissive="1" horiz="1">
+        <terrain ofsZ="0" triangle="10.2978" diff="0.77 0.78 1" emissive="1" horiz="1" veget="0.2">
             <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="84.33" surf="DesertBumpy" dust="0" dustS="0.6" mud="0.4" smoke="0" tclr="0.167 0.818 0.220 0.100 0.000" angMin="0" angMax="18.9" angSm="27.7478" hMin="-300" hMax="1200" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="3.90123" oct0="3" prs0="0.493346" pow0="1.25577" frq1="12.862" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -62,7 +62,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="20" diff="0.770994 0.780985 1" emissive="1" horiz="2">
+        <terrain ofsZ="0" triangle="20" diff="0.770994 0.780985 1" emissive="1" horiz="2" veget="0">
             <texture on="1" file="ground_cracks2v_d.jpg" fnorm="ground_cracks2_n.jpg" scale="126.93" surf="DesertBumpy" dust="0" dustS="0.6" mud="0.4" smoke="0" tclr="0.167 0.818 0.220 0.100 0.000" angMin="0" angMax="18.9" angSm="27.7478" hMin="-300" hMax="1700" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="0.648492" oct0="3" prs0="0.493346" pow0="1.25577" frq1="2.2721" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Aus5-TopTwist" secEd="1611"/>
+    <ver num="3203" baseTrk="Aus5-TopTwist" secEd="1611"/>
     <car tires="0"/>
     <start pos="35.9547 -26.3962 -10.0351" rot="-0.011207 -0.009004 -0.779481 0.626279" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -106,8 +106,8 @@
     <cam pos="158.093 51.879 60.8249" dir="-0.978845 -0.169618 0.114423"/>
     <objects/>
     <emitters>
-        <e name="SmokeBrown" pos="-5.34399 26.6773 48.4049" sc="340.588 37.5106 363.639" up="0 1 0" rot="0" rate="802.756" st="0" psc="1"/>
-        <e name="FireOrangeRed" pos="31.1337 -9.01958 64.0111" sc="39.1692 5.46754 205.609" up="0 1 0" rot="0" rate="99.3813" st="0" psc="1"/>
+        <e name="SmokeBrown" pos="-5.34399 26.6773 48.4049" sc="340.588 37.5106 363.639" yaw="0" pt="-90" rate="802.756" st="0" psc="1"/>
+        <e name="FireOrangeRed" pos="31.1337 -9.01958 64.0111" sc="39.1692 5.46754 205.609" yaw="0" pt="-90" rate="99.3813" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

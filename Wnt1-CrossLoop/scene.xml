@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="X3-Cloud" secEd="4251"/>
+    <ver num="3203" baseTrk="X3-Cloud" secEd="4251"/>
     <car tires="0"/>
     <start pos="102.307 8.20158 -3.25542" rot="0 1.77636e-15 -0.999981 -0.00681084" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.9" mud="0" smoke="0.357995" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="SnowDust" mud="SnowMud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="4.04289" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="4.04289" diff="1 1 1" horiz="1" veget="0.2">
             <texture on="1" file="snow1_d.jpg" fnorm="snow1_n.jpg" scale="10.6571" surf="SnowDeep" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="0" angMax="15.3229" angSm="8.95089" hMin="-300" hMax="-21.2329" hSm="27.9181" nOn="0" noise="1" n_1="0" n2="1">
                 <noise frq0="31.7976" oct0="3" prs0="0.495695" pow0="1.78019" frq1="13.385" oct1="3" prs1="0.1" pow1="8"/>
             </texture>
@@ -108,7 +108,7 @@
     <cam pos="-24.3194 13.0743 -95.26" dir="-0.46803 -0.0271678 0.883295"/>
     <objects/>
     <emitters>
-        <e name="Cloud1" pos="206.266 34.0386 109.998" sc="273.969 11.7657 234.972" up="0 1 0" rot="0" rate="11.0193" st="0" psc="1"/>
+        <e name="Cloud1" pos="206.266 34.0386 109.998" sc="273.969 11.7657 234.972" yaw="0" pt="-90" rate="11.0193" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

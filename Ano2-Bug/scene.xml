@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Grc7-Spider" secEd="25031"/>
+    <ver num="3203" baseTrk="Grc7-Spider" secEd="25031"/>
     <car tires="0" damage="0.752688" road1mtr="0" gravity="10.3064"/>
     <start pos="-251.513 46.1089 36.817" rot="-0.0869904 0.00789238 0.994898 -0.0508367" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -40,7 +40,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.880 1.000 3.000 2.000 0.000"/>
             <par dust="Dust" mud="Dust" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="7.49434" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="7.49434" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="lava2_anomaly_d.jpg" fnorm="lava2_anomaly_n.jpg" scale="14.55" surf="Rocks" dust="0" dustS="0" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.300 0.000" dmg="1.83362" angMin="0" angMax="24.8571" angSm="5.65536" hMin="-300" hMax="30" hSm="4.14214" nOn="0" noise="0" n_1="0" n2="0">
                 <noise frq0="9.86737" oct0="3" prs0="0.461644" pow0="3.10778" frq1="28.5" oct1="2" prs1="0.525049" pow1="4.22332"/>
             </texture>
@@ -65,7 +65,7 @@
             <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.880 1.000 3.000 2.000 0.000"/>
             <par dust="Dust" mud="Dust" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="16.4868" diff="1 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="16.4868" diff="1 1 1" horiz="2" veget="0">
             <texture on="1" file="lava2_anomaly_d.jpg" fnorm="lava2_anomaly_n.jpg" scale="7.09026" surf="Rocks" dust="0" dustS="0" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.300 0.000" dmg="1.83362" angMin="0" angMax="24.8571" angSm="5.65536" hMin="-300" hMax="30" hSm="4.14214" nOn="0" noise="0" n_1="0" n2="0">
                 <noise frq0="9.86737" oct0="3" prs0="0.461644" pow0="3.10778" frq1="28.5" oct1="2" prs1="0.525049" pow1="4.22332"/>
             </texture>
@@ -231,32 +231,32 @@
         <o name="concrete_bar_anomaly" pos="109.685 -243.803 23.4906" rot="-0.604224 0.433187 -0.135569 0.654842" sc="1.45745 1.45745 0.0299068"/>
     </objects>
     <emitters>
-        <e name="AcidVapor2" pos="-121.115 52.8368 -195.166" sc="8.19818 14.4426 2.52214" up="0 1 0" rot="0" rate="57.4528" st="0" psc="1"/>
-        <e name="SmokeBlack" pos="87.6013 82.2051 -150.763" sc="2 1 2" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="ElectricSparks" pos="18.8933 59.9667 58.2891" sc="2 1 2" up="0 1 0" rot="0" rate="16.9851" st="0" psc="44.7635"/>
-        <e name="Waterfall1High" pos="-190.098 78.4191 20.3712" sc="2 1 2" up="0 1 0" rot="0" rate="10" st="0" psc="2.73637"/>
-        <e name="BubblesLarge" pos="97.8945 54.2194 7.91312" sc="81.6041 10.4751 14.1565" up="0 1 0" rot="0" rate="1.90315" st="0" psc="7.00811"/>
-        <e name="Aurora02" pos="-261.627 17.4448 250.235" sc="202.009 4.58474 40.9545" up="0 1 0" rot="0" rate="10" st="0" psc="0.0494618"/>
-        <e name="GreaseJellyfallHigh" pos="-337.726 84.9411 -354.465" sc="2 27.545 2" up="0 1 0" rot="0" rate="2319.36" st="0" psc="1"/>
-        <e name="SlimeBubblesSmall" pos="-135.305 27.0337 -316.126" sc="15.5509 3.04265 21.8428" up="0 1 0" rot="0" rate="19.6505" st="0" psc="1"/>
-        <e name="Electricity" pos="314.942 17.0323 -162.861" sc="29.9043 32.3842 31.7144" up="0 1 0" rot="0" rate="398.001" st="0" psc="4.23656"/>
-        <e name="ElectricSparks" pos="127.828 80.0079 -65.1736" sc="0.228349 1 0.853504" up="0 1 0" rot="0" rate="102.903" st="0" psc="1.35612"/>
-        <e name="CraterLava2" pos="166.674 71.5167 -274.331" sc="2 11.1583 2" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="Cloud9BrownLarge" pos="-153.214 156.12 248.165" sc="20.0652 23.505 21.3762" up="0 1 0" rot="0" rate="25.2752" st="0" psc="0.194445"/>
-        <e name="Cloud5" pos="-575.745 97.7131 -67.6166" sc="24.1126 24.7091 24.0912" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="AlienBeamDown" pos="28.0552 122.502 -486.096" sc="120.27 87.0827 5.48768" up="0 1 0" rot="0" rate="3114.02" st="0" psc="4.65324"/>
-        <e name="Cloud2Small" pos="195.08 59.0134 -174.518" sc="4.42505 6.85222 12.7368" up="0 1 0" rot="0" rate="10" st="0" psc="0.0917003"/>
-        <e name="SmokeBrown" pos="-311.689 60.5028 -1.36995" sc="2 1 2" up="0 1 0" rot="0" rate="73.8788" st="0" psc="1"/>
-        <e name="FireSparks2" pos="-377.609 22.7905 -58.27" sc="16.5403 1 18.2313" up="0 1 0" rot="0" rate="10" st="0" psc="123.494"/>
-        <e name="RainbowSparks1" pos="-275.813 1.3468 91.5853" sc="206.077 0 104.174" up="0 1 0" rot="0" rate="48553.9" st="0" psc="3.26533"/>
-        <e name="BubblesSurface" pos="302.101 25.8946 323.69" sc="41.844 1 39.7059" up="0 1 0" rot="0" rate="3547.37" st="0" psc="1"/>
-        <e name="Cloud3BlueSmall" pos="410.007 97.3815 187.995" sc="2 1 2" up="0 1 0" rot="0" rate="34.7891" st="0" psc="1"/>
-        <e name="FireOrange" pos="476.258 109.373 -725.135" sc="63.9302 197.401 80.2399" up="0 1 0" rot="0" rate="45.5453" st="0" psc="11.0952"/>
-        <e name="Cloud7MistyGrey" pos="-613.469 175.163 -1151.43" sc="2 7.78716 2" up="0 1 0" rot="0" rate="10" st="0" psc="1"/>
-        <e name="BubblesLarge" pos="833.494 222.544 1316.44" sc="128.666 188.988 138.037" up="0 1 0" rot="0" rate="10" st="0" psc="148.907"/>
-        <e name="AcidVapor2" pos="1472.75 15.6994 -817.88" sc="291.745 695.825 389.69" up="0 1 0" rot="0" rate="37.8165" st="0" psc="6.78801"/>
-        <e name="CraterLava1" pos="-1150.02 175.346 446.917" sc="304.27 135.462 298.396" up="0 1 0" rot="0" rate="12.2006" st="0" psc="44.9357"/>
-        <e name="WaterfallLow" pos="-48.1261 96.0819 -394.265" sc="4.65427 1.41932 4.90602" up="0 1 0" rot="0" rate="112.511" st="0" psc="0.40698"/>
+        <e name="AcidVapor2" pos="-121.115 52.8368 -195.166" sc="8.19818 14.4426 2.52214" yaw="0" pt="-90" rate="57.4528" st="0" psc="1"/>
+        <e name="SmokeBlack" pos="87.6013 82.2051 -150.763" sc="2 1 2" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="ElectricSparks" pos="18.8933 59.9667 58.2891" sc="2 1 2" yaw="0" pt="-90" rate="16.9851" st="0" psc="44.7635"/>
+        <e name="Waterfall1High" pos="-190.098 78.4191 20.3712" sc="2 1 2" yaw="0" pt="-90" rate="10" st="0" psc="2.73637"/>
+        <e name="BubblesLarge" pos="97.8945 54.2194 7.91312" sc="81.6041 10.4751 14.1565" yaw="0" pt="-90" rate="1.90315" st="0" psc="7.00811"/>
+        <e name="Aurora02" pos="-261.627 17.4448 250.235" sc="202.009 4.58474 40.9545" yaw="0" pt="-90" rate="10" st="0" psc="0.0494618"/>
+        <e name="GreaseJellyfallHigh" pos="-337.726 84.9411 -354.465" sc="2 27.545 2" yaw="0" pt="-90" rate="2319.36" st="0" psc="1"/>
+        <e name="SlimeBubblesSmall" pos="-135.305 27.0337 -316.126" sc="15.5509 3.04265 21.8428" yaw="0" pt="-90" rate="19.6505" st="0" psc="1"/>
+        <e name="Electricity" pos="314.942 17.0323 -162.861" sc="29.9043 32.3842 31.7144" yaw="0" pt="-90" rate="398.001" st="0" psc="4.23656"/>
+        <e name="ElectricSparks" pos="127.828 80.0079 -65.1736" sc="0.228349 1 0.853504" yaw="0" pt="-90" rate="102.903" st="0" psc="1.35612"/>
+        <e name="CraterLava2" pos="166.674 71.5167 -274.331" sc="2 11.1583 2" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="Cloud9BrownLarge" pos="-153.214 156.12 248.165" sc="20.0652 23.505 21.3762" yaw="0" pt="-90" rate="25.2752" st="0" psc="0.194445"/>
+        <e name="Cloud5" pos="-575.745 97.7131 -67.6166" sc="24.1126 24.7091 24.0912" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="AlienBeamDown" pos="28.0552 122.502 -486.096" sc="120.27 87.0827 5.48768" yaw="0" pt="-90" rate="3114.02" st="0" psc="4.65324"/>
+        <e name="Cloud2Small" pos="195.08 59.0134 -174.518" sc="4.42505 6.85222 12.7368" yaw="0" pt="-90" rate="10" st="0" psc="0.0917003"/>
+        <e name="SmokeBrown" pos="-311.689 60.5028 -1.36995" sc="2 1 2" yaw="0" pt="-90" rate="73.8788" st="0" psc="1"/>
+        <e name="FireSparks2" pos="-377.609 22.7905 -58.27" sc="16.5403 1 18.2313" yaw="0" pt="-90" rate="10" st="0" psc="123.494"/>
+        <e name="RainbowSparks1" pos="-275.813 1.3468 91.5853" sc="206.077 0 104.174" yaw="0" pt="-90" rate="48553.9" st="0" psc="3.26533"/>
+        <e name="BubblesSurface" pos="302.101 25.8946 323.69" sc="41.844 1 39.7059" yaw="0" pt="-90" rate="3547.37" st="0" psc="1"/>
+        <e name="Cloud3BlueSmall" pos="410.007 97.3815 187.995" sc="2 1 2" yaw="0" pt="-90" rate="34.7891" st="0" psc="1"/>
+        <e name="FireOrange" pos="476.258 109.373 -725.135" sc="63.9302 197.401 80.2399" yaw="0" pt="-90" rate="45.5453" st="0" psc="11.0952"/>
+        <e name="Cloud7MistyGrey" pos="-613.469 175.163 -1151.43" sc="2 7.78716 2" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="BubblesLarge" pos="833.494 222.544 1316.44" sc="128.666 188.988 138.037" yaw="0" pt="-90" rate="10" st="0" psc="148.907"/>
+        <e name="AcidVapor2" pos="1472.75 15.6994 -817.88" sc="291.745 695.825 389.69" yaw="0" pt="-90" rate="37.8165" st="0" psc="6.78801"/>
+        <e name="CraterLava1" pos="-1150.02 175.346 446.917" sc="304.27 135.462 298.396" yaw="0" pt="-90" rate="12.2006" st="0" psc="44.9357"/>
+        <e name="WaterfallLow" pos="-48.1261 96.0819 -394.265" sc="4.65427 1.41932 4.90602" yaw="0" pt="-90" rate="112.511" st="0" psc="0.40698"/>
     </emitters>
     <collectible/>
     <fields/>

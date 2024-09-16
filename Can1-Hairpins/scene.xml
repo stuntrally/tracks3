@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="2819"/>
+    <ver num="3203" baseTrk="" secEd="2819"/>
     <car tires="0"/>
     <start pos="-142.982 -15.2301 -16.539" rot="-1.55431e-15 -1.55431e-15 -0.719547 -0.694455" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Adust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.9741" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="10.9741" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="desert_rocky_d.jpg" fnorm="desert_rocky_n.jpg" scale="45.1431" surf="DesertFast" dust="0.5" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.500 0.400 0.500 0.000" angMin="0" angMax="27.2477" angSm="9.25952" hMin="-300" hMax="900" hSm="20" nOn="0" noise="0.964497" n_1="0" n2="1">
                 <noise frq0="7.12917" oct0="3" prs0="0.466055" pow0="0.91494" frq1="5.45809" oct1="4" prs1="0.495413" pow1="2.21009"/>
             </texture>
@@ -63,7 +63,7 @@
             <par dust="Adust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.25" densTrees="0.3" grDensSmooth="6" trRdDist="2">
+    <veget densGrass="0.25" densTrees2="1.281736" grDensSmooth="6" trRdDist="2">
         <grass on="1" mtr="grass19" dens="0.153374" chan="0" minSx="1.52099" maxSx="1.63366" minSy="1.80207" maxSy="2.12732"/>
         <grass on="1" mtr="grass9r" dens="0.0471873" chan="0" minSx="1.0868" maxSx="1.30854" minSy="1.11329" maxSy="1.35262"/>
         <grass on="1" mtr="grass12o" dens="0.10634" chan="0" minSx="1.69997" maxSx="1.92518" minSy="1.19486" maxSy="1.50525"/>
@@ -91,6 +91,11 @@
         <layer on="1" name="bush13tall_ylw.mesh" dens="0.085264" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="47.24258" minTerH="-100" maxTerH="28.373102" maxDepth="0.5"/>
         <layer on="1" name="bush_grass2.mesh" dens="0.1" minScale="1.4" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="47.24258" minTerH="-100" maxTerH="100" maxDepth="0.5"/>
         <layer on="1" name="bush_grass1.mesh" dens="0.1" minScale="1.4" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="47.24258" minTerH="-100" maxTerH="100" maxDepth="0.5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="Jng3-Rocky" secEd="22064"/>
+    <ver num="3203" baseTrk="Jng3-Rocky" secEd="22064"/>
     <car tires="0"/>
     <start pos="-67.1314 211.298 -5.99483" rot="-8.9407e-08 -2.65485e-07 -0.000804316 -1.00001" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.80194247" gr="3.2258067"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="10.05" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="10.05" diff="1 1 1" horiz="1" veget="0.1">
             <texture on="1" file="grass_rocky_d.jpg" fnorm="grass_rocky_n.jpg" scale="30.1589" surf="GrassJungle" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.184 0.826 0.460 0.700 0.000" angMin="0" angMax="25.8904" angSm="11.0505" hMin="-300" hMax="500" hSm="20" nOn="0" noise="0.790244" n_1="0" n2="0.195122">
                 <noise frq0="5.71818" oct0="4" prs0="0.7" pow0="2.72952" frq1="7.25502" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
@@ -64,7 +64,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="17.848" diff="1 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="17.848" diff="1 1 1" horiz="2" veget="0">
             <texture on="1" file="grass_rocky_d.jpg" fnorm="grass_rocky_n.jpg" scale="60" surf="GrassJungle" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.184 0.826 0.460 0.700 0.000" angMin="0" angMax="25.8904" angSm="10.2758" hMin="-300" hMax="600" hSm="20" nOn="0" noise="0.790244" n_1="0" n2="0.195122">
                 <noise frq0="1.87341" oct0="4" prs0="0.7" pow0="2.72952" frq1="1.87341" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>

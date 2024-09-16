@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="2953"/>
+    <ver num="3203" baseTrk="" secEd="2953"/>
     <car tires="0"/>
     <start pos="255.6 -61.5544 64.5061" rot="0.014013 -0.016447 0.648402 0.761007" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.3064516" lD="1.298387" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -39,7 +39,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="9.34772" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="9.34772" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="16.8349" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="33.4404" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.476331">
                 <noise frq0="4.32584" oct0="3" prs0="0.509785" pow0="1.5048" frq1="12.9511" oct1="3" prs1="0.589628" pow1="3.94334"/>
             </texture>
@@ -64,7 +64,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="18.5089" diff="1 1 1" horiz="2">
+        <terrain ofsZ="0" triangle="18.5089" diff="1 1 1" horiz="2" veget="0">
             <texture on="1" file="desert_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="21.0176" surf="DesertFast" dust="0.8" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="33.4404" angSm="11.0526" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0.476331">
                 <noise frq0="4.32584" oct0="3" prs0="0.509785" pow0="1.5048" frq1="12.9511" oct1="3" prs1="0.589628" pow1="3.94334"/>
             </texture>

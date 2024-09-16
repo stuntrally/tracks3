@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="3691"/>
+    <ver num="3203" baseTrk="" secEd="3691"/>
     <car tires="0"/>
     <start pos="-38.8313 12.0685 1.11" rot="-0.022139 0.002765 -0.991584 -0.127633" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -37,7 +37,7 @@
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
-        <terrain ofsZ="0" triangle="12.8848" diff="1 1 1" horiz="1">
+        <terrain ofsZ="0" triangle="12.8848" diff="1 1 1" horiz="1" veget="0.3">
             <texture on="1" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="28.99094" surf="GrassForest" dust="0" dustS="0.2" mud="0.6" smoke="0" tclr="0.083 1.000 0.100 0.750 0.000" angMin="0" angMax="12.5049" angSm="8.79854" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.98248" n_1="0" n2="0.921833">
                 <noise frq0="27.455866" oct0="3" prs0="0.3" pow0="1.5" frq1="27.752523" oct1="3" prs1="0.539139" pow1="4.20143"/>
             </texture>
@@ -89,6 +89,7 @@
         <layer on="1" name="blueberry.mesh" dens="0.1495111" minScale="1.2" maxScale="1.8" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="33.439" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="1" name="bushes2_sav.mesh" dens="0.1" minScale="0.9" maxScale="1.3" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
         <layer on="0" name="bushes1_sav.mesh" dens="0.1" minScale="0.9" maxScale="1.3" ofsY="0" addTrRdDist="1" maxRdist="11" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
