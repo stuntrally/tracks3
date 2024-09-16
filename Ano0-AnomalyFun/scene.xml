@@ -1,21 +1,24 @@
 <scene>
-    <ver num="3018" baseTrk="" secEd="12067"/>
+    <ver num="3203" baseTrk="" secEd="12217"/>
     <car tires="0" damage="0.451613"/>
     <start pos="-127.312 -1.8109 1.08909" rot="0.011065 0.023141 0.708398 0.705369" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Jungle"/>
     <sky material="sky/anomaly_03"/>
     <fog color="0.171 1.000 0.900 1.000 0.000" color2="0.556 1.000 0.900 1.000 0.000" linStart="346.45892" linEnd="186.59119"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
     <light pitch="66.44681" yaw="67.40425" ambient="0.343 0.486 0.438 0.000 0.033" diffuse="0.791 0.411 0.893 0.000 0.066" specular="0.176 0.812 3.000 0.000 1.000"/>
+    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="water strange anomaly" pos="177.7686 -11.302577 117.277306" rot="0 0 0" size="144.37779 8.124628 74.28721" tile="0.01 0.01"/>
         <fluid hq="2" name="anomaly jelly 3 solid dmg" pos="-55.2033 8.16785 145.162" rot="0 0 0" size="60.3364 7.229335 46.5946" tile="0.01 0.01"/>
-        <fluid hq="2" name="water strange2_anomaly" pos="143.867 -7.05782 -148.594" rot="0 0 0" size="165.724 20 214.75" tile="0.01 0.01"/>
-        <fluid hq="2" name="water strange anomaly" pos="-265.953 61.3633 186.669" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
+        <fluid hq="1" name="water strange2_anomaly" pos="143.867 -7.05782 -148.594" rot="0 0 0" size="165.724 20 214.75" tile="0.01 0.01"/>
+        <fluid hq="0" name="water strange anomaly" pos="-265.953 61.3633 186.669" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
         <fluid hq="2" name="anomaly jelly 1 lowDamp" pos="-15.3273 -4.21069 -169.927" rot="0 0 0" size="74.67 20 71.2674" tile="0.01 0.01"/>
-        <fluid hq="2" name="anomaly jelly 1 highDamp" pos="-98.0509 -6.92317 -209.038" rot="0 0 0" size="70.7339 20 70.6142" tile="0.01 0.01"/>
-        <fluid hq="2" name="anomaly jelly 3 solid ice" pos="107.927 -8.66613 178.805" rot="0 0 0" size="103.367 20 90.0294" tile="0.01 0.01"/>
-        <fluid hq="2" name="anomaly jelly 3 solid dmg" pos="-99.50438 5.2005854 -47.885002" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
+        <fluid hq="0" name="anomaly jelly 1 highDamp" pos="-98.0509 -6.92317 -209.038" rot="0 0 0" size="70.7339 20 70.6142" tile="0.01 0.01"/>
+        <fluid hq="0" name="anomaly jelly 3 solid ice" pos="107.927 -8.66613 178.805" rot="0 0 0" size="103.367 20 90.0294" tile="0.01 0.01"/>
+        <fluid hq="0" name="anomaly jelly 3 solid dmg" pos="-99.50438 5.2005854 -47.885002" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
         <fluid hq="0" name="anomaly jelly 2 solid dmg" pos="165.94751 12.284247 117.10637" rot="0 0 0" size="459.0921 0.2 80.326965" tile="0.01 0.01"/>
     </fluids>
     <terrains>
@@ -45,30 +48,41 @@
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
-    <veget densGrass="0.15" densTrees="0.1045806" grPage="80" grDist="80" grDensSmooth="4" trPage="100" trDist="100" trDistImp="1000" trRdDist="3">
-        <grass on="1" mtr="flower02AnomalyB" cl="0.318 1.000 1.000 1.000 0.000" dens="0.0463312" chan="1" minSx="2.8" maxSx="2" minSy="5.66" maxSy="7.87" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassAnomaly01a" cl="0.000 0.000 0.947 1.000 0.215" dens="0.34638852" chan="0" minSx="0.5" maxSx="0.81869125" minSy="0.5" maxSy="0.8704213" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassAnomaly02a" cl="0.663 1.000 0.361 1.000 0.988" dens="0.005663362" chan="1" minSx="4" maxSx="5.6" minSy="4" maxSy="7.62" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassAnomaly03a" dens="0.01348702" chan="1" minSx="4.28" maxSx="5.57" minSy="6" maxSy="8" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassAnomaly04c" dens="0.3761929" chan="0" minSx="1.7714937" maxSx="2.2326856" minSy="1.867935" maxSy="2.3177598" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassAnomaly04b" dens="0.09993693" chan="0" minSx="0.8704213" maxSx="1.4326556" minSy="2.9162006" maxSy="3.2174368" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassAnomaly03c" dens="0.022586783" chan="2" minSx="4.28" maxSx="5.57" minSy="6" maxSy="8" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassAnomaly02c" dens="0.04212665" chan="2" minSx="1.83" maxSx="5.6" minSy="1.22" maxSy="7.62" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
-        <grass on="1" mtr="grassAnomaly01c" dens="0.74921054" chan="3" minSx="2.5" maxSx="3.34" minSy="2.32" maxSy="3.93" swayDistr="4" swayLen="0.2" swaySpeed="0.5"/>
+    <veget densGrass="0.15" densTrees2="0.24167594" grDensSmooth="4" trRdDist="3">
+        <grass on="1" mtr="flower02AnomalyB" cl="0.318 1.000 1.000 1.000 0.000" dens="0.0463312" chan="1" minSx="2.8" maxSx="2" minSy="5.66" maxSy="7.87"/>
+        <grass on="1" mtr="grassAnomaly01a" cl="0.000 0.000 0.947 1.000 0.215" dens="0.34638852" chan="0" minSx="0.5" maxSx="0.81869125" minSy="0.5" maxSy="0.8704213"/>
+        <grass on="1" mtr="grassAnomaly02a" cl="0.663 1.000 0.361 1.000 0.988" dens="0.005663362" chan="1" minSx="4" maxSx="5.6" minSy="4" maxSy="7.62"/>
+        <grass on="1" mtr="grassAnomaly03a" dens="0.01348702" chan="1" minSx="4.28" maxSx="5.57" minSy="6" maxSy="8"/>
+        <grass on="1" mtr="grassAnomaly04c" dens="0.3761929" chan="0" minSx="1.7714937" maxSx="2.2326856" minSy="1.867935" maxSy="2.3177598"/>
+        <grass on="1" mtr="grassAnomaly04b" dens="0.09993693" chan="0" minSx="0.8704213" maxSx="1.4326556" minSy="2.9162006" maxSy="3.2174368"/>
+        <grass on="1" mtr="grassAnomaly03c" dens="0.022586783" chan="2" minSx="4.28" maxSx="5.57" minSy="6" maxSy="8"/>
+        <grass on="1" mtr="grassAnomaly02c" dens="0.04212665" chan="2" minSx="1.83" maxSx="5.6" minSy="1.22" maxSy="7.62"/>
+        <grass on="1" mtr="grassAnomaly01c" dens="0.74921054" chan="3" minSx="2.5" maxSx="3.34" minSy="2.32" maxSy="3.93"/>
         <gchan amin="0" amax="8.219178" asm="4.3371177" hmin="-16.015934" hmax="5.4980083" hsm="4.15151" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="30" asm="20" hmin="5.976097" hmax="31.792828" hsm="5.32202" ns="0" frq="49" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="12.534247" amax="23.630138" asm="20" hmin="18.88446" hmax="100" hsm="5.0444107" ns="0" frq="73" oct="3" prs="0.3" pow="1.2" rd="0"/>
         <gchan amin="0" amax="76.84932" asm="10.114729" hmin="50.438248" hmax="64.54183" hsm="3.6479638" ns="0" frq="97" oct="3" prs="0.3" pow="1.2" rd="0"/>
-        <layer on="1" name="shroom1_3_alien.mesh" dens="0.05119622" minScale="3.6499777" maxScale="7" ofsY="0" addTrRdDist="7" maxRdist="100" windFx="0.799964" windFy="0.0139826" maxTerAng="90" minTerH="30.777206" maxTerH="100" maxDepth="5"/>
-        <layer on="1" name="crystal_flower_cyan.mesh" dens="0.5577632" minScale="0.8" maxScale="9" ofsY="0" addTrRdDist="9" maxRdist="100" windFx="0.699996" windFy="0.00998991" maxTerAng="29.999998" minTerH="-9.015545" maxTerH="-3" maxDepth="5"/>
-        <layer on="1" name="crystal_form3_pink.mesh" dens="0.15" minScale="0.8" maxScale="14" ofsY="0" addTrRdDist="18" maxRdist="100" windFx="0.246531" windFy="0.0229737" maxTerAng="26.93" minTerH="10.569946" maxTerH="36.683937" maxDepth="1.5656798"/>
-        <layer on="1" name="crystal_form1_pink.mesh" dens="0.0999996" minScale="0.8" maxScale="2.2" ofsY="0" addTrRdDist="18" maxRdist="100" windFx="7.29999" windFy="0.0599867" maxTerAng="26.93" minTerH="7.7720184" maxTerH="17.098446" maxDepth="0"/>
-        <layer on="1" name="shroom2_1_unid.mesh" dens="0.0348602" minScale="3.5438457" maxScale="7" ofsY="0" addTrRdDist="15" maxRdist="20" windFx="7.29999" windFy="0.0599867" maxTerAng="13.9558115" minTerH="-14.611397" maxTerH="26.113989" maxDepth="5"/>
-        <layer on="1" name="treeAOR-13oakWBig.mesh" dens="0.81913954" minScale="0.27212468" maxScale="0.46297857" ofsY="0" addTrRdDist="1" maxRdist="9" windFx="0" windFy="0" maxTerAng="70.23873" minTerH="-100" maxTerH="100" maxDepth="0.19896506"/>
-        <layer on="1" name="treeAYG-16birTallUp.mesh" dens="0.81913954" minScale="0.29155502" maxScale="0.4278313" ofsY="0" addTrRdDist="1" maxRdist="17" windFx="0" windFy="0" maxTerAng="70.23873" minTerH="-100" maxTerH="100" maxDepth="0.20943516"/>
-        <layer on="1" name="rock16black1.mesh" dens="0.024044624" minScale="0.1853473" maxScale="4" ofsY="0" addTrRdDist="18" maxRdist="20" windFx="0" windFy="0" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="1" name="rock21triEdgeSpeck.mesh" dens="0.013709743" minScale="0.04074464" maxScale="4" ofsY="0" addTrRdDist="16" maxRdist="100" windFx="0" windFy="0" maxTerAng="90" minTerH="-100" maxTerH="100" maxDepth="1"/>
-        <layer on="1" name="cactus.mesh" dens="0.047084708" minScale="5.6872396" maxScale="6" ofsY="0" addTrRdDist="8" maxRdist="100" windFx="0" windFy="0" maxTerAng="15.270812" minTerH="-100" maxTerH="0" maxDepth="5"/>
+        <layer on="1" name="shrooms_tall.mesh" mtr="shrooms_tall_grn" dens="0.05119622" minScale="0.6499777" maxScale="3" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="90" minTerH="30.777206" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="crystal_flower_cyan.mesh" dens="0.5577632" minScale="0.8" maxScale="9" ofsY="0" addTrRdDist="9" maxRdist="100" maxTerAng="29.999998" minTerH="-9.015545" maxTerH="-3" maxDepth="5"/>
+        <layer on="1" name="crystal_form3_pink.mesh" dens="0.15" minScale="0.8" maxScale="14" ofsY="0" addTrRdDist="18" maxRdist="100" maxTerAng="26.93" minTerH="10.569946" maxTerH="36.683937" maxDepth="1.5656798"/>
+        <layer on="1" name="crystal_form1_pink.mesh" dens="0.0999996" minScale="0.8" maxScale="2.2" ofsY="0" addTrRdDist="18" maxRdist="100" maxTerAng="26.93" minTerH="7.7720184" maxTerH="17.098446" maxDepth="0"/>
+        <layer on="1" name="shroom_tall2.mesh" mtr="shroom_tall_viol" dens="0.0348602" minScale="2.1438458" maxScale="3" ofsY="0" addTrRdDist="15" maxRdist="20" maxTerAng="13.9558115" minTerH="-14.611397" maxTerH="26.113989" maxDepth="5"/>
+        <layer on="1" name="treeAOR-13oakWBig.mesh" dens="0.81913954" minScale="0.27212468" maxScale="0.46297857" ofsY="0" addTrRdDist="1" maxRdist="9" maxTerAng="70.23873" minTerH="-100" maxTerH="100" maxDepth="0.19896506"/>
+        <layer on="1" name="treeAYG-16birTallUp.mesh" dens="0.81913954" minScale="0.29155502" maxScale="0.4278313" ofsY="0" addTrRdDist="1" maxRdist="17" maxTerAng="70.23873" minTerH="-100" maxTerH="100" maxDepth="0.20943516"/>
+        <layer on="1" name="rock16black1.mesh" dens="0.024044624" minScale="0.1853473" maxScale="4" ofsY="0" addTrRdDist="18" maxRdist="20" maxTerAng="34" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock21triEdgeSpeck.mesh" dens="0.013709743" minScale="0.04074464" maxScale="4" ofsY="0" addTrRdDist="16" maxRdist="100" maxTerAng="90" minTerH="-100" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="cactus.mesh" dens="0.047084708" minScale="5.6872396" maxScale="6" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="15.270812" minTerH="-100" maxTerH="0" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
         <layer on="0"/>
@@ -141,10 +155,12 @@
         <o name="balloon2_anomaly" pos="178.80396 -116.076096 -5.669579" rot="0.7588039 -0.41150096 0.44011474 0.24735452"/>
     </objects>
     <emitters>
-        <e name="Cloud6OrangeLarge" pos="-179.03441 201.19743 -156.71637" sc="2 1 2" up="0 1 0" rot="0" rate="15.733341" st="0" psc="1"/>
-        <e name="RainbowSparks1" pos="-5.642624 9.15586 188.55504" sc="2 1 2" up="0 1 0" rot="0" rate="80.17925" st="0" psc="6.566019"/>
-        <e name="GreaseBubblesLarge" pos="424.89655 53.84423 155.30844" sc="476.29553 127.0776 409.33847" up="0 1 0" rot="-0.005776069" rate="10" st="0" psc="33.191025"/>
-        <e name="FireSparks1" pos="147.02115 18.168152 -197.63197" sc="1.0757651 3.4078531 4.100577" up="0 1 0" rot="0" rate="44.23254" st="0" psc="34.686096"/>
-        <e name="OilBubblesSmall" pos="173.23509 -2.6824622 137.00688" sc="250.49402 15.461839 187.01353" up="0 1 0" rot="0" rate="304.59747" st="0" psc="0.7097842"/>
+        <e name="Cloud6OrangeLarge" pos="-179.03441 201.19743 -156.71637" sc="2 1 2" yaw="0" pt="-90" rate="15.733341" st="0" psc="1"/>
+        <e name="RainbowSparks1" pos="-5.642624 9.15586 188.55504" sc="2 1 2" yaw="0" pt="-90" rate="80.17925" st="0" psc="6.566019"/>
+        <e name="GreaseBubblesLarge" pos="424.89655 53.84423 155.30844" sc="476.29553 127.0776 409.33847" yaw="0" pt="-90" rate="10" st="0" psc="33.191025"/>
+        <e name="FireSparks1" pos="147.02115 18.168152 -197.63197" sc="1.0757651 3.4078531 4.100577" yaw="0" pt="-90" rate="44.23254" st="0" psc="34.686096"/>
+        <e name="OilBubblesSmall" pos="173.23509 -2.6824622 137.00688" sc="250.49402 15.461839 187.01353" yaw="0" pt="-90" rate="304.59747" st="0" psc="0.7097842"/>
     </emitters>
+    <collectible/>
+    <fields/>
 </scene>

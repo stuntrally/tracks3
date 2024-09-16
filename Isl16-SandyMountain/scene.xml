@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3201" baseTrk="" secEd="31868"/>
+    <ver num="3203" baseTrk="" secEd="31964"/>
     <car tires="0"/>
     <start pos="146.219 59.5812 -0.78501" rot="0.0153527 0.00140526 -0.995737 0.0911429" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -12,10 +12,9 @@
     <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="water blue" pos="-37.6557 -3.8313 -225.125" rot="0 0 0" size="1245.63 60 577.284" tile="0.00686782 0.00686782"/>
-        <fluid hq="2" name="water blue" pos="-60.1884 -7.08142 -344.554" rot="0 0 0" size="51.0491 40 52.6028" tile="0.01 0.01"/>
-        <fluid hq="2" name="water blue" pos="623.099 -32.7434 767.433" rot="0 0 0" size="326.688 40 378.699" tile="0.01 0.01"/>
-        <fluid hq="2" name="water blue" pos="756.589 -29.367 522.203" rot="0 0 0" size="223.62 40 340.439" tile="0.01 0.01"/>
-        <fluid hq="2" name="water blue" pos="-793.77 -9.0712 -873.419" rot="0 0 0" size="242.853 40 213.03" tile="0.01 0.01"/>
+        <fluid hq="2" name="water blue" pos="602.08386 -32.7434 770.2065" rot="0 0 0" size="283.09207 40 191.48097" tile="0.01 0.01"/>
+        <fluid hq="1" name="water blue" pos="747.49054 -29.367 502.33813" rot="0 0 0" size="154.27028 40 268.87277" tile="0.01 0.01"/>
+        <fluid hq="1" name="water blue" pos="-793.77 -9.0712 -873.419" rot="0 0 0" size="242.853 40 213.03" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="2.00208" triangle="2.00208" diff="1 1 1">
@@ -40,7 +39,7 @@
             <texture road="1" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.119 0.350 0.400 0.500 0.000"/>
             <texture road="2" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <texture road="3" surf="roadGravel" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
-            <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
+            <texture road="4" surf="DesertRocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <par dust="Dust" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
@@ -84,7 +83,7 @@
         <layer on="0"/>
         <layer on="0"/>
     </veget>
-    <cam pos="506.82413 48.166462 -28.860062" dir="-0.07686337 -0.14765044 -0.98604834"/>
+    <cam pos="506.82413 48.166462 -28.860062" dir="-0.076863386 -0.14765048 -0.98604834"/>
     <objects>
         <o name="big_tire" pos="731.478 -241.856 10.2469" rot="0.00313562 0.999715 -0.010847 0.0210402"/>
         <o name="big_tire" pos="732.884 -241.045 -5944.42" rot="0.237273 0.829396 0.16592 0.477781"/>

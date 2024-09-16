@@ -2,20 +2,23 @@
     <ver num="3018" baseTrk="" secEd="14687"/>
     <car tires="0" damage="0.451613"/>
     <start pos="-127.312 -1.8109 1.08909" rot="0.011065 0.023141 0.708398 0.705369" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Jungle"/>
     <sky material="sky/anomaly_03"/>
     <fog color="0.171 1.000 0.900 1.000 0.000" color2="0.556 1.000 0.900 1.000 0.000" linStart="346.459" linEnd="186.591"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
     <light pitch="66.4468" yaw="67.4043" ambient="0.343 0.486 0.438 0.000 0.033" diffuse="0.791 0.411 0.893 0.000 0.066" specular="0.176 0.812 3.000 0.000 1.000"/>
+    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="water strange anomaly" pos="177.769 -11.3026 117.277" rot="0 0 0" size="144.378 8.12463 74.2872" tile="0.01 0.01"/>
         <fluid hq="2" name="anomaly jelly 3 solid dmg" pos="-55.2033 8.16785 145.162" rot="0 0 0" size="60.3364 7.22933 46.5946" tile="0.01 0.01"/>
-        <fluid hq="2" name="water strange2_anomaly" pos="143.867 -7.05782 -148.594" rot="0 0 0" size="165.724 20 214.75" tile="0.01 0.01"/>
-        <fluid hq="2" name="water strange anomaly" pos="-265.953 61.3633 186.669" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
+        <fluid hq="1" name="water strange2_anomaly" pos="143.867 -7.05782 -148.594" rot="0 0 0" size="165.724 20 214.75" tile="0.01 0.01"/>
+        <fluid hq="0" name="water strange anomaly" pos="-265.953 61.3633 186.669" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
         <fluid hq="2" name="anomaly jelly 1 lowDamp" pos="-15.3273 -4.21069 -169.927" rot="0 0 0" size="74.67 20 71.2674" tile="0.01 0.01"/>
-        <fluid hq="2" name="anomaly jelly 1 highDamp" pos="-98.0509 -6.92317 -209.038" rot="0 0 0" size="70.7339 20 70.6142" tile="0.01 0.01"/>
-        <fluid hq="2" name="anomaly jelly 3 solid ice" pos="107.927 -8.66613 178.805" rot="0 0 0" size="103.367 20 90.0294" tile="0.01 0.01"/>
-        <fluid hq="2" name="anomaly jelly 3 solid dmg" pos="-99.5044 5.20059 -47.885" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
+        <fluid hq="0" name="anomaly jelly 1 highDamp" pos="-98.0509 -6.92317 -209.038" rot="0 0 0" size="70.7339 20 70.6142" tile="0.01 0.01"/>
+        <fluid hq="0" name="anomaly jelly 3 solid ice" pos="107.927 -8.66613 178.805" rot="0 0 0" size="103.367 20 90.0294" tile="0.01 0.01"/>
+        <fluid hq="0" name="anomaly jelly 3 solid dmg" pos="-99.5044 5.20059 -47.885" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
         <fluid hq="0" name="anomaly jelly 2 solid dmg" pos="165.948 12.2842 117.106" rot="0 0 0" size="459.092 0.2 80.327" tile="0.01 0.01"/>
     </fluids>
     <terrains>

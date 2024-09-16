@@ -251,37 +251,35 @@
         <o name="han_farmstead" pos="48.7883 -101.912 0" rot="0 -1 0 0" sc="0.997041 0.997041 0.997041"/>
         <o name="han_forge" pos="48.0019 -121.221 0" rot="0 -1 0 0"/>
         <o name="han_defense_tower" pos="110.422 -91.799 0" rot="0 -1 0 0"/>
-        <o name="han_fortress" pos="89.387 -138.834 0" rot="0 -1 0 0"/>
+   <!-- <o name="han_fortress" pos="89.387 -138.834 0" rot="0 -1 0 0"/>
         <o name="han_fort_old" pos="53.8063 -144.668 0" rot="0 -1 0 0"/>
         <o name="han_great_tower" pos="110.027 -83.9707 0" rot="0 -1 0 0"/>
+        <o name="han_gate" pos="21.3628 -108.068 0" rot="0 -1 0 0"/> -->
         <o name="han_house_a" pos="60.0642 -70.472 -1.90735e-06" rot="0 -1 0 0"/>
         <o name="han_house_b" pos="60.1059 -84.3102 0" rot="0 -1 0 0"/>
-        <o name="han_gate" pos="21.3628 -108.068 0" rot="0 -1 0 0"/>
         <o name="han_house_a" pos="22.494 -125.09 -3.8147e-06" rot="0 -1 0 0"/>
         <o name="han_house_b" pos="23.5754 -141.89 0" rot="0 -1 0 0"/>
         <o name="han_house_c" pos="5.82024 -144.656 0" rot="0 -1 0 0"/>
         <o name="han_house_d" pos="21.7774 -157.813 0" rot="0 -1 0 0"/>
-        <o name="han_market" pos="-0.821405 -159.211 0" rot="0 -1 0 0"/>
+   <!-- <o name="han_market" pos="-0.821405 -159.211 0" rot="0 -1 0 0"/>
         <o name="han_outpost" pos="110.693 -76.2951 0" rot="0 -1 0 0"/>
         <o name="han_pagoda" pos="-11.1475 -145.679 0" rot="0 -1 0 0"/>
-        <o name="han_shrine" pos="9.07364 -108.508 0" rot="0 -1 0 0"/>
         <o name="han_stable" pos="-4.43734 -127.158 0" rot="0 -1 0 0"/>
+        <o name="han_temple" pos="51.1903 -167.477 0" rot="0 -1 0 0"/> -->
+        <o name="han_shrine" pos="9.07364 -108.508 0" rot="0 -1 0 0"/>
         <o name="han_storehouse" pos="15.0536 -172.249 0" rot="0 -1 0 0"/>
-        <o name="han_temple" pos="51.1903 -167.477 0" rot="0 -1 0 0"/>
         <o name="han_wonder" pos="91.2406 -191.942 0" rot="0 -1 0 0"/>
-        <o name="maur_corral" pos="-36.381 -125.52 0" rot="0 -1 0 0"/>
-        <o name="maur_centre" pos="-50.3345 -98.477 0" rot="0 -1 0 0"/>
         <o name="maur_boat" pos="-4.90984 -92.4505 0" rot="0 -1 0 0"/>
         <o name="maur_ship" pos="11.6119 -91.3681 0" rot="0 -1 0 0"/>
+   <!-- <o name="maur_corral" pos="-36.381 -125.52 0" rot="0 -1 0 0"/>
+        <o name="maur_centre" pos="-50.3345 -98.477 0" rot="0 -1 0 0"/>
         <o name="maur_market" pos="-16.5789 -107.904 0" rot="0 -1 0 0"/>
         <o name="maur_fort" pos="-62.5488 -122.149 0" rot="0 -1 0 0"/>
         <o name="maur_farmstead" pos="-36.4151 -116.279 -3.8147e-06" rot="0 -1 0 0"/>
         <o name="maur_blacksmith" pos="-23.8925 -125.159 0" rot="0 -1 0 0"/>
         <o name="maur_store" pos="-23.7784 -135.957 0" rot="0 -1 0 0"/>
         <o name="maur_house_a" pos="-39.6532 -136.316 0" rot="0 -1 0 0"/>
-        <o name="Kapok_High" pos="-37.6809 -156.687 0" rot="0 -1 0 0" sc="0.247909 0.247909 0.247909"/>
-        <o name="jungle_tall" pos="-37.7441 -176.737 -9.53674e-07" rot="0 -1 0 0" sc="0.738176 0.738176 0.738176"/>
-        <o name="han_ministry" pos="54.877 -187.843 3.8147e-06" rot="0 -1 0 0"/>
+        <o name="han_ministry" pos="54.877 -187.843 3.8147e-06" rot="0 -1 0 0"/> -->
         <o name="garbage_bag_01" pos="-15.5985 -10.9563 0.354299" rot="-6.94785e-06 1 -8.81685e-09 2.68415e-08"/>
         <o name="garbage_bag_02" pos="-13.937 -10.9789 0.522695" rot="-0.00085613 1 -6.70519e-07 7.59674e-07"/>
         <o name="garbage_bin" mat="garbage_bin_blue" pos="-5.24339 -12.8152 1.16518" rot="-0.000152033 1 5.20894e-07 6.31499e-07"/>
