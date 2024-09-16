@@ -211,12 +211,12 @@
         <o name="rock_G01" pos="6.85686 -269.731 17.1262" rot="0.0724109 -0.724936 0.0680822 -0.6816" sc="6.53481 6.53481 6.53481"/>
     </objects>
     <emitters>
-        <e name="WaterfallLow" pos="19.2507 -20.9731 -48.6383" sc="416.273 44.2593 416.631" yaw="0" pt="-90" rate="5038.66" st="0" psc="1"/>
-        <e name="Electricity" pos="97.8759 22.6411 -192.789" sc="5.06608 4.79171 4.54618" yaw="0" pt="-90" rate="12.6663" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="-151.849 -5.34527 -121.909" sc="171.605 14.3535 238.107" yaw="0" pt="-90" rate="184.279" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="60.0298 -18.129 167.702" sc="147.396 43.882 118.153" yaw="0" pt="-90" rate="58.3183" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="-153.607 -2.07543 -210.801" sc="36.1565 2.0597 28.3384" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="2.20953 -0.316264 268.905" sc="10.8597 3.5969 4.31679" yaw="0" pt="-90" rate="22.5887" st="0" psc="0.124383"/>
+        <e name="WaterfallLow" pos="19.2507 -20.9731 -48.6383" sc="416.273 44.2593 416.631" yaw="0" pt="90" rate="5038.66" st="0" psc="1"/>
+        <e name="Electricity" pos="97.8759 22.6411 -192.789" sc="5.06608 4.79171 4.54618" yaw="0" pt="90" rate="12.6663" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="-151.849 -5.34527 -121.909" sc="171.605 14.3535 238.107" yaw="0" pt="90" rate="184.279" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="60.0298 -18.129 167.702" sc="147.396 43.882 118.153" yaw="0" pt="90" rate="58.3183" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="-153.607 -2.07543 -210.801" sc="36.1565 2.0597 28.3384" yaw="0" pt="90" rate="10" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="2.20953 -0.316264 268.905" sc="10.8597 3.5969 4.31679" yaw="0" pt="90" rate="22.5887" st="0" psc="0.124383"/>
     </emitters>
     <collectible/>
     <fields/>

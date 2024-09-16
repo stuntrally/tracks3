@@ -382,7 +382,7 @@
         <o name="atomic_barrel" pos="-71.748 238.266 26.5921" rot="0.928498 -0.369734 -0.0214899 0.0269391"/>
     </objects>
     <emitters>
-        <e name="Radioactive" pos="-3.80225 25.3521 0.459521" sc="819.353 1 738.645" yaw="0" pt="-90" rate="354.591" st="0" psc="1"/>
+        <e name="Radioactive" pos="-3.80225 25.3521 0.459521" sc="819.353 1 738.645" yaw="0" pt="90" rate="354.591" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

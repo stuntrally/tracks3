@@ -472,7 +472,7 @@
         <o name="fuel_can" pos="8.51711 17.5856 2.13287" rot="0.00110171 0.999999 -9.03637e-06 4.60306e-05"/>
     </objects>
     <emitters>
-        <e name="SmokeBrown" pos="-8.77883 0 -53.4892" sc="2 1 2" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="SmokeBrown" pos="-8.77883 0 -53.4892" sc="2 1 2" yaw="0" pt="90" rate="10" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

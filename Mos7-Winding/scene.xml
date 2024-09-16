@@ -83,7 +83,7 @@
     <cam pos="244.25514 90.547806 -89.31333" dir="-0.9782107 -0.20310059 0.043061852"/>
     <objects/>
     <emitters>
-        <e name="AlienCloud2" pos="2.68427 -17.4815 7.81224" sc="339.027 57.0814 407.607" yaw="0" pt="-90" rate="83.652" st="0" psc="1"/>
+        <e name="AlienCloud2" pos="2.68427 -17.4815 7.81224" sc="339.027 57.0814 407.607" yaw="0" pt="90" rate="83.652" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

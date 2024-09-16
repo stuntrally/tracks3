@@ -132,7 +132,7 @@
         <o name="big_tire" pos="208.77 11.0371 -2.55978" rot="0.0133952 0.998247 0.0569941 0.00867831"/>
     </objects>
     <emitters>
-        <e name="SmokeBlack" pos="-357.529 6.48389 179.13" sc="8.28221 9.88913 4.72853" yaw="0" pt="-90" rate="13.4875" st="0" psc="0.539656"/>
+        <e name="SmokeBlack" pos="-357.529 6.48389 179.13" sc="8.28221 9.88913 4.72853" yaw="0" pt="90" rate="13.4875" st="0" psc="0.539656"/>
     </emitters>
     <collectible/>
     <fields/>

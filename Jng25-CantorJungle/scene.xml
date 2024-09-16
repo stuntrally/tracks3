@@ -143,7 +143,7 @@
         <o name="maur_ship" pos="-48.9971 -407.346 -58.0316" rot="0.0688706 0.997624 0 0" sc="1.01305 1.01305 1.01305"/>
     </objects>
     <emitters>
-        <e name="Cloud6WhiteSlow" pos="596.102 267.723 127.724" sc="265.302 35.9591 324.874" yaw="0" pt="-90" rate="16.3027" st="1" psc="1"/>
+        <e name="Cloud6WhiteSlow" pos="596.102 267.723 127.724" sc="265.302 35.9591 324.874" yaw="0" pt="90" rate="16.3027" st="1" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

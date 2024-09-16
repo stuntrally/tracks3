@@ -102,7 +102,7 @@
     </objects>
     <emitters>
         <e name="Waterfall1HighTall" pos="64.295845 48.886627 -64.501755" sc="22.648336 6.225763 10.022166" yaw="0" pt="-90" rate="122.80866" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="60.435905 3.9624262 -38.846912" sc="43.47105 5.6887794 16.822716" yaw="0" pt="-90" rate="126.44084" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="60.435905 3.9624262 -38.846912" sc="43.47105 5.6887794 16.822716" yaw="0" pt="90" rate="126.44084" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

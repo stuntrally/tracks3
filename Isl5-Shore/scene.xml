@@ -169,8 +169,8 @@
         <o name="han_barracks" pos="-119.511 128.827 39.6632" rot="-0.817973 0.575255 0 0"/>
     </objects>
     <emitters>
-        <e name="FireOrangeTiny" pos="192.95 97.6365 -106.582" sc="0.00527593 0.0090747 0.0167485" yaw="0" pt="-90" rate="24.3526" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="91.272 0.36898 -26.9076" sc="0.0145 0.0101133 0.0272403" yaw="0" pt="-90" rate="10.7605" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="192.95 97.6365 -106.582" sc="0.00527593 0.0090747 0.0167485" yaw="0" pt="90" rate="24.3526" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="91.272 0.36898 -26.9076" sc="0.0145 0.0101133 0.0272403" yaw="0" pt="90" rate="10.7605" st="0" psc="1"/>
     </emitters>
     <collectible>
         <c n="gem1v" gr="0" pos="-147.58609 60.064045 -46.6754" sc="1"/>

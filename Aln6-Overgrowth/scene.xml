@@ -170,8 +170,8 @@
         <o name="cave_L05" pos="87.8125 -177.46 -2.41958" rot="-0.303781 -0.952741 0 0" sc="0.56201 0.56201 0.56201"/>
     </objects>
     <emitters>
-        <e name="SmokeBlack" pos="-47.6099 3.99104 83.5376" sc="17.6901 7.46008 20.9216" yaw="0" pt="-90" rate="9.1715" st="0" psc="1"/>
-        <e name="ElectricSparks2" pos="10.2215 4.91527 1.48472" sc="1.31817 1.38961 1.37923" yaw="0" pt="-90" rate="41.5754" st="0" psc="1"/>
+        <e name="SmokeBlack" pos="-47.6099 3.99104 83.5376" sc="17.6901 7.46008 20.9216" yaw="0" pt="90" rate="9.1715" st="0" psc="1"/>
+        <e name="ElectricSparks2" pos="10.2215 4.91527 1.48472" sc="1.31817 1.38961 1.37923" yaw="0" pt="90" rate="41.5754" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

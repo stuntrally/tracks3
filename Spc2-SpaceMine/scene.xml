@@ -274,10 +274,10 @@
         <o name="hexrock_small_02" mat="hexrock_metal" pos="154.566 154.41 180.051" rot="0.564329 -0.82555 0 0"/>
     </objects>
     <emitters>
-        <e name="AlienBeamUp" pos="126.511 190.936 -317.029" sc="6.52396 104.719 4.36477" yaw="0" pt="-90" rate="588.188" st="0" psc="1"/>
-        <e name="ElectricSparks" pos="183.908 144.661 228.081" sc="2 1 2" yaw="0" pt="-90" rate="20.4558" st="0" psc="1"/>
-        <e name="ElectricSparks" pos="-112.344 190.455 -358.183" sc="4.82878 2.13147 2.96822" yaw="0" pt="-90" rate="43.4798" st="0" psc="1"/>
-        <e name="AlienBeamUp" pos="-224.587 184.433 294.169" sc="3.52262 62.6085 4.24085" yaw="0" pt="-90" rate="567.762" st="0" psc="1"/>
+        <e name="AlienBeamUp" pos="126.511 190.936 -317.029" sc="6.52396 104.719 4.36477" yaw="0" pt="90" rate="588.188" st="0" psc="1"/>
+        <e name="ElectricSparks" pos="183.908 144.661 228.081" sc="2 1 2" yaw="0" pt="90" rate="20.4558" st="0" psc="1"/>
+        <e name="ElectricSparks" pos="-112.344 190.455 -358.183" sc="4.82878 2.13147 2.96822" yaw="0" pt="90" rate="43.4798" st="0" psc="1"/>
+        <e name="AlienBeamUp" pos="-224.587 184.433 294.169" sc="3.52262 62.6085 4.24085" yaw="0" pt="90" rate="567.762" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

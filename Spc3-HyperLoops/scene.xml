@@ -152,11 +152,11 @@
         <o name="dish_hole_cry" pos="266.103 92.9132 293.931" rot="0.714063 0.0578756 0.213581 -0.664189" sc="2.36727 2.36727 2.36727"/>
     </objects>
     <emitters>
-        <e name="Electricity" pos="105.272 17.1653 457.146" sc="977.288 234.499 634.467" yaw="0" pt="-90" rate="29175.3" st="0" psc="1"/>
-        <e name="Electricity" pos="-25.3373 16.4979 -40.2552" sc="762.313 229.915 666.379" yaw="0" pt="-90" rate="105384" st="0" psc="1"/>
-        <e name="Electricity" pos="621.085 18.6503 379.05" sc="244.652 234.432 554.098" yaw="0" pt="-90" rate="1157820" st="0" psc="1"/>
-        <e name="Electricity" pos="-442.764 15.3873 -455.359" sc="1003.52 234.254 943.307" yaw="0" pt="-90" rate="40568.3" st="0" psc="1"/>
-        <e name="Electricity" pos="436.894 23.2067 -485.522" sc="898.068 234.062 759.031" yaw="0" pt="-90" rate="32310.3" st="0" psc="1"/>
+        <e name="Electricity" pos="105.272 17.1653 457.146" sc="977.288 234.499 634.467" yaw="0" pt="90" rate="29175.3" st="0" psc="1"/>
+        <e name="Electricity" pos="-25.3373 16.4979 -40.2552" sc="762.313 229.915 666.379" yaw="0" pt="90" rate="105384" st="0" psc="1"/>
+        <e name="Electricity" pos="621.085 18.6503 379.05" sc="244.652 234.432 554.098" yaw="0" pt="90" rate="1157820" st="0" psc="1"/>
+        <e name="Electricity" pos="-442.764 15.3873 -455.359" sc="1003.52 234.254 943.307" yaw="0" pt="90" rate="40568.3" st="0" psc="1"/>
+        <e name="Electricity" pos="436.894 23.2067 -485.522" sc="898.068 234.062 759.031" yaw="0" pt="90" rate="32310.3" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

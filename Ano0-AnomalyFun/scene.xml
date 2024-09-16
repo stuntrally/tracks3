@@ -155,11 +155,11 @@
         <o name="balloon2_anomaly" pos="178.80396 -116.076096 -5.669579" rot="0.7588039 -0.41150096 0.44011474 0.24735452"/>
     </objects>
     <emitters>
-        <e name="Cloud6OrangeLarge" pos="-179.03441 201.19743 -156.71637" sc="2 1 2" yaw="0" pt="-90" rate="15.733341" st="0" psc="1"/>
-        <e name="RainbowSparks1" pos="-5.642624 9.15586 188.55504" sc="2 1 2" yaw="0" pt="-90" rate="80.17925" st="0" psc="6.566019"/>
-        <e name="GreaseBubblesLarge" pos="424.89655 53.84423 155.30844" sc="476.29553 127.0776 409.33847" yaw="0" pt="-90" rate="10" st="0" psc="33.191025"/>
-        <e name="FireSparks1" pos="147.02115 18.168152 -197.63197" sc="1.0757651 3.4078531 4.100577" yaw="0" pt="-90" rate="44.23254" st="0" psc="34.686096"/>
-        <e name="OilBubblesSmall" pos="173.23509 -2.6824622 137.00688" sc="250.49402 15.461839 187.01353" yaw="0" pt="-90" rate="304.59747" st="0" psc="0.7097842"/>
+        <e name="Cloud6OrangeLarge" pos="-179.03441 201.19743 -156.71637" sc="2 1 2" yaw="0" pt="90" rate="15.733341" st="0" psc="1"/>
+        <e name="RainbowSparks1" pos="-5.642624 9.15586 188.55504" sc="2 1 2" yaw="0" pt="90" rate="80.17925" st="0" psc="6.566019"/>
+        <e name="GreaseBubblesLarge" pos="424.89655 53.84423 155.30844" sc="476.29553 127.0776 409.33847" yaw="0" pt="90" rate="10" st="0" psc="33.191025"/>
+        <e name="FireSparks1" pos="147.02115 18.168152 -197.63197" sc="1.0757651 3.4078531 4.100577" yaw="0" pt="90" rate="44.23254" st="0" psc="34.686096"/>
+        <e name="OilBubblesSmall" pos="173.23509 -2.6824622 137.00688" sc="250.49402 15.461839 187.01353" yaw="0" pt="90" rate="304.59747" st="0" psc="0.7097842"/>
     </emitters>
     <collectible/>
     <fields/>

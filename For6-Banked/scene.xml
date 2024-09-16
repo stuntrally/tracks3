@@ -117,7 +117,7 @@
         <o name="water_plane_big_broken" pos="123.291 116.042 -2.56414" rot="0.930124 0.0490439 0.246965 -0.267123"/>
     </objects>
     <emitters>
-        <e name="SlimeBubblesSurface" pos="116.823 -2.16182 -79.3889" sc="57.1404 1 130.683" yaw="0" pt="-90" rate="4.99286" st="0" psc="0.359153"/>
+        <e name="SlimeBubblesSurface" pos="116.823 -2.16182 -79.3889" sc="57.1404 1 130.683" yaw="0" pt="90" rate="4.99286" st="0" psc="0.359153"/>
     </emitters>
     <collectible/>
     <fields/>

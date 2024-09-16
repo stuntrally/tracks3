@@ -114,8 +114,8 @@
         <o name="obelisk" mat="ObeliskBlack" pos="340.718 4.85069 44.9761" rot="0 -1 0 0" sc="1.19586 1.19586 1.19586"/>
     </objects>
     <emitters>
-        <e name="Electricity" pos="52.1826 -1.29944 -74.6733" sc="36.5958 1.37464 107.308" yaw="0" pt="-90" rate="25.4763" st="0" psc="1"/>
-        <e name="SmokeBlack" pos="69.7607 -7.45672 80.9184" sc="99.3154 2.87637 22.1501" yaw="0" pt="-90" rate="16.2371" st="0" psc="1"/>
+        <e name="Electricity" pos="52.1826 -1.29944 -74.6733" sc="36.5958 1.37464 107.308" yaw="0" pt="90" rate="25.4763" st="0" psc="1"/>
+        <e name="SmokeBlack" pos="69.7607 -7.45672 80.9184" sc="99.3154 2.87637 22.1501" yaw="0" pt="90" rate="16.2371" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

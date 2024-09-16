@@ -118,7 +118,7 @@
         <o name="hexrock_medium_01" mat="hexrock_brown" pos="-113.367 224.531 21.01" rot="-0.0357471 -0.00237553 0.969413 -0.242798"/>
     </objects>
     <emitters>
-        <e name="FireOrangeTiny" pos="273.56 42.0026 68.4305" sc="0.0091589 0.00888229 0.00907824" yaw="0" pt="-90" rate="14.9281" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="273.56 42.0026 68.4305" sc="0.0091589 0.00888229 0.00907824" yaw="0" pt="90" rate="14.9281" st="0" psc="1"/>
     </emitters>
     <collectible>
         <c n="gem1o" gr="0" pos="-162.09401 30.692131 -240.26422" sc="1"/>

@@ -254,9 +254,9 @@
     </objects>
     <emitters>
         <e name="Waterfall1High" pos="854.462 -5.27228 533.842" sc="26.3203 21.5627 20.6915" yaw="0" pt="-90" rate="13816.2" st="0" psc="1"/>
-        <e name="Cloud9Cyan" pos="-299.231 -10.5206 -513.593" sc="229.268 11.6429 126.98" yaw="0" pt="-90" rate="36.4278" st="0" psc="1"/>
-        <e name="Cloud7MistyOrange" pos="-993.87 204.951 -443.786" sc="526.959 101.041 682.701" yaw="0" pt="-90" rate="33.0642" st="0" psc="1"/>
-        <e name="Cloud6OrangeLarge" pos="-972.644 296.11 -398.209" sc="452.257 70.6648 679.214" yaw="0" pt="-90" rate="3.88296" st="0" psc="1"/>
+        <e name="Cloud9Cyan" pos="-299.231 -10.5206 -513.593" sc="229.268 11.6429 126.98" yaw="0" pt="90" rate="36.4278" st="0" psc="1"/>
+        <e name="Cloud7MistyOrange" pos="-993.87 204.951 -443.786" sc="526.959 101.041 682.701" yaw="0" pt="90" rate="33.0642" st="0" psc="1"/>
+        <e name="Cloud6OrangeLarge" pos="-972.644 296.11 -398.209" sc="452.257 70.6648 679.214" yaw="0" pt="90" rate="3.88296" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

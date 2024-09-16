@@ -222,8 +222,8 @@
         <o name="cave_05" mat="cave_alien" pos="143.175 -2.37981 113.204" rot="0.993631 0.108104 0.0219669 0.022198" sc="0.847024 0.847024 0.847024"/>
     </objects>
     <emitters>
-        <e name="AlienGlow" pos="64.3189 100.253 250.397" sc="9.91592 1 7.5717" yaw="0" pt="-90" rate="30.3555" st="0" psc="1"/>
-        <e name="AlienGlow" pos="30.3771 212.779 -173.083" sc="7.48713 3.0453 7.60008" yaw="0" pt="-90" rate="37.302" st="0" psc="1"/>
+        <e name="AlienGlow" pos="64.3189 100.253 250.397" sc="9.91592 1 7.5717" yaw="0" pt="90" rate="30.3555" st="0" psc="1"/>
+        <e name="AlienGlow" pos="30.3771 212.779 -173.083" sc="7.48713 3.0453 7.60008" yaw="0" pt="90" rate="37.302" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

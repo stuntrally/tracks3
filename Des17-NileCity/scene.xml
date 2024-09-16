@@ -313,8 +313,8 @@
         <o name="ptol_dock" pos="-99.5449 -64.8252 -0.604274" rot="-0.707935 -0.706277 0 0" sc="1.24159 1.24159 1.24159"/>
     </objects>
     <emitters>
-        <e name="FireOrangeTiny" pos="173.195 10.5214 210.818" sc="0.0111598 0.0389105 0.0252315" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
-        <e name="FireOrangeTiny" pos="171.798 10.5374 212.938" sc="0.0688924 0.0416537 0.0363637" yaw="0" pt="-90" rate="10" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="173.195 10.5214 210.818" sc="0.0111598 0.0389105 0.0252315" yaw="0" pt="90" rate="10" st="0" psc="1"/>
+        <e name="FireOrangeTiny" pos="171.798 10.5374 212.938" sc="0.0688924 0.0416537 0.0363637" yaw="0" pt="90" rate="10" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

@@ -195,7 +195,7 @@
         <o name="pyramid_big" mat="pyramid_big_crystal" pos="-5.7044 -316.766 -6.85743" rot="-0.295898 -0.955217 0 0"/>
     </objects>
     <emitters>
-        <e name="Electricity" pos="30.4639 -30.0741 334.88" sc="2.85265 7.16277 7.04152" yaw="0" pt="-90" rate="19.4726" st="0" psc="1"/>
+        <e name="Electricity" pos="30.4639 -30.0741 334.88" sc="2.85265 7.16277 7.04152" yaw="0" pt="90" rate="19.4726" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

@@ -106,8 +106,8 @@
     <cam pos="158.093 51.879 60.8249" dir="-0.978845 -0.169618 0.114423"/>
     <objects/>
     <emitters>
-        <e name="SmokeBrown" pos="-5.34399 26.6773 48.4049" sc="340.588 37.5106 363.639" yaw="0" pt="-90" rate="802.756" st="0" psc="1"/>
-        <e name="FireOrangeRed" pos="31.1337 -9.01958 64.0111" sc="39.1692 5.46754 205.609" yaw="0" pt="-90" rate="99.3813" st="0" psc="1"/>
+        <e name="SmokeBrown" pos="-5.34399 26.6773 48.4049" sc="340.588 37.5106 363.639" yaw="0" pt="90" rate="802.756" st="0" psc="1"/>
+        <e name="FireOrangeRed" pos="31.1337 -9.01958 64.0111" sc="39.1692 5.46754 205.609" yaw="0" pt="90" rate="99.3813" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

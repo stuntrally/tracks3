@@ -143,10 +143,10 @@
     </objects>
     <emitters>
         <e name="PinkJellyfallHigh" pos="387.631 -107.648 104.738" sc="11.1743 12.0316 21.6029" yaw="0" pt="-90" rate="143.13" st="0" psc="1"/>
-        <e name="PinkJellyfallLow" pos="544.076 -64.5199 323.24" sc="9.58517 9.94943 11.064" yaw="0" pt="-90" rate="66.1913" st="0" psc="1"/>
-        <e name="PinkJellyfallLow" pos="543.877 -59.8941 321.571" sc="15.4709 14.655 22.04" yaw="0" pt="-90" rate="51.4868" st="0" psc="1"/>
-        <e name="PinkJellyfallLow" pos="552.075 -86.7611 300.164" sc="12.9914 17.5282 10.8265" yaw="0" pt="-90" rate="57.0535" st="0" psc="1"/>
-        <e name="PinkJellyfallLow" pos="382.216 -104.454 111.238" sc="10.37 7.21553 16.1355" yaw="0" pt="-90" rate="45.5314" st="0" psc="1"/>
+        <e name="PinkJellyfallLow" pos="544.076 -64.5199 323.24" sc="9.58517 9.94943 11.064" yaw="0" pt="90" rate="66.1913" st="0" psc="1"/>
+        <e name="PinkJellyfallLow" pos="543.877 -59.8941 321.571" sc="15.4709 14.655 22.04" yaw="0" pt="90" rate="51.4868" st="0" psc="1"/>
+        <e name="PinkJellyfallLow" pos="552.075 -86.7611 300.164" sc="12.9914 17.5282 10.8265" yaw="0" pt="90" rate="57.0535" st="0" psc="1"/>
+        <e name="PinkJellyfallLow" pos="382.216 -104.454 111.238" sc="10.37 7.21553 16.1355" yaw="0" pt="90" rate="45.5314" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

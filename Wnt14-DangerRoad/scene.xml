@@ -131,7 +131,7 @@
         <o name="icicle_single_03" pos="-60.1503 -56.9318 34.4081" rot="0.088196 -0.0369708 0.472642 -0.876028"/>
     </objects>
     <emitters>
-        <e name="Cloud8MistyWhite" pos="-35.5079 85.9526 22.8602" sc="503.75 76.7172 503.332" yaw="0" pt="-90" rate="181.89" st="0" psc="1"/>
+        <e name="Cloud8MistyWhite" pos="-35.5079 85.9526 22.8602" sc="503.75 76.7172 503.332" yaw="0" pt="90" rate="181.89" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

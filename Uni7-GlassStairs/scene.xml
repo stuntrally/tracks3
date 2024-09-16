@@ -146,8 +146,8 @@
         <o name="hexrock_cliff_01" mat="hexrock_crystal" pos="26.980083 -227.85272 147.2577" rot="0.4300053 -0.5289795 -0.37541735 0.62796205" sc="1.3864545 1.0846341 1.3864545"/>
     </objects>
     <emitters>
-        <e name="Electricity" pos="-155.048 308.142 118.116" sc="9.8801 8.22747 10.1718" yaw="0" pt="-90" rate="115.745" st="0" psc="1"/>
-        <e name="Electricity" pos="-209.467 293.124 -22.1699" sc="7.46144 7.06862 7.57466" yaw="0" pt="-90" rate="113.652" st="0" psc="1"/>
+        <e name="Electricity" pos="-155.048 308.142 118.116" sc="9.8801 8.22747 10.1718" yaw="0" pt="90" rate="115.745" st="0" psc="1"/>
+        <e name="Electricity" pos="-209.467 293.124 -22.1699" sc="7.46144 7.06862 7.57466" yaw="0" pt="90" rate="113.652" st="0" psc="1"/>
     </emitters>
     <collectible>
         <c n="gem1o" gr="1" pos="50.154583 190.01035 -80.0653" sc="1"/>

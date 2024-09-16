@@ -127,8 +127,8 @@
         <o name="rock14tall1cgr" pos="-62.7964 -109.201 7.29184" rot="0.410025 -0.337525 0.679899 0.505663"/>
     </objects>
     <emitters>
-        <e name="AlienCloud2" pos="98.5757 82.0926 176.862" sc="41.819 9.34781 48.4077" yaw="0" pt="-90" rate="12.9936" st="1" psc="1"/>
-        <e name="AlienBeamUp" pos="97.4498 42.7255 176.153" sc="6.76771 58.768 6.57465" yaw="0" pt="-90" rate="350.682" st="0" psc="1"/>
+        <e name="AlienCloud2" pos="98.5757 82.0926 176.862" sc="41.819 9.34781 48.4077" yaw="0" pt="90" rate="12.9936" st="1" psc="1"/>
+        <e name="AlienBeamUp" pos="97.4498 42.7255 176.153" sc="6.76771 58.768 6.57465" yaw="0" pt="90" rate="350.682" st="0" psc="1"/>
         <e name="AlienBeamDown" pos="97.8436 49.6093 176.689" sc="13.8483 50.4993 12.701" yaw="0" pt="-90" rate="50.2693" st="0" psc="1"/>
     </emitters>
     <collectible/>

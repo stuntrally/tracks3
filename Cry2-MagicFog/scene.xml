@@ -132,9 +132,9 @@
         <o name="hexrock_small_02" mat="hexrock_crystal" pos="-24.7234 137.058 58.7125" rot="0 1 0 0"/>
     </objects>
     <emitters>
-        <e name="CrystalCloud" pos="126.43 44.6179 6.97221e-05" sc="70.1957 7.13168 86.2051" yaw="0" pt="-90" rate="5.45596" st="0" psc="1"/>
-        <e name="ElectricSparks2" pos="49.8794 86.6354 -31.8121" sc="2.754 1 3.27968" yaw="0" pt="-90" rate="28.8438" st="0" psc="1"/>
-        <e name="ElectricSparks2" pos="74.4501 85.7273 -49.8483" sc="2 1.72873 2" yaw="0" pt="-90" rate="30.7619" st="0" psc="1"/>
+        <e name="CrystalCloud" pos="126.43 44.6179 6.97221e-05" sc="70.1957 7.13168 86.2051" yaw="0" pt="90" rate="5.45596" st="0" psc="1"/>
+        <e name="ElectricSparks2" pos="49.8794 86.6354 -31.8121" sc="2.754 1 3.27968" yaw="0" pt="90" rate="28.8438" st="0" psc="1"/>
+        <e name="ElectricSparks2" pos="74.4501 85.7273 -49.8483" sc="2 1.72873 2" yaw="0" pt="90" rate="30.7619" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

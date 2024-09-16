@@ -143,8 +143,8 @@
         <o name="obstacleRing" mat="obstaclesBlack" pos="-30.6916 54.1542 13.8969" rot="0.199893 -0.979742 -0.00215319 0.0105535" sc="2.29417 2.29417 2.29417"/>
     </objects>
     <emitters>
-        <e name="Cloud7MistyOrange" pos="26.9017 13.2435 36.0112" sc="159.065 51.2219 135.672" yaw="0" pt="-90" rate="3.93698" st="1" psc="1"/>
-        <e name="Cloud7MistyOrange" pos="58.4535 47.3108 145.985" sc="347.665 101.745 601.268" yaw="0" pt="-90" rate="10" st="1" psc="2.36531"/>
+        <e name="Cloud7MistyOrange" pos="26.9017 13.2435 36.0112" sc="159.065 51.2219 135.672" yaw="0" pt="90" rate="3.93698" st="1" psc="1"/>
+        <e name="Cloud7MistyOrange" pos="58.4535 47.3108 145.985" sc="347.665 101.745 601.268" yaw="0" pt="90" rate="10" st="1" psc="2.36531"/>
     </emitters>
     <collectible>
         <c n="gem1o" gr="0" pos="79.92577 27.2911 -44.251816" sc="1"/>

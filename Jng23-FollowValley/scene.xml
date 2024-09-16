@@ -120,7 +120,7 @@
         <o name="wood_block" pos="289.461 238.97 93.9226" rot="0.0560662 0.976987 0.201735 0.0407063"/>
     </objects>
     <emitters>
-        <e name="Cloud6WhiteSmall" pos="366.74585 251.46216 -407.89703" sc="225.00325 79.636375 416.80823" yaw="0" pt="-90" rate="45.4681" st="1" psc="1"/>
+        <e name="Cloud6WhiteSmall" pos="366.74585 251.46216 -407.89703" sc="225.00325 79.636375 416.80823" yaw="0" pt="90" rate="45.4681" st="1" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

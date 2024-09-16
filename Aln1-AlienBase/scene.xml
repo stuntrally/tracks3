@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="TestC4-ow" secEd="5870"/>
+    <ver num="3203" baseTrk="TestC4-ow" secEd="6035"/>
     <car tires="0" noWrongChks="1"/>
     <start pos="-107.733 47.9366 0.726483" rot="5.96046e-08 -8.44179e-08 -0.694863 0.719148" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -11,10 +11,10 @@
     <light pitch="30" yaw="-126.818184" ambient="0.000 0.000 0.240 0.000 0.000" diffuse="0.167 0.020 0.738 1.000 0.000" specular="0.386 0.236 0.492 0.000 0.000"/>
     <wind ofs="0" amp="0.048988447" fq="0.4" yaw="0.2"/>
     <fluids>
-        <fluid hq="2" name="acid green" pos="-244.152 28.4381 -71.8585" rot="0 0 0" size="151.984 35.0409 100.64" tile="0.01 0.01"/>
+        <fluid hq="1" name="acid green" pos="-244.152 28.4381 -71.8585" rot="0 0 0" size="151.984 35.0409 100.64" tile="0.01 0.01"/>
         <fluid hq="2" name="water moss" pos="272.342 2.05472 -125.58" rot="0 0 0" size="165.388 20 166.017" tile="0.01 0.01"/>
         <fluid hq="2" name="mud soft JD" pos="26.1273 -9.09897 -263.798" rot="0 0 0" size="152.187 20 65.9258" tile="0.01 0.01"/>
-        <fluid hq="2" name="acid green" pos="108.985 -0.841069 -28.2324" rot="0 0 0" size="121.637 20 343.59" tile="0.01 0.01"/>
+        <fluid hq="1" name="acid green" pos="113.621376 -0.841069 -26.70161" rot="0 0 0" size="121.637 20 343.59" tile="0.01 0.01"/>
         <fluid hq="2" name="water moss" pos="-115.798 -10.8253 -248.517" rot="0 0 0" size="115.59 20 80.3844" tile="0.01 0.01"/>
     </fluids>
     <terrains>
@@ -169,9 +169,9 @@
         <o name="satellite3" pos="-287.056 131.398 33.0275" rot="0 -1 0 0" sc="1.28989 1.28989 1.28989"/>
     </objects>
     <emitters>
-        <e name="AlienGlow" pos="140.71 15.4189 -91.2031" sc="31.1022 3.31801 23.5693" yaw="0" pt="-90" rate="58.6965" st="0" psc="1"/>
-        <e name="AcidVapor2" pos="-237.413 30.9807 -73.3708" sc="135.863 1 95.825" yaw="0" pt="-90" rate="151.675" st="0" psc="1"/>
-        <e name="AlienGlow" pos="-0.181317 32.9157 -62.1305" sc="20.3919 13.5609 10.9166" yaw="0" pt="-90" rate="32.5892" st="0" psc="1"/>
+        <e name="AlienGlow" pos="140.71 15.4189 -91.2031" sc="31.1022 3.31801 23.5693" yaw="0" pt="90" rate="58.6965" st="0" psc="1"/>
+        <e name="AcidVapor2" pos="-237.413 30.9807 -73.3708" sc="135.863 1 95.825" yaw="0" pt="90" rate="151.675" st="0" psc="1"/>
+        <e name="AlienGlow" pos="-0.181317 32.9157 -62.1305" sc="20.3919 13.5609 10.9166" yaw="0" pt="90" rate="32.5892" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

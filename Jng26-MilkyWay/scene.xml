@@ -211,11 +211,11 @@
         <o name="fuel_can" stat="1" pos="239.802 130.092 -21.4621" rot="0.766566 -0.384203 -0.44729 0.254358"/>
     </objects>
     <emitters>
-        <e name="WaterfallLow" pos="224.235 -8.23604 -236.324" sc="17.5269 9.43057 9.57834" yaw="0" pt="-90" rate="106.228" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="315.94 -15.2038 -119.403" sc="12.1253 4.82766 7.67332" yaw="0" pt="-90" rate="78.307" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="319.957 -29.2375 63.9958" sc="12.2048 6.30679 7.87312" yaw="0" pt="-90" rate="66.3829" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="33.3799 4.64263 -317.351" sc="7.50243 9.13468 11.7513" yaw="0" pt="-90" rate="26.1235" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="-108.219 16.1419 -291.03" sc="17.591 9.71098 12.1512" yaw="0" pt="-90" rate="120.574" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="224.235 -8.23604 -236.324" sc="17.5269 9.43057 9.57834" yaw="0" pt="90" rate="106.228" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="315.94 -15.2038 -119.403" sc="12.1253 4.82766 7.67332" yaw="0" pt="90" rate="78.307" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="319.957 -29.2375 63.9958" sc="12.2048 6.30679 7.87312" yaw="0" pt="90" rate="66.3829" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="33.3799 4.64263 -317.351" sc="7.50243 9.13468 11.7513" yaw="0" pt="90" rate="26.1235" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="-108.219 16.1419 -291.03" sc="17.591 9.71098 12.1512" yaw="0" pt="90" rate="120.574" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

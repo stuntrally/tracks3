@@ -156,9 +156,9 @@
         <o name="wooden_barrel" pos="-181.84 -131.646 -9.9927" rot="0.00450078 0.99999 -4.62887e-05 -2.00469e-05"/>
     </objects>
     <emitters>
-        <e name="SmokeBlack" pos="-189.588 -1.9817 139.521" sc="0.919563 1.43006 1.0551" yaw="0" pt="-90" rate="5.1659" st="0" psc="0.1004"/>
-        <e name="WaterfallLow" pos="-44.1866 -11.3661 -26.0974" sc="14.4761 23.0469 21.3432" yaw="0" pt="-90" rate="124.91338" st="0" psc="1"/>
-        <e name="Cloud6WhiteSlow" pos="25.2311 119.474 2.77381" sc="582.394 76.8025 578.387" yaw="0" pt="-90" rate="37.138" st="0" psc="1"/>
+        <e name="SmokeBlack" pos="-189.588 -1.9817 139.521" sc="0.919563 1.43006 1.0551" yaw="0" pt="90" rate="5.1659" st="0" psc="0.1004"/>
+        <e name="WaterfallLow" pos="-44.1866 -11.3661 -26.0974" sc="14.4761 23.0469 21.3432" yaw="0" pt="90" rate="124.91338" st="0" psc="1"/>
+        <e name="Cloud6WhiteSlow" pos="25.2311 119.474 2.77381" sc="582.394 76.8025 578.387" yaw="0" pt="90" rate="37.138" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

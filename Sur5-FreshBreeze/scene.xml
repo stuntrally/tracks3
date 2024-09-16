@@ -189,9 +189,9 @@
         <o name="alien_platform_1" pos="-1383.74 3780.07 895.112" rot="0.421225 -0.906956 0 0" sc="3.05508 18.5211 3.05508"/>
     </objects>
     <emitters>
-        <e name="ElectricSparks" pos="479.996 174.057 -503.712" sc="5.02991 3.43213 6.4408" yaw="0" pt="-90" rate="151.992" st="0" psc="1"/>
-        <e name="Electricity" pos="480.714 173.494 -503.569" sc="2.64345 2.01118 2.82928" yaw="0" pt="-90" rate="109.67" st="0" psc="1"/>
-        <e name="Electricity" pos="750.282 154.859 17.1426" sc="297.361 180.452 302.297" yaw="0" pt="-90" rate="1111.2" st="0" psc="1"/>
+        <e name="ElectricSparks" pos="479.996 174.057 -503.712" sc="5.02991 3.43213 6.4408" yaw="0" pt="90" rate="151.992" st="0" psc="1"/>
+        <e name="Electricity" pos="480.714 173.494 -503.569" sc="2.64345 2.01118 2.82928" yaw="0" pt="90" rate="109.67" st="0" psc="1"/>
+        <e name="Electricity" pos="750.282 154.859 17.1426" sc="297.361 180.452 302.297" yaw="0" pt="90" rate="1111.2" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>

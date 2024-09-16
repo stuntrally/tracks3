@@ -211,11 +211,11 @@
         <o name="gate_01" pos="-69.6805 74.7795 65.5873" rot="0.767791 0.0900843 -0.159231 -0.613873" sc="0.682373 8.90737 5.49297"/>
     </objects>
     <emitters>
-        <e name="Cloud6OrangeLarge" pos="-179.034 201.197 -156.716" sc="2 1 2" yaw="0" pt="-90" rate="15.7333" st="0" psc="1"/>
-        <e name="RainbowSparks1" pos="-5.64262 9.15586 188.555" sc="2 1 2" yaw="0" pt="-90" rate="80.1793" st="0" psc="6.56602"/>
-        <e name="GreaseBubblesLarge" pos="424.897 53.8442 155.308" sc="476.296 127.078 409.338" yaw="0" pt="-90" rate="10" st="0" psc="33.191"/>
-        <e name="FireSparks1" pos="147.021 18.1682 -197.632" sc="1.07577 3.40785 4.10058" yaw="0" pt="-90" rate="44.2325" st="0" psc="34.6861"/>
-        <e name="OilBubblesSmall" pos="173.235 -2.68246 137.007" sc="250.494 15.4618 187.014" yaw="0" pt="-90" rate="304.597" st="0" psc="0.709784"/>
+        <e name="Cloud6OrangeLarge" pos="-179.034 201.197 -156.716" sc="2 1 2" yaw="0" pt="90" rate="15.7333" st="0" psc="1"/>
+        <e name="RainbowSparks1" pos="-5.64262 9.15586 188.555" sc="2 1 2" yaw="0" pt="90" rate="80.1793" st="0" psc="6.56602"/>
+        <e name="GreaseBubblesLarge" pos="424.897 53.8442 155.308" sc="476.296 127.078 409.338" yaw="0" pt="90" rate="10" st="0" psc="33.191"/>
+        <e name="FireSparks1" pos="147.021 18.1682 -197.632" sc="1.07577 3.40785 4.10058" yaw="0" pt="90" rate="44.2325" st="0" psc="34.6861"/>
+        <e name="OilBubblesSmall" pos="173.235 -2.68246 137.007" sc="250.494 15.4618 187.014" yaw="0" pt="90" rate="304.597" st="0" psc="0.709784"/>
     </emitters>
     <collectible/>
     <fields/>

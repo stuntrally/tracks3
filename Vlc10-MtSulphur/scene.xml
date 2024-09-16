@@ -140,7 +140,7 @@
         <o name="rock25dark2Harsh2" pos="-353.848 -54.0934 -9.43687" rot="-0.999636 0.0265236 0 0" sc="1.202 1.202 1.202"/>
     </objects>
     <emitters>
-        <e name="CraterLava1" pos="599.837 76.7599 400.277" sc="63.2021 183.131 68.5358" yaw="0" pt="-90" rate="41.9557" st="0" psc="3.95877"/>
+        <e name="CraterLava1" pos="599.837 76.7599 400.277" sc="63.2021 183.131 68.5358" yaw="0" pt="90" rate="41.9557" st="0" psc="3.95877"/>
     </emitters>
     <collectible/>
     <fields/>
