@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="X3-Cloud" secEd="2619"/>
+    <ver num="3203" baseTrk="X3-Cloud" secEd="2893"/>
     <car tires="0"/>
     <start pos="29.9145 7.45203 -15.289" rot="-5.78704e-15 1.31839e-15 0.707662 0.706559" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-2.4731178" tr="1" gr="4"/>
@@ -143,7 +143,7 @@
         <o name="house_1_snow2" pos="131.808 -199.649 -6.83709" rot="-0.987351 0.158528 0 0"/>
     </objects>
     <emitters>
-        <e name="FireYellowRed" pos="130.18 -2.07509 199.136" sc="0.7973 1 1.43868" yaw="0" pt="-90" rate="18.553171" st="0" psc="0.21688423"/>
+        <e name="SmokeBrown" pos="130.18 -7.5486484 199.136" sc="0.7973 1 1.43868" yaw="0" pt="90" rate="10.229128" st="0" psc="0.06418126"/>
     </emitters>
     <collectible/>
     <fields/>

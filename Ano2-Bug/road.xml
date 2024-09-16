@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="517.436" lodPntLen="18.0916" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="4.0506" wsPm="4" lsPm="1" stBox="1 6.228 20.3444" iDir="-1" iChk1="10"/>
-    <stats length="9219.81" width="13.1045" height="147.518" onTer="90.3687" pipes="35.6231" onPipe="4.08509" bnkAvg="23.8689" bnkMax="89.1002"/>
+    <stats length="9219.811" width="13.104487" height="147.5185" onTer="90.36866" pipes="35.623062" onPipe="4.085088" bnkAvg="23.86887" bnkMax="89.10016"/>
     <txt desc="An anomaly version of the Spider track with all kinds of graphical glitches. Warning: intense colors. In fact the whole scenery is inspired by real glitches that happened during development of SR 3.0."/>
     <adv ice="Longer and more difficult than the original. Has more obstacles, a few jumps, and almost double damage factor."/>
     <P pos="-142.44 55.0131 8.1745" w="10.416" onTer="0" a="0" ar="-25.26" aT="2"/>
