@@ -1,0 +1,327 @@
+<scene>
+    <ver num="3301" baseTrk="Spc1-Minerals" secEd="18247"/>
+    <car tires="1" damage="0.70449173" gravity="8.535183"/>
+    <start pos="-1.5046098 -91.441475 8.179357" rot="-5.289912e-07 9.536743e-07 0.9996709 0.027555622" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="5" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
+    <sound ambient="" reverbs="Space"/>
+    <sky material="sky/space_nebula_04_aln" skyYaw="-152.86"/>
+    <fog color="0.279 1.000 0.200 0.760 0.100" color2="0.308 1.000 0.150 0.900 0.100" linStart="287.521" linEnd="1557.55"/>
+    <fogH color="0.341 0.698 0.512 1.000 0.000" height="-82.66667" dens="1.00688" linStart="0" linEnd="1.92723"/>
+    <light pitch="47" yaw="167" ambient="0.595 0.089 0.497 1.000 0.000" diffuse="0.605 0.293 0.990 0.000 0.000" specular="0.669 0.120 1.328 1.000 0.000"/>
+    <wind ofs="0" amp="0" fq="0.4" yaw="0.2"/>
+    <fluids/>
+    <terrains>
+        <terrain ofsZ="0.7007054" triangle="0.7007054" diff="1 1 1">
+            <texture on="1" file="space_gray_d.jpg" fnorm="space_gray_n.jpg" scale="12" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.188 0.713 0.000" angMin="0" angMax="9.70435" angSm="0" hMin="-18.6992" hMax="-8.13008" hSm="0.436749" nOn="0" noise="1" n_1="1" n2="1">
+                <noise frq0="5.95221" oct0="3" prs0="0.3" pow0="8" frq1="16.997" oct1="3" prs1="0.4" pow1="8"/>
+            </texture>
+            <texture on="1" file="space_diam_d.jpg" fnorm="space_diam_n.jpg" scale="12" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.188 0.713 0.000" angMin="0" angMax="9.70435" angSm="0" hMin="0.813013" hMax="300" hSm="0.460038" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="10.5942" oct0="3" prs0="0.1" pow0="4.72592" frq1="8.8217" oct1="1" prs1="0.1" pow1="4.58241"/>
+            </texture>
+            <texture on="1" file="space_x_d.jpg" fnorm="space_x_n.jpg" scale="12" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.188 0.713 0.000" angMin="0" angMax="9.70435" angSm="0" hMin="-30.4878" hMax="-12.6016" hSm="0.460038" nOn="0" noise="0" n_1="0" n2="0">
+                <noise frq0="18.9793" oct0="3" prs0="0.3" pow0="8" frq1="12.5476" oct1="3" prs1="0.4" pow1="8"/>
+            </texture>
+            <texture on="1" file="space_metal_d.jpg" fnorm="space_metal_n.jpg" scale="12" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.188 0.713 0.000" angMin="10.1739" angMax="90" angSm="0.401912" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0.763158" n_1="0" n2="0">
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="8" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="12" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="space_dots_d.jpg" fnorm="space_dots_n.jpg" scale="8.5" surf="Metal" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="Metal" dust="0" dustS="0.5" mud="0" smoke="0.5" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="2" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="3" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="4" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <par dust="Smoke" mud="SnowMud" smoke="Smoke"/>
+        </terrain>
+    </terrains>
+    <veget densGrass="0" densTrees2="12.16" grDensSmooth="1" trRdDist="6">
+        <grass on="1" mtr="grassXv" dens="0.297788" chan="0" minSx="1.13125" maxSx="1.53682" minSy="1.33784" maxSy="1.83667"/>
+        <grass on="0" mtr="grassXc" dens="0.0763985" chan="0" minSx="1.29403" maxSx="1.65011" minSy="1.28406" maxSy="1.7297"/>
+        <grass on="1" mtr="grassX13p" dens="0.0942336" chan="0" minSx="1.49082" maxSx="1.87238" minSy="1.35113" maxSy="1.74525"/>
+        <grass on="0" mtr="grassX10b" dens="0.1" chan="0" minSx="1.6173" maxSx="1.99746" minSy="1.8719" maxSy="2.6473"/>
+        <grass on="1" mtr="grassUnidentified" dens="0.0810294" chan="0" minSx="1.8194" maxSx="2.14623" minSy="1.71677" maxSy="2.14623"/>
+        <grass on="0" mtr="grass6g-" dens="0.264331" chan="0" minSx="1.42784" maxSx="2.05259" minSy="1.47402" maxSy="1.97926"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <gchan amin="0" amax="11" asm="11" hmin="-100" hmax="5" hsm="0" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="97" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="133" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <layer on="1" name="crystal_form3_cyan.mesh" dens="0.08682845" minScale="0.8" maxScale="1.3563796" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="26.93" minTerH="7.3600006" maxTerH="9.12" maxDepth="0"/>
+        <layer on="1" name="crystal_form2_cyan.mesh" dens="0.08840711" minScale="0.6068149" maxScale="0.93497956" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="26.93" minTerH="7.3600006" maxTerH="9.599999" maxDepth="0"/>
+        <layer on="1" name="crystal_form1_cyan.mesh" dens="0.085264" minScale="0.63453305" maxScale="1.0290377" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="26.93" minTerH="4.4799957" maxTerH="7.2" maxDepth="0"/>
+        <layer on="1" name="crystal_form1.mesh" dens="0.07326044" minScale="0.48809573" maxScale="0.77507806" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="26.93" minTerH="0" maxTerH="0.8" maxDepth="0"/>
+        <layer on="1" name="crystal_cube4.mesh" dens="0.08217777" minScale="0.82430387" maxScale="1.1430285" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="26.93" minTerH="-5.1200027" maxTerH="0.8" maxDepth="0"/>
+        <layer on="1" name="crystal3_cyan.mesh" dens="0.29304177" minScale="0.65347326" maxScale="0.9781257" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="26.93" minTerH="18.720001" maxTerH="21.28" maxDepth="0"/>
+        <layer on="0" name="crystal4_cyan.mesh" dens="0.0859929" minScale="0.73817575" maxScale="1.0225796" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="26.93" minTerH="19.520004" maxTerH="24.960001" maxDepth="0"/>
+        <layer on="1" name="crystal2_pink.mesh" dens="0.27737775" minScale="0.6924766" maxScale="1.4437766" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="26.93" minTerH="30.879997" maxTerH="50.239998" maxDepth="0"/>
+        <layer on="1" name="crystal1_pink.mesh" dens="0.22027376" minScale="0.68258405" maxScale="1.1223303" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="26.93" minTerH="48.32" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal1_pink.mesh" dens="0.21902399" minScale="1.2725829" maxScale="1.7101002" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="26.93" minTerH="30.239998" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal2_pink.mesh" dens="0.21902399" minScale="1.484713" maxScale="2.152116" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="26.93" minTerH="50.72" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal2_cyan.mesh" dens="0.20190045" minScale="1.348614" maxScale="2.4855137" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="26.93" minTerH="21.279999" maxTerH="23.519999" maxDepth="0"/>
+        <layer on="1" name="crystal1_cyan.mesh" dens="0.17528178" minScale="0.72272605" maxScale="1.0161481" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="26.93" minTerH="1.4400024" maxTerH="1.6" maxDepth="0"/>
+        <layer on="1" name="crystal1.mesh" dens="0.17528178" minScale="0.72272605" maxScale="1.1499841" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="26.93" minTerH="-0.47999954" maxTerH="1.6" maxDepth="0"/>
+        <layer on="0" name="rock50alienWhite2.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="15.199997" maxTerH="24" maxDepth="1"/>
+        <layer on="0" name="rock49alienEdgy.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="12.159996" maxTerH="24" maxDepth="1"/>
+        <layer on="0" name="rock24alienTriangle.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="5.4400024" maxTerH="7.6800003" maxDepth="1"/>
+        <layer on="0" name="rock23alienBlock.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="8.959999" maxTerH="11.04" maxDepth="1"/>
+        <layer on="1" name="rock11alienWhite1.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="14.080002" maxTerH="18.24" maxDepth="1"/>
+        <layer on="1" name="rock48alienRound2Green.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="6.5599976" maxTerH="11.36" maxDepth="1"/>
+        <layer on="0" name="rock48alienRound2.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="6.5599976" maxTerH="100" maxDepth="1"/>
+        <layer on="1" name="rock47alienRound1Green.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="6.239998" maxTerH="8.32" maxDepth="1"/>
+        <layer on="1" name="rock47alienRound1.mesh" dens="0.1" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="5.1200027" maxTerH="7.5200005" maxDepth="1"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+    </veget>
+    <cam pos="91.62136 59.660812 185.90703" dir="-0.52182597 -0.3554416 -0.77547336"/>
+    <objects>
+        <o name="plastic_big_anomaly" pos="11.757991 21.86847 2.033946" rot="0.15767998 0.86373216 0.37462327 -0.2979281"/>
+        <o name="plastic_big_anomaly" pos="12.022349 17.326397 2.0154097" rot="0.0073122787 0.87920415 -0.012616445 -0.47622207"/>
+        <o name="plastic_big_anomaly" pos="15.9163685 17.250662 1.9977008" rot="-0.0034715894 0.8856963 -0.012169344 0.46409255"/>
+        <o name="plastic_big_anomaly" pos="16.30339 21.810747 2.0335147" rot="-0.040697917 0.87615097 0.46130392 0.13379802"/>
+        <o name="plastic_big_anomaly" pos="16.058643 30.070879 1.9978336" rot="-0.010261428 0.88564134 -0.01744899 0.4639286"/>
+        <o name="plastic_big_anomaly" pos="11.859599 29.948675 2.0234299" rot="0.15521692 0.8682943 0.13358049 -0.45180637"/>
+        <o name="plastic_big_anomaly" pos="3.4861991 30.087639 2.0141988" rot="-0.020737771 0.8794489 -0.035536513 0.4742117"/>
+        <o name="plastic_big_anomaly" pos="-2.1223047 30.034565 2.0455422" rot="0.007420632 0.8940947 0.010875382 0.44768438"/>
+        <o name="plastic_big_anomaly" pos="-1.5490713 21.70299 2.0287704" rot="0.1631219 0.86567163 0.3611235 -0.3059309"/>
+        <o name="plastic_big_anomaly" pos="-1.2416395 17.239082 2.0169942" rot="-0.0018972907 0.87864536 -0.00991499 -0.47736827"/>
+        <o name="plastic_big_anomaly" pos="3.420371 17.157543 2.0115461" rot="0.00245424 0.880666 0.0013879909 0.47372925"/>
+        <o name="plastic_big_anomaly" pos="3.801081 21.626612 2.022941" rot="-0.17249818 0.8614218 0.3394312 0.33612993"/>
+        <o name="plastic_big_anomaly" pos="3.8859417 9.241062 2.046453" rot="-0.01957728 0.87681794 0.46972752 0.10081201"/>
+        <o name="plastic_big_anomaly" pos="3.4086983 4.711383 2.0120273" rot="0.0014813871 0.88047 0.0111630345 0.47396818"/>
+        <o name="plastic_big_anomaly" pos="-1.1461458 4.265476 2.011277" rot="0.098662734 0.8752089 -0.21033299 -0.4243054"/>
+        <o name="plastic_big_anomaly" pos="-1.3878728 8.75284 2.027777" rot="0.08678 0.87286687 0.4508721 -0.16518801"/>
+        <o name="plastic_big_anomaly" pos="16.454779 8.445646 2.0198233" rot="-0.18900234 0.8594786 0.32850182 0.34301767"/>
+        <o name="plastic_big_anomaly" pos="16.302011 4.001599 2.0136797" rot="-0.17621864 0.86178434 -0.3221934 0.34995162"/>
+        <o name="plastic_big_anomaly" pos="11.959074 3.9921446 2.0144637" rot="0.19961804 0.85651946 -0.34362474 -0.329316"/>
+        <o name="plastic_big_anomaly" pos="11.788402 8.493106 2.0217316" rot="0.15656255 0.8659503 0.3679952 -0.30032936"/>
+        <o name="plastic_big_anomaly" pos="11.7484255 -3.9866421 2.0276546" rot="0.17195033 0.8611839 0.35478082 -0.3208206"/>
+        <o name="plastic_big_anomaly" pos="16.429094 -4.175017 2.0212052" rot="-0.19895567 0.8556488 0.3229919 0.35207665"/>
+        <o name="plastic_big_anomaly" pos="16.435001 -8.81525 2.0162494" rot="-0.011796302 0.87884396 -0.024903687 0.4763129"/>
+        <o name="plastic_big_anomaly" pos="11.988917 -8.784176 2.0134344" rot="0.14019965 0.86873287 -0.27120027 -0.38999698"/>
+        <o name="plastic_big_anomaly" pos="24.706448 -8.692922 2.0156474" rot="0.30403376 0.83043236 -0.41056392 -0.22222254"/>
+        <o name="plastic_big_anomaly" pos="24.765339 -4.4111195 1.9957505" rot="-0.10692995 0.87183565 0.23264688 -0.41754526"/>
+        <o name="plastic_big_anomaly" pos="24.745052 4.190038 1.9931501" rot="0.010095936 0.8779472 0.026358267 -0.4779247"/>
+        <o name="plastic_big_anomaly" pos="24.592558 8.165405 2.0067122" rot="-0.11611658 0.8695186 0.24215142 -0.41450828"/>
+        <o name="plastic_big_anomaly" pos="24.768414 16.792702 2.013637" rot="-0.02245697 0.87929225 0.04508676 -0.47361165"/>
+        <o name="plastic_big_anomaly" pos="24.79599 21.154829 2.0133767" rot="-0.19370762 0.8584448 0.35649526 -0.31378487"/>
+        <o name="plastic_big_anomaly" pos="-9.703895 8.294846 2.0152981" rot="0.11538374 0.87165475 0.23616716 0.41367826"/>
+        <o name="plastic_big_anomaly" pos="-9.499338 3.825284 2.0248945" rot="-0.15614115 0.8667631 -0.29824764 0.3679538"/>
+        <o name="plastic_big_anomaly" pos="-13.982438 4.0529795 2.015455" rot="0.20020697 0.85610723 -0.40113795 -0.25707194"/>
+        <o name="plastic_big_anomaly" pos="-13.996941 8.096337 2.0051086" rot="-0.010645197 0.88295853 0.4689183 0.019661766"/>
+        <o name="plastic_big_anomaly" pos="-14.035918 -4.0763955 2.0209835" rot="-0.002893092 0.87714213 0.48021182 0.0031365056"/>
+        <o name="plastic_big_anomaly" pos="-14.174764 -8.405752 1.9982232" rot="-0.036898367 0.88474584 -0.45853552 -0.07488981"/>
+        <o name="plastic_big_anomaly" pos="-9.833625 -8.787981 2.019261" rot="-0.078891106 0.8742442 -0.19235398 0.4387177"/>
+        <o name="plastic_big_anomaly" pos="-9.551238 -4.120792 2.0253098" rot="0.1634563 0.86282724 0.29243407 0.37854126"/>
+        <o name="plastic_big_anomaly" pos="-1.7094868 -3.7264228 2.0367966" rot="0.072193295 0.88736975 -0.16032855 0.42621335"/>
+        <o name="plastic_big_anomaly" pos="-1.0588044 -8.651181 1.9976643" rot="0.057780728 0.8838198 -0.36595708 -0.2856559"/>
+        <o name="plastic_big_anomaly" pos="3.3414247 -8.785333 2.017341" rot="-0.002608029 0.8785024 -0.01727326 0.4774184"/>
+        <o name="plastic_big_anomaly" pos="3.5092165 -4.2840147 2.0175173" rot="0.16974814 0.86341465 0.3984525 0.25872055"/>
+        <o name="plastic_big_anomaly" pos="-9.514748 29.476435 2.027613" rot="-0.12302488 0.87276185 -0.24340835 0.40485066"/>
+        <o name="plastic_big_anomaly" pos="-13.993679 29.865273 2.0140598" rot="-0.08996074 0.87511444 -0.44505686 -0.16735022"/>
+        <o name="plastic_big_anomaly" pos="-13.947824 21.306484 2.0104413" rot="-0.16521099 0.8654418 0.3274079 -0.34135008"/>
+        <o name="plastic_big_anomaly" pos="-14.119403 16.915787 2.0122688" rot="-0.14421943 0.8685083 -0.3791736 -0.28481823"/>
+        <o name="plastic_big_anomaly" pos="-9.847537 16.681469 2.015902" rot="-0.12266702 0.8722482 -0.2760659 0.38460833"/>
+        <o name="plastic_big_anomaly" pos="-9.586118 21.388311 2.0219746" rot="0.020210175 0.87734276 0.15774341 0.4527452"/>
+        <o name="plastic_big_anomaly" pos="-22.31581 21.444881 2.0205386" rot="0.15211627 0.8646183 0.2893733 0.3815219"/>
+        <o name="plastic_big_anomaly" pos="-22.405968 29.367117 2.0305233" rot="-0.07379623 0.8831221 -0.029314129 0.4623745"/>
+        <o name="plastic_big_anomaly" pos="-22.374233 16.499535 2.0243466" rot="-0.11419485 0.8735036 -0.31373453 0.35429016"/>
+        <o name="plastic_big_anomaly" pos="-22.292032 9.073523 2.038108" rot="0.073511995 0.8903995 -0.39057657 0.22188877"/>
+        <o name="plastic_big_anomaly" pos="-22.290228 4.095457 2.021855" rot="0.0059129815 0.8770727 -0.102300085 0.46930072"/>
+        <o name="plastic_big_anomaly" pos="-22.604837 -8.414925 2.0151818" rot="-0.21086913 0.8536925 -0.35858893 0.3133006"/>
+        <o name="plastic_big_anomaly" pos="-22.616524 -4.315972 2.0142064" rot="0.17486204 0.86211574 0.31534696 0.3559999"/>
+        <o name="plastic_big_anomaly" pos="-22.677391 -17.004276 2.0285141" rot="0.16103639 0.86762583 0.32879537 0.33643177"/>
+        <o name="plastic_big_anomaly" pos="-14.906974 -16.86549 2.0361803" rot="-0.0039512194 0.8942062 0.005629636 0.4476024"/>
+        <o name="plastic_big_anomaly" pos="-9.864157 -17.156069 2.0168722" rot="-0.15114923 0.868153 0.37528154 0.28745094"/>
+        <o name="plastic_big_anomaly" pos="-1.4895437 -17.507084 1.999557" rot="0.027174605 0.8797351 0.46899736 -0.07327412"/>
+        <o name="plastic_big_anomaly" pos="3.172542 -17.306108 2.004708" rot="0.15395324 0.86555135 0.2963029 0.37326106"/>
+        <o name="plastic_big_anomaly" pos="11.595208 -17.321184 2.0204303" rot="0.15593264 0.86690253 0.3685682 -0.29719096"/>
+        <o name="plastic_big_anomaly" pos="16.501923 -17.463089 2.015603" rot="0.09558829 0.8740202 0.19374464 0.4352179"/>
+        <o name="plastic_big_anomaly" pos="24.874449 -17.72054 2.045508" rot="-0.115320556 0.8755474 0.46882236 0.017985681"/>
+        <o name="alien_base1" pos="-96.43462 -83.53884 10.104355" rot="0.70686704 -0.70734704 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base1" pos="-96.46721 -48.826366 10.104355" rot="-0.70741713 -0.7067952 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base10" pos="-46.109383 -56.233593 10.104354" rot="-0.99999374 -0.003482357 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base10" pos="-48.199547 -83.49603 10.078358" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base11" pos="-75.91387 -53.163063 12.078304" rot="-0.9999942 -0.0033260738 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base11" pos="-77.39773 -82.38624 12.050537" rot="-0.0024957145 0.99999726 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base3" pos="-60.411045 -78.42256 10.104354" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base3" pos="-46.95235 -69.91153 10.104355" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base3" pos="-60.283325 -66.94148 10.104355" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-161.6066 62.682835 20.957415" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-161.05661 21.947908 20.96014" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-160.73792 103.675125 20.965767" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-158.2184 140.0011 22.075207" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-137.83301 156.46735 20.84783" rot="-0.7051245 -0.70908237 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-100.02292 155.48845 20.927647" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-116.12484 -171.63284 2.586053" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-107.28836 -171.32916 2.586053" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-96.22813 -171.75479 2.5860531" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-88.21701 -171.82397 2.5864305" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-77.09028 -171.38298 2.5885735" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-68.37712 -171.4201 2.5873826" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-56.228848 -171.55043 2.5873826" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base5" pos="-46.421627 -171.3176 2.587383" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-111.54453 -159.0234 2.586053" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-92.07001 -160.56244 2.5860872" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-72.28888 -161.10298 2.587384" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-51.056328 -160.51599 2.5873826" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-159.35388 -89.151024 20.845137" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-158.2899 -53.809227 20.84783" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-158.84467 -18.15056 20.84783" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-86.571236 45.69991 2.3368826" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-81.55862 108.95033 2.211168" rot="-0.6892864 -0.7244893 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base6" pos="-94.67987 104.49562 20.848042" rot="0 -1 0 0" sc="0.3752807 0.3752807 0.3752807"/>
+        <o name="alien_base6" pos="-100.8162 50.544933 18.851564" rot="-0.7208621 -0.693079 0 0" sc="0.42063877 0.42063877 0.42063877"/>
+        <o name="alien_base7" pos="37.583096 -43.410873 3.7797496" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base7" pos="50.48852 -42.387753 3.779198" rot="-0.9999953 -0.00316134 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base8" pos="35.608685 -28.241402 3.8014383" rot="-0.9999979 0.0024493025 0 0" sc="0.44697148 0.44697148 0.44697148"/>
+        <o name="alien_base8" pos="66.52169 -29.151505 3.7791538" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base9" pos="50.50794 -28.405891 3.7800858" rot="-0.7071414 -0.70707214 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base9" pos="62.65885 -42.696857 3.7821603" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base9" pos="36.703285 -66.77699 7.7164044" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base_big" pos="-6.201771 -161.03218 16.86797" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base_big" pos="-78.0117 -121.56253 10.858385" rot="-0.003581551 0.999988 1.1230549e-05 0.0031356253" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_base_big" pos="144.65894 81.17336 15.325746" rot="0.7053653 -0.70884424 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_corridor" pos="-100.10622 89.555824 6.484846" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_corridor" pos="-100.17323 67.18999 6.727335" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_corridor" pos="-102.04255 -30.766079 4.144783" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_generator" pos="55.73142 -166.48973 28.689127" rot="-0.9999999 0.00021166183 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_generator" pos="169.19276 -118.53862 28.52212" rot="-0.9999979 0.0023646883 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_generator" pos="131.27466 -117.5619 28.667236" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_generator" pos="118.29495 -167.61359 28.631437" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="159.7808 -119.05284 31.259943" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="143.63028 -117.65238 31.259945" rot="-0.4580829 -0.8889096 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="109.63105 -167.46585 31.259945" rot="-0.8853139 -0.46499336 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="65.33379 -167.67967 31.259945" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="93.05194 -147.08838 15.009851" rot="-0.70906174 -0.70514625 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="115.91539 -113.447426 14.896932" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="131.64447 -99.91693 15.019309" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector_wall" pos="123.978836 -120.52031 22.992542" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector_wall" pos="47.236115 -168.00397 23.34208" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="-23.518005 166.82141 19.446362" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="-14.483983 166.56482 19.446362" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="-4.4471846 166.60303 19.44636" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="94.35236 165.75761 19.446362" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="84.767334 165.65714 19.44636" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipe_connector" pos="75.08684 165.82864 19.44636" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipes_st3" pos="-21.983366 173.92851 16.106535" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipes_st3" pos="74.0704 173.33908 16.00437" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipes_st3" pos="50.492588 173.25844 15.908928" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipes_st3" pos="2.420282 173.93288 16.13925" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipes_st3" pos="98.57521 62.566547 7.5734982" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipes_st3" pos="100.22779 -146.53104 11.545361" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipes_st3" pos="138.385 -98.58061 11.901867" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_pipes_st3" pos="84.454445 -165.23108 26.662039" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_platform_1" pos="140.24382 -164.0142 30.597855" rot="0 -1 0 0" sc="0.48293087 0.48293087 0.48293087"/>
+        <o name="alien_platform_2" pos="136.95021 -138.4343 23.759253" rot="0 -0.9999943 0 -0.0033991495" sc="0.19125167 0.19125167 0.19125167"/>
+        <o name="alien_platform_2" pos="31.430834 -164.15808 -9.821556" rot="-0.7074481 -0.70676553 0 0" sc="0.19125167 0.6779464 0.19125167"/>
+        <o name="alien_platform_deco_1" pos="116.63516 77.3144 8.5169115" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="117.71211 103.76323 8.607116" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="96.17377 86.309715 8.0174675" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="-59.84602 -48.363842 9.922957" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="-22.933105 -117.026344 -0.17905238" rot="0 -1 0 0" sc="1.1683217 1.1683217 1.1683217"/>
+        <o name="alien_platform_deco_2" pos="-22.947174 -123.63339 -0.16703807" rot="0 -1 0 0" sc="1.1631085 1.1631085 1.1631085"/>
+        <o name="alien_platform_deco_2" pos="-23.062618 -130.00346 -0.17449579" rot="0 -1 0 0" sc="1.1642383 1.1642383 1.1642383"/>
+        <o name="alien_platform_deco_3" pos="-96.940796 -66.55665 10.39075" rot="-0.707192 -0.70702213 0 0" sc="1.379229 1.379229 1.379229"/>
+        <o name="alien_platform_deco_3" pos="-59.93168 -57.509716 10.39075" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="-61.3847 -88.18962 10.390749" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="-46.53937 -107.39881 2.873777" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="-102.04278 -29.756506 2.8737776" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="-139.83914 142.37827 21.520256" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="-90.50039 90.320755 0.28639552" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="-44.964832 36.03699 3.4248486" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="34.688225 73.77813 0.28639552" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="32.36438 -94.7153 8.0028" rot="-0.9998185 -0.019005703 0 0"/>
+        <o name="alien_platform_deco_3" pos="43.14179 -108.31843 2.6840496" rot="-0.002540526 -0.997433 0.044226702 -0.056262035"/>
+        <o name="alien_platform_deco_3" pos="6.6442685 -131.35735 -1.1877431" rot="0 -1 0 0" sc="1.2553433 1.2553433 1.2553433"/>
+        <o name="alien_platform_deco_3" pos="1.8155681 -125.04946 -1.2851411" rot="0 -1 0 0" sc="1.2635188 1.2635188 1.2635188"/>
+        <o name="alien_platform_deco_3" pos="14.362099 -112.46244 -1.0283855" rot="0 -1 0 0" sc="1.1829078 1.1829078 1.1829078"/>
+        <o name="alien_platform_deco_3" pos="9.276838 -105.56263 -1.2209644" rot="0 -1 0 0" sc="1.2066431 1.2066431 1.2066431"/>
+        <o name="alien_platform_deco_3" pos="-5.689573 -117.83248 -1.499446" rot="0 -1 0 0" sc="1.2913336 1.2913336 1.2913336"/>
+        <o name="alien_platform_deco_2" pos="33.80314 -88.522934 7.53041" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="33.88684 -88.44144 7.528497" rot="-0.7053585 -0.70884985 0 0"/>
+        <o name="alien_platform_deco_2" pos="0.5488362 -34.256607 -0.18460399" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="0.5021189 -40.683643 -0.17924425" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="0.46106383 -46.36425 -0.18237594" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="0.38667703 -51.37618 -0.18467668" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="0.37185296 -57.173153 -0.18467677" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="0.40799567 -62.55292 -0.18467674" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="0.4107179 -68.293594 -0.18467677" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="0.4918722 -74.106415 -0.18467674" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="3.3102117 -74.226776 -0.18467674" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="40.583126 -84.47914 8.002735" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="44.5579 -36.36094 4.1376414" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="1.1811016 6.992283 1.9519985" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="0.90948844 -6.188072 1.9519995" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="14.2160845 -6.524025 1.9520122" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="14.089866 6.4416428 1.9518143" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="14.09956 19.312275 1.9520109" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="1.1978863 19.432049 1.9520096" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="-11.944205 19.250042 1.9520087" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="-11.964 6.5167007 1.9520087" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="-11.971131 -6.459732 1.9520087" rot="0 -1 0 0"/>
+        <o name="alien_stand1" pos="-11.300945 78.89327 0.08960305" rot="0 -1 0 0"/>
+        <o name="alien_stand1" pos="-26.733534 79.18101 0.07343993" rot="0 -1 0 0"/>
+        <o name="alien_base10" pos="115.14084 -132.95882 11.66206" rot="-0.70574427 0.708466 0 0" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="alien_base10" pos="161.60696 -168.55759 27.96152" rot="-0.70942503 0.7047812 0 0" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="alien_base10" pos="160.86237 -149.76949 27.96152" rot="-0.9999977 0.00232414 0 0" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="alien_base10" pos="160.40927 -134.25513 27.96152" rot="-0.709492 -0.70471454 0 0" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="alien_ufo_stand" pos="160.17242 31.71381 10.977152" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="alien_ufo_big" pos="164.19609 -46.111996 11.053202" rot="0.7040954 -0.71010554 0 0" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="alien_ufo_big" pos="162.92055 -12.5839205 5.6016073" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexcave_06" mat="hexrock_crystal" pos="47.213856 81.20971 4.467599" rot="-0.9544651 0.2969157 0.027652796 -0.008602257" sc="0.7959362 0.48429915 0.7959362"/>
+        <o name="hexcave_03" mat="hexrock_crystal" pos="-71.30975 -28.036575 4.120798" rot="-0.69563645 -0.011017446 -0.714368 0.075148724" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexcave_03" mat="hexrock_crystal" pos="-68.621315 -29.811771 4.2389817" rot="0.11066872 -0.6990809 -0.02728046 0.70590043" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexcave_03" mat="hexrock_crystal" pos="-44.27264 -27.674862 2.5873814" rot="-0.77174693 0.09174097 -0.62457484 0.076778896" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="29.202835 19.141338 1.9777635" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="2.6660485 33.686214 1.8152912" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="13.129447 33.76146 1.896245" rot="-0.9800058 -0.19685064 0.028392741 0.0057031405" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="15.50899 -20.60643 1.7631867" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="-24.424273 -19.10022 1.7866491" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="-25.665567 -4.866363 1.7283973" rot="0.81370115 -0.58056283 -0.023574537 0.016820077" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="-24.14245 6.249775 1.7537168" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-23.941858 18.926254 1.1445786" rot="0.028894862 0.066925265 0.99733734 -0.0019389564" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="-11.5478735 31.881182 1.6656675" rot="-0.0037552086 -0.052939694 -0.8742165 -0.48262763" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="-12.307102 -19.363863 3.5337658" rot="0.46060845 -0.88713133 -0.013344756 0.025701959" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="26.744514 6.788045 1.7431892" rot="0.9790009 -0.20178746 -0.028363625 0.0058461856" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_crystal" pos="27.401413 32.39361 3.4855394" rot="-0.74284685 -0.66883403 0.02152177 0.019377474" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_small_01" mat="hexrock_metal" pos="29.487225 -6.8844786 1.91737" rot="-0.20995769 -0.9772816 0.006082877 0.028313808" sc="0.49795374 0.49795374 0.49795374"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="14.094078 6.312557 1.6654042" rot="-0.59045 -0.8059563 -0.038416687 0.01805299" sc="0.56032056 0.56032056 0.56032056"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="14.244865 -6.487605 -0.31229296" rot="0.59426975 -0.80296576 -0.0006192492 0.045726642" sc="0.5166353 0.4358373 0.5166353"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="0.45989105 -6.340506 -0.27801725" rot="0 -0.99997073 0 -0.0075681345" sc="0.58234143 0.58234143 0.4078074"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="-12.078015 -5.864853 -0.70372474" rot="0 -0.99999946 0 -0.0006884147" sc="0.5678092 0.5678092 0.76402396"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="-12.230203 7.7113485 0.42931587" rot="0 -0.9999273 0 -0.012051185" sc="0.5432986 0.44910064 0.63463986"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="0.7182808 6.4865613 4.2468166" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.45143384 0.6192953"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="-11.894612 18.634638 -0.5337618" rot="0 -0.999998 0 0.0018880791" sc="0.5432986 0.5432986 0.59072506"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="0.34870997 19.483175 4.260673" rot="-0.00010994077 -0.9984645 0.05316255 -0.01551776" sc="0.5432986 0.5432986 0.6059331"/>
+        <o name="hexrock_single_02" mat="hexrock_crystal" pos="13.719964 19.561487 -1.6320308" rot="0.08006757 -0.99676937 -0.00426664 0.004675035" sc="0.6126744 0.6126744 0.6126744"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="0.960056 -6.8552976 2.6496053" rot="0.11771481 -0.9926251 -0.0034104337 0.028758328" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="13.6338005 -7.1361003 3.699329" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="15.163188 -5.7056537 0.63790286" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="-12.799467 -6.809299 4.859627" rot="0.064539835 -0.9974235 -0.00574371 -0.030763373" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="1.4480866 18.6986 4.0372844" rot="-0.0019581746 -0.99729216 -0.06758835 0.028893586" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="14.29953 20.282843 3.2426283" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="14.317438 5.559556 1.6652939" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="13.388624 6.3110847 4.273987" rot="0 -0.99837184 0 -0.057052273" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="1.7790108 7.3130865 3.1997592" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="1.6310753 6.1032104 1.9338025" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="-12.154273 6.0146704 1.6656132" rot="0.069963455 -0.9919192 -0.10371361 -0.021049308" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="-10.273235 6.951221 3.300111" rot="-0.35291144 -0.934477 0.03303566 0.033386517" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="-12.908721 18.875868 3.1591735" rot="0.0053686323 -0.9948091 0.10148681 0.00505098" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="-10.395557 18.915405 1.6656132" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="1.3385124 20.1372 1.6656146" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexrock_single_01" mat="hexrock_crystal" pos="13.293358 18.876274 1.6656147" rot="0 -0.9995805 0 0.028959854" sc="0.5432986 0.5432986 0.5432986"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="27.00548 98.15982 16.180304" rot="0.034307066 0.0076001408 0.99178606 -0.12298277" sc="0.68356156 0.68356156 0.68356156"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="-91.323746 5.779764 1.6898445" rot="0.6868709 0.030164285 -0.016816592 0.7259567"/>
+        <o name="hexcave_05" mat="hexrock_crystal" pos="-114.561264 27.598642 16.70882" rot="-0.99746734 0.017412106 0.05845947 0.036472306"/>
+        <o name="hexcave_03" mat="hexrock_crystal" pos="71.833176 -111.281 4.0560365" rot="-0.15173024 -0.9884215 0 0" sc="0.7629405 0.7629405 0.7629405"/>
+    </objects>
+    <emitters/>
+    <collectible/>
+    <fields/>
+</scene>
