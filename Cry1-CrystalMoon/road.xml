@@ -5,7 +5,7 @@
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.212 15.288" iDir="1" iChk1="32"/>
     <stats length="1377.3378" width="10.638996" height="71.59569" onTer="0" pipes="0" bnkAvg="8.203446" bnkMax="23.699455"/>
     <txt desc="Short track on the Crystal Moon with a jump."/>
-    <adv ice="Caution: low gravity. Stay on road, terrain causes heavy damage!"/>
+    <adv ice="Caution: low gravity. Stay on road, terrain causes heavy damage."/>
     <P pos="-45.6674 0 138.522" w="13.104" aT="2"/>
     <P pos="-70.0533 0 155.546" w="10.56" aT="2" chkR="1.412"/>
     <P pos="-99.2287 0 151.933" w="10.728" aT="2"/>

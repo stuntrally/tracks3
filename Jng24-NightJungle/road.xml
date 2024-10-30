@@ -4,7 +4,7 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.064 16.352" iDir="-1" iChk1="50"/>
     <stats length="2688.5547" width="8.208435" height="98.77408" onTer="78.47662" pipes="72.525475" bnkAvg="26.030396" bnkMax="88.56865"/>
-    <txt desc="Jungle forest drive at almost night."/>
+    <txt desc="Jungle forest drive at night."/>
     <adv ice="Mostly in pipes, partly in narrow caves and on terrain."/>
     <P pos="-186.429 0 179.793" w="10.712" aT="2" chkR="1.296"/>
     <P pos="-156.688 0 203.98" w="10.432" aT="2" chkR="1.248"/>

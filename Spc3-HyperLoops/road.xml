@@ -4,7 +4,7 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="911.111" lodPntLen="19.8619" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3.43052" wsPm="4" lsPm="1" stBox="1 6.67199 37.4241" iDir="-1" iChk1="6"/>
     <stats length="24070.955" width="13.491946" height="505.83594" onTer="91.16275" pipes="35.226078" onPipe="9.866385" bnkAvg="20.399906" bnkMax="90"/>
-    <txt desc="Crazy, very long and extremely difficult track with many loops in space. Only for professional stunt drivers!"/>
+    <txt desc="Crazy, very long and extremely difficult track with many loops in space. Only for professional stunt drivers."/>
     <adv ice="There are all types of loops, including multiple on-pipe loops, a jump loop, barrel loops and loops with obstacles. Caution: Tricky. Requires many rewinds to complete."/>
     <P pos="323.123 0 579.03" w="7.032" aT="2" mtr="3"/>
     <P pos="310.149 0 581.136" w="6.656" aT="2" col="0" mtr="3"/>

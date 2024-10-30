@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="720.96" lodPntLen="36.8094" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.82091" wsPm="8" lsPm="1.53229" stBox="1 6.696 15.9881" iDir="-1" iChk1="26"/>
     <stats length="1207.5901" width="17.356243" height="57.215435" onTer="34.08667" pipes="11.658094" bnkAvg="7.3829575" bnkMax="41.45164"/>
-    <txt desc="Small curly track on a green crystal planet"/>
-    <adv ice="Slow down after the looping and stay on the road"/>
+    <txt desc="Small curly track on a green crystal planet."/>
+    <adv ice="Slow down after the loop and stay on road."/>
     <P pos="-9.24809 0 176.955" w="7.944" aT="2"/>
     <P pos="15.0485 0 138.644" w="9.176" aT="2"/>
     <P pos="47.1393 0 105.286" w="9.712" aT="2" chkR="1.72"/>

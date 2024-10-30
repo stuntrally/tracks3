@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="417.297" lodPntLen="12.6895" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2.56777" wsPm="4" lsPm="1" stBox="1 4.888 17.092" iDir="-1" iChk1="19"/>
     <stats length="4376.2817" width="9.394561" height="99.16559" onTer="68.9614" pipes="48.425316" onPipe="21.31733" bnkAvg="4.6017256" bnkMax="33.345894"/>
-    <txt desc="A difficlult track in a black desert canyon and a crystal layer below, with lots of jumps and sharp turns, so you need a car that handles jumps very well. Cannot be driven in reverse!"/>
-    <adv ice="In some areas you really need to slow down, else you may take too much damage. Be careful in and on the pipes!"/>
+    <txt desc="A difficlult track in a black desert canyon and a crystal layer below, with lots of jumps and sharp turns, so you need a car that handles jumps very well."/>
+    <adv ice="In some areas you really need to slow down, else you may take too much damage. Be careful in and on the pipes."/>
     <P pos="230.193 0 2.05784" w="10.864" aT="2" chkR="1"/>
     <P pos="218.537 0 -3.11832" w="11.352" aT="2" chkR="1.328"/>
     <P pos="197.595 0 -3.59809" w="12.368" aT="2" mtr="1"/>
