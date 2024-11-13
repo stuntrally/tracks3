@@ -5,8 +5,8 @@ import os, sys
 from PIL import Image
 
 tdir = '.'
-trks = os.listdir(tdir)  # all
-#trks = ['Ano2-Bug']  # one,..
+#trks = os.listdir(tdir)  # all
+trks = ['TestC15-Render','Test18-FlatGI']  # one,..
 #size = 128, 128
 size = 256, 256
 
