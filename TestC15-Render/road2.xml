@@ -1,0 +1,21 @@
+<SplineRoad>
+    <mtr type="1" road="River_blue" pipe="pipeGlass" road2="River_cyan" road3="River_green" road4="River_moss"/>
+    <dim tcMul="0.00574008" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
+    <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.728 14.976" iDir="-1" iChk1="0"/>
+    <stats length="834.46716" width="24.642097" height="54.701603" onTer="100" pipes="0" bnkAvg="0.20600002" bnkMax="1.2360004"/>
+    <txt desc="Tiniest circle track with nice terrain."/>
+    <adv ice="To test rendering bugs with: glass, water, particles, fog, ssao, rendering queues, depth buffer test and write."/>
+    <P pos="-205.56935 -5.1791 -145.696" w="8.487623" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="-103.366844 2.38038 -188.35396" w="39.88063" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="-79.92663 3.8480666 -225.8578" w="37.886494" onTer="0" a="0" ar="-1.236" aT="2"/>
+    <P pos="-78.82175 4.009607 -266.3045" w="49.63595" onTer="0" a="0" ar="-1.236" aT="2"/>
+    <P pos="-78.05878 5.6990495 -284.98746" w="37.21721" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="-77.44191 21.536488 -294.35358" w="27.071127" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="-77.66243 39.799725 -301.1569" w="26.616" onTer="0" a="0" ar="0" aT="2" wall="-1"/>
+    <P pos="-78.36845 47.5038 -318.38205" w="24.2158" onTer="0" a="0" ar="0" aT="2" wall="-1"/>
+    <P pos="-83.524185 49.30199 -393.34323" w="24.3856" onTer="0" a="0" ar="0" aT="2" wall="-1"/>
+    <P pos="-88.73129 43.563637 -363.57983" w="24.31652" onTer="0" a="0" ar="0" aT="2" mtr="-1" wall="-1"/>
+    <P pos="-78.305405 52.35069 -460.50528" w="24.200413" onTer="0" a="0" ar="0" aT="2" mtr="-1" wall="-1"/>
+    <P pos="-191.71793 7.994881 -197.20143" w="23.994" onTer="0" a="0" ar="0" aT="2" mtr="-1" wall="-1"/>
+</SplineRoad>

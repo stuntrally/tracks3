@@ -1,0 +1,13 @@
+<SplineRoad>
+    <mtr type="2" road="roadNgravel" pipe="pipeGlass" pipeW="road_col_Ice"/>
+    <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
+    <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1.5 5 12" iDir="-1" iChk1="0"/>
+    <stats length="190.86874" width="12.911502" height="5.417916" onTer="100" pipes="100" bnkAvg="0" bnkMax="0"/>
+    <txt desc=""/>
+    <adv ice=""/>
+    <P pos="-199.98372 2.5034964 -111.20481" w="14.858666" onTer="0" a="0" ar="0" aT="1" col="0" pipe="0.1496486"/>
+    <P pos="-271.05154 -1.9898834 -136.67926" w="11.388672" onTer="0" a="0" ar="0" aT="1" col="0" pipe="0.1496486"/>
+    <P pos="-318.02863 2.2323701 -166.4071" w="11.388672" onTer="0" a="0" ar="0" aT="1" col="0" pipe="0.1496486"/>
+    <P pos="-357.6882 -0.9634391 -196.28386" w="14.328674" onTer="0" a="0" ar="0" aT="1" col="0" pipe="0.1496486"/>
+</SplineRoad>
