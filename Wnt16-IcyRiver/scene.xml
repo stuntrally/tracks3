@@ -11,7 +11,7 @@
     <light pitch="33" yaw="0" ambient="0.605 0.025 0.517 1.000 0.000" diffuse="0.165 0.017 0.592 0.000 0.000" specular="0.157 0.006 0.406 1.000 0.000"/>
     <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
-        <fluid hq="2" name="water white" pos="350.103 4.64862 -523.237" rot="0 0 0" size="621.402 60 1175.48" tile="0.01 0.01"/>
+        <fluid hq="2" name="water white" pos="350.103 4.64862 -523.237" rot="0 0 0" size="652.402 60 1175.48" tile="0.01 0.01"/>
         <fluid hq="2" name="ice solid" pos="81.507 4.70805 470.202" rot="0 0 0" size="283.281 60 809.133" tile="0.01 0.00844014"/>
     </fluids>
     <terrains>

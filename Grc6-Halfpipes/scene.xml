@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="Isl10-Treasure" secEd="17306"/>
+    <ver num="3301" baseTrk="Isl10-Treasure" secEd="17531"/>
     <car tires="0"/>
     <start pos="-101.894 -110.865 102.925" rot="0.011509 -0.0483 0.55186 0.832472" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -139,16 +139,16 @@
         <o name="cave_06" mat="cave_yellow" pos="-50.2134 -114.524 56.1196" rot="-0.831725 0.549523 0.0720989 0.0297626" sc="1.0276 1.0276 1.0276"/>
     </objects>
     <emitters>
-        <e name="WaterfallLow" pos="-41.3763 20.6031 -57.1549" sc="6.73873 0.828521 9.37475" yaw="0" pt="-90" rate="43.0256" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="-84.8193 -12.6822 -60.5488" sc="7.55338 0.996136 12.3204" yaw="0" pt="-90" rate="104.888" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="-58.7961 -12.8384 -138.258" sc="14.6681 1 13.4055" yaw="0" pt="-90" rate="109.257" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="130.259 -13.1697 92.5842" sc="11.5148 1 6.90026" yaw="0" pt="-90" rate="104.547" st="0" psc="1"/>
-        <e name="WaterfallLow" pos="109.537 6.41869 145.775" sc="7.32817 3.90204 4.71661" yaw="0" pt="-90" rate="69.1186" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="-41.3763 20.6031 -57.1549" sc="6.73873 0.828521 9.37475" yaw="0" pt="90.152176" rate="43.0256" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="-84.8193 -12.6822 -60.5488" sc="7.55338 0.996136 12.3204" yaw="0" pt="87.90878" rate="104.888" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="-58.7961 -12.8384 -138.258" sc="14.6681 1 13.4055" yaw="0" pt="87.593414" rate="109.257" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="130.259 -13.1697 92.5842" sc="11.5148 1 6.90026" yaw="0" pt="90.46687" rate="104.547" st="0" psc="1"/>
+        <e name="WaterfallLow" pos="109.537 6.41869 145.775" sc="7.32817 3.90204 4.71661" yaw="0" pt="90.22102" rate="69.1186" st="0" psc="1"/>
         <e name="Waterfall1High" pos="107.699 31.3856 161.149" sc="5.06884 1 5.03212" yaw="0" pt="-90" rate="23.1266" st="0" psc="1"/>
         <e name="Waterfall1High" pos="128.925 6.55217 101.722" sc="6.62453 1 6.88249" yaw="0" pt="-90" rate="58.5559" st="0" psc="1"/>
         <e name="Waterfall1HighTall" pos="-40.9216 51.9578 -125.395" sc="7.02893 3.61439 13.8169" yaw="0" pt="-90" rate="133.377" st="0" psc="1"/>
         <e name="Waterfall1High" pos="-78.3781 8.20797 -62.1479" sc="4.19508 29.0965 6.43397" yaw="0" pt="-90" rate="76.5593" st="0" psc="1"/>
-        <e name="Waterfall1HighTall" pos="-33.0553 49.4001 -62.8769" sc="4.44917 36.4176 2.45349" yaw="0" pt="-90" rate="112.926" st="0" psc="1"/>
+        <e name="Waterfall1HighTall" pos="-29.577621 78.75047 -67.06239" sc="4.44917 36.4176 2.45349" yaw="36.85308" pt="-114.19658" rate="112.926" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>
