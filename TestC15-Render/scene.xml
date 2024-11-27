@@ -1,10 +1,10 @@
 <scene>
-    <ver num="3301" baseTrk="" secEd="20831"/>
+    <ver num="3301" baseTrk="" secEd="22128"/>
     <car tires="0"/>
     <start pos="-9.018487 38.763268 0.6" rot="-6.21725e-15 7.99361e-15 -0.653396 -0.757031" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
     <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
-    <sound ambient="" reverbs="Australia"/>
+    <sound ambient="" reverbs="Jungle"/>
     <sky material="sky/cloudy_04_blue" rainName="RainFastA" rainEmit="266" skyYaw="17.357132"/>
     <fog color="0.591 0.329 0.997 1.000 0.000" color2="0.589 0.461 0.292 1.000 0.000" linStart="55.06844" linEnd="602.17596"/>
     <fogH color="0.050 0.874 0.344 0.723 0.153" height="-20.799988" dens="13.244089" linStart="0" linEnd="43.808002"/>
@@ -12,13 +12,12 @@
     <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="water blue low density" pos="5.828861 -3.3864667 -109.60893" rot="0 0 0" size="198.66225 20 102.88344" tile="0.01 0.01"/>
-        <fluid hq="2" name="water blue" pos="-60.9136 -6.44837 55.3124" rot="0 0 0" size="62.0598 20 73.3149" tile="0.01 0.01"/>
-        <fluid hq="2" name="lava solid" pos="6.3964195 -40.43023 -265.85318" rot="0 0 0" size="237.5711 20 153.72406" tile="0.01 0.01"/>
+        <fluid hq="1" name="lava solid" pos="6.3964195 -40.43023 -265.85318" rot="0 0 0" size="237.5711 20 153.72406" tile="0.01 0.01"/>
         <fluid hq="2" name="water blue" pos="-380.41666 0.034399457 -208.80759" rot="0 0 0" size="530.17706 20 363.0218" tile="0.01 0.01"/>
-        <fluid hq="2" name="water cyan" pos="-71.0185 -4.2583013 -218.76802" rot="0 0 0" size="33.303192 20 53.459644" tile="0.01 0.00960453"/>
         <fluid hq="2" name="lava" pos="87.432236 -29.10464 -231.44762" rot="0 0 0" size="68.308136 20 92.28197" tile="0.01 0.01"/>
-        <fluid hq="2" name="water moss" pos="-5.7795787 3.6592865 127.51693" rot="0 0 0" size="197.89342 20 137.2742" tile="0.01 0.01"/>
+        <fluid hq="2" name="water moss" pos="-5.5635757 3.6592865 111.04923" rot="0 0 0" size="180.59497 20 105.04056" tile="0.01 0.01"/>
         <fluid hq="2" name="mud soft JD" pos="370.27368 10.264888 -12.95444" rot="0 0 0" size="130.43295 20 300.17456" tile="0.008834435 0.012125907"/>
+        <fluid hq="1" name="oil" pos="76.91807 2.2541404 20.433422" rot="0 0 0" size="61.571346 20 104.158806" tile="0.01 0.01"/>
     </fluids>
     <terrains>
         <terrain ofsZ="2" triangle="2" diff="1 1 1">
@@ -215,6 +214,8 @@
         <e name="WaterfallLow" pos="-77.40122 5.427912 -271.50162" sc="49.518658 5.6887794 24.433735" yaw="0" pt="90" rate="126.44084" st="0" psc="2.0716004"/>
         <e name="CraterLava2" pos="44.08454 37.5418 -305.18375" sc="33.64185 10.597551 35.325035" yaw="2.8115244" pt="88.70342" rate="33.17626" st="0" psc="0.82384145"/>
         <e name="SmokeBrown" pos="43.01348 35.32792 -305.52094" sc="35.549774 11.775877 35.174736" yaw="0.46649206" pt="92.26888" rate="103.89293" st="0" psc="1"/>
+        <e name="OilBubblesSurface" pos="78.41676 2.0037687 1.8736644" sc="37.060368 0 44.619953" yaw="0" pt="88.91314" rate="16.68974" st="0" psc="1"/>
+        <e name="Cloud6WhiteSmall" pos="-136.71054 36.485317 -94.11794" sc="2 1 2" yaw="0" pt="86.85675" rate="10" st="0" psc="1"/>
     </emitters>
     <collectible/>
     <fields/>
