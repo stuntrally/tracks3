@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="" secEd="5164"/>
+    <ver num="3301" baseTrk="" secEd="5353"/>
     <car tires="0"/>
     <start pos="15.631123 -41.722275 -12.21327" rot="0.057069 -0.00168199 -0.757962 -0.649815" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -44,11 +44,11 @@
         </terrain>
     </terrains>
     <veget densGrass="0.45" densTrees2="0.7631656" grDensSmooth="6" trRdDist="0">
-        <grass on="1" mtr="grass3g" cl="0.000 0.000 0.800 1.000 0.000" dens="0.08127956" chan="0" minSx="1.5707419" maxSx="2.2604117" minSy="1.7374369" maxSy="2.529655"/>
-        <grass on="1" mtr="grass16s" cl="0.000 0.000 0.859 1.000 0.000" dens="0.045238513" chan="0" minSx="1.8823619" maxSx="2.3924096" minSy="2.3040133" maxSy="2.812624"/>
-        <grass on="1" mtr="grass5" cl="0.165 0.167 0.990 1.000 0.000" dens="0.05285282" chan="0" minSx="1.4381058" maxSx="1.7947999" minSy="1.1464535" maxSy="1.5303392"/>
-        <grass on="1" mtr="grassForest" dens="0.1032976" chan="0" minSx="1.5504758" maxSx="1.9599763" minSy="0.77488995" maxSy="1.0718067"/>
-        <grass on="1" mtr="grass15g" cl="0.110 0.353 1.000 1.000 0.000" dens="0.05771147" chan="0" minSx="1.2807539" maxSx="1.8690602" minSy="2.065804" maxSy="2.4629297"/>
+        <grass on="1" mtr="grass3g" cl="0.000 0.000 0.800 1.000 0.000" dens="0.08127956" chan="0" minSx="1.6879902" maxSx="2.2604117" minSy="1.7374369" maxSy="2.0096862"/>
+        <grass on="1" mtr="grass16s" cl="0.000 0.000 0.859 1.000 0.000" dens="0.045238513" chan="0" minSx="1.7232407" maxSx="2.1715264" minSy="1.8244249" maxSy="2.109544"/>
+        <grass on="1" mtr="grass5" cl="0.165 0.167 0.990 1.000 0.000" dens="0.05285282" chan="0" minSx="1.4381058" maxSx="1.7947999" minSy="1.1464535" maxSy="1.367687"/>
+        <grass on="1" mtr="grassForest" dens="0.1032976" chan="0" minSx="1.5504758" maxSx="2.0999527" minSy="0.77488995" maxSy="0.92001796"/>
+        <grass on="1" mtr="grass15g" cl="0.110 0.353 1.000 1.000 0.000" dens="0.05771147" chan="0" minSx="1.3740128" maxSx="1.8690602" minSy="1.913361" maxSy="2.1250954"/>
         <grass on="1" mtr="grass16g" dens="0.0512045" chan="0" minSx="1.6379" maxSx="2.14623" minSy="1.44814" maxSy="1.98749"/>
         <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.0237243" maxSy="1.2324686"/>
         <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>

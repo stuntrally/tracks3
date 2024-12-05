@@ -1,14 +1,14 @@
 <scene>
-    <ver num="3203" baseTrk="Uni6-Wild" secEd="5230"/>
+    <ver num="3301" baseTrk="Uni6-Wild" secEd="5473"/>
     <car tires="0" needLights="1"/>
     <start pos="179.332 -40.8464 0.650158" rot="0.019095 0.003621 0.745096 -0.666697" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
     <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Islands"/>
-    <sky material="sky/dusk_stormy_02_dark" skyYaw="-10.22728"/>
+    <sky material="sky/dusk_stormy_02_dark" skyYaw="-23.785706"/>
     <fog color="0.128 0.488 0.169 1.000 0.089" color2="0.163 0.289 0.035 1.000 0.000" linStart="51.7902" linEnd="427.015"/>
     <fogH color="0.329 0.149 0.139 0.718 0.200" height="-0.1" dens="2.85797" linStart="0" linEnd="121.009"/>
-    <light pitch="5" yaw="-5" ambient="0.153 0.545 0.111 1.000 0.000" diffuse="0.157 0.321 0.353 1.000 0.000" specular="0.167 0.426 0.725 0.000 0.000"/>
+    <light pitch="5" yaw="-3.2142792" ambient="0.153 0.545 0.111 1.000 0.000" diffuse="0.157 0.321 0.353 1.000 0.000" specular="0.167 0.605 0.725 0.000 0.000"/>
     <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="water dark" pos="0.0012537 -2 -0.530625" rot="0 0 0" size="8000 60 8000" tile="0.00482925 0.00508187"/>
@@ -105,7 +105,7 @@
         <layer on="0"/>
         <layer on="0"/>
     </veget>
-    <cam pos="304.32 38.1624 34.5891" dir="-0.8770426 -0.14327398 0.45855117"/>
+    <cam pos="304.32 38.1624 34.5891" dir="-0.8770425 -0.14327395 0.45855093"/>
     <objects>
         <o name="ptol_lighthouse" pos="273.828 -68.3767 19.7925" rot="0.140299 -0.990098 -0.00169566 -0.00428578" sc="1.29808 1.29808 1.29808"/>
         <o name="hexrock_cliff_01" mat="hexrock_brown" pos="-165.788 -161.651 -3.69087" rot="0.91782 0.396996 0 0"/>

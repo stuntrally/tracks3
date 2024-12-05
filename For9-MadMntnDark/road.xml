@@ -3,7 +3,7 @@
     <dim tcMul="0.04" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.05" merge="1" mergeLen="400" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.71669" wsPm="4" lsPm="1" stBox="1 5 13.2476" iDir="1" iChk1="14"/>
-    <stats length="4574.69" width="10.9513" height="51.2165" onTer="100" pipes="0" bnkAvg="11.0109" bnkMax="42.06"/>
+    <stats length="4574.693" width="10.951264" height="51.216465" onTer="100" pipes="0" bnkAvg="11.010925" bnkMax="42.060005"/>
     <txt desc="Strange mountain bridged road in rain. Darker variant of MadMntn."/>
     <adv ice="Still fast banked and twisted but partly narrow and filled with many obstacles to avoid."/>
     <P pos="125.408 13.24 131.831" w="18.0736" onTer="0" a="2.7" ar="11.1" aT="0" col="0" chkR="1.0518"/>

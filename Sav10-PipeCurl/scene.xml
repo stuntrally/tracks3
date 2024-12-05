@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="" secEd="2667"/>
+    <ver num="3301" baseTrk="" secEd="2683"/>
     <car tires="0"/>
     <start pos="-136.158 -52.9896 31.3907" rot="-1e-06 1e-06 -0.674853 -0.737959" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -8,7 +8,7 @@
     <sky material="sky/cloudy_04_blue"/>
     <fog color="0.581 0.138 0.751 0.911 0.000" color2="0.591 0.200 0.609 0.860 0.000" linStart="209.056" linEnd="829.756"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-33.584" dens="51.7698" linStart="0" linEnd="400"/>
-    <light pitch="41.590908" yaw="10" ambient="0.000 0.000 0.550 1.000 0.000" diffuse="0.167 0.040 0.750 1.000 0.000" specular="0.000 0.000 0.961 0.000 0.000"/>
+    <light pitch="41.590908" yaw="-3.8571472" ambient="0.000 0.000 0.550 1.000 0.000" diffuse="0.167 0.040 0.750 1.000 0.000" specular="0.000 0.000 0.961 0.000 0.000"/>
     <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids/>
     <terrains>

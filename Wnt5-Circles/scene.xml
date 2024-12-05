@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="Uni6-Wild" secEd="1991"/>
+    <ver num="3301" baseTrk="Uni6-Wild" secEd="2018"/>
     <car tires="0"/>
     <start pos="1.56165 134.227 1.83091" rot="0 1.77636e-15 -0.999981 -0.00681084" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -8,7 +8,7 @@
     <sky material="sky/day_clouds_02"/>
     <fog color="0.477 0.200 0.695 0.911 0.000" color2="0.591 0.240 0.210 0.860 0.000" linStart="140" linEnd="549.86"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
-    <light pitch="32" yaw="-1" ambient="0.583 0.020 0.510 1.000 0.000" diffuse="0.583 0.038 0.520 1.000 0.000" specular="0.500 0.048 0.420 1.000 0.000"/>
+    <light pitch="32" yaw="0.6428528" ambient="0.583 0.020 0.510 1.000 0.000" diffuse="0.583 0.038 0.520 1.000 0.000" specular="0.500 0.048 0.420 1.000 0.000"/>
     <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="ice bumpy" pos="-17.2223 -1.91586 43.3862" rot="0 0 0" size="328.837 20 331.24" tile="0.01 0.01"/>

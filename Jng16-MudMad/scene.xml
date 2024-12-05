@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="" secEd="2372"/>
+    <ver num="3301" baseTrk="" secEd="2649"/>
     <car tires="0"/>
     <start pos="42.4758 -52.6683 8.07214" rot="-0.028062 -0.047499 -0.00449584 0.998478" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="-1" yW="-0.8" tr="2.25" gr="4"/>
@@ -13,10 +13,10 @@
     <fluids>
         <fluid hq="2" name="water green med" pos="7.75109 5.79996 -27.4092" rot="0 0 0" size="26.68 20 42.5683" tile="0.01 0.01"/>
         <fluid hq="2" name="mud soft JD" pos="90.1949 -0.388644 -15.1706" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
-        <fluid hq="2" name="mud med JD" pos="44.3548 -1.74804 -41.2885" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
-        <fluid hq="2" name="mud soft JD" pos="-25.3199 -1.05989 -36.0996" rot="0 0 0" size="26.7509 20 89.6265" tile="0.01 0.01"/>
-        <fluid hq="2" name="mud med JD" pos="-102.051 1.80363 6.6103" rot="0 0 0" size="37.4725 20 35.6256" tile="0.01 0.01"/>
-        <fluid hq="2" name="mud hard JD" pos="8.51849 -0.764945 88.2013" rot="0 0 0" size="41.4905 20 51.1955" tile="0.01 0.01"/>
+        <fluid hq="1" name="mud med JD" pos="44.3548 -1.74804 -41.2885" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
+        <fluid hq="1" name="mud soft JD" pos="-25.3199 -1.05989 -36.0996" rot="0 0 0" size="26.7509 20 89.6265" tile="0.01 0.01"/>
+        <fluid hq="1" name="mud med JD" pos="-102.051 1.80363 6.6103" rot="0 0 0" size="37.4725 20 35.6256" tile="0.01 0.01"/>
+        <fluid hq="1" name="mud hard JD" pos="8.51849 -0.764945 88.2013" rot="0 0 0" size="41.4905 20 51.1955" tile="0.01 0.01"/>
         <fluid hq="2" name="water green med" pos="-48.342 -13.0592 51.1001" rot="0 0 0" size="45.3468 20 27.3975" tile="0.01 0.01"/>
         <fluid hq="2" name="water green" pos="-41.9941 -0.0842013 95.0628" rot="0 0 0" size="55.5118 19.551 16.5317" tile="0.00985236 0.00985236"/>
     </fluids>
@@ -40,11 +40,11 @@
             <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
                 <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture road="1" surf="roadJungle" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.139 0.600 0.400 0.800 0.000"/>
+            <texture road="1" surf="roadJungle" dust="0.09386973" dustS="0.2" mud="0.2" smoke="0" tclr="0.139 0.093 0.042 0.800 0.000"/>
             <texture road="2" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <texture road="3" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
             <texture road="4" surf="Default" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.160 0.500 0.200 0.700 0.000"/>
-            <par dust="Dust" mud="Mud" smoke="Smoke"/>
+            <par dust="MudDark" mud="Mud" smoke="Smoke"/>
         </terrain>
     </terrains>
     <veget densGrass="0.2" densTrees2="2.5909815" grDensSmooth="1" trRdDist="0">
