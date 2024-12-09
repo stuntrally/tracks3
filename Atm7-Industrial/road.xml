@@ -1,9 +1,9 @@
 <SplineRoad>
-    <mtr type="0" road="roadSavannah" pipe="pipeMetal" road2="roadMud" pipe2="pipeGlass" road3="roadNdirt" pipe3="pipeMetalOrn" pipe4="pipeMetalBlue" wall="road_wall_Red" col="road_col_Red"/>
-    <dim tcMul="0.0753661" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
+    <mtr type="0" road="roadSavannah" pipe="pipeMetal" road2="roadMud" pipe2="pipeGlass" road3="roadNdirt" pipe3="pipeMetalOrn" pipe4="pipeMetalBlue" wall="road_wall_Red" pipeW="grate_04" col="road_col_Red"/>
+    <dim tcMul="0.041226" tcW="0.062354036" tcP="0.052151494" tcPW="0.009753108" tcC="0.11785384" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="1010.59" lodPntLen="27.5323" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.82091" wsPm="6" lsPm="1.4702" stBox="1 5.33599 13.1521" iDir="1" iChk1="192"/>
-    <stats length="7916.69" width="10.8997" height="95.6151" onTer="76.1105" pipes="66.076" onPipe="59.8599" bnkAvg="3.53206" bnkMax="70.2873"/>
+    <stats length="7916.694" width="10.899724" height="95.61512" onTer="76.11046" pipes="66.07601" onPipe="59.859867" bnkAvg="3.5320601" bnkMax="70.287346"/>
     <txt desc="Extremely difficult and long road, inside industrial area, with obstacles."/>
     <adv ice="Almost fully on pipe. Drive slowly! Keep center of pipe, go lower in turns. Orange pipes are twisted, blue are easy. Has a tricky on-pipe loop."/>
     <P pos="165.665 0 -54.9515" w="7.73378" aT="2" mtr="1"/>
