@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3301" baseTrk="" secEd="4125"/>
+    <ver num="3302" baseTrk="" secEd="4185"/>
     <car tires="0"/>
     <start pos="184.02 6.81895 0.64439" rot="-1.55431e-15 -5.55112e-15 -0.701822 0.712357" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.4698304" gr="4"/>
     <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="11" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Jungle"/>
     <sky material="sky/day_clouds_03_grey" rainName="RainFine" rainEmit="510" rain2Name="RainFast" rain2Emit="1395" skyYaw="-78.40909"/>
-    <fog color="0.581 0.215 0.370 0.911 0.000" color2="0.591 0.171 0.410 0.860 0.000" linStart="22.8826" linEnd="301.18"/>
+    <fog color="0.581 0.215 0.370 0.911 0.000" color2="0.591 0.171 0.410 0.860 0.000" linStart="22.8826" linEnd="156.81601"/>
     <fogH color="0.586 0.270 1.000 1.000 0.000" height="-300" dens="100" linStart="0" linEnd="400"/>
     <light pitch="48.409092" yaw="-56.571426" ambient="0.333 0.107 0.560 1.000 0.000" diffuse="0.167 0.027 0.549 0.000 0.000" specular="0.167 0.020 0.990 1.000 0.000"/>
     <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
@@ -78,7 +78,7 @@
         <layer on="0"/>
         <layer on="0"/>
     </veget>
-    <cam pos="-180.75003 4.686839 61.321236" dir="0.7679277 -0.07690867 -0.63590264"/>
+    <cam pos="-180.75003 4.686839 61.321236" dir="0.76792765 -0.07690867 -0.63590264"/>
     <objects/>
     <emitters/>
     <collectible/>

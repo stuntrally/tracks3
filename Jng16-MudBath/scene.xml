@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="" secEd="3628"/>
+    <ver num="3302" baseTrk="" secEd="3707"/>
     <car tires="0"/>
     <start pos="-63.9465 55.2104 2.50253" rot="-0.009055 -0.004515 -0.911734 0.410697" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -86,7 +86,7 @@
         <layer on="1" name="jungle3_tall.mesh" dens="0.09901511" minScale="1.3026428" maxScale="1.7283248" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="38.53" minTerH="-10" maxTerH="10" maxDepth="0"/>
         <layer on="1" name="jungle1_wide.mesh" dens="0.044944" minScale="1.3026428" maxScale="1.6561955" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="38.53" minTerH="-10" maxTerH="10" maxDepth="0"/>
         <layer on="1" name="jungle2_wide.mesh" dens="0.044944" minScale="1.3026428" maxScale="1.6561955" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="38.53" minTerH="-10" maxTerH="10" maxDepth="0"/>
-        <layer on="1" name="tree_jng1.mesh" dens="0.083713785" minScale="1.0420362" maxScale="1.3331721" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="29.94" minTerH="-10" maxTerH="10" maxDepth="0"/>
+        <layer on="1" name="tree_jng1g.mesh" dens="0.083713785" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="29.94" minTerH="-10" maxTerH="10" maxDepth="0"/>
         <layer on="1" name="rock03can1flat.mesh" dens="0.0498021" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="13" maxRdist="100" maxTerAng="34.34" minTerH="-10" maxTerH="10" maxDepth="0.153327"/>
         <layer on="1" name="rock04can2flat.mesh" dens="0.0407949" minScale="0.7" maxScale="1.2" ofsY="0" addTrRdDist="13" maxRdist="100" maxTerAng="34.34" minTerH="-10" maxTerH="10" maxDepth="0.157388"/>
         <layer on="1" name="palm_coco3b.mesh" dens="0.1" minScale="0.8640001" maxScale="1.4115744" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
@@ -109,7 +109,7 @@
         <layer on="0"/>
         <layer on="0"/>
     </veget>
-    <cam pos="-48.95042 4.9003334 98.40098" dir="0.814847 0.038473554 -0.57839787"/>
+    <cam pos="-48.95042 4.9003334 98.40098" dir="0.81484705 0.038473558 -0.57839787"/>
     <objects/>
     <emitters/>
     <collectible/>

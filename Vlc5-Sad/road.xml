@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2" wsPm="4" lsPm="1" stBox="1 5.56 19.968" iDir="-1" iChk1="4"/>
-    <stats length="4327.3" width="7.29247" height="34.0256" onTer="17.1716" pipes="10.7184" bnkAvg="4.15675" bnkMax="24.84"/>
+    <stats length="4327.2954" width="7.292468" height="34.02556" onTer="17.171583" pipes="10.718412" bnkAvg="4.1567535" bnkMax="24.839962"/>
     <txt desc="Dark, long, muddy, bumpy and slippery road."/>
     <adv ice="Has few wide curves, but partly slow and winding through mud. Shortly also in pipe."/>
     <P pos="-320.001 0 -139.009" w="7" aT="2"/>

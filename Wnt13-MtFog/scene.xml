@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3203" baseTrk="" secEd="1944"/>
+    <ver num="3302" baseTrk="" secEd="2086"/>
     <car tires="0"/>
     <start pos="-107.58 -120.185 0.278421" rot="-1.64757e-13 1e-06 0.713465 -0.700755" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="2.112903" wtr="0" yW="-0.8" tr="1" gr="4"/>
     <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="MountainsClose"/>
     <sky material="sky/day_clouds_05_bright2" rain2Name="Snow" rain2Emit="4098"/>
-    <fog color="0.545 0.068 0.820 1.000 0.000" color2="0.541 0.045 0.872 0.975 0.000" linStart="0" linEnd="12.8159"/>
+    <fog color="0.545 0.068 0.820 1.000 0.000" color2="0.541 0.045 0.872 0.993 0.000" linStart="0" linEnd="4.624"/>
     <fogH color="0.000 0.000 0.950 1.000 0.000" height="-200" dens="0" linStart="0" linEnd="60.8437"/>
     <light pitch="56" yaw="-11" ambient="0.000 0.000 0.500 1.000 0.000" diffuse="0.000 0.000 0.517 1.000 0.000" specular="0.000 0.000 0.500 1.000 0.000"/>
     <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
@@ -103,7 +103,7 @@
         <layer on="0"/>
         <layer on="0"/>
     </veget>
-    <cam pos="114.006 10.7449 -142.713" dir="-0.963136 -0.267735 -0.0262173"/>
+    <cam pos="114.006 10.7449 -142.713" dir="-0.9631357 -0.26773494 -0.02621764"/>
     <objects/>
     <emitters/>
     <collectible/>

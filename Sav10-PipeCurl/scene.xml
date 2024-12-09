@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3301" baseTrk="" secEd="2683"/>
+    <ver num="3302" baseTrk="" secEd="2753"/>
     <car tires="0"/>
     <start pos="-136.158 -52.9896 31.3907" rot="-1e-06 1e-06 -0.674853 -0.737959" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -103,7 +103,7 @@
         <layer on="0"/>
         <layer on="0"/>
     </veget>
-    <cam pos="-103.672 113.217 343.752" dir="0.372417 -0.29739398 -0.87912595"/>
+    <cam pos="-103.672 113.217 343.752" dir="0.37245852 -0.2974048 -0.87910473"/>
     <objects/>
     <emitters/>
     <collectible/>

@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="4" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="3"/>
-    <stats length="1412.39" width="8.85423" height="11.5314" onTer="10.3417" pipes="0" bnkAvg="5.46718" bnkMax="13.1835"/>
+    <stats length="1412.3857" width="8.854228" height="11.531372" onTer="10.341707" pipes="0" bnkAvg="5.4671803" bnkMax="13.18348"/>
     <txt desc="A broad but yet dangerous mountain road in dense fog."/>
     <adv ice="Drive carefully and watch out for grass (or other helpers) for orientation."/>
     <P pos="-12.832 0 217.044" w="8.0064" a="0" ar="0" aT="2" chkR="1.3"/>

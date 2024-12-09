@@ -1,12 +1,12 @@
 <scene>
-    <ver num="3203" baseTrk="Grc8-SlopeCity" secEd="112813"/>
+    <ver num="3302" baseTrk="Grc8-SlopeCity" secEd="112854"/>
     <car tires="0" damage="0.995781" road1mtr="0"/>
     <start pos="-51.8478 580.396 0.227734" rot="-0.00237887 0.000101353 0.999104 0.0423268" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="0.24200054" gr="3.0860214"/>
     <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="10" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Canyon"/>
     <sky material="sky/cloudy_03_grey" rainName="RainFastA" rainEmit="884" skyYaw="15"/>
-    <fog color="0.581 0.215 0.370 0.911 0.000" color2="0.591 0.171 0.410 0.860 0.000" linStart="682.988" linEnd="1699.71"/>
+    <fog color="0.581 0.215 0.370 0.911 0.000" color2="0.591 0.171 0.410 0.860 0.000" linStart="278.784" linEnd="620.94403"/>
     <fogH color="0.095 0.180 0.266 0.496 0.000" height="-4.6" dens="2" linStart="0" linEnd="21.2695" dmg="0.0419263"/>
     <light pitch="55" yaw="-5" ambient="0.320 0.017 0.592 0.496 0.000" diffuse="0.000 0.339 0.707 0.496 0.000" specular="0.818 0.132 0.388 0.000 0.000"/>
     <wind ofs="0.178608" amp="0.627264" fq="0.50437695" yaw="73.92001"/>
