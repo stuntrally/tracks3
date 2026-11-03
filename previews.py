@@ -5,9 +5,9 @@ import os, sys
 from PIL import Image
 
 tdir = '.'
-#trks = os.listdir(tdir)  # all
+trks = os.listdir(tdir)  # all
 #trks = ['TestC15-Render','Test18-FlatGI']  # 
-<trks = ['Sur4-BlueWinter','Sur8-BloCorcle','Wnt20-FirstSnow']  # 
+#trks = ['Sur4-BlueWinter','Sur8-BloCorcle','Wnt20-FirstSnow']  # 
 size = 256, 256
 
 for trk in trks:
