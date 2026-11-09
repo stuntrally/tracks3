@@ -1,7 +1,7 @@
 <SplineRoad>
     <mtr type="0" road="roadMossWet" pipe="pipeGlassCyan" road2="roadNgravelWet" pipe2="pipeAsphalt" road3="roadAsphalt" pipe3="pipeAsphalt" road4="roadMudWet" pipe4="pipeMetalBlue" wall="road_wall_JDark" pipeW="pipe_wall_JDark"/>
     <dim tcMul="0.06" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="5" heightOfs="0.06"/>
-    <mrg loop="1" skirtLen="0.3" skirtH="0.06" merge="1" mergeLen="1014.28" lodPntLen="50.4035" visDist="348.978" visBehind="305.929"/>
+    <mrg loop="1" skirtLen="0.3" skirtH="0.06" merge="1" mergeLen="1964.6797" lodPntLen="163.3987" visDist="348.978" visBehind="266.36676"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.288 18.344" iDir="-1" iChk1="0"/>
     <stats length="10065.421" width="7.5055494" height="593.9425" onTer="39.256607" pipes="19.534529" onPipe="10.013237" bnkAvg="6.689101" bnkMax="87.770065"/>
     <txt desc="The rally team waterplane arrived on one of the deserted island&apos;s lakes and released the car to explore it. The island once flourished is now deserted and uninhabited."/>
