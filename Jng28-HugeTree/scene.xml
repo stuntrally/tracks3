@@ -1,0 +1,186 @@
+<scene>
+    <ver num="3303" baseTrk="Jng26-MilkyWay" secEd="33438"/>
+    <car tires="0" damage="0.521505"/>
+    <start pos="475.681 29.084473 -13.01907" rot="0.06432946 0.05206886 0.9867377 0.1399514" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
+    <sound ambient="" reverbs="Rocky"/>
+    <sky material="sky/day_clouds_04_blue" skyYaw="-27.954544"/>
+    <fog color="0.591 0.329 0.879 1.000 0.000" color2="0.589 0.461 0.292 1.000 0.000" linStart="243.37779" linEnd="2108.304"/>
+    <fogH color="0.537 0.492 0.738 0.582 0.000" height="-49.066666" dens="27.478754" linStart="0" linEnd="160.632"/>
+    <light pitch="48" yaw="-35" ambient="0.589 0.124 0.523 0.000 0.000" diffuse="0.174 0.000 0.820 0.000 0.000" specular="0.143 0.033 0.701 0.000 0.000"/>
+    <wind ofs="0" amp="0.24075377" fq="0.14119829" yaw="0.2"/>
+    <fluids>
+        <fluid hq="1" name="water moss" pos="408.4638 -51.5163 -6.7407517" rot="0 0 0" size="419.89166 70.071 1731.4896" tile="0.01 0.01"/>
+    </fluids>
+    <terrains>
+        <terrain ofsZ="1.03352" triangle="1.7970711" diff="1 1 1">
+            <texture on="1" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="10.606936" surf="GrassJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="0" angMax="8.216292" angSm="3.3693354" hMin="-400" hMax="900" hSm="18.9156" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="28.887476" oct0="3" prs0="0.3" pow0="1.5" frq1="25.830357" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="grass_green_d.jpg" fnorm="grass_green_n.jpg" scale="20.926472" surf="GrassJungle" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.259 0.871 0.310 0.700 0.000" angMin="12.134831" angMax="30.4286" angSm="4.6773024" hMin="-400" hMax="900" hSm="20" nOn="0" noise="1" n_1="1" n2="0">
+                <noise frq0="15.789325" oct0="3" prs0="0.292381" pow0="2.67668" frq1="18.109451" oct1="3" prs1="0.583809" pow1="7.87668"/>
+            </texture>
+            <texture on="1" file="jungle_mntn_d.jpg" fnorm="jungle_mntn_n.jpg" scale="26" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 0.600 0.000" angMin="37.036514" angMax="53.848312" angSm="10.94068" hMin="-400" hMax="900" hSm="7.28143" nOn="0" triplanar="1" noise="0.049212" n_1="1" n2="0">
+                <noise frq0="49.6024" oct0="3" prs0="0.3" pow0="1.20376" frq1="57.1456" oct1="3" prs1="0.39619" pow1="0.722142"/>
+            </texture>
+            <texture on="1" file="mntn_green_d.jpg" fnorm="mntn_green_n.jpg" scale="32" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.000 0.000 0.320 1.000 0.000" angMin="60.42135" angMax="90" angSm="16.27824" hMin="-400" hMax="900" hSm="20" nOn="0" triplanar="1" noise="0" n_1="1" n2="0">
+                <noise frq0="11.1369" oct0="3" prs0="0.348571" pow0="0.879891" frq1="47.3333" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadJungle" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.139 0.600 0.400 0.800 0.000"/>
+            <texture road="2" surf="roadForest" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.119 0.467 0.300 0.800 0.000"/>
+            <texture road="3" surf="roadGravel" dust="0" dustS="1" mud="0.8" smoke="0" tclr="0.103 1.000 0.210 0.800 0.000"/>
+            <texture road="4" surf="roadGravel" dust="0" dustS="1" mud="0.6" smoke="0" tclr="0.000 0.000 0.130 0.800 0.000"/>
+            <par dust="Dust" mud="MudDark" smoke="Smoke" flMud="FluidMudWhite" flMudSoft="FluidMudWhite"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="11.311983" diff="1 1 1" horiz="1" veget="0.1127451">
+            <texture on="1" file="grass_green_d.jpg" fnorm="grass_green_n.jpg" scale="20.596615" surf="GrassJungle" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.259 0.871 0.310 0.700 0.000" angMin="0" angMax="24.901686" angSm="15.5165" hMin="-500" hMax="347.02972" hSm="20" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="9.523872" oct0="3" prs0="0.292381" pow0="1.2723647" frq1="12.741087" oct1="3" prs1="0.583809" pow1="7.87668"/>
+            </texture>
+            <texture on="1" file="jungle_mntn_d.jpg" fnorm="jungle_mntn_n.jpg" scale="41.476288" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 0.600 0.000" angMin="20.477528" angMax="64.7191" angSm="19.343374" hMin="-407.48074" hMax="-8.690887" hSm="48.921383" nOn="0" noise="0.21621622" n_1="0.76216215" n2="0">
+                <noise frq0="9.775855" oct0="3" prs0="0.348571" pow0="0.879891" frq1="23.269426" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_green_d.jpg" fnorm="mntn_green_n.jpg" scale="68.898605" surf="Rocks" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.000 0.000 0.320 1.000 0.000" angMin="23.38483" angMax="52.205055" angSm="21.477407" hMin="20.022034" hMax="530.473" hSm="18.9156" nOn="0" triplanar="1" noise="1" n_1="0" n2="1">
+                <noise frq0="3.7578132" oct0="3" prs0="0.3" pow0="1.5" frq1="11.113226" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="jungle_stone_d.jpg" fnorm="jungle_stone_n.jpg" scale="78.63" surf="Rocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.000 0.000 0.200 0.600 0.000" angMin="0" angMax="90" angSm="12.8773" hMin="211.44116" hMax="950" hSm="14.380286" nOn="0" noise="0.049212" n_1="1" n2="0">
+                <noise frq0="49.6024" oct0="3" prs0="0.3" pow0="1.20376" frq1="37.196564" oct1="3" prs1="0.39619" pow1="0.722142"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadJungle" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.139 0.600 0.400 0.800 0.000"/>
+            <texture road="2" surf="roadForest" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.119 0.467 0.300 0.800 0.000"/>
+            <texture road="3" surf="roadGravel" dust="0" dustS="1" mud="0.8" smoke="0" tclr="0.103 1.000 0.210 0.800 0.000"/>
+            <texture road="4" surf="roadGravel" dust="0" dustS="1" mud="0.6" smoke="0" tclr="0.000 0.000 0.130 0.800 0.000"/>
+            <par dust="Dust" mud="MudDark" smoke="Smoke" flMud="FluidMudWhite" flMudSoft="FluidMudWhite"/>
+        </terrain>
+    </terrains>
+    <veget densGrass="0.15091" densTrees2="0.57728535" grDensSmooth="3" trRdDist="0">
+        <grass on="1" mtr="grass3g" dens="0.1206564" chan="0" minSx="1.18105" maxSx="1.53682" minSy="1.47402" maxSy="2.35994"/>
+        <grass on="1" mtr="grass18gw" dens="0.0861281" chan="0" minSx="1.63366" maxSx="2.08978" minSy="1.80207" maxSy="2.90729"/>
+        <grass on="1" mtr="grass16g" dens="0.052064195" chan="1" minSx="1.62" maxSx="2" minSy="2.2" maxSy="3.16"/>
+        <grass on="1" mtr="grass15g" dens="0.0967963" chan="0" minSx="1.07" maxSx="1" minSy="1" maxSy="1.8"/>
+        <grass on="0" mtr="grass15g" dens="0.55694" chan="0" minSx="1.07368" maxSx="1.33784" minSy="0.996847" maxSy="1.80207"/>
+        <grass on="0" mtr="grass6g-" dens="0.264331" chan="0" minSx="1.42784" maxSx="2.05259" minSy="1.47402" maxSy="1.97926"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <gchan amin="0" amax="30" asm="8" hmin="-90" hmax="90" hsm="7.25898" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-200" hmax="-45" hsm="2.50548" ns="0" frq="37" oct="3" prs="0.3" pow="1.2" rd="-2.88696"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="49" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="61" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <layer on="0" name="jungle3_tall.mesh" dens="0.2103751" minScale="0.85" maxScale="1.15" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="38.53" minTerH="-100" maxTerH="18.720001" maxDepth="0"/>
+        <layer on="1" name="oak3.mesh" dens="0.09404445" minScale="0.90495044" maxScale="1.4929922" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="21.66784" minTerH="-100" maxTerH="47.84" maxDepth="0"/>
+        <layer on="1" name="palm_coconut1.mesh" dens="0.157095" minScale="1.1851853" maxScale="1.8213931" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="32.978558" minTerH="-89.3" maxTerH="9.44" maxDepth="0"/>
+        <layer on="1" name="jungle5_ceiba.mesh" dens="0.02777778" minScale="1.0951236" maxScale="1.7010359" ofsY="0" addTrRdDist="0" maxRdist="100" maxTerAng="32.4" minTerH="-100" maxTerH="-50" maxDepth="0"/>
+        <layer on="1" name="rock25dark2Harsh2.mesh" dens="0.08682845" minScale="1.3254954" maxScale="2.3934672" ofsY="0" addTrRdDist="10" maxRdist="100" maxTerAng="42.93184" minTerH="-100" maxTerH="100" maxDepth="0.95048"/>
+        <layer on="1" name="tree_jng1g.mesh" dens="0.09160711" minScale="0.9781257" maxScale="1.4195796" ofsY="0" addTrRdDist="2" maxRdist="20" maxTerAng="29.94" minTerH="-45" maxTerH="10" maxDepth="0"/>
+        <layer on="1" name="rock30grayGreen.mesh" dens="0.04551111" minScale="1.8119394" maxScale="3.2801032" ofsY="0" addTrRdDist="11" maxRdist="20" maxTerAng="34" minTerH="-100" maxTerH="0" maxDepth="5"/>
+        <layer on="1" name="fern_bush.mesh" dens="0.064177774" minScale="1.8" maxScale="2.4277134" ofsY="0" addTrRdDist="1" maxRdist="6" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="plant_tropical.mesh" dens="0.09404445" minScale="1.41" maxScale="1.79" ofsY="0" addTrRdDist="1" maxRdist="7" maxTerAng="27.49" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="rock22jng1Harsh.mesh" dens="0.049580444" minScale="1.1499841" maxScale="2.3371084" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="34" minTerH="-100" maxTerH="10" maxDepth="1"/>
+        <layer on="1" name="bushes2_sav.mesh" dens="0.126736" minScale="1.0355233" maxScale="1.6296732" ofsY="0" addTrRdDist="1" maxRdist="8" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="bush03flower_viol.mesh" dens="0.1" minScale="1.3" maxScale="1.9" ofsY="0" addTrRdDist="0" maxRdist="9" maxTerAng="28.189024" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="bush05.mesh" dens="0.1024" minScale="1.4356805" maxScale="2.2487862" ofsY="0" addTrRdDist="1" maxRdist="7" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="bush11flower_red.mesh" dens="0.030976" minScale="1.2" maxScale="1.6" ofsY="0" addTrRdDist="0" maxRdist="7" maxTerAng="34.39778" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="bush04.mesh" dens="0.074711114" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="8" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="bush15palm.mesh" dens="0.183184" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="0" maxRdist="8" maxTerAng="29.069878" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="palm_coco3a.mesh" dens="0.07544178" minScale="0.9" maxScale="1.3" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="26.84" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="palm_coco3b.mesh" dens="0.07544178" minScale="0.9" maxScale="1.3" ofsY="0" addTrRdDist="1" maxRdist="7" maxTerAng="26.84" minTerH="-10" maxTerH="20" maxDepth="0"/>
+        <layer on="0" name="tropic_peacock.mesh" dens="0.104976" minScale="1.21" maxScale="1.89" ofsY="0" addTrRdDist="0" maxRdist="7" maxTerAng="27.49" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+    </veget>
+    <cam pos="608.87537 32.885845 -224.6093" dir="-0.96844655 -0.050009646 0.24415195"/>
+    <objects>
+        <o name="tree_dead_04" pos="12.6424885 84.132835 -16.607628" rot="-0.24659877 -0.9691168 0 0" sc="19.31125 19.31125 19.31125"/>
+        <o name="tree_dead_04" pos="18.27458 84.74804 -16.76999" rot="-0.6818376 -0.7315033 0 0" sc="22.155682 22.155682 22.155682"/>
+        <o name="tree_dead_04" pos="14.464479 83.228 -16.923077" rot="-0.09470532 -0.9955046 0 0" sc="18.968544 11.348586 18.968544"/>
+        <o name="tree_dead_04" pos="15.899165 84.040665 -16.807432" rot="-0.95158714 -0.30737895 0 0" sc="12.9740925 20.531921 12.9740925"/>
+        <o name="beech1_wide" pos="6.9879537 117.306046 132.23262" rot="0 -1 0 0" sc="1.5367918 1.5367918 1.5367918"/>
+        <o name="jungle1_wide" pos="16.493748 79.17691 102.42806" rot="0.59184635 -0.802985 0.052899506 0.046208695" sc="2.8100445 2.8100445 2.8100445"/>
+        <o name="jungle1_wide" pos="27.053995 71.036354 212.57066" rot="0.8967729 -0.44127083 -0.006805509 -0.03217904" sc="2.9290848 2.9290848 2.9290848"/>
+        <o name="jungle1_wide" pos="61.610634 72.2326 86.282906" rot="0.9695596 -0.22674327 -0.08066664 0.045127228" sc="2.4337583 2.4337583 2.4337583"/>
+        <o name="palm_coco3a" pos="22.701635 68.53775 138.4293" rot="0.9365547 -0.3436507 0.047649328 0.050016902" sc="3.898887 3.898887 3.898887"/>
+        <o name="palm_coco3a" pos="20.067099 82.73076 60.089855" rot="0.9068882 -0.3227682 0.1730027 -0.20843652" sc="2.4695725 2.4695725 2.4695725"/>
+        <o name="palm_coco3a" pos="24.265432 81.84007 46.71786" rot="0.93484443 0.27753854 -0.12935393 0.17973793" sc="2.6856651 2.6856651 2.6856651"/>
+        <o name="palm_coco3a" pos="-28.413584 102.48016 55.503433" rot="0.9154356 -0.2706579 0.2866208 -0.08104975" sc="2.7635934 2.4758236 2.102018"/>
+        <o name="tree_jng3g" pos="-25.885948 22.184763 52.37608" rot="0.583886 -0.3565952 0.7213746 0.10740204" sc="2.7786846 2.4893444 2.1134963"/>
+        <o name="tree_jng3g" pos="-43.101093 42.551373 98.331955" rot="0.9154356 -0.2706579 0.2866208 -0.08104975" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="-35.024117 59.23227 92.520164" rot="0.9154356 -0.2706579 0.2866208 -0.08104975" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="71.98827 46.500656 95.607124" rot="0.9154356 -0.2706579 0.2866208 -0.08104975" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="77.56217 146.27594 109.60138" rot="0.41871583 -0.5969412 -0.38169643 0.56801754" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="102.9957 173.40588 115.03133" rot="0.6564596 -0.39373574 -0.019480312 0.6431582" sc="1.5765848 1.5765848 1.5765848"/>
+        <o name="tree_jng3g" pos="42.5385 153.79991 139.44629" rot="0.81616914 -0.3485089 0.44932845 0.10251381" sc="2.4087503 2.4087503 2.4087503"/>
+        <o name="tree_jng3g" pos="7.2677727 125.00233 104.756165" rot="0.9154356 -0.2706579 0.2866208 -0.08104975" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="-44.8911 111.29953 114.20988" rot="0.9168381 -0.27025482 0.28210232 -0.08238363" sc="2.353088 1.2030584 2.353088"/>
+        <o name="tree_jng3g" pos="7.0751357 74.9874 152.05595" rot="0.9154356 -0.2706579 0.2866208 -0.08104975" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="8.36439 34.142445 220.75504" rot="0.7686436 -0.54935545 -0.08154801 -0.3174007" sc="1.9112126 1.5052243 1.9023167"/>
+        <o name="tree_jng3g" pos="4.6038957 52.699116 185.5759" rot="0.9154356 -0.2706579 0.2866208 -0.08104975" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="27.376097 88.68532 194.083" rot="0.83391833 -0.40255037 0.09911506 0.36429295" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="18.374306 80.22816 194.68683" rot="0.7322477 -0.45092213 0.49876243 0.10824438" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="73.98914 188.80057 121.9982" rot="0.84721667 -0.29723942 0.3566567 0.25819987" sc="1.9113258 1.9113258 1.9113258"/>
+        <o name="tree_jng3g" pos="42.885166 129.57266 38.637127" rot="0.85560954 -0.111163385 0.19819768 0.46507013" sc="3.0886683 3.0886683 3.0886683"/>
+        <o name="tree_jng3g" pos="-30.971478 115.13084 101.287964" rot="0.6509442 -0.5064165 0.5653356 0.014408092" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="-56.507347 87.38762 76.02966" rot="0.69251204 -0.5303039 0.48903427 0.00704244" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="14.969689 65.27667 123.44268" rot="0.8887272 -0.21854503 0.3280934 -0.23399848" sc="2.3208172 2.3208172 2.3208172"/>
+        <o name="tree_jng3g" pos="79.39347 19.894934 113.31486" rot="0.19027756 -0.9345407 -0.24679895 0.17180714" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="103.237366 56.29274 114.61189" rot="-0.05052736 -0.7170412 0.48420143 0.49884284" sc="2.462762 2.462762 2.462762"/>
+        <o name="tree_jng3g" pos="138.36342 79.61537 134.94264" rot="0.18986745 -0.94685584 0.20566739 0.15846425" sc="1.7894261 2.5044153 1.7894261"/>
+        <o name="tree_jng3g" pos="159.3727 54.439465 133.44121" rot="0.19326134 -0.84675074 -0.40423974 0.28679785" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="147.78397 65.342674 129.07121" rot="0.25568587 -0.92675525 -0.0054291273 0.2751678" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="37.605434 14.931212 140.41693" rot="-0.120617025 -0.95917016 -0.25113663 0.048715178" sc="1.9724815 1.9724815 1.9724815"/>
+        <o name="tree_jng3g" pos="39.49011 67.27407 28.128178" rot="0.23404796 -0.7803938 -0.53342694 0.22729318" sc="2.353088 3.0976999 2.3842027"/>
+        <o name="tree_jng3g" pos="4.4657426 1.4462047 85.982" rot="0.15681918 -0.87601286 -0.40850672 0.20280772" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="3.5980484 14.052802 84.79791" rot="0.14032961 -0.7162826 -0.55725664 -0.39586642" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng2g" pos="19.526842 106.62624 222.00223" rot="-0.04417454 -0.91163945 0.4084085 0.012851856" sc="1.796622 1.8780409 1.7706733"/>
+        <o name="tree_jng2g" pos="74.60635 145.21756 107.21286" rot="0.54100525 -0.79583335 0.2451975 0.11764106" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng2g" pos="38.76947 104.51818 205.76582" rot="0.19027756 -0.9345407 -0.24679895 0.17180714" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng2g" pos="4.988678 50.922497 185.81227" rot="-0.07653565 -0.8482376 -0.49179468 0.18103176" sc="2.1292288 2.5684729 2.1292288"/>
+        <o name="tree_jng2g" pos="28.89608 68.73736 170.19229" rot="0.35946068 -0.7915011 -0.13849634 0.47448176" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng2g" pos="-67.44689 39.94379 103.965164" rot="0.06910644 -0.93072844 -0.2180255 -0.2853618" sc="1.9018139 1.9018139 1.9018139"/>
+        <o name="tree_jng2g" pos="-73.86457 97.573845 79.1758" rot="-0.375306 -0.89075077 -0.2424236 -0.08328196" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="44.525997 3.9660287 122.96399" rot="0.07029732 -0.9399143 -0.277571 -0.18593933" sc="1.7417042 1.7417042 1.7417042"/>
+        <o name="tree_jng3g" pos="54.933365 20.765541 126.47996" rot="-0.14893633 -0.91415644 -0.25436506 0.27826774" sc="1.9201808 1.9266142 1.9201808"/>
+        <o name="tree_jng3g" pos="71.76261 32.221508 72.967514" rot="0.19027756 -0.9345407 -0.24679895 0.17180714" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="100.41655 55.070274 111.434235" rot="-0.19517213 -0.75603914 -0.16311961 0.6030783" sc="2.462762 2.462762 2.462762"/>
+        <o name="tree_jng3g" pos="-43.72574 42.51152 98.40729" rot="0.70836645 -0.26439875 0.049844313 -0.6525517" sc="2.6667564 2.3890715 2.0283628"/>
+        <o name="tree_jng3g" pos="-16.697565 186.38548 94.709816" rot="0.8563136 -0.32263166 0.26169115 0.3068421" sc="2.7786846 2.4893444 2.1134963"/>
+        <o name="tree_jng3g" pos="-67.44998 55.607056 50.372223" rot="0.9154356 -0.2706579 0.2866208 -0.08104975" sc="2.7786846 2.4893444 2.1134963"/>
+        <o name="tree_jng3g" pos="-8.516891 149.07083 80.39648" rot="0.7019643 -0.28682572 0.6515197 -0.02230949" sc="2.7786846 2.4893444 2.1134963"/>
+        <o name="tree_jng3g" pos="-67.875694 74.77533 37.03284" rot="0.7165918 -0.2519206 0.6203541 0.19542746" sc="2.7786846 2.4893444 2.1134963"/>
+        <o name="tree_jng3g" pos="-28.23682 23.776861 51.370155" rot="0.6930082 0.19779967 0.20630753 -0.6618535" sc="2.7786846 2.4893444 2.1134963"/>
+        <o name="tree_jng3g" pos="54.585766 163.76141 57.726845" rot="0.85560954 -0.111163385 0.19819768 0.46507013" sc="2.353088 2.353088 2.353088"/>
+        <o name="tree_jng3g" pos="61.78917 188.14438 58.658447" rot="0.860385 -0.40219548 -0.14044611 0.27972788" sc="1.497537 1.497537 1.497537"/>
+        <o name="tree_jng3g" pos="55.7382 158.43466 56.564415" rot="0.5503812 -0.5615843 -0.30350256 0.5381311" sc="2.353088 2.353088 2.353088"/>
+        <o name="palm_coco3a" pos="24.190266 74.70314 48.5774" rot="0.9499526 0.21671933 -0.07722909 -0.21132225" sc="3.898887 3.898887 3.898887"/>
+        <o name="palm_coco3a" pos="20.830042 63.975445 56.516014" rot="0.858555 -0.4716794 0.0658145 -0.18992" sc="3.898887 3.898887 3.898887"/>
+        <o name="palm_coco3a" pos="25.138376 67.24291 94.36324" rot="0.84913296 0.0458186 0.4755868 0.2251468" sc="3.898887 3.898887 3.898887"/>
+        <o name="tree_jng3g" pos="136.79465 54.017986 152.86244" rot="0.2690097 -0.9149896 -0.2605068 0.15021184" sc="2.353088 3.2932951 2.353088"/>
+        <o name="bush15palm" pos="-8.429299 149.55254 83.66111" rot="0 -1 0 0" sc="2.0154376 2.0154376 2.0154376"/>
+        <o name="bush15palm" pos="52.102303 111.64701 77.20492" rot="-0.2527291 -0.96753716 0 0" sc="3.1424265 3.1424265 3.1424265"/>
+        <o name="palm_coco3a" pos="8.986275 77.41329 25.369911" rot="0.79301375 0.5701968 0.034349434 0.21171431" sc="2.7492716 2.7492716 2.7492716"/>
+        <o name="tree_jng1g" pos="31.402536 8.466987 44.953415" rot="0.2673887 -0.75654835 -0.5967485 -0.0052352967" sc="1.5186524 1.5186524 1.5186524"/>
+        <o name="tree_jng1g" pos="84.2791 15.099359 73.62019" rot="0 -0.7589085 -0.6511974 0" sc="1.5186524 1.5186524 1.5186524"/>
+        <o name="tree_jng1g" pos="130.77718 54.839695 145.72472" rot="0.045448832 -0.88617253 -0.46054795 0.02297988" sc="2.0738673 2.0738673 2.0738673"/>
+        <o name="tree_jng1g" pos="-3.9870727 -28.889423 86.916664" rot="0.31078717 -0.5935126 -0.6628798 -0.33427575" sc="1.4293896 1.7386484 1.3804115"/>
+        <o name="tree_jng1g" pos="-11.565299 19.340548 115.76883" rot="0.11111464 -0.9770639 -0.114193924 -0.14127178" sc="1.4471655 1.4471655 1.4471655"/>
+    </objects>
+    <emitters/>
+    <collectible/>
+    <fields/>
+</scene>
