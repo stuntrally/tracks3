@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="517.436" lodPntLen="18.0916" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="4.0506" wsPm="4" lsPm="1" stBox="1 15.685429 24.442282" iDir="1" iChk1="5"/>
-    <stats length="1684.9822" width="17.024225" height="32.65517" onTer="100" pipes="100" bnkAvg="43.1536" bnkMax="85.07025"/>
+    <stats length="1689.5425" width="17.018642" height="32.65517" onTer="100" pipes="100" bnkAvg="43.15361" bnkMax="85.07029"/>
     <txt desc="Short but tricky pipe track at sunset. In shape of a plastic bottle in ocean, which should never be allowed to happen."/>
     <adv ice="Half pipes banked and changing tilt. With many obstacles inside. Has one side jump. Also slight dips in water."/>
     <P pos="-94.1885 0.955737 75.18247" w="14.170927" onTer="0" a="0" ar="10.747137" aT="2" col="0" pipe="0.50147283" mtr="2" wall="-1"/>
@@ -15,13 +15,13 @@
     <P pos="-272.06598 -0.05218494 -125.628006" w="14.170927" onTer="0" a="0" ar="0" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1"/>
     <P pos="-297.12308 2.8232162 -146.07954" w="14.170927" onTer="0" a="0" ar="37.650772" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1" chkR="1"/>
     <P pos="-309.03906 4.795076 -172.81766" w="14.170927" onTer="0" a="0" ar="59.73144" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1"/>
-    <P pos="-305.97913 4.8233857 -194.22699" w="16.189007" onTer="0" a="0" ar="75.47754" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1"/>
-    <P pos="-298.1424 4.8608613 -208.76924" w="17.128687" onTer="0" a="0" ar="90.04705" aT="2" col="0" pipe="0.50147283" mtr="1" chkR="1"/>
-    <P pos="-285.5472 4.8554664 -220.64923" w="17.767714" onTer="0" a="0" ar="89.98125" aT="2" col="0" pipe="0.50147283" mtr="-1"/>
-    <P pos="-273.123 4.8450065 -228.0577" w="30.641523" onTer="0" a="0" ar="89.988235" aT="2" col="0" pipe="0.50147283" mtr="-1"/>
-    <P pos="-265.7841 4.8577924 -242.70998" w="17.737032" onTer="0" a="0" ar="89.963776" aT="2" col="0" pipe="0.50147283" mtr="1"/>
-    <P pos="-251.9993 4.858662 -257.50702" w="17.11707" onTer="0" a="0" ar="90.085106" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1"/>
-    <P pos="-233.64162 4.862025 -268.22864" w="16.19299" onTer="0" a="0" ar="75.812996" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1" chkR="1"/>
+    <P pos="-307.91272 4.8233857 -196.8976" w="16.189007" onTer="0" a="0" ar="75.47754" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1"/>
+    <P pos="-301.0222 4.8608613 -212.42494" w="17.128687" onTer="0" a="0" ar="90.04705" aT="2" col="0" pipe="0.50147283" mtr="1" chkR="1"/>
+    <P pos="-288.04233 4.8554664 -225.83568" w="17.767714" onTer="0" a="0" ar="89.98125" aT="2" col="0" pipe="0.50147283" mtr="-1"/>
+    <P pos="-272.63376 4.8450065 -231.22583" w="30.641523" onTer="0" a="0" ar="89.988235" aT="2" col="0" pipe="0.50147283" mtr="-1"/>
+    <P pos="-267.73068 4.8577924 -245.39407" w="17.737032" onTer="0" a="0" ar="89.963776" aT="2" col="0" pipe="0.50147283" mtr="1"/>
+    <P pos="-253.05772 4.858662 -259.26642" w="17.11707" onTer="0" a="0" ar="90.085106" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1"/>
+    <P pos="-235.11711 4.862025 -269.76483" w="16.19299" onTer="0" a="0" ar="75.812996" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1" chkR="1"/>
     <P pos="-209.98866 4.795076 -271.91736" w="14.170927" onTer="0" a="0" ar="57.154926" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1"/>
     <P pos="-186.45361 2.130875 -259.1836" w="14.170927" onTer="0" a="0" ar="47.257736" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1" chkR="1"/>
     <P pos="-172.97032 -0.05218494 -231.29135" w="14.170927" onTer="0" a="0" ar="18.758522" aT="2" col="0" pipe="0.50147283" mtr="1" wall="-1"/>
