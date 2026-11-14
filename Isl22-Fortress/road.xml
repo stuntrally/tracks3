@@ -3,9 +3,9 @@
     <dim tcMul="0.06701461" tcW="0.071094215" tcP="0.028896354" tcPW="0.31917217" tcC="0.15" lenDim="2" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.03" merge="1" mergeLen="1200" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="8" colR="3.0634289" wsPm="4" lsPm="1" stBox="1 6.14 23.537666" iDir="-1" iChk1="493"/>
-    <stats length="13383.107" width="13.348502" height="233.6621" onTer="80.033035" pipes="43.64092" onPipe="8.919289" bnkAvg="2.904508" bnkMax="39.120018"/>
-    <txt desc="Massive fortress standing among islands."/>
-    <adv ice="Very long. Filled with many square turns. Plenty of rising and going down. Has some easy pipes."/>
+    <stats length="13383.105" width="13.348395" height="233.6621" onTer="80.04091" pipes="43.648785" onPipe="8.91929" bnkAvg="2.9045317" bnkMax="39.120018"/>
+    <txt desc="Massive fortress standing among islands. With many levels and view points. Lots of loose objects near road and few obstacles."/>
+    <adv ice="Very long and filled with many square turns. Plenty of rising and going down. Has easy jumps and all kinds of loops. Many pipe turns, some ending suddenly. Upper part with stunts. Middle section has on pipe drive with obstacles."/>
     <P pos="289.97144 0 -242.23857" w="11.00372" aT="2" col="0"/>
     <P pos="292.50116 0 -273.21265" w="12.100103" aT="2" col="0" chkR="2.140052"/>
     <P pos="273.36688 0 -295.1741" w="11.00372" aT="2" col="0"/>
