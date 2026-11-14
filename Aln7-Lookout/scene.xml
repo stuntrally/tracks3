@@ -1,0 +1,130 @@
+<scene>
+    <ver num="3401" baseTrk="Mos2-Mouse" secEd="76621"/>
+    <car tires="0" road1mtr="0" gravity="8.917164"/>
+    <start pos="-99.031456 9.466007 -10.945577" rot="-0.0357126 -0.03990997 0.42498544 0.90363693" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="1" yW="2.7957" tr="1" gr="4"/>
+    <ror2 rtx="0" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
+    <sound ambient="" reverbs="Alien"/>
+    <sky material="sky/cloudy_02_toxic" skyYaw="90"/>
+    <fog color="0.333 0.318 0.379 0.941 0.000" color2="0.254 0.409 0.116 0.847 0.178" linStart="53.823997" linEnd="1089.9359"/>
+    <fogH color="0.343 0.492 0.781 0.117 0.372" height="-112" dens="44.808887" linStart="38.456882" linEnd="199.71202"/>
+    <light pitch="25" yaw="0" ambient="0.000 0.000 0.725 3.000 0.000" diffuse="0.000 0.000 0.750 3.000 0.000" specular="0.132 0.399 0.859 3.000 0.000"/>
+    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
+    <fluids>
+        <fluid hq="2" name="acid green" pos="-15.766148 -14.910494 25.361984" rot="0 0 0" size="84.658104 20 45.65638" tile="0.01 0.01"/>
+        <fluid hq="2" name="acid green weak" pos="-30.117477 -102.04294 -31.418564" rot="0 0 0" size="2135.6077 20 3094.732" tile="0.0031914366 0.003969262"/>
+    </fluids>
+    <terrains>
+        <terrain ofsZ="1.22765" triangle="0.66603136" diff="1 1 1">
+            <texture on="1" file="alien_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="12.06" surf="DesertFast" dust="0.6" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="27.8289" angSm="6.93696" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.833333" n_1="0" n2="0">
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="alien_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="9.63" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="22.8947" angMax="36.1184" angSm="10.8811" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0.335568" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="alien_mntn_d.jpg" fnorm="desert_mntn_n.jpg" scale="36.0713" surf="Rocks" dust="0.4" dustS="1" mud="0.7" smoke="0" tclr="0.137 0.810 0.420 0.800 0.000" angMin="29.0534" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0.595122" n_1="0" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="37.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="64.7131" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="27.5243" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="0.049212" n_1="0.195122" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.433 0.526 0.190 0.800 0.000"/>
+            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.433 0.526 0.190 0.800 0.000"/>
+            <texture road="3" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 0.667 0.300 0.700 0.000"/>
+            <texture road="4" surf="roadDesert" dust="0.4" dustS="0.9" mud="0" smoke="0" tclr="0.147 0.486 0.700 0.700 0.000"/>
+            <par dust="DustAlien" mud="MudDark" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="1.22765" triangle="20" diff="1 1 1" horiz="1" veget="0">
+            <texture on="1" file="alien_sand_d.jpg" fnorm="desert_sand_n.jpg" scale="70.49" surf="DesertFast" dust="0.6" dustS="1" mud="0.1" smoke="0" tclr="0.167 0.826 0.460 0.700 0.000" angMin="0" angMax="15.294944" angSm="6.93696" hMin="-500" hMax="1947" hSm="20" nOn="0" noise="0.833333" n_1="0" n2="0.2972973">
+                <noise frq0="22.2" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="alien_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="123.87" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="16.685392" angMax="27.30337" angSm="7.935329" hMin="-227.22772" hMax="2200" hSm="20" nOn="0" noise="0.335568" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="alien_mntn_d.jpg" fnorm="desert_mntn_n.jpg" scale="250.33" surf="Rocks" dust="0.4" dustS="1" mud="0.7" smoke="0" tclr="0.137 0.810 0.420 0.800 0.000" angMin="26.671347" angMax="46.011234" angSm="10.000001" hMin="-500" hMax="2450" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="1.7525482" oct0="4" prs0="0.4134831" pow0="1.2805041" frq1="23.516481" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_yellow_d.jpg" fnorm="jungle_stone_n.jpg" scale="124.71" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="57.008427" angMax="90" angSm="21.141829" hMin="-800" hMax="2250" hSm="20" nOn="0" triplanar="1" noise="0.049212" n_1="1" n2="0">
+                <noise frq0="15.97354" oct0="3" prs0="0.3" pow0="1.5" frq1="17.309158" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.433 0.526 0.190 0.800 0.000"/>
+            <texture road="2" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.433 0.526 0.190 0.800 0.000"/>
+            <texture road="3" surf="roadForest" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 0.667 0.300 0.700 0.000"/>
+            <texture road="4" surf="roadDesert" dust="0.4" dustS="0.9" mud="0" smoke="0" tclr="0.147 0.486 0.700 0.700 0.000"/>
+            <par dust="DustAlien" mud="MudDark" smoke="Smoke"/>
+        </terrain>
+    </terrains>
+    <veget densGrass="0.106711105" densTrees2="2.495232" grDensSmooth="6" trRdDist="0">
+        <grass on="1" mtr="grass3o" dens="0.25" chan="1" minSx="0.7" maxSx="1.61" minSy="0.56" maxSy="1.17"/>
+        <grass on="1" mtr="grass8g" dens="0.798753" chan="1" minSx="0.98" maxSx="1.31" minSy="0.98" maxSy="1.14"/>
+        <grass on="1" mtr="grass5" dens="0.05" chan="1" minSx="1.7" maxSx="2.2" minSy="1.7" maxSy="2.2"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="2.2512822" maxSx="2.878699" minSy="1.448993" maxSy="2.0172915"/>
+        <grass on="0" mtr="grassXv" dens="0.0269254" chan="1" minSx="1.66933" maxSx="2.14224" minSy="1.66887" maxSy="2.23461"/>
+        <grass on="1" mtr="grass2g" cl="0.366 0.374 2.059 1.000 0.000" dens="0.1" chan="0" minSx="1.9343364" maxSx="2.6570373" minSy="1.6805489" maxSy="2.2035937"/>
+        <grass on="1" mtr="grass12s" dens="0.1" chan="0" minSx="1.9418132" maxSx="2.7713997" minSy="1.4687405" maxSy="2.148515"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <gchan amin="0" amax="47.413795" asm="20" hmin="-20" hmax="82.07358" hsm="8.2873125" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="23.965515" asm="20" hmin="70" hmax="300" hsm="7.3741574" ns="0" frq="31" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="37" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <layer on="1" name="rock49alienEdgy.mesh" dens="0.00813421" minScale="0.559153" maxScale="1.02174" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="34" minTerH="-100" maxTerH="300" maxDepth="1"/>
+        <layer on="0" name="jungle_tree_alien.mesh" dens="0.16537778" minScale="0.4241908" maxScale="0.67278636" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="27.291042" minTerH="-100" maxTerH="300" maxDepth="0"/>
+        <layer on="0" name="treeD-34desTiny.mesh" dens="0.115756" minScale="2.46149" maxScale="3.22818" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="25.77" minTerH="-100" maxTerH="300" maxDepth="0"/>
+        <layer on="0" name="treeD-22desMed.mesh" dens="0.126965" minScale="2.64551" maxScale="3.57466" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="26.84" minTerH="-100" maxTerH="250" maxDepth="0"/>
+        <layer on="1" name="mushrooms2.mesh" mtr="mushrooms_grn" dens="0.0576" minScale="0.54530334" maxScale="1.0161481" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="29.03" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="mushrooms3.mesh" mtr="mushrooms_grn" dens="0.05888711" minScale="0.7" maxScale="1.484713" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="28.224" minTerH="-100" maxTerH="120" maxDepth="1"/>
+        <layer on="1" name="shrooms_tall.mesh" mtr="shrooms_tall_grn" dens="0.08217777" minScale="0.99069273" maxScale="2.205472" ofsY="0" addTrRdDist="5" maxRdist="20" maxTerAng="24.711838" minTerH="-100" maxTerH="200" maxDepth="0"/>
+        <layer on="1" name="shroom_tree.mesh" dens="0.009216" minScale="1.3331721" maxScale="1.8025184" ofsY="0" addTrRdDist="16" maxRdist="20" maxTerAng="25.09056" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="rock47alienRound1.mesh" dens="0.020735998" minScale="0.6875184" maxScale="1.1499841" ofsY="0" addTrRdDist="9" maxRdist="20" maxTerAng="88.56576" minTerH="-100" maxTerH="300" maxDepth="5"/>
+        <layer on="1" name="rock48alienRound2.mesh" dens="0.010268445" minScale="0.6113773" maxScale="1.1923105" ofsY="0" addTrRdDist="9" maxRdist="20" maxTerAng="82.71376" minTerH="-100" maxTerH="300" maxDepth="5"/>
+        <layer on="1" name="rock11alienWhite1.mesh" dens="0.009735111" minScale="0.54530334" maxScale="1.257728" ofsY="0" addTrRdDist="10" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="300" maxDepth="5"/>
+        <layer on="1" name="rock23alienBlock.mesh" dens="0.031447113" minScale="0.51617116" maxScale="0.95947576" ofsY="0" addTrRdDist="10" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="300" maxDepth="5"/>
+        <layer on="1" name="rock24alienTriangle.mesh" dens="0.02912711" minScale="0.6776735" maxScale="1.3877397" ofsY="0" addTrRdDist="10" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock49alienEdgy.mesh" dens="0.035343997" minScale="0.63453305" maxScale="1.2429893" ofsY="0" addTrRdDist="10" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="1" name="rock50yellowRound.mesh" dens="0.038416" minScale="0.712547" maxScale="1.3254954" ofsY="0" addTrRdDist="10" maxRdist="20" maxTerAng="37.79136" minTerH="-100" maxTerH="300" maxDepth="5"/>
+        <layer on="1" name="rock50alienWhite2.mesh" dens="0.0049937773" minScale="0.8355187" maxScale="1.4682469" ofsY="0" addTrRdDist="9" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="300" maxDepth="5"/>
+        <layer on="0" name="" dens="0.1" minScale="0.69745827" maxScale="1.1361009" ofsY="0" addTrRdDist="0" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+    </veget>
+    <cam pos="46.57867 72.599625 -254.22745" dir="-0.3129173 -0.27107993 0.9102738"/>
+    <objects>
+        <o name="alien_base10" pos="-38.21198 70.069885 -2.11711" rot="0 -1 0 0"/>
+        <o name="alien_base2" pos="18.321934 -98.405075 -2.1171105" rot="0 -1 0 0"/>
+        <o name="alien_base3" pos="30.791441 -99.41868 -2.1171105" rot="0 -1 0 0"/>
+        <o name="alien_base6" pos="-38.735313 74.36235 -2.11711" rot="0 -1 0 0"/>
+        <o name="alien_base9" pos="-13.934826 3.8444576 -13.25204" rot="0 -1 0 0"/>
+        <o name="alien_gate" pos="-11.775245 -23.82242 -18.775494" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_3" pos="-9.149185 -45.348236 -13.355534" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_2" pos="-24.58599 -46.847755 -13.414668" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="-17.28614 -39.022015 -13.414668" rot="0 -1 0 0"/>
+        <o name="alien_platform_deco_1" pos="-7.584053 -37.022297 -13.414668" rot="0 -1 0 0"/>
+        <o name="alien_tower" pos="-32.826836 55.595676 -2.1171107" rot="0 -1 0 0"/>
+        <o name="alien_tower_wall" pos="114.112175 -112.73282 -15.976065" rot="0 -1 0 0"/>
+        <o name="alien_tower_wall" pos="-113.72376 -49.29159 -13.414668" rot="0 -1 0 0"/>
+        <o name="alien_tower_wall" pos="48.209717 72.28364 -13.388952" rot="0 -1 0 0"/>
+        <o name="alien_tunnel_connection" pos="-114.23239 -49.107334 -13.414668" rot="0 -1 0 0"/>
+    </objects>
+    <emitters/>
+    <collectible/>
+    <fields/>
+</scene>
