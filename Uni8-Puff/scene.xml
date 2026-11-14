@@ -1,0 +1,279 @@
+<scene>
+    <ver num="3401" baseTrk="Uni7-GlassStairs" secEd="135186"/>
+    <car tires="0" damage="0.71759" needLights="0"/>
+    <start pos="-36.85072 80.966835 17.970213" rot="0.009126067 -0.0025768036 -0.7815788 -0.6237734" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
+    <sound ambient="" reverbs="Unidentified"/>
+    <sky material="sky/space_nebula_03_uni" skyYaw="-137.04546"/>
+    <fog color="0.682 0.705 0.453 0.660 0.211" color2="0.711 0.773 0.523 0.568 0.110" linStart="100.70045" linEnd="692.2239"/>
+    <fogH color="0.725 0.781 1.412 1.299 0.514" height="9.599991" dens="15.531023" linStart="8.192001" linEnd="75.79023"/>
+    <light pitch="21.375" yaw="114.42856" ambient="0.713 0.554 0.273 0.000 0.000" diffuse="0.736 0.388 0.934 0.000 0.000" specular="0.585 0.926 0.631 0.000 0.000"/>
+    <wind ofs="0" amp="0.08604444" fq="0.4" yaw="0.2"/>
+    <fluids>
+        <fluid hq="1" name="grease jelly" pos="220.9096 -1.6137719 -178.02338" rot="0 0 0" size="110.145065 20 104.50973" tile="0.01 0.01"/>
+        <fluid hq="1" name="blue jelly" pos="426.10126 4.0596347 -59.110065" rot="0 0 0" size="50 20 50" tile="0.01 0.01"/>
+        <fluid hq="1" name="alien acid" pos="358.89307 15.954003 -281.7742" rot="0 0 0" size="42.568794 20 40.048588" tile="0.01 0.01"/>
+        <fluid hq="1" name="grease jelly" pos="21.382568 9.196326 209.63152" rot="0 0 0" size="143.60083 20 34.028164" tile="0.010687148 0.010687148"/>
+        <fluid hq="1" name="green slime" pos="143.58835 8.079827 75.742096" rot="0 0 0" size="64.657616 20 118.963264" tile="0.004108629 0.007179947"/>
+        <fluid hq="1" name="water blue" pos="84.48334 0.64651 26.914278" rot="0 0 0" size="47.01371 20 68.014366" tile="0.01 0.01"/>
+        <fluid hq="2" name="grease jelly" pos="28.550425 7.2246356 -272.87433" rot="0 0 0" size="240.80583 20 247.76053" tile="0.01 0.01"/>
+    </fluids>
+    <terrains>
+        <terrain ofsZ="1.30521" triangle="1.30521" diff="1 1 1" emissive="1" specPowEm="1.74492">
+            <texture on="1" file="desert_sand_bigx_d.jpg" fnorm="desert_sand_big_n.jpg" scale="23.338663" surf="DesertFast" dust="0.215447" dustS="0.298781" mud="0.156504" smoke="0" tclr="0.683 0.500 0.400 0.900 0.000" angMin="0" angMax="14.030898" angSm="4.02142" hMin="-300" hMax="500" hSm="20" nOn="0" noise="1" n_1="0" n2="0.46216217">
+                <noise frq0="25.1546" oct0="4" prs0="0.61657304" pow0="5.8690724" frq1="21.594538" oct1="4" prs1="0.5019663" pow1="2.1390603"/>
+            </texture>
+            <texture on="1" file="ycrystals_big_d.jpg" fnorm="ycrystals_big_n.jpg" scale="17.15" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" angMin="15.9375" angMax="22.0982" angSm="5.35396" hMin="13.641357" hMax="500" hSm="17.050404" nOn="0" noise="1" n_1="1" n2="0">
+                <noise frq0="13.8316" oct0="5" prs0="0.652679" pow0="4.08072" frq1="35.4627" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="71.6212" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="31.0714" angMax="51.0268" angSm="11.517" hMin="-300" hMax="85.42352" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
+                <noise frq0="2.6926734" oct0="5" prs0="0.212844" pow0="6.22941" frq1="3.32684" oct1="3" prs1="0.4" pow1="1.9577943"/>
+            </texture>
+            <texture on="1" file="mntn_darkx_d.jpg" fnorm="mntn_dark_n.jpg" scale="48.3878" surf="roadDesert" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="64.9554" angMax="90" angSm="10.5463" hMin="-300" hMax="900" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="1.56873" oct0="3" prs0="0.3" pow0="1.5" frq1="6.20152" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="2.24716" oct0="3" prs0="0.3" pow0="1.5" frq1="2.82205" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadSnowIce" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.583 0.333 0.300 0.800 0.000"/>
+            <texture road="2" surf="roadForestWet" dust="0" dustS="0.140244" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
+            <texture road="3" surf="Asphalt" dust="0" dustS="0.2" mud="0" smoke="0.188544" tclr="0.167 0.178 0.292 0.800 0.000"/>
+            <texture road="4" surf="roadSnowIce" dust="0.384146" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <par dust="MarsDust" mud="MudDark" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="12.172048" diff="1 1 1" emissive="1" horiz="1" veget="0">
+            <texture on="1" file="desert_sand_bigx_d.jpg" fnorm="desert_sand_big_n.jpg" scale="23.338663" surf="DesertFast" dust="0.215447" dustS="0.298781" mud="0.156504" smoke="0" tclr="0.683 0.500 0.400 0.900 0.000" angMin="0" angMax="16.053371" angSm="4.02142" hMin="-300" hMax="500" hSm="20" nOn="0" noise="1" n_1="0" n2="0.66486484">
+                <noise frq0="25.1546" oct0="4" prs0="0.61657304" pow0="5.8690724" frq1="21.594538" oct1="4" prs1="0.5019663" pow1="2.1390603"/>
+            </texture>
+            <texture on="0" file="ycrystals_big_d.jpg" fnorm="ycrystals_big_n.jpg" scale="17.15" surf="SnowDeep" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.160 0.700 0.000" angMin="15.9375" angMax="22.0982" angSm="5.35396" hMin="13.641357" hMax="500" hSm="17.050404" nOn="0" noise="1" n_1="1" n2="0">
+                <noise frq0="13.8316" oct0="5" prs0="0.652679" pow0="4.08072" frq1="35.4627" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="91.62" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="24.522472" angMax="68.51124" angSm="11.517" hMin="20.022034" hMax="632.56323" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="2.6926734" oct0="5" prs0="0.212844" pow0="6.22941" frq1="3.32684" oct1="3" prs1="0.4" pow1="1.9577943"/>
+            </texture>
+            <texture on="1" file="mntn_darkx_d.jpg" fnorm="mntn_dark_n.jpg" scale="48.3878" surf="roadDesert" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="75.463486" angMax="90" angSm="10.5463" hMin="-300" hMax="950" hSm="20" nOn="0" triplanar="1" noise="1" n_1="1" n2="0">
+                <noise frq0="1.56873" oct0="3" prs0="0.3" pow0="1.5" frq1="6.20152" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="2.24716" oct0="3" prs0="0.3" pow0="1.5" frq1="2.82205" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="0.1" smoke="0" tclr="0.667 0.500 0.400 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadSnowIce" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.583 0.333 0.300 0.800 0.000"/>
+            <texture road="2" surf="roadForestWet" dust="0" dustS="0.140244" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
+            <texture road="3" surf="Asphalt" dust="0" dustS="0.2" mud="0" smoke="0.188544" tclr="0.167 0.178 0.292 0.800 0.000"/>
+            <texture road="4" surf="roadSnowIce" dust="0.384146" dustS="0.6" mud="0.2" smoke="0" tclr="0.000 0.000 0.600 0.500 0.000"/>
+            <par dust="MarsDust" mud="MudDark" smoke="Smoke"/>
+        </terrain>
+    </terrains>
+    <veget densGrass="0" densTrees2="0.355008" grDensSmooth="1" trRdDist="7">
+        <grass on="1" mtr="grassZ10" dens="0.14724302" chan="0" minSx="3.1167665" maxSx="3.6051917" minSy="3.296248" maxSy="3.6442473"/>
+        <grass on="0" mtr="grassZ11" dens="0.101451" chan="0" minSx="2.05121" maxSx="2.3972" minSy="2.00489" maxSy="2.38776"/>
+        <grass on="1" mtr="grassXv" dens="0.065407366" chan="0" minSx="2.86" maxSx="3.1167693" minSy="2.86" maxSy="3.2"/>
+        <grass on="0" mtr="grassX10b" dens="0.065407366" chan="0" minSx="2.18429" maxSx="2.66848" minSy="2.39994" maxSy="2.66848"/>
+        <grass on="1" mtr="grassZ13p" dens="0.08226763" chan="0" minSx="2.2994075" maxSx="2.5704155" minSy="2.402401" maxSy="2.8389537"/>
+        <grass on="0" mtr="grassZ1r" dens="0.0265744" chan="0" minSx="2.9185357" maxSx="3.2575214" minSy="2.76401" maxSy="3.09465"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <gchan amin="0" amax="18.62069" asm="3.87687" hmin="0.80267334" hmax="24.080269" hsm="5.0874176" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="52" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="79" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="106" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <layer on="1" name="mushrooms1.mesh" dens="0.050176002" minScale="1.9" maxScale="2.941997" ofsY="0" addTrRdDist="5" maxRdist="100" maxTerAng="21.69" minTerH="0.9600029" maxTerH="42.239998" maxDepth="0"/>
+        <layer on="0" name="crystal2.mesh" dens="1" minScale="0.8" maxScale="1.77477" ofsY="0" addTrRdDist="1" maxRdist="12" maxTerAng="39.6322" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="mushrooms2.mesh" dens="0.06622045" minScale="1.62912" maxScale="2.6766264" ofsY="0" addTrRdDist="3" maxRdist="100" maxTerAng="24.6116" minTerH="0.9600029" maxTerH="59.68" maxDepth="0"/>
+        <layer on="1" name="mushrooms3.mesh" dens="0.06829512" minScale="0.8394" maxScale="2.68647" ofsY="0" addTrRdDist="5" maxRdist="100" maxTerAng="19.488161" minTerH="0.9600029" maxTerH="48.6636" maxDepth="0"/>
+        <layer on="1" name="shroom_tall1.mesh" mtr="shroom_tall_viol" dens="0.061504" minScale="1.8403987" maxScale="2.725888" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="38.415997" minTerH="11.68" maxTerH="47.0046" maxDepth="0"/>
+        <layer on="1" name="shroom_tall2.mesh" mtr="shroom_tall_viol" dens="0.07544178" minScale="2.25545" maxScale="2.92067" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="30.3846" minTerH="9.599998" maxTerH="39.04" maxDepth="0"/>
+        <layer on="1" name="mushrooms3.mesh" dens="0.0868842" minScale="2.0368" maxScale="2.87953" ofsY="0" addTrRdDist="5" maxRdist="100" maxTerAng="29.0344" minTerH="0.79999924" maxTerH="25.92" maxDepth="0"/>
+        <layer on="0" name="crystal_form2_cyan.mesh" dens="0.047233775" minScale="1.0225796" maxScale="1.9472973" ofsY="0" addTrRdDist="10" maxRdist="100" maxTerAng="90" minTerH="-8.639999" maxTerH="400" maxDepth="0"/>
+        <layer on="1" name="crystal_form1_cyan.mesh" dens="0.10584177" minScale="1.1994644" maxScale="2.0275884" ofsY="0" addTrRdDist="10" maxRdist="100" maxTerAng="42.271355" minTerH="24.32" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal_form3_cyan.mesh" dens="0.15576178" minScale="2.3708158" maxScale="4" ofsY="0" addTrRdDist="10" maxRdist="20" maxTerAng="32.4" minTerH="24.32" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="" dens="0.1" minScale="0.1" maxScale="0.25" ofsY="0" addTrRdDist="10" maxRdist="20" maxTerAng="50" minTerH="-100" maxTerH="100" maxDepth="5"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+    </veget>
+    <cam pos="658.18225 203.83313 -308.6146" dir="-0.913261 -0.27960515 0.2962693"/>
+    <objects/>
+    <emitters>
+        <e name="CrystalCloud" pos="33.700836 25.603048 -271.52838" sc="129.83295 38.047916 124.20203" yaw="0" pt="-90" rate="20.065596" st="0" psc="0.35185605"/>
+    </emitters>
+    <collectible>
+        <c n="gem1o" gr="1" pos="50.154583 190.01035 -80.0653" sc="1"/>
+        <c n="gem1y" gr="1" pos="21.55002 189.90543 -102.72768" sc="1"/>
+        <c n="gem1w" gr="3" pos="-35.308414 156.83846 -64.34135" sc="1"/>
+        <c n="gem1w" gr="3" pos="-51.88881 160.30695 -64.68699" sc="1"/>
+        <c n="gem1w" gr="3" pos="-39.650375 160.26765 -49.07259" sc="1"/>
+        <c n="gem1c" gr="1" pos="357.58264 170.42767 5.851941" sc="1"/>
+        <c n="gem1c" gr="1" pos="352.43082 153.2904 -0.058999013" sc="1"/>
+        <c n="gem1c" gr="1" pos="359.1865 165.32043 -6.5112553" sc="1"/>
+        <c n="gem1r" gr="0" pos="426.37485 198.61368 314.09036" sc="1"/>
+        <c n="gem1r" gr="0" pos="309.75305 350.503 579.48334" sc="1"/>
+        <c n="gem1r" gr="0" pos="-406.8213 249.14568 445.44843" sc="1"/>
+        <c n="gem1r" gr="0" pos="-428.3552 251.26292 345.89188" sc="1"/>
+        <c n="gem1r" gr="0" pos="-368.76544 162.19766 379.93628" sc="1"/>
+        <c n="gem1r" gr="0" pos="-410.5743 161.48944 271.67377" sc="1"/>
+        <c n="gem1r" gr="0" pos="-371.3802 404.6221 -489.22586" sc="1"/>
+        <c n="gem1r" gr="0" pos="-386.8307 418.90237 -514.7198" sc="1"/>
+        <c n="gem1r" gr="0" pos="-439.98584 418.9024 -530.731" sc="1"/>
+        <c n="gem1r" gr="0" pos="-492.069 411.2394 -468.6917" sc="1"/>
+        <c n="gem1r" gr="0" pos="-493.25745 411.23676 -413.52036" sc="1"/>
+        <c n="gem1r" gr="0" pos="-438.56442 404.67917 -358.71228" sc="1"/>
+        <c n="gem1r" gr="0" pos="-414.18024 387.46527 -431.37714" sc="1"/>
+        <c n="gem1r" gr="0" pos="185.48492 73.285805 -294.97415" sc="1"/>
+        <c n="gem1r" gr="0" pos="223.00655 75.457275 -246.94803" sc="1"/>
+        <c n="gem1y" gr="3" pos="132.01175 93.05587 -309.6249" sc="1"/>
+        <c n="gem1y" gr="3" pos="194.2367 93.98801 -278.31082" sc="1"/>
+        <c n="gem1y" gr="3" pos="237.8533 103.47619 -242.60272" sc="1"/>
+        <c n="gem1r" gr="0" pos="3.3261418 235.50093 -53.675983" sc="1"/>
+        <c n="gem1o" gr="0" pos="7.412059 219.22612 -15.518463" sc="1"/>
+        <c n="gem1y" gr="1" pos="-88.96867 220.66678 47.620277" sc="1"/>
+        <c n="gem1o" gr="1" pos="14.941271 176.55374 27.126345" sc="1"/>
+        <c n="gem1v" gr="1" pos="-158.4057 191.03178 70.008995" sc="1"/>
+        <c n="gem1v" gr="3" pos="-193.13025 180.70139 88.746826" sc="1"/>
+        <c n="gem1v" gr="3" pos="-172.8778 173.98781 84.43729" sc="1"/>
+        <c n="gem1v" gr="3" pos="-171.16116 129.07913 73.54137" sc="1"/>
+        <c n="gem1v" gr="3" pos="-215.50284 147.35541 6.374459" sc="1"/>
+        <c n="gem1c" gr="3" pos="-230.58739 148.18684 20.29299" sc="1"/>
+        <c n="gem1v" gr="3" pos="-209.01611 144.23746 19.874048" sc="1"/>
+        <c n="gem1w" gr="3" pos="-210.87105 132.81319 25.576889" sc="1"/>
+        <c n="gem1y" gr="3" pos="-232.5949 127.73411 37.90635" sc="1"/>
+        <c n="gem1c" gr="3" pos="-228.25069 126.79746 47.047485" sc="1"/>
+        <c n="gem1v" gr="3" pos="-188.5174 126.739174 13.123925" sc="1"/>
+        <c n="gem1y" gr="3" pos="-204.57355 129.84558 4.8546066" sc="1"/>
+        <c n="gem1v" gr="3" pos="-176.25554 153.74817 3.553468" sc="1"/>
+        <c n="gem1w" gr="3" pos="-148.08226 134.74655 78.9074" sc="1"/>
+        <c n="gem1c" gr="3" pos="-157.3364 133.21507 70.52832" sc="1"/>
+        <c n="gem1w" gr="3" pos="-163.21649 113.213165 74.31854" sc="1"/>
+        <c n="gem1r" gr="3" pos="-177.09099 110.58051 53.750347" sc="1"/>
+        <c n="gem1v" gr="3" pos="-176.74652 109.5201 71.85308" sc="1"/>
+        <c n="gem1c" gr="1" pos="-226.39201 259.8918 -123.44365" sc="1"/>
+        <c n="gem1y" gr="1" pos="-233.02983 234.20656 -138.02988" sc="1"/>
+        <c n="gem1v" gr="3" pos="-157.41937 176.92462 -98.873405" sc="1"/>
+        <c n="gem1v" gr="3" pos="-171.2677 176.01195 -119.66433" sc="1"/>
+        <c n="gem1w" gr="3" pos="-160.939 176.66226 -115.501915" sc="1"/>
+        <c n="gem1b" gr="2" pos="-231.04803 273.65054 -56.554405" sc="1"/>
+        <c n="gem1b" gr="2" pos="-206.00188 258.45343 -34.795082" sc="1"/>
+        <c n="gem1b" gr="2" pos="-204.0135 275.91522 -27.091537" sc="1"/>
+        <c n="gem1b" gr="2" pos="-173.64003 254.28174 -66.052376" sc="1"/>
+        <c n="gem1b" gr="2" pos="-389.67038 404.56277 -394.21918" sc="1"/>
+        <c n="gem1o" gr="1" pos="-204.17284 199.1866 -144.51236" sc="1"/>
+        <c n="gem1v" gr="1" pos="-204.23074 257.6404 -124.6659" sc="1"/>
+        <c n="gem1w" gr="4" pos="-282.16837 200.45203 -84.64107" sc="1"/>
+        <c n="gem1y" gr="1" pos="-249.82571 255.42276 -81.06354" sc="1"/>
+        <c n="gem1r" gr="0" pos="-253.01987 254.25647 8.329923" sc="1"/>
+        <c n="gem1o" gr="0" pos="-205.82793 254.28174 245.58118" sc="1"/>
+        <c n="gem1y" gr="4" pos="-206.05719 265.47083 234.1106" sc="1"/>
+        <c n="gem1c" gr="2" pos="-170.30945 281.0302 166.62984" sc="1"/>
+        <c n="gem1b" gr="2" pos="-237.95735 293.9295 140.36327" sc="1"/>
+        <c n="gem1c" gr="2" pos="-164.0939 282.90704 117.3196" sc="1"/>
+        <c n="gem1c" gr="2" pos="-203.76073 285.19287 180.66087" sc="1"/>
+        <c n="gem1b" gr="2" pos="-215.97934 276.8552 -85.299416" sc="1"/>
+        <c n="gem1c" gr="2" pos="-211.46547 284.1094 117.400444" sc="1"/>
+        <c n="gem1b" gr="2" pos="-167.35185 254.28174 171.58861" sc="1"/>
+        <c n="gem1o" gr="1" pos="-18.782156 182.94194 191.2061" sc="1"/>
+        <c n="gem1b" gr="1" pos="23.201836 228.1276 187.32802" sc="1"/>
+        <c n="gem1o" gr="1" pos="39.191288 204.8911 202.07687" sc="1"/>
+        <c n="gem1o" gr="1" pos="37.77281 200.29933 128.40433" sc="1"/>
+        <c n="gem1b" gr="1" pos="28.947834 228.03851 149.50488" sc="1"/>
+        <c n="gem1r" gr="0" pos="-247.32397 254.28423 139.17053" sc="1"/>
+        <c n="gem1r" gr="0" pos="-235.0052 187.98917 89.55008" sc="1"/>
+        <c n="gem1r" gr="0" pos="-248.85439 176.80722 66.31844" sc="1"/>
+        <c n="gem1o" gr="3" pos="-219.41151 156.18456 69.58514" sc="1"/>
+        <c n="gem1v" gr="3" pos="-229.16335 156.95308 43.04816" sc="1"/>
+        <c n="gem1v" gr="3" pos="-204.74603 151.85118 77.04337" sc="1"/>
+        <c n="gem1r" gr="0" pos="-17.581379 201.5858 -49.77358" sc="1"/>
+        <c n="gem1r" gr="0" pos="-15.674077 201.5858 -70.029495" sc="1"/>
+        <c n="gem1w" gr="2" pos="-48.83776 241.00056 -126.499275" sc="1"/>
+        <c n="gem1g" gr="4" pos="-61.64481 112.54079 55.215282" sc="1"/>
+        <c n="gem1y" gr="1" pos="-63.869076 176.12465 57.82219" sc="1"/>
+        <c n="gem1y" gr="1" pos="-68.80567 178.68251 37.65879" sc="1"/>
+        <c n="gem1y" gr="1" pos="-83.74828 191.27934 26.20249" sc="1"/>
+        <c n="gem1r" gr="0" pos="-217.31595 47.047306 45.02129" sc="1"/>
+        <c n="gem1r" gr="0" pos="-163.38596 255.24 105.2618" sc="1"/>
+        <c n="gem1r" gr="0" pos="-495.95532 195.93053 -270.4916" sc="1"/>
+        <c n="gem1r" gr="0" pos="481.9716 155.3523 67.147736" sc="1"/>
+        <c n="gem1r" gr="0" pos="583.9933 178.89638 23.825853" sc="1"/>
+        <c n="gem1r" gr="0" pos="603.86676 201.56999 53.43114" sc="1"/>
+        <c n="gem1r" gr="0" pos="595.2536 193.31729 208.20888" sc="1"/>
+        <c n="gem1r" gr="0" pos="567.65674 193.31729 270.58508" sc="1"/>
+        <c n="gem1w" gr="1" pos="639.0632 228.00829 304.3361" sc="1"/>
+        <c n="gem1w" gr="3" pos="34.965706 158.50984 222.47643" sc="1"/>
+        <c n="gem1w" gr="4" pos="-51.20368 211.75511 -180.79427" sc="1"/>
+        <c n="gem1g" gr="4" pos="-42.79691 191.2759 52.657734" sc="1"/>
+        <c n="gem1y" gr="1" pos="-65.59435 184.85893 -65.06931" sc="1"/>
+        <c n="gem1c" gr="1" pos="26.649082 229.22453 -85.231766" sc="1"/>
+        <c n="gem1w" gr="1" pos="-0.8482034 196.17392 72.18379" sc="1"/>
+        <c n="gem1p" gr="4" pos="-66.31108 214.96687 49.641884" sc="1"/>
+        <c n="gem1p" gr="4" pos="-117.16651 202.50136 24.935259" sc="1"/>
+        <c n="gem1p" gr="4" pos="-49.881866 211.5857 95.965836" sc="1"/>
+        <c n="gem1p" gr="4" pos="-40.393837 225.59485 -72.35331" sc="1"/>
+        <c n="gem1p" gr="4" pos="-48.27926 217.29057 -106.00367" sc="1"/>
+        <c n="gem1p" gr="4" pos="-32.104034 222.04878 -74.49727" sc="1"/>
+        <c n="gem1o" gr="1" pos="57.766502 169.48557 150.6999" sc="1"/>
+        <c n="gem1w" gr="1" pos="-18.880201 257.14505 41.453876" sc="1"/>
+        <c n="gem1v" gr="4" pos="66.29763 272.3101 -31.844385" sc="1"/>
+        <c n="gem1p" gr="4" pos="-259.29214 313.2124 209.9297" sc="1"/>
+        <c n="gem1o" gr="4" pos="-188.7762 291.8593 -67.305405" sc="1"/>
+        <c n="gem1o" gr="4" pos="-130.648 239.89159 -82.12772" sc="1"/>
+        <c n="gem1p" gr="4" pos="-128.9227 241.32486 145.80022" sc="1"/>
+        <c n="gem1o" gr="4" pos="-89.44425 176.79105 77.52891" sc="1"/>
+        <c n="gem1p" gr="4" pos="-53.118874 164.82466 59.138878" sc="1"/>
+        <c n="gem1o" gr="4" pos="-177.48918 192.95071 48.3999" sc="1"/>
+        <c n="gem1p" gr="4" pos="-169.20319 150.58511 81.4397" sc="1"/>
+        <c n="gem1g" gr="4" pos="-214.63853 134.94945 72.63301" sc="1"/>
+        <c n="gem1g" gr="4" pos="-222.35905 136.39487 57.17722" sc="1"/>
+        <c n="gem1p" gr="4" pos="-150.05565 118.66379 74.161156" sc="1"/>
+        <c n="gem1w" gr="4" pos="-148.16225 172.48459 26.051079" sc="1"/>
+        <c n="gem1w" gr="4" pos="-130.6832 177.1861 -17.772278" sc="1"/>
+        <c n="gem1r" gr="4" pos="-143.63315 225.30412 -17.186575" sc="1"/>
+        <c n="gem1c" gr="4" pos="-148.68527 249.17838 -90.16381" sc="1"/>
+        <c n="gem1o" gr="4" pos="-98.4258 237.7922 -33.203056" sc="1"/>
+        <c n="gem1r" gr="4" pos="-89.70775 235.5188 -4.8957343" sc="1"/>
+        <c n="gem1c" gr="4" pos="-64.978676 232.84131 -6.9184856" sc="1"/>
+        <c n="gem1p" gr="4" pos="1.0017562 208.7811 17.46573" sc="1"/>
+        <c n="gem1p" gr="4" pos="-0.36852786 235.21715 62.43768" sc="1"/>
+        <c n="gem1w" gr="2" pos="29.54777 241.24364 169.83455" sc="1"/>
+        <c n="gem1p" gr="4" pos="-153.18703 247.51135 1.5018159" sc="1"/>
+        <c n="gem1r" gr="4" pos="5.507288 219.21544 -100.06391" sc="1"/>
+        <c n="gem1p" gr="4" pos="-103.18732 206.93164 197.74515" sc="1"/>
+        <c n="gem1p" gr="4" pos="-81.67895 234.77165 153.16238" sc="1"/>
+        <c n="gem1y" gr="4" pos="-111.22045 239.49667 120.1492" sc="1"/>
+        <c n="gem1p" gr="4" pos="-149.27094 267.84335 32.739826" sc="1"/>
+        <c n="gem1y" gr="4" pos="-219.09282 286.51047 51.119453" sc="1"/>
+        <c n="gem1r" gr="0" pos="477.7196 156.55276 168.36017" sc="1"/>
+        <c n="gem1y" gr="4" pos="-44.947117 188.53189 138.33452" sc="1"/>
+        <c n="gem1p" gr="4" pos="-75.2063 167.46362 35.539604" sc="1"/>
+        <c n="gem1p" gr="4" pos="54.47834 225.35243 46.412804" sc="1"/>
+        <c n="gem1o" gr="4" pos="17.711464 195.49854 90.23365" sc="1"/>
+        <c n="gem1w" gr="4" pos="54.862442 207.79451 41.952744" sc="1"/>
+        <c n="gem1p" gr="4" pos="-225.0434 211.8854 317.53207" sc="1"/>
+        <c n="gem1w" gr="4" pos="-295.80423 228.95062 190.33893" sc="1"/>
+        <c n="gem1r" gr="0" pos="-497.96063 353.81488 470.9073" sc="1"/>
+        <c n="gem1r" gr="0" pos="-613.5394 258.9485 287.5229" sc="1"/>
+        <c n="gem1r" gr="0" pos="-525.3276 250.03258 264.83997" sc="1"/>
+        <c n="gem1r" gr="0" pos="-519.76044 164.75946 204.84888" sc="1"/>
+        <c n="gem1r" gr="0" pos="-414.811 205.38828 555.1727" sc="1"/>
+        <c n="gem1r" gr="0" pos="-592.3028 258.9485 523.6885" sc="1"/>
+        <c n="gem1r" gr="0" pos="-554.8062 202.30302 596.3736" sc="1"/>
+    </collectible>
+    <fields/>
+</scene>
