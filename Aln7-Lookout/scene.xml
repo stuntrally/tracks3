@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3401" baseTrk="Mos2-Mouse" secEd="76621"/>
+    <ver num="3401" baseTrk="Aln4-EjeloOutpost" secEd="7201"/>
     <car tires="0" road1mtr="0" gravity="8.917164"/>
     <start pos="-99.031456 9.466007 -10.945577" rot="-0.0357126 -0.03990997 0.42498544 0.90363693" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="1" yW="2.7957" tr="1" gr="4"/>
