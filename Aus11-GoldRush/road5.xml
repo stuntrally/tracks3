@@ -1,0 +1,17 @@
+<SplineRoad>
+    <mtr type="1" road="River_blue" pipe="pipeGlass"/>
+    <dim tcMul="0.020103244" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
+    <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1.5 5 12" iDir="-1" iChk1="0"/>
+    <stats length="524.13666" width="53.87787" height="13.335663" onTer="100" pipes="0" bnkAvg="0" bnkMax="0"/>
+    <txt desc=""/>
+    <adv ice=""/>
+    <P pos="-371.76575 114.86784 -243.93126" w="62.523907" onTer="0" a="0" ar="-0" aT="2"/>
+    <P pos="-435.28992 119.14706 -281.45782" w="71.30671" onTer="0" a="0" ar="-0" aT="2"/>
+    <P pos="-510.70776 119.14706 -329.2313" w="53.077385" onTer="0" a="0" ar="-0" aT="2"/>
+    <P pos="-586.089 119.14985 -381.31134" w="58.16498" onTer="0" a="0" ar="-0" aT="2"/>
+    <P pos="-642.7814 120.05096 -439.84912" w="51.735676" onTer="0" a="0" ar="-0" aT="2"/>
+    <P pos="-674.6817 125.28174 -484.14075" w="38.413334" onTer="0" a="0" ar="-0" aT="2"/>
+    <P pos="-701.1822 127.740135 -536.581" w="33.19303" onTer="0" a="0" ar="-0" aT="2"/>
+    <P pos="-755.85474 128.2035 -564.8272" w="40.27067" onTer="0" a="0" ar="-0" aT="2"/>
+</SplineRoad>
