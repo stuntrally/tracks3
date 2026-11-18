@@ -5,7 +5,7 @@
     <geom colN="8" colR="5.5778103" wsPm="8" lsPm="1" stBox="1 27.179739 45.20936" iDir="-1" iChk1="81"/>
     <stats length="3569.5288" width="25.146957" height="106.495316" onTer="95.38072" pipes="66.85627" onPipe="32.288204" bnkAvg="30.119024" bnkMax="85.2953"/>
     <txt desc="Interesting crystal scenery with parts melting in lava."/>
-    <adv ice="Has 3 spiraling vortices. One pipe, half pipe and banked bridge. Connected with jumps."/>
+    <adv ice="Has 3 spiraling vortices. On pipe, half pipe and banked bridge. Connected with jumps."/>
     <P pos="-309.7816 0 -3.8206553" w="15.345849" aT="2" col="0" chkR="1"/>
     <P pos="-306.21207 0 -35.606342" w="11.155026" aT="2" col="0" chkR="1"/>
     <P pos="-291.01495 0 -60.867813" w="16.282104" a="0" ar="57.997932" aT="2" col="0" mtr="2"/>
