@@ -1,0 +1,43 @@
+<SplineRoad>
+    <mtr type="0" road="roadJungleWet" pipe="pipeGlass" road2="roadNgravelWet" road3="roadNdirtWet" road4="roadJDarkWet"/>
+    <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="10" heightOfs="0.06"/>
+    <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5 22.170067" iDir="-1" iChk1="28"/>
+    <stats length="1421.4615" width="15.7294445" height="11.871394" onTer="0" pipes="0" bnkAvg="5.1050344" bnkMax="29.643257"/>
+    <txt desc="Short, winding track in forest. Crossing a broad river twice. Very heavy rainfall, dark and hard to see."/>
+    <adv ice="Mostly wide, a bit banked. Very slippery, yet fast. Lights help a bit. One sharp banked corner. One wide, very bumpy and damaged."/>
+    <P pos="74.56519 0 141.13342" w="20.49769" aT="2" mtr="1" chkR="2.300904"/>
+    <P pos="55.20847 0 180.12439" w="20.586285" aT="2" mtr="1"/>
+    <P pos="18.730257 0 193.47122" w="12.228745" aT="2" mtr="2" chkR="2.3246398"/>
+    <P pos="-18.131004 0 187.76634" w="10.625817" aT="2" mtr="2"/>
+    <P pos="-78.200096 0 170.91098" w="9.25072" aT="2" mtr="2"/>
+    <P pos="-109.88634 0 162.9483" w="13.695544" aT="2" mtr="2"/>
+    <P pos="-151.46173 0 143.08612" w="18.583586" aT="2" mtr="2" chkR="2.4674997"/>
+    <P pos="-166.92952 0 114.352905" w="13.954208" aT="2" mtr="1"/>
+    <P pos="-168.17897 0 83.10461" w="13.17392" aT="2" mtr="1"/>
+    <P pos="-162.71837 0 53.089005" w="15.683082" aT="2" mtr="1" chkR="2.3418837"/>
+    <P pos="-142.75885 0 31.047523" w="12.299423" aT="2" mtr="1"/>
+    <P pos="-109.54384 0 22.689995" w="17.126953" aT="2" mtr="3"/>
+    <P pos="-97.280396 0 6.9520373" w="15.150271" aT="2" mtr="3" chkR="2.47326"/>
+    <P pos="-104.05451 0 -12.224828" w="15.709472" aT="2" mtr="3"/>
+    <P pos="-126.17524 0 -30.342415" w="16.524902" aT="2" mtr="3"/>
+    <P pos="-151.2574 0 -60.407814" w="19.203241" aT="2" mtr="2" chkR="2.3975756"/>
+    <P pos="-154.1461 0 -112.25828" w="23.438557" aT="2" mtr="2"/>
+    <P pos="-135.7923 0 -158.1117" w="18.858303" aT="2" mtr="2" chkR="2.2614322"/>
+    <P pos="-106.70952 0 -182.60063" w="25.178724" aT="2" mtr="2"/>
+    <P pos="-70.822464 0 -191.374" w="18.331713" aT="2" mtr="2" chkR="2.2650719"/>
+    <P pos="-38.530422 0 -182.4346" w="10.08544" aT="2" mtr="2"/>
+    <P pos="9.983621 0 -160.86389" w="10.071487" aT="2"/>
+    <P pos="56.44386 0 -144.9376" w="8.480489" aT="2"/>
+    <P pos="96.640076 0 -135.68678" w="17.218891" aT="2" chkR="2.385952"/>
+    <P pos="137.15471 0 -142.76208" w="11.015639" aT="2" mtr="1"/>
+    <P pos="171.5431 0 -149.15662" w="13.450465" aT="2" mtr="1"/>
+    <P pos="222.88637 0 -135.77766" w="18.53856" aT="2" mtr="1" chkR="2.326672"/>
+    <P pos="255.95769 0 -73.268234" w="13.428175" aT="2"/>
+    <P pos="238.86847 0 -3.6452708" w="19.507584" aT="2" mtr="1" chkR="2.2692077"/>
+    <P pos="191.45282 0 29.056337" w="13.308575" aT="2" mtr="1"/>
+    <P pos="135.2341 0 34.579365" w="14.899361" aT="2" mtr="1"/>
+    <P pos="102.120384 0 43.632977" w="20.09061" aT="2" mtr="1" chkR="2.2665682"/>
+    <P pos="78.88029 0 66.276245" w="19.780867" aT="2" mtr="1"/>
+    <P pos="72.49938 0 100.12836" w="17.495806" aT="2" mtr="1"/>
+</SplineRoad>
