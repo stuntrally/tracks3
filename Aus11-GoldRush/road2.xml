@@ -3,7 +3,7 @@
     <dim tcMul="0.015407945" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
     <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1.5 5 12" iDir="-1" iChk1="0"/>
-    <stats length="163.31183" width="17.748108" height="110.0003" onTer="100" pipes="0" bnkAvg="0" bnkMax="0"/>
+    <stats length="163.27965" width="17.748268" height="110.0003" onTer="100" pipes="0" bnkAvg="0" bnkMax="0"/>
     <txt desc=""/>
     <adv ice=""/>
     <P pos="-211.75302 4.5787506 -152.73865" w="16.666527" onTer="0" a="0" ar="0" aT="2"/>
@@ -12,6 +12,6 @@
     <P pos="-244.27466 74.209724 -161.22258" w="18.818785" onTer="0" a="0" ar="0" aT="2"/>
     <P pos="-265.0536 75.98329 -165.65057" w="19.76247" onTer="0" a="0" ar="0" aT="2"/>
     <P pos="-267.92825 93.22007 -166.63522" w="16.666527" onTer="0" a="0" ar="0" aT="2"/>
-    <P pos="-277.24533 113.10602 -168.4371" w="16.666527" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="-277.15158 113.10602 -168.97714" w="16.666527" onTer="0" a="0" ar="0" aT="2"/>
     <P pos="-294.55768 113.10602 -172.89406" w="17.736101" onTer="0" a="0" ar="0" aT="2"/>
 </SplineRoad>
