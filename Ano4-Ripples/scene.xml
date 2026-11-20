@@ -1,0 +1,231 @@
+<scene>
+    <ver num="3401" baseTrk="Ano1-Glitchy" secEd="14464"/>
+    <car tires="0" damage="0.4491726" road1mtr="0" gravity="14.238334"/>
+    <start pos="-303.22266 33.29748 0.59591824" rot="1.1920929e-07 -9.1051334e-08 -0.62911624 0.77731663" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
+    <sound ambient="" reverbs="Space"/>
+    <sky material="sky/anomaly_03" rainName="RainFast" rainEmit="16" rain2Name="CrystalSnowFine" rain2Emit="24"/>
+    <fog color="0.171 1.000 0.900 0.820 0.000" color2="0.556 1.000 0.900 0.613 0.000" linStart="23.103998" linEnd="313.59998"/>
+    <fogH color="0.000 0.824 1.361 0.799 0.504" height="-10.133331" dens="35.9552" linStart="0" linEnd="59.168003"/>
+    <light pitch="8" yaw="-90" ambient="0.390 0.000 0.477 0.000 0.000" diffuse="0.793 0.554 0.689 0.000 0.826" specular="0.502 0.217 0.990 0.000 0.000"/>
+    <wind ofs="0" amp="0.3" fq="0.4" yaw="0.2"/>
+    <fluids>
+        <fluid hq="1" name="anomaly jelly 3 lowDamp" pos="-229.60349 -5.067142 -70.110954" rot="0 0 0" size="99.60854 20 99.71638" tile="0.01 0.01"/>
+        <fluid hq="1" name="water pink low density" pos="5.515542 -13.613873 -0.80502653" rot="0 0 0" size="57.248707 20 376.5318" tile="0.01 0.01"/>
+        <fluid hq="1" name="grease jelly" pos="-179.21613 -19.634201 180.25789" rot="0 0 0" size="200.22789 20 199.69049" tile="0.01 0.01"/>
+        <fluid hq="1" name="oil" pos="-38.03991 -4.697587 -171.65974" rot="0 0 0" size="77.6005 20 104.703766" tile="0.01 0.01"/>
+        <fluid hq="2" name="ice blue" pos="-235.69443 -3.083699 -292.26047" rot="0 0 0" size="213.05728 20 126.15356" tile="0.01 0.01"/>
+        <fluid hq="1" name="liquid gas space" pos="-294.8967 -2.9609413 -177.89207" rot="0 0 0" size="99.40959 20 99.183266" tile="0.01 0.01"/>
+        <fluid hq="1" name="water sunset low density" pos="64.367615 -20.893192 -285.67963" rot="0 0 0" size="76.76292 20 75.49324" tile="0.01 0.01"/>
+        <fluid hq="1" name="blue jelly" pos="167.28482 -32.192875 -6.3435698" rot="0 0 0" size="165.17334 20 173.85898" tile="0.01 0.01"/>
+        <fluid hq="1" name="pink jelly" pos="139.6996 -13.671716 -160.89001" rot="0 0 0" size="131.8182 20 33.17564" tile="0.01 0.01"/>
+    </fluids>
+    <terrains>
+        <terrain ofsZ="1.78442" triangle="1.4989148" diff="2 1.286615 0.10892213">
+            <texture on="1" file="space_gray_anomaly_d.jpg" fnorm="space_gray_anomaly_n.jpg" scale="12" surf="roadForestWet" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="0" angMax="9.85955" angSm="7.137337" hMin="-400" hMax="900" hSm="19.999998" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="14.203082" oct0="4" prs0="0.3991573" pow0="3.3574104" frq1="14.544605" oct1="3" prs1="0.37640446" pow1="8"/>
+            </texture>
+            <texture on="1" file="space_diam_anomaly_d.jpg" fnorm="space_diam_anomaly_n.jpg" scale="12.689386" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="15.16854" angMax="23.38483" angSm="4.4444447" hMin="-400" hMax="900" hSm="19.999998" nOn="0" noise="0" n_1="0" n2="0.57297295">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="8.114786" oct1="5" prs1="0.7" pow1="6.114499"/>
+            </texture>
+            <texture on="1" file="desert_sand_big_anomaly_d.jpg" fnorm="desert_sand_big_n.jpg" scale="9.63" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="24.901686" angMax="30.9691" angSm="4.217532" hMin="-400" hMax="950" hSm="8.865673" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="20.455278" oct0="3" prs0="0.58539325" pow0="6.0954356" frq1="20.232996" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="grass_mix_anomaly_d.jpg" fnorm="grass_mix_anomaly_n.jpg" scale="16.92581" surf="GrassJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="37.668537" angMax="90" angSm="4.06956" hMin="-400" hMax="900" hSm="19.999998" nOn="0" noise="0.049212" n_1="0" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0.036398467" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="2" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="3" surf="roadSnowIce" dust="0" dustS="0" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
+            <texture road="4" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.433 0.526 0.190 0.800 0.000"/>
+            <par dust="DustBlack" mud="MarsMud" smoke="Smoke"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="16.684345" diff="1 1 1" horiz="1" veget="0">
+            <texture on="1" file="space_gray_anomaly_d.jpg" fnorm="space_gray_anomaly_n.jpg" scale="112" surf="roadForestWet" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="0" angMax="9.85955" angSm="7.137337" hMin="-400" hMax="900" hSm="19.999998" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="14.203082" oct0="4" prs0="0.3991573" pow0="3.3574104" frq1="14.544605" oct1="3" prs1="0.37640446" pow1="8"/>
+            </texture>
+            <texture on="1" file="space_diam_anomaly_d.jpg" fnorm="space_diam_anomaly_n.jpg" scale="132.69" surf="Metal" dust="0" dustS="1" mud="0" smoke="0" tclr="0.000 0.000 0.460 0.700 0.000" angMin="15.16854" angMax="23.38483" angSm="4.4444447" hMin="-400" hMax="900" hSm="19.999998" nOn="0" noise="0" n_1="0" n2="0.57297295">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="8.114786" oct1="5" prs1="0.7" pow1="6.114499"/>
+            </texture>
+            <texture on="1" file="desert_sand_big_anomaly_d.jpg" fnorm="desert_sand_big_n.jpg" scale="91.63" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="24.901686" angMax="30.9691" angSm="4.217532" hMin="-400" hMax="950" hSm="8.865673" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="20.455278" oct0="3" prs0="0.58539325" pow0="6.0954356" frq1="20.232996" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="grass_mix_anomaly_d.jpg" fnorm="grass_mix_anomaly_n.jpg" scale="161.93" surf="GrassJungle" dust="0" dustS="0.2" mud="0.8" smoke="0" tclr="0.260 0.889 0.360 0.700 0.000" angMin="37.668537" angMax="90" angSm="4.06956" hMin="-400" hMax="900" hSm="19.999998" nOn="0" noise="0.049212" n_1="0" n2="0">
+                <noise frq0="30.2" oct0="3" prs0="0.3" pow0="1.5" frq1="34.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0.036398467" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="2" surf="roadDesert" dust="0" dustS="0.5" mud="0" smoke="0" tclr="0.000 0.000 0.100 0.700 0.000"/>
+            <texture road="3" surf="roadSnowIce" dust="0" dustS="0" mud="0" smoke="0" tclr="0.583 1.000 0.200 0.500 0.000"/>
+            <texture road="4" surf="roadJungle" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.433 0.526 0.190 0.800 0.000"/>
+            <par dust="DustBlack" mud="MarsMud" smoke="Smoke"/>
+        </terrain>
+    </terrains>
+    <veget densGrass="0.0024337778" densTrees2="0.78234136" grDensSmooth="4" trRdDist="11">
+        <grass on="1" mtr="grassAnomaly01a" dens="0.060222376" chan="0" minSx="1.7875512" maxSx="3.34" minSy="2.32" maxSy="3.93"/>
+        <grass on="1" mtr="grassAnomaly01c" dens="0.0582424" chan="0" minSx="2.5" maxSx="3.34" minSy="1.0237243" maxSy="3.93"/>
+        <grass on="1" mtr="grassAnomaly02a" dens="0.06365486" chan="1" minSx="1.83" maxSx="5.6" minSy="1.22" maxSy="2.0096862"/>
+        <grass on="1" mtr="grassAnomaly03a" dens="0.06989437" chan="1" minSx="4.28" maxSx="5.57" minSy="6" maxSy="8"/>
+        <grass on="1" mtr="grassAnomaly03c" dens="0.07738781" chan="2" minSx="2.9990008" maxSx="3.2954686" minSy="1.8984047" maxSy="2.0863109"/>
+        <grass on="1" mtr="grassAnomaly04c" dens="0.07642997" chan="2" minSx="1.444598" maxSx="1.7003484" minSy="3.1194806" maxSy="3.3670588"/>
+        <grass on="0" mtr="flower02AnomalyC" dens="0.0060792267" chan="0" minSx="2.8" maxSx="2" minSy="5.66" maxSy="7.87"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <gchan amin="0" amax="8.620689" asm="1.32196" hmin="-60" hmax="120" hsm="0.786314" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0.888889"/>
+        <gchan amin="11.896552" amax="19.48276" asm="0.395062" hmin="-57.4194" hmax="85.6774" hsm="0.374577" ns="0.464029" frq="34" oct="3" prs="0.420504" pow="2.24944" rd="1.53535"/>
+        <gchan amin="21.724138" amax="32.931034" asm="1.4534799" hmin="-100" hmax="100" hsm="20" ns="0" frq="43" oct="3" prs="0.3" pow="1.2" rd="1.69697"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="52" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <layer on="1" name="crystal_form1_cyan.mesh" dens="0.0191062" minScale="0.8" maxScale="1.8119394" ofsY="0" addTrRdDist="8" maxRdist="100" maxTerAng="35.193756" minTerH="-12.48" maxTerH="8.799999" maxDepth="0"/>
+        <layer on="1" name="crystal2.mesh" dens="0.0256" minScale="0.6113773" maxScale="1.2" ofsY="0" addTrRdDist="5" maxRdist="100" maxTerAng="32.978558" minTerH="-17.439999" maxTerH="29.28" maxDepth="0"/>
+        <layer on="1" name="crystal1_pink.mesh" dens="0.015708447" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="7" maxRdist="100" maxTerAng="42.436" minTerH="-8" maxTerH="37.280003" maxDepth="0"/>
+        <layer on="1" name="rock35red1edgy_anomaly.mesh" dens="0.026460443" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="59.340958" minTerH="-22.719997" maxTerH="73.44" maxDepth="0"/>
+        <layer on="1" name="crate2m_anomaly.mesh" dens="0.034348443" minScale="3.55371" maxScale="4" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="70.11903" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crate_anomaly.mesh" dens="0.029584002" minScale="3.5685174" maxScale="4" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="70.11903" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="crystal1_anomaly.mesh" dens="0.013148444" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="6" maxRdist="20" maxTerAng="61.70256" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="rock02brown2flat_anomaly.mesh" dens="0.022700446" minScale="1.5861014" maxScale="2.205472" ofsY="0" addTrRdDist="3" maxRdist="20" maxTerAng="63.705757" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="rock08white3tall_anomaly.mesh" dens="0.011664" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="7" maxRdist="20" maxTerAng="56.834557" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="rock12orange_anomaly.mesh" dens="0.1" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="7" maxRdist="20" maxTerAng="26.93" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="rock26grayBlue_anomaly.mesh" dens="0.01376711" minScale="1.348614" maxScale="2.4277134" ofsY="0" addTrRdDist="8" maxRdist="20" maxTerAng="50.535038" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0" name="rock35red1edgy_anomaly.mesh" dens="0.1" minScale="0.8" maxScale="1.2" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="75.076004" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+    </veget>
+    <cam pos="176.12993 77.19692 458.15894" dir="-0.14456475 -0.2018319 -0.96869236"/>
+    <objects>
+        <o name="crystal_cube4" pos="-256.40695 -16.15094 2.93489" rot="0 -1 0 0" sc="3.8364093 3.8364093 3.8364093"/>
+        <o name="crystal_cube4" pos="-287.19727 10.348093 11.889845" rot="-0.85165215 -0.36958298 -0.351809 -0.11969765" sc="3.8364093 3.8364093 3.8364093"/>
+        <o name="crystal1" pos="-98.16523 254.3695 -1.7523725" rot="0.0026874554 -0.94976413 -0.035335276 -0.31095484" sc="3.8364093 3.8364093 3.8364093"/>
+        <o name="tropic_peacock" pos="-169.87366 285.5088 -1.6135767" rot="-0.38221017 -0.924075 0 0" sc="15.481058 15.481058 15.481058"/>
+        <o name="acacia1" pos="-157.96109 314.765 -2.0802112" rot="0 -1 0 0" sc="3.2333784 3.3546176 3.2333784"/>
+        <o name="crystal_cube4_pink" pos="-23.173298 234.8775 17.393404" rot="0.2773367 -0.69844645 0.5628737 -0.34413552" sc="4.9713264 4.9713264 4.9713264"/>
+        <o name="crystal3_cyan" pos="58.115234 171.68196 -7.568123" rot="0.075139925 -0.9543181 0.21588501 0.19242035" sc="4.4239225 4.4239225 4.4239225"/>
+        <o name="crystal3_cyan" pos="150.46477 155.85695 -9.661586" rot="0.70440054 -0.7098025 0 0" sc="3.8364093 3.8364093 3.8364093"/>
+        <o name="crystal3_cyan" pos="-332.62473 -278.49 32.14781" rot="-0.8279622 0.21585721 0.17558925 -0.486881" sc="18.047716 18.047716 18.047716"/>
+        <o name="crystal3_cyan" pos="-165.79189 170.44072 35.462864" rot="0.075139925 -0.9543181 0.21588501 0.19242035" sc="11.977893 11.977893 11.977893"/>
+        <o name="obstacleAnomaly4" pos="-287.1696 180.20439 0.26713467" rot="-0.6304221 -0.6922021 0.17773989 0.30304167" sc="4.7713623 4.7713623 4.7713623"/>
+        <o name="obstacleAnomaly4" pos="-324.59863 172.36746 -0.8267677" rot="-0.49360448 0.65773857 -0.3613003 0.43954113" sc="4.7713623 4.7713623 4.7713623"/>
+        <o name="icicles_06" pos="283.5134 302.2626 30.671253" rot="0.040900797 -0.24987838 -0.1389374 0.95738333" sc="13.089634 13.089634 13.089634"/>
+        <o name="icicles_06" pos="257.64496 275.363 19.316185" rot="-0.017157642 -0.057769746 -0.610446 0.7897606" sc="12.858097 12.858097 12.858097"/>
+        <o name="icicles_06" pos="286.13583 291.03583 28.110949" rot="0.2420063 -0.2189248 -0.2255444 0.91795" sc="9.617271 9.617271 9.617271"/>
+        <o name="icicles_05" pos="275.7771 -288.24503 62.22198" rot="-0.02036428 -0.0074768863 -0.38781497 0.9214814" sc="8.566856 13.104273 8.566856"/>
+        <o name="crate_anomaly" stat="1" pos="-191.45813 -184.71826 -7.9369054" rot="-0.035234574 -0.048890162 -0.31612945 0.94679904" sc="14.610871 14.6106615 14.610871"/>
+        <o name="plastic_big_anomaly" pos="128.02708 -17.659298 -27.815262" rot="-0.015471806 -0.00088263117 -0.31711823 0.9482594"/>
+        <o name="plastic_big_anomaly" pos="139.02884 -27.454836 -27.608215" rot="-0.084983274 0.021599209 -0.31033444 0.9465748"/>
+        <o name="plastic_big_anomaly" pos="150.65985 44.3564 -29.042658" rot="0.07559412 0.049786903 -0.2568126 0.9622131"/>
+        <o name="plastic_big_anomaly" pos="133.24792 35.214462 -28.83234" rot="0.0066689868 -0.020449173 -0.33609325 0.9415831"/>
+        <o name="plastic_big_anomaly" pos="178.74094 137.51462 -12.114994" rot="0.08517965 0.027135693 -0.35803008 0.9294206"/>
+        <o name="plastic_big_anomaly" pos="164.08414 138.11601 -12.0669155" rot="0.06194702 0.022772579 -0.30913094 0.94872653"/>
+        <o name="plastic_big_anomaly" pos="161.02306 -128.65726 -12.385034" rot="-0.034951713 -0.009801588 -0.32556483 0.94482267"/>
+        <o name="plastic_big_anomaly" pos="143.66486 -128.39246 -12.328087" rot="0.0007282299 0.0036165018 -0.31525892 0.9489985"/>
+        <o name="big_tire_anomaly2" pos="170.68427 -149.5437 -14.496255" rot="0.04639996 0.018617965 -0.3377387 0.9399112"/>
+        <o name="big_tire_anomaly2" pos="170.20398 -184.2042 -6.4551263" rot="-0.11300392 -0.046322796 -0.35826802 0.92559624"/>
+        <o name="big_tire_anomaly" pos="182.1269 -171.92796 -9.37031" rot="-0.18096916 -0.09987123 -0.405881 0.8902452"/>
+        <o name="big_tire_anomaly" pos="160.55228 -166.38849 -12.349603" rot="-0.19846964 -0.038596634 -0.20961615 0.95665103"/>
+        <o name="plastic_barrel_anomaly" pos="121.88025 7.0138154 -27.12914" rot="-0.0157228 0.019253993 -0.31313744 0.9493824"/>
+        <o name="plastic_barrel_anomaly" pos="189.4709 267.84882 1.826337" rot="-4.0990667e-06 -2.7013046e-05 -0.06812883 0.99767655"/>
+        <o name="plastic_barrel_anomaly" pos="196.61371 240.04463 1.6305972" rot="0.020386213 0.0064337305 -0.43107966 0.90206057"/>
+        <o name="plastic_barrel_anomaly" pos="193.60219 280.22562 1.826375" rot="-1.6530178e-06 -1.0461556e-06 -0.4689699 0.8832141"/>
+        <o name="plastic_barrel_anomaly" pos="-51.120895 209.63069 -1.7999732" rot="-0.02057536 0.9970533 0.056058742 0.04815294"/>
+        <o name="plastic_barrel_anomaly" pos="-48.89065 142.99269 -1.2409844" rot="-0.16062878 0.9839318 -0.064499006 0.04377821"/>
+        <o name="plastic_barrel_anomaly" pos="-65.73781 205.47 -1.3794659" rot="-0.022571528 0.99868184 -0.019905115 -0.04158053"/>
+        <o name="balloon2_anomaly" pos="-247.40149 301.20172 -2.9047267" rot="-0.17191857 -0.76363075 -0.07763769 0.6174823"/>
+        <o name="balloon2_anomaly" pos="-235.76553 313.79272 -2.8795278" rot="0.58343816 0.5415108 -0.5345233 0.28399092"/>
+        <o name="balloon2_anomaly" pos="-238.65562 309.51468 -3.553749" rot="-0.44558707 0.875271 -0.09103057 0.16451828"/>
+        <o name="balloon2_anomaly" pos="-220.50543 269.73593 -4.915241" rot="0.3157423 0.84362364 0.117841706 -0.41799432"/>
+        <o name="balloon1_anomaly" pos="-213.93437 282.43973 -2.8088882" rot="-0.28730285 0.43222952 0.56039983 0.64543533"/>
+        <o name="balloon1_anomaly" pos="-287.36166 262.23853 -1.2851043" rot="-0.03550335 -0.63145053 -0.5246978 0.56982625"/>
+        <o name="balloon1_anomaly" pos="-203.39291 326.86813 -2.4528275" rot="0.18825154 0.9555606 -0.058317672 -0.21923576"/>
+        <o name="balloon1_anomaly" pos="-318.1373 185.95857 -2.02155" rot="0.026131231 -0.8167126 -0.035906333 0.5753333"/>
+        <o name="balloon1_anomaly" pos="-280.48813 184.62894 -1.045697" rot="-0.27042174 -0.6638638 0.357009 0.5989169"/>
+        <o name="concrete_bar_anomaly" pos="-294.36096 36.317074 1.2337277" rot="0 1 0 0" sc="5.1100144 5.1100144 5.1100144"/>
+        <o name="concrete_bar_anomaly" pos="-308.90463 9.940483 1.2395394" rot="0 1 0 0" sc="5.1100144 5.1100144 5.1100144"/>
+        <o name="alien_mine_part" pos="-250.88899 -13.375305 0.9335355" rot="0 1 0 0" sc="5.1100144 5.1100144 5.1100144"/>
+        <o name="alien_pipe_connector_wall" pos="-54.42846 -182.32246 -10.430528" rot="0 1 0 0" sc="1.5734909 1.5734909 1.5734909"/>
+        <o name="alien_pipe_connector_wall" pos="-202.17065 -330.46725 -2.7325292" rot="-0.38707626 0.92204756 0 0" sc="1.5734909 1.5734909 1.5734909"/>
+        <o name="gas_tank_02" pos="259.14685 31.245956 -16.945932" rot="-0.4709397 -0.48752582 0.72524005 0.12065902" sc="2.5729873 2.5729873 2.5729873"/>
+        <o name="gas_tank_02" pos="263.65472 4.2927246 -16.595083" rot="0.31546766 -0.66435856 0.63023305 -0.24881828" sc="2.5729873 2.5729873 2.5729873"/>
+        <o name="gas_tank_02" pos="263.74078 -16.953476 -15.831131" rot="-0.2285001 -0.69905573 0.28586343 -0.6143176" sc="2.5729873 2.5729873 2.5729873"/>
+        <o name="plastic_big_anomaly" pos="181.17302 243.3188 0.20676446" rot="-0.0034699782 0.87762046 0.47905174 0.016723188"/>
+        <o name="plastic_big_anomaly" pos="180.11012 249.07074 0.32306126" rot="-0.016408822 0.8844867 0.4662267 0.0068346364"/>
+        <o name="plastic_big_anomaly" pos="178.70866 255.56458 0.3300923" rot="-0.0033851597 0.88555825 -0.3875741 0.25604966"/>
+        <o name="plastic_big_anomaly" pos="191.70412 257.11035 0.5055239" rot="0 1 0 0"/>
+        <o name="plastic_big_anomaly" pos="193.38202 252.5968 0.33201358" rot="0.055588614 0.88394076 0.34903273 -0.3061615"/>
+        <o name="plastic_big_anomaly" pos="194.04121 251.45659 0.33181968" rot="0.04394729 0.8845393 0.349774 -0.30547836"/>
+        <o name="plastic_big_anomaly" pos="192.92671 253.70016 0.50551206" rot="-2.9629343e-06 -5.9251083e-06 0.8905915 -0.45480406"/>
+        <o name="obstacleAnomaly8" pos="282.5223 194.28583 3.5614538" rot="0 1 0 0"/>
+        <o name="obstacleAnomaly8" pos="167.59552 7.4654083 -5.8986464" rot="0.9870039 0.16069542 0 0" sc="2.3708258 2.3708258 2.3708258"/>
+        <o name="obstacleAnomaly8" pos="74.23474 281.92657 49.011143" rot="0 1 0 0" sc="3.9424415 3.9424415 3.9424415"/>
+        <o name="alien_pipes_curly_st" pos="122.948 -194.4562 -2.761833" rot="0 1 0 0"/>
+        <o name="alien_pipes_curly_st" pos="-34.120293 78.37602 6.7724695" rot="0.57264006 0.40189207 -0.58487153 0.410476"/>
+        <o name="alien_pipes_up" pos="169.12837 87.1196 -21.27288" rot="0.57264006 0.40189207 -0.58487153 0.410476"/>
+        <o name="alien_pipes_up" pos="286.55136 -261.7895 32.807384" rot="0.57264006 0.40189207 -0.58487153 0.410476"/>
+        <o name="alien_gate" pos="51.935566 -252.55916 -21.142826" rot="0.85760236 0.43843216 0.05602757 -0.26297167" sc="1.011321 1.011321 1.011321"/>
+        <o name="alien_gate" pos="36.79046 -295.01556 -22.213594" rot="0.9243956 -0.19229649 -0.014114879 -0.3291109" sc="0.65382594 0.5469718 2.1676648"/>
+        <o name="alien_gate" pos="-60.471416 -335.78085 1.2759023" rot="0.9243956 -0.19229649 -0.014114879 -0.3291109"/>
+        <o name="big_tire_anomaly2" pos="98.909836 -205.48853 -9.87457" rot="0.95842534 -0.26619852 0.050669264 -0.089397386"/>
+        <o name="big_tire_anomaly2" stat="1" pos="81.69019 -199.66177 -7.1335006" rot="0.9243956 -0.19229649 -0.014114879 -0.3291109" sc="3.995281 4.578488 3.995281"/>
+        <o name="big_tire_anomaly2" pos="2.525456 -92.24171 -6.416839" rot="0.980742 -0.15416887 -0.09124074 0.07779657"/>
+        <o name="mntn_01" mat="cave_ice" pos="38.58922 -22.918304 108.20947" rot="0.9243956 -0.19229649 -0.014114879 -0.3291109"/>
+        <o name="mntn_01" mat="cave_ice_marble" pos="661.86835 -75.46382 192.34723" rot="-0.6448039 0.15545677 -0.74826807 -0.0124207" sc="1.0625 1.9392215 2.7077599"/>
+        <o name="crate2m_anomaly" pos="172.72256 249.7611 0.56025916" rot="0.91465133 -0.07208662 0.28178617 -0.28073657"/>
+        <o name="crate2m_anomaly" pos="262.22177 102.111176 -11.880094" rot="0.93316233 -0.17164852 0.049541198 -0.31191427"/>
+        <o name="crate2m_anomaly" pos="263.0908 109.68819 -12.205309" rot="0.9445243 -0.2666072 -0.19172049 -0.0061376495"/>
+        <o name="crate2m_anomaly" pos="263.14432 116.91324 -12.796349" rot="0.91639614 -0.284355 -0.25843546 0.1121222"/>
+        <o name="crate2m_anomaly" pos="279.8474 75.83336 -12.124545" rot="-0.74811095 0.022161592 -0.31838137 0.58178365"/>
+        <o name="crate2m_anomaly" pos="199.98685 -130.0167 -12.411519" rot="-0.7963006 0.20294169 0.12763211 0.5553648"/>
+        <o name="crate2m_anomaly" pos="196.4768 -134.45792 -12.737237" rot="-0.70323366 0.20066616 0.17908086 0.6581228"/>
+        <o name="crate2m_anomaly" pos="201.50473 -126.40134 -12.24645" rot="0.85832393 -0.1976488 -0.073704034 -0.4677421"/>
+        <o name="crate2m_anomaly" pos="203.33151 -123.71596 -12.264654" rot="0.97060907 -0.18281001 0.04724777 -0.14921826"/>
+        <o name="crate2m_anomaly" pos="199.52362 -128.29948 -12.300683" rot="0.83856493 -0.20916228 -0.11195196 -0.4904353"/>
+        <o name="crate2m_anomaly" pos="197.81285 -132.14389 -12.540269" rot="-0.76052195 0.2069425 0.14681435 0.59768444"/>
+        <o name="crate2m_anomaly" pos="197.39561 -129.24596 -12.319278" rot="-0.8267375 0.20074834 0.1046928 0.5150191"/>
+        <o name="crate2m_anomaly" pos="211.3333 -138.37854 -13.6843195" rot="-0.6262998 0.20763105 0.24920382 0.7088973"/>
+        <o name="crate2m_anomaly" pos="213.2057 -136.34573 -13.506617" rot="-0.63720554 0.2129809 0.25573274 0.6951324"/>
+        <o name="crate2m_anomaly" pos="215.52922 -133.7809 -13.292117" rot="-0.6529531 0.2156506 0.25440773 0.68001735"/>
+        <o name="crate2m_anomaly" pos="216.7963 -131.3998 -13.068866" rot="-0.6704022 0.21758679 0.2474375 0.6648244"/>
+        <o name="crate2m_anomaly" pos="213.46375 -132.63063 -13.0232725" rot="-0.6101647 0.2295043 0.3176432 0.68857074"/>
+        <o name="crate2m_anomaly" stat="1" pos="86.76827 -363.85916 18.012163" rot="0.5786519 -0.0231113 0.51850104 -0.62911224" sc="37.330437 37.330437 37.330437"/>
+        <o name="ancient_ruins_01" pos="163.69841 -201.14996 -3.452335" rot="-0.7419249 -0.5925626 0.22991197 -0.21343464" sc="1 0.6156712 1"/>
+        <o name="tropic_peacock" pos="-168.93646 352.73074 0.5949388" rot="0 -1 0 0" sc="15.25795 15.25795 15.25795"/>
+        <o name="tropic_peacock" pos="-65.57094 177.77202 -2.6865067" rot="0 -1 0 0" sc="8.011222 10.164668 8.011222"/>
+    </objects>
+    <emitters>
+        <e name="AcidVapor2" pos="-17.493143 16.658699 115.88073" sc="75.799355 46.722443 103.95817" yaw="0" pt="-90" rate="54.20209" st="0" psc="0.22560321"/>
+        <e name="ElectricSparks" pos="168.04378 19.04379 -4.6656957" sc="39.746662 25.474905 37.63469" yaw="0" pt="-90" rate="128.50221" st="0" psc="7.5371222"/>
+        <e name="WaterfallLow" pos="269.90033 12.961396 199.27608" sc="103.03828 24.827154 129.88403" yaw="0" pt="-90" rate="73.21378" st="0" psc="1.7117125"/>
+        <e name="BubblesSmall" pos="224.24374 -1.222219 -161.95888" sc="122.62358 32.56282 94.9871" yaw="0" pt="89.98562" rate="65.210075" st="0" psc="0.85874605"/>
+    </emitters>
+    <collectible/>
+    <fields>
+        <f t="0" pos="-261.01346 -16.386461 189.69705" sz="42.78614 6.395771 42.78614" f="0.2145443"/>
+        <f t="1" pos="89.64316 -16.75475 263.97372" sz="29.40332 4.034649 133.82657" yaw="0" pt="90" f="0.31555018"/>
+        <f t="3" pos="173.5961 -8.932965 173.97906" sz="3.8007765 3.8007765 3.8007765" f="1.0678321"/>
+        <f t="1" pos="259.6381 -26.635649 -11.039786" sz="36.93464 14.072843 48.82273" yaw="-0.023491409" pt="42.401142" f="1.3740419"/>
+        <f t="2" pos="24.197866 -6.1065574 -228.05222" sz="6.75861 3.1738567 6.75861" f="1" pos2="11.894667 -191.75792 32.56975" dir2="-1.1920929e-07 -4.9511436e-07 -0.25328338 0.9673935"/>
+        <f t="1" pos="-175.933 -0.63229924 -346.60748" sz="96.56654 4.549082 6.113755" yaw="-87.48768" pt="2.035519" f="1.4451115"/>
+        <f t="2" pos="-61.87619 -1.8479697 -86.682945" sz="8.341557 5.7415314 8.341557" f="1" pos2="-230.1161 -41.180084 54.978073" dir2="4.7683716e-07 2.4267547e-07 0.30039638 0.9538186"/>
+    </fields>
+</scene>
