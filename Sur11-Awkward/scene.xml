@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3401" baseTrk="Sur1-Surreal" secEd="13948"/>
+    <ver num="3401" baseTrk="Sur1-Surreal" secEd="15208"/>
     <car tires="0" damage="0.3498818"/>
     <start pos="-17.370583 -150.73695 -2.920033" rot="0 4.791873e-07 0.041923083 0.99912304" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -19,17 +19,17 @@
     </fluids>
     <terrains>
         <terrain ofsZ="1.80666" triangle="1.2630616" diff="1 1 1" bL="0" bF="0">
-            <texture on="1" file="adesert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="10.4" surf="DesertBumpy" dust="0.5" dustS="1" mud="0.5" smoke="0" tclr="0.088 0.810 0.420 0.800 0.000" angMin="25.6579" angMax="46.9565" angSm="19.2602" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="0" n2="1">
+            <texture on="1" file="mntn_x1_d.jpg" fnorm="mntn_x1_n.jpg" scale="26.04" surf="Rocks" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.675 0.380 0.500 0.900 0.000" angMin="25.6579" angMax="46.9565" angSm="19.2602" hMin="-300" hMax="300" hSm="20" nOn="0" triplanar="1" noise="1" n_1="0" n2="0">
                 <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="36.0968" oct1="3" prs1="0.550783" pow1="6.00393"/>
             </texture>
-            <texture on="1" file="grass_green_d.jpg" fnorm="grass_green_n.jpg" scale="9.43" surf="GrassJungle" dust="0" dustS="0.2" mud="0.4" smoke="0" tclr="0.259 0.871 0.310 0.700 0.000" angMin="0" angMax="12.2087" angSm="22.6075" hMin="-150" hMax="10.5634" hSm="20" nOn="0" noise="0.576271" n_1="0" n2="0">
-                <noise frq0="32.2868" oct0="4" prs0="0.33795" pow0="2.281" frq1="28.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            <texture on="1" file="desert_sand_big_d.jpg" fnorm="desert_sand_big_n.jpg" scale="9.63" surf="DesertBumpy" dust="0.9" dustS="1" mud="0.1" smoke="0" tclr="0.158 0.833 0.480 0.700 0.000" angMin="0" angMax="12.2087" angSm="22.6075" hMin="-150" hMax="10.5634" hSm="20" nOn="0" noise="1" n_1="0.34054053" n2="0">
+                <noise frq0="9.03486" oct0="4" prs0="0.33795" pow0="3.5988374" frq1="21.36294" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
-            <texture on="1" file="adesert_cracks_d.jpg" fnorm="desert_cracks_n.jpg" scale="19.1863" surf="DesertFast" dust="0.6" dustS="1" mud="0.5" smoke="0" tclr="0.060 0.583 0.480 0.800 0.000" angMin="13.1478" angMax="24.2609" angSm="9.62178" hMin="-150" hMax="46.2441" hSm="10.066" nOn="0" noise="1" n_1="0.542373" n2="0">
-                <noise frq0="74.972" oct0="5" prs0="0.7" pow0="8" frq1="64.988" oct1="2" prs1="0.44113" pow1="1.80208"/>
+            <texture on="1" file="snow_grass_d.jpg" fnorm="snow_grass_n.jpg" scale="9.5" surf="SnowWet" dust="1" dustS="0.8" mud="1" smoke="0" tclr="0.000 0.000 0.400 0.600 0.000" angMin="13.1478" angMax="24.2609" angSm="9.62178" hMin="-150" hMax="46.2441" hSm="10.066" nOn="0" noise="1" n_1="1" n2="0">
+                <noise frq0="5.2103896" oct0="5" prs0="0.6620786" pow0="8" frq1="23.516481" oct1="2" prs1="0.44113" pow1="1.80208"/>
             </texture>
-            <texture on="1" file="lava2_d.jpg" fnorm="ground_cracked_n.jpg" scale="15.5353" surf="DesertMud" dust="0" dustS="0" mud="0.1" smoke="0" tclr="0.091 0.440 0.250 0.600 0.000" angMin="50.241" angMax="89.8026" angSm="18.1188" hMin="-150" hMax="150" hSm="4.96807" nOn="0" triplanar="1" noise="0.031316" n_1="1" n2="0">
-                <noise frq0="35.7414" oct0="3" prs0="0.3" pow0="1.5" frq1="59.8052" oct1="3" prs1="0.4" pow1="1.2"/>
+            <texture on="1" file="lava_d.jpg" fnorm="lava_n.jpg" scale="19.708511" surf="DesertRocks" dust="0" dustS="0.2" mud="0" smoke="0" tclr="0.083 1.000 0.300 0.600 0.000" angMin="50.241" angMax="89.8026" angSm="18.1188" hMin="-150" hMax="150" hSm="4.96807" nOn="0" triplanar="1" noise="0.031316" n_1="1" n2="0">
+                <noise frq0="36.847137" oct0="3" prs0="0.3" pow0="1.5" frq1="59.8052" oct1="3" prs1="0.4" pow1="1.2"/>
             </texture>
             <texture on="0" file="" fnorm="" scale="10.7591" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="42.5381" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="-0.228188" n_1="0" n2="0">
                 <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
