@@ -4,8 +4,8 @@
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="387.45535" lodPntLen="13.312032" visDist="568.0303" visBehind="304.64484"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 7.30401 20.2279" iDir="1" iChk1="33"/>
     <stats length="1575.682" width="10.750024" height="29.93558" onTer="0" pipes="0" bnkAvg="42.454742" bnkMax="69.56388"/>
-    <txt desc="Quick round track in with shape of a clover. Featuring a lake and a small, old base."/>
-    <adv ice="With 4 banked, 270 turns of various radius and angle. Slightly bumpy. Center place has flat crossings and loose objects."/>
+    <txt desc="Quick round track in shape of a clover. Featuring a lake and a small, old base."/>
+    <adv ice="With 4 banked, 270° turns of various radius and angle. Slightly bumpy. Center place has flat crossings and loose objects."/>
     <P pos="-89.79424 0 -15.672765" w="9.248479" aT="2" mtr="3"/>
     <P pos="-120.51405 0 -26.228289" w="8.43955" aT="2" mtr="3" chkR="2.289584"/>
     <P pos="-142.68285 0 -45.70847" w="8.409574" aT="2" mtr="3"/>
