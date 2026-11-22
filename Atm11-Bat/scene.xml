@@ -1,0 +1,185 @@
+<scene>
+    <ver num="3401" baseTrk="Atm4-Scary" secEd="7047"/>
+    <car tires="0" road1mtr="0" needLights="1"/>
+    <start pos="121.006645 -14.175339 8.276842" rot="0.0044751167 -0.011801249 0.3381188 -0.94102925" pos2="0 0 0" rot2="0 0 0 1"/>
+    <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
+    <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="8" sc="0.9" oy="0"/>
+    <sound ambient="" reverbs="Forest"/>
+    <sky material="sky/dusk_stormy_02_dark" rainName="RainFastA" rainEmit="1479" rain2Name="RainFine" rain2Emit="356" windAmt="0.312" skyYaw="-102.85714"/>
+    <fog color="0.128 0.488 0.158 1.000 0.068" color2="0.163 0.289 0.035 1.000 0.019" linStart="66.6125" linEnd="110.22401"/>
+    <fogH color="0.000 0.000 0.023 1.000 0.000" height="15.46666" dens="22.445" linStart="0" linEnd="23.1125"/>
+    <light pitch="11" yaw="-1" ambient="0.000 0.000 0.136 0.911 0.000" diffuse="0.000 0.000 0.213 0.000 0.000" specular="0.583 0.028 0.316 0.000 0.000"/>
+    <wind ofs="0.6721333" amp="0.90630406" fq="1.0288934" yaw="-37.92"/>
+    <fluids>
+        <fluid hq="2" name="water blue" pos="-56.670685 -0.09939807 429.62665" rot="0 0 0" size="498.85468 20 713.8655" tile="0.01 0.01"/>
+    </fluids>
+    <terrains>
+        <terrain ofsZ="1.544" triangle="1.39098" diff="1 1 1">
+            <texture on="1" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="6.66984" surf="GrassForestWet" dust="0.2" dustS="0.4" mud="0.8" smoke="0" tclr="0.090 0.722 0.180 0.800 0.000" angMin="0" angMax="19.3421" angSm="7.91189" hMin="-9.81735" hMax="300" hSm="8.96481" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="33.7041" oct0="3" prs0="0.490998" pow0="1.08371" frq1="36.8737" oct1="3" prs1="0.348924" pow1="5.31981"/>
+            </texture>
+            <texture on="1" file="desert_mud_d.jpg" fnorm="desert_mud_n.jpg" scale="8.02455" surf="GrassForestWet" dust="0.2" dustS="0.4" mud="0.6" smoke="0" tclr="0.250 0.500 0.160 0.800 0.000" angMin="17.3684" angMax="34.3421" angSm="7.48621" hMin="-9.81735" hMax="300" hSm="8.84801" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_dark_d.jpg" fnorm="mntn_dark_n.jpg" scale="27.6144" surf="Rocks" dust="0.1" dustS="0.2" mud="0.3" smoke="0" tclr="0.000 0.000 0.250 0.700 0.000" angMin="33.75" angMax="90" angSm="10.054" hMin="-9.36073" hMax="300" hSm="8.84801" nOn="0" triplanar="1" noise="0" n_1="0" n2="0">
+                <noise frq0="20.6504" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5101" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_black_d.jpg" fnorm="mntn_black_n.jpg" scale="13.153" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="0" angMax="90" angSm="20" hMin="-193.421" hMax="-15.7895" hSm="10.9649" nOn="0" noise="0.149123" n_1="0.795367" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="36.0676" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadJungleWet" dust="0" dustS="0.3" mud="0.6" smoke="0.07279693" tclr="0.083 0.889 0.090 0.800 0.000"/>
+            <texture road="2" surf="roadJungleWet" dust="0.5249042" dustS="0.46551725" mud="0.55172414" smoke="0.055555556" tclr="0.000 0.000 0.130 0.800 0.000"/>
+            <texture road="3" surf="roadGravel" dust="0.33333334" dustS="0.49808428" mud="0.49616858" smoke="0.05172414" tclr="0.000 0.000 0.130 0.800 0.000"/>
+            <texture road="4" surf="roadJungle" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.139 0.600 0.049 0.800 0.000"/>
+            <par dust="WetRoad" mud="MudDark" smoke="Mud"/>
+        </terrain>
+        <terrain ofsZ="0" triangle="8.360371" diff="1 1 1" horiz="1" veget="0.2009804">
+            <texture on="1" file="grass_mix_d.jpg" fnorm="grass_mix_n.jpg" scale="6.66984" surf="GrassForestWet" dust="0.2" dustS="0.4" mud="0.8" smoke="0" tclr="0.090 0.722 0.180 0.800 0.000" angMin="0" angMax="19.3421" angSm="7.91189" hMin="-9.81735" hMax="300" hSm="8.96481" nOn="0" noise="1" n_1="0" n2="1">
+                <noise frq0="33.7041" oct0="3" prs0="0.490998" pow0="1.08371" frq1="36.8737" oct1="3" prs1="0.348924" pow1="5.31981"/>
+            </texture>
+            <texture on="1" file="desert_mud_d.jpg" fnorm="desert_mud_n.jpg" scale="8.02455" surf="GrassForestWet" dust="0.2" dustS="0.4" mud="0.6" smoke="0" tclr="0.250 0.500 0.160 0.800 0.000" angMin="17.3684" angMax="34.3421" angSm="7.48621" hMin="-9.81735" hMax="300" hSm="8.84801" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="26.2" oct0="3" prs0="0.3" pow0="1.5" frq1="31.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_dark_d.jpg" fnorm="mntn_dark_n.jpg" scale="27.6144" surf="Rocks" dust="0.1" dustS="0.2" mud="0.3" smoke="0" tclr="0.000 0.000 0.250 0.700 0.000" angMin="33.75" angMax="90" angSm="10.054" hMin="-9.36073" hMax="300" hSm="8.84801" nOn="0" triplanar="1" noise="0" n_1="0" n2="0">
+                <noise frq0="20.6504" oct0="3" prs0="0.3" pow0="1.5" frq1="28.5101" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="1" file="mntn_black_d.jpg" fnorm="mntn_black_n.jpg" scale="13.153" surf="Rocks" dust="0.3" dustS="0.2" mud="0.5" smoke="0" tclr="0.000 0.000 0.320 0.400 0.000" angMin="0" angMax="90" angSm="20" hMin="-193.421" hMax="-15.7895" hSm="10.9649" nOn="0" noise="0.149123" n_1="0.795367" n2="0">
+                <noise frq0="34.2" oct0="3" prs0="0.3" pow0="1.5" frq1="36.0676" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture on="0" file="" fnorm="" scale="4.5" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+                <noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2"/>
+            </texture>
+            <texture road="1" surf="roadJungleWet" dust="0" dustS="0.3" mud="0.6" smoke="0.07279693" tclr="0.083 0.889 0.090 0.800 0.000"/>
+            <texture road="2" surf="roadJungleWet" dust="0.5249042" dustS="0.46551725" mud="0.55172414" smoke="0.055555556" tclr="0.000 0.000 0.130 0.800 0.000"/>
+            <texture road="3" surf="roadGravel" dust="0.33333334" dustS="0.49808428" mud="0.49616858" smoke="0.05172414" tclr="0.000 0.000 0.130 0.800 0.000"/>
+            <texture road="4" surf="roadJungle" dust="0" dustS="0.2" mud="0.2" smoke="0" tclr="0.139 0.600 0.049 0.800 0.000"/>
+            <par dust="WetRoad" mud="MudDark" smoke="Mud"/>
+        </terrain>
+    </terrains>
+    <veget densGrass="0.35" densTrees2="0.33600533" grDensSmooth="6" trRdDist="4">
+        <grass on="0" mtr="grassSavanna" dens="0.25" chan="0" minSx="0.7" maxSx="1.8" minSy="0.7" maxSy="1.3"/>
+        <grass on="1" mtr="grass9r" dens="0.0194865" chan="0" minSx="1.6" maxSx="1.85" minSy="1.6" maxSy="1.9"/>
+        <grass on="1" mtr="grass16r" dens="0.0188949" chan="0" minSx="2.6" maxSx="2.85" minSy="2.6" maxSy="2.9"/>
+        <grass on="1" mtr="grass2" dens="0.0280516" chan="0" minSx="1.6" maxSx="1.85" minSy="1.6" maxSy="1.9"/>
+        <grass on="1" mtr="grass17" dens="0.107768" chan="0" minSx="1" maxSx="2" minSy="1" maxSy="2"/>
+        <grass on="0" mtr="grass18" dens="0.1" chan="0" minSx="1.6" maxSx="2" minSy="1.6" maxSy="2"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <grass on="0" mtr="grassJungle" dens="0.1" chan="0" minSx="1.2" maxSx="1.6" minSy="1.2" maxSy="1.6"/>
+        <gchan amin="0" amax="30" asm="10" hmin="-200" hmax="200" hsm="4" ns="0" frq="25" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="18.4367" asm="7.32485" hmin="-0.140516" hmax="2.52927" hsm="1.95683" ns="0" frq="67" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="109" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <gchan amin="0" amax="30" asm="20" hmin="-100" hmax="100" hsm="20" ns="0" frq="151" oct="3" prs="0.3" pow="1.2" rd="0"/>
+        <layer on="1" name="treeAW-14LLHuge7k.mesh" dens="0.0668328" minScale="1.83093" maxScale="3.0018" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="19.2698" minTerH="-11.519997" maxTerH="0.64" maxDepth="1.3039023"/>
+        <layer on="1" name="treeAY-28aspTallEmp.mesh" dens="0.163819" minScale="1.90343" maxScale="2.57592" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="21.9118" minTerH="-6.4000015" maxTerH="0.8" maxDepth="1.0155022"/>
+        <layer on="0" name="treeAYG-16birTallUp.mesh" dens="0.155091" minScale="0.810782" maxScale="1.23172" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="15.9557" minTerH="-1" maxTerH="23" maxDepth="1.0155022"/>
+        <layer on="1" name="treeARk-12oakSm.mesh" dens="0.0390934" minScale="1.94039" maxScale="2.59845" ofsY="0" addTrRdDist="2" maxRdist="100" maxTerAng="27.4861" minTerH="0.79999924" maxTerH="28.32" maxDepth="0.65763557"/>
+        <layer on="1" name="rock_B02.mesh" dens="0.0490917" minScale="0.51" maxScale="1.07" ofsY="0" addTrRdDist="4" maxRdist="100" maxTerAng="19.7" minTerH="-25" maxTerH="15" maxDepth="2"/>
+        <layer on="1" name="treeAO-25oakWMed.mesh" dens="0.11654" minScale="0.81" maxScale="1.48" ofsY="0" addTrRdDist="1" maxRdist="100" maxTerAng="15.96" minTerH="1.9199982" maxTerH="3.8400002" maxDepth="0"/>
+        <layer on="1" name="rock_B03.mesh" dens="0.0200876" minScale="0.71" maxScale="1.27" ofsY="0" addTrRdDist="6" maxRdist="100" maxTerAng="37.74" minTerH="-100" maxTerH="100" maxDepth="2"/>
+        <layer on="1" name="blueberryAtm.mesh" dens="0.22404444" minScale="1.5518087" maxScale="2.3371084" ofsY="0" addTrRdDist="1" maxRdist="8" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0.5"/>
+        <layer on="0" name="bush02dry_red.mesh" dens="0.12864177" minScale="1.8" maxScale="2.3" ofsY="0" addTrRdDist="1" maxRdist="8" maxTerAng="40" minTerH="-100" maxTerH="100" maxDepth="0.5"/>
+        <layer on="0" name="fern.mesh" dens="0.07914844" minScale="0.15" maxScale="0.25" ofsY="0" addTrRdDist="0" maxRdist="7" maxTerAng="30.92" minTerH="-100" maxTerH="20" maxDepth="0"/>
+        <layer on="1" name="fern2.mesh" dens="0.062833786" minScale="0.18" maxScale="0.32" ofsY="0" addTrRdDist="0" maxRdist="7" maxTerAng="29.12" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="tree_dead_01.mesh" dens="0.115600005" minScale="0.8" maxScale="1.4519026" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="26.93" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="tree_dead_02.mesh" dens="0.138384" minScale="0.9781257" maxScale="1.9177436" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="26.93" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="tree_dead_03.mesh" dens="0.150544" minScale="0.89902276" maxScale="1.3956547" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="26.93" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="1" name="tree_dead_04.mesh" dens="0.30765507" minScale="0.8" maxScale="1.9177436" ofsY="0" addTrRdDist="1" maxRdist="20" maxTerAng="26.93" minTerH="-100" maxTerH="100" maxDepth="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+        <layer on="0"/>
+    </veget>
+    <cam pos="38.627903 40.535862 -106.12097" dir="0.37045035 -0.30793047 0.8763249"/>
+    <objects>
+        <o name="chapel" pos="-48.333904 -39.66073 2.204754" rot="-0.0005972716 -0.99999624 0 0" sc="2.274932 1.3705993 3.596043"/>
+        <o name="chapel" pos="14.992118 -56.947655 0.852955" rot="-0.7029898 -0.71120054 0 0" sc="1.4891696 1.4891696 1.4891696"/>
+        <o name="chapel" pos="159.4313 -72.04484 7.7769465" rot="-0.443135 0.896453 0.000796486 -0.00161127" sc="0.87795 0.684171 0.87795"/>
+        <o name="statue_angel" pos="91.64635 5.5746384 10.466324" rot="-0.6901987 -0.7236202 0 0" sc="1.1122793 1.1122793 1.1122793"/>
+        <o name="statue_woman" pos="-90.95341 -67.06609 3.6520822" rot="-0.33037 -0.94385 0 0"/>
+        <o name="statue_angel" pos="16.043169 -297.56998 0.108011" rot="0 -1 0 0"/>
+        <o name="statue_woman" pos="68.48007 48.057186 10.3240795" rot="-0.7219743 -0.6919198 0 0" sc="1.2437881 1.2437881 1.2437881"/>
+        <o name="statue_woman" pos="159.7231 -46.775105 8.171016" rot="0.257156 -0.966369 0 0" sc="1.1339183 1.1339183 1.1339183"/>
+        <o name="statue_woman" pos="85.29049 -81.27298 2.0673413" rot="-0.0231447 -0.998495 -0.0485014 0.0108509"/>
+        <o name="statue_angel" pos="163.48866 -62.154987 0.0607326" rot="-0.00322264 -0.997189 -0.0510611 -0.0547628" sc="1.33289 1.33289 1.33289"/>
+        <o name="chapel" pos="41.366833 27.964163 8.713801" rot="0 -1 0 0"/>
+        <o name="chapel" pos="1.6858433 25.531725 -3.3555312" rot="0 -1 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="chapel" pos="-12.877232 -37.79182 2.178711" rot="-0.99982536 0.018665971 0 0" sc="1.548586 1.548586 2.5966878"/>
+        <o name="ancient_ruins_03" pos="119.15996 -62.935627 1.7741544" rot="-0.99984986 0.017339915 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_02" pos="74.7462 -68.971634 -6.8939123" rot="-0.709023 0.70518565 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_03" pos="51.081524 -64.46103 1.664074" rot="-0.709023 0.70518565 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="39.958454 -82.32307 0.22610217" rot="-0.709023 0.70518565 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="99.822296 -78.93213 1.8280615" rot="-0.709023 0.70518565 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_05" pos="118.5335 -57.546856 2.1238086" rot="0.03697127 0.9993169 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_05" pos="91.453865 -54.73424 3.0360773" rot="0.99978304 -0.02086326 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="15.023099 -37.848286 2.126059" rot="0.99978304 -0.02086326 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_03" pos="105.4316 -30.623034 1.6192274" rot="-0.7152138 -0.69890654 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_02" pos="72.67895 -62.570892 1.0976881" rot="-0.7152138 -0.69890654 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_01" pos="66.79396 -25.95018 1.8436204" rot="-0.7152138 -0.69890654 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="78.69703 16.091816 9.964218" rot="-0.9975013 0.07064624 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="56.452244 16.387987 10.080628" rot="-0.8640542 -0.5033838 0.0035766277 -0.0020836836" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="68.81514 16.61609 9.748941" rot="0.8682535 0.496106 -0.0035589982 0.0021136596" sc="1.548586 1.548586 1.548586"/>
+        <o name="statue_angel" pos="47.22406 49.399532 10.502529" rot="0.7671236 0.64148694 -0.003876039 0.0014527009" sc="1.548586 1.548586 1.548586"/>
+        <o name="structure_1_v1" pos="53.95679 5.595796 9.526499" rot="0 1 0 0" sc="0.99294513 0.99294513 0.99294513"/>
+        <o name="structure_1_v1" pos="73.98105 5.583018 9.305792" rot="0 1 0 0" sc="0.99294513 0.99294513 0.99294513"/>
+        <o name="structure_1_v1" pos="33.55309 5.7375355 9.709018" rot="0 1 0 0" sc="0.99294513 0.99294513 0.99294513"/>
+        <o name="ancient_ruins_03" pos="-103.41016 -41.522507 4.310138" rot="0.7022821 0.7118989 0 0" sc="1.548586 1.6780136 1.548586"/>
+        <o name="ancient_ruins_02" pos="-60.637253 11.780931 4.0811014" rot="-0.007314334 0.9999719 0 0" sc="1.548586 1.8144629 1.548586"/>
+        <o name="ancient_ruins_03" pos="-42.719334 63.53315 4.2868724" rot="-0.007314334 0.9999719 0 0" sc="1.548586 1.8870465 1.548586"/>
+        <o name="ancient_ruins_04" pos="-48.913853 39.113655 4.199138" rot="-0.007314334 0.9999719 0 0" sc="1.548586 1.9204525 1.548586"/>
+        <o name="ancient_ruins_04" pos="-96.79613 -60.035606 4.3679004" rot="0.8936858 0.44869095 0 0" sc="1.548586 1.7265853 1.548586"/>
+        <o name="ancient_ruins_05" pos="-98.41911 -22.531494 4.5081763" rot="-0.007003522 -0.99997336 0 0" sc="1.548586 1.6797756 1.548586"/>
+        <o name="ancient_ruins_05" pos="-79.89472 -9.559148 4.3117523" rot="0.69551134 -0.7185124 0 0" sc="1.548586 1.7553897 1.548586"/>
+        <o name="ancient_ruins_04" pos="30.778286 75.25459 15.283991" rot="0 1 0 0" sc="1.548586 2.0456042 1.548586"/>
+        <o name="ancient_ruins_03" pos="-33.613007 28.014412 4.2916427" rot="-0.99997514 0.0069318754 0 0" sc="1.548586 1.7340941 1.548586"/>
+        <o name="ancient_ruins_02" pos="-66.29516 47.63271 5.6316714" rot="-0.99997514 0.0069318754 0 0" sc="1.548586 1.8141633 1.548586"/>
+        <o name="ancient_ruins_01" pos="-15.662186 34.816998 4.1998405" rot="-0.99997514 0.0069318754 0 0" sc="1.548586 1.865142 1.548586"/>
+        <o name="ancient_ruins_03" pos="-77.19489 50.346912 4.2868724" rot="0.7090093 -0.7051982 0 0" sc="1.548586 1.8870465 1.548586"/>
+        <o name="ancient_ruins_04" pos="-71.83043 2.3801715 4.199138" rot="-0.9999367 -0.011174185 0 0" sc="1.548586 1.9204525 1.548586"/>
+        <o name="ancient_ruins_03" pos="-102.74381 34.079624 4.2916427" rot="-0.0030718222 -0.999995 0 0" sc="1.548586 1.7340941 1.548586"/>
+        <o name="ancient_ruins_02" pos="-82.9306 22.637663 5.6316714" rot="-0.0030718222 -0.999995 0 0" sc="1.548586 1.8141633 1.548586"/>
+        <o name="ancient_ruins_01" pos="-105.66088 4.402509 4.1998405" rot="-0.0030718222 -0.999995 0 0" sc="1.548586 1.865142 1.548586"/>
+        <o name="statue_angel" pos="106.61439 19.917519 11.021041" rot="0.99183244 0.12754756 0 0" sc="1.1122793 1.1122793 1.1122793"/>
+        <o name="statue_woman" pos="102.28792 33.36036 11.675808" rot="-0.0027155585 0.9999958 0 0" sc="1.2989911 1.2989911 1.2989911"/>
+        <o name="ancient_ruins_04" pos="128.18706 9.278202 11.586749" rot="0.8297834 -0.5580839 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="122.11662 31.382986 11.40538" rot="0.999973 0.00614265 -0.0041392464 2.542991e-05" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="125.73913 19.746439 11.230827" rot="-0.99998796 0.0022598235 0.0041388767 -6.020389e-05" sc="1.548586 1.548586 1.548586"/>
+        <o name="statue_angel" pos="144.25095 64.37123 11.989496" rot="-0.984706 -0.1741754 0.0040845834 0.0006708453" sc="1.548586 1.548586 1.548586"/>
+        <o name="structure_1_v1" pos="111.74548 24.59097 10.810786" rot="-0.49806884 -0.86713576 0 0" sc="0.99294513 0.99294513 0.99294513"/>
+        <o name="structure_1_v1" pos="117.22654 5.4695716 10.871828" rot="-0.49806884 -0.86713576 0 0" sc="0.99294513 0.99294513 0.99294513"/>
+        <o name="structure_1_v1" pos="106.98296 41.633247 10.778967" rot="-0.49806884 -0.86713576 0 0" sc="0.99294513 0.99294513 0.99294513"/>
+        <o name="ancient_ruins_04" pos="68.04071 31.563805 9.964218" rot="-0.5115059 0.85927874 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="78.15103 30.225216 9.964218" rot="-0.9984831 0.05505817 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="58.68007 48.76172 9.964218" rot="-0.67716074 0.73583406 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="ancient_ruins_04" pos="56.675823 32.46602 9.964218" rot="-0.7878509 0.6158657 0 0" sc="1.548586 1.548586 1.548586"/>
+        <o name="structure_1_v4" pos="107.8808 -2.57066 -0.42848697" rot="-0.6535083 -0.75691944 0 0" sc="1.7031641 1.7031641 1.5367088"/>
+        <o name="structure_1_v4" pos="84.80994 48.401566 7.582768" rot="-0.80888563 0.5879661 0 0" sc="1.5087055 1.1961346 1.9862013"/>
+        <o name="structure_1_v4" pos="15.37957 19.475586 -7.5154996" rot="-0.1834856 0.98302174 0 0" sc="2.514113 2.659372 1.3253444"/>
+        <o name="tree_dead_04_burned" pos="60.225803 18.240818 10.279226" rot="-0.1834856 0.98302174 0 0"/>
+        <o name="tree_dead_04_burned" pos="58.547203 39.75284 10.279221" rot="0.7875733 0.6162199 0 0"/>
+        <o name="tree_dead_04_burned" pos="115.33382 48.233505 11.63811" rot="0.7875733 0.6162199 0 0" sc="1.3326007 1.3326007 1.3326007"/>
+        <o name="tree_dead_04_burned" pos="82.10643 -9.7117815 6.5796604" rot="0.7875733 0.6162199 0 0" sc="1.3326007 1.3326007 1.3326007"/>
+        <o name="tree_dead_04_burned" pos="58.023575 -10.1004305 6.559654" rot="0.9920725 -0.12566161 0 0" sc="1.3326007 1.3326007 1.3326007"/>
+        <o name="tree_dead_04_burned" pos="29.277313 -8.9899435 6.579226" rot="0.4577849 -0.8890622 0 0" sc="1.3326007 1.3326007 1.3326007"/>
+        <o name="tree_dead_04_burned" pos="36.503017 44.823734 10.255229" rot="0.4577849 -0.8890622 0 0" sc="1.3326007 1.3326007 1.3326007"/>
+        <o name="tree_dead_04_burned" pos="54.911278 75.67024 15.1241045" rot="-0.6825556 -0.73083264 0 0" sc="1.3778548 1.2123667 1.3778548"/>
+    </objects>
+    <emitters/>
+    <collectible/>
+    <fields/>
+</scene>

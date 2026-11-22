@@ -1,0 +1,41 @@
+<SplineRoad>
+    <mtr type="0" road="roadMudWet" pipe="pipeAsphalt" road2="roadNgravelWet" road3="roadNdirtWet" road4="roadJDarkWet"/>
+    <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
+    <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.876 19.019026" iDir="-1" iChk1="4"/>
+    <stats length="703.0288" width="12.255288" height="16.139765" onTer="0" pipes="0" bnkAvg="6.501389" bnkMax="16.305351"/>
+    <txt desc="Very short, winding track. In dark, scary place, near ruins. At gloomy sunset, with rain and some fog. Almost no leaves on trees."/>
+    <adv ice="Wet, slippery mud. Lightly banked turns. A couple of water crossings. Has a narrow section near metal bars in cemetary."/>
+    <P pos="78.834946 0 94.29783" w="12.930934" aT="2" mtr="1" chkR="1.796252"/>
+    <P pos="101.60406 0 93.23362" w="11.544" aT="2"/>
+    <P pos="123.41871 0 90.99119" w="12.076311" aT="2"/>
+    <P pos="142.41551 0 73.53637" w="11.544" aT="2"/>
+    <P pos="147.09625 0 49.937466" w="11.544" aT="2" chkR="1.940812"/>
+    <P pos="134.74007 0 24.964067" w="11.544" aT="2" mtr="2"/>
+    <P pos="114.10366 0 9.345633" w="13.1961" aT="2" mtr="2"/>
+    <P pos="104.23138 0 -5.9564843" w="11.544" aT="2" mtr="2" chkR="1.9355161"/>
+    <P pos="95.28184 0 -27.198751" w="11.544" aT="2"/>
+    <P pos="84.52526 0 -49.446445" w="11.544" aT="2"/>
+    <P pos="66.241234 0 -64.55387" w="11.544" aT="2"/>
+    <P pos="46.179157 0 -66.88337" w="11.544" aT="2" chkR="2.0113041"/>
+    <P pos="27.40807 0 -54.629883" w="11.544" aT="2"/>
+    <P pos="19.250433 0 -35.547558" w="12.064883" aT="2"/>
+    <P pos="16.26275 0 -16.994484" w="13.6172085" aT="2" mtr="3"/>
+    <P pos="2.6050243 0 -3.9234452" w="14.857637" aT="2" mtr="3" chkR="1.918124"/>
+    <P pos="-16.351292 0 -2.5623353" w="11.921218" aT="2" mtr="3"/>
+    <P pos="-35.23559 0 0.05052973" w="12.433845" aT="2" mtr="2"/>
+    <P pos="-55.61001 0 11.014065" w="11.544" aT="2" mtr="2"/>
+    <P pos="-73.59855 0 26.215897" w="12.014568" aT="2" mtr="2"/>
+    <P pos="-83.45136 0 42.87052" w="16.574017" aT="2" mtr="3" chkR="1.75992"/>
+    <P pos="-74.748665 0 59.027157" w="12.915221" aT="2" mtr="3"/>
+    <P pos="-51.34045 0 63.211163" w="11.544" aT="2" mtr="2"/>
+    <P pos="-24.355722 0 65.51617" w="12.412764" aT="2" mtr="2"/>
+    <P pos="-8.304215 0 74.01498" w="13.10637" aT="2" mtr="2" chkR="1.8663639"/>
+    <P pos="-0.054475356 0 89.37103" w="12.397682" aT="2" mtr="2"/>
+    <P pos="1.6881906 0 103.97547" w="11.544" aT="2" mtr="1"/>
+    <P pos="3.3008125 0 130.30792" w="13.317628" aT="2" mtr="1"/>
+    <P pos="14.631067 0 145.46474" w="13.27795" aT="2" mtr="1" chkR="1.785188"/>
+    <P pos="36.169704 0 143.25824" w="11.544" aT="2" mtr="1"/>
+    <P pos="50.670998 0 123.89576" w="11.544" aT="2" mtr="1"/>
+    <P pos="63.570415 0 105.65745" w="12.343816" aT="2" mtr="1"/>
+</SplineRoad>
