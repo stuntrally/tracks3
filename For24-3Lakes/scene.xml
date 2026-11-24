@@ -1,7 +1,7 @@
 <scene>
-    <ver num="3401" baseTrk="For7-Blur" secEd="4360"/>
+    <ver num="3401" baseTrk="For7-Blur" secEd="4405"/>
     <car tires="0"/>
-    <start pos="80.25888 121.180176 18.833544" rot="2.0861626e-07 -1.7271987e-08 0.93611526 0.35171053" pos2="0 0 0" rot2="0 0 0 1"/>
+    <start pos="80.25888 121.18016 18.855984" rot="-0.05189705 -0.07464863 0.92623377 0.3658587" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1.4503412" gr="4"/>
     <ror2 rtx="1" col="0" d="10" a="12" h="-0.45" wx="0.6" wy="1" v="10" sc="0.9" oy="0"/>
     <sound ambient="" reverbs="Forest"/>
