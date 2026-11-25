@@ -1,0 +1,25 @@
+<SplineRoad>
+    <mtr type="1" road="River_Oil" pipe="pipeGlass"/>
+    <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
+    <mrg loop="0" skirtLen="1" skirtH="0.12" merge="1" mergeLen="180" lodPntLen="10" visDist="1000" visBehind="800"/>
+    <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1.5 5 12" iDir="-1" iChk1="1"/>
+    <stats length="341.6447" width="13.256438" height="55.1593" onTer="40.293213" pipes="0" bnkAvg="3.2388206" bnkMax="14.7863035"/>
+    <txt desc="Ugly and abandoned plant, now producing toxic waste. A serious hazard."/>
+    <adv ice="Two drives on pipe, many obstacles everywhere. Few highly banked terrain turns. Acid and oil fluids on road."/>
+    <P pos="340.20596 0 -110.19669" w="11.808736" a="0" ar="7.93896" aT="2"/>
+    <P pos="324.79062 45.02748 -101.2033" w="13.460647" onTer="0" a="0" ar="-4.0237803" aT="2"/>
+    <P pos="300.73233 36.870304 -93.38678" w="15.456311" onTer="0" a="0" ar="-9.356806" aT="2"/>
+    <P pos="285.53693 33.292942 -92.18126" w="18.206337" onTer="0" a="0" ar="-4.0114202" aT="2"/>
+    <P pos="268.0906 28.475838 -88.41443" w="17.676577" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="257.90543 22.663372 -74.13783" w="13.832335" onTer="0" a="0" ar="0" aT="2"/>
+    <P pos="227.51587 0 -48.788628" w="11.808736" a="0" ar="0" aT="2"/>
+    <P pos="211.79118 0 -48.5794" w="11.808736" aT="2"/>
+    <P pos="204.95245 0 -39.8606" w="11.808736" aT="2"/>
+    <P pos="203.92816 0 -27.708979" w="11.808736" aT="2"/>
+    <P pos="207.07928 0 -11.850723" w="11.808736" aT="2"/>
+    <P pos="217.11656 0 14.708781" w="11.808736" aT="2"/>
+    <P pos="232.86234 0 45.770756" w="11.808736" aT="2"/>
+    <P pos="224.38513 0 71.951645" w="14.2824" aT="2"/>
+    <P pos="220.722 0 105.71251" w="11.808736" aT="2"/>
+    <P pos="217.13834 0 120.23831" w="11.808736" aT="2"/>
+</SplineRoad>
