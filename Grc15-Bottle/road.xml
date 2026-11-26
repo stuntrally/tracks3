@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="517.436" lodPntLen="18.0916" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="4.0506" wsPm="4" lsPm="1" stBox="1 15.685429 24.442282" iDir="1" iChk1="5"/>
-    <stats length="1689.5425" width="17.018642" height="32.65517" onTer="100" pipes="100" bnkAvg="43.15361" bnkMax="85.07029"/>
+    <stats length="1690.7024" width="17.009947" height="32.65517" onTer="100" pipes="0" halfP="100" bnkAvg="43.1536" bnkMax="85.070335"/>
     <txt desc="Short but tricky pipe track at sunset. In shape of a plastic bottle in ocean, which should never be allowed to happen."/>
     <adv ice="Half pipes banked and changing tilt. With many obstacles inside. Has one side jump. Also slight dips in water."/>
     <P pos="-94.1885 0.955737 75.18247" w="14.170927" onTer="0" a="0" ar="10.747137" aT="2" col="0" pipe="0.50147283" mtr="2" wall="-1"/>

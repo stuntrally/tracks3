@@ -3,7 +3,7 @@
     <dim tcMul="0.06" tcW="0.123853" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2.00773" widthSteps="7" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.06" merge="1" mergeLen="651.078" lodPntLen="50.4035" visDist="320.439" visBehind="329.759"/>
     <geom colN="6" colR="3.60209" wsPm="4" lsPm="1" stBox="1 5.288 18.344" iDir="1" iChk1="128"/>
-    <stats length="23582.47" width="7.9657664" height="71.40376" onTer="50.152103" pipes="14.788858" bnkAvg="11.343263" bnkMax="89.39996"/>
+    <stats length="23582.47" width="7.9657664" height="71.40376" onTer="50.152103" pipes="7.1586766" halfP="6.9894714" bnkAvg="11.343263" bnkMax="89.39996"/>
     <txt desc="Stunt track on Yeley peninsula and its shore islands. Famous for having many loops in city center."/>
     <adv ice="Extremely long and with plenty of stunts, loops, jumps. Mostly flat. Few obstacles, easy ponds and bumps."/>
     <P pos="707.227 0 317.631" w="8.11425" aT="2" col="0"/>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3301" baseTrk="Spc1-Minerals" secEd="21613"/>
+    <ver num="3401" baseTrk="Spc1-Minerals" secEd="21615"/>
     <car tires="1" damage="0.70449173" gravity="8.535183"/>
     <start pos="-1.5046098 -91.441475 8.179357" rot="-5.289912e-07 9.536743e-07 0.9996709 0.027555622" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>

@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.0298759" tcPW="0.0645385" tcC="0.2" lenDim="2.00773" widthSteps="4" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.1" merge="1" mergeLen="1487" lodPntLen="85.3464" visDist="400" visBehind="400"/>
     <geom colN="7" colR="3.52131" wsPm="8" lsPm="1" stBox="1 8.152 18.608" iDir="-1" iChk1="218"/>
-    <stats length="18202.088" width="11.057686" height="347.8772" onTer="83.8463" pipes="38.041954" onPipe="2.9908307" bnkAvg="13.80702" bnkMax="90"/>
+    <stats length="18202.088" width="11.057686" height="347.8772" onTer="83.8463" pipes="24.628523" halfP="8.24574" onPipe="2.9908307" bnkAvg="13.80702" bnkMax="90"/>
     <txt desc="Extremely long stunt track in unidentified scenery. Has fast, glass and mirror style road. Terrain below is undrivable."/>
     <adv ice="Few levels, lots of loops, glass pipes, halfpipes, long 90° banked turns, jumps and fluids. Top base has a bumpy, slow, on pipe, glass staircase. Also slow down in blue pipes."/>
     <P pos="-214.542 302.77 114.218" w="19.656" onTer="0" a="35.505" ar="-9.12001" aT="2" col="0" mtr="-1" not="1"/>

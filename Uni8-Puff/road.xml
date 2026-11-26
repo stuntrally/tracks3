@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.0298759" tcPW="0.0645385" tcC="0.2" lenDim="2.00773" widthSteps="4" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.1" merge="1" mergeLen="1487" lodPntLen="85.3464" visDist="400" visBehind="400"/>
     <geom colN="7" colR="3.52131" wsPm="8" lsPm="1" stBox="1 8.240313 31.866987" iDir="-1" iChk1="12"/>
-    <stats length="4591.8535" width="25.501307" height="47.614655" onTer="99.19895" pipes="100" bnkAvg="6.096595" bnkMax="35.931293"/>
+    <stats length="4591.8535" width="25.501307" height="47.614655" onTer="99.19895" pipes="0" halfP="100" bnkAvg="6.096595" bnkMax="35.931293"/>
     <txt desc="Another cloud like road with icy low grip. Even more swinging to side. With occasional views and fluids."/>
     <adv ice="Almost all half pipe and constantly changing. Which forces wheeled vehicles swinging. Going fast is ulikely. Few jumps may also result."/>
     <P pos="-187.40797 18.008343 192.00146" w="21.832226" onTer="0" a="0" ar="0" aT="2" col="0" pipe="0.415764" mtr="1" wall="-1"/>

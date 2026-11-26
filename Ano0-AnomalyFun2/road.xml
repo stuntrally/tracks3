@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.0503908" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="3" colR="3.54268" wsPm="4" lsPm="1" stBox="1 5 21.8241" iDir="-1" iChk1="23"/>
-    <stats length="1886.88" width="8.12536" height="82.4074" onTer="41.325" pipes="21.6086" bnkAvg="5.49662" bnkMax="33.5"/>
+    <stats length="1886.8801" width="8.125356" height="82.40741" onTer="41.324974" pipes="18.093882" halfP="3.5147612" bnkAvg="5.49662" bnkMax="33.49997"/>
     <txt desc="Anomaly version of ShortFun with lots of glitches."/>
     <adv ice="Few oddities and strange looking things along the way. Has unusual obstacles. One loop and jump."/>
     <P pos="49.0202 0 -157.962" w="7.624" aT="2" mtr="3"/>

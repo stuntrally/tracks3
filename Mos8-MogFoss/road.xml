@@ -3,7 +3,7 @@
     <dim tcMul="0.06" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="5" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.06" merge="1" mergeLen="992.333" lodPntLen="50.4035" visDist="1305.17" visBehind="305.929"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.656 23.94" iDir="-1" iChk1="520"/>
-    <stats length="21115.39" width="11.597944" height="333.94135" onTer="38.31569" pipes="17.60909" bnkAvg="8.29071" bnkMax="87.06002"/>
+    <stats length="21115.39" width="11.597944" height="333.94135" onTer="38.31569" pipes="7.11291" halfP="10.382487" bnkAvg="8.29071" bnkMax="87.06002"/>
     <txt desc="A long and beautiful track at sunset with a big waterfall. Set in misty, rocky, moss environment, with thick layer of ground fog."/>
     <adv ice="Medium difficult, long, road. A few bumps, partly underwater (needs boost) and with narrow canyons and caves. Slow down in the pipe down the mountain and drive carefully through the waterfall."/>
     <P pos="-634.13 0 760.69" w="9.944" aT="2" chkR="1.572"/>

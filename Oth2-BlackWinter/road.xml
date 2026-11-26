@@ -3,7 +3,7 @@
     <dim tcMul="0.0716314" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 14.2081" iDir="-1" iChk1="0"/>
-    <stats length="3774.9712" width="9.171143" height="111.47091" onTer="65.11534" pipes="34.62401" bnkAvg="22.014292" bnkMax="86.69999"/>
+    <stats length="3774.9712" width="9.171143" height="111.47091" onTer="65.11534" pipes="11.077687" halfP="18.21726" bnkAvg="22.014292" bnkMax="86.69999"/>
     <txt desc="Winding, tricky stunt track on black desert in winter. Colorless and rather empty."/>
     <adv ice="Requires accurate driving in very banked bridges. Keep control, especially in high hang overs. Go slowly in the right line to stay on road, damage free."/>
     <P pos="86.2718 0 38.9917" w="9.544" a="0" ar="0" aT="2" mtr="1" chkR="1"/>

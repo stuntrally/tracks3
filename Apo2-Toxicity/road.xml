@@ -3,7 +3,7 @@
     <dim tcMul="0.15" tcW="0.352258" tcP="0.1" tcPW="0.3" tcC="0.135868" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="600" lodPntLen="30" visDist="600" visBehind="400"/>
     <geom colN="6" colR="2" wsPm="4" lsPm="1" stBox="1 6.16799 17.3281" iDir="1" iChk1="228"/>
-    <stats length="2933.5144" width="9.000771" height="16.668001" onTer="0.86578375" pipes="5.5456347" bnkAvg="5.917092" bnkMax="28.63361"/>
+    <stats length="2933.5144" width="9.000771" height="16.668001" onTer="0.86578375" pipes="0" halfP="5.5456347" bnkAvg="5.917092" bnkMax="28.63361"/>
     <txt desc="Ruined city by toxic waste and oil. Very ugly."/>
     <adv ice="Banked square turns and lots of terrain bumps on straights. Few half pipe passes."/>
     <P pos="93.51981 0 16.191124" w="8.996608" aT="2"/>

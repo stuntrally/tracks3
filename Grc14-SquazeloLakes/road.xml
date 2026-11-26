@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="120" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5 11.848" iDir="1" iChk1="2"/>
-    <stats length="3253.496" width="7.9627013" height="32.93768" onTer="26.552368" pipes="10.480875" bnkAvg="9.418259" bnkMax="63.3599"/>
+    <stats length="3253.496" width="7.9627013" height="32.93768" onTer="26.552368" pipes="9.093917" halfP="1.3869576" bnkAvg="9.418259" bnkMax="63.3599"/>
     <txt desc="Track around Squazelo Lakes in mysterious Greece scenery. With few dark dust clouds."/>
     <adv ice="Has few slow turns, twists, and short bridges, some with small pipes."/>
     <P pos="-179.404 0 -193.099" w="7" aT="2" chkR="1.264"/>

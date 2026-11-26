@@ -3,7 +3,7 @@
     <dim tcMul="0.15" tcW="0.352258" tcP="0.1" tcPW="0.3" tcC="0.135868" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="600" lodPntLen="30" visDist="600" visBehind="400"/>
     <geom colN="6" colR="2" wsPm="4" lsPm="1" stBox="1 6.16799 17.3281" iDir="1" iChk1="67"/>
-    <stats length="19129.2" width="8.75862" height="117.526" onTer="64.5646" pipes="20.2218" bnkAvg="14.872" bnkMax="90"/>
+    <stats length="19129.242" width="8.758623" height="117.52624" onTer="64.56464" pipes="11.86488" halfP="8.130396" bnkAvg="14.87199" bnkMax="90"/>
     <txt desc="A crazy ultimately challenging, extremely long track, that goes a lot through Oil. Heavily banked with many jumps and a spaghetti type road. Easy to loose direction, driving aids needed."/>
     <adv ice="Be careful in the Oil, you don&apos;t see what is hiding in there. There could be objects and even obstacles. Also White road / pipes mean caution, tricky."/>
     <P pos="124.14 0 -236.034" w="10.16" aT="2" mtr="2"/>

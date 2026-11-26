@@ -3,7 +3,7 @@
     <dim tcMul="0.0588188" tcW="0.144536" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="120" lodPntLen="15" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3.26446" wsPm="4" lsPm="1" stBox="1 6.93199 19.3761" iDir="1" iChk1="0"/>
-    <stats length="2985.7097" width="11.946941" height="61.176903" onTer="72.48719" pipes="60.733517" bnkAvg="17.619452" bnkMax="53.71473"/>
+    <stats length="2985.7097" width="11.946941" height="61.176903" onTer="72.48719" pipes="16.10245" halfP="42.979717" bnkAvg="17.619452" bnkMax="53.71473"/>
     <txt desc="Winding road on dark crystal moon in mysteriously colored fog."/>
     <adv ice="Partly half-pipe, with few obstacles, U-turns, surprise jumps and twists."/>
     <P pos="162.023 0 -26.0452" w="8.63757" aT="2" chkR="1.404"/>

@@ -3,7 +3,7 @@
     <dim tcMul="0.06" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="5" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.3" skirtH="0.06" merge="1" mergeLen="1014.28" lodPntLen="50.4035" visDist="1100" visBehind="600"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.288 19.38" iDir="-1" iChk1="45"/>
-    <stats length="15971.4" width="10.0241" height="380.469" onTer="34.155" pipes="7.19701" onPipe="4.00218" bnkAvg="11.151" bnkMax="88.9801"/>
+    <stats length="15971.441" width="10.024094" height="380.46948" onTer="34.154953" pipes="0" halfP="3.1948307" onPipe="4.002183" bnkAvg="11.150988" bnkMax="88.980095"/>
     <txt desc="Beautiful long and track in a marble canyon with some moss on top. It takes less than a minute from the highest to the lowest point."/>
     <adv ice="Caution: Tricky. Heavily banked and natural road with some bridges, few jumps, 2 loops (1 on pipe) and pipes. It goes a lot up and down, very steep and with a sudden scarp."/>
     <P pos="-295.494 0 228.257" w="20.728" aT="2"/>

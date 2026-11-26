@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="1252.7103" lodPntLen="99.68497" visDist="580.8" visBehind="389.0795"/>
     <geom colN="6" colR="2.921518" wsPm="4" lsPm="1" stBox="1 5 19.321123" iDir="1" iChk1="76"/>
-    <stats length="6415.9937" width="13.801384" height="237.25984" onTer="58.847843" pipes="58.480453" onPipe="4.628058" bnkAvg="8.789966" bnkMax="66.84113"/>
+    <stats length="6440.236" width="13.761064" height="237.25984" onTer="58.636753" pipes="29.468912" halfP="14.973921" onPipe="4.965044" bnkAvg="8.789879" bnkMax="66.84113"/>
     <txt desc="Drive around beautiful jungle location and in pipes winding on the huge tree."/>
     <adv ice="Has 3 wide pipe loops. One on-pipe drive at top. Some banked or steep half-pipes. Rest is wide and easy on terrain."/>
     <P pos="16.93693 161.48993 -33.224533" w="15.454003" onTer="0" a="0" ar="6.815161" aT="2" col="0" pipe="1" wall="-1"/>

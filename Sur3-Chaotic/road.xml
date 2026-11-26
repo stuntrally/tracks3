@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.30919892" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.4" skirtH="0.12" merge="1" mergeLen="400" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="5" colR="2.5" wsPm="4" lsPm="1" stBox="1 4.824 20.748" iDir="-1" iChk1="33"/>
-    <stats length="2174.1174" width="8.507082" height="102.5914" onTer="60.99022" pipes="31.234688" bnkAvg="18.868422" bnkMax="84.300095"/>
+    <stats length="2174.1174" width="8.507082" height="102.5914" onTer="60.99022" pipes="19.013704" halfP="12.220983" bnkAvg="18.868422" bnkMax="84.300095"/>
     <txt desc="Short track in a funny, random scenery."/>
     <adv ice="Contains a lot of different objects, from skyscrapers, Alien buildings to everything. Twisted road with one bad camber turn."/>
     <P pos="151.928 79.4062 10.9393" w="7" onTer="0" a="0" ar="-62.9399" aT="2" mtr="1"/>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="Grc2-Coast" secEd="49005"/>
+    <ver num="3401" baseTrk="Grc2-Coast" secEd="49008"/>
     <car tires="0"/>
     <start pos="-215.311 172.523 2.87148" rot="0.0106237 -0.000670277 -0.932316 0.36154" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>

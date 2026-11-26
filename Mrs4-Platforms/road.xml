@@ -3,7 +3,7 @@
     <dim tcMul="0.0672477" tcW="0.2" tcP="0.0814918" tcPW="0.3" tcC="0.2" lenDim="1.62806" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.4" skirtH="0.12" merge="1" mergeLen="755.012" lodPntLen="21.2207" visDist="1000" visBehind="800"/>
     <geom colN="5" colR="3.08638" wsPm="4.98257" lsPm="1" stBox="1 5.8258 25.152" iDir="1" iChk1="141"/>
-    <stats length="8462.8125" width="11.600075" height="152.10182" onTer="89.48252" pipes="52.853573" onPipe="8.236139" bnkAvg="4.621212" bnkMax="57.419994"/>
+    <stats length="8462.8125" width="11.600075" height="152.10182" onTer="89.48252" pipes="31.679388" halfP="12.938051" onPipe="8.236139" bnkAvg="4.621212" bnkMax="57.419994"/>
     <txt desc="A long, mostly fast, stunt track on Mars at sunset. Partly slow and tricky."/>
     <adv ice="Has 2 difficult series of 3 continuous jumps (ideal at 120 km/h / 74 mph), bridges, pipes, halfpipes and on-pipe drives in middle."/>
     <P pos="-124.202 77.9042 145.205" w="10.2" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" mtr="2"/>

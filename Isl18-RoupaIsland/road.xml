@@ -3,7 +3,7 @@
     <dim tcMul="0.0696336" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="9" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.96 18.7404" iDir="1" iChk1="1"/>
-    <stats length="2953.5383" width="7.2842507" height="65.07543" onTer="84.006485" pipes="34.12571" bnkAvg="16.949345" bnkMax="87.43998"/>
+    <stats length="2953.5383" width="7.2842507" height="65.07543" onTer="84.006485" pipes="24.61929" halfP="5.6984744" bnkAvg="16.949345" bnkMax="87.43998"/>
     <txt desc="Compact stunt area on Roupa island."/>
     <adv ice="Has few challenging jumps and twisted bridges."/>
     <P pos="-9.3355 0 -143.668" w="7" a="0" ar="0" aT="2" chkR="1.156"/>

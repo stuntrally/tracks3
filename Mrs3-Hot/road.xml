@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.4" skirtH="0.12" merge="1" mergeLen="1200" lodPntLen="80" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 6.136 24.812" iDir="-1" iChk1="14"/>
-    <stats length="1310.6562" width="9.791687" height="51.11178" onTer="12.684759" pipes="8.838073" onPipe="8.838073" bnkAvg="17.167606" bnkMax="44.18847"/>
+    <stats length="1310.6562" width="9.791687" height="51.11178" onTer="12.684759" pipes="0" onPipe="8.838073" bnkAvg="17.167606" bnkMax="44.18847"/>
     <txt desc="Easy, short Mars track. Warning: intense color."/>
     <adv ice="With banked road and short on-pipe bridge."/>
     <P pos="61.2337 0 52.2461" w="16.08" a="-19.14" ar="-5.58" aT="2" col="0"/>

@@ -3,7 +3,7 @@
     <dim tcMul="0.0576519" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="516.139" lodPntLen="14.987" visDist="1000" visBehind="800"/>
     <geom colN="8" colR="2.88229" wsPm="4" lsPm="1" stBox="1 10.996 20.9761" iDir="-1" iChk1="49"/>
-    <stats length="9437.88" width="9.154289" height="198.34468" onTer="47.64104" pipes="22.566235" bnkAvg="18.01202" bnkMax="89.580345"/>
+    <stats length="9437.88" width="9.154289" height="198.34468" onTer="47.64104" pipes="18.652735" halfP="3.9134994" bnkAvg="18.01202" bnkMax="89.580345"/>
     <txt desc="Long, winding road in a red canyon."/>
     <adv ice="Banked waving bridges and pipes. Beware of obstacles."/>
     <P pos="-99.4853 60.4456 35.0964" w="10.224" onTer="0" a="0" ar="84.7802" aT="2" col="0" pipe="1" mtr="2"/>

@@ -3,7 +3,7 @@
     <dim tcMul="0.0658105" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1.42931" widthSteps="6" heightOfs="0.1"/>
     <mrg loop="1" skirtLen="0.4" skirtH="0.12" merge="1" mergeLen="809.994" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2.39684" wsPm="4" lsPm="1" stBox="1 5.552 20.748" iDir="1" iChk1="105"/>
-    <stats length="7947.119" width="11.963911" height="96.89693" onTer="65.97948" pipes="53.761818" bnkAvg="10.361331" bnkMax="82.71104"/>
+    <stats length="7947.119" width="11.963911" height="96.89693" onTer="65.97948" pipes="28.291187" halfP="25.010475" bnkAvg="10.361331" bnkMax="82.71104"/>
     <txt desc="An oasis with clear, greenhouse, glass pipe installations above. Near water reserve, hidden in rocky desert landscape."/>
     <adv ice="Long pipe stunt track with few jumps and many loops. Two are open on top, keep speed, be in middle and don&apos;t worry. Slow down in yellow pipe sections."/>
     <P pos="54.3335 0 88.7492" w="8.608" aT="2" col="0" mtr="2"/>

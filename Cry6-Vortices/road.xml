@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.025" tcPW="0.05" tcC="0.10051231" lenDim="2.00773" widthSteps="4" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.1" merge="1" mergeLen="1487" lodPntLen="85.3464" visDist="400" visBehind="400"/>
     <geom colN="8" colR="5.5778103" wsPm="8" lsPm="1" stBox="1 27.179739 45.20936" iDir="-1" iChk1="81"/>
-    <stats length="3569.5288" width="25.146957" height="106.495316" onTer="95.38072" pipes="66.85627" onPipe="32.288204" bnkAvg="30.119024" bnkMax="85.2953"/>
+    <stats length="3562.3906" width="25.159525" height="106.495316" onTer="95.37147" pipes="0" halfP="34.4398" onPipe="32.3529" bnkAvg="30.119024" bnkMax="85.2953"/>
     <txt desc="Interesting crystal scenery with parts melting in lava."/>
     <adv ice="Has 3 spiraling vortices. On pipe, half pipe and banked bridge. Connected with jumps."/>
     <P pos="-309.7816 0 -3.8206553" w="15.345849" aT="2" col="0" chkR="1"/>

@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="W13-MtFog" secEd="8248"/>
+    <ver num="3401" baseTrk="W13-MtFog" secEd="8251"/>
     <car tires="0"/>
     <start pos="195.963 -12.9837 12.4352" rot="-0.006911 -0.02307 -0.975282 -0.219786" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>

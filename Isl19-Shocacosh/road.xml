@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.15" lenDim="2" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.03" merge="1" mergeLen="1200" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.5" wsPm="4" lsPm="1" stBox="1 6.14 19.26" iDir="1" iChk1="2"/>
-    <stats length="8238.743" width="7.1370344" height="146.41399" onTer="61.951637" pipes="29.433224" bnkAvg="18.425116" bnkMax="89.6401"/>
+    <stats length="8238.743" width="7.1370344" height="146.41399" onTer="61.951637" pipes="17.077288" halfP="10.484555" bnkAvg="18.425116" bnkMax="89.6401"/>
     <txt desc="Shocacosh tropical stunt track. Very difficult, having narrow bands of feasible speeds and directions everywhere. Good luck and enjoy."/>
     <adv ice="Dense winding road with many jumps, narrow caves, some pipes, loops and bad camber sections. Knowing the road and practice are key to driving well."/>
     <P pos="392.412 0 173.834" w="7" aT="2" mtr="1"/>

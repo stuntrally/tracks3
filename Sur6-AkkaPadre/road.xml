@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.01" merge="1" mergeLen="1129.85" lodPntLen="41.2326" visDist="540.886" visBehind="391.849"/>
     <geom colN="6" colR="2.64975" wsPm="4" lsPm="1" stBox="1 6.2 17.916" iDir="1" iChk1="6"/>
-    <stats length="12692.18" width="7.917446" height="316.1196" onTer="48.826904" pipes="25.966219" bnkAvg="13.27284" bnkMax="89.724464"/>
+    <stats length="12692.18" width="7.917446" height="316.1196" onTer="48.826904" pipes="17.729654" halfP="6.8835735" bnkAvg="13.27284" bnkMax="89.724464"/>
     <txt desc="Padre stretch of newly discovered, brownish, inhabited exoplanet AKKA, 6 lightyears away, circling around a red dwarf. Great terrain with amazing caves."/>
     <adv ice="Long and challenging track. Gravity is about 90% of Earth. Be cautious to not fall off. There is a big drop on top and few loops."/>
     <P pos="158.063 0 489.306" w="8.232" aT="2" col="0" chkR="1.888"/>

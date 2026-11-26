@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="Spc1-Minerals2" secEd="80595"/>
+    <ver num="3401" baseTrk="Spc1-Minerals2" secEd="80599"/>
     <car tires="1" damage="0.147239" needLights="1" gravity="7.6"/>
     <start pos="136.337 -658.391 227.684" rot="7.15256e-07 0.0608219 4.54485e-07 0.99815" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>
@@ -9,7 +9,7 @@
     <fog color="0.767 0.717 0.144 0.177 0.188" color2="0.539 0.653 0.131 0.224 0.126" linStart="74.4522" linEnd="1301.39"/>
     <fogH color="0.593 0.767 0.169 0.280 0.310" height="235" dens="106.211" linStart="0" linEnd="21.4031"/>
     <light pitch="31" yaw="150" ambient="0.610 0.707 0.502 0.280 0.000" diffuse="0.612 0.306 0.893 0.280 0.645" specular="0.486 0.907 2.805 0.280 1.000"/>
-    <wind ofs="0" amp="0.0" fq="0.4" yaw="0.2"/>
+    <wind ofs="0" amp="0" fq="0.4" yaw="0.2"/>
     <fluids>
         <fluid hq="2" name="liquid gas space" pos="215.972 126.857 79.9078" rot="0 0 0" size="17040.418 20 17031.055" tile="0.01 0.01"/>
     </fluids>

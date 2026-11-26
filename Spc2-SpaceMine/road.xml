@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="911.111" lodPntLen="19.8619" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3.43052" wsPm="4" lsPm="1" stBox="1 5.33599 16.8001" iDir="-1" iChk1="130"/>
-    <stats length="8524.59" width="8.12965" height="149.072" onTer="49.5916" pipes="34.0495" bnkAvg="7.94491" bnkMax="44.0999"/>
+    <stats length="8524.59" width="8.129654" height="149.07193" onTer="49.591644" pipes="34.049522" bnkAvg="7.9449067" bnkMax="44.09991"/>
     <txt desc="Long, winding asphalt road trough a large, mining facility in space."/>
     <adv ice="With few levels, some banked turns, uneven pipes, and narrow sections close to buildings."/>
     <P pos="79.679 183.964 -5.92665" w="7" onTer="0" a="0" ar="0" aT="2" pipe="1" mtr="2"/>

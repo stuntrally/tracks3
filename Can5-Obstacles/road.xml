@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="131.556" lodPntLen="13.7877" visDist="1000" visBehind="800"/>
     <geom colN="5" colR="2.37352" wsPm="4" lsPm="1" stBox="1 20.04 16.5761" iDir="-1" iChk1="88"/>
-    <stats length="4362.442" width="10.790148" height="100.97904" onTer="92.57343" pipes="85.15885" bnkAvg="6.2460103" bnkMax="78.66007"/>
+    <stats length="4362.442" width="10.790148" height="100.97904" onTer="92.57343" pipes="77.53039" halfP="7.628455" bnkAvg="6.2460103" bnkMax="78.66007"/>
     <txt desc="An almost all-pipe track in a canyon."/>
     <adv ice="Watch out for various obstacles, especially the twisted ones, which are really tricky sometimes."/>
     <P pos="-26.7571 65.8596 157.587" w="10.256" onTer="0" a="0" ar="0" aT="2" col="0" pipe="1" wall="-1" chkR="1"/>

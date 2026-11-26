@@ -3,7 +3,7 @@
     <dim tcMul="0.0693002" tcW="0.130789" tcP="0.01" tcPW="0.039687" tcC="0.0390873" lenDim="2.04639" widthSteps="4" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.1" skirtH="0.05" merge="1" mergeLen="2400" lodPntLen="60.1729" visDist="600" visBehind="600"/>
     <geom colN="6" colR="2.50635" wsPm="4" lsPm="1.4702" stBox="1 6.72801 16.144" iDir="1" iChk1="4"/>
-    <stats length="21747.186" width="8.542758" height="1411.2595" onTer="77.06462" pipes="26.741028" bnkAvg="9.8676" bnkMax="89.87805"/>
+    <stats length="21747.186" width="8.542758" height="1411.2595" onTer="77.06462" pipes="25.956594" halfP="0.7844379" bnkAvg="9.8676" bnkMax="89.87805"/>
     <txt desc="Extremely long mountain track. Starting at sea level with a beach drive. Going high up into the mountains and ending with a descend through the valley, passing by two villages and few cave tunnels along the way."/>
     <adv ice="Has very high altitude differences, spiraling hill climbs and few glass lookouts."/>
     <P pos="-681.357 -58.0972 646.233" w="7.64" onTer="0" a="0" ar="0" aT="2" col="0"/>

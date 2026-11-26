@@ -1,5 +1,5 @@
 <scene>
-    <ver num="3203" baseTrk="Aus5-TopTwist" secEd="1611"/>
+    <ver num="3401" baseTrk="Aus5-TopTwist" secEd="1613"/>
     <car tires="0"/>
     <start pos="35.9547 -26.3962 -10.0351" rot="-0.011207 -0.009004 -0.779481 0.626279" pos2="0 0 0" rot2="0 0 0 1"/>
     <ror1 aA="0.1" lA="1.6" lD="1.6" lS="0.9" fg="1" wtr="0" yW="-0.8" tr="1" gr="4"/>

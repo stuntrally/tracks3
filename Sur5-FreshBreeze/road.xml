@@ -3,7 +3,7 @@
     <dim tcMul="0.0877977" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="903.682" lodPntLen="90.4161" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="3.515" wsPm="4" lsPm="1" stBox="1 5 13.26" iDir="1" iChk1="11"/>
-    <stats length="8022.3955" width="13.716037" height="198.25081" onTer="56.799953" pipes="36.869984" onPipe="1.6509032" bnkAvg="7.5961123" bnkMax="61.80232"/>
+    <stats length="8022.3955" width="13.716037" height="198.25081" onTer="56.799953" pipes="3.0484536" halfP="30.539185" onPipe="1.6509032" bnkAvg="7.5961123" bnkMax="61.80232"/>
     <txt desc="Completely surreal space madness. Caution: intense colors."/>
     <adv ice="Long winding road on bumpy terrain and in fast halfpipes. Has few obstacles. Includes a hillclimb. Partly on flat ice."/>
     <P pos="439.604 0 25.2484" w="7.04" aT="2" mtr="3"/>

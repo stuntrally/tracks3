@@ -3,7 +3,7 @@
     <dim tcMul="0.1" tcW="0.2" tcP="0.1" tcPW="0.0564764" tcC="0.2" lenDim="1" widthSteps="8" heightOfs="0.1"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="600" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="5" colR="2.11402" wsPm="4" lsPm="1" stBox="1 5 14.416" iDir="-1" iChk1="29"/>
-    <stats length="6146.2646" width="8.743474" height="204.92453" onTer="60.34623" pipes="45.310616" bnkAvg="16.149796" bnkMax="90"/>
+    <stats length="6146.2646" width="8.743474" height="204.92453" onTer="60.34623" pipes="39.673077" halfP="3.8246653" bnkAvg="16.149796" bnkMax="90"/>
     <txt desc="Strange blue winter forest with crystal road."/>
     <adv ice="Fast straights and easy pipes. Has 3 highly banked, vertical road passages."/>
     <P pos="-112.676 -0.0924801 39.7633" w="10.304" onTer="0" a="0" ar="7.74" aT="2"/>

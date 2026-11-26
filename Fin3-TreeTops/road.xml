@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="800" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 4.972 18.368" iDir="1" iChk1="36"/>
-    <stats length="9088.167" width="8.961309" height="86.7305" onTer="74.25272" pipes="58.711796" bnkAvg="11.326573" bnkMax="77.75321"/>
+    <stats length="9088.167" width="8.961309" height="86.7305" onTer="74.25272" pipes="14.917464" halfP="43.46057" bnkAvg="11.326573" bnkMax="77.75321"/>
     <txt desc="A track at night with pipes, trees and some snow in Finland scenery."/>
     <adv ice="These pipes aren&apos;t just winding, they go through trees."/>
     <P pos="-52.32 27.5525 -177.931" w="8.28" onTer="0" a="0" ar="29.58" aT="2" col="0" pipe="1"/>

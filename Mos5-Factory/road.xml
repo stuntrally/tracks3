@@ -3,7 +3,7 @@
     <dim tcMul="0.06" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.1" merge="1" mergeLen="1214.78" lodPntLen="36.7862" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="1.82158" wsPm="4" lsPm="1" stBox="1 5.288 13.816" iDir="-1" iChk1="148"/>
-    <stats length="5045.6475" width="13.09967" height="100.74977" onTer="84.89163" pipes="23.23431" onPipe="2.5611608" bnkAvg="12.843155" bnkMax="90"/>
+    <stats length="5045.6475" width="13.09967" height="100.74977" onTer="84.89163" pipes="13.061076" halfP="7.6120777" onPipe="2.5611608" bnkAvg="12.843155" bnkMax="90"/>
     <txt desc="Very difficult and tricky track with all kinds of stunts. Caution: crazy! Only for professional stunt drivers."/>
     <adv ice="Partly very slow. Has everyting: twisted narrow pipes, long jumps, short continuous jumps, vertical turn, loops, fluid ponds, obstacles, half pipe and short on pipe sections."/>
     <P pos="-66.809 55.6402 78.1039" w="9.1116" onTer="0" a="0" ar="0" aT="2" col="0" mtr="2" chkR="1"/>

@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.064 16.352" iDir="-1" iChk1="2"/>
-    <stats length="2137.0173" width="7.0989413" height="66.253494" onTer="44.815796" pipes="12.290147" bnkAvg="6.4962664" bnkMax="41.759964"/>
+    <stats length="2137.0173" width="7.0989413" height="66.253494" onTer="44.815796" pipes="6.6738405" bnkAvg="6.4962664" bnkMax="41.759964"/>
     <txt desc="Dark rainy weather at dusk through heavily forested canyons."/>
     <adv ice="Narrow winding road. With short jump."/>
     <P pos="36.3649 0 -143.831" w="7" aT="2"/>

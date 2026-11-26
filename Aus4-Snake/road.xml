@@ -3,7 +3,7 @@
     <dim tcMul="0.08" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.4" skirtH="0.1" merge="1" mergeLen="400" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="4.40849" wsPm="4" lsPm="1" stBox="1 13.856 21.084" iDir="-1" iChk1="41"/>
-    <stats length="2383.2322" width="16.39446" height="58.871353" onTer="100" pipes="100" bnkAvg="11.525707" bnkMax="58.85917"/>
+    <stats length="2383.2322" width="16.39446" height="58.871353" onTer="100" pipes="12.558718" halfP="87.44129" bnkAvg="11.525707" bnkMax="58.85917"/>
     <txt desc="Half pipe, snake shaped track."/>
     <adv ice="Very winding and curly. When in doubt slow down and keep in middle."/>
     <P pos="88.9417 25.2207 -66.047" w="14.344" onTer="0" a="30" ar="0" aT="2" col="0" pipe="0.504" mtr="1" wall="-1"/>

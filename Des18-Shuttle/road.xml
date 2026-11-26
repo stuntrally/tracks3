@@ -3,7 +3,7 @@
     <dim tcMul="0.0650965" tcW="0.219228" tcP="0.2" tcPW="0.217202" tcC="0.164421" lenDim="1" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="400" lodPntLen="20" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.32758" wsPm="4" lsPm="1" stBox="1 10.028 23.8201" iDir="1" iChk1="29"/>
-    <stats length="3872.8762" width="7.408445" height="117.03749" onTer="66.8772" pipes="21.730776" bnkAvg="21.592962" bnkMax="90"/>
+    <stats length="3872.8762" width="7.408445" height="117.03749" onTer="66.8772" pipes="16.854086" bnkAvg="21.59302" bnkMax="90"/>
     <txt desc="Tricky track in interesting desert terrain."/>
     <adv ice="With 90° banked turns, one narrow with no side walls (yellow). Has a couple of stunts."/>
     <P pos="143.892 -3.58841 -82.3783" w="7" onTer="0" a="0" ar="0" aT="2" chkR="1" ckL="1"/>

@@ -3,7 +3,7 @@
     <dim tcMul="0.0650965" tcW="0.156378" tcP="0.0508341" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="720.96" lodPntLen="36.8094" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.82091" wsPm="8" lsPm="1.53229" stBox="1 14.336 29.4518" iDir="-1" iChk1="178"/>
-    <stats length="6163.7373" width="13.953741" height="136.62392" onTer="78.61094" pipes="35.873974" onPipe="17.477425" bnkAvg="17.666388" bnkMax="87.54002"/>
+    <stats length="6163.7373" width="13.953741" height="136.62392" onTer="78.61094" pipes="5.1673064" halfP="13.229236" onPipe="17.477425" bnkAvg="17.666388" bnkMax="87.54002"/>
     <txt desc="Extremely difficult track. Unique dark from black sun, ambient fog and heavy specular."/>
     <adv ice="Very tricky and twisted. Has also an on-pipe loop, be in center and keep speed, to not fall off. Caution! crazy obstacles, avoid damage."/>
     <P pos="-252.956 0 -94.1289" w="9.336" aT="2" chkR="1.364"/>

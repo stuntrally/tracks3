@@ -3,7 +3,7 @@
     <dim tcMul="0.118026" tcW="0.200628" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="80" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.33599 13.1521" iDir="-1" iChk1="113"/>
-    <stats length="3629.49" width="8.62255" height="92.7141" onTer="13.6492" pipes="0" bnkAvg="5.84179" bnkMax="31.2992"/>
+    <stats length="3629.4856" width="8.622553" height="92.71413" onTer="13.649233" pipes="0" bnkAvg="5.8417854" bnkMax="31.299232"/>
     <txt desc="Short curvy track full of flowers in the middle of spring."/>
     <adv ice="Slow down before and over wooden bridges."/>
     <P pos="-8.05872 0 126.546" w="8.312" aT="2" col="0"/>

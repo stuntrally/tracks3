@@ -3,7 +3,7 @@
     <dim tcMul="0.0658105" tcW="0.2" tcP="0.049436864" tcPW="0.3" tcC="0.2" lenDim="1.31547" widthSteps="6" heightOfs="0.1"/>
     <mrg loop="1" skirtLen="0.4" skirtH="0.12" merge="1" mergeLen="1500.07" lodPntLen="99.9245" visDist="1556.744" visBehind="856.0786"/>
     <geom colN="6" colR="2.41989" wsPm="4.9679737" lsPm="1" stBox="1 7.337728 25.933695" iDir="1" iChk1="84"/>
-    <stats length="9994.569" width="13.683682" height="297.52032" onTer="88.24379" pipes="35.26486" onPipe="3.7529097" bnkAvg="4.863504" bnkMax="79.36094"/>
+    <stats length="9994.569" width="13.683682" height="297.52032" onTer="88.24379" pipes="16.347252" halfP="10.471728" onPipe="3.7529097" bnkAvg="4.863504" bnkMax="79.36094"/>
     <txt desc="Many islands of various biomes, floating in air. Great views. Main with buildings and water. Others with desert dunes, mountains, volcanic rock, slow ice and acid pool to go fast through."/>
     <adv ice="Few jumps and 2 loops. Many obstacles on straight roads. Few small puddles and easy fluids. Caution: many disturbing &quot;magnetic&quot; fields, pushing vehicle or antigravity. Also bad teleporters: used by locals to travel here, but to avoid in race."/>
     <P pos="150.41519 -177.81908 -147.71956" w="8.5992155" onTer="0" a="0" ar="20.729706" aT="2" col="0"/>

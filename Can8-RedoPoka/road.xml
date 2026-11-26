@@ -3,7 +3,7 @@
     <dim tcMul="0.0679848" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0" skirtH="0.06" merge="1" mergeLen="1328.11" lodPntLen="35.8398" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2" wsPm="4" lsPm="1" stBox="1 5.064 16.352" iDir="1" iChk1="0"/>
-    <stats length="9300.671" width="6.947907" height="471.1045" onTer="45.53012" pipes="11.952398" bnkAvg="9.514408" bnkMax="87.534225"/>
+    <stats length="9300.671" width="6.947907" height="471.1045" onTer="45.53012" pipes="5.0713005" halfP="5.0629916" bnkAvg="9.514408" bnkMax="87.534225"/>
     <txt desc="Redo Poka desert canyons disappearing into the sea. Mountainous track."/>
     <adv ice="Steep slopes, hill climbs and many sharp turns. Has few bridges and narrow sections."/>
     <P pos="-114.541 0 -754.379" w="7" aT="2" col="0" mtr="2" chkR="1.464"/>

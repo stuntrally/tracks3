@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.2" tcP="0.13988726" tcPW="0.3" tcC="0.2" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="1" skirtH="0.12" merge="1" mergeLen="701.235" lodPntLen="10" visDist="1000" visBehind="800"/>
     <geom colN="6" colR="2.5536656" wsPm="4" lsPm="1" stBox="1 5.58799 22.2081" iDir="1" iChk1="645"/>
-    <stats length="15959.7705" width="7.873137" height="145.17274" onTer="63.453293" pipes="25.519089" onPipe="5.8134956" bnkAvg="15.794195" bnkMax="90"/>
+    <stats length="15959.7705" width="7.873137" height="145.17274" onTer="63.453293" pipes="11.286597" halfP="8.418983" onPipe="5.8134956" bnkAvg="15.794195" bnkMax="90"/>
     <txt desc="An old and abandoned mine turned into an ultimate stunt track. At the bottom there are larger acid pools, which are left overs from mining activities. 16 km pure frenzyness. Warning: extremely difficult and curvy."/>
     <adv ice="Avoid taking damage whereever you can. You are driving in acid and then there is even a green mineral close at the bottom, which is a bit damaging."/>
     <P pos="403.91 0 -311.741" w="7" aT="2" col="0" chkR="1.668"/>

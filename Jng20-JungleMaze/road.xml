@@ -3,7 +3,7 @@
     <dim tcMul="0.05" tcW="0.2" tcP="0.1" tcPW="0.3" tcC="0.1" lenDim="2" widthSteps="6" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.02" skirtH="0.02" merge="1" mergeLen="1200" lodPntLen="60" visDist="1000" visBehind="800"/>
     <geom colN="4" colR="2.5" wsPm="4" lsPm="1" stBox="1 6.70405 16.576" iDir="-1" iChk1="179"/>
-    <stats length="7160.5566" width="9.268873" height="151.76624" onTer="46.300694" pipes="4.849003" bnkAvg="5.6647267" bnkMax="65.60929"/>
+    <stats length="7160.5566" width="9.268873" height="151.76624" onTer="46.300694" pipes="0" halfP="4.849003" bnkAvg="5.6647267" bnkMax="65.60929"/>
     <txt desc="Long winding track on high, black jungle mountains. With drive through ancient temples in the middle."/>
     <adv ice="Tops connected with suspended bridges. Turns sometimes unguarded, don&apos;t fall off. Some well banked."/>
     <P pos="240.255 78.7595 -242.889" w="8.976" onTer="0" a="0" ar="2.82" aT="2" mtr="2"/>
