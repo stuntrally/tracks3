@@ -3,7 +3,7 @@
     <dim tcMul="0.06701461" tcW="0.071094215" tcP="0.028896354" tcPW="0.31917217" tcC="0.15" lenDim="2" widthSteps="8" heightOfs="0.06"/>
     <mrg loop="1" skirtLen="0.2" skirtH="0.03" merge="1" mergeLen="1200" lodPntLen="40" visDist="1000" visBehind="800"/>
     <geom colN="8" colR="3.0634289" wsPm="4" lsPm="1" stBox="1 6.14 23.537666" iDir="-1" iChk1="493"/>
-    <stats length="13383.105" width="13.348395" height="233.6621" onTer="80.04091" pipes="26.326408" halfP="6.92721" onPipe="8.91929" bnkAvg="2.9045317" bnkMax="39.120018"/>
+    <stats length="13383.105" width="13.348395" height="233.6621" onTer="80.04091" pipes="26.102484" halfP="7.1511364" onPipe="8.91929" bnkAvg="2.9120924" bnkMax="39.120018"/>
     <txt desc="Massive fortress standing among islands. With many levels and view points. Lots of loose objects near road and few obstacles."/>
     <adv ice="Very long and filled with many square turns. Plenty of rising and going down. Has easy jumps and all kinds of loops. Many pipe turns, some ending suddenly. Upper part with stunts. Middle section has on pipe drive with obstacles."/>
     <P pos="289.97144 0 -242.23857" w="11.00372" aT="2" col="0"/>
@@ -319,8 +319,8 @@
     <P pos="46.984688 188.36632 -108.01493" w="9.0114565" onTer="0" a="0" ar="0" aT="2" col="0" mtr="1"/>
     <P pos="21.005455 180.58495 -77.40233" w="9.0114565" onTer="0" a="0" ar="0" aT="2" mtr="1"/>
     <P pos="-4.435727 169.99309 -45.84197" w="9.0114565" onTer="0" a="0" ar="0" aT="2" col="0" mtr="1" wall="-1" chkR="1" ckL="1"/>
-    <P pos="-22.559923 168.35324 -22.15902" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" wall="-1"/>
-    <P pos="-30.944798 176.1798 -10.822111" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" wall="-1"/>
+    <P pos="-22.559923 168.35324 -22.15902" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="0.328368" wall="-1"/>
+    <P pos="-30.944798 176.1798 -10.822111" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="0.66327596" wall="-1"/>
     <P pos="-34.71764 185.15318 -5.572474" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" wall="-1"/>
     <P pos="-35.180946 196.59721 -4.102389" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" wall="-1"/>
     <P pos="-31.378368 208.06801 -7.632684" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" mtr="2"/>
@@ -332,7 +332,7 @@
     <P pos="3.9871383 197.6711 -47.656727" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" wall="-1"/>
     <P pos="3.5115507 183.66566 -45.731064" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" wall="-1"/>
     <P pos="-1.2836124 174.22559 -38.0445" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" wall="-1"/>
-    <P pos="-8.874423 169.44244 -26.385708" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="1" wall="-1"/>
+    <P pos="-8.874423 169.44244 -26.385708" w="8.576" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="0.7307321" wall="-1"/>
     <P pos="-23.905405 165.71281 -7.8459835" w="8.793728" onTer="0" a="320.60403" ar="0" aT="0" col="0" pipe="0.5" wall="-1"/>
     <P pos="-41.162994 163.06175 12.775373" w="9.0114565" onTer="0" a="0" ar="0" aT="2" mtr="1" chkR="1" ckL="1"/>
     <P pos="-66.33172 153.53264 41.221184" w="9.0114565" onTer="0" a="0" ar="0" aT="2" col="0" mtr="1"/>
